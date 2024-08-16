@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://faiwongyip.github.io/reader1/index.html</id>
     <title>osmos::feed</title>
-    <updated>2024-08-16T10:09:02.911Z</updated>
+    <updated>2024-08-16T10:11:14.844Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://faiwongyip.github.io/reader1/index.html"/>
     <link rel="self" href="https://faiwongyip.github.io/reader1/feed.atom"/>
@@ -126,6 +126,37 @@
         <link href="https://www.jisilu.cn/question/498618"/>
         <updated>2024-08-16T04:20:39.000Z</updated>
         <summary type="html"><![CDATA[0755 8350 1666我电话打过去，一个前台接的，骗我没王军的电话，我说你们证券时报什么立场，你们还闲这个市场不够乱吗，集思录的兄弟们的观点，我都表达了一遍，肯定要给到他们王军压力，大家有空都电话打起来，能联系到王军，然后把通话录音发抖音更加好]]></summary>
+        <author>
+            <name>集思录</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[为何还没发起对岭南股份的破产申请？]]></title>
+        <id>https://www.jisilu.cn/question/498613</id>
+        <link href="https://www.jisilu.cn/question/498613"/>
+        <updated>2024-08-16T03:42:41.000Z</updated>
+        <summary type="html"><![CDATA[非公开债务违约已经早就发生，但是债务人都没行动。
+现在公开发行债券违约，欠债还钱天经地义，既然不还，那债务人可以申请企业破产清算，总不能让欠债的人没事一样，就算破产了最后一分钱还不了，那也是一个交代。]]></summary>
+        <author>
+            <name>集思录</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[3A债到期收益率3%多是不是送钱]]></title>
+        <id>https://www.jisilu.cn/question/498610</id>
+        <link href="https://www.jisilu.cn/question/498610"/>
+        <updated>2024-08-16T03:32:38.000Z</updated>
+        <summary type="html"><![CDATA[[attach]380966[/attach]这是不是跌过头了，今天建仓猪债]]></summary>
+        <author>
+            <name>集思录</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[债底在哪里]]></title>
+        <id>https://www.jisilu.cn/question/498604</id>
+        <link href="https://www.jisilu.cn/question/498604"/>
+        <updated>2024-08-16T02:50:40.000Z</updated>
+        <summary type="html"><![CDATA[正股涨，转债还是大幅下跌。]]></summary>
         <author>
             <name>集思录</name>
         </author>
