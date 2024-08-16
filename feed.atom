@@ -1,493 +1,578 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-12-02T00:42:53.367Z</id>
+    <id>https://faiwongyip.github.io/reader1/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-12-02T00:42:53.367Z</updated>
-    <generator>osmosfeed 1.11.3</generator>
-    <link rel="alternate" href="index.html"/>
+    <updated>2024-08-16T10:09:02.911Z</updated>
+    <generator>osmosfeed 1.15.1</generator>
+    <link rel="alternate" href="https://faiwongyip.github.io/reader1/index.html"/>
+    <link rel="self" href="https://faiwongyip.github.io/reader1/feed.atom"/>
     <entry>
-        <title type="html"><![CDATA[Dock Life: Using Docker for All The Things!]]></title>
-        <id>https://css-tricks.com/?p=357985</id>
-        <link href="https://css-tricks.com/dock-life-using-docker-for-all-the-things/"/>
-        <updated>2021-12-01T21:11:53.000Z</updated>
-        <summary type="html"><![CDATA[I think if you’re a DevOps person in any capacity, the utility of Docker is very clear. Your things run in containers that are identical everywhere. Assuming Docker is working/running, the code will execute in a reliably consistent way whether …]]></summary>
+        <title type="html"><![CDATA[蓝盾退债问题]]></title>
+        <id>https://www.jisilu.cn/question/498662</id>
+        <link href="https://www.jisilu.cn/question/498662"/>
+        <updated>2024-08-16T09:48:23.000Z</updated>
+        <summary type="html"><![CDATA[还有蓝盾退债的，请聚一下，一起维权吧]]></summary>
         <author>
-            <name>Chris Coyier</name>
+            <name>集思录</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Embrace the Unpredictable]]></title>
-        <id>https://css-tricks.com/?p=357344</id>
-        <link href="https://css-tricks.com/embrace-the-unpredictable/"/>
-        <updated>2021-12-01T15:47:46.000Z</updated>
-        <summary type="html"><![CDATA[In nature, no two things are ever the same. Life is imperfect, unpredictable, and beautiful. We can walk through the same forest every day and see differently colored leaves. We can look up at the clouds every minute and watch …]]></summary>
+        <title type="html"><![CDATA[重要 | 美锦转债清偿，注意这几个细节！！！]]></title>
+        <id>https://www.jisilu.cn/question/498661</id>
+        <link href="https://www.jisilu.cn/question/498661"/>
+        <updated>2024-08-16T09:33:24.000Z</updated>
+        <summary type="html"><![CDATA[8月14日，很多朋友都收到了美锦转债的清偿协议书，因为是第一次操作，很多地方存在疑问，其中争议最大的是：
+
+**1、申报债券/签署协议后，是否可以买卖美锦转债
+
+2、什么情况下会向上市公司支付30%的违约金**
+
+关于这两个问题，我特地拨打了专线，回复的还算全面，供大家参考[美锦转债清偿事宜（录音）...]]></summary>
         <author>
-            <name>George Francis</name>
+            <name>集思录</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Exactly What You Want]]></title>
-        <id>https://css-tricks.com/?p=356146</id>
-        <link href="https://css-tricks.com/exactly-what-you-want/"/>
-        <updated>2021-12-01T15:46:29.000Z</updated>
-        <summary type="html"><![CDATA[What is one thing people can do to make their website better?
- Exactly what you want to build!
-Ask yourself:
-What drew you to development in the beginning?
-Is there an experimental API that you’ve been wanting to try out?
-…]]></summary>
+        <title type="html"><![CDATA[跟历次危机相比，当前转债在什么位置了？]]></title>
+        <id>https://www.jisilu.cn/question/498660</id>
+        <link href="https://www.jisilu.cn/question/498660"/>
+        <updated>2024-08-16T09:31:48.000Z</updated>
+        <summary type="html"><![CDATA[随着可转债快速下跌，当前市场估值发生了大幅变化，需要重新评估转债整体到底在什么位置：
+
+从转债整体考虑：
+
+截至8.16收盘，税前YTM大于5%的转债占比达到29.4%，达到历史新高；
+
+作为对比：
+- 24年2月5日时该比例为9.4%；
+- 21年2月5日时该比例为28.5%；
+- 2018年10...]]></summary>
         <author>
-            <name>Amelia Wattenberger</name>
+            <name>集思录</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Headphone Jack Not Working in Windows 10 - How to Fix Headphones on PC]]></title>
-        <id>61a5f9680c0c7407b2b3e607</id>
-        <link href="https://www.freecodecamp.org/news/headphone-jack-not-working-in-windows-10-how-to-fix-headphones-on-pc/"/>
-        <updated>2021-12-01T09:49:48.000Z</updated>
-        <summary type="html"><![CDATA[In general, a headphone jack and a pair of headphones improve the sound from your PC. You'll be able to hear things more clearly, without disturbing other around you.  But sometimes, setting them up is difficult. Or they might stop working entirely. This could be due to outdated drivers, or]]></summary>
+        <title type="html"><![CDATA[哪里筛选可转债可以勾选正股是否盈利的指标？]]></title>
+        <id>https://www.jisilu.cn/question/498658</id>
+        <link href="https://www.jisilu.cn/question/498658"/>
+        <updated>2024-08-16T09:04:24.000Z</updated>
+        <summary type="html"><![CDATA[哪里筛选可转债可以勾选正股是否盈利的指标？]]></summary>
         <author>
-            <name>freeCodeCamp.org</name>
+            <name>集思录</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Diagonal Stripes Wipe Animation]]></title>
-        <id>https://css-tricks.com/?p=357109</id>
-        <link href="https://css-tricks.com/diagonal-stripes-wipe-animation/"/>
-        <updated>2021-11-30T17:26:35.000Z</updated>
-        <summary type="html"><![CDATA[I was playing this game on Apple Arcade the other day called wurdweb. It’s a fun little game! Little touches like the little shape dudes that walk around the screen (but otherwise don’t do anything) give it a lot …]]></summary>
+        <title type="html"><![CDATA[本周热点：可转债违约的一小步，实体经济高质量发展的一大步]]></title>
+        <id>https://www.jisilu.cn/question/498657</id>
+        <link href="https://www.jisilu.cn/question/498657"/>
+        <updated>2024-08-16T09:01:58.000Z</updated>
+        <summary type="html"><![CDATA[谢邀，刚下飞机
+
+飞机还在滑行中，迫不及待地打开手机，准备看看今天股市债市又让我享受到了多少中国经济成长和发展的红利
+结果发现转债大跌中
+四处询问，看样子是证券时报的稿子导致
+里面说
+**首例国企可转债违约的案例出现了，这是可转债市场的一小步，更是让市场之手发挥作用、让金融支持实体经济高质量发展的一...]]></summary>
         <author>
-            <name>Chris Coyier</name>
+            <name>集思录</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Using the Reflog to Restore Lost Commits]]></title>
-        <id>https://css-tricks.com/?p=357728</id>
-        <link href="https://css-tricks.com/using-the-reflog-to-restore-lost-commits/"/>
-        <updated>2021-11-30T15:53:27.000Z</updated>
-        <summary type="html"><![CDATA[This article is part of our “Advanced Git” series. Be sure to follow us on Twitter or sign up for our newsletter to hear about future articles!
-The “Reflog” is one of Git’s lesser-known features—but one that can be extremely …]]></summary>
+        <title type="html"><![CDATA[岭南转债比P2P差远了]]></title>
+        <id>https://www.jisilu.cn/question/498656</id>
+        <link href="https://www.jisilu.cn/question/498656"/>
+        <updated>2024-08-16T08:52:44.000Z</updated>
+        <summary type="html"><![CDATA[以前有个帖子说转债不如P2P,当时我还反驳了，现在看来错的离谱。岭南转债6年一共拿了税前5.1%的利息（不如P2P一年），然后就被证券时报表扬前进了一大步。]]></summary>
         <author>
-            <name>Tobias Günther</name>
+            <name>集思录</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[A Look at the Cloudinary WordPress Plugin]]></title>
-        <id>https://css-tricks.com/?p=357679</id>
-        <link href="https://css-tricks.com/a-look-at-the-cloudinary-wordpress-plugin/"/>
-        <updated>2021-11-30T15:23:00.000Z</updated>
-        <summary type="html"><![CDATA[(This is a sponsored post.)
-Cloudinary (the media hosting and optimization service) has a brand new version (v3) of its WordPress plugin that has really nailed it. First, a high-level look at the biggest things this plugin does:
-It 
-…]]></summary>
+        <title type="html"><![CDATA[跌麻了，可转债还能够跌多少？及操作计划 20240816]]></title>
+        <id>https://www.jisilu.cn/question/498654</id>
+        <link href="https://www.jisilu.cn/question/498654"/>
+        <updated>2024-08-16T07:53:13.000Z</updated>
+        <summary type="html"><![CDATA[岭南转债做出了好榜样。
+今天可转债组合跌麻了，跌幅1.54%，集思录可转债等权指数跌幅1.59%。
+今年组合跌幅9.4%，集思录可转债等权指数跌幅11.3%
+
+组合整体状况：
+持仓数量：36只
+小于100的：18只
+可转债组合 仓位99.52%
+持仓平均价格99.709
+集思录等权指数平均价109....]]></summary>
         <author>
-            <name>Chris Coyier</name>
+            <name>集思录</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Learn Rust Programming Course – Interactive Rust Language Tutorial on Repl.it]]></title>
-        <id>61783ffa33422e07df364d2c</id>
-        <link href="https://www.freecodecamp.org/news/rust-in-replit/"/>
-        <updated>2021-11-30T14:35:18.000Z</updated>
-        <summary type="html"><![CDATA[For six years in a row, Rust has been voted the most loved programming language by Stack Overflow. So if you're ready to learn this popular programming language, this course will introduce you to Rust so you can start using it in your projects. You will be working entirely within]]></summary>
+        <title type="html"><![CDATA[证券时报这文章写出来到底是啥想法？]]></title>
+        <id>https://www.jisilu.cn/question/498621</id>
+        <link href="https://www.jisilu.cn/question/498621"/>
+        <updated>2024-08-16T05:14:14.000Z</updated>
+        <summary type="html"><![CDATA[闭嘴都比写这个强啊！
+别信仰国企刚兑了，那民企会怎么想，
+就剩下国债信仰了吗？
+但是央行又在干啥？
+看不懂]]></summary>
         <author>
-            <name>freeCodeCamp.org</name>
+            <name>集思录</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Smashing Podcast Episode 44 With Chris Ferdinandi: Is The Web Dead?]]></title>
-        <id>https://smashingmagazine.com/2021/11/smashing-podcast-episode-44/</id>
-        <link href="https://smashingmagazine.com/2021/11/smashing-podcast-episode-44/"/>
-        <updated>2021-11-30T14:00:00.000Z</updated>
-        <summary type="html"><![CDATA[In this episode, we’re asking if changes to best practises over the last year have negatively impacted the web. Is it all downhill from here? Drew McLellan talks to expert Chris Ferdinandi to find out.]]></summary>
+        <title type="html"><![CDATA[证券时报王军]]></title>
+        <id>https://www.jisilu.cn/question/498618</id>
+        <link href="https://www.jisilu.cn/question/498618"/>
+        <updated>2024-08-16T04:20:39.000Z</updated>
+        <summary type="html"><![CDATA[0755 8350 1666我电话打过去，一个前台接的，骗我没王军的电话，我说你们证券时报什么立场，你们还闲这个市场不够乱吗，集思录的兄弟们的观点，我都表达了一遍，肯定要给到他们王军压力，大家有空都电话打起来，能联系到王军，然后把通话录音发抖音更加好]]></summary>
         <author>
-            <name>hello@smashingmagazine.com (Drew McLellan)</name>
+            <name>集思录</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[It’s That Time Of The Year (December 2021 Desktop Wallpapers Edition)]]></title>
-        <id>https://smashingmagazine.com/2021/11/desktop-wallpaper-calendars-december-2021/</id>
-        <link href="https://smashingmagazine.com/2021/11/desktop-wallpaper-calendars-december-2021/"/>
-        <updated>2021-11-30T09:45:00.000Z</updated>
-        <summary type="html"><![CDATA[Let’s welcome December with some new wallpapers! Designed by artists and designers from across the globe, they are available with and without a calendar for the month. Enjoy!]]></summary>
+        <title type="html"><![CDATA[本钢转债什么情况？现在这收益到期有风险吗？]]></title>
+        <id>https://www.jisilu.cn/question/498600</id>
+        <link href="https://www.jisilu.cn/question/498600"/>
+        <updated>2024-08-16T02:27:40.000Z</updated>
+        <summary type="html"><![CDATA[今天跌很多，感觉现在收益持有到期比固收香呀，有啥坑吗？]]></summary>
         <author>
-            <name>hello@smashingmagazine.com (Cosima Mielke)</name>
+            <name>集思录</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[5 Valuable Skills Developers Should Learn in 2022]]></title>
-        <id>61a0f98125888a07c3e1bfbc</id>
-        <link href="https://www.freecodecamp.org/news/5-valuable-skills-developers-should-learn/"/>
-        <updated>2021-11-30T01:12:15.000Z</updated>
-        <summary type="html"><![CDATA[Everyone should learn three skills that can help them make money in their life. This means that you won't have to rely on one skill to make money, and it gives you a chance to make a side income, too. The value you can add at your job or to]]></summary>
+        <title type="html"><![CDATA[想问下关于盘前交易的问题]]></title>
+        <id>https://www.jisilu.cn/question/498595</id>
+        <link href="https://www.jisilu.cn/question/498595"/>
+        <updated>2024-08-16T01:58:29.000Z</updated>
+        <summary type="html"><![CDATA[股票盘前交易的时候，经常会看到一些异常股价，比如以涨停价交易一波股票。然后在正式交易的时候又会回到和昨天的交易差不多的价格。盘前交易的买方几乎肯定是要亏钱的，那么这些股票到底是谁在买？普通人能参与吗？还是只有机构可以？
+
+以下是编辑：
+
+是集合竞价，但是并不符合集合竞价的规则，以集合竞价更低的价格去...]]></summary>
         <author>
-            <name>freeCodeCamp.org</name>
+            <name>集思录</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Types of Software Development Training – A Data Analysis of IT Career Training Tool Efficacy]]></title>
-        <id>61a39f3025888a07c3e1cf08</id>
-        <link href="https://www.freecodecamp.org/news/types-of-software-development-training/"/>
-        <updated>2021-11-29T21:06:01.000Z</updated>
-        <summary type="html"><![CDATA[How you train for your career is one of the most consequential decisions you'll ever make. But it's hard to narrow down your options for a career in software development or IT. Medicine is easy: pick a medical school and apply. But programming?  Will what you learn in a four]]></summary>
+        <title type="html"><![CDATA[证券时报头版：国企可转债的刚兑信仰该放下了]]></title>
+        <id>https://www.jisilu.cn/question/498592</id>
+        <link href="https://www.jisilu.cn/question/498592"/>
+        <updated>2024-08-16T01:17:01.000Z</updated>
+        <summary type="html"><![CDATA[【证券时报头版：国企可转债的刚兑信仰该放下了】
+
+财联社8月16日电，证券时报头版文章称，近日，某国企公告其发行的可转债到期违约，无法兑付本息，成为全国首例国企可转债违约，国企刚兑的信仰被打破。投资者在进行资产配置时，应该重点考量发行人的经营和财务状况，而不是因为对方是某种身份，就进行“拔高”或“歧...]]></summary>
         <author>
-            <name>freeCodeCamp.org</name>
+            <name>集思录</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[JSON for Beginners – JavaScript Object Notation Explained in Plain English]]></title>
-        <id>60c08938d3126007592d56f5</id>
-        <link href="https://www.freecodecamp.org/news/what-is-json-a-json-file-example/"/>
-        <updated>2021-11-29T19:16:16.000Z</updated>
-        <summary type="html"><![CDATA[Many software applications need to exchange data between a client and server.  For a long time, XML was the preferred data format when it came to information exchange between the two points. Then in early 2000, JSON was introduced as an alternate data format for information exchange. In this article,]]></summary>
+        <title type="html"><![CDATA[Rahul Pandey quit his $800,000/year FAANG developer job to build a startup [Podcast #137]]]></title>
+        <id>https://www.freecodecamp.org/news/rahul-pandey-quit-his-800k-per-year-faang-developer-job-to-build-a-startup-podcast-137/</id>
+        <link href="https://www.freecodecamp.org/news/rahul-pandey-quit-his-800k-per-year-faang-developer-job-to-build-a-startup-podcast-137/"/>
+        <updated>2024-08-15T21:57:33.000Z</updated>
+        <summary type="html"><![CDATA[On this week's episode of the podcast, freeCodeCamp founder Quincy Larson interviews Rahul Pandey. He's a software engineer who left his $800K / year FAANG job to build his own startup. We talk about: The post-layoff developer job landscape Develop...]]></summary>
         <author>
-            <name>freeCodeCamp.org</name>
+            <name>Quincy Larson</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[How to Improve the Accuracy of Your Image Recognition Models]]></title>
-        <id>61a0dae325888a07c3e1bee6</id>
-        <link href="https://www.freecodecamp.org/news/improve-image-recognition-model-accuracy-with-these-hacks/"/>
-        <updated>2021-11-29T17:09:30.000Z</updated>
-        <summary type="html"><![CDATA[These 7 tricks and tips will take you from 50% to 90% accuracy for your image recognition models in literally minutes. So, you have gathered a dataset, built a neural network, and trained your model. But despite the hours (and sometimes days) of work you've invested to create the model,]]></summary>
+        <title type="html"><![CDATA[A Beginner's Guide to LLMs – What's a Large-Language Model and How Does it Work?]]></title>
+        <id>https://www.freecodecamp.org/news/a-beginners-guide-to-large-language-models/</id>
+        <link href="https://www.freecodecamp.org/news/a-beginners-guide-to-large-language-models/"/>
+        <updated>2024-08-15T19:41:19.000Z</updated>
+        <summary type="html"><![CDATA[ChatGPT was released in November 2022. Since then, we’ve witnessed rapid advancements in the field of AI and technology. But did you know that the journey of AI chatbots began way back in 1966 with ELIZA? ELIZA was not as sophisticated as today’s mod...]]></summary>
         <author>
-            <name>freeCodeCamp.org</name>
+            <name>Bhavishya Pandit</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Python Convert String to Int – How to Cast a String in Python]]></title>
-        <id>61a3882925888a07c3e1ce6d</id>
-        <link href="https://www.freecodecamp.org/news/python-convert-string-to-int-how-to-cast-a-string-in-python/"/>
-        <updated>2021-11-29T16:47:01.000Z</updated>
-        <summary type="html"><![CDATA[When you're programming, you'll often need to switch between data types.  The ability to convert one data type to another gives you great flexibility when working with information.  There are different built-in ways to convert, or cast, types in the Python programming language.  In this article, you'll learn how to]]></summary>
+        <title type="html"><![CDATA[How Asynchronous Programming Works in Rust – Futures and Async/Await Explained with Examples]]></title>
+        <id>https://www.freecodecamp.org/news/how-asynchronous-programming-works-in-rust/</id>
+        <link href="https://www.freecodecamp.org/news/how-asynchronous-programming-works-in-rust/"/>
+        <updated>2024-08-15T15:18:18.000Z</updated>
+        <summary type="html"><![CDATA[If you're familiar with languages like JavaScript and Python, you may have heard about asynchronous programming. And perhaps you're wondering how it works in Rust. In this article, I'll give you a simple overview of how asynchronous programming works...]]></summary>
         <author>
-            <name>freeCodeCamp.org</name>
+            <name>Oduah Chigozie</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Recreating the Apple Music Hits Playlist Animation in CSS]]></title>
-        <id>https://css-tricks.com/?p=357565</id>
-        <link href="https://css-tricks.com/recreating-the-apple-music-hits-playlist-animation-in-css/"/>
-        <updated>2021-11-29T16:38:49.000Z</updated>
-        <summary type="html"><![CDATA[Apple Music has this “Spatial Audio” feature where the direction of the music in your headphones is based on the location of the device. It’s tough to explain just how neat it is. But that’s not what I’m here to …]]></summary>
+        <title type="html"><![CDATA[How are the `colspan` and `rowspan` attributes different?]]></title>
+        <id>https://css-tricks.com/?p=379603</id>
+        <link href="https://css-tricks.com/how-are-the-colspan-and-rowspan-attributes-different/"/>
+        <updated>2024-08-15T13:10:58.000Z</updated>
+        <summary type="html"><![CDATA[Yes, yes. Functionally, they are different. But heck if I didn’t know about the wacky thresholds until Jens Oliver Meiert tooted a pair of quick polls.
+According to the HTML Standard:
+If the current cell has a colspan attribute, then 
+…
+How are the `colspan` and `rowspan` attributes different? originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.]]></summary>
         <author>
             <name>Geoff Graham</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[We Analyzed 425,909 Favicons]]></title>
-        <id>https://css-tricks.com/?p=357976</id>
-        <link href="https://css-tricks.com/we-analyzed-425909-favicons/"/>
-        <updated>2021-11-29T16:38:07.000Z</updated>
-        <summary type="html"><![CDATA[This is a neat idea for a research project. The big map is fun, but the research had some tidbits in it worth looking at.
-The average favicon network request takes 130ms, at least from our speedy cloud instance.
-…]]></summary>
+        <title type="html"><![CDATA[How to Create A Color Picker Tool Using HTML, CSS, and JavaScript]]></title>
+        <id>https://www.freecodecamp.org/news/create-color-picker-using-html-css-and-javascript/</id>
+        <link href="https://www.freecodecamp.org/news/create-color-picker-using-html-css-and-javascript/"/>
+        <updated>2024-08-15T11:01:37.000Z</updated>
+        <summary type="html"><![CDATA[Have you ever wanted to create your own interactive tools using just HTML, CSS, and JavaScript? In this article, we'll create a fun and straightforward project: a color picker tool. This handy little tool will let users select any color they like and...]]></summary>
         <author>
-            <name>Chris Coyier</name>
+            <name>Fanny Nyayic</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[New Free Bootcamps Based on freeCodeCamp – Learn JavaScript &amp; Web Development with Weekly Live Streams]]></title>
-        <id>61924f5811d3cb08287a6648</id>
-        <link href="https://www.freecodecamp.org/news/new-free-bootcamps-based-on-freecodecamp-learn-javascript-webdev-with-weekly-live-streams/"/>
-        <updated>2021-11-29T15:55:00.000Z</updated>
-        <summary type="html"><![CDATA[On January 10, Class Central is launching two new bootcamps that are free, remote, and open to all.  You’ll complete freeCodeCamp’s JavaScript or Responsive Web Design certification, with weekly live streams, projects, and a friendly group of learners worldwide. Free Bootcamp Based on the freeCodeCamp CurriculumHi everyone, I’]]></summary>
-        <author>
-            <name>freeCodeCamp.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Learn About NoSQL Databases in This 3-hour Course]]></title>
-        <id>6140e027852f4307d372d933</id>
-        <link href="https://www.freecodecamp.org/news/learn-nosql-in-3-hours/"/>
-        <updated>2021-11-29T15:47:00.000Z</updated>
-        <summary type="html"><![CDATA[NoSQL Databases can sometimes seem confusing and overwhelming, partly because of their flexibility. This is why we have put together a 3-hour video course to help you understand exactly what a NoSQL Database is, as well as the different types available to you.  By the end of this course, you]]></summary>
-        <author>
-            <name>freeCodeCamp.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Spell Check Not Working in Word [Fixed on Windows 10 PC]]]></title>
-        <id>61a4b12225888a07c3e1d240</id>
-        <link href="https://www.freecodecamp.org/news/spell-check-not-working-in-word-fixed-on-windows-10-pc/"/>
-        <updated>2021-11-29T14:53:48.000Z</updated>
-        <summary type="html"><![CDATA[Spell check in Microsoft Word and other Word Processing apps is a powerful feature. With spell check, you don’t have to worry too about making small grammatical and typographical errors, because the program will point them out for you in real-time as you type.  But sometimes, the spell check]]></summary>
-        <author>
-            <name>freeCodeCamp.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[3D CSS Flippy Snaps With React And GreenSock]]></title>
-        <id>https://smashingmagazine.com/2021/11/3d-css-flippy-snaps-react-greensock/</id>
-        <link href="https://smashingmagazine.com/2021/11/3d-css-flippy-snaps-react-greensock/"/>
-        <updated>2021-11-29T12:30:00.000Z</updated>
-        <summary type="html"><![CDATA[One of Jhey’s main mantras is to make learning fun.  In this article, he shows you ways to level up your skills by bringing your ideas to life, and not forgetting that [you can be playful with code](https://www.smashingmagazine.com/2020/11/playfulness-code-supercharge-fun-learning/). With that mindset, every idea is bound to become an opportunity to try something new.]]></summary>
-        <author>
-            <name>hello@smashingmagazine.com (Jhey Tompkins)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[When is it “Right” to Reach for  contain and will-change in CSS?]]></title>
-        <id>https://css-tricks.com/?p=357271</id>
-        <link href="https://css-tricks.com/when-is-it-right-to-reach-for-contain-and-will-change-in-css/"/>
-        <updated>2021-11-26T20:43:05.000Z</updated>
-        <summary type="html"><![CDATA[I’ve got some blind spots in CSS-related performance things. One example is the will-change property. It’s a good name. You’re telling the browser some particular property (or the scroll-position or content) uh, will, change:
-.el {
-  will-change: opacity;
-
-…]]></summary>
-        <author>
-            <name>Chris Coyier</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A Handy Little System for Animated Entrances in CSS]]></title>
-        <id>https://css-tricks.com/?p=357239</id>
-        <link href="https://css-tricks.com/a-handy-little-system-for-animated-entrances-in-css/"/>
-        <updated>2021-11-26T16:12:33.000Z</updated>
-        <summary type="html"><![CDATA[I love little touches that make a website feel like more than just a static document. What if web content wouldn’t just “appear” when a page loaded, but instead popped, slid, faded, or spun into place? It might be a …]]></summary>
-        <author>
-            <name>Neale Van Fleet</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How To Maintain A Large Next.js Application]]></title>
-        <id>https://smashingmagazine.com/2021/11/maintain-large-nextjs-application/</id>
-        <link href="https://smashingmagazine.com/2021/11/maintain-large-nextjs-application/"/>
-        <updated>2021-11-26T12:30:00.000Z</updated>
-        <summary type="html"><![CDATA[In this article, Nirmalya discusses some of the complex problems that he faced while building and maintaining large Next.js applications. He always explains how these problems can be solved by using various tools.]]></summary>
-        <author>
-            <name>hello@smashingmagazine.com (Nirmalya Ghosh)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Creating Generative Patterns with The CSS Paint API]]></title>
-        <id>https://css-tricks.com/?p=357294</id>
-        <link href="https://css-tricks.com/creating-generative-patterns-with-the-css-paint-api/"/>
-        <updated>2021-11-24T15:49:08.000Z</updated>
-        <summary type="html"><![CDATA[The browser has long been a medium for art and design. From Lynn Fisher’s joyful A Single Div creations to Diana Smith’s staggeringly detailed CSS paintings, wildly creative, highly skilled developers have — over the years — continuously pushed …]]></summary>
-        <author>
-            <name>George Francis</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A Showcase Of Lovely Little Websites]]></title>
-        <id>https://smashingmagazine.com/2021/11/showcase-lovely-little-websites/</id>
-        <link href="https://smashingmagazine.com/2021/11/showcase-lovely-little-websites/"/>
-        <updated>2021-11-24T12:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Instead of spending your coffee break scrolling through your social feeds, how about a lovely little website instead? We came across some fantastic ones that are just too good not to be shared. But be warned, your break might take a bit longer than intended.]]></summary>
-        <author>
-            <name>hello@smashingmagazine.com (Cosima Mielke)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Which SVG technique performs best for way too many icons?]]></title>
-        <id>https://css-tricks.com/?p=357412</id>
-        <link href="https://css-tricks.com/which-svg-technique-performs-best-for-way-too-many-icons/"/>
-        <updated>2021-11-23T19:21:28.000Z</updated>
-        <summary type="html"><![CDATA[Tyler Sticka digs in here in the best possible way: by making a test page and literally measuring performance. Maybe 1,000 icons is a little bit of an edge case, but hey, 250 rows of data with four icons in …]]></summary>
-        <author>
-            <name>Chris Coyier</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Control Layout in a Multi-Directional Website]]></title>
-        <id>https://css-tricks.com/?p=356977</id>
-        <link href="https://css-tricks.com/control-layout-in-a-multi-directional-website/"/>
-        <updated>2021-11-23T16:06:44.000Z</updated>
-        <summary type="html"><![CDATA[Many business websites need a multilingual setup. As with anything development-related, implementing one in an easy, efficient, and maintainable way is desirable. Designing and developing to be ready for multiple languages, whether it happens right at launch or is expected …]]></summary>
-        <author>
-            <name>Alaa Abd El-Rahim</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Adding A Dyslexia-Friendly Mode To A Website]]></title>
-        <id>https://smashingmagazine.com/2021/11/dyslexia-friendly-mode-website/</id>
-        <link href="https://smashingmagazine.com/2021/11/dyslexia-friendly-mode-website/"/>
-        <updated>2021-11-23T10:00:00.000Z</updated>
-        <summary type="html"><![CDATA[With a little CSS, we can adapt our web designs to be more accommodating for people with dyslexia. In this article, we’ll explore those techniques by adding a dyslexia-friendly mode to an existing design.]]></summary>
-        <author>
-            <name>hello@smashingmagazine.com (John C Barstow)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[On User Tracking and Industry Standards on Privacy]]></title>
-        <id>https://css-tricks.com/?p=357149</id>
-        <link href="https://css-tricks.com/on-user-tracking-and-industry-standards-on-privacy/"/>
-        <updated>2021-11-22T21:00:50.000Z</updated>
-        <summary type="html"><![CDATA[Inspired by Eva PenzeyMoog’s new book, Jeremy highlights the widespread user tracking situation in this industry:
-There was a line that really stood out to me: 
-The idea that it’s alright to do whatever unethical thing is currently the 
-…]]></summary>
-        <author>
-            <name>Chris Coyier</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CSS “decorations”]]></title>
-        <id>https://css-tricks.com/?p=357046</id>
-        <link href="https://css-tricks.com/css-decorations/"/>
-        <updated>2021-11-22T18:48:00.000Z</updated>
-        <summary type="html"><![CDATA[A reader wrote to me the other day asking about this bit of CSS they came across in Wikipedia’s Common.css:
-.mw-collapsible-leftside-toggle .mw-collapsible-toggle {
-  /* @noflip */
-  float: left;
-  /* @noflip */
-  text-align: left;
-}
-What’s that @noflip business? That’s …]]></summary>
-        <author>
-            <name>Chris Coyier</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Smashing Workshops: Winter 2021]]></title>
-        <id>https://smashingmagazine.com/2021/11/smashingconf-workshops-winter-2021/</id>
-        <link href="https://smashingmagazine.com/2021/11/smashingconf-workshops-winter-2021/"/>
-        <updated>2021-11-22T16:00:00.000Z</updated>
-        <summary type="html"><![CDATA[What’s the state of CSS, Vue.js and Next.js? What are new, smart interface design patterns we could use? Let’s figure it out. With our [online workshops on UX, front-end and design](https://smashingconf.com/online-workshops).]]></summary>
-        <author>
-            <name>hello@smashingmagazine.com (Iris Lješnjanin)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Improving The Performance Of Wix Websites (Case Study)]]></title>
-        <id>https://smashingmagazine.com/2021/11/improving-performance-wix-websites-case-study/</id>
-        <link href="https://smashingmagazine.com/2021/11/improving-performance-wix-websites-case-study/"/>
-        <updated>2021-11-22T10:30:00.000Z</updated>
-        <summary type="html"><![CDATA[Implementing a performance culture is very important. In this article, Dan Shappir shares which actions and processes the Wix team put in place in order to achieve dramatic improvements in the performance of websites built and hosted on their platform.]]></summary>
-        <author>
-            <name>hello@smashingmagazine.com (Dan Shappir)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Next.js Wildcard Subdomains]]></title>
-        <id>https://smashingmagazine.com/2021/11/nextjs-wildcard-subdomains/</id>
-        <link href="https://smashingmagazine.com/2021/11/nextjs-wildcard-subdomains/"/>
-        <updated>2021-11-19T10:30:00.000Z</updated>
-        <summary type="html"><![CDATA[Hosting with a wildcard subdomain enables your users to visit your site on any subdomain of your domain (*.example.com), and as you can imagine, we can use this to create unique user experiences which we’ll be exploring in this article through a Next.js lens.]]></summary>
-        <author>
-            <name>hello@smashingmagazine.com (Sam Poder)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A Guide To Modern CSS Colors With RGB, HSL, HWB, LAB And LCH]]></title>
-        <id>https://smashingmagazine.com/2021/11/guide-modern-css-colors/</id>
-        <link href="https://smashingmagazine.com/2021/11/guide-modern-css-colors/"/>
-        <updated>2021-11-17T16:00:00.000Z</updated>
-        <summary type="html"><![CDATA[In this article, we’ll take a look at the best ways to handle colors in CSS today, some tips for using them in a design system, and what we can expect from our colors in the not-too-distant future.]]></summary>
-        <author>
-            <name>hello@smashingmagazine.com (Michelle Barker)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Meet Touch Design For Mobile Interfaces, A New Smashing Book By Steven Hoober]]></title>
-        <id>https://smashingmagazine.com/2021/11/touch-design-pre-release/</id>
-        <link href="https://smashingmagazine.com/2021/11/touch-design-pre-release/"/>
-        <updated>2021-11-16T16:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Meet “Touch Design for Mobile Interfaces”, our brand-new guide on designing for mobile with proven, universal, human-centric standards. 400 pages. Shipping starting in early January.]]></summary>
+        <title type="html"><![CDATA[How To Defend Your Design Process]]></title>
+        <id>https://smashingmagazine.com/2024/08/how-defend-your-design-process/</id>
+        <link href="https://smashingmagazine.com/2024/08/how-defend-your-design-process/"/>
+        <updated>2024-08-15T10:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Ever felt pressure to speed up your design process? Here’s how to address unrealistic expectations and foster a shared understanding with stakeholders, ensuring everyone is aligned on the path to a successful delivery. Part of [Smart Interface Design Patterns](https://smart-interface-design-patterns.com) by yours truly.]]></summary>
         <author>
             <name>hello@smashingmagazine.com (Vitaly Friedman)</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Powerful Terminal And Command-Line (CLI) Tools For Modern Web Development]]></title>
-        <id>https://smashingmagazine.com/2021/11/powerful-terminal-commandline-tools-modern-web-development/</id>
-        <link href="https://smashingmagazine.com/2021/11/powerful-terminal-commandline-tools-modern-web-development/"/>
-        <updated>2021-11-15T13:00:00.000Z</updated>
-        <summary type="html"><![CDATA[What’s your favorite command-line tool? In this post, Louis Lazaris shares a collection of relevant command-line apps and utilities that he has personally come across in the past few years. If there’s a useful one that hasn’t been mentioned and one you use regularly, please do share it in the comments.]]></summary>
+        <title type="html"><![CDATA[岭南违约，ZJH,有什么说法？]]></title>
+        <id>https://www.jisilu.cn/question/498539</id>
+        <link href="https://www.jisilu.cn/question/498539"/>
+        <updated>2024-08-15T01:00:56.000Z</updated>
+        <summary type="html"><![CDATA[目前为止，连罚酒三杯都没有]]></summary>
         <author>
-            <name>hello@smashingmagazine.com (Louis Lazaris)</name>
+            <name>集思录</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Useful React Hooks That You Can Use In Your Projects]]></title>
-        <id>https://smashingmagazine.com/2021/11/useful-react-hooks/</id>
-        <link href="https://smashingmagazine.com/2021/11/useful-react-hooks/"/>
-        <updated>2021-11-12T10:00:00.000Z</updated>
-        <summary type="html"><![CDATA[The React team introduced several hooks in React 16.8 which you can use from third-party providers in your application, or even create your own custom hook. In this tutorial, we’ll take a look at some of the most useful hooks in React and how to use them.]]></summary>
+        <title type="html"><![CDATA[How to Emulate Real Dependencies in Integration Tests using Testcontainers]]></title>
+        <id>https://www.freecodecamp.org/news/integration-tests-using-testcontainers/</id>
+        <link href="https://www.freecodecamp.org/news/integration-tests-using-testcontainers/"/>
+        <updated>2024-08-14T19:55:12.000Z</updated>
+        <summary type="html"><![CDATA[What is Integration Testing? The purpose of integration tests is to validate that different software components, subsystems, or applications work well together combined as a group. It’s an important step in the testing pyramid that can help you ident...]]></summary>
         <author>
-            <name>hello@smashingmagazine.com (Ifeanyi Dike)</name>
+            <name>Alex Pliutau</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[From Good To Great In Dashboard Design: Research, Decluttering And Data Viz]]></title>
-        <id>https://smashingmagazine.com/2021/11/dashboard-design-research-decluttering-data-viz/</id>
-        <link href="https://smashingmagazine.com/2021/11/dashboard-design-research-decluttering-data-viz/"/>
-        <updated>2021-11-11T14:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Dribbbleshots just might be the hotbed of questionable dashboards. Striking visuals, little context, and no research: all recipes for mediocrity. Mediocrity won’t do. We’ll pursue greatness. And in that pursuit, we’ll cover research, decluttering, and data visualization.]]></summary>
+        <title type="html"><![CDATA[Quick Hit #11]]></title>
+        <id>https://css-tricks.com/?p=379862</id>
+        <link href="https://css-tricks.com/quick-hit-11/"/>
+        <updated>2024-08-14T18:05:07.000Z</updated>
+        <summary type="html"><![CDATA[Free e-book from Jens Oliver Meiert that’ll bore you to death in the best way: Rote Learning HTML & CSS…
+Quick Hit #11 originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.]]></summary>
         <author>
-            <name>hello@smashingmagazine.com (Adam Fard)</name>
+            <name>Geoff Graham</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Localizing Your Next.js App]]></title>
-        <id>https://smashingmagazine.com/2021/11/localizing-your-nextjs-app/</id>
-        <link href="https://smashingmagazine.com/2021/11/localizing-your-nextjs-app/"/>
-        <updated>2021-11-09T13:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Internationalized routing is not exactly a new feature on Next.js. In this article, we are not only checking what we get from this feature, but also how to leverage such functionalities to achieve the best user experience and a smooth developer experience as well.]]></summary>
+        <title type="html"><![CDATA[Quick Hit #10]]></title>
+        <id>https://css-tricks.com/?p=379857</id>
+        <link href="https://css-tricks.com/quick-hit-10/"/>
+        <updated>2024-08-14T15:34:53.000Z</updated>
+        <summary type="html"><![CDATA[Killed by Google is called a “graveyard” but I also see it as a resume in experimentation.…
+Quick Hit #10 originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.]]></summary>
         <author>
-            <name>hello@smashingmagazine.com (Átila Fassina)</name>
+            <name>Geoff Graham</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Automatically Transforming And Optimizing Images And Videos On Your WordPress Website]]></title>
-        <id>https://smashingmagazine.com/2021/11/transforming-optimizing-images-videos-wordpress-website/</id>
-        <link href="https://smashingmagazine.com/2021/11/transforming-optimizing-images-videos-wordpress-website/"/>
-        <updated>2021-11-09T09:30:00.000Z</updated>
-        <summary type="html"><![CDATA[In this article, Leonardo Losoviz explains how Cloudinary’s integration can be used with WordPress to produce and deliver optimal digital experiences.]]></summary>
+        <title type="html"><![CDATA[Learn ml5.js for Machine Learning in JavaScript]]></title>
+        <id>https://www.freecodecamp.org/news/learn-ml5js-for-machine-learning-in-javascript/</id>
+        <link href="https://www.freecodecamp.org/news/learn-ml5js-for-machine-learning-in-javascript/"/>
+        <updated>2024-08-14T14:48:38.000Z</updated>
+        <summary type="html"><![CDATA[Machine learning is becoming an essential skill for developers and enthusiasts alike. ml5.js offers a great opportunity to start implementing machine learning in your projects, thanks to its user-friendly JavaScript library that simplifies the integr...]]></summary>
         <author>
-            <name>hello@smashingmagazine.com (Leonardo Losoviz)</name>
+            <name>Beau Carnes</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Meet Hydrogen: A React Framework For Dynamic, Contextual And Personalized E-Commerce]]></title>
-        <id>https://smashingmagazine.com/2021/11/hydrogen-react-framework-dynamic-contextual-personalized-ecommerce/</id>
-        <link href="https://smashingmagazine.com/2021/11/hydrogen-react-framework-dynamic-contextual-personalized-ecommerce/"/>
-        <updated>2021-11-08T14:30:00.000Z</updated>
-        <summary type="html"><![CDATA[A great commerce experience is not a Lighthouse score or a set of Core Web Vitals figures (although both are important inputs), but it’s also a trilemma that carefully balances competing needs of delivering a great customer experience, dynamic storefront capabilities and long-term business objectives.]]></summary>
+        <title type="html"><![CDATA[“Smart” Layouts With Container Queries]]></title>
+        <id>https://css-tricks.com/?p=379649</id>
+        <link href="https://css-tricks.com/smart-layouts-with-container-queries/"/>
+        <updated>2024-08-14T13:22:55.000Z</updated>
+        <summary type="html"><![CDATA[Modern CSS keeps giving us a lot of new, easier ways to solve old problems, but often the new features we’re getting don’t only solve old problems, they open up new possibilities as well.
+Container queries are one of those …
+“Smart” Layouts With Container Queries originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.]]></summary>
         <author>
-            <name>hello@smashingmagazine.com (Ilya Grigorik)</name>
+            <name>Kevin Powell</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[The Value Of Concept Testing As Part Of Product Design]]></title>
-        <id>https://smashingmagazine.com/2021/11/concept-testing-part-of-product-design/</id>
-        <link href="https://smashingmagazine.com/2021/11/concept-testing-part-of-product-design/"/>
-        <updated>2021-11-05T11:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Concept testing ideas before moving into a detailed design is good UX practice. In this article, Victor Yocco presents details on how and when to engage in concept testing, as well as case studies providing details on the insights gained in two very different settings.]]></summary>
+        <title type="html"><![CDATA[Dialogues Blog]]></title>
+        <id>https://css-tricks.com/?p=379846</id>
+        <link href="https://css-tricks.com/dialogues-blog/"/>
+        <updated>2024-08-14T10:34:00.000Z</updated>
+        <summary type="html"><![CDATA[“This isn’t a website. Or even a blog. It’s a conversation.”
+That’s the idea! Jay Hoffman and I’ve been chatting a long time now, back since he began writing a series on web history. It’s easy-going talking with someone …
+Dialogues Blog originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.]]></summary>
         <author>
-            <name>hello@smashingmagazine.com (Victor Yocco)</name>
+            <name>Geoff Graham</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Smashing Podcast Episode 43 With Matthew Phillips: What Is Astro?]]></title>
-        <id>https://smashingmagazine.com/2021/11/smashing-podcast-episode-43/</id>
-        <link href="https://smashingmagazine.com/2021/11/smashing-podcast-episode-43/"/>
-        <updated>2021-11-04T18:00:00.000Z</updated>
-        <summary type="html"><![CDATA[In this episode, we’re talking about Astro. Will this modern static site builder launch you into the stratosphere? Drew McLellan talks to developer Matthew Phillips to find out.]]></summary>
+        <title type="html"><![CDATA[How to Implement Message Queues in Your Backend Applications]]></title>
+        <id>https://www.freecodecamp.org/news/how-to-implement-message-queues-in-your-backend-applications/</id>
+        <link href="https://www.freecodecamp.org/news/how-to-implement-message-queues-in-your-backend-applications/"/>
+        <updated>2024-08-14T09:56:07.000Z</updated>
+        <summary type="html"><![CDATA[The goal of every web developer is to create a product that appeals to a wide range of users. However, this comes with its problems, chief among them being scalability issues to meet overwhelming user demands. If not addressed, this can result in a d...]]></summary>
         <author>
-            <name>hello@smashingmagazine.com (Drew McLellan)</name>
+            <name>Oluwatobi</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[GraphQL On The Front-End (React And Apollo)]]></title>
-        <id>https://smashingmagazine.com/2021/11/graphql-frontend-react-apollo/</id>
-        <link href="https://smashingmagazine.com/2021/11/graphql-frontend-react-apollo/"/>
-        <updated>2021-11-04T11:30:00.000Z</updated>
-        <summary type="html"><![CDATA[Within the last decade, technologies like GraphQL have changed how we build web apps and how they communicate with each other. GraphQL provides certain benefits over REST APIs — let’s find out what they are.]]></summary>
+        <title type="html"><![CDATA[How to Terminate Go Programs Elegantly – A Guide to Graceful Shutdowns]]></title>
+        <id>https://www.freecodecamp.org/news/graceful-shutdowns-k8s-go/</id>
+        <link href="https://www.freecodecamp.org/news/graceful-shutdowns-k8s-go/"/>
+        <updated>2024-08-13T20:30:58.000Z</updated>
+        <summary type="html"><![CDATA[Have you ever pulled the power cord out of your computer in frustration? While this might seem like a quick solution to certain problems, it can lead to data loss and system instability. In the world of software, a similar concept exists: the hard sh...]]></summary>
         <author>
-            <name>hello@smashingmagazine.com (David Atanda)</name>
+            <name>Alex Pliutau</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[A Deep Dive Into Serverless UI With TypeScript]]></title>
-        <id>https://smashingmagazine.com/2021/11/deep-dive-into-serverless-ui-typescript/</id>
-        <link href="https://smashingmagazine.com/2021/11/deep-dive-into-serverless-ui-typescript/"/>
-        <updated>2021-11-03T11:30:00.000Z</updated>
-        <summary type="html"><![CDATA[Serverless UI is simply a free, open-source command-line utility for quickly building and deploying serverless applications on the AWS platform. In this article, we will learn and cover everything needed on using Serverless UI to deploy our projects or serverless applications to cloud services providers.]]></summary>
+        <title type="html"><![CDATA[How to Merge Word Documents in Python – Three Effective Methods with Examples]]></title>
+        <id>https://www.freecodecamp.org/news/merge-word-documents-in-python/</id>
+        <link href="https://www.freecodecamp.org/news/merge-word-documents-in-python/"/>
+        <updated>2024-08-13T17:19:23.000Z</updated>
+        <summary type="html"><![CDATA[In today's fast-paced work environment, automation is crucial for optimizing your repetitive tasks and enhancing your productivity. Deploying Python functions to automate the merging of multiple Word documents into a single, cohesive file can help yo...]]></summary>
         <author>
-            <name>hello@smashingmagazine.com (Ikeh Akinyemi)</name>
+            <name>Vikram Aruchamy</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[What is a Component Library? When to Build Your Own and When to Use Someone Else's]]></title>
+        <id>https://www.freecodecamp.org/news/what-is-a-component-library-when-to-build-your-own/</id>
+        <link href="https://www.freecodecamp.org/news/what-is-a-component-library-when-to-build-your-own/"/>
+        <updated>2024-08-13T14:58:56.000Z</updated>
+        <summary type="html"><![CDATA[If you've built a frontend project in the last five years, you will have likely written some components, and maybe even used a component library. Components and libraries have been an important part of the web development landscape for multiple decad...]]></summary>
+        <author>
+            <name>Andrico Karoulla</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[font-size Limbo]]></title>
+        <id>https://css-tricks.com/?p=379750</id>
+        <link href="https://css-tricks.com/font-size-limbo/"/>
+        <updated>2024-08-13T13:15:58.000Z</updated>
+        <summary type="html"><![CDATA[You might recall that Alvaro suggests bumping up font-size to 1.25rem from the default user agent size of 16px. Sebastian Laube pokes at that:
+I wouldn’t adopt Alvaro’s suggestion without further ado, as I would waste so much space 
+…
+font-size Limbo originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.]]></summary>
+        <author>
+            <name>Geoff Graham</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Mental Health in Tech Podcast Interview]]></title>
+        <id>https://css-tricks.com/?p=379717</id>
+        <link href="https://css-tricks.com/mental-health-in-tech-podcast-interview/"/>
+        <updated>2024-08-12T17:11:24.000Z</updated>
+        <summary type="html"><![CDATA[Mental health is always tough to talk about, especially in an industry that, to me, often rewards ego over vulnerability. I still find it tough even after having written about my own chronic depression and exploring UX case studies about …
+Mental Health in Tech Podcast Interview originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.]]></summary>
+        <author>
+            <name>Geoff Graham</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Quick Hit #9]]></title>
+        <id>https://css-tricks.com/?p=379747</id>
+        <link href="https://css-tricks.com/quick-hit-9/"/>
+        <updated>2024-08-12T16:19:42.000Z</updated>
+        <summary type="html"><![CDATA[Heydon with a reminder that <address isn’t for, you know, mailing addresses.…
+Quick Hit #9 originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.]]></summary>
+        <author>
+            <name>Geoff Graham</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[HTML Attribute to Allow/Disallow Handwriting Input]]></title>
+        <id>https://css-tricks.com/?p=379644</id>
+        <link href="https://css-tricks.com/html-attribute-to-allow-disallow-handwriting-input/"/>
+        <updated>2024-08-12T14:00:47.000Z</updated>
+        <summary type="html"><![CDATA[A new explainer for a new HTML attribute to handle handwritten inputs. Like this:
+<input type="text" handwriting="true" ... <input type="text" handwriting="false" ... <textarea handwriting="" ... <!-- evaluates to "true" --<div contenteditable handwriting="true"...</div<!-- maybe? --
+The primary use …
+HTML Attribute to Allow/Disallow Handwriting Input originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.]]></summary>
+        <author>
+            <name>Geoff Graham</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CSS Chronicles XLII]]></title>
+        <id>https://css-tricks.com/?p=379385</id>
+        <link href="https://css-tricks.com/css-chronicles-xlii/"/>
+        <updated>2024-08-09T15:27:49.000Z</updated>
+        <summary type="html"><![CDATA[Remember these? Chris would write a post now and then to chronicle things happening around the ol’ CSS-Tricks site. It’s only been 969 days since the last one, give or take. Just think: back then we were poking at …
+CSS Chronicles XLII originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.]]></summary>
+        <author>
+            <name>Geoff Graham</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[It’s Time To Talk About “CSS5”]]></title>
+        <id>https://css-tricks.com/?p=379630</id>
+        <link href="https://css-tricks.com/its-time-to-talk-about-css5/"/>
+        <updated>2024-08-09T15:11:41.000Z</updated>
+        <summary type="html"><![CDATA[Ever search for CSS info and run into some article — perhaps even one or a dozen on this site — that looks promising until you realize it was published when dinosaurs roamed the planet? The information is good, but …
+It’s Time To Talk About “CSS5” originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.]]></summary>
+        <author>
+            <name>Geoff Graham</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[If I Was Starting My Career Today: Thoughts After 15 Years Spent In UX Design (Part 2)]]></title>
+        <id>https://smashingmagazine.com/2024/08/thoughts-after-15-years-spent-ux-design-part2/</id>
+        <link href="https://smashingmagazine.com/2024/08/thoughts-after-15-years-spent-ux-design-part2/"/>
+        <updated>2024-08-09T11:00:00.000Z</updated>
+        <summary type="html"><![CDATA[In this two-part series, Andrii Zhdan outlines common challenges faced at the start of a design career and offers advice to smooth your journey based on insights from his experience hiring designers. In Part 2, Andrii speaks about how you can grow faster in your brand-new junior UX job.]]></summary>
+        <author>
+            <name>hello@smashingmagazine.com (Andrii Zhdan)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Best Of Pro Scheduler Libraries]]></title>
+        <id>https://smashingmagazine.com/2024/08/best-pro-scheduler-libraries/</id>
+        <link href="https://smashingmagazine.com/2024/08/best-pro-scheduler-libraries/"/>
+        <updated>2024-08-08T20:00:00.000Z</updated>
+        <summary type="html"><![CDATA[For teams working remotely across the globe or together in an office, as well as for any group of collaborating users, a scheduler can be a valuable tool indeed. In this post, you’ll find some of the best commercial web scheduler libraries (JavaScript based) with amazing UX and high efficiency that are currently available.]]></summary>
+        <author>
+            <name>hello@smashingmagazine.com (Preethi Sam)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Let’s make a simpler, more accessible web]]></title>
+        <id>https://css-tricks.com/?p=379570</id>
+        <link href="https://css-tricks.com/christian-heilmann-lets-make-a-simpler-more-accessible-web/"/>
+        <updated>2024-08-08T15:07:50.000Z</updated>
+        <summary type="html"><![CDATA[Christian Heilmann gave this talk at Typo3 Developer Days. I’m linking it up because it strikes an already stricken nerve in me. The increasing complexity of web development has an inverse relationship with the decreasing number of entry points …
+Let’s make a simpler, more accessible web originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.]]></summary>
+        <author>
+            <name>Geoff Graham</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CSS Olympic Rings]]></title>
+        <id>https://css-tricks.com/?p=379541</id>
+        <link href="https://css-tricks.com/css-olympic-rings/"/>
+        <updated>2024-08-07T13:10:56.000Z</updated>
+        <summary type="html"><![CDATA[It was a few years ago during the 2020 Olympics in Tokyo 2020 that I made a demo of animated 3D Olympic rings. I like it, it looks great, and I love the effect of the rings crossing each other.…
+CSS Olympic Rings originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.]]></summary>
+        <author>
+            <name>Amit Sheen</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[It’s Time To Talk About “CSS5”]]></title>
+        <id>https://smashingmagazine.com/2024/08/time-to-talk-about-css5/</id>
+        <link href="https://smashingmagazine.com/2024/08/time-to-talk-about-css5/"/>
+        <updated>2024-08-05T10:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Have you ever wondered what happened after CSS3? It’s common knowledge that we never saw CSS4 come after it, yet we have a plethora of new features that have no similar way of defining when they were introduced. The W3C CSS-Next community group is actively searching for better approaches for how we describe the evolution of CSS over time and identify feature sets as effectively as we did with CSS3 way back in 2009 — and you can help.]]></summary>
+        <author>
+            <name>hello@smashingmagazine.com (Brecht De Ruyte)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[(Hyper) Links About (Hyper) Links]]></title>
+        <id>https://css-tricks.com/?p=379420</id>
+        <link href="https://css-tricks.com/hyper-links-about-hyper-links/"/>
+        <updated>2024-08-02T16:41:54.000Z</updated>
+        <summary type="html"><![CDATA[Heydon on the virtues of hyperlinking hypertext in an anchor element:
+Sometimes, the <a> is referred to as a hyperlink, or simply a link. But it is not one of these and people who say it is one are 
+…
+(Hyper) Links About (Hyper) Links originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.]]></summary>
+        <author>
+            <name>Geoff Graham</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[If I Was Starting My Career Today: Thoughts After 15 Years Spent In UX Design (Part 1)]]></title>
+        <id>https://smashingmagazine.com/2024/08/thoughts-after-15-years-spent-ux-design-part1/</id>
+        <link href="https://smashingmagazine.com/2024/08/thoughts-after-15-years-spent-ux-design-part1/"/>
+        <updated>2024-08-02T11:00:00.000Z</updated>
+        <summary type="html"><![CDATA[In this two-part series, Andrii Zhdan outlines common challenges faced at the start of a design career and offers advice to smooth your journey based on insights from his experience hiring designers. Learn why mastering design tools is crucial, how to build a strong portfolio, and tips for acing your first interviews.]]></summary>
+        <author>
+            <name>hello@smashingmagazine.com (Andrii Zhdan)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How To Build A Multilingual Website With Nuxt.js]]></title>
+        <id>https://smashingmagazine.com/2024/08/how-build-multilingual-website-nuxt-i18n/</id>
+        <link href="https://smashingmagazine.com/2024/08/how-build-multilingual-website-nuxt-i18n/"/>
+        <updated>2024-08-01T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Handling translations for multilingual websites is famously difficult and, yet, crucial for many companies and organizations that serve a global audience. Thankfully, modern tooling abstracts away a great deal of the work, allowing for seamless translations that dynamically update the rendered content on a page, as demonstrated in this step-by-step tutorial.]]></summary>
+        <author>
+            <name>hello@smashingmagazine.com (Tim Benniks)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[HTML Web Components Make Progressive Enhancement and CSS Encapsulation Easier!]]></title>
+        <id>https://css-tricks.com/?p=379335</id>
+        <link href="https://css-tricks.com/html-web-components-make-progressive-enhancement-and-css-encapsulation-easier/"/>
+        <updated>2024-08-01T13:21:37.000Z</updated>
+        <summary type="html"><![CDATA[I have to thank Jeremy Keith and his wonderfully insightful article from late last year that introduced me to the concept of HTML Web Components. This was the “a-ha!” moment for me:
+When you wrap some existing markup in a 
+…
+HTML Web Components Make Progressive Enhancement and CSS Encapsulation Easier! originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.]]></summary>
+        <author>
+            <name>Kev Bonett</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Sweet Nostalgia In August (2024 Wallpapers Edition)]]></title>
+        <id>https://smashingmagazine.com/2024/07/desktop-wallpaper-calendars-august-2024/</id>
+        <link href="https://smashingmagazine.com/2024/07/desktop-wallpaper-calendars-august-2024/"/>
+        <updated>2024-07-31T09:30:00.000Z</updated>
+        <summary type="html"><![CDATA[Do you need a little inspiration boost? Well, then our new batch of desktop wallpapers might be for you. Designed by the community for the community, they come in versions with and without a calendar for August 2024. Enjoy!]]></summary>
+        <author>
+            <name>hello@smashingmagazine.com (Cosima Mielke)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Rethinking The Role Of Your UX Teams And Move Beyond Firefighting]]></title>
+        <id>https://smashingmagazine.com/2024/07/rethinking-role-ux-teams-mov-beyond-firefighting/</id>
+        <link href="https://smashingmagazine.com/2024/07/rethinking-role-ux-teams-mov-beyond-firefighting/"/>
+        <updated>2024-07-29T18:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Many UX professionals often find themselves working alone, and usually face more projects impacting user experience than they can handle. In this article, Paul Boag explains how UX teams can be transformed into a significant driver of customer-centric innovation within organizations.]]></summary>
+        <author>
+            <name>hello@smashingmagazine.com (Paul Boag)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[犹豫再三，还是准备去港开户]]></title>
+        <id>https://www.jisilu.cn/question/497717</id>
+        <link href="https://www.jisilu.cn/question/497717"/>
+        <updated>2024-07-25T00:45:49.000Z</updated>
+        <summary type="html"><![CDATA[这一个月都在忙着了解港美股和港卡开户的事，没看时间看公司。别粪坑里捡金子了，出去看看，其次也是为破船要沉做准备，辛苦攒下来的钱不能让它们说贬就贬了，境内外汇强制结汇也不是没发生过。
+虽说汇出去难，回来更难，但出去了还是钱，留下来的可能变纸。]]></summary>
+        <author>
+            <name>集思录</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Integrating Image-To-Text And Text-To-Speech Models (Part 1)]]></title>
+        <id>https://smashingmagazine.com/2024/07/integrating-image-to-text-and-text-to-speech-models-part1/</id>
+        <link href="https://smashingmagazine.com/2024/07/integrating-image-to-text-and-text-to-speech-models-part1/"/>
+        <updated>2024-07-24T10:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Joas Pambou built an app that integrates vision language models (VLMs) and text-to-speech (TTS) AI technologies to describe images audibly with speech. This audio description tool can be a big help for people with sight challenges to understand what’s in an image. But how this does it even work? Joas explains how these AI systems work and their potential uses, including how he built the app and ways to further improve it.]]></summary>
+        <author>
+            <name>hello@smashingmagazine.com (Joas Pambou)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Getting To The Bottom Of Minimum WCAG-Conformant Interactive Element Size]]></title>
+        <id>https://smashingmagazine.com/2024/07/getting-bottom-minimum-wcag-conformant-interactive-element-size/</id>
+        <link href="https://smashingmagazine.com/2024/07/getting-bottom-minimum-wcag-conformant-interactive-element-size/"/>
+        <updated>2024-07-19T13:00:00.000Z</updated>
+        <summary type="html"><![CDATA[WCAG provides guidance for making interactive elements more accessible by specifying minimum size requirements. In this article, Eric Bailey discusses the nuances of interactive element sizes and clarifies what it looks like to provide accessible interactive experiences using WCAG-compliant target sizes.]]></summary>
+        <author>
+            <name>hello@smashingmagazine.com (Eric Bailey)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Build Design Systems With Penpot Components]]></title>
+        <id>https://smashingmagazine.com/2024/07/build-design-systems-penpot-components/</id>
+        <link href="https://smashingmagazine.com/2024/07/build-design-systems-penpot-components/"/>
+        <updated>2024-07-18T10:00:00.000Z</updated>
+        <summary type="html"><![CDATA[In today’s turbulent landscape of design, Penpot stands out with its commitment to open-source, free unlimited access, and its unique, robust features. An example could be its new components system that takes another leap forward in aligning design with code. Let's dive into how it empowers both designers and developers to create more maintainable and scalable design systems.]]></summary>
+        <author>
+            <name>hello@smashingmagazine.com (Mikołaj Dobrucki)</name>
         </author>
     </entry>
 </feed>
