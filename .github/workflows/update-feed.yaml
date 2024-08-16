@@ -13,15 +13,11 @@ on:
     inputs:
       tags:
         description: 'Description Tag'
-permissions:
-  id-token: write
-  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
-    permissions:
-      actions: write
-      contents: write
+
     steps:
       - uses: actions/checkout@v2
       - name: Setup Node.js environment
