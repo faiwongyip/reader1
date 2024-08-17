@@ -2,10 +2,34 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://faiwongyip.github.io/reader1/index.html</id>
     <title>osmos::feed</title>
-    <updated>2024-08-17T07:35:19.765Z</updated>
+    <updated>2024-08-17T07:37:53.013Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://faiwongyip.github.io/reader1/index.html"/>
     <link rel="self" href="https://faiwongyip.github.io/reader1/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[国企比证券时报更务实]]></title>
+        <id>https://www.jisilu.cn/question/498721</id>
+        <link href="https://www.jisilu.cn/question/498721"/>
+        <updated>2024-08-17T07:36:03.000Z</updated>
+        <summary type="html"><![CDATA[[attach]381157[/attach]]]></summary>
+        <author>
+            <name>集思录</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[岭南转债的小额刚兑来了]]></title>
+        <id>https://www.jisilu.cn/question/498720</id>
+        <link href="https://www.jisilu.cn/question/498720"/>
+        <updated>2024-08-17T07:35:47.000Z</updated>
+        <summary type="html"><![CDATA[公司于 2024 年 8 月 16 日接到中山市人才创新创业生态园服务有限公司的通知，中山市人才创新创业生态园服务有限公司计划收购部分“岭南转债”，初步收购方案如下：
+
+收购对象：截至 2024 年 8 月 14 日收市的“岭南转债”持有人。
+
+收购额度：截至 2024 年 8 月 14 日收市，债...]]></summary>
+        <author>
+            <name>集思录</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[欧耶！刚兑的信仰又回来了！]]></title>
         <id>https://www.jisilu.cn/question/498719</id>
