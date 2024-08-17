@@ -1,472 +1,90 @@
 {
   "sources": [
     {
-      "title": "Release notes from osmosfeed",
-      "feedUrl": "https://github.com/osmoscraft/osmosfeed/releases.atom",
-      "siteUrl": "https://github.com/osmoscraft/osmosfeed/releases",
-      "articles": []
-    },
-    {
-      "title": "CSS-Tricks",
-      "feedUrl": "https://css-tricks.com/feed/",
-      "siteUrl": "https://css-tricks.com",
-      "articles": [
-        {
-          "id": "https://css-tricks.com/?p=379881",
-          "author": "Geoff Graham",
-          "description": "I was just going over the latest CSSWG minutes (you can subscribe to them at W3C.org) and came across a few interesting nuggets I wanted to jot down for another time. The group discussed the CSS Values, CSS Easing, and …\nCSSWG Minutes Telecon (2024-08-14) originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
-          "link": "https://css-tricks.com/csswg-minutes-telecon-2024-08-14/",
-          "publishedOn": "2024-08-16T16:12:51.000Z",
-          "wordCount": 1771,
-          "title": "CSSWG Minutes Telecon (2024-08-14)",
-          "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/379881"
-        },
-        {
-          "id": "https://css-tricks.com/?p=379603",
-          "author": "Geoff Graham",
-          "description": "Yes, yes. Functionally, they are different. But heck if I didn’t know about the wacky thresholds until Jens Oliver Meiert tooted a pair of quick polls.\nAccording to the HTML Standard:\nIf the current cell has a colspan attribute, then \n…\nHow are the `colspan` and `rowspan` attributes different? originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
-          "link": "https://css-tricks.com/how-are-the-colspan-and-rowspan-attributes-different/",
-          "publishedOn": "2024-08-15T13:10:58.000Z",
-          "wordCount": 1740,
-          "title": "How are the `colspan` and `rowspan` attributes different?",
-          "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/379603"
-        },
-        {
-          "id": "https://css-tricks.com/?p=379862",
-          "author": "Geoff Graham",
-          "description": "Free e-book from Jens Oliver Meiert that’ll bore you to death in the best way: Rote Learning HTML & CSS…\nQuick Hit #11 originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
-          "link": "https://css-tricks.com/quick-hit-11/",
-          "publishedOn": "2024-08-14T18:05:07.000Z",
-          "wordCount": 1319,
-          "title": "Quick Hit #11",
-          "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/379862"
-        },
-        {
-          "id": "https://css-tricks.com/?p=379857",
-          "author": "Geoff Graham",
-          "description": "Killed by Google is called a “graveyard” but I also see it as a resume in experimentation.…\nQuick Hit #10 originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
-          "link": "https://css-tricks.com/quick-hit-10/",
-          "publishedOn": "2024-08-14T15:34:53.000Z",
-          "wordCount": 1313,
-          "title": "Quick Hit #10",
-          "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/379857"
-        },
-        {
-          "id": "https://css-tricks.com/?p=379649",
-          "author": "Kevin Powell",
-          "description": "Modern CSS keeps giving us a lot of new, easier ways to solve old problems, but often the new features we’re getting don’t only solve old problems, they open up new possibilities as well.\nContainer queries are one of those …\n“Smart” Layouts With Container Queries originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
-          "link": "https://css-tricks.com/smart-layouts-with-container-queries/",
-          "publishedOn": "2024-08-14T13:22:55.000Z",
-          "wordCount": 2927,
-          "title": "“Smart” Layouts With Container Queries",
-          "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/379649"
-        },
-        {
-          "id": "https://css-tricks.com/?p=379846",
-          "author": "Geoff Graham",
-          "description": "“This isn’t a website. Or even a blog. It’s a conversation.”\nThat’s the idea! Jay Hoffman and I’ve been chatting a long time now, back since he began writing a series on web history. It’s easy-going talking with someone …\nDialogues Blog originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
-          "link": "https://css-tricks.com/dialogues-blog/",
-          "publishedOn": "2024-08-14T10:34:00.000Z",
-          "wordCount": 1568,
-          "title": "Dialogues Blog",
-          "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/379846"
-        },
-        {
-          "id": "https://css-tricks.com/?p=379750",
-          "author": "Geoff Graham",
-          "description": "You might recall that Alvaro suggests bumping up font-size to 1.25rem from the default user agent size of 16px. Sebastian Laube pokes at that:\nI wouldn’t adopt Alvaro’s suggestion without further ado, as I would waste so much space \n…\nfont-size Limbo originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
-          "link": "https://css-tricks.com/font-size-limbo/",
-          "publishedOn": "2024-08-13T13:15:58.000Z",
-          "wordCount": 2870,
-          "title": "font-size Limbo",
-          "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/379750"
-        },
-        {
-          "id": "https://css-tricks.com/?p=379717",
-          "author": "Geoff Graham",
-          "description": "Mental health is always tough to talk about, especially in an industry that, to me, often rewards ego over vulnerability. I still find it tough even after having written about my own chronic depression and exploring UX case studies about …\nMental Health in Tech Podcast Interview originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
-          "link": "https://css-tricks.com/mental-health-in-tech-podcast-interview/",
-          "publishedOn": "2024-08-12T17:11:24.000Z",
-          "wordCount": 1499,
-          "title": "Mental Health in Tech Podcast Interview",
-          "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/379717"
-        },
-        {
-          "id": "https://css-tricks.com/?p=379747",
-          "author": "Geoff Graham",
-          "description": "Heydon with a reminder that <address isn’t for, you know, mailing addresses.…\nQuick Hit #9 originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
-          "link": "https://css-tricks.com/quick-hit-9/",
-          "publishedOn": "2024-08-12T16:19:42.000Z",
-          "wordCount": 1303,
-          "title": "Quick Hit #9",
-          "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/379747"
-        },
-        {
-          "id": "https://css-tricks.com/?p=379644",
-          "author": "Geoff Graham",
-          "description": "A new explainer for a new HTML attribute to handle handwritten inputs. Like this:\n<input type=\"text\" handwriting=\"true\" ... <input type=\"text\" handwriting=\"false\" ... <textarea handwriting=\"\" ... <!-- evaluates to \"true\" --<div contenteditable handwriting=\"true\"...</div<!-- maybe? --\nThe primary use …\nHTML Attribute to Allow/Disallow Handwriting Input originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
-          "link": "https://css-tricks.com/html-attribute-to-allow-disallow-handwriting-input/",
-          "publishedOn": "2024-08-12T14:00:47.000Z",
-          "wordCount": 1579,
-          "title": "HTML Attribute to Allow/Disallow Handwriting Input",
-          "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/379644"
-        },
-        {
-          "id": "https://css-tricks.com/?p=379385",
-          "author": "Geoff Graham",
-          "description": "Remember these? Chris would write a post now and then to chronicle things happening around the ol’ CSS-Tricks site. It’s only been 969 days since the last one, give or take. Just think: back then we were poking at …\nCSS Chronicles XLII originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
-          "link": "https://css-tricks.com/css-chronicles-xlii/",
-          "publishedOn": "2024-08-09T15:27:49.000Z",
-          "wordCount": 3355,
-          "title": "CSS Chronicles XLII",
-          "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/379385"
-        },
-        {
-          "id": "https://css-tricks.com/?p=379630",
-          "author": "Geoff Graham",
-          "description": "Ever search for CSS info and run into some article — perhaps even one or a dozen on this site — that looks promising until you realize it was published when dinosaurs roamed the planet? The information is good, but …\nIt’s Time To Talk About “CSS5” originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
-          "link": "https://css-tricks.com/its-time-to-talk-about-css5/",
-          "publishedOn": "2024-08-09T15:11:41.000Z",
-          "wordCount": 1650,
-          "title": "It’s Time To Talk About “CSS5”",
-          "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/379630"
-        },
-        {
-          "id": "https://css-tricks.com/?p=379570",
-          "author": "Geoff Graham",
-          "description": "Christian Heilmann gave this talk at Typo3 Developer Days. I’m linking it up because it strikes an already stricken nerve in me. The increasing complexity of web development has an inverse relationship with the decreasing number of entry points …\nLet’s make a simpler, more accessible web originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
-          "link": "https://css-tricks.com/christian-heilmann-lets-make-a-simpler-more-accessible-web/",
-          "publishedOn": "2024-08-08T15:07:50.000Z",
-          "wordCount": 2325,
-          "title": "Let’s make a simpler, more accessible web",
-          "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/379570"
-        },
-        {
-          "id": "https://css-tricks.com/?p=379541",
-          "author": "Amit Sheen",
-          "description": "It was a few years ago during the 2020 Olympics in Tokyo 2020 that I made a demo of animated 3D Olympic rings. I like it, it looks great, and I love the effect of the rings crossing each other.…\nCSS Olympic Rings originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
-          "link": "https://css-tricks.com/css-olympic-rings/",
-          "publishedOn": "2024-08-07T13:10:56.000Z",
-          "wordCount": 4090,
-          "title": "CSS Olympic Rings",
-          "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/379541"
-        },
-        {
-          "id": "https://css-tricks.com/?p=379420",
-          "author": "Geoff Graham",
-          "description": "Heydon on the virtues of hyperlinking hypertext in an anchor element:\nSometimes, the <a> is referred to as a hyperlink, or simply a link. But it is not one of these and people who say it is one are \n…\n(Hyper) Links About (Hyper) Links originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
-          "link": "https://css-tricks.com/hyper-links-about-hyper-links/",
-          "publishedOn": "2024-08-02T16:41:54.000Z",
-          "wordCount": 2203,
-          "title": "(Hyper) Links About (Hyper) Links",
-          "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/379420"
-        },
-        {
-          "id": "https://css-tricks.com/?p=379335",
-          "author": "Kev Bonett",
-          "description": "I have to thank Jeremy Keith and his wonderfully insightful article from late last year that introduced me to the concept of HTML Web Components. This was the “a-ha!” moment for me:\nWhen you wrap some existing markup in a \n…\nHTML Web Components Make Progressive Enhancement and CSS Encapsulation Easier! originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
-          "link": "https://css-tricks.com/html-web-components-make-progressive-enhancement-and-css-encapsulation-easier/",
-          "publishedOn": "2024-08-01T13:21:37.000Z",
-          "wordCount": 3858,
-          "title": "HTML Web Components Make Progressive Enhancement and CSS Encapsulation Easier!",
-          "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/379335"
-        }
-      ]
-    },
-    {
-      "title": "Articles on Smashing Magazine — For Web Designers And Developers",
-      "feedUrl": "https://www.smashingmagazine.com/feed/",
-      "siteUrl": "https://www.smashingmagazine.com/",
-      "articles": [
-        {
-          "id": "https://smashingmagazine.com/2024/08/pricing-projects-freelancer-agency-owner/",
-          "author": "hello@smashingmagazine.com (Paul Boag)",
-          "description": "Discover effective pricing strategies for digital projects. Learn how to balance fixed pricing, time and materials, and value-based approaches while managing client expectations and scope creep.",
-          "link": "https://smashingmagazine.com/2024/08/pricing-projects-freelancer-agency-owner/",
-          "publishedOn": "2024-08-16T13:00:00.000Z",
-          "wordCount": 4683,
-          "title": "Pricing Projects As A Freelancer Or Agency Owner",
-          "enclosure": {
-            "url": "http://files.smashing.media/articles/pricing-projects-freelancer-agency-owner/pricing-projects-freelancer-agency-owner.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          },
-          "imageUrl": "http://files.smashing.media/articles/pricing-projects-freelancer-agency-owner/pricing-projects-freelancer-agency-owner.jpg"
-        },
-        {
-          "id": "https://smashingmagazine.com/2024/08/how-defend-your-design-process/",
-          "author": "hello@smashingmagazine.com (Vitaly Friedman)",
-          "description": "Ever felt pressure to speed up your design process? Here’s how to address unrealistic expectations and foster a shared understanding with stakeholders, ensuring everyone is aligned on the path to a successful delivery. Part of [Smart Interface Design Patterns](https://smart-interface-design-patterns.com) by yours truly.",
-          "link": "https://smashingmagazine.com/2024/08/how-defend-your-design-process/",
-          "publishedOn": "2024-08-15T10:00:00.000Z",
-          "wordCount": 3695,
-          "title": "How To Defend Your Design Process",
-          "enclosure": {
-            "url": "http://files.smashing.media/articles/how-defend-your-design-process/how-defend-your-design-process.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          },
-          "imageUrl": "http://files.smashing.media/articles/how-defend-your-design-process/how-defend-your-design-process.jpg"
-        },
-        {
-          "id": "https://smashingmagazine.com/2024/08/thoughts-after-15-years-spent-ux-design-part2/",
-          "author": "hello@smashingmagazine.com (Andrii Zhdan)",
-          "description": "In this two-part series, Andrii Zhdan outlines common challenges faced at the start of a design career and offers advice to smooth your journey based on insights from his experience hiring designers. In Part 2, Andrii speaks about how you can grow faster in your brand-new junior UX job.",
-          "link": "https://smashingmagazine.com/2024/08/thoughts-after-15-years-spent-ux-design-part2/",
-          "publishedOn": "2024-08-09T11:00:00.000Z",
-          "wordCount": 6166,
-          "title": "If I Was Starting My Career Today: Thoughts After 15 Years Spent In UX Design (Part 2)",
-          "enclosure": {
-            "url": "http://files.smashing.media/articles/thoughts-after-15-years-spent-ux-design-part1/thoughts-after-15-years-spent-ux-design.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          },
-          "imageUrl": "http://files.smashing.media/articles/thoughts-after-15-years-spent-ux-design-part1/thoughts-after-15-years-spent-ux-design.jpg"
-        },
-        {
-          "id": "https://smashingmagazine.com/2024/08/best-pro-scheduler-libraries/",
-          "author": "hello@smashingmagazine.com (Preethi Sam)",
-          "description": "For teams working remotely across the globe or together in an office, as well as for any group of collaborating users, a scheduler can be a valuable tool indeed. In this post, you’ll find some of the best commercial web scheduler libraries (JavaScript based) with amazing UX and high efficiency that are currently available.",
-          "link": "https://smashingmagazine.com/2024/08/best-pro-scheduler-libraries/",
-          "publishedOn": "2024-08-08T20:00:00.000Z",
-          "wordCount": 3687,
-          "title": "Best Of Pro Scheduler Libraries",
-          "enclosure": {
-            "url": "http://files.smashing.media/articles/best-pro-scheduler-libraries/best-pro-scheduler-libraries.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          },
-          "imageUrl": "http://files.smashing.media/articles/best-pro-scheduler-libraries/best-pro-scheduler-libraries.jpg"
-        },
-        {
-          "id": "https://smashingmagazine.com/2024/08/time-to-talk-about-css5/",
-          "author": "hello@smashingmagazine.com (Brecht De Ruyte)",
-          "description": "Have you ever wondered what happened after CSS3? It’s common knowledge that we never saw CSS4 come after it, yet we have a plethora of new features that have no similar way of defining when they were introduced. The W3C CSS-Next community group is actively searching for better approaches for how we describe the evolution of CSS over time and identify feature sets as effectively as we did with CSS3 way back in 2009 — and you can help.",
-          "link": "https://smashingmagazine.com/2024/08/time-to-talk-about-css5/",
-          "publishedOn": "2024-08-05T10:00:00.000Z",
-          "wordCount": 5083,
-          "title": "It’s Time To Talk About “CSS5”",
-          "enclosure": {
-            "url": "http://files.smashing.media/articles/time-to-talk-about-css5/time-to-talk-about-css5.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          },
-          "imageUrl": "http://files.smashing.media/articles/time-to-talk-about-css5/time-to-talk-about-css5.jpg"
-        },
-        {
-          "id": "https://smashingmagazine.com/2024/08/thoughts-after-15-years-spent-ux-design-part1/",
-          "author": "hello@smashingmagazine.com (Andrii Zhdan)",
-          "description": "In this two-part series, Andrii Zhdan outlines common challenges faced at the start of a design career and offers advice to smooth your journey based on insights from his experience hiring designers. Learn why mastering design tools is crucial, how to build a strong portfolio, and tips for acing your first interviews.",
-          "link": "https://smashingmagazine.com/2024/08/thoughts-after-15-years-spent-ux-design-part1/",
-          "publishedOn": "2024-08-02T11:00:00.000Z",
-          "wordCount": 6495,
-          "title": "If I Was Starting My Career Today: Thoughts After 15 Years Spent In UX Design (Part 1)",
-          "enclosure": {
-            "url": "http://files.smashing.media/articles/thoughts-after-15-years-spent-ux-design-part1/thoughts-after-15-years-spent-ux-design.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          },
-          "imageUrl": "http://files.smashing.media/articles/thoughts-after-15-years-spent-ux-design-part1/thoughts-after-15-years-spent-ux-design.jpg"
-        },
-        {
-          "id": "https://smashingmagazine.com/2024/08/how-build-multilingual-website-nuxt-i18n/",
-          "author": "hello@smashingmagazine.com (Tim Benniks)",
-          "description": "Handling translations for multilingual websites is famously difficult and, yet, crucial for many companies and organizations that serve a global audience. Thankfully, modern tooling abstracts away a great deal of the work, allowing for seamless translations that dynamically update the rendered content on a page, as demonstrated in this step-by-step tutorial.",
-          "link": "https://smashingmagazine.com/2024/08/how-build-multilingual-website-nuxt-i18n/",
-          "publishedOn": "2024-08-01T15:00:00.000Z",
-          "wordCount": 5732,
-          "title": "How To Build A Multilingual Website With Nuxt.js",
-          "enclosure": {
-            "url": "http://files.smashing.media/articles/how-build-multilingual-website-nuxtjs/how-build-multilingual-website-nuxt.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          },
-          "imageUrl": "http://files.smashing.media/articles/how-build-multilingual-website-nuxtjs/how-build-multilingual-website-nuxt.jpg"
-        },
-        {
-          "id": "https://smashingmagazine.com/2024/07/desktop-wallpaper-calendars-august-2024/",
-          "author": "hello@smashingmagazine.com (Cosima Mielke)",
-          "description": "Do you need a little inspiration boost? Well, then our new batch of desktop wallpapers might be for you. Designed by the community for the community, they come in versions with and without a calendar for August 2024. Enjoy!",
-          "link": "https://smashingmagazine.com/2024/07/desktop-wallpaper-calendars-august-2024/",
-          "publishedOn": "2024-07-31T09:30:00.000Z",
-          "wordCount": 4789,
-          "title": "Sweet Nostalgia In August (2024 Wallpapers Edition)",
-          "enclosure": {
-            "url": "http://files.smashing.media/articles/desktop-wallpaper-calendars-august-2024/aug-23-summer-day-preview-opt.png",
-            "length": "0",
-            "type": "image/png"
-          },
-          "imageUrl": "http://files.smashing.media/articles/desktop-wallpaper-calendars-august-2024/aug-23-summer-day-preview-opt.png"
-        },
-        {
-          "id": "https://smashingmagazine.com/2024/07/rethinking-role-ux-teams-mov-beyond-firefighting/",
-          "author": "hello@smashingmagazine.com (Paul Boag)",
-          "description": "Many UX professionals often find themselves working alone, and usually face more projects impacting user experience than they can handle. In this article, Paul Boag explains how UX teams can be transformed into a significant driver of customer-centric innovation within organizations.",
-          "link": "https://smashingmagazine.com/2024/07/rethinking-role-ux-teams-mov-beyond-firefighting/",
-          "publishedOn": "2024-07-29T18:00:00.000Z",
-          "wordCount": 4305,
-          "title": "Rethinking The Role Of Your UX Teams And Move Beyond Firefighting",
-          "enclosure": {
-            "url": "http://files.smashing.media/articles/rethinking-role-ux-teams-mov-beyond-firefighting/rethinking-role-ux-teams-mov-beyond-firefighting.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          },
-          "imageUrl": "http://files.smashing.media/articles/rethinking-role-ux-teams-mov-beyond-firefighting/rethinking-role-ux-teams-mov-beyond-firefighting.jpg"
-        },
-        {
-          "id": "https://smashingmagazine.com/2024/07/integrating-image-to-text-and-text-to-speech-models-part1/",
-          "author": "hello@smashingmagazine.com (Joas Pambou)",
-          "description": "Joas Pambou built an app that integrates vision language models (VLMs) and text-to-speech (TTS) AI technologies to describe images audibly with speech. This audio description tool can be a big help for people with sight challenges to understand what’s in an image. But how this does it even work? Joas explains how these AI systems work and their potential uses, including how he built the app and ways to further improve it.",
-          "link": "https://smashingmagazine.com/2024/07/integrating-image-to-text-and-text-to-speech-models-part1/",
-          "publishedOn": "2024-07-24T10:00:00.000Z",
-          "wordCount": 6409,
-          "title": "Integrating Image-To-Text And Text-To-Speech Models (Part 1)",
-          "enclosure": {
-            "url": "http://files.smashing.media/articles/integrating-image-to-text-and-text-to-speech-models-part1/integrating-image-to-text-and-text-to-speech-models-part1.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          },
-          "imageUrl": "http://files.smashing.media/articles/integrating-image-to-text-and-text-to-speech-models-part1/integrating-image-to-text-and-text-to-speech-models-part1.jpg"
-        },
-        {
-          "id": "https://smashingmagazine.com/2024/07/getting-bottom-minimum-wcag-conformant-interactive-element-size/",
-          "author": "hello@smashingmagazine.com (Eric Bailey)",
-          "description": "WCAG provides guidance for making interactive elements more accessible by specifying minimum size requirements. In this article, Eric Bailey discusses the nuances of interactive element sizes and clarifies what it looks like to provide accessible interactive experiences using WCAG-compliant target sizes.",
-          "link": "https://smashingmagazine.com/2024/07/getting-bottom-minimum-wcag-conformant-interactive-element-size/",
-          "publishedOn": "2024-07-19T13:00:00.000Z",
-          "wordCount": 5290,
-          "title": "Getting To The Bottom Of Minimum WCAG-Conformant Interactive Element Size",
-          "enclosure": {
-            "url": "http://files.smashing.media/articles/getting-bottom-minimum-wcag-conformant-interactive-element-size/getting-bottom-minimum-wcag-conformant-interactive-element-size.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          },
-          "imageUrl": "http://files.smashing.media/articles/getting-bottom-minimum-wcag-conformant-interactive-element-size/getting-bottom-minimum-wcag-conformant-interactive-element-size.jpg"
-        }
-      ]
-    },
-    {
-      "title": "freeCodeCamp.org",
-      "feedUrl": "https://www.freecodecamp.org/news/rss/",
-      "siteUrl": "https://www.freecodecamp.org/news/",
-      "articles": [
-        {
-          "id": "https://www.freecodecamp.org/news/vm-data-protection-best-practices/",
-          "author": "Alex Tray",
-          "description": "Vast amounts of data flow through virtualized environments these days. And that data needs to be protected. So making sure that your virtual machines are secured, along with their associated data, is key for maintaining operational continuity and saf...",
-          "link": "https://www.freecodecamp.org/news/vm-data-protection-best-practices/",
-          "publishedOn": "2024-08-16T12:44:31.000Z",
-          "wordCount": 3035,
-          "title": "VM Data Protection Best Practices: How to Mitigate Risk in a Virtual Environment",
-          "imageUrl": "https://cdn.hashnode.com/res/hashnode/image/upload/v1723559872911/f9953e98-7948-47a0-a054-62028df854b9.jpeg"
-        },
-        {
-          "id": "https://www.freecodecamp.org/news/rahul-pandey-quit-his-800k-per-year-faang-developer-job-to-build-a-startup-podcast-137/",
-          "author": "Quincy Larson",
-          "description": "On this week's episode of the podcast, freeCodeCamp founder Quincy Larson interviews Rahul Pandey. He's a software engineer who left his $800K / year FAANG job to build his own startup. We talk about: The post-layoff developer job landscape Develop...",
-          "link": "https://www.freecodecamp.org/news/rahul-pandey-quit-his-800k-per-year-faang-developer-job-to-build-a-startup-podcast-137/",
-          "publishedOn": "2024-08-15T21:57:33.000Z",
-          "wordCount": 781,
-          "title": "Rahul Pandey quit his $800,000/year FAANG developer job to build a startup [Podcast #137]",
-          "imageUrl": "https://cdn.hashnode.com/res/hashnode/image/upload/v1723758894150/3f49d5b1-b7bc-4ffe-bfc4-09fdf5a509ac.jpeg"
-        },
-        {
-          "id": "https://www.freecodecamp.org/news/a-beginners-guide-to-large-language-models/",
-          "author": "Bhavishya Pandit",
-          "description": "ChatGPT was released in November 2022. Since then, we’ve witnessed rapid advancements in the field of AI and technology. But did you know that the journey of AI chatbots began way back in 1966 with ELIZA? ELIZA was not as sophisticated as today’s mod...",
-          "link": "https://www.freecodecamp.org/news/a-beginners-guide-to-large-language-models/",
-          "publishedOn": "2024-08-15T19:41:19.000Z",
-          "wordCount": 2035,
-          "title": "A Beginner's Guide to LLMs – What's a Large-Language Model and How Does it Work?",
-          "imageUrl": "https://cdn.hashnode.com/res/hashnode/image/upload/v1723750839199/0dc3a4ff-3e4e-4055-b3c1-955474946b0f.jpeg"
-        },
-        {
-          "id": "https://www.freecodecamp.org/news/how-asynchronous-programming-works-in-rust/",
-          "author": "Oduah Chigozie",
-          "description": "If you're familiar with languages like JavaScript and Python, you may have heard about asynchronous programming. And perhaps you're wondering how it works in Rust. In this article, I'll give you a simple overview of how asynchronous programming works...",
-          "link": "https://www.freecodecamp.org/news/how-asynchronous-programming-works-in-rust/",
-          "publishedOn": "2024-08-15T15:18:18.000Z",
-          "wordCount": 1589,
-          "title": "How Asynchronous Programming Works in Rust – Futures and Async/Await Explained with Examples",
-          "imageUrl": "https://cdn.hashnode.com/res/hashnode/image/upload/v1723746256888/b046d857-161c-41be-96d0-1c05b1e448b8.jpeg"
-        },
-        {
-          "id": "https://www.freecodecamp.org/news/create-color-picker-using-html-css-and-javascript/",
-          "author": "Fanny Nyayic",
-          "description": "Have you ever wanted to create your own interactive tools using just HTML, CSS, and JavaScript? In this article, we'll create a fun and straightforward project: a color picker tool. This handy little tool will let users select any color they like and...",
-          "link": "https://www.freecodecamp.org/news/create-color-picker-using-html-css-and-javascript/",
-          "publishedOn": "2024-08-15T11:01:37.000Z",
-          "wordCount": 1487,
-          "title": "How to Create A Color Picker Tool Using HTML, CSS, and JavaScript",
-          "imageUrl": "https://cdn.hashnode.com/res/hashnode/image/upload/v1723709466316/80aae148-6211-4070-ba33-eb4290408912.png"
-        },
-        {
-          "id": "https://www.freecodecamp.org/news/integration-tests-using-testcontainers/",
-          "author": "Alex Pliutau",
-          "description": "What is Integration Testing? The purpose of integration tests is to validate that different software components, subsystems, or applications work well together combined as a group. It’s an important step in the testing pyramid that can help you ident...",
-          "link": "https://www.freecodecamp.org/news/integration-tests-using-testcontainers/",
-          "publishedOn": "2024-08-14T19:55:12.000Z",
-          "wordCount": 2040,
-          "title": "How to Emulate Real Dependencies in Integration Tests using Testcontainers",
-          "imageUrl": "https://cdn.hashnode.com/res/hashnode/image/upload/v1723631770942/c82aabb6-a9b4-4085-8b06-b4ba1b1cdbd3.png"
-        },
-        {
-          "id": "https://www.freecodecamp.org/news/learn-ml5js-for-machine-learning-in-javascript/",
-          "author": "Beau Carnes",
-          "description": "Machine learning is becoming an essential skill for developers and enthusiasts alike. ml5.js offers a great opportunity to start implementing machine learning in your projects, thanks to its user-friendly JavaScript library that simplifies the integr...",
-          "link": "https://www.freecodecamp.org/news/learn-ml5js-for-machine-learning-in-javascript/",
-          "publishedOn": "2024-08-14T14:48:38.000Z",
-          "wordCount": 832,
-          "title": "Learn ml5.js for Machine Learning in JavaScript",
-          "imageUrl": "https://cdn.hashnode.com/res/hashnode/image/upload/v1723646904774/4f225758-a451-4dc5-a06c-287ba2977c55.png"
-        },
-        {
-          "id": "https://www.freecodecamp.org/news/how-to-implement-message-queues-in-your-backend-applications/",
-          "author": "Oluwatobi",
-          "description": "The goal of every web developer is to create a product that appeals to a wide range of users. However, this comes with its problems, chief among them being scalability issues to meet overwhelming user demands. If not addressed, this can result in a d...",
-          "link": "https://www.freecodecamp.org/news/how-to-implement-message-queues-in-your-backend-applications/",
-          "publishedOn": "2024-08-14T09:56:07.000Z",
-          "wordCount": 1797,
-          "title": "How to Implement Message Queues in Your Backend Applications",
-          "imageUrl": "https://cdn.hashnode.com/res/hashnode/image/upload/v1723280791863/cdc4faaa-2f95-4219-8753-881dfcafbf45.jpeg"
-        },
-        {
-          "id": "https://www.freecodecamp.org/news/graceful-shutdowns-k8s-go/",
-          "author": "Alex Pliutau",
-          "description": "Have you ever pulled the power cord out of your computer in frustration? While this might seem like a quick solution to certain problems, it can lead to data loss and system instability. In the world of software, a similar concept exists: the hard sh...",
-          "link": "https://www.freecodecamp.org/news/graceful-shutdowns-k8s-go/",
-          "publishedOn": "2024-08-13T20:30:58.000Z",
-          "wordCount": 1949,
-          "title": "How to Terminate Go Programs Elegantly – A Guide to Graceful Shutdowns",
-          "imageUrl": "https://cdn.hashnode.com/res/hashnode/image/upload/v1723496940277/5fe7a894-9c67-40fd-95c4-64ef32444a4d.png"
-        },
-        {
-          "id": "https://www.freecodecamp.org/news/merge-word-documents-in-python/",
-          "author": "Vikram Aruchamy",
-          "description": "In today's fast-paced work environment, automation is crucial for optimizing your repetitive tasks and enhancing your productivity. Deploying Python functions to automate the merging of multiple Word documents into a single, cohesive file can help yo...",
-          "link": "https://www.freecodecamp.org/news/merge-word-documents-in-python/",
-          "publishedOn": "2024-08-13T17:19:23.000Z",
-          "wordCount": 2139,
-          "title": "How to Merge Word Documents in Python – Three Effective Methods with Examples",
-          "imageUrl": "https://cdn.hashnode.com/res/hashnode/image/upload/v1723552225928/558a428b-d6a1-487c-a563-5aa6bee8e029.png"
-        },
-        {
-          "id": "https://www.freecodecamp.org/news/what-is-a-component-library-when-to-build-your-own/",
-          "author": "Andrico Karoulla",
-          "description": "If you've built a frontend project in the last five years, you will have likely written some components, and maybe even used a component library. Components and libraries have been an important part of the web development landscape for multiple decad...",
-          "link": "https://www.freecodecamp.org/news/what-is-a-component-library-when-to-build-your-own/",
-          "publishedOn": "2024-08-13T14:58:56.000Z",
-          "wordCount": 4954,
-          "title": "What is a Component Library? When to Build Your Own and When to Use Someone Else's",
-          "imageUrl": "https://cdn.hashnode.com/res/hashnode/image/upload/v1723543483889/400c638b-4a6f-430a-92c3-4d8a7b750464.png"
-        }
-      ]
-    },
-    {
       "title": "集思录",
       "feedUrl": "https://www.jisilu.cn/feed",
       "siteUrl": "https://www.jisilu.cn",
       "articles": [
+        {
+          "id": "https://www.jisilu.cn/question/498729",
+          "author": null,
+          "description": "一个多小时前岭南转债部分收购公告发布，小额持有人赚到了",
+          "link": "https://www.jisilu.cn/question/498729",
+          "publishedOn": "2024-08-17T08:00:27.000Z",
+          "wordCount": 95,
+          "title": "刚清仓了部分转债，特大利好来了，岭南部分收购转债",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.jisilu.cn/question/498728",
+          "author": null,
+          "description": "欢乐摊饼，集思录可以增加这个分类吗？",
+          "link": "https://www.jisilu.cn/question/498728",
+          "publishedOn": "2024-08-17T08:00:05.000Z",
+          "wordCount": 95,
+          "title": "看看有哪些100以下的国资债，类国资债，摊饼",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.jisilu.cn/question/498727",
+          "author": null,
+          "description": "[attach]381161[/attach]",
+          "link": "https://www.jisilu.cn/question/498727",
+          "publishedOn": "2024-08-17T07:57:17.000Z",
+          "wordCount": 95,
+          "title": "岭南国资兜底了，1000张以下按10赔付",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.jisilu.cn/question/498726",
+          "author": null,
+          "description": "https://static.cninfo.com.cn/finalpage/2024-08-17/1220902459.PDF",
+          "link": "https://www.jisilu.cn/question/498726",
+          "publishedOn": "2024-08-17T07:56:04.000Z",
+          "wordCount": 95,
+          "title": "岭南转债：关于中山市人才创新创业生态园服务有限公司拟向“岭南转债”持有人部分收购债券的公告",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.jisilu.cn/question/498725",
+          "author": null,
+          "description": "三、本次收购初步方案\n公司于 2024 年 8 月 16 日接到中山市人才创新创业生态园服务有限公司的通知，中山市人才创新创业生态园服务有限公司计划收购部分“岭南转债”，初步收购方案如下：\n收购对象：截至 2024 年 8 月 14 日收市的“岭南转债”持有人。收购额度：截至 2024 年 8 月 ...",
+          "link": "https://www.jisilu.cn/question/498725",
+          "publishedOn": "2024-08-17T07:53:36.000Z",
+          "wordCount": 95,
+          "title": "岭南小额刚兑了！",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.jisilu.cn/question/498724",
+          "author": null,
+          "description": "公司于2024年8月16日接到中山市人才创新创业生态园服务有限公司的通知，中山市人才创新创业生态园服务有限公司计划收购部分“岭南转债”，初步收购方案如下：\n收购对象：截至2024年8月14日收市的“岭南转债”持有人。\n收购额度：截至2024年8月14日收市，债券持有人所持有的“岭南转债”不高于100...",
+          "link": "https://www.jisilu.cn/question/498724",
+          "publishedOn": "2024-08-17T07:50:48.000Z",
+          "wordCount": 95,
+          "title": "岭南转债10万刚兑，利好全市场，周一暴涨稳了",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.jisilu.cn/question/498723",
+          "author": null,
+          "description": "收购对象：截至2024年8月14日收市的“岭南转债”持有人。\n\n收购额度：截至2024年8月14日收市，债券持有人所持有的“岭南转债”不高于1000张的，按照其持有的全部债券数量收购；持有债券数量超过1000张的，以1000张为限，部分收购。\n\n收购价格：以“岭南转债”2024年8月9日（含当日）前...",
+          "link": "https://www.jisilu.cn/question/498723",
+          "publishedOn": "2024-08-17T07:45:17.000Z",
+          "wordCount": 95,
+          "title": "岭南刚兑了 还是一千张",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.jisilu.cn/question/498722",
+          "author": null,
+          "description": "岭南股份公告：\n中山市人才创新创业生态园服务有限公司收购岭南转债。\n收购对象：截至2024年8月14日收市的“岭南转债”持有人。\n收购额度：截至2024年8月14日收市，债券持有人所持有的“岭南转债”不高于1000张的，按照其持有的全部债券数量收购；持有债券数量超过1000张的，以1000张为限，部...",
+          "link": "https://www.jisilu.cn/question/498722",
+          "publishedOn": "2024-08-17T07:41:43.000Z",
+          "wordCount": 95,
+          "title": "岭南转债：柳暗花明又一村？",
+          "imageUrl": null
+        },
         {
           "id": "https://www.jisilu.cn/question/498721",
           "author": null,
@@ -1206,6 +824,617 @@
           "wordCount": 473,
           "title": "鸿达退债，要授权给第一创业吗？",
           "imageUrl": null
+        }
+      ]
+    },
+    {
+      "title": "奇客Solidot–传递最新科技情报",
+      "feedUrl": "https://feeds.feedburner.com/solidot",
+      "siteUrl": "https://www.solidot.org",
+      "articles": [
+        {
+          "id": "https://www.solidot.org/story?sid=79003",
+          "author": null,
+          "description": "一项针对美国学术界的广泛研究显示，团队规模越大，创新能力越弱，成员的职业前景也会受到限制。这项研究声称这对商业、军事和其他组织具有更广泛的影响。近期科学研究的趋势是组建越来越庞大的团队，共同发表越来越多的期刊论文。但研究发现，这样做的后果是，团队成员获得的研究经费越来越少，晋升速度越来越慢，获得终身职位的可能性越来越小，辞职的可能性越来越大。研究报告发表在《Nature Biotechnology》期刊上。论文作者之一的堪萨斯大学经济学教授 Donna Ginther 表示，更大规模的团队倾向于增量式，而较小的团队则更具创新性。她坚信学术论文的产出应追求质量而非数量。",
+          "link": "https://www.solidot.org/story?sid=79003",
+          "publishedOn": "2024-08-16T14:06:09.000Z",
+          "wordCount": 161,
+          "title": "研究发现更大规模的团队减少创新限制晋升希望",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.solidot.org/story?sid=79002",
+          "author": null,
+          "description": "上海大学理学院物理系定量生命科学硕士生刘泽飞在导师陈永聪教授指导下，首次提出大脑中的神经髓鞘可以产生量子纠缠的光子对，这一发现可能为理解大脑神经活动的同步机制提供了新的线索。研究报告发表在《物理评论E》期刊上。大脑内不同脑区间神经同步是多种神经生物学活动的基础也与诸多脑疾病如帕金森病和阿尔茨海默症相关，然而支持这种同步活动的物理机制仍不清楚。包裹在轴突外侧的脂肪分子层的髓鞘可以作为谐振腔限制神经元中产生的光子形成极化子从而增强神经电传导。除了为轴突提供能量，增强动作电位的传导，还在神经系统中充当绝缘体，这项研究提出了髓鞘可能具有的另一项功能——作为量子纠缠光子对的生成源。研究团队评估了双光子系统中量子纠缠的程度，并利用实验中得到的有髓神经结构的实际数据，展示了在神经系统中生成量子纠缠的潜力。大脑中一旦产生纠缠光子，纠缠特性就会传递到神经元的其他部分，比如在神经冲动中发挥重要作用的离子通道蛋白。",
+          "link": "https://www.solidot.org/story?sid=79002",
+          "publishedOn": "2024-08-16T13:54:18.000Z",
+          "wordCount": 157,
+          "title": "纠缠光子或有助于解释意识背后的快速脑信号",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.solidot.org/story?sid=79001",
+          "author": null,
+          "description": "Epic Games 推出移动商店，将旗下的热门游戏《堡垒之夜》、《火箭联盟》派生作品《Rocket League Sideswipe》以及《糖豆人移动版》带到了 iOS 和 Android 平台。其中 iOS 平台仅限于欧盟地区，欧盟的《Digital Markets Act》要求苹果支持第三方应用商店。Epic Games CEO Tim Sweeney 本周早些时候对欧盟表达了谢意，称欧盟不仅通过了 DMA 法律，还对苹果和 Google 施压，确保它们不能阻碍竞争。Epic Games 的目标是到 2024 年底在 iOS 和 Android 上实现 1 亿新净安装量。",
+          "link": "https://www.solidot.org/story?sid=79001",
+          "publishedOn": "2024-08-16T13:24:35.000Z",
+          "wordCount": 195,
+          "title": "Epic Games 发布移动商店",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.solidot.org/story?sid=79000",
+          "author": null,
+          "description": "微软官方博客宣布，它在最新 Windows 11 测试版中取消了 FAT32 分区大小限制。以前 FAT32 分区限制在 32GB，这一限制是在近 30 年前微软开发者随意设置的。微软称，当用户使用 format 命令在命令行中格式化磁盘，FAT32 分区最大可设置为 2TB。但该限制只在命令行里移除，图形界面里的格式化对话框仍然有 32GB 的 FAT32 分区大小限制。前微软开发者 Dave Plummer 今年早些时候披露，将 FAT 卷的大小限制在 32GB 是他随手设定的，相关格式化对话框就是他写的。",
+          "link": "https://www.solidot.org/story?sid=79000",
+          "publishedOn": "2024-08-16T12:07:42.000Z",
+          "wordCount": 202,
+          "title": "微软取消了 Windows 11 中 FAT32 分区大小限制",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.solidot.org/story?sid=78999",
+          "author": null,
+          "description": "Bioware 正式宣布其《龙腾世纪》系列最新作品《龙腾世纪：影障守护者》将于 10 月 31 日发售，目前开放预售，美区售价 60 美元，中国区售价 298 元（标准版）/398 元（豪华版，主要是多了些纯装饰皮肤），支持简体中文和繁体中文，这是《龙腾世纪》系列首次有官方中文版。Bioware 也公布了系统需求，需要 100GB 的硬盘空间，五年前的主流 CPU 和 GPU 就能达到推荐配置。《龙腾世纪》系列可能是高开低走，第一部《龙腾世纪：起源》被广泛视为史上最出色的角色扮演游戏之一，《龙腾世纪II》和《龙腾世纪：审判》都未达到第一部的高度。在《影障守护者》中，玩家将扮演洛可带领一支由七名同伴组成的影障守护者，对抗诸神，拯救一个满目苍夷的世界。",
+          "link": "https://www.solidot.org/story?sid=78999",
+          "publishedOn": "2024-08-16T11:49:09.000Z",
+          "wordCount": 191,
+          "title": "《龙腾世纪：影障守护者》将于 10 月 31 日发售",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.solidot.org/story?sid=78998",
+          "author": null,
+          "description": "前 Google CEO 和董事长 Eric Schmidt 早些时候在斯坦福大学发表演讲，评论了 Google 和 OpenAI 之间的 AI 竞争，他认为 Google 员工的工作太轻松了，可以远程工作，可以更早下班，没有 OpenAI 员工工作拼命，这是导致 Google 在 AI 竞赛中落后的重要原因。他的这番评论引发了争议。Schmidt 随后通过发送给《华尔街日报》的电子邮件收回了这一争议评论。他在声明中表示，有关 Google 及其员工工作时间的说法有错误，他为其犯下的错误感到后悔。Stanford Online 账号在 YouTube 上传了 Schmidt 的视频，但该视频已经被设为私有，Schmidt 表示他要求将该视频下线。",
+          "link": "https://www.solidot.org/story?sid=78998",
+          "publishedOn": "2024-08-16T10:37:07.000Z",
+          "wordCount": 210,
+          "title": "Eric Schmidt 撤回了远程工作导致 Google 在 AI 竞赛中落后的评论",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.solidot.org/story?sid=78997",
+          "author": null,
+          "description": "俄罗斯安全公司卡巴斯基的研究人员报告，中国黑客上个月被发现入侵俄罗斯政府机构和 IT 公司的计算机。它将这一行动命名为 EastWind。攻击者首先发送含有恶意外链附件的钓鱼邮件，先是通过云储存服务 Dropbox 获取指令下载恶意程序，之后改用了俄罗斯流行的社交网络 LiveJournal 和问答网站 Quora。它在目标设备上安装了远程访问木马 GrewApach、PlugY 后门、新版本的 CloudSorcerer 后门。其中 PlugY 后门此前未知，研究人员还在分析中，它被怀疑是基于 DRBControl 后门代码开发的。",
+          "link": "https://www.solidot.org/story?sid=78997",
+          "publishedOn": "2024-08-16T10:14:11.000Z",
+          "wordCount": 172,
+          "title": "卡巴斯基称中国黑客攻击俄罗斯机构和企业",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.solidot.org/story?sid=78996",
+          "author": null,
+          "description": "新加坡前总理、现政府资政李显龙在 Facebook 上对他的深度伪造视频发出了警告，他表示深度伪造视频制作者的动机未必是纯商业性的，存在显而易见的恶意。新加坡政府表示考虑在大选前禁止深度伪造。数字发展和信息部长 Josephine Teo 表示，新加坡可效仿韩国，韩国在 4 月议会选举前对 AI 生成内容实施了 90 天的禁令，选举期间的深度伪造制作者会面临最高 7 年的监禁或最高 5000 万韩元罚款。菲律宾选举委员会呼吁在 2025 年参议院选举前实施类似的禁令。对于政府的计划，批评者表示，我们不能假设任何问题的解决办法都是用更多的法律、更多的权力和更多的裁量权武装国家。",
+          "link": "https://www.solidot.org/story?sid=78996",
+          "publishedOn": "2024-08-16T08:20:47.000Z",
+          "wordCount": 174,
+          "title": "新加坡考虑禁止深度伪造",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.solidot.org/story?sid=78995",
+          "author": null,
+          "description": "德国康斯坦茨大学和维尔茨堡大学领导的国际研究团队，对动物界最大基因组的拥有者——肺鱼进行了基因组测序。肺鱼基因组约为人类基因组大小的 30 倍。测序数据有望揭示当今陆地脊椎动物的鱼类祖先如何成功登陆的奥秘。泥盆纪时期（约 4.2 亿至 3.6 亿年前），一种具有强健胸鳍和肺的肉鳍鱼类成功从浅水区域登陆，并能在海岸线上移动和呼吸，这与现今的陆地脊椎动物相似。这一事件标志着脊椎动物首次在陆地上移动，是进化史上的重要里程碑。所有后续的陆地脊椎动物，包括两栖动物、爬行动物、鸟类和哺乳动物（包括人类），都可追溯至这一鱼类祖先。然而肉鳍鱼类为何如此适应陆地环境仍是未解之谜。研究人员分析了泥盆纪祖先的现存最近亲属的遗传物质。这些最近亲属中，只有 3 个谱系的肺鱼至今仍存活，分别在非洲、南美洲和澳大利亚。研究人员对这 3 种谱系的肺鱼基因组进行了完整测序。结果显示，南美洲肺鱼的遗传物质在规模上打破了所有纪录：其 DNA 超过 900 亿个碱基，是已知最大的动物基因组，其大小是之前纪录保持者——澳大利亚肺鱼基因组的两倍多。",
+          "link": "https://www.solidot.org/story?sid=78995",
+          "publishedOn": "2024-08-16T06:56:45.000Z",
+          "wordCount": 172,
+          "title": "科学家测序动物界最大基因组",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.solidot.org/story?sid=78994",
+          "author": null,
+          "description": "日本建筑商大林组在 2012 年提出太空电梯计划，计划 2025 年开始动工。太空电梯是一种让人搭乘电梯从地球前往太空的梦幻运输工具。如今距离 2025 年不到半年，太空电梯进展如何？大林组技术本部的研究人员今年早些时候发表相关主题演讲时表示，虽然公司一直在认真踏实地开发关键技术，但需要解决的课题仍然堆积如山，目前离开工建设仍有距离。大林组设想首先是在高度 300km 处组装建造太空电梯用的宇宙飞船，然后令宇宙飞船移动到地球静止轨道上。接着从宇宙飞船上下伸展碳纳米管电缆，用电缆连接宇宙飞船和地面，然后在电缆上安装升降机。升降机在地面和宇宙之间穿梭，在加固电缆的同时，建设静止轨道空间站等设施。大林组的渕田安浩说：“电缆加固总共需要 510 次，到完成为止共需要大约 20 年时间”。",
+          "link": "https://www.solidot.org/story?sid=78994",
+          "publishedOn": "2024-08-16T06:08:05.000Z",
+          "wordCount": 176,
+          "title": "大林组的太空电梯计划不太可能在 2025 年动工",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.solidot.org/story?sid=78993",
+          "author": null,
+          "description": "根据一项新的地理空间分析，中低收入国家有超过 44 亿人无法获取得到安全管理的饮用水；这些地区有近一半人口的饮用水受到粪便污染的影响。获得安全的饮用水是一种人权，也是“联合国 2030 年可持续发展议程”的核心。通过将家庭调查数据与整个地球观测数据和地理空间建​​模技术相结合，研究人员绘制了 135 个中低收入国家安全管理饮用水的详图，发现在 2020 年，这些国家中只有三分之一的人能够获取得到安全管理的饮用水。这意味着在中低收入国家中，估计有 44 亿人缺乏安全饮用水。饮用水中检测到粪便污染令人担忧，因为摄入粪便中的病原体是公共卫生的重大风险，也是导致全球幼儿死亡的一个因素。",
+          "link": "https://www.solidot.org/story?sid=78993",
+          "publishedOn": "2024-08-16T05:48:09.000Z",
+          "wordCount": 175,
+          "title": "逾 44 亿中低收入国家居民难以获取安全饮用水",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.solidot.org/story?sid=78992",
+          "author": null,
+          "description": "2022 年美国国家标准技术局（NIST）宣布了后量子加密和签名算法竞赛的四位获胜者。现在它正式发布了三种后量子加密标准：基于 CRYSTALS-Kyber 的 ML-KEM 用于通用加密，ML-DSA（旧称 CRYSTALS-Dilithium）和 SLH-DSA（旧称 Sphincs+）用于数字签名，第四种 FN-DSA（旧称 FALCON）预计将在今年晚些时候完成，也将用于数字签名。四种后量子加密算法中 ML-KEM、ML-DSA 都是基于格(lattice)的算法，寻找格上的最短向量被认为是计算机领域最困难的问题之一，至今没有经典或量子算法能在多项式时间内解决该问题。NIST 还在评估两种使用不同数学方法的加密算法，万一基于格的算法被发现容易被量子计算机破解，候选算法可作为替代。",
+          "link": "https://www.solidot.org/story?sid=78992",
+          "publishedOn": "2024-08-16T05:39:10.000Z",
+          "wordCount": 174,
+          "title": "NIST 正式发布三种后量子加密标准",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.solidot.org/story?sid=78991",
+          "author": null,
+          "description": "在长达 12 年的法律拉锯战之后，新西兰司法部长 Paul Goldsmith 签署了引渡令，批准将 Kim Dotcom 从新西兰引渡到美国。Kim Dotcom 出生于德国，拥有新西兰居住权，他是现已关闭的文件共享网站 Megaupload 的创始人，2012 年新西兰执法部门应美国要求突击搜查了他的豪宅，逮捕了他以及三名 Megaupload 高管，此后 Dotcom 一直致力于对抗被引渡到美国。美国表示，Megaupload 鼓励付费用户上传和分享受版权保护的材料，使电影公司和唱片公司损失逾 5 亿美元，为该网站创造了逾 1.75 亿美元的收入。另外三名被捕的高管中首席营销官 Finn Batato 已在 2022 年去世，首席技术官兼联合创始人 Mathias Ortmann 和 Bram van der Kolk 则在 2023 年达成了认罪协议，分别被判 31 个月和 30 个月，他们不会引渡到美国。",
+          "link": "https://www.solidot.org/story?sid=78991",
+          "publishedOn": "2024-08-15T14:36:50.000Z",
+          "wordCount": 205,
+          "title": "Kim Dotcom 将从新西兰引渡到美国",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.solidot.org/story?sid=78990",
+          "author": null,
+          "description": "购买杀虫喷雾来对付蟑螂是浪费钱，因为蟑螂已对喷雾中的关键成分产生了抗药性。与人类共生的约 30 种蟑螂中，遍布全球的德国小蠊是最有可能大批出没于建筑物的一种。此前的研究表明，德国小蠊已经对常见的拟除虫菊酯杀虫剂产生了广泛的抗药性。佛罗里达大学的 Johnalyn Gordon 和同事发现，虽然家用杀虫喷雾对实验室培育、此前没接触过杀虫剂的德国小蠊依然有效，但它们对从实际环境中捕捉的蟑螂毫无效果。杀虫喷雾的设计初衷是被喷洒在各处，蟑螂经过这些被喷区域时就会死亡。但在该团队的测试中，实际环境捕捉的蟑螂暴露在被喷洒区域 20 分钟后，死亡率也仅有 20%。当蟑螂被强制留在被杀虫剂喷过的表面上时，大部分产品都需要花 8 到 24 小时才能杀死它们。此外先前的研究表明，蟑螂会努力避免在喷有拟除虫菊酯杀虫剂的区域停留，因此在现实中，它们不太可能长时间待在被喷过的地方。",
+          "link": "https://www.solidot.org/story?sid=78990",
+          "publishedOn": "2024-08-15T14:11:11.000Z",
+          "wordCount": 169,
+          "title": "为什么杀虫剂无法杀死蟑螂",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.solidot.org/story?sid=78989",
+          "author": null,
+          "description": "根据发表在《Nature Aging》上的一项研究，衰老不是渐进发生的，而是到了某个年龄之后会突然加速。研究人员跟踪了 108 名志愿者，他们的年龄在 25-75 岁之间，每隔几个月递交一次血液和粪便样本，以及皮肤、口腔和鼻拭子，持续时间从 1 年到 7 年不等。研究人员评估了 135,000 种分子（RNA、蛋白质和代谢物）和微生物（生活在志愿者肠道和皮肤上的细菌、病毒和真菌）。绝大多数分子和微生物的丰度不是渐进的、按时间顺序发生转变。研究人员发现，重大的转变通常发生在 44 岁和 60 岁左右。44 岁的衰老高峰出乎意料，研究人员最初以为是女性围绝经期（perimenopausal）变化导致的，但发现 40 多岁的男性也产生了类似的变化。第一波变化与心血管疾病相关的分子以及代谢咖啡因、酒精和脂质的能力有关。第二波变化与免疫调节、碳水化合物代谢和肾功能的分子有关。与皮肤和肌肉衰老有关的分子在两个时间点都发生了变化。44 岁的人突然加速衰老可能是因为这是人生中压力最大的时期。",
+          "link": "https://www.solidot.org/story?sid=78989",
+          "publishedOn": "2024-08-15T12:28:50.000Z",
+          "wordCount": 192,
+          "title": "科学家发现人类在 44 岁和 60 岁时突然加剧衰老",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.solidot.org/story?sid=78988",
+          "author": null,
+          "description": "微软未来几个月推出的下一次重大更新 Windows 11 v24H2 将默认启用 BitLocker 设备加密。如果用户全新安装 Windows 11 v24H2，首次用 Microsoft 帐户或工作/学校帐户登录或设置时，BitLocker 设备加密会默认启用，恢复密钥将备份到 Microsoft 帐户或 Entra ID。微软还降低了自动设备加密的硬件需求，并开放给 Windows 11 家庭版用户使用。",
+          "link": "https://www.solidot.org/story?sid=78988",
+          "publishedOn": "2024-08-15T11:08:43.000Z",
+          "wordCount": 195,
+          "title": "Windows 11 v24H2 将默认启用 BitLocker 设备加密",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.solidot.org/story?sid=78987",
+          "author": null,
+          "description": "哈勃（Edwin Hubble）在近一个世纪前发现宇宙在膨胀，星系彼此之间在快速远离，远离的速度与彼此的距离成正比，远离速度与距离的比值被称为哈勃常数（H0）。但对该常数的测量不同团队之间存在差异，以至于物理学家使用哈勃张力去解释这种差异。约翰霍普金斯大学 Adam Riess 领导的团队测量的 H0 值比理论预测的高约 8%。韦伯太空望远镜（James Webb Space Telescope）更清晰的观察数据被认为有助于解决相关争议。但 Adam Riess 团队根据韦伯数据得到的最新测量值仍然与旧的估计值一致。芝加哥大学 Wendy Freedman 领导的另一支团队对 H0 的测量则更接近理论预测值，意味着哈勃张力可能并不存在。Freedman 团队根据最新的韦伯数据也得到了他们的结果，但这一结果反而进一步加深了哈勃张力的争议：对两类恒星测量得到的 H0 值与理论预测的一致，但对 Riess 团队使用的第三类恒星的测量得到了更高也更接近的 H0 值。这一结果表明哈勃张力可能是存在的。",
+          "link": "https://www.solidot.org/story?sid=78987",
+          "publishedOn": "2024-08-15T10:14:35.000Z",
+          "wordCount": 181,
+          "title": "韦伯望远镜进一步加深了哈勃张力的争议",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.solidot.org/story?sid=78986",
+          "author": null,
+          "description": "WHO 总干事谭德塞宣布非洲的猴痘疫情为国际公共卫生紧急事件（PHEIC）。一种新的猴痘病毒株 1b 在刚果民主共和国东部快速扩散，它的几个邻国也都报告了感染病例。WHO 突发事件委员会认为猴痘病毒可能在非洲国家进一步蔓延，可能传播到非洲之外。总干事根据专家委员会的报告宣布了全球卫生紧急事件。今年迄今报告的猴痘病例数已超过去年总和，病例数超过 15,600 例，死亡人数 537 人。",
+          "link": "https://www.solidot.org/story?sid=78986",
+          "publishedOn": "2024-08-15T07:36:16.000Z",
+          "wordCount": 169,
+          "title": "WHO 宣布猴痘疫情为全球卫生紧急事件",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.solidot.org/story?sid=78985",
+          "author": null,
+          "description": "水熊虫以在极端环境下生存的能力著称，是第一种已知可以在太空中生存的动物，但它们是如何演化出这种超能力的？研究人员针对嵌在同一个扁豆大小的白垩纪琥珀中的两块水熊化石进行了重新分析，揭示了这种微小生物的家谱。研究表明，1.8 亿年前，水熊已经进化出了超能力——能够进入不受外界环境影响的假死状态。水熊之所以具有力，部分原因是它们可以长时间停止新陈代谢。这种被称为隐生的超能力可以使其忍受地狱般的环境。研究团队首次估计，水熊的超能力肯定是在 1.8 亿年前进化出来的，也可能早在 4.2 亿年前就已出现。这些能力可能帮助它们在几波生物大灭绝中幸存下来。",
+          "link": "https://www.solidot.org/story?sid=78985",
+          "publishedOn": "2024-08-15T06:57:36.000Z",
+          "wordCount": 163,
+          "title": "水熊虫如何演化出超能力",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.solidot.org/story?sid=78984",
+          "author": null,
+          "description": "从 8 月 8 日以日向滩为震源发生地震之后，日本气象厅每天发布“南海海槽地震相关解说信息”。主要提供自 8 月 8 日以来的地震发生次数以及地下岩层产生的“应变变化”的信息，并呼吁注意巨大地震。如无特别异常，将于 8 月 15 日下午 5 点停止发布提醒和提供信息。跟踪显示，在南海海槽地震的预想震源区域内，未观测到显示板块边界固着状况有特别变化的地震活动或地壳运动。之所以设定发布提醒时间为一周，是因为大规模地震的发生可能性随着时间的推移而降低，而且长期持续防灾是困难的。",
+          "link": "https://www.solidot.org/story?sid=78984",
+          "publishedOn": "2024-08-15T06:16:04.000Z",
+          "wordCount": 170,
+          "title": "日本今天将解除南海海槽地震预警",
+          "imageUrl": null
+        }
+      ]
+    },
+    {
+      "title": "虎嗅",
+      "feedUrl": "https://rss.huxiu.com/",
+      "siteUrl": "https://www.huxiu.com",
+      "articles": [
+        {
+          "id": "3368505",
+          "author": "经济观察报观察家",
+          "description": "本文来自微信公众号：经济观察报观察家 （ID：eeoobserver），作者：赵柏田\n\n\n第一个词：反抗\n\n\n没有谁敢于像加缪一样说，小说的本质就在于纠正现实世界。\n\n\n鼠疫蓄足全力扑向奥兰孤城时，人们为找回失去的幸福挣扎着，抵御威胁着自己的瘟神的奴役，200多页的小说行进到三分之一时，加缪的哲学像一支交响乐的主声部，开始通过叙述人呈现，这种显然已经揉合了个人生存经验的哲学，用一句话陈述，即存在就是反抗。加缪在1957年的受奖演说中把反抗视作作家这一职业的责任：不能迁就谎言和奴役，要为真理和自由服务。\n\n\n做出这样的承诺是艰难的，因为人本身所具有的缺陷，使他很难履行这样的承诺，拒绝对众所周知的事情撒谎。\n\n\n朗贝尔一直在作着个人化的斗争和反抗，这种斗争和反抗是为了个体的幸福。朗贝尔是一个记者，因为一次偶然他被困在了奥兰，被迫和恋人分离。他一直有一种错觉，或者说心存幻想，以为在鼠疫面前自己仍是自由的，可以自行做出抉择，事实上他忽略了，当灾难的阴影笼罩住了一切，已不存在个人的命运，有的只是集体的遭遇。为了不让鼠疫的魔爪捉住，朗贝尔想尽了种种办法出城，当事实证明通过合法手段出城已无望时他就另找出路，他甚至找到了一个秘密偷渡的地下组织。但一心想着要出城的朗贝尔在这里好像走入了一个迷宫，他像卡夫卡小说中的灰色人物一样永远接近不了目标。在和里厄医生的一次谈话中，他坦言自己不是个怕冒生命危险的人，“我没有和你们一起工作，是有我的理由”。朗贝尔在这里说的理由就是爱情，就是他的幸福。他把里厄他们的行动称作“为理想而死”的英雄主义行径，而他感兴趣的只是“为爱而生，为爱而死”。\n\n\n他和医生有过一次关于人是不是一种概念的争论，他面红耳赤地反驳医生—“人是一种概念，不过，一旦脱离了爱情，人就成为一种为时很短的概念，而现在正好我们不能再爱了，那么医生，让我们安心地忍耐吧，让我们等着能爱的时刻的到来，…",
+          "link": "https://www.huxiu.com/article/3368505.html?f=rss",
+          "publishedOn": "2024-08-17T07:22:00.000Z",
+          "wordCount": 121,
+          "title": "五个词里的加缪",
+          "imageUrl": "https://img.huxiucdn.com/article/article_default_picpath_v1.png?imageView2/1/w/800/h/450/|imageMogr2/strip/interlace/1/quality/85/format/png"
+        },
+        {
+          "id": "3367740",
+          "author": "硅星人",
+          "description": "施爷的真心话大冒险",
+          "link": "https://www.huxiu.com/article/3367740.html?f=rss",
+          "publishedOn": "2024-08-17T07:17:11.000Z",
+          "wordCount": 435,
+          "title": "谷歌前CEO施密特，装糊涂的高手？",
+          "imageUrl": "https://img.huxiucdn.com/article/cover/202408/17/144536853736.jpg?imageView2/1/w/800/h/450/|imageMogr2/strip/interlace/1/quality/85/format/jpg"
+        },
+        {
+          "id": "3365100",
+          "author": "硅谷101",
+          "description": "波音困境背后的权力游戏和利益纠葛",
+          "link": "https://www.huxiu.com/article/3365100.html?f=rss",
+          "publishedOn": "2024-08-17T07:00:00.000Z",
+          "wordCount": 67,
+          "title": "谎言、打压、逐利与权力游戏，波音如何失去制造骄傲的？",
+          "imageUrl": "https://img.huxiucdn.com/article/cover/202408/16/170914815575.jpg?imageView2/1/w/800/h/450/|imageMogr2/strip/interlace/1/quality/85/format/jpg"
+        },
+        {
+          "id": "3368040",
+          "author": "时代财经",
+          "description": "金价中长期内将保持上扬态势",
+          "link": "https://www.huxiu.com/article/3368040.html?f=rss",
+          "publishedOn": "2024-08-17T06:03:53.000Z",
+          "wordCount": 213,
+          "title": "三个月没买黄金，央行会出手吗？",
+          "imageUrl": "https://img.huxiucdn.com/ai/ai-article-cover/202408/17/3368040-mj-2.png?imageView2/1/w/800/h/450/|imageMogr2/strip/interlace/1/quality/85/format/png"
+        },
+        {
+          "id": "3357895",
+          "author": "动动枪DongDongGun",
+          "description": "奶茶也卷价格了？",
+          "link": "https://www.huxiu.com/article/3357895.html?f=rss",
+          "publishedOn": "2024-08-17T06:00:00.000Z",
+          "wordCount": 70,
+          "title": "奶茶市场迎来价格战，0.68元的蜜雪冰城能喝多久？",
+          "imageUrl": "https://img.huxiucdn.com/article/cover/202408/15/094536560401.jpg?imageView2/1/w/800/h/450/|imageMogr2/strip/interlace/1/quality/85/format/jpg"
+        },
+        {
+          "id": "3368037",
+          "author": "网易数读",
+          "description": "空调届的电费屠夫",
+          "link": "https://www.huxiu.com/article/3368037.html?f=rss",
+          "publishedOn": "2024-08-17T05:56:25.000Z",
+          "wordCount": 502,
+          "title": "月薪一万，用不起五级能效空调",
+          "imageUrl": "https://img.huxiucdn.com/article/cover/202408/17/133842444172.jpg?imageView2/1/w/800/h/450/|imageMogr2/strip/interlace/1/quality/85/format/jpg"
+        },
+        {
+          "id": "3364312",
+          "author": "蒙面财经",
+          "description": "7月楼市数据解读",
+          "link": "https://www.huxiu.com/article/3364312.html?f=rss",
+          "publishedOn": "2024-08-17T05:00:00.000Z",
+          "wordCount": 66,
+          "title": "楼市企稳了吗？7月楼市数据透露了哪些信号？",
+          "imageUrl": "https://img.huxiucdn.com/article/cover/202408/16/134231079543.jpg?imageView2/1/w/800/h/450/|imageMogr2/strip/interlace/1/quality/85/format/jpg"
+        },
+        {
+          "id": "3368027",
+          "author": "苗正卿",
+          "description": "需要在不同的市场拿出差异化竞争力",
+          "link": "https://www.huxiu.com/article/3368027.html?f=rss",
+          "publishedOn": "2024-08-17T04:41:47.000Z",
+          "wordCount": 108,
+          "title": "Lazada盈利了，但东南亚战事还在继续",
+          "imageUrl": "https://img.huxiucdn.com/article/cover/202408/17/122652229317.jpg?imageView2/1/w/800/h/450/|imageMogr2/strip/interlace/1/quality/85/format/jpg"
+        },
+        {
+          "id": "3367764",
+          "author": "底线思维©",
+          "description": "我们不能仅仅追求或看重离婚率下降这一数据上的“成功”",
+          "link": "https://www.huxiu.com/article/3367764.html?f=rss",
+          "publishedOn": "2024-08-17T04:04:01.000Z",
+          "wordCount": 245,
+          "title": "结婚自由、离婚不自由，还能说“婚姻自由”吗？",
+          "imageUrl": "https://img.huxiucdn.com/article/cover/202408/17/115210401888.jpg?imageView2/1/w/800/h/450/|imageMogr2/strip/interlace/1/quality/85/format/jpg"
+        },
+        {
+          "id": "3365897",
+          "author": "孔夫子旧书网©",
+          "description": "我相信市场经济是对资源的最佳配置。",
+          "link": "https://www.huxiu.com/article/3365897.html?f=rss",
+          "publishedOn": "2024-08-17T04:00:01.000Z",
+          "wordCount": 130,
+          "title": "老后藏书归何处?",
+          "imageUrl": "https://img.huxiucdn.com/ai/ai-article-cover/202408/16/3365897-mj-1.png?imageView2/1/w/800/h/450/|imageMogr2/strip/interlace/1/quality/85/format/png"
+        },
+        {
+          "id": "3363946",
+          "author": "差评君",
+          "description": "找到那些我们身边的人防工程",
+          "link": "https://www.huxiu.com/article/3363946.html?f=rss",
+          "publishedOn": "2024-08-17T04:00:00.000Z",
+          "wordCount": 70,
+          "title": "假如空袭来了，你家地下的车库是怎么保护你的？",
+          "imageUrl": "https://img.huxiucdn.com/article/cover/202408/16/120330558922.jpg?imageView2/1/w/800/h/450/|imageMogr2/strip/interlace/1/quality/85/format/jpg"
+        },
+        {
+          "id": "3367768",
+          "author": "界面新闻©",
+          "description": "并非由于限高",
+          "link": "https://www.huxiu.com/article/3367768.html?f=rss",
+          "publishedOn": "2024-08-17T03:41:42.000Z",
+          "wordCount": 136,
+          "title": "王自如被曝离职，或与内部渠道改革受阻有关",
+          "imageUrl": "https://img.huxiucdn.com/article/cover/202408/17/113004555373.jpg?imageView2/1/w/800/h/450/|imageMogr2/strip/interlace/1/quality/85/format/jpg"
+        },
+        {
+          "id": "3367750",
+          "author": "芋艿和猫说©",
+          "description": "流量困局有没有解法？",
+          "link": "https://www.huxiu.com/article/3367750.html?f=rss",
+          "publishedOn": "2024-08-17T03:15:52.000Z",
+          "wordCount": 344,
+          "title": "当下消费品市场，13条极具价值的实操经验分享",
+          "imageUrl": "https://img.huxiucdn.com/ai/ai-article-cover/202408/17/3367750-db-1.png?imageView2/1/w/800/h/450/|imageMogr2/strip/interlace/1/quality/85/format/png"
+        },
+        {
+          "id": "3363945",
+          "author": "投研部杨摸鱼",
+          "description": "国债运行底层逻辑、债务收缩十年",
+          "link": "https://www.huxiu.com/article/3363945.html?f=rss",
+          "publishedOn": "2024-08-17T03:00:00.000Z",
+          "wordCount": 69,
+          "title": "为啥国债涨个没完？关于国债，你一定要懂的宏观知识",
+          "imageUrl": "https://img.huxiucdn.com/article/cover/202408/16/111211342156.png?imageView2/1/w/800/h/450/|imageMogr2/strip/interlace/1/quality/85/format/png"
+        },
+        {
+          "id": "3367466",
+          "author": "ladymax©",
+          "description": "Ulta Beauty基本面稳定，拥有较深的护城河",
+          "link": "https://www.huxiu.com/article/3367466.html?f=rss",
+          "publishedOn": "2024-08-17T02:24:26.000Z",
+          "wordCount": 347,
+          "title": "巴菲特为何突然看上这家美妆零售？",
+          "imageUrl": "https://img.huxiucdn.com/ai/ai-article-cover/202408/17/3367466-mj-1.png?imageView2/1/w/800/h/450/|imageMogr2/strip/interlace/1/quality/85/format/png"
+        },
+        {
+          "id": "3361645",
+          "author": "华商韬略",
+          "description": "美国辣酱如何征服中国市场？",
+          "link": "https://www.huxiu.com/article/3361645.html?f=rss",
+          "publishedOn": "2024-08-17T02:00:00.000Z",
+          "wordCount": 69,
+          "title": "美国辣酱潜伏中国，一年狂捞480亿",
+          "imageUrl": "https://img.huxiucdn.com/article/cover/202408/15/181959476100.png?imageView2/1/w/800/h/450/|imageMogr2/strip/interlace/1/quality/85/format/png"
+        },
+        {
+          "id": "3367463",
+          "author": "财联社©",
+          "description": "本文来自微信公众号：财联社 （ID：cailianpress），作者：牛占林，原文标题：《欧盟提高疫情警戒级别 准备迎接更多输入性猴痘病例》\n\n\n欧洲疾病预防控制中心(ECDC)周五提高了对猴痘疫情的警戒级别，并预计在未来几周内会有更多的输入性猴痘病例。目前种种迹象表明，新一轮猴痘疫情已经在世界各地蔓延开来。\n\n\n欧盟公共卫生机构负责人表示，预计将有更多感染猴痘Ib型毒株的患者前往欧洲，建议欧洲国家对往返于受猴痘疫情影响地区的人发布旅行警告。\n\n\n此前一天，瑞典公共卫生局宣布，他们已经确认了首例Ib型猴痘感染病例，这是非洲大陆以外确诊的首例Ib型感染病例。周五早些时候，巴基斯坦卫生部表示，该国发现了2024年以来首例猴痘确诊病例，患者最近从海湾国家返回。\n\n\n世界卫生组织(WHO)总干事谭德塞本周宣布，猴痘疫情构成“国际关注的突发公共卫生事件”，这是该组织发出的最高级别警报。世卫组织官员周五将召开紧急会议，讨论如何确保全球国家公平地获得针对猴痘病毒的疫苗。\n\n\n猴痘疫情是由猴痘病毒引起的疾病，患者会出现皮疹或黏膜病变、发烧、头痛、全身疼痛和淋巴结肿大等症状。猴痘的人际传播可通过直接接触受感染的皮肤或其他病变部位发生。该疾病还可通过呼吸道飞沫传播。多数感染者会在几周内康复，但也有感染者病情严重甚至死亡。\n\n\n与以往毒株相比，这一轮流行的Ib变异株更加致命，目前的数据显示，Ib变异株的死亡率接近3%，大概是2022年疫情的15倍。\n\n\nECDC官员Pamela Rendi-Wagner表示：“由于欧洲和非洲之间的密切联系，我们必须为更多输入的Ib型猴痘感染病例做好应对准备。”\n\n\nECDC指出，与疑似或确诊感染猴痘新毒株的输入病例密切接触后，感染风险为“中等”。该中心表示，只要迅速诊断出输入病例并采取控制措施，猴痘在欧洲持续传播的可能性非常低。\n\n\n此外，世卫组织发言人玛格丽特·哈里斯在周五接受媒体采访时表示，她预计非洲以外很快会出现更多猴痘病例，这也是加强检测的结果。然而，世卫组织不建议采取任何旅行限制来阻止病毒的传播。\n\n\n国际红十字与红新月运动的官员声称，需要向非洲运送更多的诊断工具、治疗方法和疫苗，以充分应对那里暴发的猴痘疫情，这样也能阻止疫情向其他大洲蔓延。\n\n\n随着新一轮猴痘疫情引发越来越多人的关注，生产和开发猴痘疫苗的制药公司股价纷纷上涨。丹麦药企巴伐利亚北欧公司(Bavarian Nordic A/S)周五股价大涨近20%，该公司已向欧洲药品管理局(EMA)提交临床数据，寻求将Imvanex疫苗的适应症扩大至12至17岁的青少年。\n\n\n美国制药公司Tonix股价也大幅上涨，此前该公司表示将推进其猴痘疫苗的开发。Tonix首席执行官赛斯·莱德曼表示：“鉴于全球公共卫生紧急情况，我们有动力紧急推进猴痘疫苗的开发。”",
+          "link": "https://www.huxiu.com/article/3367463.html?f=rss",
+          "publishedOn": "2024-08-17T01:53:18.000Z",
+          "wordCount": 89,
+          "title": "欧盟提高疫情警戒级别，准备迎接更多输入性猴痘病例",
+          "imageUrl": "https://img.huxiucdn.com/article/article_default_picpath_v1.png?imageView2/1/w/800/h/450/|imageMogr2/strip/interlace/1/quality/85/format/png"
+        },
+        {
+          "id": "3367451",
+          "author": "粉巷财经©",
+          "description": "资产负债率176.83%",
+          "link": "https://www.huxiu.com/article/3367451.html?f=rss",
+          "publishedOn": "2024-08-17T01:50:27.000Z",
+          "wordCount": 239,
+          "title": "谁还能救陕西通家汽车？",
+          "imageUrl": "https://img.huxiucdn.com/ai/ai-article-cover/202408/17/3367451-db-1.png?imageView2/1/w/800/h/450/|imageMogr2/strip/interlace/1/quality/85/format/png"
+        },
+        {
+          "id": "3367442",
+          "author": "芋艿和猫说©",
+          "description": "你以为是玩养成，平台是在玩养鱼。",
+          "link": "https://www.huxiu.com/article/3367442.html?f=rss",
+          "publishedOn": "2024-08-17T01:48:13.000Z",
+          "wordCount": 558,
+          "title": "做抖音，要比抖音更渣",
+          "imageUrl": "https://img.huxiucdn.com/article/cover/202408/17/092518481413.jpg?imageView2/1/w/800/h/450/|imageMogr2/strip/interlace/1/quality/85/format/jpg"
+        },
+        {
+          "id": "3363488",
+          "author": "城事堂",
+          "description": "深度解读上半年财政收入数据",
+          "link": "https://www.huxiu.com/article/3363488.html?f=rss",
+          "publishedOn": "2024-08-17T01:00:00.000Z",
+          "wordCount": 69,
+          "title": "多地上涨，非税收入超2万亿？",
+          "imageUrl": "https://img.huxiucdn.com/article/cover/202408/16/065616223035.jpg?imageView2/1/w/800/h/450/|imageMogr2/strip/interlace/1/quality/85/format/jpg"
+        },
+        {
+          "id": "3366230",
+          "author": "经济观察报",
+          "description": "在不确定性中寻找确定性",
+          "link": "https://www.huxiu.com/article/3366230.html?f=rss",
+          "publishedOn": "2024-08-17T00:42:01.000Z",
+          "wordCount": 197,
+          "title": "从微观到宏观，市场的“隐忧与期待”",
+          "imageUrl": "https://img.huxiucdn.com/article/cover/202408/17/083259498264.jpg?imageView2/1/w/800/h/450/|imageMogr2/strip/interlace/1/quality/85/format/jpg"
+        },
+        {
+          "id": "3365916",
+          "author": "字母榜",
+          "description": "汽车、AI之后，现在又来到了机器人",
+          "link": "https://www.huxiu.com/article/3365916.html?f=rss",
+          "publishedOn": "2024-08-17T00:30:55.000Z",
+          "wordCount": 326,
+          "title": "苹果追着马斯克跑",
+          "imageUrl": "https://img.huxiucdn.com/article/cover/202408/17/082218940590.jpg?imageView2/1/w/800/h/450/|imageMogr2/strip/interlace/1/quality/85/format/jpg"
+        },
+        {
+          "id": "3361421",
+          "author": "格隆",
+          "description": "农民是全中国第一批为全社会缴纳社保的人。",
+          "link": "https://www.huxiu.com/article/3361421.html?f=rss",
+          "publishedOn": "2024-08-17T00:03:00.000Z",
+          "wordCount": 222,
+          "title": "谁来保障农民的风烛之年？",
+          "imageUrl": "https://img.huxiucdn.com/ai/ai-article-cover/202408/15/3361421-mj-2.png?imageView2/1/w/800/h/450/|imageMogr2/strip/interlace/1/quality/85/format/png"
+        },
+        {
+          "id": "3366215",
+          "author": "经济观察报",
+          "description": "让所有女性的生育选择权都得到同等保障，这才是面向未来的方向",
+          "link": "https://www.huxiu.com/article/3366215.html?f=rss",
+          "publishedOn": "2024-08-16T23:51:15.000Z",
+          "wordCount": 102,
+          "title": "单身女性冻卵：女性生育权利的重新界定",
+          "imageUrl": "https://img.huxiucdn.com/article/cover/202408/17/074705541890.jpg?imageView2/1/w/800/h/450/|imageMogr2/strip/interlace/1/quality/85/format/jpg"
+        },
+        {
+          "id": "3366616",
+          "author": "秦朔朋友圈©",
+          "description": "长时间的自控，透支意志力，等于慢性自杀。",
+          "link": "https://www.huxiu.com/article/3366616.html?f=rss",
+          "publishedOn": "2024-08-16T23:50:22.000Z",
+          "wordCount": 283,
+          "title": "你以为在自控，其实在自残",
+          "imageUrl": "https://img.huxiucdn.com/article/cover/202408/17/074212806368.jpg?imageView2/1/w/800/h/450/|imageMogr2/strip/interlace/1/quality/85/format/jpg"
+        },
+        {
+          "id": "3365870",
+          "author": "王沁",
+          "description": "虚拟陪伴，只能靠擦边赚钱吗？",
+          "link": "https://www.huxiu.com/article/3365870.html?f=rss",
+          "publishedOn": "2024-08-16T23:34:00.000Z",
+          "wordCount": 395,
+          "title": "氪金一万，养不活我的赛博男友",
+          "imageUrl": "https://img.huxiucdn.com/article/cover/202408/16/211957365461.jpg?imageView2/1/w/800/h/450/|imageMogr2/strip/interlace/1/quality/85/format/jpg"
+        },
+        {
+          "id": "3367186",
+          "author": "胡剑龙",
+          "description": "如今的出海，某种程度，在转入地面战的阶段。",
+          "link": "https://www.huxiu.com/article/3367186.html?f=rss",
+          "publishedOn": "2024-08-16T23:30:38.000Z",
+          "wordCount": 193,
+          "title": "在曼谷街头，我看到出海之变",
+          "imageUrl": "https://img.huxiucdn.com/article/cover/202408/17/072010035736.jpg?imageView2/1/w/800/h/450/|imageMogr2/strip/interlace/1/quality/85/format/jpg"
+        },
+        {
+          "id": "3366621",
+          "author": "每日经济新闻©",
+          "description": "本文来自微信公众号：每日经济新闻 （ID：nbdnews），作者：每经记者，编辑：程鹏张海妮盖源源，原文标题：《突然就“违纪”了，多名员工被约谈、劝退！“工作12年，40多岁遭解雇，什么赔偿都没有”……知名大牌中国市场两年巨亏3.3亿元》\n\n\n在国际市场赫赫有名、背靠全球第一大奢侈品集团LVMH（路威酩轩）、身影遍布高端商圈的美妆零售品牌丝芙兰（Sephora），在中国市场“优化”人员？\n\n\n“突然就被待岗了”“我是被哄骗离职的”“我也被约谈了，想劝退我”⋯⋯近期，关于丝芙兰“优化人员”的发帖、讨论出现在多个社交平台，引发大量网友关注和不解，“好歹是LVMH旗下的品牌，为何会这样？”\n\n\n“我在丝芙兰工作了12年，现在40多岁了突然被解雇。”卢佳（化名）在接受《每日经济新闻》记者采访时很是不舍和伤心。还有多位受访者告诉《每日经济新闻》记者，丝芙兰本次裁员涉及全国多店，不少工龄较长的员工也在其中。此前被默许的拼单团购，现在一旦被发现，就算“违纪”，会被“约谈”甚至被“优化”。\n\n\n对于上述受访者的说法，《每日经济新闻》记者于8月9日及14日，拨打丝芙兰中国公开电话表达采访意愿，接听电话的工作人员均表示，已记录下来，会向公司反馈，后续有专员联系记者，但截至发稿记者暂未获得回复。\n\n\n8月16日，《每日经济新闻》记者来到丝芙兰中国官网公示的联系地址——上海静安南京西路，经了解，此处并不是丝芙兰上海总部的办公地址，而是公司IT部门及市场活动地址，这里共有3层，员工数过百，就公司内部而言并没有收到裁员相关信息。随后，记者又找到丝芙兰上海总部地址，两处办公地址均正常运营。\n\n\n记者注意到，虽然丝芙兰全球业绩尚好，但其在中国市场已现隐忧，已连续两年亏损，累计超3.3亿元⋯⋯\n\n\n员工疑惑：曾默许冲销量的\n\n\n“潜规则”为何现在成了“违纪”\n\n\n近日，丝芙兰在社交媒体平台上掀起了一股风波，…",
+          "link": "https://www.huxiu.com/article/3366621.html?f=rss",
+          "publishedOn": "2024-08-16T16:31:19.000Z",
+          "wordCount": 127,
+          "title": "突然就“违纪”了，多名员工被约谈、劝退，“工作12年，40多岁遭解雇，什么赔偿都没有”……知名大牌中国市场两年巨亏3.3亿元",
+          "imageUrl": "https://img.huxiucdn.com/article/article_default_picpath_v1.png?imageView2/1/w/800/h/450/|imageMogr2/strip/interlace/1/quality/85/format/png"
+        },
+        {
+          "id": "3366612",
+          "author": "经济观察报",
+          "description": "本文来自微信公众号：经济观察报 （ID：eeo-com-cn），作者：王雅洁，原文标题：《近5000条投资者提问紧盯央企市值管理 于翔：建议更多关注回购、分红和股东增持》\n\n\n从7月15日至8月15日这一个月以来，经济观察网统计获悉，投资者互动平台上关于央企市值管理的问询，以上证e互动为例，聚焦央企市值管理的投资者提问已超600条。\n\n\n将时间线放宽，从2024年1月1日开始，截至8月15日，关于央企市值管理的投资者问询已超4000条。\n\n\n如果算上深交所互动易，从2024年初到现在，这两个平台上关于央企市值管理的投资者提问，已经接近5000条。\n\n\n触动投资者神经的，不仅仅因为市值管理关乎央企的股价和投资人的收益，也折射着国企改革与转型的真实成效。推动央企市值管理，是国资管理从管资产向管资本的真正转变表现，意义重大。\n\n\n监管层已经在做出反应，经济观察网获悉，国务院国资委（国资委）也在持续推动将市值管理纳入中央企业负责人业绩考核。不止一家央企也在内部展开研讨，探索相应的市值管理新办法。\n\n\n中信证券研究部政策研究首席分析师于翔曾多次参与国资委等部委的相关调研，并承接委托课题工作。他所在的团队2024年初也曾专门针对国资委的市值管理问题展开专项研究。\n\n\n他认为，在操作路径上，市值管理可以从净利润与市盈率角度展开。\n\n\n他说：“市值既可以通过股价和股本计算，也可以通过净利润和市盈率计算。”不过，以股价和股本出发的市值管理短期固然能够提升市值，但是对于公司长期的市值增长贡献较低，而且容易陷入到“操纵股价”，“内幕交易”等“伪市值管理”中。\n\n\n经济观察网：投资者最需要关注央企市值管理的哪些方面？你给关注市值管理的投资者，有什么建议？\n\n\n于翔：“市值管理”既需要政策的自上而下的引导部署，也需要央国企的方案制定细化落实，两方面进展均值得投资者持续关注。\n\n\n当前，国资委已经逐步…",
+          "link": "https://www.huxiu.com/article/3366612.html?f=rss",
+          "publishedOn": "2024-08-16T16:04:20.000Z",
+          "wordCount": 114,
+          "title": "近5000条投资者提问紧盯央企市值管理，于翔：建议更多关注回购、分红和股东增持",
+          "imageUrl": "https://img.huxiucdn.com/article/article_default_picpath_v1.png?imageView2/1/w/800/h/450/|imageMogr2/strip/interlace/1/quality/85/format/png"
+        }
+      ]
+    },
+    {
+      "title": "虎嗅网",
+      "feedUrl": "https://www.huxiu.com/rss/0.xml",
+      "siteUrl": "http://www.huxiu.com",
+      "articles": [
+        {
+          "id": "http://www.huxiu.com/article/3363945.html?f=wangzhan",
+          "author": null,
+          "description": "近期，国债市场风起云涌，从攀升热潮到国家调控，其动态备受瞩目。因此，国债走势成为金融市场焦点，牵动万千投资者心弦。为何国债持续走高？其背后运作的底层逻辑是什么？本期视频，将深度剖析国债市场，分析其底层逻辑和债务收缩十年，探讨国债价格波动的原因及其对经济的影响。\n\n下载虎嗅APP，第一时间获取深度独到的商业科技资讯，连接更多创新人群与线下活动",
+          "link": "http://www.huxiu.com/article/3363945.html?f=wangzhan",
+          "publishedOn": "2024-08-17T03:00:00.000Z",
+          "wordCount": 69,
+          "title": "为啥国债涨个没完？关于国债，你一定要懂的宏观知识",
+          "imageUrl": "https://img.huxiucdn.com/article/cover/202408/16/111211342156.png?imageView2/1/w/800/h/450/|imageMogr2/strip/interlace/1/quality/85/format/png"
+        },
+        {
+          "id": "http://www.huxiu.com/article/3361091.html?f=wangzhan",
+          "author": null,
+          "description": "老城区，承载着时光、记忆与童年的温暖，是心灵的归宿。新余之行，让我重温了这份情怀。漫步其间，慢节奏与烟火气交织，老建筑焕发新生，既保留了岁月的痕迹，又洋溢着现代舒适。人们友好相待，处处洋溢着慢生活的安定与温馨。新余，这座江西小城，以它独有的方式，给予我治愈与感动。\n下载虎嗅APP，第一时间获取深度独到的商业科技资讯，连接更多创新人群与线下活动",
+          "link": "http://www.huxiu.com/article/3361091.html?f=wangzhan",
+          "publishedOn": "2024-08-16T10:00:00.000Z",
+          "wordCount": 69,
+          "title": "江西新余：小城漫步，就让时光慢下来吧",
+          "imageUrl": "https://img.huxiucdn.com/article/cover/202408/15/155115358241.jpg?imageView2/1/w/800/h/450/|imageMogr2/strip/interlace/1/quality/85/format/jpg"
+        },
+        {
+          "id": "http://www.huxiu.com/article/3364556.html?f=wangzhan",
+          "author": null,
+          "description": "专利之争即市场份额之争。当新能源市场份额争夺赛日趋白热化，关于新能源企业的知识产权诉讼也在不断升级，混战一片。\n\n\n本文来自微信公众号：环球零碳，作者：Yinyin，编辑：Tang，原文标题：《新能源企业半壁江山卷入专利纷争，技术护城河成生死战》，题图来自：AI生成\n\n\n新能源企业发展的历史，也可以说是一部专利权争夺战的历史。\n\n\n当下的“专利战”，更像是另一个维度的市场透镜，当新能源市场的竞争开始白热化，知识产权的纷争也如影随形，开始多了起来。\n\n\n不管是光伏企业，还是锂电池、新能源汽车领域，知识产权专利纷争频发，新能源企业的半壁江山均卷入，名单越来越长，包括多家头部企业。\n\n\n从2019年海外老牌光伏公司韩华Q-CELLS分别在美国、澳大利亚、德国等地告隆基、晶科，到现在天合光能、阿特斯、晶澳科技、正泰新能，以及宁德时代、中创新航、吉利、威马等，专利纠纷案此起彼伏，波及产业链多环节。\n\n\n知识产权的争夺是市场竞争的延伸，更是市场逐渐扩张、竞争越来越激烈的投射。打造技术专利“护城河”，已成企业生死突围和持续增长的重要保障。\n\n\n一家头部新能源企业的知识产权专家对《环球零碳》表示，越来越多的专利诉讼体现出如今国内新能源企业的竞争已经白热化了，现在大家都想抢占更多市场份额，比如利润更高的海外市场。在这个过程里，专利之争就是市场份额之争。\n\n\n另一位知识产权专家还表示，对于希望出海的企业来说，要面对的不仅是来自国内企业的竞争，还有海外企业的竞争。这些海外企业往往发展时间更久，专利覆盖更完善。“贸易壁垒”中的反倾销、反补贴调查只是第一步，而第二步就是争夺知识产权的高地。\n\n\n一场诉讼，大概会走向和解、专利交叉许可、赔偿或禁售等几种结果。而后两种更为严厉的结果，对竞争对手的市场份额来说，将会是不小的打击。\n\n\n锂电池：头部企业发起主攻\n\n\n在锂电池领域的“专利战场”上，宁德时代发起…",
+          "link": "http://www.huxiu.com/article/3364556.html?f=wangzhan",
+          "publishedOn": "2024-08-16T08:28:12.000Z",
+          "wordCount": 312,
+          "title": "头部新能源企业卷入专利纷争，技术护城河成生死战",
+          "imageUrl": "https://img.huxiucdn.com/ai/ai-article-cover/202408/16/3364556-mj-1.png?imageView2/1/w/800/h/450/|imageMogr2/strip/interlace/1/quality/85/format/png"
+        },
+        {
+          "id": "http://www.huxiu.com/article/3361685.html?f=wangzhan",
+          "author": null,
+          "description": "出品丨虎嗅汽车组\n\n作者丨李铭扬\n头图来源丨视觉中国\n\n\n最近10年，是电动汽车大规模占领市场的10年，汽车的动力总成从内燃机逐渐向三电过渡。但其实除了动力总成之外，整车上下的各个部位也都走向电气化升级，机械档杆被电子档杆所取代、机械仪表盘被全液晶仪表盘取代、物理控制按键被液晶大屏所取代，而如今这股电气风逐渐刮到了汽车的两个耳朵：外后视镜这个部件上。\n\n\n本期暗信号，就从技术应用角度和用户体验角度，详细聊聊电子外后视镜的设计方案。这到底是一项提升用户体验的高科技，还是为了创新而创新的鸡肋技术？\n\n\n\n\n\n去年7月，国标GB15084-2022正式实施《机动车辆间接视野装置性能和安装要求》，其中包括摄像机-监视器系统”、“后视镜和CMS双功能系统”等内容，新国标允许电子后视镜取代传统的物理光学后视镜。在那之后，国内外一级供应商先后推出了CMS电子后视镜配置，一些车企也开始定点采购，面向消费者提供选装。\n\n\nCMS系统全称Camera-Monitor System电子外后视镜，ISO 国际标准组织将其定义为摄像头监控系统，由摄像头+控制处理系统+监控屏幕三部分组成。位于车外的摄像头负责采集图像，经过系统处理之后，车内的监控屏幕显示实时画面。\n\n\n\n图片来源：虎嗅汽车\n\n\nKyrie（某一级供应商研发负责人，为自主品牌车企提供电子后视镜方案）告诉笔者：从最早的平面镜到不同曲率的曲面镜，这些年汽车的外后视镜一直都在迭代。但物理光学外后视镜终究有技术上限。例如，大雨天气下，外后视镜+前车窗两层雨水覆盖，必然会影响视线。又比如，夜间路况下，后车灯光过亮时非常容易对前车形成眩目，或者部分车辆忘记打开车灯，这些行为都会对前车造成行驶危险。\n\n\n而CMS电子后视镜的存在，很大程度上就可以解决这些问题，让外后视镜视觉不受天气影响、夜视更清晰，同时也能消除视野盲区，利用曲率变化让驾驶视野更宽广，…",
+          "link": "http://www.huxiu.com/article/3361685.html?f=wangzhan",
+          "publishedOn": "2024-08-15T14:05:08.000Z",
+          "wordCount": 187,
+          "title": "汽车的两个耳朵，未来如何进化？",
+          "imageUrl": "https://img.huxiucdn.com/article/cover/202408/15/184414152449.jpg?imageView2/1/w/800/h/450/|imageMogr2/strip/interlace/1/quality/85/format/jpg"
+        },
+        {
+          "id": "http://www.huxiu.com/article/3361063.html?f=wangzhan",
+          "author": null,
+          "description": "很多时候看股票的基本面明明非常优秀，按照财务指标把最优秀的公司选了出来，但怎么一买还是会亏呢？到底是被庄家盯上了，还是自己学艺不精？其实要提升你策略成功率很简单，在投入真金白银去实盘之前去做一下回测。那么，该如何对财务指标和策略进行回测呢？本期视频，我们就带大家在主要的财务指标类型当中选出最具有代表性的几个，去测试这些指标在选股当中是否有效，并揭示他们的正确用法。\n下载虎嗅APP，第一时间获取深度独到的商业科技资讯，连接更多创新人群与线下活动",
+          "link": "http://www.huxiu.com/article/3361063.html?f=wangzhan",
+          "publishedOn": "2024-08-15T11:00:00.000Z",
+          "wordCount": 69,
+          "title": "如何量化价值投资？财务指标，多少人用错了？",
+          "imageUrl": "https://img.huxiucdn.com/article/cover/202408/15/145127013181.jpg?imageView2/1/w/800/h/450/|imageMogr2/strip/interlace/1/quality/85/format/jpg"
+        },
+        {
+          "id": "http://www.huxiu.com/article/3360064.html?f=wangzhan",
+          "author": null,
+          "description": "最近，被称为扫地机器人第一股的科沃斯被爆出安全漏洞，只用一款手机就能破解他家多款产品的摄像头。数据时代下，隐私问题一直都是人们关注的焦点，此事一出更是引起了公众的广泛热议。那么，具体情况如何？本期视频，带你一探究竟。\n下载虎嗅APP，第一时间获取深度独到的商业科技资讯，连接更多创新人群与线下活动",
+          "link": "http://www.huxiu.com/article/3360064.html?f=wangzhan",
+          "publishedOn": "2024-08-15T08:58:00.000Z",
+          "wordCount": 69,
+          "title": "家用扫地机器人，正在偷窥你的生活",
+          "imageUrl": "https://img.huxiucdn.com/article/cover/202408/15/110120701119.jpg?imageView2/1/w/800/h/450/|imageMogr2/strip/interlace/1/quality/85/format/jpg"
+        },
+        {
+          "id": "http://www.huxiu.com/article/3360013.html?f=wangzhan",
+          "author": null,
+          "description": "本文来自微信公众号：云见 Insight，作者：王海璐，原文标题：《特斯拉把 Robotaxi 想简单了 | 对话轻舟智航联合创始人侯聪》，头图来自：视觉中国\n\n\n自动驾驶行业一直存在两种路线之争。以谷歌 Waymo 为代表的自动驾驶公司，和以特斯拉为代表的车企，从同一座山峰的南坡和北坡往上爬。山顶是无人驾驶，其中最有吸引力的商业场景是 Robotaxi（自动驾驶出租车）。\n\n\n虽然销量和股价都显示，特斯拉爬山的速度更快。但当创始人马斯克提出，将在今年 10 月推出特斯拉 Robotaxi 时，还是引发了不少争议。\n\n\n轻舟智航联合创始人、总裁侯聪就是质疑者之一。“我一直不太理解。Robotaxi 这个故事讲了这么多年，一直没实现，为什么大家还愿意相信马斯克？” 侯聪说。\n\n\n虽然特斯拉基于端到端技术的智驾系统 FSD V12 表现优越，但侯聪认为，这距离真正的 Robotaxi 还很远。他随口举出一个系统处理不了的事情：“车卡在路中间怎么办？你让车主打车过去，把车解救走吗？”\n\n\n城市道路复杂、人车混行，存在着大量的博弈场景，今天的人工智能还应付不来。Waymo 全副武装的 Robotaxi 车队都没能走出示范区，侯聪认为，特斯拉只依靠摄像头，根本不可能达到 Robotaxi 的要求。\n\n\n轻舟智航的四位联合创始人都来自 Waymo。侯聪一毕业就加入了谷歌，先是做编译器，后来转到了 Google X 实验室的无人车项目组，做感知系统。\n\n\n轻舟智航的联合创始人、CEO 于骞当时也在感知组，和侯聪是同一个部门的同事。二人还是清华大学的校友。\n\n\n侯聪本科学自动化，研究生转到了计算机系。但没等拿到学位，就去美国佐治亚理工学院读博了。他形容自己对纯学术研究兴趣不大，更向往技术工程实践，于是博士毕业就去了谷歌。\n\n\n2016 年，谷歌把无人车项目组分拆，成立了 Waymo，由谷歌…",
+          "link": "http://www.huxiu.com/article/3360013.html?f=wangzhan",
+          "publishedOn": "2024-08-15T03:54:25.000Z",
+          "wordCount": 1684,
+          "title": "特斯拉把 Robotaxi 想简单了",
+          "imageUrl": "https://img.huxiucdn.com/article/cover/202408/15/111633002063.jpg?imageView2/1/w/800/h/450/|imageMogr2/strip/interlace/1/quality/85/format/jpg"
+        },
+        {
+          "id": "http://www.huxiu.com/article/3354219.html?f=wangzhan",
+          "author": null,
+          "description": "出品丨妙投 APP\n作者丨李赓\n头图丨视觉中国\n\n\n中国汽车太卷了。价格战还要继续么？\n\n\n\n\n数据来自乘联会秘书长崔树东企业统计\n\n\n从2023年初开始，中国车市新一轮“价格战”骤然开打，激烈程度不断加剧。\n\n\n从自主车企再到合资，不断通过对已有车型的“直接降价”或者“象征性推出新款车型”，不断祭出降价举措，以期获得更高的市场占比或是“维护”自身销量。\n\n\n\n\n数据来自：大搜车\n\n\n相比各种凌乱的“指导价”和现实销售价格，“二网折扣率”（“二网”指非品牌授权的经销商，前者通过一网经销商或其他渠道获取车辆，然后进行销售。）的变化趋势更能反映价格战的真实烈度。\n\n\n根据国内汽车新零售平台“大搜车”的统计，今年6月中国市场的“二网折扣率”突破了19%，传统能源车型更是高达24%，远高于2019年之前10%左右的正常水平。\n\n\n大幅和持续的“打折”，让国内销量逆势”在2023～2024年实现了大环境转差背景下的止跌转涨。根据乘联会统计，今年1～5月国内狭义乘用车累计产量1159万辆，同比增长5.3%；批发销量累计1175万辆，同比增长6.1%。\n\n\n销量的提升也带来行业营收和利润的增长。根据国家统计局官方数据，1～5月中国汽车制造业营收3.90万亿，同比上涨6.8%，利润总额2047亿元，更是同比上涨了17.9%。\n\n\n\n\n数据来源：国家统计局\n\n\n但如果我们进一步抛开绝对值，代入到行业利润率的视角，全行业的“艰难”可谓跃然纸上——自2016年以来，中国汽车制造业的总体利润水平一直在下降。即便是社会运转全面恢复正常的2023年，全行业的总利润额也出现了下滑，利润率更是降至仅5%的历史新低点。\n\n\n\n\n数据来源：公司公开数据；注：前十总计含一汽和奇瑞两家未上市公司，部分营收和利润为预估值\n\n\n具体到企业层面，以行业中拿走利润大头的车企为例，中国前十大车企2023年凭借2315万的销…",
+          "link": "http://www.huxiu.com/article/3354219.html?f=wangzhan",
+          "publishedOn": "2024-08-14T23:09:00.000Z",
+          "wordCount": 818,
+          "title": "中国汽车，“卷”无退路",
+          "imageUrl": "https://img.huxiucdn.com/article/cover/202408/13/223452819251.jpg?imageView2/1/w/800/h/450/|imageMogr2/strip/interlace/1/quality/85/format/jpg"
+        },
+        {
+          "id": "http://www.huxiu.com/article/3349720.html?f=wangzhan",
+          "author": null,
+          "description": "当产生剧烈的情绪反应时，总会气到发抖、哭到手麻？这些其实是非常正常的生理现象，而对身体反应的压抑，反而会把情绪困在身体里，甚至导致情绪过载从而影响健康。允许情绪表达，身体才不会“吃苦”。\n下载虎嗅APP，第一时间获取深度独到的商业科技资讯，连接更多创新人群与线下活动",
+          "link": "http://www.huxiu.com/article/3349720.html?f=wangzhan",
+          "publishedOn": "2024-08-14T13:00:00.000Z",
+          "wordCount": 69,
+          "title": "气到发抖哭到手麻？允许情绪表达，身体才不会“吃苦”",
+          "imageUrl": "https://img.huxiucdn.com/article/cover/202408/12/203236103569.png?imageView2/1/w/800/h/450/|imageMogr2/strip/interlace/1/quality/85/format/png"
+        },
+        {
+          "id": "http://www.huxiu.com/article/3356365.html?f=wangzhan",
+          "author": null,
+          "description": "出品丨虎嗅汽车组\n作者丨肖漫\n头图丨视觉中国\n\n\n\n“究竟该如何让行业真正相信英特尔接下来会持续投入汽车业务呢？”\n\n \n今年 1 月，CES 2024 的英特尔汽车业务发布活动上，英特尔 CEO Pat Gelsinger 登台后，英特尔汽车业务总经理 Jack Weast 提出了这一问题。\n \n作为全球头部的芯片制造商，英特尔近年来在汽车业务上战略摇摆和缺位是有目共睹的事实。最终导致的结果是，其主要竞争对手高通在座舱领域一家独大，英伟达在智能驾驶芯片上大发异彩，而英特尔的几番进出直接导致其丧失抢占市场先机。\n \n“英特尔有5年空白期，但现在我们会把失去的都夺回来。”在发布座舱独立显卡后的沟通会上，英特尔汽车业务销售总监李喆说道。\n \n值得注意的是，在座舱独立显卡发布前夕，英特尔正面临前所未有的危机时刻，财报不及预期、大规模裁员、股价一度下跌 26.06%……一系列新闻接连暴击这家芯片公司。\n \n尽管汽车业务并非英特尔的核心业务，但作为目前最蓬勃且具备足够发展前景的市场，英特尔亟需抓住这根救命稻草。\n \n借 AI 大模型的东风\n\n\n在今年年初的 CES 发布会上，英特尔宣布了其将主攻智能座舱芯片、电车能源AI管理、开放式汽车芯片定制平台三大方向。\n \n但目前的市场情况是，高通在座舱芯片市场已经具备了生态合作优势，包括理想、小鹏、蔚来等品牌纷纷采用。2024年上半年的数据显示，高通在座舱域控芯片市场以155万余颗的装机量，占据了66.7%的市场份额。\n \n英特尔此时进场，挑战不小，且胜算不大。\n \n面对艰难开局，英特尔的打法是——借助 AI 大模型上车趋势，通过不同产品组合实现端侧部署高算力，以适应智能座舱的高算力需求。\n \n基于这一预判，英特尔在今年打出了“座舱SOC+座舱独立显卡”的产品组合拳。\n \n今年年初，英特尔发布了第一代软件定义车载座舱 SoC 系列，源于酷睿芯…",
+          "link": "http://www.huxiu.com/article/3356365.html?f=wangzhan",
+          "publishedOn": "2024-08-14T08:21:00.000Z",
+          "wordCount": 469,
+          "title": "英特尔想动高通的奶酪",
+          "imageUrl": "https://img.huxiucdn.com/article/cover/202408/14/104349671322.jpg?imageView2/1/w/800/h/450/|imageMogr2/strip/interlace/1/quality/85/format/jpg"
         }
       ]
     }
