@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://faiwongyip.github.io/reader1/index.html</id>
     <title>osmos::feed</title>
-    <updated>2024-08-17T07:34:15.018Z</updated>
+    <updated>2024-08-17T07:35:19.765Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://faiwongyip.github.io/reader1/index.html"/>
     <link rel="self" href="https://faiwongyip.github.io/reader1/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[欧耶！刚兑的信仰又回来了！]]></title>
+        <id>https://www.jisilu.cn/question/498719</id>
+        <link href="https://www.jisilu.cn/question/498719"/>
+        <updated>2024-08-17T07:34:43.000Z</updated>
+        <summary type="html"><![CDATA[根据初步收购方案，收购对象为截至2024年8月14日收市的“岭南转债”持有人。收购额度方面，截至2024年8月14日收市，债券持有人所持有的“岭南转债”不高于1000张的，按照其持有的全部债券数量收购；持有债券数量超过1000张的，以1000张为限，部分收购。]]></summary>
+        <author>
+            <name>集思录</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[2025年会又小牛市吗]]></title>
         <id>https://www.jisilu.cn/question/498718</id>
