@@ -2,10 +2,33 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://faiwongyip.github.io/reader1/index.html</id>
     <title>osmos::feed</title>
-    <updated>2024-08-17T07:11:09.637Z</updated>
+    <updated>2024-08-17T07:15:21.201Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://faiwongyip.github.io/reader1/index.html"/>
     <link rel="self" href="https://faiwongyip.github.io/reader1/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[岭南转债1000张以下的要被收购了]]></title>
+        <id>https://www.jisilu.cn/question/498710</id>
+        <link href="https://www.jisilu.cn/question/498710"/>
+        <updated>2024-08-17T07:14:36.000Z</updated>
+        <summary type="html"><![CDATA[关于中山市人才创新创业生态园服务有限公司拟向“岭南转债”持有人部分收购债券的公告]]></summary>
+        <author>
+            <name>集思录</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[关于中山市人才创新创业态园服务有限公司拟向"岭南转债"持有人部分收购债券的公告]]></title>
+        <id>https://www.jisilu.cn/question/498709</id>
+        <link href="https://www.jisilu.cn/question/498709"/>
+        <updated>2024-08-17T07:11:56.000Z</updated>
+        <summary type="html"><![CDATA[三、本次收购初步方案
+公司于2024年8月16日接到中山市人才创新创业生态园服务有限公司的通知，中山市人才创新创业生态园服务有限公司计划收购部分"岭南转债"，初步收购方案如下：
+收购对象：截至2024年8月14日收市的"岭南转债"持有人。
+收购额度：截至202...]]></summary>
+        <author>
+            <name>集思录</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[关于中山市人才创新创业生态园服务有限公司拟向“岭南转债”持有人部分收购债券的公告]]></title>
         <id>https://www.jisilu.cn/question/498708</id>
