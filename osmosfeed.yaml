@@ -5,8 +5,7 @@
 
 cacheUrl: https://faiwongyip.github.io/reader1/cache.json
 sources:
-  - href: https://github.com/osmoscraft/osmosfeed/releases.atom # Get new feature announcement via this feed
-  - href: https://css-tricks.com/feed/
-  - href: https://www.smashingmagazine.com/feed/
-  - href: https://www.freecodecamp.org/news/rss/
   - href: https://www.jisilu.cn/feed
+  - href: https://feeds.feedburner.com/solidot
+  - href: https://rss.huxiu.com/
+  - href: https://www.huxiu.com/rss/0.xml
