@@ -5,10 +5,60 @@
 
 cacheUrl: https://faiwongyip.github.io/reader1/cache.json
 sources:
-  - href: https://www.jisilu.cn/feed
   - href: https://feeds.feedburner.com/solidot
   - href: https://rss.huxiu.com/
-  - href: https://www.huxiu.com/rss/0.xml
+  - href: http://www.sciencenet.cn/xml/paper.aspx?di=1
+  - href: https://www.williamlong.info/rss.xml
+  - href: https://www.dgtle.com/rss/dgtle.xml
+  - href: https://sspai.com/feed
+  - href: https://www.leiphone.com/feed
+  - href: https://www.zhihu.com/rss
+  - href: https://xueqiu.com/hots/topic/rss
+  - href: https://dq.yam.com/rss.php
   - href: https://www.ptt.cc/atom/Gossiping.xml
-  - href: https://news.baidu.com/n?cmd=1&class=civilnews&tn=rss
-
+  - href: https://feedx.net/rss/guanzhi.xml
+  - href: https://rss.aishort.top/?type=baidu
+  - href: https://pansci.asia/feed
+  - href: https://www.jisilu.cn/feed
+  - href: https://rsshub.app/weibo/search/hot
+  - href: https://rsshub.app/latepost
+  - href: https://www.wainao.me/rss.xml
+  - href: https://feedx.net/rss/jiemian.xml
+  - href: https://rsshub.app/thepaper/featured
+  - href: https://theinitium.com/newsfeed/
+  - href: https://rsshub.app/wallstreetcn/news/global
+  - href: https://rsshub.app/zaobao/znews/china
+  - href: https://rsshub.app/zaobao/znews/world
+  - href: https://feedx.run/rss/reutersen.xml
+  - href: https://rsshub.app/infzm/1
+  - href: https://rsshub.app/cna/acn
+  - href: https://www.hket.com/rss/hongkong
+  - href: https://www.chinatimes.com/sitemaps/sitemap_todaynews.xml
+  - href: https://rsshub.app/rfa/mandarin
+  - href: http://www.ftchinese.com/rss/news
+  - href: http://www.ftchinese.com/rss/hotstoryby7day
+  - href: http://www.techweb.com.cn/rss/focus.xml
+  - href: https://rsshub.app/dapenti/tugua
+  - href: https://feedx.net/rss/nikkei.xml
+  - href: https://rsshub.app/8world/greater-china
+  - href: http://jandan.net/feed
+  - href: https://rsshub.app/jandan/top
+  - href: https://rsshub.app/bilibili/ranking/0/3
+  - href: http://feeds.feedburner.com/ruanyifeng
+  - href: https://rsshub.app/v2ex/topics/hot
+  - href: https://rsshub.app/juejin/pins
+  - href: https://rsshub.app/juejin/trending/all/monthly
+  - href: https://rsshub.app/blogread/newest
+  - href: https://www.infoq.cn/feed
+  - href: https://tech.meituan.com/feed/
+  - href: https://rsshub.app/nga/forum/498
+  - href: https://rsshub.app/eleduck/jobs
+  - href: http://erji.net/forum.php?mod=rss&amp;fid=8&amp;auth=0
+  - href: https://www.newsmth.net/rssi.php?h=1
+  - href: https://www.52pojie.cn/forum.php?mod=guide&view=hot&rss=1
+  - href: https://www.52pojie.cn/forum.php?mod=guide&view=digest&rss=1
+  - href: https://rsshub.app/1point3acres/post/hot
+  - href: https://freeweibo.com/?rss
+  - href: https://freewechat.com/?rss
+  - href: https://feeds2.feedburner.com/programthink
+  - href: https://tumutanzi.com/feed
