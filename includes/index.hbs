@@ -31,14 +31,21 @@
           {{#each sources}}
             <li class="card__section">
               <section class="js-toggle-accordions-scope">
+
+              <details>
+                <summary>
+
                 <h3 class="source-heading">
                   <button
                     class="source-heading__name"
                     data-action="toggle-accordions"
                     title="Click to toggle the source, Ctrl + click to toggle all."
                   >{{title}}</button>
-                  <a class="source-heading__link" href="{{siteUrl}}">Open</a>
+                  <a class="source-heading__link" href="{{siteUrl}}" target="_blank">Open</a>
                 </h3>
+
+                </summary>
+
                 <section class="articles-per-source">
                   {{#each articles}}
                     <article>
@@ -67,6 +74,9 @@
                     </article>
                   {{/each}}
                 </section>
+
+              </details>
+
               </section>
             </li>
           {{/each}}
