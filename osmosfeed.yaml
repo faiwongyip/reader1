@@ -7,6 +7,7 @@
 # Find yours from the "TZ database name" column of this page: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List
 # Examples: America/Los_Angeles, America/New_York, Asia/Shanghai, Asia/Tokyo
 timezone: Asia/Shanghai
+cacheMaxDays: 15
 
 cacheUrl: https://faiwongyip.github.io/reader1/cache.json
 sources:
