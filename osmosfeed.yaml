@@ -76,7 +76,8 @@ sources:
   - href: https://www.reddit.com/r/todayilearned/.rss
   - href: https://www.reddit.com/r/funny/.rss
   - href: https://www.reddit.com/r/all/.rss
-  - href: https://linux.do/top.rss
+  - href: https://linux.do/hot.rss
+  - href: https://linux.do/latest.rss
   - href: https://news.ycombinator.com/rss
   - href: https://feed.indiehackers.world/posts.rss
   - href: https://ihrss.io/top/all-time
