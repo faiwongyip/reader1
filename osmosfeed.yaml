@@ -64,7 +64,8 @@ sources:
   - href: https://freewechat.com/?rss
   - href: https://feeds2.feedburner.com/programthink
   - href: https://tumutanzi.com/feed
-  - href: https://hostloc.com/forum.php?mod=rss&fid=45&auth=0
+  # - href: https://loc.mjj.cm/forum.php?mod=rss&fid=45&auth=0
+  # - href: https://hostloc.com/forum.php?mod=rss&fid=45&auth=0
   - href: https://www.right.com.cn/forum/forum.php?mod=rss&fid=281&auth=0
   - href: https://www.reddit.com/r/popular/.rss
   - href: https://www.reddit.com/r/China_irl/.rss
@@ -94,4 +95,4 @@ sources:
   - href: https://zh.gijn.org/feed/
   - href: https://medium.com/feed/tag/china
   # - href: https://freeweibo.com/?rss
-  # - href: https://loc.mjj.cm/forum.php?mod=rss&fid=45&auth=0
+
