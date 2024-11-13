@@ -65,7 +65,7 @@ sources:
   - href: https://feeds2.feedburner.com/programthink
   - href: https://tumutanzi.com/feed
   # - href: https://loc.mjj.cm/forum.php?mod=rss&fid=45&auth=0
-  # - href: https://hostloc.com/forum.php?mod=rss&fid=45&auth=0
+  - href: https://hostloc.com/forum.php?mod=rss&fid=45&auth=0
   - href: https://www.right.com.cn/forum/forum.php?mod=rss&fid=281&auth=0
   - href: https://www.reddit.com/r/popular/.rss
   - href: https://www.reddit.com/r/China_irl/.rss
@@ -86,7 +86,7 @@ sources:
   - href: https://www.mydigit.cn/forum.php?mod=guide&view=digest&rss=1
   - href: https://bbs.saraba1st.com/2b/forum.php?mod=rss&fid=4&auth=0
   - href: https://bbs.saraba1st.com/2b/forum.php?mod=rss&fid=51&auth=0
-  - href: https://bbs.saraba1st.com/2b/forum.php?mod=rss&fid=75&auth=0
+  # - href: https://bbs.saraba1st.com/2b/forum.php?mod=rss&fid=75&auth=0
   - href: https://rsshub.app/hupu/bbs/topic-daily
   - href: https://rsshub.app/fashionnetwork/cn/lists/0
   - href: https://rsshub.app/foresightnews/news
