@@ -35,7 +35,7 @@ sources:
   - href: https://rsshub.app/wallstreetcn/news/global
   - href: https://rsshub.app/zaobao/znews/china
   - href: https://rsshub.app/zaobao/znews/world
-  - href: https://feedx.run/rss/reutersen.xml
+  # - href: https://feedx.run/rss/reutersen.xml
   - href: https://rsshub.app/infzm/1
   - href: https://rsshub.app/cna/acn
   - href: https://www.hket.com/rss/hongkong
