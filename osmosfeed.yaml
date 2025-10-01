@@ -83,7 +83,7 @@ sources:
   - href: https://feed.indiehackers.world/posts.rss
   # - href: https://ihrss.io/top/all-time
   # - href: https://ihrss.io/top/month
-  - href: https://www.mydigit.cn/forum.php?mod=guide&view=digest&rss=1
+  # - href: https://www.mydigit.cn/forum.php?mod=guide&view=digest&rss=1
   - href: https://bbs.saraba1st.com/2b/forum.php?mod=rss&fid=4&auth=0
   - href: https://bbs.saraba1st.com/2b/forum.php?mod=rss&fid=51&auth=0
   # - href: https://bbs.saraba1st.com/2b/forum.php?mod=rss&fid=75&auth=0
