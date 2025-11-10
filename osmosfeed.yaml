@@ -39,7 +39,7 @@ sources:
   - href: https://rsshub.app/infzm/1
   - href: https://rsshub.app/cna/acn
   - href: https://www.hket.com/rss/hongkong
-  - href: https://www.chinatimes.com/sitemaps/sitemap_todaynews.xml
+  # - href: https://www.chinatimes.com/sitemaps/sitemap_todaynews.xml
   - href: https://rsshub.app/rfa/mandarin
   - href: http://www.ftchinese.com/rss/news
   - href: http://www.ftchinese.com/rss/hotstoryby7day
@@ -97,3 +97,4 @@ sources:
   - href: https://freeweibo.com/rss
   - href: https://www.supertechfans.com/cn/index.xml
   - href: https://api.newshacker.me/rss
+  - href: https://chinese.aljazeera.net/xml/rss/all.xml
