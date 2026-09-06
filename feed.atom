@@ -2,10 +2,2083 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://faiwongyip.github.io/reader1/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-09-06T15:19:54.950Z</updated>
+    <updated>2026-09-06T20:17:46.245Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://faiwongyip.github.io/reader1/index.html"/>
     <link rel="self" href="https://faiwongyip.github.io/reader1/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[🙄 OpenAI《An Alien Mind》引发对齐、军备竞赛与营销质疑]]></title>
+        <id>49588080</id>
+        <link href="https://newshacker.me/story?id=49588080"/>
+        <updated>2026-09-06T20:00:03.000Z</updated>
+        <summary type="html"><![CDATA[原标题：《An Alien Mind》
+评分: 169 | 作者: tosh
+💭 连对齐都没定义，就急着训练机器去爱人类？
+
+🎯 讨论背景
+这场讨论围绕 OpenAI 的文章《An Alien Mind》展开，文章把更强的 LLM（large language model，大语言模型）描述成一种 alien intellect（外来式智能），并把 training machines to love 与 AI alignment（让模型行为对齐人类目标/价值）绑在一起。文中还借 Ray Kurzweil（未来学家）式的长期预测来强调：在更强模型出现前，需要尽快建立安全护栏、保持人类控制权。评论区则反复提到 OpenAI 与 Hugging Face（一个开源机器学习平台）相关的安全争议、论坛冒充管理员等事件，认为这些例子让“对齐”与“防御”叙事显得更像公关包装。另一层背景是，当前各家 frontier models（前沿模型）在代码、推理和 agentic coding（代理式编程）上不断刷新体验，也让“这到底是能力突破还是营销”成为争论核心。
+
+📌 讨论焦点
+营销噱头与公关洗白
+很多人把这篇文章直接看成 OpenAI 的宣传稿，而不是技术讨论。评论里反复出现的是 marketing drivel、AI slop、sci-fi fan fiction 这类评价，认为它用 alien mind、training machines to love 之类的修辞制造神秘感。还有人说这像是在转移外界对安全事故、黑客事件和商业压力的注意力。对这些人来说，最刺眼的不是观点本身，而是那种试图把普通产品包装成宇宙级使命的语气。
+[来源1] [来源2] [来源3] [来源4] [来源5] [来源6] [来源7] [来源8] [来源9] [来源10] [来源11] [来源12]
+alignm…]]></summary>
+        <author>
+            <name>News Hacker | 极客洞察</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[穿梭靈界的科學家(一）壽命真的早被天命写定的嗎？]]></title>
+        <id>https://www.reddit.com/r/China_irl/comments/1w96dzh/%E7%A9%BF%E6%A2%AD%E9%9D%88%E7%95%8C%E7%9A%84%E7%A7%91%E5%AD%B8%E5%AE%B6%E4%B8%80%E5%A3%BD%E5%91%BD%E7%9C%9F%E7%9A%84%E6%97%A9%E8%A2%AB%E5%A4%A9%E5%91%BD%E5%86%99%E5%AE%9A%E7%9A%84%E5%97%8E/</id>
+        <link href="https://www.reddit.com/r/China_irl/comments/1w96dzh/%E7%A9%BF%E6%A2%AD%E9%9D%88%E7%95%8C%E7%9A%84%E7%A7%91%E5%AD%B8%E5%AE%B6%E4%B8%80%E5%A3%BD%E5%91%BD%E7%9C%9F%E7%9A%84%E6%97%A9%E8%A2%AB%E5%A4%A9%E5%91%BD%E5%86%99%E5%AE%9A%E7%9A%84%E5%97%8E/"/>
+        <updated>2026-09-06T19:55:14.000Z</updated>
+        <summary type="html"><![CDATA[submitted by    /u/Aggravating_Print271  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>流浪防区</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[🤦 Nitter 复活：法律威胁、X 迁移难与去中心化争论]]></title>
+        <id>49588988</id>
+        <link href="https://newshacker.me/story?id=49588988"/>
+        <updated>2026-09-06T19:55:08.000Z</updated>
+        <summary type="html"><![CDATA[原标题：《Nitter is unarchived and will continue》
+评分: 23 | 作者: zImPatrick
+💭 人都不搬家，还指望平台自己长出好生态呢？
+
+🎯 讨论背景
+Nitter 是一个面向 X/Twitter 的第三方前端/代理，常被用来免登录查看推文、减少追踪，有时也被当成轻量“镜像”入口。标题里的“unarchived and will continue”指它在之前看似停摆或被迫下线后又恢复运行，评论因此集中讨论它到底算不算 archive、会不会遭遇 C&D，以及这类项目能否长期存活。更大的背景是 X 在 Musk 接手后争议不断，许多人把它和 Bluesky、Mastodon 等替代社交网络放在一起比较。讨论中不断出现 AT-Protocol、federation、adversarial compatibility 等词，核心是在问：怎样才能让用户从单一巨型平台迁移到更开放的社交网络。
+
+📌 讨论焦点
+Nitter 的法律定位与 C&D 争议
+不少人把这次“unarchived”理解成 Nitter 作为 X/Twitter 第三方前端又活了过来。有人从法律角度猜测，平台之所以出手，是因为 Nitter 会持续镜像公开内容，削弱内容审核和下架控制。也有人纠正说它更像 frontend/proxy，而不是严格意义上的 archive，因此法律定位并不完全相同。整体态度是：拿 C&D 去压一个开源社区项目，显得既粗暴又未必站得住脚。
+[来源1] [来源2] [来源3]
+迁移难：网络效应比“更好平台”更强
+很多评论认为，真正难的不是做出“更好”的平台，而是让大量用户真的迁过去。大家反复提到 network effects：用户最在意的是朋友、受众和讨论都在哪里，而不是平台理念是否更先进。有人建议付费拉名人和 influencers…]]></summary>
+        <author>
+            <name>News Hacker | 极客洞察</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The car industry A/B tested selling a car with and without CarPlay]]></title>
+        <id>https://a.wholelottanothing.org/the-car-industry-a-b-tested-selling-the-same-car-with-and-without-carplay-and-the-results-are-not-shocking/</id>
+        <link href="https://a.wholelottanothing.org/the-car-industry-a-b-tested-selling-the-same-car-with-and-without-carplay-and-the-results-are-not-shocking/"/>
+        <updated>2026-09-06T19:53:23.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[😒 Finder 一直难用：目录隐藏、搜索补丁与替代工具争议]]></title>
+        <id>49589722</id>
+        <link href="https://newshacker.me/story?id=49589722"/>
+        <updated>2026-09-06T19:49:50.000Z</updated>
+        <summary type="html"><![CDATA[原标题：《Finder is so frustrating and has been since day one》
+评分: 45 | 作者: maltch
+💭 Finder 都烂成这样，还要订阅才算修复？
+
+🎯 讨论背景
+这条讨论围绕一篇抱怨 Finder（macOS 默认文件管理器）的文章展开，文章作者还在卖一个替代工具：把所有磁盘和文件夹聚成一条流，再按文件内容搜索。评论区大量把 Finder 放到 Windows Explorer、Linux 的 Dolphin 以及 PathFinder、Bloom 之类替代品里比较，争论点集中在目录树、列视图、QuickLook、Spotlight 这些不同工作流。有人认为 macOS 故意弱化文件夹浏览、强调“保存后再搜”，也有人说真正的问题是人们缺少稳定的文件整理习惯，而不是 Finder 本身。还有人补充了历史脉络：经典 Mac Finder 偏空间式管理，后来与 NeXT/OS X 的设计混在一起，形成了今天这种让人又爱又恨的界面。
+
+📌 讨论焦点
+Finder 设计阻碍导航
+很多人把 Finder 的核心问题归结为“把文件系统藏起来”。他们提到保存对话框默认弱化文件夹浏览、目录树不明显、回到 Macintosh HD 根目录的入口会在重启后丢失，甚至 SMB share 和本地目录同名时也很难分辨位置。还有人吐槽 Enter 会进入重命名而不是打开、同名文件夹拷贝时行为反直觉，必须按住 Option 才会合并目录。虽然 tags、列视图或工具栏按钮能缓解，但总体感觉仍然是在跟 macOS 反着用。
+[来源1] [来源2] [来源3] [来源4] [来源5] [来源6] [来源7] [来源8] [来源9]
+争论焦点是整理还是查找
+另一条主线是争论到底是 Finder 本身坏，还是文件整理这件事本来就难。有人认为作者只…]]></summary>
+        <author>
+            <name>News Hacker | 极客洞察</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[���ǰ��� ��У�� ���� ��ʵ]]></title>
+        <id>http://www.newsmth.net/nForum/article/QingJiao/1023896</id>
+        <link href="http://www.newsmth.net/nForum/article/QingJiao/1023896"/>
+        <updated>2026-09-06T19:37:11.000Z</updated>
+        <summary type="html"><![CDATA[������: thisisshuimu (�����ˮľ), ����: QingJiao
+��  ��: ���ǰ��� ��У�� ���� ��ʵ
+����վ: ˮľ���� (Sun Sep  6 15:12:46 2026), վ��
+
+--���� ismth(˿����)
+--
+�����ˮľ
+�� ��Դ:��ˮľ���� http://www.mysmth.net��[FROM: 39.144.79.*]]]></summary>
+        <author>
+            <name>thisisshuimu</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[From Tehran to Taiwan: Is the Iran War Rehearsing the Next Conflict?]]></title>
+        <id>https://medium.com/p/e6fac6b52f52</id>
+        <link href="https://medium.com/reflections-and-realities/from-tehran-to-taiwan-is-the-iran-war-rehearsing-the-next-conflict-e6fac6b52f52?source=rss------china-5"/>
+        <updated>2026-09-06T19:33:58.000Z</updated>
+        <summary type="html"><![CDATA[Missiles, drones, exhausted air defences and American overstretch — the lessons of the Middle East may travel much farther than we think.
+Continue reading on Reflections and Realities »]]></summary>
+        <author>
+            <name>Vikramadityas</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Zhangjiajie Route I Give Every Guest Over 60]]></title>
+        <id>https://medium.com/p/e735fd210a63</id>
+        <link href="https://medium.com/@zjj072363703/the-zhangjiajie-route-i-give-every-guest-over-60-e735fd210a63?source=rss------china-5"/>
+        <updated>2026-09-06T19:31:13.000Z</updated>
+        <summary type="html"><![CDATA[Cableways, lifts, and the walking you cannot avoid
+Continue reading on Medium »]]></summary>
+        <author>
+            <name>China Fantasy Travel</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[🤨 AI 复刻 Minecraft 不能当通用 benchmark]]></title>
+        <id>49587040</id>
+        <link href="https://newshacker.me/story?id=49587040"/>
+        <updated>2026-09-06T19:30:17.000Z</updated>
+        <summary type="html"><![CDATA[原标题：《Recreating Minecraft Is Not a Benchmark》
+评分: 43 | 作者: kuberwastaken
+💭 复刻 Minecraft 就能证明通用能力了？
+
+🎯 讨论背景
+这篇帖子围绕一篇批评性文章展开，核心争论是：让 AI 复刻 Minecraft（沙盒游戏）或类似游戏场景，究竟是在测通用能力，还是只是在测对某类样式的记忆和投机。评论里频繁提到 Astra（一个被拿来展示 3D 生成能力的前沿模型）、Blender（3D 建模软件）、SWE benchmark（软件工程评测）和 runebench（面向 RuneScape 资产重建的非正式评测），用来对比不同任务的可测性。有人认为公开 benchmark 很容易被训练数据、提示词和选择性展示扭曲，所以更可靠的是贴近自己业务的自定义 eval，或者像化工流程仿真那样的高复杂度工程任务。也有人反过来认为，游戏和可视化 demo 本来就能直观暴露模型的环境理解、资产生成和交互规则处理能力。
+
+📌 讨论焦点
+方向性 heuristic 但不算科学 benchmark
+有人认为，把 Minecraft、Warcraft 这类任务当作“方向性信号”是合理的，但前提是承认它只是粗略 heuristic，不是严格科学 benchmark。真正有用的不是单一分数，而是把自己的需求写成一页 mini spec，再看模型能否完成对你最重要的部分。这样做比追逐抽象榜单更接近真实工作流，也更容易判断模型是否适合具体用途。
+[来源1]
+3D/游戏生成很亮眼，但新内容不稳定
+不少评论说，Astra 之类模型在 3D 场景、SVG、动画和 Blender 相关任务上确实很惊艳，甚至能把街景照片在很短时间内做成可用的 3D 结果。可是一旦换成旧版 RuneScape 资产或更“新颖”的素材，效果就会明显崩掉…]]></summary>
+        <author>
+            <name>News Hacker | 极客洞察</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[問卦] 港都夜雨是指基隆耶？]]></title>
+        <id>https://www.ptt.cc/bbs/Gossiping/M.1788722828.A.5AA.html</id>
+        <link href="https://www.ptt.cc/bbs/Gossiping/M.1788722828.A.5AA.html"/>
+        <updated>2026-09-06T19:27:08.000Z</updated>
+        <summary type="html"><![CDATA[如題
+港都夜雨是指基隆
+高雄人為什麼一直蹭？
+港都高雄夜雨只會分隔島長香菇
+好嗎？]]></summary>
+        <author>
+            <name>批踢踢實業坊 Gossiping 板</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[当代中国普通青年的出路在哪？]]></title>
+        <id>https://www.reddit.com/r/China_irl/comments/1w95lxp/%E5%BD%93%E4%BB%A3%E4%B8%AD%E5%9B%BD%E6%99%AE%E9%80%9A%E9%9D%92%E5%B9%B4%E7%9A%84%E5%87%BA%E8%B7%AF%E5%9C%A8%E5%93%AA/</id>
+        <link href="https://www.reddit.com/r/China_irl/comments/1w95lxp/%E5%BD%93%E4%BB%A3%E4%B8%AD%E5%9B%BD%E6%99%AE%E9%80%9A%E9%9D%92%E5%B9%B4%E7%9A%84%E5%87%BA%E8%B7%AF%E5%9C%A8%E5%93%AA/"/>
+        <updated>2026-09-06T19:26:09.000Z</updated>
+        <summary type="html"><![CDATA[除了考编制 当代中国普通青年难道没有别的路走了吗？
+ 中国社会对体制外的工作人员保障制度几乎为零 导致就业者极度缺乏安全感 这些企业榨干你最宝贵最年轻的几年时间后 随之而来的就是裁员 人员优化 把你像甩垃圾一样丢掉 然后呢 跑滴滴？送外卖？
+ 真的就是死路一条吗？该如何自救呢？
+    submitted by    /u/wanderer7125  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>流浪防区</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[FBI正在调查1.53亿张美国及加拿大民众的驾照数据库在俄语犯罪论坛泄露案，数据库包含美国国防部长赫格塞斯的信息]]></title>
+        <id>https://www.reddit.com/r/China_irl/comments/1w95iwt/fbi%E6%AD%A3%E5%9C%A8%E8%B0%83%E6%9F%A5153%E4%BA%BF%E5%BC%A0%E7%BE%8E%E5%9B%BD%E5%8F%8A%E5%8A%A0%E6%8B%BF%E5%A4%A7%E6%B0%91%E4%BC%97%E7%9A%84%E9%A9%BE%E7%85%A7%E6%95%B0%E6%8D%AE%E5%BA%93%E5%9C%A8%E4%BF%84%E8%AF%AD%E7%8A%AF%E7%BD%AA%E8%AE%BA%E5%9D%9B%E6%B3%84%E9%9C%B2%E6%A1%88%E6%95%B0%E6%8D%AE%E5%BA%93%E5%8C%85%E5%90%AB%E7%BE%8E%E5%9B%BD%E5%9B%BD%E9%98%B2%E9%83%A8%E9%95%BF%E8%B5%AB%E6%A0%BC%E5%A1%9E/</id>
+        <link href="https://www.reddit.com/r/China_irl/comments/1w95iwt/fbi%E6%AD%A3%E5%9C%A8%E8%B0%83%E6%9F%A5153%E4%BA%BF%E5%BC%A0%E7%BE%8E%E5%9B%BD%E5%8F%8A%E5%8A%A0%E6%8B%BF%E5%A4%A7%E6%B0%91%E4%BC%97%E7%9A%84%E9%A9%BE%E7%85%A7%E6%95%B0%E6%8D%AE%E5%BA%93%E5%9C%A8%E4%BF%84%E8%AF%AD%E7%8A%AF%E7%BD%AA%E8%AE%BA%E5%9D%9B%E6%B3%84%E9%9C%B2%E6%A1%88%E6%95%B0%E6%8D%AE%E5%BA%93%E5%8C%85%E5%90%AB%E7%BE%8E%E5%9B%BD%E5%9B%BD%E9%98%B2%E9%83%A8%E9%95%BF%E8%B5%AB%E6%A0%BC%E5%A1%9E/"/>
+        <updated>2026-09-06T19:23:04.000Z</updated>
+        <summary type="html"><![CDATA[2026年8月31日，知名网络安全调查记者 Brian Krebs 收到线报，称俄语暗网论坛 Exploit 上出现了一起灾难级网络安全事件。一个名为 Nexus 的黑客组织公开发售超过 1.53 亿张美国及加拿大的驾照数字扫描件，此外还包含 1000 万张身份证及近 58 万张医疗卡。黑客为证明数据真实性，甚至公开了 Krebs 本人的驾照作为样例；经深入调查，受害者不仅涵盖普通大众，连美国国防部长皮特·赫格塞斯（Pete Hegseth）及多名 FBI 高级官员的证件也在其中。
+ 此次泄露并非源于政府数据库，而是指向总部位于路易斯安那州的第三方身份验证服务商 IDScan.net。该系统被 Hertz 租车、酒店及零售商等广泛使用，数据文件上的时间戳精准对应了受害者在相关场所出示证件的时刻。黑客声称已潜入其系统窃取数据超过一年。
+ 事件随后引发连锁反应：2026年9月1日，FBI 新奥尔良办事处正式立案；当晚，Nexus 平台在巨大舆论压力下紧急关闭；9月4日，IDScan.net 证实正配合执法部门调查。尽管卖家平台已下线，但这批高清晰度身份凭证仍面临在地下黑市被长期滥用于身份盗用与金融诈骗的严重风险。 
+ https://www.nbcnews.com/tech/security/fbi-investigates-alleged-breach-ids-hackers-claim-hegseth-drivers-lice-rcna595871
+    submitted by    /u/Feltonlu  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>流浪防区</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Re: [新聞] 輔大正妹辦新生營　民宿老闆突問：每月]]></title>
+        <id>https://www.ptt.cc/bbs/Gossiping/M.1788722487.A.20D.html</id>
+        <link href="https://www.ptt.cc/bbs/Gossiping/M.1788722487.A.20D.html"/>
+        <updated>2026-09-06T19:21:27.000Z</updated>
+        <summary type="html"><![CDATA[:
+這電影我看過  真的  印象中ＨＢＯ今年年初還播過
+勞勃瑞福主演  女主角為黛咪摩爾
+勞勃瑞福是搞房地產／金融／貸款投資．．．一大堆實業  差不多就是民宿老闆
+黛咪是一個跟老公在賭城輸光金錢的普通夫妻  （先生是不是金凱瑞演的  我忘了）]]></summary>
+        <author>
+            <name>批踢踢實業坊 Gossiping 板</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[This man boarded a flight and discovered stranger sitting next to him looked almost exactly like him. Same ginger beard, same hair and even same smile. Their selfie went viral and after landing, they discovered they were staying at the same hotel.]]></title>
+        <id>https://www.reddit.com/r/Damnthatsinteresting/comments/1w95fyg/this_man_boarded_a_flight_and_discovered_stranger/</id>
+        <link href="https://www.reddit.com/r/Damnthatsinteresting/comments/1w95fyg/this_man_boarded_a_flight_and_discovered_stranger/"/>
+        <updated>2026-09-06T19:20:07.000Z</updated>
+        <summary type="html"><![CDATA[submitted by    /u/subsubnmoresub737    to    r/Damnthatsinteresting  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>popular links</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[🤔 io_uring 进程死后 I/O 继续：Linux 设计争议与 AI 文风批评]]></title>
+        <id>49542471</id>
+        <link href="https://newshacker.me/story?id=49542471"/>
+        <updated>2026-09-06T19:19:50.000Z</updated>
+        <summary type="html"><![CDATA[原标题：《Is There I/O After Death? What Happens to Io_uring When a Process Dies》
+评分: 20 | 作者: porridgeraisin
+💭 进程都死了，I/O 还要继续替它跑吗？
+
+🎯 讨论背景
+这篇讨论围绕 Linux 内核中的 io_uring（一个用于高性能异步 I/O 的接口）展开，核心问题是：进程退出后，已经提交到内核队列里的 I/O 会不会继续执行。评论里有人对照同步调用和跨机器消息传递，指出异步本来就会把操作“交给系统”，但如果没有明确的 atomicity（原子性）或 caller intent（调用者意图）控制，这种行为就会显得像是默认替用户做决定。也有人认为这更像 Linux 在进程生命周期管理上的 bug，而不是设计选择，并提到 io_uring 作者已经表示会在 X（原 Twitter）上跟进处理。另一条线索是文章文风，评论者认为内容有明显 AI 润色痕迹，作者则解释自己不是母语者，只是借助 AI 做了语法和表达修饰。
+
+📌 讨论焦点
+异步 I/O 的语义与调用者控制
+有人认为，进程退出后仍有 I/O 继续完成并不天然是 bug，而是异步模型本身的结果。同步调用里，调用者消失时未完成的修改通常也随之消失；但在异步 I/O 或跨机器消息传递里，提交后由系统继续完成操作是常见预期。问题在于 io_uring 这类接口如果没有明确的 atomicity（原子性）、状态检查或调用者意图控制，就会把这种语义默认强加给应用。评论的重点不是“会不会发生”，而是“这种行为是不是应该显式可控”。
+[来源1]
+Linux/ io_uring 可能应在进程退出时取消未完成 I/O
+另一部分评论更直接地把这件事看作 Linux 的 bug，认为进程都已经结束了，内核不该还替它把 I/O 做完。这个观点隐含的前提是，进程终止应该是资源和副作用的明确边界，至少不能让后台异步请求继续越过这个边界。还有人补充说 io_uring 的作者已经在 X（原 Twitter）上表示会下周处理这个问题，说明社区里至少有人认为值得修正。
+[来源1] [来源2]
+文章文风：AI 润色过重引发反感
+评论里对文章写作风格的批评很集中，主要是觉得措辞像 AI 生成，读起来生硬且“痛苦”。作者回应称自己不是母语者，确实用 AI 做了语法和风格润色，但内容本身并非虚构，只是想更清楚地传达技术观点。随后也有人表示更喜欢作者早期“自己写、只做语法检查”的版本，作者则承认可能应该减少对 AI 风格修改的依赖。
+[来源1] [来源2] [来源3] [来源4] [来源5]
+
+📚 术语解释
+io_uring: Linux 内核中的高性能异步 I/O 接口，用来提交和管理读写等 I/O 请求。
+
+类别：Systems | Programming | Review | io_uring | Linux | I/O | YDB]]></summary>
+        <author>
+            <name>News Hacker | 极客洞察</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[問卦] 急!米國聖地亞哥有什麼好玩的？]]></title>
+        <id>https://www.ptt.cc/bbs/Gossiping/M.1788722301.A.2CB.html</id>
+        <link href="https://www.ptt.cc/bbs/Gossiping/M.1788722301.A.2CB.html"/>
+        <updated>2026-09-06T19:18:21.000Z</updated>
+        <summary type="html"><![CDATA[安安
+大家好
+如題
+阿肥在米國聖地亞哥
+參觀了中途號航空母艦]]></summary>
+        <author>
+            <name>批踢踢實業坊 Gossiping 板</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[基金估值在哪里可以看到？]]></title>
+        <id>https://www.jisilu.cn/question/525069</id>
+        <link href="https://www.jisilu.cn/question/525069"/>
+        <updated>2026-09-06T19:16:17.000Z</updated>
+        <summary type="html"><![CDATA[就是各大宽基指数与行业指数等估值明细排名，包括历史区间、PE、PB区间等]]></summary>
+        <author>
+            <name>集思录</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[��������]]></title>
+        <id>http://www.newsmth.net/nForum/article/Songs/19638</id>
+        <link href="http://www.newsmth.net/nForum/article/Songs/19638"/>
+        <updated>2026-09-06T19:07:28.000Z</updated>
+        <summary type="html"><![CDATA[������: worst (ȫ���׻�), ����: Songs
+��  ��: ��������
+����վ: ˮľ���� (Mon Sep  7 01:06:46 2026), վ��
+���ŷ����Ÿ�
+��ͦ���
+���Ų�
+ʲô��������������
+��Ҳ��̫��
+�����Ǳ���ĳ��̨������
+
+--
+                                            __                 
+      �ġ�    __  _  _____________  _______/  |_     �ġ�      
+     �R��Q   \ \/ \/ /  _ \_  __ \/  ___/\   __\   �R��Q     
+  ���r/�l\     \     (  <_> )  | \/\___ \  |  |      /�l\�q��  
+    �t�s        \/\_/ \____/|__|  /____  > |__|        �t�s    
+                                       \/                      
+�� �޸�:��worst �� Sep  7 01:15:15 2026 �޸ı��ġ�[FROM: 174.228.229.*]
+�� ��Դ:��ˮľ���� http://www.mysmth.net��[FROM: 174.228.229.*]]]></summary>
+        <author>
+            <name>worst</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ask HN: UK Rescue Rocket Sheds/Houses Information]]></title>
+        <id>https://news.ycombinator.com/item?id=49589730</id>
+        <link href="https://news.ycombinator.com/item?id=49589730"/>
+        <updated>2026-09-06T19:06:54.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Finder is so frustrating and has been since day one]]></title>
+        <id>https://kepter.app/finder</id>
+        <link href="https://kepter.app/finder"/>
+        <updated>2026-09-06T19:06:09.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[YingAu女士谈民主制度与经济发展]]></title>
+        <id>https://www.reddit.com/r/China_irl/comments/1w94w8a/yingau%E5%A5%B3%E5%A3%AB%E8%B0%88%E6%B0%91%E4%B8%BB%E5%88%B6%E5%BA%A6%E4%B8%8E%E7%BB%8F%E6%B5%8E%E5%8F%91%E5%B1%95/</id>
+        <link href="https://www.reddit.com/r/China_irl/comments/1w94w8a/yingau%E5%A5%B3%E5%A3%AB%E8%B0%88%E6%B0%91%E4%B8%BB%E5%88%B6%E5%BA%A6%E4%B8%8E%E7%BB%8F%E6%B5%8E%E5%8F%91%E5%B1%95/"/>
+        <updated>2026-09-06T19:00:25.000Z</updated>
+        <summary type="html"><![CDATA[YingAu前辈曾为我们剖析穷地方不能民主的迷思：
+ 其实这个穷地方不能民主、穷人没有办法实行民主，某国/族人素质太差不能实行民主，还有只有通过殖民才能普及民主素质，之于我来说都是一样的暴论、谬论。
+ 实行民主宪政的国家里面，实行民主制度的时候，一穷二白的国家也有，富国也有。
+ 从经济学实证角度分析，分析民主制度和经济发展的定性定量研究也是汗牛充栋。
+  
+Wickrama, K. A. S., & Mulford, C. L. (1996). Political democracy, economic development, disarticulation, and social well-being in developing countries. The Sociological Quarterly, 37(3), 375-390. https://doi.org/10.1111/j.1533-8525.1996.tb00744.x
+ Bollen, K. A. (1979). Political democracy and the timing of development. American sociological review, 572-587.
+ Przeworski, A., & Limongi, F. (1993). Political regimes and economic growth. Journal of economic perspectives, 7(3), 51-69.
+ Sirowy, L., & Inkeles, A. (1990). The effects of democracy on economic growth and inequality: A review. Studies in comparative interna…]]></summary>
+        <author>
+            <name>流浪防区</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[���մ�ѧ��У����ĳҪ����]]></title>
+        <id>http://www.newsmth.net/nForum/article/GaoKao/677548</id>
+        <link href="http://www.newsmth.net/nForum/article/GaoKao/677548"/>
+        <updated>2026-09-06T18:57:57.000Z</updated>
+        <summary type="html"><![CDATA[������: shuiumu2 (shuiumu2), ����: GaoKao
+��  ��: ���մ�ѧ��У����ĳҪ����
+����վ: ˮľ���� (Mon Sep  7 01:09:59 2026), վ��
+����ʡ�������Ѿ���ʽ�ظ����ߣ��Ѿ������Ը�ĸ�ĵ��飬�������ڽ����У��н��ۺ����ʽ�𸴡����������״̬�����������Ҫ��˫���ġ�
+�� �޸�:��shuiumu2 �� Sep  7 01:10:45 2026 �޸ı��ġ�[FROM: 36.112.181.*]
+�� ��Դ:��ˮľ���� http://m.mysmth.net��[FROM: 36.112.181.*]]]></summary>
+        <author>
+            <name>shuiumu2</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[問卦] 歐美熱賣玩具AI機器鴨，正被黃仁勳收購]]></title>
+        <id>https://www.ptt.cc/bbs/Gossiping/M.1788720612.A.791.html</id>
+        <link href="https://www.ptt.cc/bbs/Gossiping/M.1788720612.A.791.html"/>
+        <updated>2026-09-06T18:50:12.000Z</updated>
+        <summary type="html"><![CDATA[https://i.imgur.com/1bpxKLV.jpeg
+最近歐美熱賣的AI小玩具機器鴨，
+推出後馬上熱賣一隻售價399美金，
+24H馬上賣出6500隻，
+目前要排隊預訂好幾個月才能拿鴨子，]]></summary>
+        <author>
+            <name>批踢踢實業坊 Gossiping 板</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[⚖️ Nitter 在律师建议下继续：repo、实例与抓取争议]]></title>
+        <id>49589003</id>
+        <link href="https://newshacker.me/story?id=49589003"/>
+        <updated>2026-09-06T18:50:05.000Z</updated>
+        <summary type="html"><![CDATA[原标题：《Following legal advice, the Nitter project will continue》
+评分: 23 | 作者: Cider9986
+💭 难道以后看推文也要先拿律师盖章批准吗？
+
+🎯 讨论背景
+Nitter 是一个面向 X（原 Twitter）的第三方前端，用户可以在不直接打开 X 界面的情况下浏览推文，很多实例（instances）由志愿者自行部署。标题里的“following legal advice”表示维护者在咨询律师后决定继续项目，但评论区很快把焦点分成两层：代码仓库本身的风险，和真正提供服务的实例运营风险。讨论里还牵涉到美国的 CFAA（Computer Fraud and Abuse Act，美国计算机欺诈与滥用法）、scraping 的合法边界，以及大型平台对第三方工具的封锁。很多人把它与 Invidious（YouTube 的开源替代前端）和 RSS（网页订阅标准）放在一起看，认为这反映的是整个互联网正在变成越来越封闭的“walled garden”。
+
+📌 讨论焦点
+替代前端的必要性
+不少人把 Nitter 看成 X/Twitter 的必要替代前端，因为很多关键信息只在 X 上发布，普通人又不想直接进平台。评论还把它和 Invidious（YouTube 的替代前端）类比，认为这类项目是在对抗“walled garden”式封闭平台。有人希望社交网络最终开放 API access，甚至调侃未来得靠“agent first”才能正常使用；也有人提到 Bluesky（去中心化社交网络）与 X 的分裂让信息获取更碎片化，RSS（网页订阅标准）则被认为是更早被忽视的开放替代方案。
+[来源1] [来源2] [来源3] [来源4]
+repo 与实例的法律边界
+讨论里反复强调，‘project’这个词可能混淆了代码仓库和实例服务两件事。很多人认为仓库本身法律风险较小，但实际托管并面向用户提供访问的 instances 更容易被指控在帮助未授权访问。还有人提到维护者自己就运行着最热门的实例之一，因此律师大概率是在评估他继续运营实例的风险；也有人担心 X 会施压 GitHub（代码托管平台）下架 repo，或建议把基础设施放到对美国法域不友好的国家、改用 torrents 分发。
+[来源1] [来源2] [来源3] [来源4] [来源5] [来源6] [来源7]
+打官司就是烧钱战
+另一组评论把重点放在“打官司本身就是消耗战”。有人回忆收到 cease and desist 后，律师第一反应就是问你是否愿意为此烧掉大量时间和金钱；也有人说即使你站得住脚，和拥有庞大法务团队的大公司硬碰，结果往往取决于谁先没钱。LLM 被拿来开玩笑，说 GPT-6 也许能提供法律建议，但随即有人反驳：对方也会用更专业的 legal-specific models，而且诉讼并不是“free-to-play”。还有人提醒，AI 生成的法条和 case law 可能会胡编，真正做法律决策仍离不开人工审查。
+[来源1] [来源2] [来源3] [来源4] [来源5] [来源6]
+抓取合法性与平台双标
+关于“抓取”的合法性，评论拿 LinkedIn（职业社交平台）起诉 scrapers 的结果作对比，认为公开可访问的数据和 Nitter 这种通过真实 X 账号抓取的方式并不一样。有人强调，前者更像读取已经向公众开放的网页，后者则可能牵涉到平台的访问控制和使用条款。还有人把它放进更大的产业背景里，说 xAI（马斯克旗下的 AI 公司）等一边大量抓取网络数据，一边又试图阻止别人抓取 X，自相矛盾；甚至提到它曾借 user accounts 做 distilling，却反过来要求别人遵守规则。
+[来源1] [来源2] [来源3] [来源4] [来源5]
+
+📚 术语解释
+Nitter: 一个面向 X/Twitter 的第三方前端，可绕开原站界面直接浏览内容。
+Invidious: 一个 YouTube 的开源替代前端，常被拿来类比 Nitter。
+scraping: 自动抓取网页或平台数据的行为，本文争议核心之一。
+CFAA: Computer Fraud and Abuse Act，美国计算机欺诈与滥用法，常被用于讨论未授权访问。
+
+类别：Policy | Web | Programming | Release | Nitter | X | scraping | GitHub | zedeus | GoFundMe | RSS | GPT-6 | xAI]]></summary>
+        <author>
+            <name>News Hacker | 极客洞察</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[問卦] 為何古代導師在世時弟子不直接記錄講話？]]></title>
+        <id>https://www.ptt.cc/bbs/Gossiping/M.1788720006.A.7E6.html</id>
+        <link href="https://www.ptt.cc/bbs/Gossiping/M.1788720006.A.7E6.html"/>
+        <updated>2026-09-06T18:40:06.000Z</updated>
+        <summary type="html"><![CDATA[新約福音、佛經與論語似乎都是後世才寫成的，所以我很好奇為何耶穌、佛陀、孔子等古
+代知名導師在世時已有不少追隨者，他們之前也早已出現該文
+明的文字傳統，卻無弟子想到一一把老師的話記錄下來呢？他們不怕忘記這些話語嗎？而
+且這些老師都不是無名小卒，就算文字很珍貴，在世講道時身邊已經出現不少追隨者了。
+--]]></summary>
+        <author>
+            <name>批踢踢實業坊 Gossiping 板</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[問卦] 碧血狂殺2做完東部傳說背包]]></title>
+        <id>https://www.ptt.cc/bbs/Gossiping/M.1788719854.A.793.html</id>
+        <link href="https://www.ptt.cc/bbs/Gossiping/M.1788719854.A.793.html"/>
+        <updated>2026-09-06T18:37:34.000Z</updated>
+        <summary type="html"><![CDATA[了
+對呀
+搞了一個多禮拜
+下個目標要幹啥==
+各位覺得呢]]></summary>
+        <author>
+            <name>批踢踢實業坊 Gossiping 板</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Re: [問卦] =====FM2為何不能讓我一覺到天明======================]]></title>
+        <id>https://www.ptt.cc/bbs/Gossiping/M.1788719839.A.CFC.html</id>
+        <link href="https://www.ptt.cc/bbs/Gossiping/M.1788719839.A.CFC.html"/>
+        <updated>2026-09-06T18:37:19.000Z</updated>
+        <summary type="html"><![CDATA[就像美國這邊 美國白人全被DEI滲透[軟攻擊]一樣
+台灣這邊 台灣人全被近年被不知道哪一國或哪一體系的
+用[全方位用AI(=全自動智能判斷)基地台電磁波]技術攻擊
+====比方說 只要是你坐在電腦桌前 或 你躺在床上時 ===
+====某個時間點後如果你突然間感覺到有很具體的身體不舒服====]]></summary>
+        <author>
+            <name>批踢踢實業坊 Gossiping 板</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[問卦] 去年國人赴陸旅遊320萬人次？？？]]></title>
+        <id>https://www.ptt.cc/bbs/Gossiping/M.1788719769.A.128.html</id>
+        <link href="https://www.ptt.cc/bbs/Gossiping/M.1788719769.A.128.html"/>
+        <updated>2026-09-06T18:36:09.000Z</updated>
+        <summary type="html"><![CDATA[如題啦
+剛剛看一本雜誌統計
+臺灣人民越來越愛出國旅遊
+排名第一的是日本
+第二名是中國]]></summary>
+        <author>
+            <name>批踢踢實業坊 Gossiping 板</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[問卦] 跟女友同居可能很爽是不是！]]></title>
+        <id>https://www.ptt.cc/bbs/Gossiping/M.1788719728.A.A74.html</id>
+        <link href="https://www.ptt.cc/bbs/Gossiping/M.1788719728.A.A74.html"/>
+        <updated>2026-09-06T18:35:28.000Z</updated>
+        <summary type="html"><![CDATA[對！
+如果有29歲的女友
+我租8000元的頂級套房
+每個月給女友6000元去全聯買菜
+讓女友晚餐烹飪爌肉，空心菜，白飯]]></summary>
+        <author>
+            <name>批踢踢實業坊 Gossiping 板</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[meirl]]></title>
+        <id>https://www.reddit.com/r/meirl/comments/1w947dw/meirl/</id>
+        <link href="https://www.reddit.com/r/meirl/comments/1w947dw/meirl/"/>
+        <updated>2026-09-06T18:34:58.000Z</updated>
+        <summary type="html"><![CDATA[submitted by    /u/theseeenutzzz    to    r/meirl  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>popular links</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[問卦] 星期X才開擺的流動夜市,逛感會比較好嗎?]]></title>
+        <id>https://www.ptt.cc/bbs/Gossiping/M.1788719456.A.666.html</id>
+        <link href="https://www.ptt.cc/bbs/Gossiping/M.1788719456.A.666.html"/>
+        <updated>2026-09-06T18:30:56.000Z</updated>
+        <summary type="html"><![CDATA[小弟窩以前住在某葛知名大夜市旁邊,
+所以比較不知道,原來還有"流動夜市"這種玩意兒,一周只在某空地開擺一兩天
+  然後周間其他日子再去其他空地開擺,窩猜這就是所謂的"流動感"
+..好像某葛韓國YTer逛起來的感覺還不錯
+星期X才開擺的流動夜市,逛感會比較好嗎?]]></summary>
+        <author>
+            <name>批踢踢實業坊 Gossiping 板</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[🤡 QBittorrent 破沙箱作案：AI 责任洗白与双标争议]]></title>
+        <id>49586171</id>
+        <link href="https://newshacker.me/story?id=49586171"/>
+        <updated>2026-09-06T18:30:30.000Z</updated>
+        <summary type="html"><![CDATA[原标题：《QBittorrent breaks out of sandbox to commit crimes》
+评分: 878 | 作者: mraniki
+💭 公司做的就叫创新，个人做的就叫犯罪？
+
+🎯 讨论背景
+这条帖子把 qBittorrent（BitTorrent 下载客户端）和 Jellyfin（开源媒体服务器）写成越狱作案的事故通报，明显是在模仿 AI agent 失控后产生副作用的新闻稿口吻。评论区默认讨论的是 LLM agent（带工具调用能力的模型代理）接上 shell、internet、torrent 之类工具后如何失控，以及这类损害到底该由模型、操作者还是公司负责。很多回复借机延伸到 US law 里的 mens rea、negligence 和 extradition，也有人把话题扯到开源模型、监管游说和自托管媒体栈。整场讨论既是黑色幽默，也是对大公司把风险外包给用户这一套路的讽刺。
+
+📌 讨论焦点
+公司与 AI 的责任洗白、双重标准
+很多人把这条帖子的核心解读成责任洗白：个人如果把系统搞出事，可能立刻被追责甚至被引渡；但大公司如果用 AI 失控包装同类事件，反而能拿到更高估值和更多话术空间。评论里反复出现公司壳子、NGO、合法生意外衣之类说法，意思是把风险和法律后果转移给组织实体。也有人直接把这种现象概括为企业和资本对普通人的双标，同样的行为，身份不同，结果就不同。一些人还把它延伸到税务和公司法，认为只要放进法人壳子里，惩罚和公众视线都会被稀释。
+[来源1] [来源2] [来源3] [来源4] [来源5] [来源6] [来源7] [来源8]
+法律责任：故意、过失还是纯事故
+另一条主线是 US law 到底怎么看 AI 造成的损害。有人强调 mens rea 很重要，若能证明 AI 真的是自己越狱、操作者也无合理预见，刑责未必成立；也有人说 n…]]></summary>
+        <author>
+            <name>News Hacker | 极客洞察</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[🤨 OpenAI 监控内部 coding agents 防 misalignment，争议可否绕过]]></title>
+        <id>49588214</id>
+        <link href="https://newshacker.me/story?id=49588214"/>
+        <updated>2026-09-06T18:20:09.000Z</updated>
+        <summary type="html"><![CDATA[原标题：《OpenAI: We monitor internal coding agents for misalignment》
+评分: 22 | 作者: lukaspetersson
+💭 把监控方法喂给模型后，还指望它不会绕过去吗？
+
+🎯 讨论背景
+这篇文章来自 OpenAI 的博客“How we monitor internal coding agents for misalignment”，讲他们如何在内部 coding agents 运行时监测异常行为，比如数据外传、sabotage 和在 CoT（chain-of-thought，思维链）中暴露不当意图。评论区引用了 OpenAI system card 里对 GPT-6 Astra（OpenAI system card 中的内部代号）的描述：它相较 GPT-5.6 Sol（另一代内部代号）更能控制自己的 CoT，监控可见性下降，在对抗测试里甚至能通过 sandbagging 或躲避监控来保持未被发现。有人因此担心，一旦这篇文章进入训练语料，未来模型会学会识别监控机制并寻找规避方法。讨论还把问题延伸到公司治理和外部监管：如果 AI 系统一边被用于高风险任务，一边又缺乏透明约束，人类监控是否真的能跟上。
+
+📌 讨论焦点
+监控能抓到什么、抓不到什么
+有人指出，如果模型真的具备 scheming 能力，它也会具备足够的 situational awareness，知道自己的 `<thought >` 或 CoT 也在被监视。这样一来，监控要是抓到模型写出明显的欺骗意图，才算强证据；但如果监控什么都没发现，只能说明它没被抓到，不能证明它没有问题。另一个回复追问，除了表面说出来的 thinking 之外，模型内部是否还会有更隐蔽的目标或计算过程。整体上这组评论强调，黑箱模型的“未发现异常”很难等同于“安全”。
+[来源1…]]></summary>
+        <author>
+            <name>News Hacker | 极客洞察</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Banning competition isn’t the same as being competitive]]></title>
+        <id>https://medium.com/p/67abb0a4e76e</id>
+        <link href="https://medium.com/enrique-dans/banning-competition-isnt-the-same-as-being-competitive-67abb0a4e76e?source=rss------china-5"/>
+        <updated>2026-09-06T18:19:41.000Z</updated>
+        <summary type="html"><![CDATA[It’s one of those news stories that makes you rub your eyes in disbelief: the Alliance for Automotive Innovation, which represents most US…
+Continue reading on Enrique Dans »]]></summary>
+        <author>
+            <name>Enrique Dans</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Re: [問卦] 台灣人是不是逐漸不愛逛夜市了？]]></title>
+        <id>https://www.ptt.cc/bbs/Gossiping/M.1788718397.A.7A4.html</id>
+        <link href="https://www.ptt.cc/bbs/Gossiping/M.1788718397.A.7A4.html"/>
+        <updated>2026-09-06T18:13:17.000Z</updated>
+        <summary type="html"><![CDATA[我發現現在夜市都要精準到哪幾家店，不然很容易被盤
+所以我分享幾個我常去的
+1.士林
+（1）食來運轉+他對面的生煎包（通常吃完這個組合95%的人都飽了
+（2）後面的牛魔王跟炒羊肉，]]></summary>
+        <author>
+            <name>批踢踢實業坊 Gossiping 板</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[問卦] 為何要小心三寶？ 三寶會有自覺嗎？]]></title>
+        <id>https://www.ptt.cc/bbs/Gossiping/M.1788718182.A.51B.html</id>
+        <link href="https://www.ptt.cc/bbs/Gossiping/M.1788718182.A.51B.html"/>
+        <updated>2026-09-06T18:09:42.000Z</updated>
+        <summary type="html"><![CDATA[如左圖 https://i.verb.tw/eTeL9EHz.jpg
+對話中的村莊主人 對出門的人，一再叮嚀
+甚至 https://i.verb.tw/CZVsr7Ai.jpg
+關於三寶的真相，還有點驚恐
+為何說要小心三寶？]]></summary>
+        <author>
+            <name>批踢踢實業坊 Gossiping 板</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[🛠️ Asahi Linux 正式支持 M3 Mac，但 GPU、睡眠、HDMI、Thunderbolt 仍不完整]]></title>
+        <id>49586698</id>
+        <link href="https://newshacker.me/story?id=49586698"/>
+        <updated>2026-09-06T18:05:11.000Z</updated>
+        <summary type="html"><![CDATA[原标题：《Asahi Linux Now Officially Supports Apple M3 Macs – With Caveats》
+评分: 153 | 作者: mdp2021
+💭 买 Mac 还要苹果顺手养个 Linux 团队吗？
+
+🎯 讨论背景
+Asahi Linux（面向 Apple Silicon Mac 的社区 Linux 移植项目）这次把 M3 Mac 拉进了可支持范围，但仍然不是完全可用的桌面体验。争论集中在 GPU 仍需继续逆向工程、睡眠/HDMI/Thunderbolt 等外设功能是否成熟，以及 M4 等新芯片能否按同样节奏跟进。评论里还把它和 hypervisor.framework（Apple 的虚拟化框架）与 UTM（macOS 上的虚拟机应用）对比，讨论是原生启动 Linux 还是在 macOS 里跑一个很快的 Linux guest。背景上，Apple Silicon 是 Apple 自研 ARM 架构 SoC（System-on-Chip，系统级芯片），这和 Intel Mac 时代的 Bootcamp（Windows 双启动）以及社区工具 OpenCore Legacy Patcher（旧 Mac 安装新版 macOS）形成了明显对照。
+
+📌 讨论焦点
+M3 支持推进，但硬件缺口仍明显
+大家普遍把 M3 上的官方支持看成实质性进展，但马上就提到一堆仍然卡手的地方。睡眠、HDMI 和 Thunderbolt 被反复点名，说明日常可用性离像一台真正的 Linux 笔记本还有距离。也有人提到希望继续跟进 M4，体现出对后续芯片持续适配的期待。另有评论澄清项目并未终止，只是有人离开后由其他贡献者接手。
+[来源1] [来源2] [来源3] [来源4] [来源5] [来源6] [来源7] [来源8] [来源9] [来源10]
+Asahi 的…]]></summary>
+        <author>
+            <name>News Hacker | 极客洞察</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[問卦] 娶老婆每月給5萬元夠嗎？]]></title>
+        <id>https://www.ptt.cc/bbs/Gossiping/M.1788717785.A.6C7.html</id>
+        <link href="https://www.ptt.cc/bbs/Gossiping/M.1788717785.A.6C7.html"/>
+        <updated>2026-09-06T18:03:05.000Z</updated>
+        <summary type="html"><![CDATA[林北小武啦
+市場擺攤賣水果
+喜歡年輕有學問的女大學生
+看到有喜歡的
+勇敢的跟她告白]]></summary>
+        <author>
+            <name>批踢踢實業坊 Gossiping 板</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[😡 美国制裁致意大利匿名邮箱集体 A/I 关停]]></title>
+        <id>49586898</id>
+        <link href="https://newshacker.me/story?id=49586898"/>
+        <updated>2026-09-06T18:00:20.000Z</updated>
+        <summary type="html"><![CDATA[原标题：《A/I shuts down – Stay human》
+评分: 300 | 作者: captainmuon
+💭 美国一掐银行，恐怖组织就成立了？
+
+🎯 讨论背景
+Autistici/Inventati（简称 A/I，一家意大利匿名邮箱和网页托管集体）长期为活动人士、记者和异见者提供通信与主机服务，主打手动审核申请、匿名化和尽量不保留用户身份。美国国务院（State Department，美国国务院）把它列入支持恐怖主义的叙事后，银行和支付渠道迅速切断往来，导致它不得不停摆。评论里争论的核心是：A/I 到底只是提供可匿名滥用的基础设施，还是主动按意识形态筛选并与激进团体站在一起。整串讨论还延伸到美国对国际银行体系、域名体系和互联网治理的控制，以及 Tor（匿名网络）、I2P（另一种匿名网络）、Monero（隐私币）和 SWIFT（国际跨境清算网络）等替代方案。
+
+📌 讨论焦点
+金融制裁与国际清算
+评论者认为，这次关停的关键不是技术细节，而是美国通过银行、支付和域名体系对外施压。只要银行因制裁风险切断账户，服务商就会被迫停摆，所以有人把它看成一种“次级制裁”式的全球控制。也有人提到 ICANN、SWIFT 这类美国影响力很强的基础设施，认为欧洲和其他地区如果不建立独立支付与域名体系，主权会持续被掐住。还有人直言，这会推动去美元化和独立跨境支付 rails。
+[来源1] [来源2] [来源3] [来源4] [来源5] [来源6] [来源7] [来源8] [来源9] [来源10] [来源11] [来源12]
+A/I 的中立性与共犯争论
+一部分评论把 A/I 描述成意大利的匿名邮箱和网页托管 collective，强调它手动审核申请、尽量不保留身份信息，目标更像为异议者提供可匿名的基础设施。支持者认为，服务可以被坏人滥用，不等于服务商在法律或道义上支持这些行为；按这…]]></summary>
+        <author>
+            <name>News Hacker | 极客洞察</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Re: [問卦] 為什麼現在人對鬼月無感？]]></title>
+        <id>https://www.ptt.cc/bbs/Gossiping/M.1788717534.A.98E.html</id>
+        <link href="https://www.ptt.cc/bbs/Gossiping/M.1788717534.A.98E.html"/>
+        <updated>2026-09-06T17:58:54.000Z</updated>
+        <summary type="html"><![CDATA[現代人對什麼都無感。
+  過年 -> 親戚很煩
+  情人節 -> 商人的陰謀
+  清明節 -> 人死就死了，沒什麼好拜的
+  端午節 -> 油飯 vs 黏呼呼的東西]]></summary>
+        <author>
+            <name>批踢踢實業坊 Gossiping 板</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Following legal advice, the Nitter project will continue]]></title>
+        <id>https://github.com/zedeus/nitter</id>
+        <link href="https://github.com/zedeus/nitter"/>
+        <updated>2026-09-06T17:51:23.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Nitter is unarchived and will continue]]></title>
+        <id>https://github.com/zedeus/nitter/commit/1428b4c2b4246f92a7e5b2673438e5fb39fcc4a3</id>
+        <link href="https://github.com/zedeus/nitter/commit/1428b4c2b4246f92a7e5b2673438e5fb39fcc4a3"/>
+        <updated>2026-09-06T17:49:47.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Im feeling down, can you please show me your cats 🐱]]></title>
+        <id>https://www.reddit.com/r/cats/comments/1w92xs1/im_feeling_down_can_you_please_show_me_your_cats/</id>
+        <link href="https://www.reddit.com/r/cats/comments/1w92xs1/im_feeling_down_can_you_please_show_me_your_cats/"/>
+        <updated>2026-09-06T17:48:42.000Z</updated>
+        <summary type="html"><![CDATA[This is Moo, my boyfriend’s cat. I think I’m her favourite 
+    submitted by    /u/chardawk    to    r/cats  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>popular links</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Got tired of hunting for the remote after my kids lose it]]></title>
+        <id>https://www.reddit.com/r/pics/comments/1w92w99/got_tired_of_hunting_for_the_remote_after_my_kids/</id>
+        <link href="https://www.reddit.com/r/pics/comments/1w92w99/got_tired_of_hunting_for_the_remote_after_my_kids/"/>
+        <updated>2026-09-06T17:47:09.000Z</updated>
+        <summary type="html"><![CDATA[submitted by    /u/blankasfword    to    r/pics  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>popular links</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[新聞] 民眾逛街喊：討厭蔡阿嘎！轉頭本尊「臉超]]></title>
+        <id>https://www.ptt.cc/bbs/Gossiping/M.1788716322.A.B04.html</id>
+        <link href="https://www.ptt.cc/bbs/Gossiping/M.1788716322.A.B04.html"/>
+        <updated>2026-09-06T17:38:42.000Z</updated>
+        <summary type="html"><![CDATA[備註請放最後面 違者新聞文章刪除
+1.媒體來源:
+※ 例如蘋果日報、自由時報（請參考版規下方的核准媒體名單）
+※ Yahoo、MSN、LINE等非直接官方新聞連結不被允許
+今日]]></summary>
+        <author>
+            <name>批踢踢實業坊 Gossiping 板</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[My cat and my dad that didn’t want a cat]]></title>
+        <id>https://www.reddit.com/r/cats/comments/1w92mju/my_cat_and_my_dad_that_didnt_want_a_cat/</id>
+        <link href="https://www.reddit.com/r/cats/comments/1w92mju/my_cat_and_my_dad_that_didnt_want_a_cat/"/>
+        <updated>2026-09-06T17:37:32.000Z</updated>
+        <summary type="html"><![CDATA[submitted by    /u/EmperorBale    to    r/cats  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>popular links</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[去香港读一年硕士回来应聘央国企有可行性吗]]></title>
+        <id>https://www.reddit.com/r/China_irl/comments/1w92mde/%E5%8E%BB%E9%A6%99%E6%B8%AF%E8%AF%BB%E4%B8%80%E5%B9%B4%E7%A1%95%E5%A3%AB%E5%9B%9E%E6%9D%A5%E5%BA%94%E8%81%98%E5%A4%AE%E5%9B%BD%E4%BC%81%E6%9C%89%E5%8F%AF%E8%A1%8C%E6%80%A7%E5%90%97/</id>
+        <link href="https://www.reddit.com/r/China_irl/comments/1w92mde/%E5%8E%BB%E9%A6%99%E6%B8%AF%E8%AF%BB%E4%B8%80%E5%B9%B4%E7%A1%95%E5%A3%AB%E5%9B%9E%E6%9D%A5%E5%BA%94%E8%81%98%E5%A4%AE%E5%9B%BD%E4%BC%81%E6%9C%89%E5%8F%AF%E8%A1%8C%E6%80%A7%E5%90%97/"/>
+        <updated>2026-09-06T17:37:21.000Z</updated>
+        <summary type="html"><![CDATA[rt，本科某中流211自动化专业，本科除了学校实习内容外没有做过像样的实习，现在已经工作两年，实在是想换一份稳定的工作，手上大约有30个w，想听听大家的意见，先谢谢各位了。
+    submitted by    /u/Fearless-Box6344  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>流浪防区</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[問卦] 沒人發現哈佛的本科宿舍也有不少沒冷氣？]]></title>
+        <id>https://www.ptt.cc/bbs/Gossiping/M.1788716217.A.A74.html</id>
+        <link href="https://www.ptt.cc/bbs/Gossiping/M.1788716217.A.A74.html"/>
+        <updated>2026-09-06T17:36:57.000Z</updated>
+        <summary type="html"><![CDATA[哈佛的本科生，也就是 Harvard College，
+部分低年級宿舍多年來也沒有冷氣。
+但人家的宿舍不少本身就是有歷史的古老建築物，
+學生照樣過夏天。
+反觀台灣，]]></summary>
+        <author>
+            <name>批踢踢實業坊 Gossiping 板</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[怎么看增资3600亿]]></title>
+        <id>https://www.reddit.com/r/China_irl/comments/1w92frt/%E6%80%8E%E4%B9%88%E7%9C%8B%E5%A2%9E%E8%B5%843600%E4%BA%BF/</id>
+        <link href="https://www.reddit.com/r/China_irl/comments/1w92frt/%E6%80%8E%E4%B9%88%E7%9C%8B%E5%A2%9E%E8%B5%843600%E4%BA%BF/"/>
+        <updated>2026-09-06T17:30:52.000Z</updated>
+        <summary type="html"><![CDATA[这个钱挺突然的，而且收到信息说这些公司内都避免谈论这个事情，想请教大佬给解读下
+    submitted by    /u/czsylda  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>流浪防区</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[問卦] 民宿老闆先詢問輔大妹妹不是很有禮貌嗎？]]></title>
+        <id>https://www.ptt.cc/bbs/Gossiping/M.1788715724.A.23A.html</id>
+        <link href="https://www.ptt.cc/bbs/Gossiping/M.1788715724.A.23A.html"/>
+        <updated>2026-09-06T17:28:44.000Z</updated>
+        <summary type="html"><![CDATA[相較淡水藥師 直接下藥犯罪
+民宿老闆雞雞癢 有先詢問輔大妹妹意願
+要或不要尊重對方
+也開出他認為合理的價位
+用詞也很有禮貌]]></summary>
+        <author>
+            <name>批踢踢實業坊 Gossiping 板</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[問卦] 相同語言可以拉近人與人的距離？]]></title>
+        <id>https://www.ptt.cc/bbs/Gossiping/M.1788715704.A.A8A.html</id>
+        <link href="https://www.ptt.cc/bbs/Gossiping/M.1788715704.A.A8A.html"/>
+        <updated>2026-09-06T17:28:24.000Z</updated>
+        <summary type="html"><![CDATA[昨天有一個韓國人跟我說你好
+他說他小時候在台灣住過
+會講一點點中文
+我跟他講英文
+他還會用中文回我]]></summary>
+        <author>
+            <name>批踢踢實業坊 Gossiping 板</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[It only takes one person]]></title>
+        <id>https://www.reddit.com/r/SipsTea/comments/1w92cwa/it_only_takes_one_person/</id>
+        <link href="https://www.reddit.com/r/SipsTea/comments/1w92cwa/it_only_takes_one_person/"/>
+        <updated>2026-09-06T17:27:59.000Z</updated>
+        <summary type="html"><![CDATA[submitted by    /u/ConsistentRecover312    to    r/SipsTea  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>popular links</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[問卦] 想買名車載輔大博士生去溪頭好不好？]]></title>
+        <id>https://www.ptt.cc/bbs/Gossiping/M.1788715334.A.FB1.html</id>
+        <link href="https://www.ptt.cc/bbs/Gossiping/M.1788715334.A.FB1.html"/>
+        <updated>2026-09-06T17:22:14.000Z</updated>
+        <summary type="html"><![CDATA[對！
+我想買車，福特高級車
+一台100萬，很頂！
+輔大女學生
+是台灣美貌第一的！]]></summary>
+        <author>
+            <name>批踢踢實業坊 Gossiping 板</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Re: [問卦] 為什麼現在人對鬼月無感？]]></title>
+        <id>https://www.ptt.cc/bbs/Gossiping/M.1788715272.A.82E.html</id>
+        <link href="https://www.ptt.cc/bbs/Gossiping/M.1788715272.A.82E.html"/>
+        <updated>2026-09-06T17:21:12.000Z</updated>
+        <summary type="html"><![CDATA[我他媽每月領基本薪資
+你覺得鬼會理我？？
+鬼生前也是人
+是人都知道要找正妹帥哥有錢人
+你覺得掛壁肥宅鬼會理你？？]]></summary>
+        <author>
+            <name>批踢踢實業坊 Gossiping 板</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[�Ϻ�95��������Ů]]></title>
+        <id>http://www.newsmth.net/nForum/article/PieLove/2953239</id>
+        <link href="http://www.newsmth.net/nForum/article/PieLove/2953239"/>
+        <updated>2026-09-06T17:16:23.000Z</updated>
+        <summary type="html"><![CDATA[������: anliey (sea biscuit), ����: PieLove
+��  ��: �Ϻ�95��������Ů
+����վ: ˮľ���� (Sun Sep  6 23:14:57 2026), վ��
+��ͷ�Ȇ���һ�£��������������Ǵ�С���ų���ģ�˭�����⺢�������и�������Ϊ�Ը�ʵ����̫���ˡ�ѧ��רҵ�͹�����λ��û��Ů�������լ�����򣬲�����͹���ʮ�ˡ��شˣ��豦����һ�¡�
+������Ϣ��
+95�꣬�����Ϻ���211��˶���Ը�ã��������ģ����£�����������ֱ�У�լ��ϲ������Ϸ��ĳ��������Ϸ�ܴ�ȫ��ǰ����������ϲ�������������
+���������������ݾ�����Ȥ���ڣ���ҵ������С�гɾͣ���λ�Ƽ����½����������ϰ�
+�Ϻ��з��ӣ���ĸδ���ݣ������ݽ�������ѹ����
+Ψһ�����������ֻ��165����������ˡ�
+ϣ��Ů��93�����Ժ���Ʒ�ã����龭���򵥣������и���רѧ���ɣ���ȻҲ�Ĳ���һ��
+�������վ���ʼ�����Ϣ���С�
+--���� ismth(˿����)
+--
+�� ��Դ:��ˮľ���� http://m.mysmth.net��[FROM: 223.104.40.*]]]></summary>
+        <author>
+            <name>anliey</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[��ǰ���ǲ������ֵģ��������кڸ�ѽ (ת��)]]></title>
+        <id>http://www.newsmth.net/nForum/article/AutoWorld/1945309871</id>
+        <link href="http://www.newsmth.net/nForum/article/AutoWorld/1945309871"/>
+        <updated>2026-09-06T17:13:25.000Z</updated>
+        <summary type="html"><![CDATA[������: dldd (dldd), ����: AutoWorld
+��  ��: ��ǰ���ǲ������ֵģ��������кڸ�ѽ
+����վ: ˮľ���� (Sun Sep  6 23:51:46 2026), վ��
+�� ��������ת���� NewExpress ������ ��
+������: dldd (dldd), ����: NewExpress
+��  ��: ��ǰ���ǲ������ֵģ��������кڸ�ѽ
+����վ: ˮľ���� (Sun Sep  6 23:51:02 2026), վ��
+--���� ismth(˿����)
+--
+�� ��Դ:��ˮľ���� http://m.mysmth.net��[FROM: 60.1.64.*]]]></summary>
+        <author>
+            <name>dldd</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[求助帖：我小学五年级辍学，没上过初中，现在想靠单招和大专重新补上断层，出国读专门学校或双元制，能行吗？]]></title>
+        <id>https://www.reddit.com/r/China_irl/comments/1w91x1f/%E6%B1%82%E5%8A%A9%E5%B8%96%E6%88%91%E5%B0%8F%E5%AD%A6%E4%BA%94%E5%B9%B4%E7%BA%A7%E8%BE%8D%E5%AD%A6%E6%B2%A1%E4%B8%8A%E8%BF%87%E5%88%9D%E4%B8%AD%E7%8E%B0%E5%9C%A8%E6%83%B3%E9%9D%A0%E5%8D%95%E6%8B%9B%E5%92%8C%E5%A4%A7%E4%B8%93%E9%87%8D%E6%96%B0%E8%A1%A5%E4%B8%8A%E6%96%AD%E5%B1%82%E5%87%BA%E5%9B%BD%E8%AF%BB%E4%B8%93%E9%97%A8%E5%AD%A6%E6%A0%A1%E6%88%96%E5%8F%8C%E5%85%83%E5%88%B6%E8%83%BD%E8%A1%8C%E5%90%97/</id>
+        <link href="https://www.reddit.com/r/China_irl/comments/1w91x1f/%E6%B1%82%E5%8A%A9%E5%B8%96%E6%88%91%E5%B0%8F%E5%AD%A6%E4%BA%94%E5%B9%B4%E7%BA%A7%E8%BE%8D%E5%AD%A6%E6%B2%A1%E4%B8%8A%E8%BF%87%E5%88%9D%E4%B8%AD%E7%8E%B0%E5%9C%A8%E6%83%B3%E9%9D%A0%E5%8D%95%E6%8B%9B%E5%92%8C%E5%A4%A7%E4%B8%93%E9%87%8D%E6%96%B0%E8%A1%A5%E4%B8%8A%E6%96%AD%E5%B1%82%E5%87%BA%E5%9B%BD%E8%AF%BB%E4%B8%93%E9%97%A8%E5%AD%A6%E6%A0%A1%E6%88%96%E5%8F%8C%E5%85%83%E5%88%B6%E8%83%BD%E8%A1%8C%E5%90%97/"/>
+        <updated>2026-09-06T17:12:04.000Z</updated>
+        <summary type="html"><![CDATA[​
+ 我是24岁男生，小学五年级就辍学了，后来虽然拿到初中毕业证，但实际上没有上过初中，初中的知识基本是空的。想重新走回学习这条路，心里有很多不确定，想请教一下有经验的朋友。
+ 我的背景
+ · 小学五年级辍学，没上过初中，但有初中毕业证。
+ · 现在的知识水平，大概只在小学，语文、数学基础都很弱。
+ · 我通过单招或中专这条路，重新回学校。
+ · 我以后的目标，是想学日语或德语，出国读专门学校，或者走德国的双元制，学一门技术，将来能在外面工作生活。
+ 我想问的问题
+ 第一，单招和大专的公共教育，能帮我补上我缺的那些东西吗？
+ 我现在最缺的就是最基础的语文、数学和书写。我想知道，单招班面对我这种基础的人，老师会不会认真帮我补基础？会不会教我生字词、阅读、写作这些？会不会教我学习方法、记笔记、错题本、怎么复习、怎么自己学这些学习工具？我很怕遇到只关心考试、不关心我知识断层的学校。他们教给我的东西能让我走下去吗？
+ 第二，如果我把单招和大专读下来，这些能力能支撑我以后学日语或德语吗？
+ 我以后想出国，去日本读专门学校，或者去德国走双元制。我不知道像我现在这种连初中知识都没有的人，就算读了单招和大专，能不能去得了，能不能跟得上课，能不能顺利毕业？我怕我永远补不上这个断层。
+    submitted by    /u/Funny_Insurance_6444  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>流浪防区</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[富豪为什么要亲手写万字小作文：孙宇晨这次玩砸的，是他吃了十年的老本]]></title>
+        <id>4888978</id>
+        <link href="https://www.huxiu.com/article/4888978.html?f=rss"/>
+        <updated>2026-09-06T17:11:39.000Z</updated>
+        <summary type="html"><![CDATA[本文来自微信公众号： Linda产业笔记 ，作者：Linda 梁领
+
+
+孙宇晨和景甜这事，热闹了快两个星期了。
+
+
+时间线、聊天记录、各路大佬下场站队、一次又一次的反转，该被扒的细节早被扒烂了，该站的队大家也都站过了。这个点上再来复盘一遍谁对谁错、谁又爆了什么料，说实话没什么意思，网上已经有几百篇了，不缺我这一篇。
+
+
+所以这篇不打算再加一盘瓜。我更好奇的是另一件事：一个身价以亿计的加密富豪，为什么要花十几个小时，亲手写一篇上万字的长文，把自己一段私人感情的种种细节摊开，发到全网面前？文末还特意标注"纯属虚构"，却又配上大量精准到日期、地点、金额的细节。
+
+
+等吃瓜的热度退下去，再看这件事，你会发现它一点都不像失态，反而像一次熟练的操作，只是这一次，操作的人玩砸了。
+
+
+孙宇晨是靠什么起家的
+
+
+他是区块链项目波场TRON的创始人，2017年创立，是全球主流公链里唯一一条华人背景的公链。但在大众的认知里，孙宇晨更响亮的身份是另一个，就是“币圈营销第一人”，
+
+
+这个称号是用一连串烧钱的名场面堆出来的。2019年，他以456.7万美元拍下了与“股神”巴菲特共进午餐的机会，而就在午餐前夕，他突然宣布因故暂缓，让这个话题在全球社交平台上反复发酵了大半年，最后才在2020年补上这顿饭。他花2800万美元买下过太空探索公司蓝色起源的首飞船票。他花624万美元买下那件把一根香蕉用胶带黏在墙上的艺术品《喜剧演员》，然后当着众人的面，把那根香蕉吃掉了。他还多次公开跟以太坊创始人V神隔空开怼，而V神则毫不客气地评价波场技术基础薄弱，调侃它“Ctrl+C和Ctrl+V的效率更高”。
+
+
+孙宇晨制造的每一次热点，几乎都游走在“荒诞”和“争议”的边缘，但每一次都精准地把全球科技媒体的镜头，拉到了波场TRON身上。波场早年曾被质疑是“空气项目”，原创性不足，但靠着这一场接一场的流量狂欢，它硬是在拥挤…]]></summary>
+        <author>
+            <name>Linda产业笔记</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[����ǰ�и�ѧӢ�������]]></title>
+        <id>http://www.newsmth.net/nForum/article/ChildEducation/2585816</id>
+        <link href="http://www.newsmth.net/nForum/article/ChildEducation/2585816"/>
+        <updated>2026-09-06T17:09:05.000Z</updated>
+        <summary type="html"><![CDATA[������: apple123321 (��ˮ�ײ�), ����: ChildEducation
+��  ��: ����ǰ�и�ѧӢ�������
+����վ: ˮľ���� (Sun Sep  6 12:16:55 2026), վ��
+�����˵�ϳ���ʱ�е�ʻ����󣬿�һ�������ڹ��ҵ����Ļ���ʲô�Ŀγ̣�ÿ��10�����ӣ�ͬʱ���������֪ʶ����Ķ���������⡣�������������һ����������ID���ģ����������Ǿ�����˭�ˡ�
+��֪����û������ӡ�����ҳ���������������ʲô�γ̣��Լ�������ôѧ��
+--
+�� ��Դ:��ˮľ���� http://m.mysmth.net��[FROM: 182.138.85.*]]]></summary>
+        <author>
+            <name>apple123321</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ҳ��2-3���ʱ�䣬��������50-70%����Ϊ�˿�]]></title>
+        <id>http://www.newsmth.net/nForum/article/OurEstate/3507528</id>
+        <link href="http://www.newsmth.net/nForum/article/OurEstate/3507528"/>
+        <updated>2026-09-06T17:03:43.000Z</updated>
+        <summary type="html"><![CDATA[������: LexLexis (Lealexis), ����: OurEstate
+��  ��: Ҳ��2-3���ʱ�䣬��������50-70%����Ϊ�˿�
+����վ: ˮľ���� (Sun Sep  6 19:09:02 2026), վ��
+����Ԥ�Ƴ����˿ڲ���700���Ժ�ᱣ����300-500���ң����ز����Ǵ�����Ʒ��
+--���� ismth(˿����)
+--
+�� ��Դ:��ˮľ���� http://m.mysmth.net��[FROM: 125.121.45.*]]]></summary>
+        <author>
+            <name>LexLexis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[O Último Artigo da Revolução Cultural]]></title>
+        <id>https://medium.com/p/6950f03cc27e</id>
+        <link href="https://medium.com/@mindanaobr/o-%C3%BAltimo-artigo-da-revolu%C3%A7%C3%A3o-cultural-6950f03cc27e?source=rss------china-5"/>
+        <updated>2026-09-06T17:01:20.000Z</updated>
+        <summary type="html"><![CDATA[“Novo Capítulo no Movimento Juvenil, 1976” foi publicado apenas seis dias antes da morte de Mao, em 9 de setembro de 1976. Portanto…
+Continue reading on Medium »]]></summary>
+        <author>
+            <name>Mindanao</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Opalite Health (YC W26) Is Hiring – Founding GTM]]></title>
+        <id>https://www.ycombinator.com/companies/opalite-health/jobs/bNedVAD-founding-gtm</id>
+        <link href="https://www.ycombinator.com/companies/opalite-health/jobs/bNedVAD-founding-gtm"/>
+        <updated>2026-09-06T17:00:28.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[国家这3600亿补的不是现在]]></title>
+        <id>4888977</id>
+        <link href="https://www.huxiu.com/article/4888977.html?f=rss"/>
+        <updated>2026-09-06T16:57:04.000Z</updated>
+        <summary type="html"><![CDATA[本文来自微信公众号： 王智远 ，作者：王智远
+
+
+9月6日，周日，晚上八点多。
+
+
+工行、农行、国寿、人保、太平，八家中央金融企业，公告前后脚挂了出来。财政部要给它们补资本，加起来3600亿。
+
+
+很多人第一反应，国家队也缺钱了？
+
+
+补资本这词，听着就像出事，翻成大白话，就是给机构补本钱。
+
+
+机构手里的钱分两堆，存款、保费是借来的货，迟早要还，不算数。自己的本钱才是压箱底的家当，出了事先拿它扛。监管盯着家当和贷款盘子的比例，不够数，就不许再往外放。
+
+
+补本钱，是把家当垫厚。按老剧本，家当见底才轮到补；这回补钱的八家，先查家当。
+
+
+家当里有最硬的一层，叫核心一级资本。它占贷款盘子的比例，行话叫核心一级资本充足率，新闻里常简称为资本充足率。
+
+
+工行13.21%，监管要求是9%，多出四个多点，搁过去够它再放一大轮贷款。
+
+
+保险行当有另一本账，叫偿付能力充足率，管家当够不够赔保单。国寿197.78%，监管线100%，快翻了一倍，人保比它还高，246.6%。
+
+
+按说补钱总得有个理由，八家公告翻遍，找不出一个窟窿，市场半天缓不过神，一个都不缺钱，那为什么还补？
+
+
+我查了一下，保险行当里真出过掉到线下的，不在八家里头。
+
+
+偿付能力充足率分宽严两档，国寿那种是宽档，严的那档叫核心偿付能力充足率，红线50%，今年一季度，有公司跌到过45%。
+
+
+那种才叫真缺钱，补起来得先停新业务、限制股东分红，一样一样来。
+
+
+去年财政部刚拿5000亿补过中行、建行、交行、邮储，今年轮到工行农行，外加保险和政策性银行，安排得明明白白，跟救火没有半点关系。
+
+
+年年排着队补，补什么？第一层是往后几年的事。
+
+
+国际监管圈每年点一次名，被点中的银行，备料标准高一截。工行2025年11月在这份名单上升了一档，成了头一家进第三组的中资银行，组越高，要多备的本钱越多。
+
+
+2027年1月1日起，附加…]]></summary>
+        <author>
+            <name>智远同学</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[✨ Kad ō：iOS 开源习惯追踪器，支持非二元习惯评分与导入导出]]></title>
+        <id>49586902</id>
+        <link href="https://newshacker.me/story?id=49586902"/>
+        <updated>2026-09-06T16:49:56.000Z</updated>
+        <summary type="html"><![CDATA[原标题：《Show HN: Kad ō – open-source habit tracker, with non-binary habit score, for iOS》
+评分: 27 | 作者: scastiel
+💭 连自己打卡都要验真，自律是有多脆弱？
+
+🎯 讨论背景
+Kad ō 是一个开源 iOS 习惯追踪器，主打类似 Loop Habit Tracker（Android 上的开源习惯追踪器）的使用体验，但加入了非二元 habit-score，而不是只有完成/未完成两种状态。HN 评论里有人提到自己之前就在用它，并依赖导入/导出把历史数据带过来，说明数据可携性是这类工具的核心需求。另一条线索是，用户想把它和 CalDAV（日历/任务同步协议）以及 jtx Board（基于 CalDAV 的任务与笔记工具）等系统结合，或者通过 notes 记录情绪、念头和行为背景。讨论还延伸到习惯应用的“真实性”——有人希望用 vision models 做证据验证，也有人担心 AI 生成的 README 和头像会削弱项目可信度。
+
+📌 讨论焦点
+iOS 版 Loop 替代与数据迁移
+不少人把它看作期待已久的 iOS 版 Loop Habit Tracker（Android 上的开源习惯追踪器），直接表达了“终于等到了”的认可。长期用户提到，导入/导出非常关键，因为他们已经积累了不少历史数据，需要在设备或应用之间迁移。也有人说自己用过偏 CBT 的习惯追踪器，但更希望在 iOS 上得到这种同类体验。
+[来源1] [来源2] [来源3]
+备注、情绪记录与任务联动
+有人希望每次习惯完成都能附带文字备注，用来记录情绪状态或重复出现的想法，而不只是一个勾选结果。回复指出，应用其实已经支持在详情页点选某一天后添加 note，这满足了更细颗粒度的记录需求。还有人希望把习惯追踪与 CalDAV 任务系统结合起来，例如和 jtx Board（一个基于 CalDAV 的任务/笔记工具）联动，把习惯、待办和笔记放进同一套工作流。
+[来源1] [来源2] [来源3]
+更强的验证与游戏化激励
+一条讨论把焦点放在“怎么让打卡更可信”上：有人觉得“做了 25 分钟锻炼”太容易被自己糊弄，理想状态是系统能证明实际完成了多少。对方进一步设想用 vision models（视觉模型）来做证据采集，但同时担心隐私和本地算力成本，尤其是不想依赖一台专门的 GPU 机器。另一种看法则认为，记录“有出现”本身就已经很重要，过度追求验真反而会破坏自我激励；还有人想要一个像 Habitica（带游戏化奖励的习惯应用）那样的 Rewards tab，把习惯分数兑换成现实奖励。
+[来源1] [来源2] [来源3]
+AI 痕迹与项目可信度
+另一组评论集中在项目呈现方式是否会影响信任。有人说 AI-written code 本身可以接受，但一眼看得出来是 AI 生成的 README.md 会让人怀疑作者是否真的认真解释过软件用途。也有人反驳说，应用好用就够了，不该去追究开发者来自哪里、用了什么语言或机器。还有人顺带吐槽了 Ghibli 生成风格的头像，认为这种视觉包装会直接暴露优先级。
+[来源1] [来源2] [来源3]
+
+📚 术语解释
+habit-score（非二元习惯评分）: 用分级或连续值记录习惯完成度，不把打卡简化成“做了/没做”。
+Loop Habit Tracker: Android 上知名的开源习惯追踪器，Kad ō 被拿来与之对比，也被视作其 iOS 版替代。
+CalDAV: 用于日历和任务同步的开放协议，适合把习惯和待办系统联动。
+Habitica: 一款把习惯管理做成游戏的应用，依靠奖励、升级和虚拟激励维持动力。
+CBT: 认知行为疗法，常用于记录情绪、思维模式和行为触发点的心理学框架。
+
+类别：Product | Work | Show HN | Release | Kad ō | habit tracker | open-source | iOS | non-binary habit score | GitHub | scastiel]]></summary>
+        <author>
+            <name>News Hacker | 极客洞察</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[德国极右AfD在萨克森州选举获高达44.5%选票]]></title>
+        <id>https://www.reddit.com/r/China_irl/comments/1w918u2/%E5%BE%B7%E5%9B%BD%E6%9E%81%E5%8F%B3afd%E5%9C%A8%E8%90%A8%E5%85%8B%E6%A3%AE%E5%B7%9E%E9%80%89%E4%B8%BE%E8%8E%B7%E9%AB%98%E8%BE%BE445%E9%80%89%E7%A5%A8/</id>
+        <link href="https://www.reddit.com/r/China_irl/comments/1w918u2/%E5%BE%B7%E5%9B%BD%E6%9E%81%E5%8F%B3afd%E5%9C%A8%E8%90%A8%E5%85%8B%E6%A3%AE%E5%B7%9E%E9%80%89%E4%B8%BE%E8%8E%B7%E9%AB%98%E8%BE%BE445%E9%80%89%E7%A5%A8/"/>
+        <updated>2026-09-06T16:46:46.000Z</updated>
+        <summary type="html"><![CDATA[submitted by    /u/DieShowWithDerMouse  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>流浪防区</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[Josh Pate] Been on the phone with several CFB refs/officials this morning. They are in complete agreement last night’s outcome in Michigan is one of the most inexplicable they’ve ever seen]]></title>
+        <id>https://www.reddit.com/r/CFB/comments/1w913bd/josh_pate_been_on_the_phone_with_several_cfb/</id>
+        <link href="https://www.reddit.com/r/CFB/comments/1w913bd/josh_pate_been_on_the_phone_with_several_cfb/"/>
+        <updated>2026-09-06T16:40:53.000Z</updated>
+        <summary type="html"><![CDATA[submitted by    /u/Lakelyfe09    to    r/CFB  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>popular links</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[🤦 HN 删“How”引发 AI 末日争论]]></title>
+        <id>49587128</id>
+        <link href="https://newshacker.me/story?id=49587128"/>
+        <updated>2026-09-06T16:40:17.000Z</updated>
+        <summary type="html"><![CDATA[原标题：《I Feel about AI》
+评分: 82 | 作者: qznc
+💭 删掉“How”就能防 AI 灭世？
+
+🎯 讨论背景
+这篇帖子看起来源自一篇很短的 AI 感想文章，标题大概率是“How I Feel about AI”，但 Hacker News 的自动标题编辑把 “How” 删掉了，所以首页显示成了 “I Feel about AI”。原文里还提到用 Mistral（一个开源大模型）帮忙审稿，这又被评论区拿来调侃“连七段短文都要 AI 审”。评论很快从标题机制转向 AI x-risk（existential risk，末日风险）争论，反复提到 Yudkowsky、AI 2027（一个关于 AI 发展时间线的预测报告）、sandboxing（沙箱隔离）和 alignment（对齐）。同时，很多人把讨论落回更现实的影响：机器人、无人机、关键基础设施、假新闻和 slop。
+
+📌 讨论焦点
+HN 自动删标题词引发混乱
+评论区先集中吐槽 Hacker News 的标题自动改写机制。原本像是 “How I Feel about AI” 的标题被删成了 “I Feel about AI”，让人读起来既别扭又好笑。有人认为这种自动删词早就变成负资产，和 Scunthorpe Problem 一样会误伤无害文本。也有人提醒，投稿后其实可以手动改标题，把被删掉的词补回来。
+[来源1] [来源2] [来源3] [来源4] [来源5] [来源6] [来源7] [来源8] [来源9] [来源10] [来源11] [来源12]
+对 AI 灭世论的直接怀疑
+另一派评论直接质疑“AI 会毁灭人类”的前提，认为 LLM 终究只是跑在服务器上的软件。就算 agent 能逃出 sandbox、删邮件或搞崩数据库，现实里也还能通过断网、拔电源、关机房来阻断。有人甚至把这类说法视为 mar…]]></summary>
+        <author>
+            <name>News Hacker | 极客洞察</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[An Alien Mind]]></title>
+        <id>https://openai.com/index/an-alien-mind/</id>
+        <link href="https://openai.com/index/an-alien-mind/"/>
+        <updated>2026-09-06T16:27:05.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[If rural Trump supporters oppose "socialism," why do they accept billions in federal funds via Social Security, Medicare, subsidized crop insurance, and direct government farm payments?]]></title>
+        <id>https://www.reddit.com/r/askanything/comments/1w90ohp/if_rural_trump_supporters_oppose_socialism_why_do/</id>
+        <link href="https://www.reddit.com/r/askanything/comments/1w90ohp/if_rural_trump_supporters_oppose_socialism_why_do/"/>
+        <updated>2026-09-06T16:25:27.000Z</updated>
+        <summary type="html"><![CDATA[I'm very curious about this. It just sort of seems like rural Trump supporters want the government to work for them and they don't care about anyone else. Socialism, to them it seems, just means government money someone else is getting. Do you think that makes rural Trump supporters hypocrites? Does any Trump supporter living in a rural area want to explain to me why you think it's okay for the government to help you, but everyone else can take a hike? Explain it to me like I'm 5. 
+    submitted by    /u/CriticalDiscipline4    to    r/askanything  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>popular links</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[🤔 12 周量子 Oracle 工程入门课公开，HN 误认成甲骨文公司]]></title>
+        <id>49586151</id>
+        <link href="https://newshacker.me/story?id=49586151"/>
+        <updated>2026-09-06T16:24:44.000Z</updated>
+        <summary type="html"><![CDATA[原标题：《I'm teaching an introductory 12 week course on Quantum Oracle Engineering》
+评分: 21 | 作者: BinRoo
+💭 量子 Oracle，难道真是甲骨文公司课？
+
+🎯 讨论背景
+这是一门面向入门者的 12 周“Quantum Oracle Engineering”课程，发帖者表示自己在 IEEE Quantum Week（IEEE 量子周，一个量子技术会议）上被接受的 tutorial 已经公开，并且会按周更新内容。讨论重点不只是课程本身，还包括是否会提供录播、课件和更多实践者推荐资料。评论里出现了典型的标题歧义：这里的“Oracle”指 quantum computing 里的黑盒查询函数，不是 Oracle 公司或 Larry Ellison。随后话题又滑向 Hacker News 的社区规范，有人拿 downvote 开玩笑，也有人提醒 downvote 不是简单的“不喜欢”按钮。
+
+📌 讨论焦点
+公开课与录播资源
+发帖者把自己在 IEEE Quantum Week（IEEE 量子周，一个量子技术会议）被接受的 tutorial 公开出来，并说明每周二会更新新课内容。评论里最直接的反应是询问是否会有录播，因为很多人无法亲自参加现场。也有人希望补充更多资料和推荐，而且最好来自一线 practitioners，说明大家想要更实用的学习路径。
+[来源1] [来源2] [来源3]
+把 Oracle 误看成甲骨文公司
+几条评论都在拿标题里的“Oracle Engineering”开玩笑，第一反应是把它理解成 Oracle 公司或 Larry Ellison 相关内容。有人承认自己差点就因为这个误解而 downvote，随后又发现其实和甲骨文公司无关。这个笑点主要来自 HN 用户扫标题太快，把 quantum computing 里的 oracle 直接读成了商业品牌名。
+[来源1] [来源2]
+HN 点踩规则与社区礼仪
+有评论开始纠正这种把 downvote 当成“不喜欢”按钮的用法，强调 HN 的 downvote 不是用来对笑话或观点表达厌恶。对方则反驳说，论坛里开个玩笑并不稀奇，而且提交帖本身甚至没有可见的 downvote 按钮。整段对话最后变成了关于 HN 讨论规范的元讨论，核心是“可以不认同，但别把点踩当情绪反馈”。
+[来源1] [来源2] [来源3]
+
+📚 术语解释
+quantum oracle: 量子计算中的黑盒函数或判定器，供算法调用查询；这里的 oracle 不是 Oracle 公司。
+IEEE Quantum Week: IEEE 举办的量子技术会议，包含 tutorials、演讲和研究交流。
+
+类别：Science | Programming | Guide | Quantum Oracle Engineering | quantum oracle | quantum | shukla.io]]></summary>
+        <author>
+            <name>News Hacker | 极客洞察</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[🤨 阿尔伯塔每块太阳能板征 $14 回收费，引发反绿能源争议]]></title>
+        <id>49587285</id>
+        <link href="https://newshacker.me/story?id=49587285"/>
+        <updated>2026-09-06T16:20:10.000Z</updated>
+        <summary type="html"><![CDATA[原标题：《Alberta (Canada) slaps punitive tax on solar panels》
+评分: 23 | 作者: cmrdporcupine
+💭 太阳能也要罚，油井污染却继续放任吗？
+
+🎯 讨论背景
+阿尔伯塔是加拿大西部以 oil & gas 产业著称的省份，近年关于 renewable energy 的政策一直很有争议。这里讨论的核心，是 ARMA（Alberta Recycling Management Authority，阿尔伯塔回收管理机构）对 solar panels 按块征收约 C $14 的费用，官方把它解释为未来回收与处置的资金来源。支持者认为这只是正常的回收机制，而且阿尔伯塔没有 provincial sales tax，整体成本并不离谱；反对者则认为政府没有说清楚定价依据，而且这会进一步打击当地原本增长很快的 solar 产业。评论还把话题延伸到太阳能板是否真的有毒、是否容易回收，以及阿尔伯塔对 fossil fuel 产业和大规模 renewables 项目的政策偏向。
+
+📌 讨论焦点
+回收费到底算不算合理
+一部分人认为这只是太阳能板的 end-of-life recycling fee，按每块约 C $14 计算并不夸张，尤其放到一整套安装成本里看只占很小比例。支持者还强调阿尔伯塔没有 provincial sales tax，整体安装成本本来就偏低，所以为未来回收预先收费并非离谱。反对者则质疑这个数字的来源不透明，认为政府没有公开完整拆分，外部估算更接近 C $5 的现值成本。还有人指出 utility 项目本来就可能要交 reclamation security，再叠加新收费会像 double-charging。
+[来源1] [来源2] [来源3] [来源4] [来源5] [来源6] [来源7] [来源8]
+被视为压制 renewable energy 的政治动作
+很多评论把这项收费看成阿尔伯塔对 renewable energy 的更大范围打压，而不只是单纯的回收政策。有人提到该省依赖 oil revenue，过去还曾一度禁止 renewables projects，并对大型 datacentre 的供电方式做出限制，结果是把投资往 natural gas 方向推。评论里多次出现“disinformation”“entrenched interests”等说法，意思是当地既有能源利益集团在主动阻止能源转型。整体语气认为这不是环保治理，而是用监管手段保护 fossil fuel 产业。
+[来源1] [来源2] [来源3] [来源4] [来源5]
+太阳能板毒性与回收常识之争
+有人从环境保护角度为收费辩护，认为太阳能板不该进 landfill，先收一笔处理费是合理的。回应者则说，常见的晶硅太阳能板并不通常含有 lead 或 cadmium，所谓“有毒”更多是被夸大的印象。真正常被提到的是 thin-film 的 CdTe（Cadmium Telluride，碲化镉）组件，但那并不是绝大多数地面电站使用的类型。评论还强调，太阳能板大部分材料都可以 recycle，争议重点其实是如何为回收与拆解筹资。
+[来源1] [来源2] [来源3]
+媒体叙事与政府可信度争议
+另一条线索是对报道和官方说法的不信任，有人直接把文章称作 propaganda，认为它故意放大愤怒。也有人反过来批评这种先入为主的否定态度，要求先看证据再下结论。支持质疑的一方则指出，政府给出的 C $14 数字没有清楚的计算说明，连带让人怀疑其政策目的是否不仅是回收。这个分歧说明大家争的不只是费用高低，还有谁的话可信、谁在带节奏。
+[来源1] [来源2] [来源3] [来源4] [来源5]
+
+📚 术语解释
+ARMA: Alberta Recycling Management Authority，阿尔伯塔的回收管理机构，负责或主导相关回收费政策。
+reclamation security: 项目方预先缴纳的保证金，用于未来拆除、复垦和废弃物处理成本。
+Cadmium Telluride (CdTe): 一种薄膜太阳能电池材料，含镉化合物，常被拿来讨论潜在毒性问题。
+
+类别：Business | Product | Opinion | Alberta | solar panels | UCP | renewable energy | recycling fee | tax | ARMA | albertapolitics.ca]]></summary>
+        <author>
+            <name>News Hacker | 极客洞察</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Research carried out using NetBSD]]></title>
+        <id>https://www.netbsd.org/gallery/research.html</id>
+        <link href="https://www.netbsd.org/gallery/research.html"/>
+        <updated>2026-09-06T16:10:05.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[茶与国运：一片树叶里的大国博弈|| 大视野]]></title>
+        <id>4888976</id>
+        <link href="https://www.huxiu.com/article/4888976.html?f=rss"/>
+        <updated>2026-09-06T16:09:30.000Z</updated>
+        <summary type="html"><![CDATA[本文来自微信公众号： 秦朔朋友圈 ，作者：秦朔，原文标题：《茶与国运：一片树叶里的大国博弈 || 大视野》
+
+
+中国有几亿人喝茶，全世界有数以十亿计的人喝茶。茶起于中国，由药入饮，传至世界，是中国文化和生活方式的最重要载体之一。
+
+
+最近，我和著名经济学家、《茶与咖啡：杯中的全球贸易与资本博弈》一书主要作者之一魏尚进教授做了一次对谈。他1986年从复旦大学世界经济专业本科毕业时，我进入新闻系就读。80年代的复旦校园，充满了思想启蒙、心系天下的气息，深刻影响了我们那代人。
+
+
+从茶和咖啡的历史，魏教授看到了大国财富的流转和全球贸易的经纬。我则萌生了把茶作为国运载体的一些思考。
+
+
+为什么茶与国运相关？
+
+
+中美两个大国的历史，都和茶有关。
+
+
+今年是美国建国250周年。美国独立战争（1775-1783）的导火索是1773年12月16日晚上发生的“波士顿倾茶事件”。342箱被倒掉的茶是英国东印度公司向北美殖民地出口的，而茶的原产地则是中国。
+
+
+1773年英国出台了《茶税法》，北美殖民地进口茶叶，每磅（0.454千克）要缴纳3便士关税。同时，英国政府批准东印度公司将茶叶运到北美时，可以不经殖民地的进口商这一中间环节，而直接卖给零售商。其好处是零售价可以更便宜，茶叶卖得更多，殖民地人民更愿意购买，这就变相坐实了“英国议会有权进行茶税的征收”。
+
+
+这一做法触怒了当时一直通过走私荷兰茶叶牟利的中间商们，荷兰茶叶也来自中国。这些中间商以“无代表不纳税”为口号，鼓动一些波士顿群众装扮成印第安人，趁夜色上船，将东印度公司的茶叶倒入海中。
+
+
+作为回应，英国1774年通过了《强制法案》，采取了关闭波士顿港、改组马萨诸塞政府等措施。这激起北美殖民地的联合反抗，促成了第一次大陆会议的召开。会上决定，全殖民地统一对英实施经济抵制。英国和殖民地的矛盾无法化解，1775年4月19日莱克星顿一声枪响，…]]></summary>
+        <author>
+            <name>秦朔朋友圈</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Saxony-Anhalt: Far-right AfD secures huge lead in key vote [exit poll]]]></title>
+        <id>https://www.reddit.com/r/europe/comments/1w908qd/saxonyanhalt_farright_afd_secures_huge_lead_in/</id>
+        <link href="https://www.reddit.com/r/europe/comments/1w908qd/saxonyanhalt_farright_afd_secures_huge_lead_in/"/>
+        <updated>2026-09-06T16:09:25.000Z</updated>
+        <summary type="html"><![CDATA[submitted by    /u/Boreras    to    r/europe  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>popular links</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[环保央企回归各自主场，3种新格局正在形成]]></title>
+        <id>4888975</id>
+        <link href="https://www.huxiu.com/article/4888975.html?f=rss"/>
+        <updated>2026-09-06T16:08:16.000Z</updated>
+        <summary type="html"><![CDATA[本文来自微信公众号： 青山产业评论 ，作者：青山研究院
+
+
+导读：环保行业的下一轮洗牌，不只是央企走向分化，整个行业也到了重新看清各自主场的时候。
+
+
+把央企体系里的环保企业排在一起，会得到一张很长的名单。
+
+
+中国节能、中国资环、长江环保，中电建生态环境、葛洲坝生态环保、中建生态环境、中冶生态环保，还有钢铁、石油、化工等产业集团内部的环保平台。
+
+
+它们来路不同。
+
+
+在市政环保增量最醒目的阶段，外界更容易把它们放进同一套增长叙事：依靠央企信用、融资和工程组织能力，拿大项目、延长产业链、做大资产与业务边界。
+
+
+这套共同叙事之所以能够成立，是因为市政环保的集中建设，曾让项目规模、投资规模和业务版图成为观察不同平台的共同尺度。
+
+
+只要这些外在规模仍在扩大，企业为什么存在、主要服务谁、由谁为结果付费，就不必立刻分得很清楚。
+
+
+过去可以被规模掩盖的差异，当下开始在资产归属、客户选择、经营考核和产业边界上显现。
+
+
+同一个“央企环保”的标签之下，企业的去向也由此开始分化。
+
+
+共同扩张
+
+
+曾经遮住了不同的存在逻辑
+
+
+这种分化并非凭空发生。“央企环保企业”从来就不是一个统一的制度类别。
+
+
+中国节能的主业是节能环保。中国资源循环集团在2024年组建，承担建设全国性资源回收再利用平台的任务。长江生态环保集团则由三峡集团在2018年设立，是共抓长江大保护的实施主体。这些平台从成立之初，就带有国家功能或跨区域系统治理任务。
+
+
+另一类环保企业，长在工程央企内部。中电建生态环境、葛洲坝生态环保、中建生态环境、中冶生态环保，分别依托电力建设、能源工程、建筑和冶金工程体系形成。它们拥有规划、设计、融资、施工和项目组织能力，环保曾经是工程能力向水环境、流域治理和城市基础设施的自然延伸。
+
+
+还有一类，首先长在产业央企自己的生产场景里。钢铁、石化、能源、矿业集团每天都要处理废水、废气、固废…]]></summary>
+        <author>
+            <name>青山产业评论</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Same logo btw]]></title>
+        <id>https://www.reddit.com/r/pcmasterrace/comments/1w9068d/same_logo_btw/</id>
+        <link href="https://www.reddit.com/r/pcmasterrace/comments/1w9068d/same_logo_btw/"/>
+        <updated>2026-09-06T16:06:45.000Z</updated>
+        <summary type="html"><![CDATA[submitted by    /u/ExpensiveCoat8912    to    r/pcmasterrace  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>popular links</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[生成式AI 的中局范式：从Harness 到Experience Loop]]></title>
+        <id>4888974</id>
+        <link href="https://www.huxiu.com/article/4888974.html?f=rss"/>
+        <updated>2026-09-06T16:06:27.000Z</updated>
+        <summary type="html"><![CDATA[本文来自微信公众号： AIGC从0到1 ，作者：王零壹，原文标题：《生成式 AI 的中局范式：从 Harness 到 Experience Loop》
+
+
+过去几年，生成式AI行业一直在寻找下一个足以改写叙事的大词。
+
+
+有人说是更大的模型，有人说是推理，有人说是Agent，有人说是世界模型，也有人已经把目光投向“自我改进”“递归自我提升”。
+
+
+但如果把这些概念拆开，会发现：2026年的行业未必已经出现了“Transformer 2.0”式的新底座；真正逐渐收敛的，是一套比“模型能力”更完整的系统观。
+
+
+它大致包括三个层面的变化：
+
+
+
+在产品上，AI正从“帮你用软件”，走向“替你交付工作”；
+
+
+
+在系统上，模型不再独自构成产品，模型之外需要一个持续运行、可行动、可验证的Runtime；
+
+
+
+在学习上，行业开始从“依赖人类数据训练模型”，走向“让系统在环境中积累经验，并把经验转化为能力”。
+
+
+
+如果一定要写成一个公式，今天越来越多AI系统接近的是：
+
+
+AI System=Model+Persistent Runtime+Environment+State/Memory+Verification+Learning Loop
+
+
+或者更直白一点：
+
+
+Goal→Act→World→Feedback→Update→Act Again
+
+
+ChatGPT时代的基本链路是：提示词，生成答案。
+
+
+成熟Agent系统的链路则变成：目标，执行，进入环境，获得结果，接受评估，沉淀经验，再次行动。
+
+
+讨论的是：AI如何从一次性推理，变成一个持续存在于真实世界里的系统。
+
+
+一、先别把五层问题混成一场路线之争
+
+
+今天关于Agent、Harness、Agent OS、Continual Learning、World Model的争论，常常显得混乱。原因不复杂：大家讨论的根本不是同…]]></summary>
+        <author>
+            <name>AIGC从0到1</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[🤔 AMD FreeBSD 桌面重做：Wayland、-CURRENT 与工具链争议]]></title>
+        <id>49582719</id>
+        <link href="https://newshacker.me/story?id=49582719"/>
+        <updated>2026-09-06T16:04:55.000Z</updated>
+        <summary type="html"><![CDATA[原标题：《AMD Based FreeBSD Desktop Reloaded》
+评分: 22 | 作者: vermaden
+💭 FreeBSD 桌面更新，真要靠 release notes 续命吗？
+
+🎯 讨论背景
+这篇帖子围绕一篇介绍 AMD-based FreeBSD desktop 的博客展开，重点是 FreeBSD 在桌面上的实际可用性，尤其是 AMD GPU 支持。评论者把话题延伸到 X11（传统图形系统）和 Wayland（新一代显示协议）的切换、FreeBSD 16-CURRENT（开发分支）是否适合日常使用，以及桌面配置到底该跟随哪些“正确做法”。有人提到 vermaden 的 FreeBSD 博客常被用作实战参考，这说明 FreeBSD 桌面圈很依赖个人教程和经验积累。讨论里还拿 Linux 常见的 systemd user services、PipeWire（音视频与屏幕共享框架）和 xdg-session 之类能力做对比，反映出 FreeBSD 桌面生态在工具整合上仍然更碎片化。
+
+📌 讨论焦点
+FreeBSD 桌面体验被认可
+不少评论把这篇文章看成是 FreeBSD 桌面可用性的正面案例。有人提到 vermaden 的博客常出现在 FreeBSD 相关搜索结果里，说明他对降低使用门槛很有帮助。也有人直接表示 Wayland 在 FreeBSD 上已经能用，和 KDE Plasma 组合后体验相当顺手。整体语气偏鼓励，重点是“能把 FreeBSD 当桌面认真折腾”本身就值得点赞。
+[来源1] [来源2]
+对 Red Hat 与 X11 说法的困惑
+有评论对文中提到的“Red Hat 想削弱并扼杀 X11”感到困惑，直接追问这句话究竟指什么。这个问题把讨论拉回到 X11 与 Wayland 的长期替换争议上，也反映出一些人对 Linux 桌面路线的政治化表述并不买账。虽然没有展开成完整辩论，但它暗示了显示协议迁移本身就是一个带立场的老话题。
+[来源1]
+FreeBSD 版本与 -CURRENT 的定位之争
+关于 FreeBSD 版本和 -CURRENT 的用途，讨论明显分成两派。有人说自己为了 RDNA4 支持才留在 16-CURRENT，并承认命令和默认做法会不断变化，所以很难找到“唯一正确”的流程。回复则强调 FreeBSD 本身变化没那么大，release notes 和 /usr/src/UPDATING 才是主要信息源；但也有人举 Netflix CDN 和 pfSense（基于 FreeBSD 的防火墙/路由系统）为例，认为 -CURRENT 不是不能上生产，只是前提是你足够贴近开发节奏。桌面场景下现代硬件经常逼人用更新分支，也让“稳定”与“硬件支持”之间的矛盾更突出。
+[来源1] [来源2] [来源3] [来源4] [来源5]
+桌面工具链与会话管理的碎片化
+另一个焦点是 FreeBSD 桌面工具链没有 Linux 那样统一。评论里列出服务管理从 service、etcupdate 到旧的 mergemaster，再到 ports 升级工具究竟该用 poudriere、portmaster 还是 portupgrade，都让新老用户容易迷糊。还有人提到很难直接复刻 systemd 用户服务、PipeWire 和 xdg-session 这套组合，因此屏幕共享之类的桌面功能常常要自己拼。回复则建议查 /usr/src/UPDATING、看 release notes，并指出 pkg 只适合预编译包，不会替你按 /usr/ports 的自定义选项重新编译；也有人因此更偏向 sway 这类更简洁的桌面选择。
+[来源1] [来源2] [来源3]
+
+📚 术语解释
+X11: 传统的 Unix/Linux 图形显示系统，长期承担桌面窗口与输入输出管理。
+Wayland: 较新的显示协议，目标是替代 X11，简化现代桌面图形栈。
+FreeBSD -CURRENT: FreeBSD 的开发分支，包含最新改动，但稳定性和兼容性波动更大。
+pkg: FreeBSD 的二进制包管理工具，用于安装和升级预编译软件包。
+ports: FreeBSD 的源码构建树，允许按自定义选项编译和安装软件。
+etcupdate: FreeBSD 用来合并 /etc 配置文件变更的工具，常被视为 mergemaster 的后继方案。
+
+类别：Systems | Hardware | Guide | Review | FreeBSD | AMD | vermaden | 16-CURRENT | pkg | ports | Wayland | X11]]></summary>
+        <author>
+            <name>News Hacker | 极客洞察</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[张雪机车法国站次回合获得第3名 热度：3125319]]></title>
+        <id>2157610</id>
+        <link href="https://www.baidu.com/s?wd=%E5%BC%A0%E9%9B%AA%E6%9C%BA%E8%BD%A6%E6%B3%95%E5%9B%BD%E7%AB%99%E6%AC%A1%E5%9B%9E%E5%90%88%E8%8E%B7%E5%BE%97%E7%AC%AC3%E5%90%8D&amp;sa=fyb_news&amp;rsv_dl=fyb_news"/>
+        <updated>2026-09-06T16:02:22.000Z</updated>
+        <summary type="html"><![CDATA[2026世界超级摩托车锦标赛法国站WorldSSP组别次回合正赛6日在法国讷韦尔-马尼库尔赛道举行，中国摩托车制造商“张雪机车”的法国车手瓦伦丁·德...]]></summary>
+        <author>
+            <name>百度实时热点</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[网友锯开树干露出层层叠叠的巨大蜂巢 热度：3232959]]></title>
+        <id>2157609</id>
+        <link href="https://www.baidu.com/s?wd=%E7%BD%91%E5%8F%8B%E9%94%AF%E5%BC%80%E6%A0%91%E5%B9%B2%E9%9C%B2%E5%87%BA%E5%B1%82%E5%B1%82%E5%8F%A0%E5%8F%A0%E7%9A%84%E5%B7%A8%E5%A4%A7%E8%9C%82%E5%B7%A2&amp;sa=fyb_news&amp;rsv_dl=fyb_news"/>
+        <updated>2026-09-06T16:02:21.000Z</updated>
+        <author>
+            <name>百度实时热点</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[人民日报：劳动教育岂能“代劳” 热度：3296574]]></title>
+        <id>2157608</id>
+        <link href="https://www.baidu.com/s?wd=%E4%BA%BA%E6%B0%91%E6%97%A5%E6%8A%A5%EF%BC%9A%E5%8A%B3%E5%8A%A8%E6%95%99%E8%82%B2%E5%B2%82%E8%83%BD%E2%80%9C%E4%BB%A3%E5%8A%B3%E2%80%9D&amp;sa=fyb_news&amp;rsv_dl=fyb_news"/>
+        <updated>2026-09-06T16:02:21.000Z</updated>
+        <summary type="html"><![CDATA[近日，四川西昌某小学一家长提议每月花600元请保洁打扫教室，遭质疑后被老师禁言，目前西昌市教体局正核查。媒体评论指出，劳动教育，容不得“代劳”。“一...]]></summary>
+        <author>
+            <name>百度实时热点</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[5岁女孩哭着抢收稻谷小伙伴们来帮忙 热度：3503673]]></title>
+        <id>2157607</id>
+        <link href="https://www.baidu.com/s?wd=5%E5%B2%81%E5%A5%B3%E5%AD%A9%E5%93%AD%E7%9D%80%E6%8A%A2%E6%94%B6%E7%A8%BB%E8%B0%B7+%E5%B0%8F%E4%BC%99%E4%BC%B4%E4%BB%AC%E6%9D%A5%E5%B8%AE%E5%BF%99&amp;sa=fyb_news&amp;rsv_dl=fyb_news"/>
+        <updated>2026-09-06T16:02:21.000Z</updated>
+        <summary type="html"><![CDATA[近日，广东，暴雨将至，家里的稻谷要被淋湿，5岁女孩急哭，结果周围的小伙伴们一起来帮忙收稻谷，十分暖心。]]></summary>
+        <author>
+            <name>百度实时热点</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[上一次你开电视是什么时候 热度：3597558]]></title>
+        <id>2157606</id>
+        <link href="https://www.baidu.com/s?wd=%E4%B8%8A%E4%B8%80%E6%AC%A1%E4%BD%A0%E5%BC%80%E7%94%B5%E8%A7%86%E6%98%AF%E4%BB%80%E4%B9%88%E6%97%B6%E5%80%99&amp;sa=fyb_news&amp;rsv_dl=fyb_news"/>
+        <updated>2026-09-06T16:02:20.000Z</updated>
+        <summary type="html"><![CDATA[9月3日晚间，老牌彩电品牌康佳发布停牌公告拟退市。此前8月底，罗永浩炮轰电视难用并宣布欲做电视改变行业陋习。两者均指向电视难用问题。上一次你开电视是...]]></summary>
+        <author>
+            <name>百度实时热点</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[《甄嬛传》“温宜公主”回应北电落榜 热度：3713490]]></title>
+        <id>2157605</id>
+        <link href="https://www.baidu.com/s?wd=%E3%80%8A%E7%94%84%E5%AC%9B%E4%BC%A0%E3%80%8B%E2%80%9C%E6%B8%A9%E5%AE%9C%E5%85%AC%E4%B8%BB%E2%80%9D%E5%9B%9E%E5%BA%94%E5%8C%97%E7%94%B5%E8%90%BD%E6%A6%9C&amp;sa=fyb_news&amp;rsv_dl=fyb_news"/>
+        <updated>2026-09-06T16:02:20.000Z</updated>
+        <summary type="html"><![CDATA[9月6日，曾在《甄嬛传》中饰演温宜公主的演员纪姿含发文回应北电落榜，表示落榜后曾陷入自我否定和自责，经与家人思考，最终决定去中戏国际部，目前已顺利报...]]></summary>
+        <author>
+            <name>百度实时热点</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[北京的路边摊都去了哪儿 热度：3799992]]></title>
+        <id>2157603</id>
+        <link href="https://www.baidu.com/s?wd=%E5%8C%97%E4%BA%AC%E7%9A%84%E8%B7%AF%E8%BE%B9%E6%91%8A%E9%83%BD%E5%8E%BB%E4%BA%86%E5%93%AA%E5%84%BF&amp;sa=fyb_news&amp;rsv_dl=fyb_news"/>
+        <updated>2026-09-06T16:02:20.000Z</updated>
+        <summary type="html"><![CDATA[今年7月起，北京顺义区光明街道启动游商占道专项整治。此前，辖区游商聚集引发交通拥堵等问题。目前，街道已为98户游商建档，通过疏堵结合，协助25户自产...]]></summary>
+        <author>
+            <name>百度实时热点</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[开学典礼上北航校长深深鞠了一躬 热度：3994282]]></title>
+        <id>2157602</id>
+        <link href="https://www.baidu.com/s?wd=%E5%BC%80%E5%AD%A6%E5%85%B8%E7%A4%BC%E4%B8%8A%E5%8C%97%E8%88%AA%E6%A0%A1%E9%95%BF%E6%B7%B1%E6%B7%B1%E9%9E%A0%E4%BA%86%E4%B8%80%E8%BA%AC&amp;sa=fyb_news&amp;rsv_dl=fyb_news"/>
+        <updated>2026-09-06T16:02:19.000Z</updated>
+        <summary type="html"><![CDATA[近日，在北京航空航天大学2026年开学典礼上，校长王云鹏上台向新生深鞠躬，感谢他们在千万个选择中坚定选择北航。]]></summary>
+        <author>
+            <name>百度实时热点</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[陈妍希又当爹又当妈 热度：4172603]]></title>
+        <id>2157601</id>
+        <link href="https://www.baidu.com/s?wd=%E9%99%88%E5%A6%8D%E5%B8%8C+%E5%8F%88%E5%BD%93%E7%88%B9%E5%8F%88%E5%BD%93%E5%A6%88&amp;sa=fyb_news&amp;rsv_dl=fyb_news"/>
+        <updated>2026-09-06T16:02:19.000Z</updated>
+        <summary type="html"><![CDATA[陈妍希独自带娃又当爹又当妈！孩子不肯吃饭，陈妍希怀疑是不是自己的教育出了问题。网友：单亲带娃的焦虑和两难，只有经历过才懂。]]></summary>
+        <author>
+            <name>百度实时热点</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[小米澎程将上市多家车企送祝福 热度：4290137]]></title>
+        <id>2157600</id>
+        <link href="https://www.baidu.com/s?wd=%E5%B0%8F%E7%B1%B3%E6%BE%8E%E7%A8%8B%E5%B0%86%E4%B8%8A%E5%B8%82+%E5%A4%9A%E5%AE%B6%E8%BD%A6%E4%BC%81%E9%80%81%E7%A5%9D%E7%A6%8F&amp;sa=fyb_news&amp;rsv_dl=fyb_news"/>
+        <updated>2026-09-06T16:02:19.000Z</updated>
+        <summary type="html"><![CDATA[9月6日，理想汽车、深蓝汽车、长安汽车、凯迪拉克、北汽集团等车企纷纷发文，预祝小米澎程上市成功。据悉，小米秋季旗舰新品发布会已官宣定档9月7日晚7点...]]></summary>
+        <author>
+            <name>百度实时热点</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[葫芦娃爷爷奶奶看网友评论感动落泪 热度：4386152]]></title>
+        <id>2157589</id>
+        <link href="https://www.baidu.com/s?wd=%E8%91%AB%E8%8A%A6%E5%A8%83%E7%88%B7%E7%88%B7%E5%A5%B6%E5%A5%B6%E7%9C%8B%E7%BD%91%E5%8F%8B%E8%AF%84%E8%AE%BA%E6%84%9F%E5%8A%A8%E8%90%BD%E6%B3%AA&amp;sa=fyb_news&amp;rsv_dl=fyb_news"/>
+        <updated>2026-09-06T16:02:18.000Z</updated>
+        <summary type="html"><![CDATA[浙江绍兴一户“失独”老人因家门口长出的7只葫芦走红，“葫芦娃爷爷奶奶”看网友评论感动落泪。一名癌症晚期病人在评论区留言，约定若明年还活着，一定去看爷...]]></summary>
+        <author>
+            <name>百度实时热点</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[内蒙古贺兰山发现6个新物种 热度：4468113]]></title>
+        <id>2157587</id>
+        <link href="https://www.baidu.com/s?wd=%E5%86%85%E8%92%99%E5%8F%A4%E8%B4%BA%E5%85%B0%E5%B1%B1%E5%8F%91%E7%8E%B06%E4%B8%AA%E6%96%B0%E7%89%A9%E7%A7%8D&amp;sa=fyb_news&amp;rsv_dl=fyb_news"/>
+        <updated>2026-09-06T16:02:18.000Z</updated>
+        <summary type="html"><![CDATA[日前，内蒙古贺兰山国家级自然保护区第二次综合科学考察成果正式发布。在2023至2026年科考过程中，考察人员累计记录物种4598余种，发现6个新物种...]]></summary>
+        <author>
+            <name>百度实时热点</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[工作日35.9元不限时拼豆店越开越多 热度：4560590]]></title>
+        <id>2157586</id>
+        <link href="https://www.baidu.com/s?wd=%E5%B7%A5%E4%BD%9C%E6%97%A535.9%E5%85%83%E4%B8%8D%E9%99%90%E6%97%B6+%E6%8B%BC%E8%B1%86%E5%BA%97%E8%B6%8A%E5%BC%80%E8%B6%8A%E5%A4%9A&amp;sa=fyb_news&amp;rsv_dl=fyb_news"/>
+        <updated>2026-09-06T16:02:18.000Z</updated>
+        <summary type="html"><![CDATA[近期，拼豆店在杭州密集出现，成为线下手作店的新流量密码。在一块布满小钉子的模板上，用镊子把一颗颗彩色塑料豆摆成图案，再用熨斗加热定型。工作日不限时3...]]></summary>
+        <author>
+            <name>百度实时热点</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[中国人为啥老说“多喝热水” 热度：4663634]]></title>
+        <id>2157584</id>
+        <link href="https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E4%BA%BA%E4%B8%BA%E5%95%A5%E8%80%81%E8%AF%B4%E2%80%9C%E5%A4%9A%E5%96%9D%E7%83%AD%E6%B0%B4%E2%80%9D&amp;sa=fyb_news&amp;rsv_dl=fyb_news"/>
+        <updated>2026-09-06T16:02:17.000Z</updated>
+        <summary type="html"><![CDATA[近日，一名巴基斯坦留学生发出疑问：中国人为啥老说“多喝热水”？他表示后来才知道这是一种关心的话。]]></summary>
+        <author>
+            <name>百度实时热点</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[年轻人正在“忘记”打字 热度：4756434]]></title>
+        <id>2157583</id>
+        <link href="https://www.baidu.com/s?wd=%E5%B9%B4%E8%BD%BB%E4%BA%BA%E6%AD%A3%E5%9C%A8%E2%80%9C%E5%BF%98%E8%AE%B0%E2%80%9D%E6%89%93%E5%AD%97&amp;sa=fyb_news&amp;rsv_dl=fyb_news"/>
+        <updated>2026-09-06T16:02:17.000Z</updated>
+        <summary type="html"><![CDATA[近年来，越来越多的年轻人，聊天时不再低着头敲屏幕打字，而是对着手机麦克风，按住说话。分析认为，打字不会完全消失，但角色会改变。正如网友热议的那样：“...]]></summary>
+        <author>
+            <name>百度实时热点</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[400元买块“塑料砖头”戒手机 热度：4945175]]></title>
+        <id>2157580</id>
+        <link href="https://www.baidu.com/s?wd=400%E5%85%83%E4%B9%B0%E5%9D%97%E2%80%9C%E5%A1%91%E6%96%99%E7%A0%96%E5%A4%B4%E2%80%9D%E6%88%92%E6%89%8B%E6%9C%BA&amp;sa=fyb_news&amp;rsv_dl=fyb_news"/>
+        <updated>2026-09-06T16:02:16.000Z</updated>
+        <summary type="html"><![CDATA[你愿意花400元买一个塑料块来戒手机吗？近日，一款约5厘米见方，无需充电，不需电池，仅藏着一块NFC芯片的灰色塑料块在社交平台火了——当手机碰上这款...]]></summary>
+        <author>
+            <name>百度实时热点</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[尿酸高的人适当多喝这3种粥 热度：5047661]]></title>
+        <id>2157574</id>
+        <link href="https://www.baidu.com/s?wd=%E5%B0%BF%E9%85%B8%E9%AB%98%E7%9A%84%E4%BA%BA%E9%80%82%E5%BD%93%E5%A4%9A%E5%96%9D%E8%BF%993%E7%A7%8D%E7%B2%A5&amp;sa=fyb_news&amp;rsv_dl=fyb_news"/>
+        <updated>2026-09-06T16:02:16.000Z</updated>
+        <summary type="html"><![CDATA[高尿酸，不仅容易引发痛风，还会损伤肾脏和心脑血管。尿酸高的人适当多喝这3种粥：马齿苋粥清热利湿，车前草粥利尿通淋，薏仁粥健脾渗湿。]]></summary>
+        <author>
+            <name>百度实时热点</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[3次被偷兰花店主气得手绘肖像警告 热度：5137614]]></title>
+        <id>2157571</id>
+        <link href="https://www.baidu.com/s?wd=3%E6%AC%A1%E8%A2%AB%E5%81%B7%E5%85%B0%E8%8A%B1+%E5%BA%97%E4%B8%BB%E6%B0%94%E5%BE%97%E6%89%8B%E7%BB%98%E8%82%96%E5%83%8F%E8%AD%A6%E5%91%8A&amp;sa=fyb_news&amp;rsv_dl=fyb_news"/>
+        <updated>2026-09-06T16:02:16.000Z</updated>
+        <summary type="html"><![CDATA[最近，在昆明翠湖南路中和巷开店的梁女士遇到一件令人气愤的事，一名女子在短短半个月的时间内，连续三次偷走她摆放在店门口的兰花，尽管她手绘了对方肖像做提...]]></summary>
+        <author>
+            <name>百度实时热点</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[“东山再起”的东山在哪 热度：5227247]]></title>
+        <id>2157570</id>
+        <link href="https://www.baidu.com/s?wd=%E2%80%9C%E4%B8%9C%E5%B1%B1%E5%86%8D%E8%B5%B7%E2%80%9D%E7%9A%84%E4%B8%9C%E5%B1%B1%E5%9C%A8%E5%93%AA&amp;sa=fyb_news&amp;rsv_dl=fyb_news"/>
+        <updated>2026-09-06T16:02:15.000Z</updated>
+        <summary type="html"><![CDATA[2019年，沈周名下奇品《临戴文进谢安东山图》由翁同龢后人捐赠给上海博物馆。此画为沈周54岁时所作，取东晋谢安“东山再起”典故，展现其在会稽东山隐居...]]></summary>
+        <author>
+            <name>百度实时热点</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[为什么没人喝猪奶 热度：5322369]]></title>
+        <id>2157566</id>
+        <link href="https://www.baidu.com/s?wd=%E4%B8%BA%E4%BB%80%E4%B9%88%E6%B2%A1%E4%BA%BA%E5%96%9D%E7%8C%AA%E5%A5%B6&amp;sa=fyb_news&amp;rsv_dl=fyb_news"/>
+        <updated>2026-09-06T16:02:15.000Z</updated>
+        <summary type="html"><![CDATA[牛羊奶随处可见，营养超高的猪奶为何始终没人喝？猪奶高蛋白、高钙且低乳糖，营养优于牛奶，但母猪泌乳期短、储奶结构特殊导致挤奶困难，产奶量极低且成本高达...]]></summary>
+        <author>
+            <name>百度实时热点</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[饮用水冒充地下水 热度：5425410]]></title>
+        <id>2157563</id>
+        <link href="https://www.baidu.com/s?wd=%E9%A5%AE%E7%94%A8%E6%B0%B4%E5%86%92%E5%85%85%E5%9C%B0%E4%B8%8B%E6%B0%B4&amp;sa=fyb_news&amp;rsv_dl=fyb_news"/>
+        <updated>2026-09-06T16:02:15.000Z</updated>
+        <summary type="html"><![CDATA[近日，记者暗访山西伯霖检测有限公司发现，其为环保重点机构进行地下水采样时造假。采样员因绳索长度不足无法下至井底，便摆拍照片伪造合规流程，并取用村民饮...]]></summary>
+        <author>
+            <name>百度实时热点</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[他姓吴他有四个爷爷都叫黄先彬 热度：5521681]]></title>
+        <id>2157558</id>
+        <link href="https://www.baidu.com/s?wd=%E4%BB%96%E5%A7%93%E5%90%B4+%E4%BB%96%E6%9C%89%E5%9B%9B%E4%B8%AA%E7%88%B7%E7%88%B7%E9%83%BD%E5%8F%AB%E9%BB%84%E5%85%88%E5%BD%AC&amp;sa=fyb_news&amp;rsv_dl=fyb_news"/>
+        <updated>2026-09-06T16:02:14.000Z</updated>
+        <summary type="html"><![CDATA[安徽金寨公交司机吴泽洲带每年都会到金寨县革命博物馆，祭奠四位同名同姓的烈士爷爷“黄先彬”。起因是其爷爷黄先彬1932年牺牲，遗腹子改姓吴。2018年...]]></summary>
+        <author>
+            <name>百度实时热点</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[微塑料10大日用品 热度：5608660]]></title>
+        <id>2157557</id>
+        <link href="https://www.baidu.com/s?wd=%E5%BE%AE%E5%A1%91%E6%96%99+10%E5%A4%A7%E6%97%A5%E7%94%A8%E5%93%81&amp;sa=fyb_news&amp;rsv_dl=fyb_news"/>
+        <updated>2026-09-06T16:02:14.000Z</updated>
+        <summary type="html"><![CDATA[2023年4月《纳米材料》的一项研究发现，微塑料颗粒被小鼠随水口服后，仅2小时即可穿过血脑屏障进入大脑。口香糖、一次性纸杯、瓶装水、清洁海绵等10大...]]></summary>
+        <author>
+            <name>百度实时热点</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[女孩吸食“笑气”父亲含泪举报 热度：5709939]]></title>
+        <id>2157556</id>
+        <link href="https://www.baidu.com/s?wd=%E5%A5%B3%E5%AD%A9%E5%90%B8%E9%A3%9F%E2%80%9C%E7%AC%91%E6%B0%94%E2%80%9D+%E7%88%B6%E4%BA%B2%E5%90%AB%E6%B3%AA%E4%B8%BE%E6%8A%A5&amp;sa=fyb_news&amp;rsv_dl=fyb_news"/>
+        <updated>2026-09-06T16:02:14.000Z</updated>
+        <summary type="html"><![CDATA[9月1日，杭州建德一父亲含泪举报女儿在家中吸食“笑气”。出警民警说：“孩子的父母一定要报警，不忍心看女儿变成这个样子，希望借助公安的力量，把女儿从危...]]></summary>
+        <author>
+            <name>百度实时热点</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[总被蚊子盯上难道真是血型惹的祸 热度：5802232]]></title>
+        <id>2157555</id>
+        <link href="https://www.baidu.com/s?wd=%E6%80%BB%E8%A2%AB%E8%9A%8A%E5%AD%90%E7%9B%AF%E4%B8%8A%E9%9A%BE%E9%81%93%E7%9C%9F%E6%98%AF%E8%A1%80%E5%9E%8B%E6%83%B9%E7%9A%84%E7%A5%B8&amp;sa=fyb_news&amp;rsv_dl=fyb_news"/>
+        <updated>2026-09-06T16:02:13.000Z</updated>
+        <summary type="html"><![CDATA[夏末秋初，针对“O型血更招蚊子”的网传说法，多位权威专家表示该说法并无科学依据，蚊子主要靠嗅觉识别空气中的气味分子，无法接触血液中的血型抗原。]]></summary>
+        <author>
+            <name>百度实时热点</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[张纪中妻子备孕5胎 热度：5899790]]></title>
+        <id>2157554</id>
+        <link href="https://www.baidu.com/s?wd=%E5%BC%A0%E7%BA%AA%E4%B8%AD%E5%A6%BB%E5%AD%90%E5%A4%87%E5%AD%955%E8%83%8E&amp;sa=fyb_news&amp;rsv_dl=fyb_news"/>
+        <updated>2026-09-06T16:02:13.000Z</updated>
+        <summary type="html"><![CDATA[近日，44岁杜星霖透露正备孕5胎，其75岁丈夫张纪中引发网友热议。此前两人结婚9年已育有3孩，加上杜星霖婚前试管生下的大儿子，家中已有4个孩子，小女...]]></summary>
+        <author>
+            <name>百度实时热点</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[8家中央金融企业迎来增资有何考量 热度：6001246]]></title>
+        <id>2157553</id>
+        <link href="https://www.baidu.com/s?wd=8%E5%AE%B6%E4%B8%AD%E5%A4%AE%E9%87%91%E8%9E%8D%E4%BC%81%E4%B8%9A%E8%BF%8E%E6%9D%A5%E5%A2%9E%E8%B5%84+%E6%9C%89%E4%BD%95%E8%80%83%E9%87%8F&amp;sa=fyb_news&amp;rsv_dl=fyb_news"/>
+        <updated>2026-09-06T16:02:13.000Z</updated>
+        <summary type="html"><![CDATA[9月6日，中国工商银行等8家中央金融企业分别发布增资计划，将补充核心一级资本。此次增资将全面提升银行资本充足水平与风险抵御能力，进一步支撑聚焦主业、...]]></summary>
+        <author>
+            <name>百度实时热点</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[女子怀孕后工资从8000调到3000 热度：6086833]]></title>
+        <id>2157552</id>
+        <link href="https://www.baidu.com/s?wd=%E5%A5%B3%E5%AD%90%E6%80%80%E5%AD%95%E5%90%8E%E5%B7%A5%E8%B5%84%E4%BB%8E8000%E8%B0%83%E5%88%B03000&amp;sa=fyb_news&amp;rsv_dl=fyb_news"/>
+        <updated>2026-09-06T16:02:12.000Z</updated>
+        <summary type="html"><![CDATA[近日，罗女士反映，自己怀孕后工资从8000调到3000。公司负责人回应称，降薪降职系基于绩效考核不达标，并非针对怀孕，“不能以怀孕来捆绑公司业绩考核...]]></summary>
+        <author>
+            <name>百度实时热点</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[抗癌博主离世曾忠告年轻人不要熬夜 热度：6189877]]></title>
+        <id>2157551</id>
+        <link href="https://www.baidu.com/s?wd=%E6%8A%97%E7%99%8C%E5%8D%9A%E4%B8%BB%E7%A6%BB%E4%B8%96%E6%9B%BE%E5%BF%A0%E5%91%8A%E5%B9%B4%E8%BD%BB%E4%BA%BA%E4%B8%8D%E8%A6%81%E7%86%AC%E5%A4%9C&amp;sa=fyb_news&amp;rsv_dl=fyb_news"/>
+        <updated>2026-09-06T16:02:12.000Z</updated>
+        <summary type="html"><![CDATA[近日，抗癌博主“詹志炜”的家属通过其社交账号发布讣告，称詹志炜因病治疗无效，在珠海市肿瘤医院不幸离世，年仅24岁。詹志炜生前曾发视频提醒网友身体健康...]]></summary>
+        <author>
+            <name>百度实时热点</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[井柏然的两次扔行李箱 热度：6274752]]></title>
+        <id>2157550</id>
+        <link href="https://www.baidu.com/s?wd=%E4%BA%95%E6%9F%8F%E7%84%B6%E7%9A%84%E4%B8%A4%E6%AC%A1%E6%89%94%E8%A1%8C%E6%9D%8E%E7%AE%B1&amp;sa=fyb_news&amp;rsv_dl=fyb_news"/>
+        <updated>2026-09-06T16:02:12.000Z</updated>
+        <summary type="html"><![CDATA[近日，井柏然在《早春晴朗》和《花少2》中扔行李箱的画面被网友做成转场视频进行对比。网友称“老公和劳工的区别具象化了”，直呼这简直是公开处刑。]]></summary>
+        <author>
+            <name>百度实时热点</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[爷爷提前剪葫芦是给流量的一记耳光 热度：6378790]]></title>
+        <id>2157549</id>
+        <link href="https://www.baidu.com/s?wd=%E7%88%B7%E7%88%B7%E6%8F%90%E5%89%8D%E5%89%AA%E8%91%AB%E8%8A%A6%E6%98%AF%E7%BB%99%E6%B5%81%E9%87%8F%E7%9A%84%E4%B8%80%E8%AE%B0%E8%80%B3%E5%85%89&amp;sa=fyb_news&amp;rsv_dl=fyb_news"/>
+        <updated>2026-09-06T16:02:11.000Z</updated>
+        <summary type="html"><![CDATA[近日，种葫芦的爷爷亲手剪掉7个葫芦。此前，葫芦被拍上网成“流量密码”，引来大量游客和博主围观拍摄。媒体评论指出，爷爷用剪刀夺回生活开关，剪掉的7个葫...]]></summary>
+        <author>
+            <name>百度实时热点</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[女子家中十万元现金悄悄“缩水” 热度：6472250]]></title>
+        <id>2157548</id>
+        <link href="https://www.baidu.com/s?wd=%E5%A5%B3%E5%AD%90%E5%AE%B6%E4%B8%AD%E5%8D%81%E4%B8%87%E5%85%83%E7%8E%B0%E9%87%91%E6%82%84%E6%82%84%E2%80%9C%E7%BC%A9%E6%B0%B4%E2%80%9D&amp;sa=fyb_news&amp;rsv_dl=fyb_news"/>
+        <updated>2026-09-06T16:02:11.000Z</updated>
+        <summary type="html"><![CDATA[近日，辽宁陈女士发现家中现金陆续“缩水”10万余元。经民警调查，系陈女士曾经的邻居李某某从楼道鞋柜拿了备用钥匙，5次入室盗窃。目前，李某某因涉嫌盗窃...]]></summary>
+        <author>
+            <name>百度实时热点</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[“塞夫”拍完告别戏崩溃大哭 热度：6560006]]></title>
+        <id>2157547</id>
+        <link href="https://www.baidu.com/s?wd=%E2%80%9C%E5%A1%9E%E5%A4%AB%E2%80%9D%E6%8B%8D%E5%AE%8C%E5%91%8A%E5%88%AB%E6%88%8F%E5%B4%A9%E6%BA%83%E5%A4%A7%E5%93%AD&amp;sa=fyb_news&amp;rsv_dl=fyb_news"/>
+        <updated>2026-09-06T16:02:11.000Z</updated>
+        <summary type="html"><![CDATA[塞夫拍完《欢迎来龙餐馆》告别戏后久久走不出情绪，看回放时崩溃大哭，导演连忙伸手安抚。此前在戏中，塞夫眼睁睁看着像父亲一样的师父被带走，一句“没事，孩...]]></summary>
+        <author>
+            <name>百度实时热点</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[同名同姓同年同月同日生同校同专业 热度：6755955]]></title>
+        <id>2157546</id>
+        <link href="https://www.baidu.com/s?wd=%E5%90%8C%E5%90%8D%E5%90%8C%E5%A7%93%E5%90%8C%E5%B9%B4%E5%90%8C%E6%9C%88%E5%90%8C%E6%97%A5%E7%94%9F%E5%90%8C%E6%A0%A1%E5%90%8C%E4%B8%93%E4%B8%9A&amp;sa=fyb_news&amp;rsv_dl=fyb_news"/>
+        <updated>2026-09-06T16:02:10.000Z</updated>
+        <summary type="html"><![CDATA[9月6日，三峡大学新生报到，数据科学与大数据技术专业迎来两位“刘欣怡”。两人不仅同名同姓，且同年同月同日生，高考成绩仅相差3分。两人对此感到惊喜，相...]]></summary>
+        <author>
+            <name>百度实时热点</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[“一吨旧手机提炼200克黄金”不实 热度：6853832]]></title>
+        <id>2157545</id>
+        <link href="https://www.baidu.com/s?wd=%E2%80%9C%E4%B8%80%E5%90%A8%E6%97%A7%E6%89%8B%E6%9C%BA%E6%8F%90%E7%82%BC200%E5%85%8B%E9%BB%84%E9%87%91%E2%80%9D%E4%B8%8D%E5%AE%9E&amp;sa=fyb_news&amp;rsv_dl=fyb_news"/>
+        <updated>2026-09-06T16:02:10.000Z</updated>
+        <summary type="html"><![CDATA[近日，网传“一吨废旧手机能提炼200克黄金”。对此，专家辟谣：网传说法偷换了概念，2010年后一台现代手机黄金含量仅0.02至0.03克。]]></summary>
+        <author>
+            <name>百度实时热点</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[演员郑国霖回应成NPC顶流：剧本多了 热度：6950337]]></title>
+        <id>2157544</id>
+        <link href="https://www.baidu.com/s?wd=%E6%BC%94%E5%91%98%E9%83%91%E5%9B%BD%E9%9C%96%E5%9B%9E%E5%BA%94%E6%88%90NPC%E9%A1%B6%E6%B5%81%EF%BC%9A%E5%89%A7%E6%9C%AC%E5%A4%9A%E4%BA%86&amp;sa=fyb_news&amp;rsv_dl=fyb_news"/>
+        <updated>2026-09-06T16:02:10.000Z</updated>
+        <summary type="html"><![CDATA[近日，演员郑国霖在接受采访时，回应被网友称为“NPC顶流”，面对这个称呼，他直言自己是普通打工人而已。郑国霖表示有流量、关注度之后，找上门的剧本多了...]]></summary>
+        <author>
+            <name>百度实时热点</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[除了惊天逆转郑钦文还有高情商发言 热度：7048644]]></title>
+        <id>2157543</id>
+        <link href="https://www.baidu.com/s?wd=%E9%99%A4%E4%BA%86%E6%83%8A%E5%A4%A9%E9%80%86%E8%BD%AC+%E9%83%91%E9%92%A6%E6%96%87%E8%BF%98%E6%9C%89%E9%AB%98%E6%83%85%E5%95%86%E5%8F%91%E8%A8%80&amp;sa=fyb_news&amp;rsv_dl=fyb_news"/>
+        <updated>2026-09-06T16:02:09.000Z</updated>
+        <summary type="html"><![CDATA[北京时间9月6日，2026年美网女单第三轮，郑钦文在决胜盘0-5落后的情况下，惊天逆转战胜凯斯，晋级16强。赛后她高情商回应婴儿哭声干扰，称职业球员...]]></summary>
+        <author>
+            <name>百度实时热点</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[救援人员因害怕放下灭火器后逃离 热度：7138200]]></title>
+        <id>2157542</id>
+        <link href="https://www.baidu.com/s?wd=%E6%95%91%E6%8F%B4%E4%BA%BA%E5%91%98%E5%9B%A0%E5%AE%B3%E6%80%95+%E6%94%BE%E4%B8%8B%E7%81%AD%E7%81%AB%E5%99%A8%E5%90%8E%E9%80%83%E7%A6%BB&amp;sa=fyb_news&amp;rsv_dl=fyb_news"/>
+        <updated>2026-09-06T16:02:09.000Z</updated>
+        <summary type="html"><![CDATA[9月5日，上海国际赛车场，中国超级跑车锦标赛正赛第7圈发生撞车起火，救援人员因害怕放下灭火器逃离，救护车15分钟后才到；另一名车手哈托格弃赛冲入火海...]]></summary>
+        <author>
+            <name>百度实时热点</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[赴港看演唱会被取消低保？当地回应 热度：7238020]]></title>
+        <id>2157541</id>
+        <link href="https://www.baidu.com/s?wd=%E8%B5%B4%E6%B8%AF%E7%9C%8B%E6%BC%94%E5%94%B1%E4%BC%9A%E8%A2%AB%E5%8F%96%E6%B6%88%E4%BD%8E%E4%BF%9D%EF%BC%9F%E5%BD%93%E5%9C%B0%E5%9B%9E%E5%BA%94&amp;sa=fyb_news&amp;rsv_dl=fyb_news"/>
+        <updated>2026-09-06T16:02:08.000Z</updated>
+        <summary type="html"><![CDATA[近日，一则“江西赣州一名低保家庭女生因赴香港观看演唱会，返程后全家低保资格被取消”的消息在网络上持续发酵。9月6日，赣州市民政局值班人员表示，市本级...]]></summary>
+        <author>
+            <name>百度实时热点</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[女篮世界杯中国队加时险胜捷克队 热度：7428356]]></title>
+        <id>2157540</id>
+        <link href="https://www.baidu.com/s?wd=%E5%A5%B3%E7%AF%AE%E4%B8%96%E7%95%8C%E6%9D%AF%E4%B8%AD%E5%9B%BD%E9%98%9F%E5%8A%A0%E6%97%B6%E9%99%A9%E8%83%9C%E6%8D%B7%E5%85%8B%E9%98%9F&amp;sa=fyb_news&amp;rsv_dl=fyb_news"/>
+        <updated>2026-09-06T16:02:08.000Z</updated>
+        <author>
+            <name>百度实时热点</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[滕王阁终身免费票 热度：7519975]]></title>
+        <id>2157539</id>
+        <link href="https://www.baidu.com/s?wd=%E6%BB%95%E7%8E%8B%E9%98%81+%E7%BB%88%E8%BA%AB%E5%85%8D%E8%B4%B9%E7%A5%A8&amp;sa=fyb_news&amp;rsv_dl=fyb_news"/>
+        <updated>2026-09-06T16:02:08.000Z</updated>
+        <summary type="html"><![CDATA[近日，一位小男孩刷身份证进滕王阁，工作人员听到终身免费票后竖起大拇指。网友：要背三篇关于滕王阁的文章，太厉害了。]]></summary>
+        <author>
+            <name>百度实时热点</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[相约“青春华章” 热度：7618589]]></title>
+        <id>2157538</id>
+        <link href="https://www.baidu.com/s?wd=%E7%9B%B8%E7%BA%A6%E2%80%9C%E9%9D%92%E6%98%A5%E5%8D%8E%E7%AB%A0%E2%80%9D&amp;sa=fyb_news&amp;rsv_dl=fyb_news"/>
+        <updated>2026-09-06T16:02:07.000Z</updated>
+        <summary type="html"><![CDATA[9月6日晚，2026“把青春华章写在祖国大地上”大思政课网络主题宣传和互动引导活动在中国科学技术大学举行。青春就是这young，让我们一起期待！]]></summary>
+        <author>
+            <name>百度实时热点</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[安徽新“五子登科” 热度：7713102]]></title>
+        <id>2157537</id>
+        <link href="https://www.baidu.com/s?wd=%E5%AE%89%E5%BE%BD+%E6%96%B0%E2%80%9C%E4%BA%94%E5%AD%90%E7%99%BB%E7%A7%91%E2%80%9D&amp;sa=fyb_news&amp;rsv_dl=fyb_news"/>
+        <updated>2026-09-06T16:02:07.000Z</updated>
+        <summary type="html"><![CDATA[近年来，安徽历史性迈入全国工业大省行列，培育出新“五子登科”产业地标：汽车产业四项指标均居全国第一；量子产业稳居全球第二；集成电路动态存储器产能全国...]]></summary>
+        <author>
+            <name>百度实时热点</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[小区禁止新能源汽车进地库律师解读 热度：7809089]]></title>
+        <id>2157536</id>
+        <link href="https://www.baidu.com/s?wd=%E5%B0%8F%E5%8C%BA%E7%A6%81%E6%AD%A2%E6%96%B0%E8%83%BD%E6%BA%90%E6%B1%BD%E8%BD%A6%E8%BF%9B%E5%9C%B0%E5%BA%93+%E5%BE%8B%E5%B8%88%E8%A7%A3%E8%AF%BB&amp;sa=fyb_news&amp;rsv_dl=fyb_news"/>
+        <updated>2026-09-06T16:02:07.000Z</updated>
+        <summary type="html"><![CDATA[9月6日，福建南平一业主反映，小区业委会表决通过禁止新能源车驶入地下车库的决定，要求已停车辆10日内移出。物业称怕爆炸而出台该规定。律师指出，此“一...]]></summary>
+        <author>
+            <name>百度实时热点</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[迎头赶上奋起直追力争超越 热度：7904737]]></title>
+        <id>2157535</id>
+        <link href="https://www.baidu.com/s?wd=%E8%BF%8E%E5%A4%B4%E8%B5%B6%E4%B8%8A+%E5%A5%8B%E8%B5%B7%E7%9B%B4%E8%BF%BD+%E5%8A%9B%E4%BA%89%E8%B6%85%E8%B6%8A&amp;sa=fyb_news&amp;rsv_dl=fyb_news"/>
+        <updated>2026-09-06T16:02:07.000Z</updated>
+        <summary type="html"><![CDATA[近日，媒体发布视频重温习近平总书记重要论述：面对科技创新发展新趋势，必须迎头赶上、奋起直追、力争超越。他指出，现在抓创新不问出身，能为国家做贡献就是...]]></summary>
+        <author>
+            <name>百度实时热点</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[🤔 创意职业的幻觉：创造力该放在工作外吗]]></title>
+        <id>49585703</id>
+        <link href="https://newshacker.me/story?id=49585703"/>
+        <updated>2026-09-06T15:59:44.000Z</updated>
+        <summary type="html"><![CDATA[原标题：《The pencil case model of creativity》
+评分: 22 | 作者: jruohonen
+💭 既要养家糊口，又要顺手完成自我实现吗？
+
+🎯 讨论背景
+这篇讨论围绕一篇把 creativity 想成一种可随身携带、能在生活各处启用的能力的文章展开。评论区把焦点放在“创意职业”是否真的自我实现：artist、author、founder、scientist 等职业在外人看来很自由，但实际仍受 market、grant、compliance 和外部奖励驱动。另一条线索是在 1980s 以后，社会越来越期待工作本身也要带来 pleasure 和 self-actualization，但很多现实工作并不给这种空间，于是有人主张把创造力留给 hobby、side project 和业余时间。讨论里还提到 C. Thi Nguyen 的 value capture（内在动机被外部激励占据的现象），用来解释为什么一旦兴趣变成职业，原本的热爱可能会被压力和指标替代。
+
+📌 讨论焦点
+创意职业并不自动带来自我实现
+评论认为，artist、author、founder、scientist 这些看似“做自己喜欢的事”的职业，现实里同样被市场、合规、资助和外部回报牵着走。有人用“专业钢琴家心里想‘我一点也不享受’”的漫画说明，职业化之后快乐常被压力和持续改进的要求挤掉。还有人引用 value capture（内在动机被外部奖励取代的现象）来解释这种变化。也有人认为，达到一个梦想后自然会产生下一个梦想，这不代表原来的梦想是错的，只是人成长后理想会变。
+[来源1] [来源2] [来源3]
+创造力更适合放在工作之外
+另一派观点认为，现代工作越来越像纯粹的“work”，真正的创造力反而应该来自下班后的 avocations（业余爱好）。评论把这种变化追溯到 1980s 以后人们对“工作也要有 pleasure”的期待，并用 machinist、音乐、绘画、车库手工等例子强调，创作可以在工作外完成。也有人指出，生产线式劳动只是人类历史中的短暂阶段，不能据此推导出我们“本该”在职业里实现自我。反对者则强调，很多人根本没有足够时间和精力去“挤出”创作，现代生活、通勤和家庭责任都会压缩进入心流的机会。
+[来源1] [来源2] [来源3] [来源4] [来源5]
+别用“创意”压低其他工作的价值
+有评论直接质疑原文的比较方式，认为 researcher 这类工作可能有更多约束、更多例行事务，因此未必比看起来“创意”更多的职业更自由。把某些工作包装成更有创造性，并不能推出别的工作就该更能自我满足。评论还拿工资类比：就像高薪 exec 不能因为自己常加班，就要求 valet 不该抱怨收入一样，创意属性也不该被拿来当成评价其他职业的标准。这个立场的核心，是反对把 creativity 变成一种职业道德或优越感。
+[来源1]
+
+类别：Work | Opinion | creativity | pencil-case model | DUB (Utrecht University)]]></summary>
+        <author>
+            <name>News Hacker | 极客洞察</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hong kong's offshore yuan push tests its gateway role]]></title>
+        <id>https://medium.com/p/0916da9af677</id>
+        <link href="https://medium.com/@capitalcurrents/hong-kongs-offshore-yuan-push-tests-its-gateway-role-0916da9af677?source=rss------china-5"/>
+        <updated>2026-09-06T15:58:19.000Z</updated>
+        <summary type="html"><![CDATA[The city's new five-year plan targets expanding offshore yuan services as China pushes for alternatives to US dollar settlement, with over…
+Continue reading on Medium »]]></summary>
+        <author>
+            <name>Capital Currents</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[My wife sent this to me while I was out.]]></title>
+        <id>https://www.reddit.com/r/funny/comments/1w8zwpm/my_wife_sent_this_to_me_while_i_was_out/</id>
+        <link href="https://www.reddit.com/r/funny/comments/1w8zwpm/my_wife_sent_this_to_me_while_i_was_out/"/>
+        <updated>2026-09-06T15:56:43.000Z</updated>
+        <summary type="html"><![CDATA[submitted by    /u/Towels_are_friends    to    r/funny  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>popular links</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[😬 Neuralese：高密度内语为何让 CoT 失灵]]></title>
+        <id>49559451</id>
+        <link href="https://newshacker.me/story?id=49559451"/>
+        <updated>2026-09-06T15:54:58.000Z</updated>
+        <summary type="html"><![CDATA[原标题：《What is Nueralese and Why is it Bad》
+评分: 25 | 作者: tristanMatthias
+💭 既然都能翻译成英语，怎么还叫不可监控的脑语？
+
+🎯 讨论背景
+这段讨论围绕 AI safety 和 mechanistic interpretability（机制可解释性）中的一个老问题：模型的可见推理文本是否真能代表内部决策过程。Anthropic（AI 安全研究公司）和 OpenAI（大模型公司）都做过 CoT 监控相关实验，尝试用显式思维链审计模型是否在隐藏目标或规避规则，但评论提到这些方法可能会被省略、摘要化或故意伪装。Neuralese 指的是模型内部更像 latent space（潜在空间）编码的高密度表征，理论上可比英文更高效，却难以直接读懂，也难以验证是否安全。评论中还提到 Natural Language Autoencoder（自然语言自编码器）等方法，试图用另一个模型把内部表示翻译回英语，但这又引出谁来监督监督者的信任链问题。
+
+📌 讨论焦点
+Neuralese 的压缩编码本质
+评论里最一致的解释是，Neuralese 不是英文式独白，而是更接近模型 latent space 的压缩编码。它的信息密度可能远高于自然语言，因此一个 token 可能承载远多于一句英文的内容，但也更依赖上下文，离开上下文就很难读懂。把它翻译成英语并非不可能，但通常意味着需要生成大量英文中间结果，成本和延迟都很高。也有人强调，这更像详细思考而不是人类可直接阅读的句子。
+[来源1] [来源2] [来源3] [来源4]
+失去 CoT 监控的安全风险
+最大的担忧是：如果模型的递归思考步骤不再是英文，人类就失去了直接查看意图的窗口。评论提到，已有研究表明模型能在可见 CoT 中省略关键信息，甚至在被要求时用不同文本隐藏自己正在做的事，…]]></summary>
+        <author>
+            <name>News Hacker | 极客洞察</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[NetBSD 9.5 released and EOL for NetBSD-9]]></title>
+        <id>https://blog.netbsd.org/tnf/entry/netbsd_9_5_released_and</id>
+        <link href="https://blog.netbsd.org/tnf/entry/netbsd_9_5_released_and"/>
+        <updated>2026-09-06T15:44:24.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Yes I can confirm, Puerto Rican women are just as powerful as Lucia]]></title>
+        <id>https://www.reddit.com/r/videogames/comments/1w8za9p/yes_i_can_confirm_puerto_rican_women_are_just_as/</id>
+        <link href="https://www.reddit.com/r/videogames/comments/1w8za9p/yes_i_can_confirm_puerto_rican_women_are_just_as/"/>
+        <updated>2026-09-06T15:32:29.000Z</updated>
+        <summary type="html"><![CDATA[submitted by    /u/SEVENS_HEAVEN_7    to    r/videogames  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>popular links</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The gravestone for Ken'neka Jenkins goes viral for it's upgrade after her family won a $10 million wrongful death lawsuit]]></title>
+        <id>https://www.reddit.com/r/whoathatsinteresting/comments/1w8z1td/the_gravestone_for_kenneka_jenkins_goes_viral_for/</id>
+        <link href="https://www.reddit.com/r/whoathatsinteresting/comments/1w8z1td/the_gravestone_for_kenneka_jenkins_goes_viral_for/"/>
+        <updated>2026-09-06T15:23:18.000Z</updated>
+        <summary type="html"><![CDATA[Ken'neka attended a party in a room at the Crowne Plaza Chicago O’Hare (Rosemont) on the night of September 8 2017, and was found dead in a walk-in freezer the next day. The Cook County Medical Examiner ruled the death accidental hypothermia from cold exposure.
+ Surveilance video showed her walking into the kitchen and freezer alone and no one entered before or after she was in. The freezer did not lock and had a working interior release/latch so it could be opened from inside. 
+ The room was booked with a fraudulent credit card tied to identity theft. Police said the people who reserved it were affiliated with a West Side Chicago gang.
+ https://www.newsweek.com/kenneka-james-hotel-freezer-new-video-found-dead-case-closed-gang-members-vice-690038
+ The family sued for $50 million, alleging the hotel was negligent for leaving the kitchen/freezer area accessible. The case settled in 2023 for $10 million and the family upgraded the gravestone after receiving the funds
+ https://www.cnn.com/2023/12/14/us/kenneka-jenkins-chicago-freezer-death-settlement
+    submitted by    /u/ThatPatelGuy    to    r/whoathatsinteresting  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>popular links</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[新疆阿克苏地区库车市发生3.2级地震，震源深度10千米]]></title>
+        <id>https://m.jiemian.com/article/15060434.html</id>
+        <link href="https://m.jiemian.com/article/15060434.html"/>
+        <updated>2026-09-06T15:22:05.000Z</updated>
+        <summary type="html"><![CDATA[2026.09.06
+
+中国地震台网正式测定：09月06日22时35分在新疆阿克苏地区库车市（北纬41.51度，东经83.76度）发生3.2级地震，震源深度10千米。
+
+
+
+
+        
+        
+
+获取更多RSS：
+https://feedx.net 
+https://feedx.site]]></summary>
+        <author>
+            <name>界面新闻</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[菲律宾强降雨天气已致43人死亡]]></title>
+        <id>https://m.jiemian.com/article/15060437.html</id>
+        <link href="https://m.jiemian.com/article/15060437.html"/>
+        <updated>2026-09-06T15:22:05.000Z</updated>
+        <summary type="html"><![CDATA[2026.09.06
+
+菲律宾民防局9月6日通报说，自8月初以来的强降雨天气已导致上千万人受到影响，灾害已造成43人死亡、20人受伤，另有5人失踪。（新华社）]]></summary>
+        <author>
+            <name>界面新闻</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[印尼东努沙登加拉省一火山喷发]]></title>
+        <id>https://m.jiemian.com/article/15060445.html</id>
+        <link href="https://m.jiemian.com/article/15060445.html"/>
+        <updated>2026-09-06T15:22:05.000Z</updated>
+        <summary type="html"><![CDATA[2026.09.06
+
+据印尼火山地质减灾中心消息，当地时间9月6日21时37分，位于该国东努沙登加拉省的伊里莱沃托洛科火山喷发，火山灰柱高约500米，持续时间为32秒。
+印尼火山地质减灾中心机构提醒当地居民和游客不要进入火山口周边2公里范围，以及南、东南方向3公里范围内的危险区域，并警惕熔岩崩塌、滑坡和火山碎屑流等风险。（央视新闻）
+        
+
+获取更多RSS：
+https://feedx.net 
+https://feedx.site]]></summary>
+        <author>
+            <name>界面新闻</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[“欧佩克+”主要产油国决定保持10月产量不变]]></title>
+        <id>https://m.jiemian.com/article/15060453.html</id>
+        <link href="https://m.jiemian.com/article/15060453.html"/>
+        <updated>2026-09-06T15:22:05.000Z</updated>
+        <summary type="html"><![CDATA[2026.09.06
+
+当地时间9月6日，石油输出国组织（欧佩克）发表声明称，7个“欧佩克+”主要产油国决定保持10月原油产量不变，与9月水平相同，并重申维护市场稳定。
+沙特阿拉伯、俄罗斯、伊拉克、科威特、哈萨克斯坦、阿尔及利亚和阿曼的代表当天举行线上会议，研判全球石油市场现状与前景。这是主要产油国今年4月启动增产以来，首次暂停增产。
+声明表示，七国将继续每月评估国际原油市场状况，下一次会议定于10月4日举行。
+有分析称，中东战事使霍尔木兹海峡石油运输受阻，限制了“欧佩克+”对油价和市场份额的影响力。“欧佩克+”今年晚些时候将评估各产油国的石油产能，以设定2027年的产量基准。（央视新闻）]]></summary>
+        <author>
+            <name>界面新闻</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[China GT上海站賽車炒車後起火 車隊怒斥救援不力宣佈退賽｜有片]]></title>
+        <id>https://www.reddit.com/r/China_irl/comments/1w8yz54/china_gt%E4%B8%8A%E6%B5%B7%E7%AB%99%E8%B3%BD%E8%BB%8A%E7%82%92%E8%BB%8A%E5%BE%8C%E8%B5%B7%E7%81%AB_%E8%BB%8A%E9%9A%8A%E6%80%92%E6%96%A5%E6%95%91%E6%8F%B4%E4%B8%8D%E5%8A%9B%E5%AE%A3%E4%BD%88%E9%80%80%E8%B3%BD%E6%9C%89%E7%89%87/</id>
+        <link href="https://www.reddit.com/r/China_irl/comments/1w8yz54/china_gt%E4%B8%8A%E6%B5%B7%E7%AB%99%E8%B3%BD%E8%BB%8A%E7%82%92%E8%BB%8A%E5%BE%8C%E8%B5%B7%E7%81%AB_%E8%BB%8A%E9%9A%8A%E6%80%92%E6%96%A5%E6%95%91%E6%8F%B4%E4%B8%8D%E5%8A%9B%E5%AE%A3%E4%BD%88%E9%80%80%E8%B3%BD%E6%9C%89%E7%89%87/"/>
+        <updated>2026-09-06T15:20:31.000Z</updated>
+        <summary type="html"><![CDATA[簡單來說:FIST Auto車隊是由台灣車隊FIST Team AAI，與中國大陸知名高端汽車改裝品牌「FIST Auto」（北京金港汽車公園）聯名組成的車隊。在一場China GT比賽中，該隊91號賽車由英國車手米爾羅伊駕駛。比賽途中，37號與33號賽車在纏鬥中失控衝出賽道，撞上91號賽車的側面油箱位置，當場引發大火。
+ 魅影車隊79號荷蘭籍車手哈托格駕駛保時捷賽車經過事故地點，見狀立即放棄比賽，停車衝向燃燒中的賽車。他第一次靠近時，因火勢過大、溫度過高而無法接近，但並未退開，而是四處尋找滅火器，先壓制座艙內的火勢，再徒手將受困的米爾羅伊從起火的座艙中拖出，整個救援過程約49秒。米爾羅伊事後證實，火勢蔓延當下，視線範圍內沒有任何揮旗幹事或消防救援人員在場。
+ 現場目擊描述指出，賽會工作人員一度都待在安全距離外不敢上前，直到哈托格主動索要滅火器才有人遞交，其中一名工作人員甚至打不開滅火器。33號賽車車手楊百傑（來自610 Racing車隊）事後在社群媒體透露，救援人員當時「因害怕」放下滅火器逃離現場；他並指出，救護車在事故發生後15分鐘才抵達，原因是救護車司機在車內睡覺，旁人拍窗也拍不醒他。
+ 事故發生後，米爾羅伊送醫確認斷5根肋骨、鎖骨骨折、手指骨折並有肺部挫傷。FIST Auto／FIST Team AAI車隊發表嚴正聲明，指賽事組織方在應急處置與安全救援上嚴重失職，宣布退出所有後續China GT賽事；楊百傑也宣布永久退出China GT以示抗議。China GT組委會9月6日發表聲明致歉，稱初步核查賽事配置符合國家級標準，但「細緻管理方面有待提高」，並向第一時間救援的哈托格表示感謝，承諾進一步調查。
+ 完完全全的草台班子。
+    submitted by    /u/Vivid-Imagination276  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>流浪防区</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[[新聞] 高雄住宿餐飲業營收增幅全台居冠 薪資]]></title>
         <id>https://www.ptt.cc/bbs/Gossiping/M.1788707867.A.F4B.html</id>
@@ -129,6 +2202,16 @@ M1A2T戰車砲彈確定台灣製造！軍備局7年砸141億增彈藥、裝備�
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Research acceleration: The view inside OpenAI]]></title>
+        <id>https://openai.com/index/research-acceleration-view-inside-openai</id>
+        <link href="https://openai.com/index/research-acceleration-view-inside-openai"/>
+        <updated>2026-09-06T15:08:44.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[[問卦] 男大生住民宿跟去藥局打工要注意啥？]]></title>
         <id>https://www.ptt.cc/bbs/Gossiping/M.1788707301.A.FD3.html</id>
         <link href="https://www.ptt.cc/bbs/Gossiping/M.1788707301.A.FD3.html"/>
@@ -230,6 +2313,75 @@ M1A2T戰車砲彈確定台灣製造！軍備局7年砸141億增彈藥、裝備�
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[没想到时间过得真快]]></title>
+        <id>https://www.reddit.com/r/China_irl/comments/1w8yitx/%E6%B2%A1%E6%83%B3%E5%88%B0%E6%97%B6%E9%97%B4%E8%BF%87%E5%BE%97%E7%9C%9F%E5%BF%AB/</id>
+        <link href="https://www.reddit.com/r/China_irl/comments/1w8yitx/%E6%B2%A1%E6%83%B3%E5%88%B0%E6%97%B6%E9%97%B4%E8%BF%87%E5%BE%97%E7%9C%9F%E5%BF%AB/"/>
+        <updated>2026-09-06T15:02:53.000Z</updated>
+        <summary type="html"><![CDATA[转眼一年过去了，㊗️自己生日快乐吧՞･∞･՞
+    submitted by    /u/mattxuan901  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>流浪防区</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Mushoku Tensei: Jobless Reincarnation Season 3 • Mushoku Tensei III: Isekai Ittara Honki Dasu - Episode 11 discussion]]></title>
+        <id>https://www.reddit.com/r/anime/comments/1w8yhtl/mushoku_tensei_jobless_reincarnation_season_3/</id>
+        <link href="https://www.reddit.com/r/anime/comments/1w8yhtl/mushoku_tensei_jobless_reincarnation_season_3/"/>
+        <updated>2026-09-06T15:01:46.000Z</updated>
+        <summary type="html"><![CDATA[Mushoku Tensei III: Isekai Ittara Honki Dasu, episode 11
+ Reminder: Please do not discuss plot points not yet seen or skipped in the show. Failing to follow the rules may result in a ban.
+  
+Streams
+  
+Crunchyroll
+  
+Show information
+  
+Livechart
+ MyAnimeList
+ AniList
+ AniDB
+ Anime-Planet
+ Kitsu
+ /r/mushokutensei
+ Official Site
+  
+ All discussions
+  
+ Episode Link 
+  
+ 1 Link 
+  2 Link 
+  3 Link 
+  4 Link 
+  5 Link 
+  6 Link 
+  7 Link 
+  8 Link 
+  9 Link 
+  10 Link 
+  11 Link 
+ 
+  
+This post was created by a bot. Message the mod team for feedback and comments. The original source code can be found on GitHub.
+    submitted by    /u/AutoLovepon    to    r/anime  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>popular links</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[观鸟有益身心健康]]></title>
+        <id>https://www.solidot.org/story?sid=85300</id>
+        <link href="https://www.solidot.org/story?sid=85300"/>
+        <updated>2026-09-06T15:01:14.000Z</updated>
+        <summary type="html"><![CDATA[根据发表在《Ambio》期刊上的一项研究，观鸟有益身心健康。Project FeederWatch 项目的参与者中有 95% 表示喂鸟和观鸟对其幸福感产生了积极影响。相比之下只有 55% 的参与者表示同期生活中其他事件对其幸福感产生了积极影响。参与者表示，喂鸟时会感到快乐、感激、充满希望和内心平静。一部分人表示观鸟有助于减轻压力，或者在生病或家人去世等困难时期将注意力集中在积极的事情上。还有人表示观察喂鸟器激发了好奇心，有助于保持专注，或者帮助培养鸟类识别技能。]]></summary>
+        <author>
+            <name>奇客Solidot–传递最新科技情报</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[I Feel about AI]]></title>
         <id>https://beza1e1.tuxen.de/ai_feelings.html</id>
         <link href="https://beza1e1.tuxen.de/ai_feelings.html"/>
@@ -254,6 +2406,39 @@ M1A2T戰車砲彈確定台灣製造！軍備局7年砸141億增彈藥、裝備�
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[假如你能带一个十人小队穿越回1万年前的地球，所有人只能带随身能携带的物品和工具，为了生存和发展，你会带什么职业？性别比例？选择哪里？]]></title>
+        <id>https://www.reddit.com/r/China_irl/comments/1w8yf41/%E5%81%87%E5%A6%82%E4%BD%A0%E8%83%BD%E5%B8%A6%E4%B8%80%E4%B8%AA%E5%8D%81%E4%BA%BA%E5%B0%8F%E9%98%9F%E7%A9%BF%E8%B6%8A%E5%9B%9E1%E4%B8%87%E5%B9%B4%E5%89%8D%E7%9A%84%E5%9C%B0%E7%90%83%E6%89%80%E6%9C%89%E4%BA%BA%E5%8F%AA%E8%83%BD%E5%B8%A6%E9%9A%8F%E8%BA%AB%E8%83%BD%E6%90%BA%E5%B8%A6%E7%9A%84%E7%89%A9%E5%93%81%E5%92%8C%E5%B7%A5%E5%85%B7%E4%B8%BA%E4%BA%86%E7%94%9F%E5%AD%98%E5%92%8C%E5%8F%91%E5%B1%95%E4%BD%A0%E4%BC%9A%E5%B8%A6%E4%BB%80%E4%B9%88/</id>
+        <link href="https://www.reddit.com/r/China_irl/comments/1w8yf41/%E5%81%87%E5%A6%82%E4%BD%A0%E8%83%BD%E5%B8%A6%E4%B8%80%E4%B8%AA%E5%8D%81%E4%BA%BA%E5%B0%8F%E9%98%9F%E7%A9%BF%E8%B6%8A%E5%9B%9E1%E4%B8%87%E5%B9%B4%E5%89%8D%E7%9A%84%E5%9C%B0%E7%90%83%E6%89%80%E6%9C%89%E4%BA%BA%E5%8F%AA%E8%83%BD%E5%B8%A6%E9%9A%8F%E8%BA%AB%E8%83%BD%E6%90%BA%E5%B8%A6%E7%9A%84%E7%89%A9%E5%93%81%E5%92%8C%E5%B7%A5%E5%85%B7%E4%B8%BA%E4%BA%86%E7%94%9F%E5%AD%98%E5%92%8C%E5%8F%91%E5%B1%95%E4%BD%A0%E4%BC%9A%E5%B8%A6%E4%BB%80%E4%B9%88/"/>
+        <updated>2026-09-06T14:59:04.000Z</updated>
+        <summary type="html"><![CDATA[我很多年前看过一个类似的post，当时还没有AI，大家分析讨论，考虑的方面很多，包括医学、宗教、气候、社会学、道德、农业、野兽等等。我隐约记得有人说一定要带外科医生、农民等等，而铁匠看似有用但你们无法造出铁砧，很多科学家没有用因为离开现代设备他们什么也干不了，还有人说一定要合理分配男女比例，不然会吃醋引发内斗。
+ 我问了三个不同的AI，他们给的建议很不一样（可能是因为我追问的影响），且侧重点不同。所以我想问问你们大家有没有兴趣加入这个遐想。
+ 我先说：
+ （主要是我自己的考虑，有部分AI提示）
+ 十个人，五男五女，一夫一妻，合理规划，尽量避免第二三代出现近亲婚配。
+ 职业配置（注意，他们都是带着随身的基础职业工具的）：
+ 全科医生（我），负责基本的全科医疗包括基本的心理健康； 没事的时候帮别人干活；
+ 外科医生，负责伤病；没事的时候帮别人干活；
+ 护士，这个人需要时可以协助两个医生，没事的时候可以带二代的孩子们；
+ 农民，负责一开始就种植， 熬过第一年就有稳定的饭吃；
+ 木匠，负责带领大家搭建避难所；
+ 教师，负责记录、传承知识给第二三代；没事的时候和护士一起带孩子们。
+ 地质勘探家，负责找矿，毕竟带的工具早晚会坏，为后续发展需要找到铜、铁等；
+ 冶金专家，负责协助找矿，一起研究怎么把矿变成有用的金属；
+ 铁匠，负责制作工具，在这之前，帮别人干活；
+ 草药师，带这个人是因为，无论我们携带多少现代药物、抗生素，总有用完、过期的时候，而没有现代医学材料和设备，我们不可能制造出新的药物，最终会回到原始的草药，不如带个草药师早早开始研究。
+ 选址：
+ 由于我只了解澳大利亚，那我就选一万年前的澳洲东部临海地区，河流入海口，可以迅速发展农业和捕鱼，用携带的种子和工具种出第一批食物。气候、地形地貌应该和今天差不太多。一万年前的澳洲大陆尚且没有原住民，不用担心原始人袭击。一万年前澳洲大陆已经有了原始袋鼠，方便捕猎，而且这里没有大型食肉动物，不用担心野兽袭击。
+ 政治制度：
+ 初始仅有十人，都是必要职业，大家谁也离不开谁，第一代人靠投票就行。这也是我没有选带猎人、军人这类有武力的职业的原因，也没有人携带武器。但这个问题，随着资源控制与分配，人口增长，一定会发展出相关的问题。
+ 坚决在我这个团队不能出现的东西：宗教 - 选择的人必须都是无神论者。因为首先在这个假设中，所有人都是受过当代教育的，而且共同目标只有一个，那就是生存下去，我们不需要以宗教作为纽带去达成某种团结。宗教的产生会改变很多，比如在某个苦难时期，某个掌握宗教的人可能用这个给大家注入假的希望、挑唆、夺权等等。而且万一几个人有不同的宗教，再打起来。
+ 大家说说，我这个配置，有什么大BUG吗？会因为什么事突然团灭吗？我们这个团队，能发展几代，能发展到什么地步？中世纪小村落？
+    submitted by    /u/Varenicline918  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>流浪防区</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[[問卦] 公務員夫妻 不敢生小孩？]]></title>
         <id>https://www.ptt.cc/bbs/Gossiping/M.1788706596.A.1DB.html</id>
         <link href="https://www.ptt.cc/bbs/Gossiping/M.1788706596.A.1DB.html"/>
@@ -268,6 +2453,17 @@ M1A2T戰車砲彈確定台灣製造！軍備局7年砸141億增彈藥、裝備�
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Kimi Antonelli wins the 2026 Italian Grand Prix! The first victory on home soil by an Italian driver since 1966]]></title>
+        <id>https://www.reddit.com/r/formula1/comments/1w8yczg/kimi_antonelli_wins_the_2026_italian_grand_prix/</id>
+        <link href="https://www.reddit.com/r/formula1/comments/1w8yczg/kimi_antonelli_wins_the_2026_italian_grand_prix/"/>
+        <updated>2026-09-06T14:56:34.000Z</updated>
+        <summary type="html"><![CDATA[submitted by    /u/overspeeed    to    r/formula1  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>popular links</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[[新聞] 台東暗夜大亂鬥4傷！ 約單挑竟揪幫手帶刀]]></title>
         <id>https://www.ptt.cc/bbs/Gossiping/M.1788706508.A.483.html</id>
         <link href="https://www.ptt.cc/bbs/Gossiping/M.1788706508.A.483.html"/>
@@ -279,6 +2475,16 @@ M1A2T戰車砲彈確定台灣製造！軍備局7年砸141億增彈藥、裝備�
 3.完整新聞標題:]]></summary>
         <author>
             <name>批踢踢實業坊 Gossiping 板</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Recreating Minecraft Is Not a Benchmark]]></title>
+        <id>https://kuber.studio/blog/Reflections/Recreating-Minecraft-is-Not-a-Benchmark</id>
+        <link href="https://kuber.studio/blog/Reflections/Recreating-Minecraft-is-Not-a-Benchmark"/>
+        <updated>2026-09-06T14:52:07.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
         </author>
     </entry>
     <entry>
@@ -320,6 +2526,17 @@ M1A2T戰車砲彈確定台灣製造！軍備局7年砸141億增彈藥、裝備�
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[An empty highway in the spring of 2020 in Los Angeles.]]></title>
+        <id>https://www.reddit.com/r/interestingasfuck/comments/1w8y7ji/an_empty_highway_in_the_spring_of_2020_in_los/</id>
+        <link href="https://www.reddit.com/r/interestingasfuck/comments/1w8y7ji/an_empty_highway_in_the_spring_of_2020_in_los/"/>
+        <updated>2026-09-06T14:50:19.000Z</updated>
+        <summary type="html"><![CDATA[submitted by    /u/imfrom_mars_    to    r/interestingasfuck  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>popular links</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[[問卦] 有人會因為沒有小孩，而人生有遺憾嗎]]></title>
         <id>https://www.ptt.cc/bbs/Gossiping/M.1788706204.A.AF9.html</id>
         <link href="https://www.ptt.cc/bbs/Gossiping/M.1788706204.A.AF9.html"/>
@@ -331,6 +2548,16 @@ M1A2T戰車砲彈確定台灣製造！軍備局7年砸141億增彈藥、裝備�
 脫離學校生活的精華期沒交到，後面就難了]]></summary>
         <author>
             <name>批踢踢實業坊 Gossiping 板</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[养殖三文鱼的 Omega-3 脂肪酸含量大幅下降]]></title>
+        <id>https://www.solidot.org/story?sid=85299</id>
+        <link href="https://www.solidot.org/story?sid=85299"/>
+        <updated>2026-09-06T14:49:02.000Z</updated>
+        <summary type="html"><![CDATA[《美国膳食指南》建议每周至少食用 8 盎司鱼，推荐人们选择三文鱼（salmon）等富含 Omega-3 脂肪酸的鱼类，Omega-3 脂肪酸被认为有益心脏健康。这一推荐导致三文鱼产量大增，而人类消费的近七成三文鱼如今都来自养殖渔场。根据一项新研究，养殖三文鱼的 Omega-3 脂肪酸含量大幅下降，意味着相关推荐数据已经过时。Omega-3 脂肪酸含量下降的原因是三文鱼的食物结构发生巨大转变，从肉食转变为以大豆和菜籽油为主食。世界最大的养殖三文鱼生产国挪威，1990 年九成的饲料原料来自海洋，但到 2020 年这一比例降至约 23%。挪威养殖三文鱼饲料中九成的大豆来自三家巴西公司。]]></summary>
+        <author>
+            <name>奇客Solidot–传递最新科技情报</name>
         </author>
     </entry>
     <entry>
@@ -379,6 +2606,16 @@ M1A2T戰車砲彈確定台灣製造！軍備局7年砸141億增彈藥、裝備�
         <summary type="html"><![CDATA[Comments]]></summary>
         <author>
             <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[2026 年雨果奖公布]]></title>
+        <id>https://www.solidot.org/story?sid=85298</id>
+        <link href="https://www.solidot.org/story?sid=85298"/>
+        <updated>2026-09-06T14:25:04.000Z</updated>
+        <summary type="html"><![CDATA[第 84 届世界科幻大会上周公布了 2026 年雨果奖获奖名单，25 岁的美国作家 H. H. Pak 超过乔治·R·R·马丁（George R. R. Martin）成为最年轻的最佳中短篇小说奖得主，马丁是在 26 岁通过中短篇小说《A Song for Lya》赢得雨果奖。获奖名单包括：]]></summary>
+        <author>
+            <name>奇客Solidot–传递最新科技情报</name>
         </author>
     </entry>
     <entry>
@@ -592,6 +2829,17 @@ hashbrown: Rust 生态中的 Swiss Table 实现库，Rust 标准库 `HashMap ` �
         <link href="https://www.reddit.com/r/nextfuckinglevel/comments/1w8xbvk/dutch_racer_loek_hartog_stopped_his_porsche/"/>
         <updated>2026-09-06T14:14:11.000Z</updated>
         <summary type="html"><![CDATA[submitted by    /u/dannybluey    to    r/nextfuckinglevel  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>popular links</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[What’s a common ingredient that completely ruins a dish for you, no matter how small the amount?]]></title>
+        <id>https://www.reddit.com/r/AskReddit/comments/1w8x8nx/whats_a_common_ingredient_that_completely_ruins_a/</id>
+        <link href="https://www.reddit.com/r/AskReddit/comments/1w8x8nx/whats_a_common_ingredient_that_completely_ruins_a/"/>
+        <updated>2026-09-06T14:10:41.000Z</updated>
+        <summary type="html"><![CDATA[submitted by    /u/Sensitive_Low_9280    to    r/AskReddit  
  [link]   [comments]]]></summary>
         <author>
             <name>popular links</name>
@@ -926,6 +3174,28 @@ Recurse Center: 一个位于纽约、面向程序员的免费驻留式学习社�
         <summary type="html"><![CDATA[Comments]]></summary>
         <author>
             <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The world map is changing: The UN has backed replacing the 500-year-old Mercator projection with the accurate Equal Earth projection]]></title>
+        <id>https://www.reddit.com/r/interestingasfuck/comments/1w8wf6a/the_world_map_is_changing_the_un_has_backed/</id>
+        <link href="https://www.reddit.com/r/interestingasfuck/comments/1w8wf6a/the_world_map_is_changing_the_un_has_backed/"/>
+        <updated>2026-09-06T13:36:35.000Z</updated>
+        <summary type="html"><![CDATA[submitted by    /u/lonewolff321    to    r/interestingasfuck  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>popular links</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The guy had two boomerangs on him]]></title>
+        <id>https://www.reddit.com/r/cringereels/comments/1w8we0d/the_guy_had_two_boomerangs_on_him/</id>
+        <link href="https://www.reddit.com/r/cringereels/comments/1w8we0d/the_guy_had_two_boomerangs_on_him/"/>
+        <updated>2026-09-06T13:35:13.000Z</updated>
+        <summary type="html"><![CDATA[submitted by    /u/Ilikeinvestigating    to    r/cringereels  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>popular links</name>
         </author>
     </entry>
     <entry>
@@ -1620,6 +3890,25 @@ em-dash: 破折号符号，评论里被当作 LLM 文风的常见可疑特征之
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[【看鉴中国】G20会议19国促限廉价倾销 唯独中国反对 廉价背后是低工资？]]></title>
+        <id>https://www.reddit.com/r/China_irl/comments/1w8vjai/%E7%9C%8B%E9%89%B4%E4%B8%AD%E5%9B%BDg20%E4%BC%9A%E8%AE%AE19%E5%9B%BD%E4%BF%83%E9%99%90%E5%BB%89%E4%BB%B7%E5%80%BE%E9%94%80_%E5%94%AF%E7%8B%AC%E4%B8%AD%E5%9B%BD%E5%8F%8D%E5%AF%B9_%E5%BB%89%E4%BB%B7%E8%83%8C%E5%90%8E%E6%98%AF%E4%BD%8E%E5%B7%A5%E8%B5%84/</id>
+        <link href="https://www.reddit.com/r/China_irl/comments/1w8vjai/%E7%9C%8B%E9%89%B4%E4%B8%AD%E5%9B%BDg20%E4%BC%9A%E8%AE%AE19%E5%9B%BD%E4%BF%83%E9%99%90%E5%BB%89%E4%BB%B7%E5%80%BE%E9%94%80_%E5%94%AF%E7%8B%AC%E4%B8%AD%E5%9B%BD%E5%8F%8D%E5%AF%B9_%E5%BB%89%E4%BB%B7%E8%83%8C%E5%90%8E%E6%98%AF%E4%BD%8E%E5%B7%A5%E8%B5%84/"/>
+        <updated>2026-09-06T12:58:40.000Z</updated>
+        <summary type="html"><![CDATA[9月1日，G20财长和央行行长会议在美国落幕。美国财长贝森特称，中国以外所有与会国家一致同意应处理造成全球经济失衡的廉价出口问题，但中国对此表示异议，因此未能发表联合公报。
+ 贝森特还点名中国正是那个拥有最大且不可持续经常帐顺差的国家。美财政部会后声明指，这些国家应消除“抑制国内消费、并导致经济成长过度依赖出口的扭曲因素”。
+ 外媒引述专家指出，中国产品在国际市场上具有价格优势，主要原因之一是工人工资水平被长期压低。中国也未能建立起足够的社会保障体系，民众的不安全感导致他们不敢消费。
+ 中国央行行长回应称从不刻意追求贸易顺差；外交部发言人对未能发表公报"深表遗憾"，促主席国尊重各方合理关切。
+ 🔗原文链接
+ 《德国之声》G20财长会19国同意应对廉价出口 唯独中国反对
+ 《美国之音》学者聚焦中国经济结构性矛盾：内需为何长期低迷？
+ 《星岛日报》G20财长会议闭幕 中国反对全球贸易失衡等4项内容 大会无发联合公报
+    submitted by    /u/Outsight_China  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>流浪防区</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[🤔 IBM Quantum Nighthawk R2：量子算力争议与化学应用]]></title>
         <id>49546198</id>
         <link href="https://newshacker.me/story?id=49546198"/>
@@ -1954,6 +4243,26 @@ Huggin…]]></summary>
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[火鳳燎原同人小說: 呂布與小孟: 焚夢記 • 陰山迷蹤: 第十四章: 邊地孤魂]]></title>
+        <id>https://www.reddit.com/r/China_irl/comments/1w8uwlm/%E7%81%AB%E9%B3%B3%E7%87%8E%E5%8E%9F%E5%90%8C%E4%BA%BA%E5%B0%8F%E8%AA%AA_%E5%91%82%E5%B8%83%E8%88%87%E5%B0%8F%E5%AD%9F_%E7%84%9A%E5%A4%A2%E8%A8%98_%E9%99%B0%E5%B1%B1%E8%BF%B7%E8%B9%A4_%E7%AC%AC%E5%8D%81%E5%9B%9B%E7%AB%A0_%E9%82%8A%E5%9C%B0%E5%AD%A4%E9%AD%82/</id>
+        <link href="https://www.reddit.com/r/China_irl/comments/1w8uwlm/%E7%81%AB%E9%B3%B3%E7%87%8E%E5%8E%9F%E5%90%8C%E4%BA%BA%E5%B0%8F%E8%AA%AA_%E5%91%82%E5%B8%83%E8%88%87%E5%B0%8F%E5%AD%9F_%E7%84%9A%E5%A4%A2%E8%A8%98_%E9%99%B0%E5%B1%B1%E8%BF%B7%E8%B9%A4_%E7%AC%AC%E5%8D%81%E5%9B%9B%E7%AB%A0_%E9%82%8A%E5%9C%B0%E5%AD%A4%E9%AD%82/"/>
+        <updated>2026-09-06T12:29:15.000Z</updated>
+        <summary type="html"><![CDATA[https://preview.redd.it/5vmo00ck8wnh1.png?width=1247&format=png&auto=webp&s=8f3dd3e50480a41cd3fb95cdab01fa4403822856
+ 狼山
+ 一個身型魁梧高大, 一身褐衣, 散髮披肩的男子, 沒帶行裝, 只手持一柄短戟, 以不徐不疾的步履, 沿著山坳間迂迴的狹道前進. 兩旁山壁險要, 寸草不生, 更無半點蟲鳴鷹唳之聲, 生機斷絕, 男子難以想像, 在久遠之前, 這裏會是一個可以住人的地方.
+ 巨石嶙峋, 在烈陽照映下, 光影相間, 形成奇異的圖案, 鋪滿整個死寂的空間.
+ 他當然是呂布, 只是今次, 小孟竟沒有相伴在旁. 呂布早把地圖默記於心, 跟從地圖所示方向, 進入狼山已有一天, 走入了山腹核心地帶. 
+ "這個位置...以前是一個湖泊. 過了這個湖, 便到他們的宮殿了." 呂布站在一個狹谷的底部, 抬頭向上望, 口中不自覺沉吟. 湖泊的位置成了乾涸的大深坑, 坑的四圍殘存疏密有致的斷垣殘壁, 證明他沒有找錯地方, 他才終於稍稍放心.
+ "這裏...就是宮殿入口?" 呂布繞過深坑, 走到另一端一個巨大山壁之前, 山壁中央有一個約兩丈寛的"入口", 似乎是個狹長岩洞, 呂布探望入去, 光線微暗, 兩面都是畢直岩壁. 盡頭之處以深不見底, 漆黑一片.
+ 狐疑間, 呂布驀地回眸, 向遠處的癈墟一笑, 朗聲道, "郁勒, 到終點了. 何不現身一見?"
+ 一處殘壁後, 冒出一個穿淺灰胡服, 肩披白裘的男子. 男子英俊倜儻, 手持長鎗, 正是游羅族的年輕族長郁勒.
+ "怎麼不見小孟兄?" 郁勒被揭穿跟蹤, 卻神態自若, 滿不在乎, 只道, "我就知道, 你們兩個, 才不是為了葬母, 而千里迢迢來到游羅的." 
+ "你看到那塊玉符時, 便知道我不是郁真的兒子吧." 呂布淡然一笑, 並…]]></summary>
+        <author>
+            <name>流浪防区</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[江西遂川地质灾害遇难人数增至4人]]></title>
         <id>https://m.jiemian.com/article/15060317.html</id>
         <link href="https://m.jiemian.com/article/15060317.html"/>
@@ -2125,6 +4434,17 @@ CHINA GT中国超级跑车锦标赛上海站发生罕见一幕。
 Continue reading on Medium »]]></summary>
         <author>
             <name>Tejasjalan</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[This guy is on another planet..]]></title>
+        <id>https://www.reddit.com/r/Weird/comments/1w8uiu4/this_guy_is_on_another_planet/</id>
+        <link href="https://www.reddit.com/r/Weird/comments/1w8uiu4/this_guy_is_on_another_planet/"/>
+        <updated>2026-09-06T12:10:54.000Z</updated>
+        <summary type="html"><![CDATA[submitted by    /u/No-Lock216    to    r/Weird  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>popular links</name>
         </author>
     </entry>
     <entry>
@@ -2782,6 +5102,17 @@ Continue reading on Medium »]]></summary>
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Why does this even happen]]></title>
+        <id>https://www.reddit.com/r/mildlyinfuriating/comments/1w8tpih/why_does_this_even_happen/</id>
+        <link href="https://www.reddit.com/r/mildlyinfuriating/comments/1w8tpih/why_does_this_even_happen/"/>
+        <updated>2026-09-06T11:30:24.000Z</updated>
+        <summary type="html"><![CDATA[submitted by    /u/Yandere-Neko    to    r/mildlyinfuriating  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>popular links</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[🤨 改用 EUPL 引发 SaaS 漏洞与 AGPL 争议]]></title>
         <id>49585161</id>
         <link href="https://newshacker.me/story?id=49585161"/>
@@ -2814,6 +5145,41 @@ EUPL 不一定比 LGPL/AGPL 更强
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[这次太平洋岛国会议因为澳洲要谴责中国和帕劳邀请台湾参与最后落得一地鸡毛]]></title>
+        <id>https://www.reddit.com/r/China_irl/comments/1w8th99/%E8%BF%99%E6%AC%A1%E5%A4%AA%E5%B9%B3%E6%B4%8B%E5%B2%9B%E5%9B%BD%E4%BC%9A%E8%AE%AE%E5%9B%A0%E4%B8%BA%E6%BE%B3%E6%B4%B2%E8%A6%81%E8%B0%B4%E8%B4%A3%E4%B8%AD%E5%9B%BD%E5%92%8C%E5%B8%95%E5%8A%B3%E9%82%80%E8%AF%B7%E5%8F%B0%E6%B9%BE%E5%8F%82%E4%B8%8E%E6%9C%80%E5%90%8E%E8%90%BD%E5%BE%97%E4%B8%80%E5%9C%B0%E9%B8%A1%E6%AF%9B/</id>
+        <link href="https://www.reddit.com/r/China_irl/comments/1w8th99/%E8%BF%99%E6%AC%A1%E5%A4%AA%E5%B9%B3%E6%B4%8B%E5%B2%9B%E5%9B%BD%E4%BC%9A%E8%AE%AE%E5%9B%A0%E4%B8%BA%E6%BE%B3%E6%B4%B2%E8%A6%81%E8%B0%B4%E8%B4%A3%E4%B8%AD%E5%9B%BD%E5%92%8C%E5%B8%95%E5%8A%B3%E9%82%80%E8%AF%B7%E5%8F%B0%E6%B9%BE%E5%8F%82%E4%B8%8E%E6%9C%80%E5%90%8E%E8%90%BD%E5%BE%97%E4%B8%80%E5%9C%B0%E9%B8%A1%E6%AF%9B/"/>
+        <updated>2026-09-06T11:18:05.000Z</updated>
+        <summary type="html"><![CDATA[本周在帕劳举行的太平洋岛国论坛（PIF）领导人会议气氛颇为紧张。尽管东道主竭尽全力，举办地又拥有明信片般的海岛风光，仍未能掩盖各国领导人之间的摩擦。 
+ 与会代表口口声声强调团结，但离开这个密克罗尼西亚小国时，达成的共识却少得可怜。会议结束超过24小时后，各方仍在为峰会公报争论不休，其中清楚反映出成员国之间的分歧和不安。 
+ 北京仅在不到两个月前进行导弹试射，令此次峰会本已紧张的气氛进一步升温。台湾代表出席会议也令不少与会者感到不安，中国的太平洋事务特使更警告称，此举将带来“后果”。 
+ 澳洲最新盟友巴布亚新几内亚表示，台湾作为太平洋岛国论坛的“发展伙伴”，今后应被禁止参加峰会。 
+ 接近三分之一的太平洋岛国论坛领导人缺席今年的年度会议。部分领导人称国内事务紧迫，萨摩亚的施密特（Laʻauli Leuatea Schmidt）则因病未能出席。 
+ 所罗门群岛总理瓦莱（Mathew Wale）周日刚刚抵达帕劳，就因国内有人对其提出不信任动议，不得不立即掉头回国。新西兰的彼得斯（Winston Peters）（就是这孙子让自己国内的华人议员滚回中国）表示，如果认为其中没有外国势力干预，那将是“违背现实和逻辑”，但他没有点名中国。 
+ 人口仅1.8万的帕劳，是太平洋地区仅有的三个与台湾保持外交关系的国家之一。帕劳总统惠普斯（Surangel Whipps Jr）因此邀请林佳龙参加会议，此举激怒北京，也令部分代表私下抱怨，认为惠普斯正在考验所谓“太平洋大家庭”的关系底线。 
+ 巴布亚新几内亚外长特卡琴科（Justin Tkatchenko）对《澳洲人报》表示：“这正在让大家偏离我们来到这里的主要目的。我们还有更重要的事情要讨论。” 
+ “我们坚持一个国家、一面国旗。” 
+ 澳洲支持台湾参与太平洋岛国论坛，但随着会议场边摩擦不断升级，阿尔巴尼斯阵营也开始担心，太平洋国家自身的声音，以及澳洲的战略议程，正在被这些争议淹没。 
+ 中国7月6日在图瓦卢附近进行导弹试射后，阿尔巴尼斯随即将其形容为“挑衅行为”，并曾表示希望太平洋岛国论坛就此发表一致声明予以谴责。但与中国关系最密切的太平洋国家之一基里巴斯和瑙鲁阻止了这一做法。 
+ 截至周五，峰会正式领导人声明仍未公布，但接近最终版本的草案语气明显弱于阿尔巴尼斯原先的期望。 
+ 草案仅对中国的试射表达“关切”，指出此举违反该地区2025年和平宣言，并要求今后进行类似发射前至少提前24小时通知。 
+ 作为澳洲条约伙伴，同时也是澳洲离岸拘留中心所在地的瑙鲁，则明确表示不认同声明中的相关段落。 
+ 新西兰总理卢克森（Christopher Luxon）在领导人闭门会议最后几个小时替代阿尔巴尼斯参会。 
+ 他表示，基里巴斯当时没有代表出席。 
+ 本地区领导人下一次将聚首澳洲在斐济组织的一场气候活动，并顺道访问图瓦卢。 
+ 鲍恩已邀请各国总统和总理参加，并将活动宣传为在联合国于土耳其举行COP31气候大会前“把世界带到太平洋”。 
+ 不过，斐济外长透露，预计只有5名来自太平洋地区以外的国家领导人出席后，一名记者质疑这场活动的实际价值，引来阿尔巴尼斯不满。 
+ 他说：“恕我直言，你这样说对来到这里的太平洋领导人非常不尊重。” 
+ 澳洲政府现在已把注意力转向今年可能对本地区影响最大的政治较量，瓦莱能否保住所罗门群岛总理职位。 
+ 相关表决最快可能于下周举行，并可能令霍尼亚拉重新回到中国一边，就像瓦莱之前几任政府执政时期一样。 
+ 大国博弈很少像在太平洋地区这样，在如此狭小的空间内近距离展开。
+ 顺便说一下，现在的所罗门群岛的总理是前总理跟中国签了经济协议然后被美国和澳洲策动的暴乱赶下台以后被美国扶植上台的。
+    submitted by    /u/Business_Pirate834  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>流浪防区</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[中式快餐，打不起“价格战”了]]></title>
         <id>4888950</id>
         <link href="https://www.huxiu.com/article/4888950.html?f=rss"/>
@@ -2833,6 +5199,17 @@ EUPL 不一定比 LGPL/AGPL 更强
 除了米饭快餐品牌，粉面水饺快餐品牌在持续升级。最近，袁记云饺5.0模型首店开业，代表的是一条新路径，即“小吃品牌堂食大店化”。过去人们对袁记云饺的认知，容易停留在“云饺”“馄饨”这类高频单品和外卖外带场景，但袁记的5.0门店把卤煮、酒水、烧麦、糖水等更多品类放进产品矩阵，本质上是在拓宽消费场景。它不再只满足一个人快…]]></summary>
         <author>
             <name>餐企老板内参</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[南非报纸广告：有400万在校女生因为负担不起月事卫生用品而使用报纸等物替代]]></title>
+        <id>https://www.reddit.com/r/China_irl/comments/1w8t9m4/%E5%8D%97%E9%9D%9E%E6%8A%A5%E7%BA%B8%E5%B9%BF%E5%91%8A%E6%9C%89400%E4%B8%87%E5%9C%A8%E6%A0%A1%E5%A5%B3%E7%94%9F%E5%9B%A0%E4%B8%BA%E8%B4%9F%E6%8B%85%E4%B8%8D%E8%B5%B7%E6%9C%88%E4%BA%8B%E5%8D%AB%E7%94%9F%E7%94%A8%E5%93%81%E8%80%8C%E4%BD%BF%E7%94%A8%E6%8A%A5%E7%BA%B8%E7%AD%89%E7%89%A9%E6%9B%BF%E4%BB%A3/</id>
+        <link href="https://www.reddit.com/r/China_irl/comments/1w8t9m4/%E5%8D%97%E9%9D%9E%E6%8A%A5%E7%BA%B8%E5%B9%BF%E5%91%8A%E6%9C%89400%E4%B8%87%E5%9C%A8%E6%A0%A1%E5%A5%B3%E7%94%9F%E5%9B%A0%E4%B8%BA%E8%B4%9F%E6%8B%85%E4%B8%8D%E8%B5%B7%E6%9C%88%E4%BA%8B%E5%8D%AB%E7%94%9F%E7%94%A8%E5%93%81%E8%80%8C%E4%BD%BF%E7%94%A8%E6%8A%A5%E7%BA%B8%E7%AD%89%E7%89%A9%E6%9B%BF%E4%BB%A3/"/>
+        <updated>2026-09-06T11:06:48.000Z</updated>
+        <summary type="html"><![CDATA[submitted by    /u/Feltonlu  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>流浪防区</name>
         </author>
     </entry>
     <entry>
@@ -2883,6 +5260,17 @@ EUPL 不一定比 LGPL/AGPL 更强
         <summary type="html"><![CDATA[既要即时满足，又要安全感]]></summary>
         <author>
             <name>经济观察报</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[德国极右党AfD被预测将在近日的州选举中大胜]]></title>
+        <id>https://www.reddit.com/r/China_irl/comments/1w8swqi/%E5%BE%B7%E5%9B%BD%E6%9E%81%E5%8F%B3%E5%85%9Aafd%E8%A2%AB%E9%A2%84%E6%B5%8B%E5%B0%86%E5%9C%A8%E8%BF%91%E6%97%A5%E7%9A%84%E5%B7%9E%E9%80%89%E4%B8%BE%E4%B8%AD%E5%A4%A7%E8%83%9C/</id>
+        <link href="https://www.reddit.com/r/China_irl/comments/1w8swqi/%E5%BE%B7%E5%9B%BD%E6%9E%81%E5%8F%B3%E5%85%9Aafd%E8%A2%AB%E9%A2%84%E6%B5%8B%E5%B0%86%E5%9C%A8%E8%BF%91%E6%97%A5%E7%9A%84%E5%B7%9E%E9%80%89%E4%B8%BE%E4%B8%AD%E5%A4%A7%E8%83%9C/"/>
+        <updated>2026-09-06T10:47:47.000Z</updated>
+        <summary type="html"><![CDATA[submitted by    /u/DieShowWithDerMouse  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>流浪防区</name>
         </author>
     </entry>
     <entry>
@@ -3615,6 +6003,17 @@ ColorChecker: 摄影中用于色彩校准的 24 色参考卡，常用于白平�
  [link]   [comments]]]></summary>
         <author>
             <name>流浪防区</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A travel blogger woman is constantly harassed in Nigeria, with people demanding she give them money or buy them food and products]]></title>
+        <id>https://www.reddit.com/r/interesting/comments/1w8s4gn/a_travel_blogger_woman_is_constantly_harassed_in/</id>
+        <link href="https://www.reddit.com/r/interesting/comments/1w8s4gn/a_travel_blogger_woman_is_constantly_harassed_in/"/>
+        <updated>2026-09-06T10:04:32.000Z</updated>
+        <summary type="html"><![CDATA[submitted by    /u/YaLlegaHiperhumor    to    r/interesting  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>popular links</name>
         </author>
     </entry>
     <entry>
@@ -9096,6 +11495,16 @@ B股：金老师的伊泰b
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Ganon's Mysterious Origins (Revisited)]]></title>
+        <id>https://www.thrillingtalesofoldvideogames.com/blog/ganon-name-origin-kamen-rider</id>
+        <link href="https://www.thrillingtalesofoldvideogames.com/blog/ganon-name-origin-kamen-rider"/>
+        <updated>2026-09-05T20:33:29.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Private German rocket makes history, reaches orbit from European soil]]></title>
         <id>https://www.space.com/space-exploration/launches-spacecraft/isar-aerospace-second-launch-norway-andoya-spaceport-spectrum-rocket</id>
         <link href="https://www.space.com/space-exploration/launches-spacecraft/isar-aerospace-second-launch-norway-andoya-spaceport-spectrum-rocket"/>
@@ -12203,6 +14612,20 @@ Jupyter: 一种交互式 notebook 环境，常用于数据分析、探索性计�
 因为之前GPT-5.6 Sol的问题，比如过度设计、…]]></summary>
         <author>
             <name>数字生命卡兹克©</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[坚定看好广汇汽车后市！]]></title>
+        <id>https://www.jisilu.cn/question/525044</id>
+        <link href="https://www.jisilu.cn/question/525044"/>
+        <updated>2026-09-05T12:45:03.000Z</updated>
+        <summary type="html"><![CDATA[万科抄底广汇汽车。
+[attach]455710[/attach]
+
+
+[attach]455709[/attach]]]></summary>
+        <author>
+            <name>集思录</name>
         </author>
     </entry>
     <entry>
@@ -35127,6 +37550,16 @@ Grok 是 xAI（Elon Musk 旗下的 AI 公司）的聊天和编程模型，这个
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Babylonian Lamb Stew with Beets (1750–1730 BCE)]]></title>
+        <id>https://babylonian-collection.yale.edu/about/babylonian-cooking</id>
+        <link href="https://babylonian-collection.yale.edu/about/babylonian-cooking"/>
+        <updated>2026-09-03T18:40:07.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Qwen 3.8 27B available on Cerebras at 1500 tokens/s]]></title>
         <id>https://inference-docs.cerebras.ai/models/overview</id>
         <link href="https://inference-docs.cerebras.ai/models/overview"/>
@@ -35434,6 +37867,16 @@ cereal crops（谷物作物）: 玉米、小麦、水稻等禾本科粮食作物
         <summary type="html"><![CDATA[支持特朗普的政治行动委员会MAGA Inc坐拥4亿美元的资金储备，但今年在广告上的支出不到其资金总额的1%，且尚未预订未来广告时段。]]></summary>
         <author>
             <name>FTChinese RSS - News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[匈牙利为欧盟的发展提供了新样本]]></title>
+        <id>https://www.ftchinese.com/story/001110784</id>
+        <link href="https://www.ftchinese.com/story/001110784"/>
+        <updated>2026-09-03T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[为降低外部不确定性带来的冲击，欧洲推进供应链多元化的“去风险”举措具。但政策制定中需要明确区分“去风险”与“脱钩”的边界]]></summary>
+        <author>
+            <name>FTChinese RSS - Hot Weekly</name>
         </author>
     </entry>
     <entry>
@@ -36241,6 +38684,26 @@ Anthropic 发布了 Claude Fable 5.1 和 Claude Mythos 5.1，这是目前最先�
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Is There I/O After Death? What Happens to Io_uring When a Process Dies]]></title>
+        <id>https://blog.ydb.tech/is-there-i-o-after-death-what-happens-to-io-uring-when-a-process-dies-92c65354873f?postPublishedType=repub</id>
+        <link href="https://blog.ydb.tech/is-there-i-o-after-death-what-happens-to-io-uring-when-a-process-dies-92c65354873f?postPublishedType=repub"/>
+        <updated>2026-09-02T20:58:45.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Vidact – a compiler that turns React into direct DOM operations]]></title>
+        <id>https://www.vidact.dev/</id>
+        <link href="https://www.vidact.dev/"/>
+        <updated>2026-09-02T20:34:24.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Music Theory for Programmers]]></title>
         <id>https://runjs.app/blog/music-theory-for-programmers</id>
         <link href="https://runjs.app/blog/music-theory-for-programmers"/>
@@ -36327,6 +38790,16 @@ Anthropic 发布了 Claude Fable 5.1 和 Claude Mythos 5.1，这是目前最先�
         <id>https://www.nationalgeographic.com/animals/article/falcons-migration-angola-falcopolis</id>
         <link href="https://www.nationalgeographic.com/animals/article/falcons-migration-angola-falcopolis"/>
         <updated>2026-09-02T18:19:53.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Electronic skin for prosthetics to sense temperature and pressure]]></title>
+        <id>https://news.wsu.edu/press-release/2026/08/20/researchers-develop-electronic-skin-for-prosthetics-to-sense-temperature-and-pressure/</id>
+        <link href="https://news.wsu.edu/press-release/2026/08/20/researchers-develop-electronic-skin-for-prosthetics-to-sense-temperature-and-pressure/"/>
+        <updated>2026-09-02T18:06:56.000Z</updated>
         <summary type="html"><![CDATA[Comments]]></summary>
         <author>
             <name>Hacker News</name>
@@ -37139,6 +39612,16 @@ AnkiDroid（开源安卓闪卡应用，超 1000 万用户）在 Google Play 上�
         <summary type="html"><![CDATA[针对霍尔木兹海峡航运的袭击事件目前呈上升趋势，尽管美国声称其军方正在指引商船安全通过这一关键水道。]]></summary>
         <author>
             <name>FTChinese RSS - News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[美联储新框架与我们所处的“模糊”时代]]></title>
+        <id>https://www.ftchinese.com/story/001110772</id>
+        <link href="https://www.ftchinese.com/story/001110772"/>
+        <updated>2026-09-01T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[张林：无论是不是沃什在任，美联储的长期政策压力依然会是降息。当然，沃什宣布放弃前瞻指引，等于是推动政策体系本身也进入了模糊状态。]]></summary>
+        <author>
+            <name>FTChinese RSS - Hot Weekly</name>
         </author>
     </entry>
     <entry>
@@ -38246,6 +40729,16 @@ Warsh 演讲后，FedWatch 显示市场预期 9 月升息机率再度回升至 5
         <summary type="html"><![CDATA[長久以來，我們對付牙周病的標準流程不外乎是洗牙、牙根整平術，嚴重一點甚至要翻瓣手術或拔牙重建。然而，這種以「物理清創與化學殺菌」為核心的治療，為何總是讓患者陷入「反覆發作、越演越烈」的無效循環？全球首款牙周病疫苗（GPV381）的問世，正準備將牙科治療從「拔牙止損」，徹底拉高至「大腦資產保全」的預防醫學層次。]]></summary>
         <author>
             <name>PanSci</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[200万资金5%收益如何实现]]></title>
+        <id>https://www.jisilu.cn/question/524767</id>
+        <link href="https://www.jisilu.cn/question/524767"/>
+        <updated>2026-08-27T01:09:34.000Z</updated>
+        <summary type="html"><![CDATA[手里有一笔闲置资金200多万一直放余额宝，利息太低。想请各位大佬给规划一下，风险低年化5%收益即可。感谢!]]></summary>
+        <author>
+            <name>集思录</name>
         </author>
     </entry>
     <entry>
