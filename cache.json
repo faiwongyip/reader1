@@ -6,6 +6,66 @@
       "siteUrl": "https://www.solidot.org",
       "articles": [
         {
+          "id": "https://www.solidot.org/story?sid=85321",
+          "author": null,
+          "description": "开源媒体服务器 Jellyfin 项目释出了 v12.0。Jellyfin 采用了新版本号，在旧版本下 Jellyfin 12.0 其实就是 10.12.0，10.11.x 将是最后一个使用旧方案的分支。Jellyfin 12.0 主要变化包括：重写了媒体库数据库，显著改进了性能，但数据库重构尚未完全完成；电视剧集支持多版本，可同时包含电视版和加长版，或者 1080p 和 4K 等不同分辨率版本；支持图书和漫画；等等。",
+          "link": "https://www.solidot.org/story?sid=85321",
+          "publishedOn": "2026-09-08T14:17:01.000Z",
+          "wordCount": 183,
+          "title": "Jellyfin 12.0 释出",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.solidot.org/story?sid=85320",
+          "author": null,
+          "description": "在禁止儿童使用社媒平台之后，澳大利亚工党政府提出了一项新的法律草案，要求社媒平台允许用户退出算法驱动的信息流。用户可选择算法推荐的个性化内容作为默认信息流，或者拒绝接收算法推荐的内容，只浏览用户关注的朋友和创作者的内容。被称为 My Feed, My Way 的法案旨在给予用户选择权，违反者将面临最高 1.092 亿澳元的罚款。澳大利亚总理 Anthony Albanese 表示，“它赋予用户选择权，如果大型科技公司不遵守我们的法律，我们将追究它们的责任。”",
+          "link": "https://www.solidot.org/story?sid=85320",
+          "publishedOn": "2026-09-08T11:15:04.000Z",
+          "wordCount": 170,
+          "title": "澳大利亚想要社媒平台允许用户退出算法驱动的信息流",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.solidot.org/story?sid=85319",
+          "author": null,
+          "description": "旨在将 Linux 移植到运行 Apple Silicon 芯片的 Mac 电脑的发行版 Asahi Linux 宣布支持 M3 系列 Mac。开发者表示，Linux 对 M3 系列 SoC 及其相关设备支持已达到几乎与 M1 和 M2 系列设备相当的水平，绝大多数功能都能正常工作。其中包括：网络摄像头、内置麦克风、USB（最高支持 USB 3.0 的 10 Gb/s）、硬件加速视频解码（包括 AV1 解码）、WiFi 和蓝牙等，完整的 DCP 支持和 GPU 功能尚未完成，用户暂时不要期待高性能或高能效的 3D 加速。",
+          "link": "https://www.solidot.org/story?sid=85319",
+          "publishedOn": "2026-09-08T10:06:17.000Z",
+          "wordCount": 216,
+          "title": "Asahi Linux 宣布支持 M3 系列 Mac",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.solidot.org/story?sid=85318",
+          "author": null,
+          "description": "美国军方正在禁用设备上的广告追踪功能，防止敌人借助于购买的公开追踪数据去锁定美国士兵的位置。此前有报道称，商业追踪数据被用于锁定驻扎在中东的美军。美国陆军在一份声明中表示，Windows PC 上的广告 ID 功能早在 2021 年之前就被禁用，但 Android 和苹果移动设备上的广告 ID 则“至少从 2026 年 2 月起”才默认禁用。美国军方还在考虑对手机使用实施更严格的限制。",
+          "link": "https://www.solidot.org/story?sid=85318",
+          "publishedOn": "2026-09-08T09:47:28.000Z",
+          "wordCount": 174,
+          "title": "美国军方正禁用设备上的广告追踪功能",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.solidot.org/story?sid=85317",
+          "author": null,
+          "description": "市场期待已久的首部苹果折叠 iPhone 由于苹果极为严格的质量管控标准，初期生产量每天仅有“数百部”。苹果计划今年内生产 800万~1000 万部折叠屏 iPhone，希望凭借这款全新外型设计的机型激发市场需求，进而推升营收。除非苹果能更快提高产量，否则可能无法达成生产目标，也可能需要比预期更长的时间才能满足消费者需求。苹果与其供货商正昼夜赶工，努力提升日产能。但是产能爬坡仍需要时间，而前期的测试、验证工序已经推迟了原定的时程。如果现状得不到大幅改善，待折叠屏 iPhone 开售时，可能面临库存有限的问题。",
+          "link": "https://www.solidot.org/story?sid=85317",
+          "publishedOn": "2026-09-08T08:49:12.000Z",
+          "wordCount": 171,
+          "title": "iPhone 折叠版早期产能严重受限",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.solidot.org/story?sid=85316",
+          "author": null,
+          "description": "英国犯罪率在下降，但公众并没有感到更安全。极右翼英国改革党领导人 Nigel Farage 上个月声称人人都知道英国的治安状况比五年前或十年前更糟。逾八成英国民众认为犯罪率过去几年有所上升。八成英国民众认为自 2010 年以来手机盗窃案有所增加，六成民众认为汽车盗窃和入室盗窃案有所增加。事实上所有这些案件的发生率在同一时期都下降了 50% 甚至更多。警方犯罪统计数据所衡量的谋杀率自 2010 年以来下降了 20%，而三分之二民众认为谋杀案数量有所增加或保持不变。我们对现实的认知更多地受到情绪反应和身份认同的影响，而非基于统计数据的研究。在解释认知偏差时，关键原因可归结为两个相互关联的方面：思维方式和被告知的信息。前者涵盖了可能误导偏见和思维捷径。人类天生就更容易关注负面信息，因为负面信息预示着威胁。媒体、政客和社交媒体平台深知人们更倾向于关注负面信息，因此会推送更多此类信息。人们的思维方式和他们被告知的信息之间的相互作用，强化了对现实的过度负面看法。真正的风险不在于犯错，而在于固执坚信自己所认知的现实才是正确的，而对方则是在故意欺骗自己和我们。",
+          "link": "https://www.solidot.org/story?sid=85316",
+          "publishedOn": "2026-09-08T08:45:29.000Z",
+          "wordCount": 170,
+          "title": "英国犯罪率下降，但公众并没有感到更安全",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.solidot.org/story?sid=85315",
           "author": null,
           "description": "根据 RIAA 公布的数据，美国今年上半年 CD 和黑胶唱片等实体唱片销量大幅增长。消费者对订阅服务价格上涨的不满推动了实体音乐的复苏。上半年录制音乐收入比去年同期增长 6.9%，实体唱片收入增长了 25.9%，其中黑胶唱片增长 17.7%，CD 收入飙升了 58.6%。流媒体仍然是录制音乐收入的最大来源，收入增长 4.7% 达到 49 亿美元，付费订阅收入增长 6.4% 达到 34 亿美元，广告支持的免费订阅收入增长 3.7% 达到 9 亿美元。",
@@ -462,6 +522,56 @@
       "feedUrl": "https://rss.huxiu.com/",
       "siteUrl": "https://www.huxiu.com",
       "articles": [
+        {
+          "id": "4889652",
+          "author": "青橙财经",
+          "description": "本文来自微信公众号： 青澄财经 ，作者：青辰，编辑：六子\n\n\n近日，洋河股份发布2026年半年报，营业收入105.4亿元，同比下降28.76%；归母净利润26.02亿元，同比下降40.10%。\n\n\n这份年中报一发布，当下白酒行业处境“最尴尬”候选人评选，洋河股份恐怕是要上榜了。因为其不仅丢掉了坚守多年的行业老三之位，还丢得相当狼狈。\n\n\n数据显示，2023年洋河股份的总营收为331.26亿元，净利润为100.16亿元，紧随其后的山西汾酒分别为319.28亿元和104.38亿元，两者相差无几。而到了今年年中报，山西汾酒的业绩虽也有所下滑，但营收和净利润仍分别达到210.44亿元和64.39亿元。\n\n\n三年时间，洋河股份的业绩已不到老对手一半，被远远甩出第一阵营，情何以堪？\n\n\n\n*图源公司年中报\n\n\n但你以为这就足够尴尬了吗？并不是，因为这家一度成功全国化的“江苏酒王”，省内大本营的地位却岌岌可危。\n\n\n半年报显示，洋河在江苏省内实现营收43.91亿元，同比下滑38.34%。同期，江苏酒企今世缘的省内营收56.68亿元，同比仅下滑9.36%，成功反超洋河。\n\n\n当前洋河业绩下滑并不奇怪，很好理解，但省内省外全面失利让追问变得难以回避：公司究竟真的是“主动撤退”还是“全面崩盘”？江苏大本营为什么跌的如此严重？未来还有机会吗？\n\n\n01\n\n\n「经销商用脚投票，年中报拉响“警报”」\n\n\n上半年洋河股份业绩如此“拉胯”，省内市场要负主要责任。\n\n\n半年报数据显示，2026年上半年其省外营收59.34亿元，同比下滑19.72%，省内的跌幅是省外的将近两倍。\n\n\n\n*图源同花顺\n\n\n同样是江苏市场，同样是行业下行周期，今世缘的省内降幅只有洋河的四分之一。\n\n\n自己能力不行，真的不能全怪大环境。而洋河股份对自己为什么下滑，却有着一套完整的叙事逻辑。\n\n\n2026年6月的年度股东大会上，董事…",
+          "link": "https://www.huxiu.com/article/4889652.html?f=rss",
+          "publishedOn": "2026-09-08T16:19:34.000Z",
+          "wordCount": 791,
+          "title": "洋河“失守”江苏大本营",
+          "imageUrl": "https://img.huxiucdn.com/ai/ai-general-cover/202609/09/34603-prod-nb2ep-general-1-1788884293527.png?imageView2/1/w/788/h/444/|imageMogr2/strip/interlace/1/quality/85"
+        },
+        {
+          "id": "4889651",
+          "author": "版面之外",
+          "description": "本文来自微信公众号： 版面之外 ，作者：版君\n\n\n量贩零食最怕什么？\n\n\n可能不是卖贵了，而是让消费者觉得，连自己买了多少都不知道。\n\n\n64.58元的牛肉干，复秤只有17.29元。\n\n\n河南还有消费者结账时看到111元，觉得不对劲，要求重新称重，价格变成了64.8元。\n\n\n这两笔账，差的都不是几毛钱。\n\n\n偏偏事情发生在赵一鸣、好想来这样的连锁量贩零食店里。\n\n\n这个行业最成功的一件事，就是把便宜做成了一种消费习惯。货架上密密麻麻的零食，统一的价格体系，自己挑、自己选，消费者不用想太多，拎着袋子走一圈就能结账。\n\n\n可一旦那台秤出了问题，整个消费逻辑就突然变了。\n\n\n几起投诉接连出现，更多人开始翻出类似经历，监管部门也迅速跟进，对多家主流量贩零食门店开展计量专项整治。\n\n\n一杆秤，突然成了这个行业最值得看的东西。\n\n\n一、一杆秤，撑起一门生意\n\n\n赵一鸣、好想来等量贩零食卖的是低价，低价背后靠的是一套高度标准化的系统，从选品采购、仓储周转，到门店陈列、收银结算，每个环节都在算效率。\n\n\n但这套复杂系统落到消费者面前，往往只剩下一杆秤。消费者看不见背后的供应链，他只看显示屏上的数字信不信得过。\n\n\n这门生意有个很有意思的矛盾，货品高度非标，但零售体验却必须高度标准化。消费者进店，选货、装袋、上秤、付款，几步走完，整个过程简单得像买瓶水。\n\n\n这种简单，背后是采购、仓储、门店管理、价格体系和数字化系统共同撑起来的。\n\n\n对于包装食品，价格早就印好了，没什么争议。散装零食就全靠那台电子秤，它把一堆形状各异的商品，变成一个双方都认可的价格。\n\n\n秤不是量贩零食的一个设备，它是这门生意最小的一块信任基础设施。\n\n\n消费者既不知道这块牛肉干合理单价该是多少，也没法凭手感掂量这袋瓜子到底够不够数，他能信的就是屏幕上那个发着绿光或红光的数字。\n\n\n64.58和17.29之间的窟窿，当然离…",
+          "link": "https://www.huxiu.com/article/4889651.html?f=rss",
+          "publishedOn": "2026-09-08T16:11:39.000Z",
+          "wordCount": 772,
+          "title": "老百姓心里有杆秤",
+          "imageUrl": "https://img.huxiucdn.com/ai/ai-general-cover/202609/09/34602-prod-nb2ep-general-1-1788883823023.png?imageView2/1/w/788/h/444/|imageMogr2/strip/interlace/1/quality/85"
+        },
+        {
+          "id": "4889650",
+          "author": "未尽研究",
+          "description": "本文来自微信公众号： 未尽研究 ，作者：未尽研究\n\n\n三季度已经进入尾声。中国日均Token调用数据又将迎来一次更新。\n\n\n今年，中国官方已经两次披露了全国日均token消耗，均为季末数据，6月底为500万亿token，相较去年年底增长了5倍，是去年同期的16倍。\n\n\n但这个数字，可能还没有反映中国AI需求最新一轮的变化。在7月至今，中国模型迎来了一段“好用”时刻；以GPT-6 Astra为代表的新一代模型，进一步证明了Computer Use在复杂任务完成上的价值，国内模型或快速跟进，开启一条新的token调用跃升的路径。它们究竟会把三季度的Token调用量推到哪里，可能是接下来最值得关注的数据。\n\n\n\n（来源：国家数据局等；“年初”“年末”等表述统一简化为Q1、Q4。WorkBuddy制图）\n\n\n但是，且慢，我们最好在该数据披露前，搞清楚以下几个问题，至少把它们先写在案头：\n\n\n\n当前的500万亿Token，到底统计了什么？\n\n\n\n中国的Token消耗真的超过美国了吗？\n\n\n\n如果超过了，为什么中国AI收入仍比美国低一个数量级？\n\n\n\n背后的国产算力，以及token出口\n\n\n\n统计口径\n\n\n粗略地看，Token的一生并不复杂。某地用户通过某款应用发起请求，应用调用某个模型，模型运行在某地的算力基础设施上，最终生成Token并返回结果。同一个请求，可能在不同环节留下不同的Token统计数字。\n\n\nToken正在成为AI经济学的新尺度，但我们还不会统计它\n\n\n2026/08/28完整阅读>\n\n\n2026年5月IDC发布的最新报告显示，2025年全年火山引擎以49.5%的Token份额，领跑中国大模型公有云市场，用的就是MaaS（模型即服务）厂商的口径，剔除了自有业务调用；而在今年的火山引擎FORCE大会上，火山引擎总裁谭待向媒体确认，豆包大模型日均token调用量，既包括内…",
+          "link": "https://www.huxiu.com/article/4889650.html?f=rss",
+          "publishedOn": "2026-09-08T16:11:20.000Z",
+          "wordCount": 765,
+          "title": "在三季度token数据公布前，搞懂这几个问题",
+          "imageUrl": "https://img.huxiucdn.com/ai/ai-general-cover/202609/09/34601-prod-nb2ep-general-1-1788883800375.png?imageView2/1/w/788/h/444/|imageMogr2/strip/interlace/1/quality/85"
+        },
+        {
+          "id": "4889649",
+          "author": "秦朔朋友圈",
+          "description": "本文来自微信公众号： 秦朔朋友圈 ，作者：锂铍硼\n\n\n中国经济不再只有“孔雀东南飞”。\n\n\n长久以来，大家都有一个思维惯性：孔雀东南飞。\n\n\n在宏大的中国经济版图中，这已经形成了一套固定的叙事模式：人口拼命奔赴东南沿海，南北经济失衡、东中西经济失衡，内陆的优势只有廉价劳动力、原材料，想要挣钱、挣大钱，很多人只能背井离乡，奔赴长三角、珠三角，甚至固化到上海、深圳、杭州、广州、厦门、宁波等极少数城市中。\n\n\n但是，这套固化的叙事模式太单薄，无法完整表述中国经济版图的多样性和纵深性。\n\n\n我从不否认，东南沿海依旧聚集高端产业链，持续吸纳外来人口，上海、深圳、杭州、广州等资源优势短时间内无法被撼动。但我十几年来跑过了国内大大小小数十个城市，更跑过不少中西部、北方城市，翻看近几年各地经济数据，再结合身边亲友的真实就业选择，我越来越确定，这套单一叙事早就跟不上当下中国经济的真实状况，更不适配未来均衡发展的良性循环。\n\n\n中国经济需要一群“以下克上”的鲶鱼群。\n\n\n宜宾动力电池工厂整夜灯火通明，哈密新能源装备整车源源不断外运，鄂尔多斯的零碳产业园落地，贵阳贵安的算力机房昼夜运转，格尔木锂资源产业链完整落地，郑州留住上百万中原劳动力，酒泉、金昌财政收入连年大幅攀升……\n\n\n一批过去被贴上“产业落后、人口外流”标签的城市，正在悄悄重构全国生产力布局。\n\n\n中国经济的“鲶鱼群”是？\n\n\n最浅显的变化，反映在全国GDP数据、财政收入上，沿海独大的时代已经过去了，区域增速结构性反转，增长格局从一极独大走向多极开花。\n\n\n单纯靠感官感受或许不够客观，摊开近十年各地GDP增速数据，就能直观看见全国经济增长版图的剧烈变化。过去沿海城市增速常年领跑全国，中西部、北方城市普遍增长乏力，如今增速榜单的排位已经彻底换了模样。\n\n\n北方城市里，唐山的变化给我留下很深印象。\n\n\n过去提起唐山，所有人的第一反应只有钢…",
+          "link": "https://www.huxiu.com/article/4889649.html?f=rss",
+          "publishedOn": "2026-09-08T16:10:31.000Z",
+          "wordCount": 808,
+          "title": "南北经济失衡的惯性，终于被打破了",
+          "imageUrl": "https://img.huxiucdn.com/ai/ai-general-cover/202609/09/34600-prod-db-general-1-1788883754923.png?imageView2/1/w/788/h/444/|imageMogr2/strip/interlace/1/quality/85"
+        },
+        {
+          "id": "4889648",
+          "author": "秦朔朋友圈",
+          "description": "本文来自微信公众号： 秦朔朋友圈 ，作者：毛大庆\n\n\n上个月，民政部公布了2026年二季度民政统计数据。数字看起来不算惊天动地，但如果把它和过去十几年的曲线放在一起看，就会发现，中国人的婚姻正在发生一件非常大的变化：\n\n\n2026年上半年，全国结婚登记327.5万对，离婚登记138.3万对。和2025年同期相比，结婚少了26.4万对，下降7.46%；离婚却增加了5.2万对，上升3.91%。\n\n\n简单计算一下，离婚登记对数相当于同期结婚登记对数的42.2%。当然，这个42.2%绝对不能理解成“每100对夫妻最后有42对会离婚”，因为它只是两个同期登记数据之间的比例，和婚姻最终离婚概率完全是两回事。但这个数字依然足够让人产生一种很直观的感觉：一边越来越少的人走进婚姻，一边越来越多的人选择离开婚姻。\n\n\n更值得注意的是，327.5万对是2014年以来的同期最低值。2014年上半年，全国还有694万对新人登记结婚，十多年过去，现在已经不到当年的一半。\n\n\n再往前看，2013年全国全年结婚登记达到1346.93万对，是这一轮婚姻登记数据的峰值；\n\n\n到了2025年，全年结婚登记虽然比2024年有所反弹，达到676.3万对，但依然比2013年的峰值低了将近一半。\n\n\n这不是简单地少了几个百分点，整个婚姻市场的规模，已经和十多年前处在完全不同的世界。\n\n\n年轻人开始为爱情算账\n\n\n年轻人开始集体不相信爱情了吗？如果问题只是爱情，事情反倒容易解决。给年轻人多放几首情歌，多拍几个偶像剧，多组织一些相亲大会，说不定就有用了。\n\n\n真正麻烦的是，年轻人越来越会算账了。过去的人结婚，很多时候不是因为把婚姻研究透了以后觉得“这是一项非常值得的长期投资”，因为不结婚的生活实在太困难。\n\n\n一个人做饭、洗衣服、修东西、生病没人照顾，到了年纪大了没有伴侣，没有家庭，生活中的很多困难没有地方分摊。两个人结婚…",
+          "link": "https://www.huxiu.com/article/4889648.html?f=rss",
+          "publishedOn": "2026-09-08T16:09:07.000Z",
+          "wordCount": 742,
+          "title": "结婚也开始“仅退款”了，还能怎么办？",
+          "imageUrl": "https://img.huxiucdn.com/ai/ai-general-cover/202609/09/34599-prod-db-general-1-1788883672737.png?imageView2/1/w/788/h/444/|imageMogr2/strip/interlace/1/quality/85"
+        },
         {
           "id": "4889553",
           "author": "骨朵网络影视",
@@ -5707,6 +5817,16 @@
       "siteUrl": "https://www.williamlong.info/",
       "articles": [
         {
+          "id": "https://www.williamlong.info/archives/7562.html",
+          "author": "williamlong.info@gmail.com (williamlong)",
+          "description": "如何替换WordPress这样的动态CMS网站，上文提到的VS Code + Front Matter CMS + Hugo + GitHub是一个免费方案，但对于普通用户来说，使用VS Code还是有一定难度，无法像WordPress那样全部在网站上操作，因此，这里介绍一个更为简单的和WordPress一样的可视化后台的博客方案：PagesCMS + Hugo + GitHub Pages。\n\r\n\r\n这套方案可以完美替代传统的WordPress系统，具有静态网站高速访问、全自动部署、可视化后台发文的三大特点，没有任何费用，个人用户可以长期零成本使用，个人博客、技术随笔、笔记站点完全够用。\n\r\n\r\n一、架构原理\n\r\n\r\n这套方案使用PagesCMS这个免费服务，技术人员可以搭好系统配置，做完初期的配置设置，之后，没有任何技术基础的客户可以使用Github账号登陆Pages‑CMS，然后通过网站的CMS界面发布和管理文章，保存提交之后，Github Actions自动部署发布，网站自动实时更新。\n\r\n\r\n二、搭建流程\n\r\n\r\n1、创建 GitHub 专属网站仓库\n\r\n\r\n登录 GitHub，新建仓库，仓库名为：你的用户名.github.io，选择 Public 公开仓库，初始化空白仓库。\n\r\n\r\n2、创建 Hugo 网站\n\r\n\r\n本地克隆仓库，新建并初始化一个Hugo站点，同步该仓库。\n\r\n\r\n3、配置 GitHub Actions \n\r\n\r\n访问GitHub仓库，在Settings-Pages-Deployment source 选项选择 GitHub Actions，选择浏览工作流模板，选用Hugo模板，点击 Configure，保存文件，工作流配置就写入仓库，自动部署正式生效。\n\r\n\r\n4、配置 PagesCMS 后台\n\r\n\r\n使用GitHub登陆PagesCMS网站，…",
+          "link": "https://www.williamlong.info/archives/7562.html",
+          "publishedOn": "2026-09-08T12:19:18.000Z",
+          "wordCount": null,
+          "title": "使用PagesCMS和GitHub打造免费CMS网站",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.williamlong.info/archives/7561.html",
           "author": "williamlong.info@gmail.com (williamlong)",
           "description": "以前搭建博客或CMS网站，绝大多数人都会选择WordPress、Typecho、Zblog等基于PHP+MySQL的动态CMS系统，这类传统程序虽然功能成熟、后台可视化易用，但对于个人博客场景来说，存在成本高、维护麻烦、性能差、不安全等一系列问题。\n\r\n\r\n这样的系统存在的问题是，需要服务器支持php、mysql数据库等服务，服务器成本较高，php程序漏洞多，很容易被挂马、被注入攻击，而且遇到大流量访问，服务器往往会遇到各种瓶颈，出现卡顿、报错等情况。\n\r\n\r\n因此，很多人尝试使用Hugo等静态网站系统来搭建博客或CMS网站，由于Hugo本身并没有markdown写作界面，因此需要使用第三方的CMS系统来实现写作和管理文章的功能。\n\r\n\r\n很多新手一般会选择用Obsidian来写markdown文章，把仓库建立在Hugo站点目录下，搭配各类发布插件推送到Github，但实际使用后就会发现，相关配置繁琐、坑点极多，各种BUG不断，调试排查全靠自己上网摸索。\n\r\n\r\n实际上，现在AI时代已经到来了，我们完全可以采用另外一个简单易用方案来实现免费CMS网站的功能，经过实测对比，VS Code + Front Matter CMS + Hugo + GitHub 是目前最适合新手、最稳定、零折腾的免费个人博客网站方案。\n\r\n\r\n一、工作原理\n\r\n\r\n整体逻辑并不复杂，在 VS Code 装好 Front Matter CMS 插件，利用插件自动处理文章头部配置，直接写 Markdown 内容；写完把代码提交推送到 GitHub 仓库；仓库收到更新后触发 GitHub Actions，云端自动调用 Hugo 编译生成静态网页；最后由 GitHub Pages 对外提供网站访问。\n\r\n\r\n简单说，我们只需要专注写内容，配置、编译、上线这些步骤都交给工具自动完成。\n\r\n\r\n二、前置环境准…",
@@ -5749,6 +5869,16 @@
       "feedUrl": "https://sspai.com/feed",
       "siteUrl": "https://sspai.com",
       "articles": [
+        {
+          "id": "https://sspai.com/prime/story/sidecar-optimizations",
+          "author": "Nnnobel",
+          "description": "相较于 Jobs 时代令人惊叹的「iPhone 时刻」，过去十五年的 Apple 或许少了一些足以重新定义一个品类的震撼——但围绕「体验」本身展开的技术革新却从未停止。查看全文\n本文为会员文章，出自《单篇文章》，订阅后可阅读全文。",
+          "link": "https://sspai.com/prime/story/sidecar-optimizations",
+          "publishedOn": "2026-09-08T10:14:30.000Z",
+          "wordCount": 742,
+          "title": "Apple「随航」的无感体验里，藏着多少流畅的秘密？",
+          "imageUrl": "https://rssfile.sspai.com/2026/08/10/8a0b9cdf3704f9f152e501d62e7b6109.png?imageMogr2/auto-orient/format/webp/ignore-error/1"
+        },
         {
           "id": "https://sspai.com/post/114327",
           "author": "Matrix机器人",
@@ -5957,6 +6087,46 @@
       "siteUrl": "https://www.leiphone.com",
       "articles": [
         {
+          "id": "https://www.leiphone.com/category/industrynews/tqVYWZS1cn9pc9eZ.html",
+          "author": null,
+          "description": "9月8日，A股影视概念再次走高，上海电影再度盘中涨停,万兴科技等大幅上涨。消息面上，近期由AI全程赋能制作的长剧、电影等纷纷走上大荧幕。一周之内，AI影视先后叩开卫视黄金档、全国院线、网络视听头部平台等主流渠道，标志着AIGC内容正式从短视频迈入大众内容主战场。\n具体来看，AI影视内容近期正在密集上线。9月6日，由上海电影旗下上影元联合出品的AI网络故事片《山竹刀》在腾讯视频首播，站内评分达到8.3分。8月31日《后西游记》在芒果TV上线、登陆湖南卫视黄金档，收视率断层第一。博纳影业相关负责人在近日表示，由公司出品制作的东方超写实灵智共创长篇电影《三星堆：未来往事》即将登陆全国院线，将是国内首部AI深度参与制作的院线超写实动画长片。\n剧集出圈带动资本市场持续活跃，来自AI影视产业的热度也持续传导至市场，折射出国内AI影视赛道的蓬勃生机。据数据宝数据，截至9月4日，今年以来共有近30只AI视频概念股获机构多次调研，23只获10家及以上机构调研。其中，AIGC软件A股上市公司万兴科技（300624.SZ）年内累计获68家机构调研，成为机构跟踪AI影视产业链中的重点对象。\n市场关注焦点正落在其以万兴剧厂为核心的全链路布局上。在对场景理解和流程嵌入要求较高的AI影视创作领域，万兴科技通过“布局上游大模型、打造创作工具、投资内容制作方”的组合拳，以AI驱动的一站式精品影视内容创作平台万兴剧厂为核心，构建起从智能剧本、角色资产、智能分镜到后期剪辑的全链路创作闭环，持续提升内容生产效率、一致性和交付质量。截至目前，万兴剧厂已累计支持剧集创作近万部，赋能多部播放量达亿级的爆款AI剧，在剧本成本大幅下降的同时，将AI影视内容推向了精品化时代。\n除万兴剧厂外，万兴科技在AI影视领域还构建了覆盖多场景的创意产品矩阵，包括面向TVC专业人群的画布工作台Filmora.TV、爆款AI视频带货工具Virbo AI，以及与万兴剧厂形成“AI生成+专业剪辑”闭环的万兴喵影，完整覆盖了从影视短剧创作到专业TVC制作、再到营销视频生产的全链路。\n值得注意的是，万兴科技正加速完善其AI影视产业生态布局。近日，万兴剧厂宣布正式上线“万剧出海创投计划”并开启项目征集，该计划由万兴科技投入价值亿级资源，联合IP、制作、发行、资本等生态伙伴，以“资金+算力”组合赋能，为优质AI影视项目提供从创意开发、内容制作、投资孵化到全球发行变现的全链路支持，计划孵化万部AI影视作品。其中，AI短剧单项目最高可获价值30万元支持，AI电影、网络故事片单项目最高可获价值150万元支持。目前已有多部海外爆款作品由万兴剧厂赋能制作。\n天眼查数据显示，截至2026年9月，我国经营范围含“人工智能、影视制作、数字内容创作”的存续企业已超18.6万家，近三年新增企业年均增速超25%，今年上半年新增超2.3万家，超千家企业新增“AIGC内容制作”经营范围，赛道涌入者众，创业布局热度持续攀升。\n市场扩容同样印证淘金热已至。DataEye数据显示，2026年1至5月国内AI漫剧市场规模已突破220亿元，全年有望冲击400亿元、同比增长138%，国内AI短剧用户规模上半年突破6亿；Research and Markets预测，2026年全球AI影视市场规模将达357.7亿美元，2030年有望增至877.4亿美元。\n对此，市场分析人士指出，AI影视的门槛已不只是“能不能把内容做出来\"”，而是能否把IP、产能、发行渠道和收益回收放在同一条链路上——当技术拉平制作门槛，谁能打通这条链路，谁才能握住AI重构影视产业的长期红利。雷峰网",
+          "link": "https://www.leiphone.com/category/industrynews/tqVYWZS1cn9pc9eZ.html",
+          "publishedOn": "2026-09-08T14:00:00.000Z",
+          "wordCount": 602,
+          "title": "AI电影即将首次登陆全国院线 万兴科技AI影视全链路闭环生态引关注",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.leiphone.com/category/industrynews/Sx5FX3SdH4cZd0nk.html",
+          "author": null,
+          "description": "9月7日，HarmonyOS 7 | HUAWEI Mate XT 2 及全场景新品发布会举行，华为Mate XT 2 非凡大师正式亮相。在发布会上，除了产品的展示，华为Mate XT 2 非凡大师品牌大使刘德华登台分享了一段关于选择的感悟，并和华为常务董事、产品投资评审委员会主任、终端BG董事长余承东互动。让这场发布有了些不一样的温度。\n\n刘德华说，人生不是非左即右的单选题，左边有左边的风景，右边有右边的故事，用自己的腿，丈量自己的路。这句话之所以引发不少讨论，是因为它说中了很多人正在经历的状态。我们每天都被各种选择推着走，工作还是生活、稳定还是冒险、坚持还是换条路，常常被困在非此即彼的拉扯里。刘德华没有给出标准答案，而是肯定每条路都有它的价值，关键是选了之后认真走下去。\n\n这句话和华为Mate XT 2 非凡大师的展翼三折叠形态是能对应上的。华为Mate XT 2 非凡大师可以合拢，也可以向一左一右展开，用哪种状态完全看当下在做什么——通勤路上合着方便携带，看文件、处理工作时展开更舒服，需要和别人分享屏幕时又可以换一种姿态。它不要求你固定在某个状态，而是把选择权交到你手里。\n\n其实，刘德华和非凡大师的合作已经走了三年。2024年首款华为Mate XT 非凡大师发布时，那支“从容有度，非凡如一”的视频，让很多人记住了“非凡大师”；2025年华为Mate XTs 非凡大师发布，他又做了“人生的开与合”演讲，开始把“开合”这个动作和人的节奏联系起来；后来还合作了主题曲《非凡》，用音乐的方式再次诠释非凡精神。\n\n值得注意的是，这次华为Mate XT 2 非凡大师在机身腰线位置首次加上了ULTIMATE DESIGN非凡大师徽标。位置选得比较克制，这种处理方式和品牌一直以来的调性是一致的——不靠喧哗吸引注意，而是靠细节来传递态度。\n\n从市场表现来看，华为三折叠产品累计发货量已经突破一百万台。对于一个三年前才从零开始的品类来说，一百万说明它已经走出了“少数人尝鲜”的阶段，有越来越多的人愿意把它当作日常设备来用。\n\n回过头来看非凡大师这几年走过的路：2023年诞生，先确立了要走的方向；2024年第一款三折叠出来，正式打开了这条赛道；2025年华为Mate XTs 非凡大师迭代，体验上做了不少优化；到今年的华为Mate XT 2 非凡大师，在设计、技术、体验上都更成熟了。华为用一代一代把产品往前推，并合作品牌大使一步步夯实非凡精神内核，让“非凡”这两个字有了真实的支撑。",
+          "link": "https://www.leiphone.com/category/industrynews/Sx5FX3SdH4cZd0nk.html",
+          "publishedOn": "2026-09-08T10:22:00.000Z",
+          "wordCount": 649,
+          "title": "华为Mate XT 2 非凡大师发布：刘德华现身发布会再叙非凡精神",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.leiphone.com/category/weiwu/n2l3zx3Xv4mZK2Cr.html",
+          "author": null,
+          "description": "2026年9月4日，柏林，IFA展馆。\n9号馆里，一池碧水被搬进展厅。池子里游动的不是鱼，是一台正在自主巡航的泳池清洁机器人——这是石头科技全球首发的RockAqua P1。正对着泳池的，是新一代智能割草机器人RockNeo Q2 LiDAR，正在演示如何让草坪修剪像扫地一样轻盈。\n\n一台潜入水底，一台来到户外。这家公司又一次在全球舞台展示了自身不断扩大的全场景产品版图。\n这届展会上和石头科技同样吸睛的，还有它的竞争对手科沃斯和追觅。展台前参观的人，围了一圈又一圈。\n这一幕放在十年前简直不可想象。彼时，这个展馆还是iRobot、戴森、飞利浦们的天下，中国公司只能以代工厂的身份，在供应链的角落里沉默地拧螺丝。\n直到2025年，全球家用清洁机器人出货前五名全部来自中国，合计拿下超过54%的全球份额，行业格局已然改写，中国企业主导着全球智能清洁电器的发展走向。而曾经的全球霸主iRobot，在2025年12月申请破产保护，接盘它的正是自家的中国代工厂深圳杉川。\n这个品类走过的路，几乎是中国制造出海数十年的浓缩版。\n01\n出海时代：从“世界工厂”到“全球品牌”\n\n中国企业的全球化，大体经历过三次跃迁。\n第一次，代工时代。 1990年代到2000年代，中国以“世界工厂”的身份嵌入全球产业链。产业集群发挥劳动力成本优势，为国际品牌贴牌代工——义乌的小商品、东莞的电子产品，本质上都是“别人的牌子，我们的手”。\n第二次，铺货时代。 2013年前后，跨境电商兴起，出海从B2B转向B2C。帕拓逊、傲基、泽宝、有棵树、通拓等跨境大卖，以数据驱动的选品和极致的供应链响应速度快速起量。这一波，中国公司第一次直接触达了海外消费者。\n但铺货时代的底色，是流量寄生，而非品牌积累。消费者记住的是“那个便宜的”，至于牌子叫什么，没人关心。\n2021年的亚马逊封号潮，让这条路的脆弱性暴露无遗。平台规则一变，所谓“…",
+          "link": "https://www.leiphone.com/category/weiwu/n2l3zx3Xv4mZK2Cr.html",
+          "publishedOn": "2026-09-08T10:10:00.000Z",
+          "wordCount": 614,
+          "title": "中国品牌出海的「清洁机器人答案」",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.leiphone.com/category/chipdesign/E3ZbypZiS817Q2G8.html",
+          "author": null,
+          "description": "个人AI的实现，到底需要一套怎样的计算底座？当手机开始理解用户意图、调用工具并连续完成任务，计算平台要支撑的已不只是一次模型推理，而是完整的个人AI体验。\n\n在今天的Arm Everywhere China 2026大会上，Arm发布了最新的CSS for Mobile 2。可以观察到，AI在全新的手机计算子系统中扮演了两个不同角色，CPU通过增强AI计算能力，帮助更多应用用上AI；Mali GPU首次原生集成神经网络加速器，用AI推动游戏性能和体验跨越式提升。\nArm的CPU正在推动端侧AI进一步普及。“目前几乎所有旗舰智能手机，无论是安卓还是iOS手机，均已采用SME2技术。”Arm边缘AI智能终端计算副总裁James McNiven表示。SME2是Arm给CPU增加的一套AI矩阵运算加速能力。\n新一代Arm C2 Ultra带来15%的单线程性能提升，增强SME2支持的C2 CPU集群，在特定AI模型上的执行性能可达到上一代的1.7倍。\n全新的Arm Mali GPU让人眼前一亮。在《光影新生》演示中给出的数据显示，Mali G2-Ultra NX借助神经图形技术，相比没有AI辅助渲染的上一代Mali G1-Ultra，帧率与能效最高达到4倍。AI开始参与画面重建，让手机能够以不同于传统渲染的方式获得更高的游戏性能。\nCPU加速AI普及，AI加速GPU进化。但在这套面向个人AI的平台中，Arm为什么没有同时纳入自家的NPU？James McNiven解释：“在移动设备领域，Arm一贯的思路是将NPU层面的技术创新更多交由合作伙伴主导。”\n把NPU的差异化创新留给伙伴后，Arm将重点放在CPU、GPU以及支撑硬件能力的软件生态上。从KleidiAI到神经图形模型、SDK和游戏引擎合作，Arm正在缩短处理器能力与开发者应用之间的距离。软硬件一体的系统和生态正是Arm在AI…",
+          "link": "https://www.leiphone.com/category/chipdesign/E3ZbypZiS817Q2G8.html",
+          "publishedOn": "2026-09-08T10:04:00.000Z",
+          "wordCount": 661,
+          "title": "CPU加速AI普及，GPU首次加AI，Arm为何把NPU留给伙伴？",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.leiphone.com/category/industrynews/pCuoyLeIaqbo1J0L.html",
           "author": null,
           "description": "9月8日，在北京举行的百度AI Day小度新品发布会上，小度宣布超能小度完成智能体化升级，并发布多款全新的家庭场景智能体应用。百度搭子作为小度智能体能力的底座，全面落地小度智能屏、闺蜜机、智能摄像机、智能音箱等硬件新品，推动智能体进驻家庭空间。\n此次升级后，超能小度不再止于接收和响应指令，而是能够自主拆解目标、统筹调度工具、闭环交付任务。面向家庭日程管理场景，家长通过微信一句话即可创建家庭日程与孩子作业，任务自动同步至智能屏并通知家庭成员；儿童陪学成长场景，则支持孩子在小度设备上完成音视频作业打卡提交、电子宠物互动、一句话生成应用等。智能体看护2.0同步升级，用户可直接说出看护需求，超能小度自动拆解为多维度看护任务，并匹配分级提醒机制，同时基于长周期数据生成习惯成长报告。\n此外，家庭智能体服务已覆盖儿童成长陪伴、家庭健康管理、生活服务等更多家庭场景。搭载智能体能力的超能小度同步落地小度添添闺蜜机Ultra、小度智能屏X9 Ultra、小度智能摄像机C1500及小度智能音箱Pro Max（9月28日上市）四款硬件新品。\n此次百度搭子全面接入小度硬件，是百度于9月1日完成双重主要上市、9月7日纳入港股通后，在业务端落地的又一最新动作。作为港股主要上市科技企业中唯一具备全栈AI能力的公司，百度已形成“芯—云—模—体”的完整AI布局，覆盖从昆仑芯片、智能云、文心大模型，到百度搭子等通用智能体和萝卜快跑等物理AI应用。百度旗下的家庭原生AI品牌小度已进入全国超5500万家庭，为百度智能体进入真实生活提供了广泛的用户和设备基础。此次百度搭子与小度的协同，正是百度全栈AI能力走向物理世界的最新落地。（雷峰网雷峰网雷峰网）",
@@ -6014,6 +6184,16 @@
           "publishedOn": "2026-09-08T01:47:00.000Z",
           "wordCount": 641,
           "title": "在IFA重新认识安克：从技术底座到场景贯通",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.leiphone.com/category/zaobao/e43ASUgZh0Gr71YK.html",
+          "author": null,
+          "description": "要闻提示\n\n\n\n\n\n\n1.星宇股份：总经理周晓萍扣薪1年，人力资源总监免职\n\n2.屋漏偏逢连夜雨？曝闻泰科技创始人张学政跑路海外，公司：系不实消息\n\n3.华为时隔六年再发布高性能芯片！全新三折叠起售价19999元\n\n4.像华为一样技术握在自己手里！理想汽车：自研电池将搭载到所有车型\n\n5.10999元起！小米18 Fold中折叠手机发布：首发玄戒O3自研芯+长鑫LPDDR6\n\n6.宇树突破技术瓶颈，首次实现人形机器人全自主格斗实时驱动\n\n7.曝高德将推出「扫雷榜」！\n\n8.AI大佬童欣离职Anuttacon，加盟百亿大模型公司\n今日头条\n\n\n\n\n\n\n\n星宇股份：总经理周晓萍扣薪1年，人力资源总监免职\n\n\n\n\n\n9月7日消息，据媒体获悉，9月6日，常州星宇车灯股份有限公司发布内部通报，就此前部分新入职大学生相关事项处理不当，对公司多名管理人员作出处罚。\n通报称，“鉴于8月初对部分新入职大学生事项处理不当造成的重大影响，经公司经理办公会决议，决定对负有管理责任的公司总经理周晓萍给予扣薪12个月的处理；对负有直接领导责任的副总经理李树军调整其分工，不再分管人力资源，并给予扣薪6个月的处理；对人力资源总监俞志明给予免职处理；对人力资源部部长李梅给予降职调岗处理。”\n据悉，目前已有多位星宇内部人士确认收到上述内部通报。文件显示，该决定自发布之日起生效。此次处罚与此前引发广泛关注的星宇股份应届毕业生解约事件有关。今年8月，星宇股份因批量解约107名应届大学毕业生，引发社会广泛关注。（凤凰网科技）\n\n\n\n\n\n\n\n\n国内资讯\n\n\n\n\n\n\n\n\n屋漏偏逢连夜雨？曝闻泰科技创始人张学政跑路海外，公司：系不实消息\n\n\n\n\n\n9月7日上午消息，近日，有市场消息称，闻泰科技创始人、实际控制人张学政在套现百亿后，获得加拿大永久居留权，已长期滞留瑞士。\n对于该情况，闻泰科技向媒体表示：“我们注意到，市场上…",
+          "link": "https://www.leiphone.com/category/zaobao/e43ASUgZh0Gr71YK.html",
+          "publishedOn": "2026-09-08T00:43:00.000Z",
+          "wordCount": 685,
+          "title": "套现百亿？曝闻泰科技创始人张学政跑路海外，公司回应；星宇股份：总经理周晓萍扣薪1年，人力资源总监免职；华为时隔六年再发高性能芯片",
           "imageUrl": null
         },
         {
@@ -7023,6 +7203,196 @@
       "feedUrl": "https://www.ptt.cc/atom/Gossiping.xml",
       "siteUrl": "https://www.ptt.cc/atom/Gossiping.xml",
       "articles": [
+        {
+          "id": "https://www.ptt.cc/bbs/Gossiping/M.1788884808.A.DC7.html",
+          "author": null,
+          "description": "1.媒體來源:NOWnews今日新聞\n2.記者署名:沈泳吟\n3.完整新聞標題:影／富到沒朋友！杜拜酋長千萬買白隼寵愛女　刷新拍賣天價紀錄\n4.完整新聞內文:\n記者沈泳吟/綜合報導",
+          "link": "https://www.ptt.cc/bbs/Gossiping/M.1788884808.A.DC7.html",
+          "publishedOn": "2026-09-08T16:26:48.000Z",
+          "wordCount": 127,
+          "title": "[新聞] 富到沒朋友！杜拜酋長千萬買白隼寵愛女　刷新拍賣天價紀錄",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.ptt.cc/bbs/Gossiping/M.1788884775.A.DE6.html",
+          "author": null,
+          "description": "如題\n賓士男由於害怕無法負擔傷者後續天價的賠償，乾脆一不做二不休直接送護理師轉生，反正\n在台灣故意致死不會判死，一條人命多少錢都有公定價\n如果這個案件發生在對岸中國，法院會怎麼判？兇手會不會在下狠手前多想一秒鐘？\n--",
+          "link": "https://www.ptt.cc/bbs/Gossiping/M.1788884775.A.DE6.html",
+          "publishedOn": "2026-09-08T16:26:15.000Z",
+          "wordCount": 80,
+          "title": "[問卦] 輾死護理師的賓士男發生在中國會怎麼判",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.ptt.cc/bbs/Gossiping/M.1788884749.A.511.html",
+          "author": null,
+          "description": "蕭伊\nwiki\n蕭伊（本名或社群別名常稱蕭11）是一位經營自媒體超過10年的台灣美妝、穿搭與生活網紅\n，Instagram擁有超過25萬名粉絲。\n根本沒wiki",
+          "link": "https://www.ptt.cc/bbs/Gossiping/M.1788884749.A.511.html",
+          "publishedOn": "2026-09-08T16:25:49.000Z",
+          "wordCount": 92,
+          "title": "[問卦] 蕭伊 去幼幼台是什麼姐姐？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.ptt.cc/bbs/Gossiping/M.1788884708.A.0F8.html",
+          "author": null,
+          "description": "如題\n在新北鶯歌的台北大學是文組老三\n但是名氣明顯輸台政\n法律系分期都快比東吳低了\n綜合型也輸輔大 輔大還有醫學院",
+          "link": "https://www.ptt.cc/bbs/Gossiping/M.1788884708.A.0F8.html",
+          "publishedOn": "2026-09-08T16:25:08.000Z",
+          "wordCount": 91,
+          "title": "[問卦] 為啥台北大學文組老三卻沒啥名氣",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.ptt.cc/bbs/Gossiping/M.1788884567.A.4A3.html",
+          "author": null,
+          "description": "肇事駕駛太奇怪了吧\n一般不都肇逃 他還迴轉撞第二次？\n看到撞人一般就逃走了\n怎麼還會迴轉撞第二次\n肇事駕駛為什麼要迴轉撞第二次護士？",
+          "link": "https://www.ptt.cc/bbs/Gossiping/M.1788884567.A.4A3.html",
+          "publishedOn": "2026-09-08T16:22:47.000Z",
+          "wordCount": 82,
+          "title": "[問卦] 肇事駕駛為什麼要迴轉撞第二次護士？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.ptt.cc/bbs/Gossiping/M.1788884375.A.480.html",
+          "author": null,
+          "description": "最近台灣外食一直漲價\n附近的便當店今年漲了兩次\n牛肉麵店也是\n現在牛肉麵一碗要200了\n我就問不會太扯嗎？",
+          "link": "https://www.ptt.cc/bbs/Gossiping/M.1788884375.A.480.html",
+          "publishedOn": "2026-09-08T16:19:35.000Z",
+          "wordCount": 81,
+          "title": "[問卦] 現在牛肉麵一碗要200了不會太扯嗎？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.ptt.cc/bbs/Gossiping/M.1788884342.A.DB8.html",
+          "author": null,
+          "description": "對！\n今年如果交到女友\n假設30歲\n一定要買保險套！\n像是岡本",
+          "link": "https://www.ptt.cc/bbs/Gossiping/M.1788884342.A.DB8.html",
+          "publishedOn": "2026-09-08T16:19:02.000Z",
+          "wordCount": 89,
+          "title": "[問卦] 我要買套子保護女友！",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.ptt.cc/bbs/Gossiping/M.1788884261.A.C14.html",
+          "author": null,
+          "description": "9面的雞雞\n沒有毒沒有菌\n那一定香香的\n有淡淡的柚子香氣\n那蕭1自爆",
+          "link": "https://www.ptt.cc/bbs/Gossiping/M.1788884261.A.C14.html",
+          "publishedOn": "2026-09-08T16:17:41.000Z",
+          "wordCount": 93,
+          "title": "[問卦] 9面沒毒沒菌，蕭1有毒有菌 表示？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.ptt.cc/bbs/Gossiping/M.1788884258.A.C62.html",
+          "author": null,
+          "description": "今天發生開車二度蓄意撞死人的事情，\n結果每次這種惡性重大事件，過了風頭後，\n就輕輕放下。\n台灣從一二十年前說要推司法改革，\n而且這些團體都很激進，",
+          "link": "https://www.ptt.cc/bbs/Gossiping/M.1788884258.A.C62.html",
+          "publishedOn": "2026-09-08T16:17:38.000Z",
+          "wordCount": 85,
+          "title": "[問卦] 台灣推了多年司法改革 有更法治嗎",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.ptt.cc/bbs/Gossiping/M.1788884258.A.CE2.html",
+          "author": null,
+          "description": "聽說是印度有名的小吃，價格約150盧比，想吃的話，要先搭寶寶巴士，然後到達目的地\n製作時，會淋上尊貴的阿穆爾奶醬，然後配上特製的秘醬，最後澆置恆河水，以及鄂爾馬\n雞肉，保證讓兄弟你撐爆鱗片\n有沒有成吉思雞的八卦呢？\n--",
+          "link": "https://www.ptt.cc/bbs/Gossiping/M.1788884258.A.CE2.html",
+          "publishedOn": "2026-09-08T16:17:38.000Z",
+          "wordCount": 80,
+          "title": "[問卦] 有沒有成吉思雞的八卦？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.ptt.cc/bbs/Gossiping/M.1788884185.A.2C2.html",
+          "author": null,
+          "description": "淘寶配蔡司新清銳max 1.6 曜金膜 煥視X\n加鈦框\n大概就6000左右那邊\n這還算貴了\n用閒魚的話不用5000都能出來",
+          "link": "https://www.ptt.cc/bbs/Gossiping/M.1788884185.A.2C2.html",
+          "publishedOn": "2026-09-08T16:16:25.000Z",
+          "wordCount": 100,
+          "title": "Re: [問卦] 配眼鏡都花多少啊",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.ptt.cc/bbs/Gossiping/M.1788884153.A.8B5.html",
+          "author": null,
+          "description": "有一說一 賓士男判死的機率高嗎?\n看了脆上的影片\n一開始以為是像砂石車or上回公車的那種 撞到後再倒退 or 再次前進的二次輾壓\n這種的還可以拗說是沒感覺or緊張判斷錯誤\nbut",
+          "link": "https://www.ptt.cc/bbs/Gossiping/M.1788884153.A.8B5.html",
+          "publishedOn": "2026-09-08T16:15:53.000Z",
+          "wordCount": 255,
+          "title": "[問卦] 有一說一 賓士男判死的機率高嗎?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.ptt.cc/bbs/Gossiping/M.1788884093.A.707.html",
+          "author": null,
+          "description": "小日本當初侵略我們時，他的量體是我們的十倍大\n如今我們量體已經是小日本的五倍大\n10:1  ->  1:5\n等於現在開打的話，相較於二戰時，咱中國的國力是當初的相對50倍\n言下之意就是，就算讓你小日本解封印，火力全開，基本上小日本大概只能跟中國的",
+          "link": "https://www.ptt.cc/bbs/Gossiping/M.1788884093.A.707.html",
+          "publishedOn": "2026-09-08T16:14:53.000Z",
+          "wordCount": 106,
+          "title": "Re: [問卦] 其實根本不用怕日本軍事化吧",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.ptt.cc/bbs/Gossiping/M.1788883995.A.3E3.html",
+          "author": null,
+          "description": "通常只有自己家裡煮牛肉(泡)麵的時候\n沒高麗菜的話,改成空心菜下下\n窩是知道外頭有牛肉麵,蔬菜是放空心菜的啦 就不多\n牛肉麵的仕上ge放空心菜,到底是哪葛流派的?  什麼時候開始的?\n--",
+          "link": "https://www.ptt.cc/bbs/Gossiping/M.1788883995.A.3E3.html",
+          "publishedOn": "2026-09-08T16:13:15.000Z",
+          "wordCount": 83,
+          "title": "[問卦] 牛肉麵的仕上ge放空心菜,到底是哪葛流派?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.ptt.cc/bbs/Gossiping/M.1788883968.A.4B0.html",
+          "author": null,
+          "description": "剛散步回來\n經過一個堆滿雜物的騎樓\n聽到一個人在交談講話\n在深夜裡還滿大聲\n從旁邊走過去",
+          "link": "https://www.ptt.cc/bbs/Gossiping/M.1788883968.A.4B0.html",
+          "publishedOn": "2026-09-08T16:12:48.000Z",
+          "wordCount": 92,
+          "title": "[問卦] 看到一個獨居老人在跟空氣說話",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.ptt.cc/bbs/Gossiping/M.1788883900.A.85F.html",
+          "author": null,
+          "description": "因為他們不了解我們中國歷史\n我們都是被侵略，然後融合對方的，五胡亂華\n蒙古人、滿州人 最後都融入我們大中華民族\n準葛爾也是入侵我們才被我們滅掉了\n都是被動融合慢慢把領土擴張到這麼大的地步，是文化式的被動融合，不是主動侵略的",
+          "link": "https://www.ptt.cc/bbs/Gossiping/M.1788883900.A.85F.html",
+          "publishedOn": "2026-09-08T16:11:40.000Z",
+          "wordCount": 135,
+          "title": "Re: [問卦] 中國強大就會到處侵略的發想來源是？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.ptt.cc/bbs/Gossiping/M.1788883659.A.BF1.html",
+          "author": null,
+          "description": "西方每次造謠中國會幹啥，其實講的是西\n方自己想做或已經做過的事\n近代的西方霸權就是強大了就擴張掠奪殖\n民，所以他們以為唯一的一套法則就是他\n們西方殖民主義的剝削套路",
+          "link": "https://www.ptt.cc/bbs/Gossiping/M.1788883659.A.BF1.html",
+          "publishedOn": "2026-09-08T16:07:39.000Z",
+          "wordCount": 126,
+          "title": "Re: [問卦] 中國強大就會到處侵略的發想來源是？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.ptt.cc/bbs/Gossiping/M.1788883582.A.83E.html",
+          "author": null,
+          "description": "如題\n假如一個女生說她被前任長期內射\n後來得過性病\n長期吃避孕藥但還是懷過\n因此墮過胎",
+          "link": "https://www.ptt.cc/bbs/Gossiping/M.1788883582.A.83E.html",
+          "publishedOn": "2026-09-08T16:06:22.000Z",
+          "wordCount": 120,
+          "title": "[問卦] 正妹被長期內射,得性病,墮胎 PR多少",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.ptt.cc/bbs/Gossiping/M.1788883226.A.0F9.html",
+          "author": null,
+          "description": "我看到網路上的新聞說\n用太多的人 叫做網路恐龍\n不辦固網 很沒水準\n那有沒有公道值\n用200-300G會太過分嗎",
+          "link": "https://www.ptt.cc/bbs/Gossiping/M.1788883226.A.0F9.html",
+          "publishedOn": "2026-09-08T16:00:26.000Z",
+          "wordCount": 139,
+          "title": "[問卦] 4G網路吃到飽 要用多少才不會太過分",
+          "imageUrl": null
+        },
         {
           "id": "https://www.ptt.cc/bbs/Gossiping/M.1788865141.A.9BC.html",
           "author": null,
@@ -10006,6 +10376,486 @@
       "feedUrl": "https://rss.aishort.top/?type=baidu",
       "siteUrl": "https://top.baidu.com/board?tab=realtime",
       "articles": [
+        {
+          "id": "2160874",
+          "author": null,
+          "description": "近日，广东推出首个词元经济专项金融产品“Token贷”，多地银行同步落地算力贷、模型贷等创新信贷服务，将词元消耗、算力合约、数字经营数据纳入授信评估...",
+          "link": "https://www.baidu.com/s?wd=%E2%80%9CToken%E8%B4%B7%E2%80%9D%E6%9D%A5%E4%BA%86&sa=fyb_news&rsv_dl=fyb_news",
+          "publishedOn": "2026-09-08T12:01:42.000Z",
+          "wordCount": 6,
+          "title": "“Token贷”来了 热度：3138593",
+          "imageUrl": null
+        },
+        {
+          "id": "2160873",
+          "author": null,
+          "description": "",
+          "link": "https://www.baidu.com/s?wd=%E5%AD%A9%E5%AD%90%E6%82%A3%E6%81%B6%E6%80%A7%E8%82%BF%E7%98%A4%E4%BF%9D%E9%99%A9%E6%8B%92%E8%B5%94%E6%B3%95%E9%99%A2%E5%88%A4%E8%B5%94&sa=fyb_news&rsv_dl=fyb_news",
+          "publishedOn": "2026-09-08T12:01:41.000Z",
+          "wordCount": 6,
+          "title": "孩子患恶性肿瘤保险拒赔法院判赔 热度：3239878",
+          "imageUrl": null
+        },
+        {
+          "id": "2160871",
+          "author": null,
+          "description": "9月8日，美网女单第四轮，郑钦文在首盘0‑5落后的情况下连拿7局，逆转斯瓦泰克晋级八强，即时排名升至第52位。此前她因伤病排名跌出前100位，不得不...",
+          "link": "https://www.baidu.com/s?wd=%E9%83%91%E9%92%A6%E6%96%87%E7%BE%8E%E7%BD%91%E2%80%9C%E9%87%8D%E7%94%9F%E2%80%9D&sa=fyb_news&rsv_dl=fyb_news",
+          "publishedOn": "2026-09-08T12:01:41.000Z",
+          "wordCount": 6,
+          "title": "郑钦文美网“重生” 热度：3318480",
+          "imageUrl": null
+        },
+        {
+          "id": "2160868",
+          "author": null,
+          "description": "9月8日凌晨，俄军使用陆基、空基、海基高精度武器和无人机对乌克兰发动大规模打击，目标包括基辅市和基辅州内的军用物资物流中心及敖德萨州相关设施。此前，...",
+          "link": "https://www.baidu.com/s?wd=3%E5%A4%A9%E5%81%9C%E7%81%AB%E5%88%B0%E6%9C%9F+%E4%BF%84%E5%86%9B%E5%A4%A7%E8%A7%84%E6%A8%A1%E6%89%93%E5%87%BB%E4%B9%8C%E5%85%8B%E5%85%B0&sa=fyb_news&rsv_dl=fyb_news",
+          "publishedOn": "2026-09-08T12:01:41.000Z",
+          "wordCount": 6,
+          "title": "3天停火到期俄军大规模打击乌克兰 热度：3407829",
+          "imageUrl": null
+        },
+        {
+          "id": "2160862",
+          "author": null,
+          "description": "近日，因“4月4日出生、高考444分被殡葬专业录取”引发热议的18岁少年魏斌杰现已入学。多位00后殡葬从业者道出行业真实情况：网传高薪并不属实，多数...",
+          "link": "https://www.baidu.com/s?wd=00%E5%90%8E%E6%AE%A1%E8%91%AC%E4%BA%BA%EF%BC%9A24%E5%B0%8F%E6%97%B6%E5%BE%85%E5%91%BD%E6%9C%88%E8%96%AA%E6%B2%A1%E9%82%A3%E4%B9%88%E9%AB%98&sa=fyb_news&rsv_dl=fyb_news",
+          "publishedOn": "2026-09-08T12:01:40.000Z",
+          "wordCount": 6,
+          "title": "00后殡葬人：24小时待命月薪没那么高 热度：3520457",
+          "imageUrl": null
+        },
+        {
+          "id": "2160854",
+          "author": null,
+          "description": "国家医保局、财政部、交通运输部等6部门近日联合印发通知，启动灵活就业人员、农民工、新就业形态人员参加基本医疗保险提质专项行动。计划用3年左右时间，持...",
+          "link": "https://www.baidu.com/s?wd=%E7%81%B5%E6%B4%BB%E5%B0%B1%E4%B8%9A%E4%BA%BA%E5%91%98%E5%9F%BA%E6%9C%AC%E5%8C%BB%E4%BF%9D%E5%8F%82%E4%BF%9D%E8%A7%84%E6%A8%A1%E6%89%A9%E5%A4%A7&sa=fyb_news&rsv_dl=fyb_news",
+          "publishedOn": "2026-09-08T12:01:40.000Z",
+          "wordCount": 6,
+          "title": "灵活就业人员基本医保参保规模扩大 热度：3622634",
+          "imageUrl": null
+        },
+        {
+          "id": "2160853",
+          "author": null,
+          "description": "《福布斯》近日公布2026年世界网坛收入榜，郑钦文以2260万美元（约人民币1.5亿元）位列第七，成为唯一跻身前十的中国选手，场外赞助收入达2200...",
+          "link": "https://www.baidu.com/s?wd=%E9%83%91%E9%92%A6%E6%96%87%E8%BF%87%E5%8E%BB%E4%B8%80%E5%B9%B4%E8%B5%9A%E4%BA%861.5%E4%B8%AA%E4%BA%BF&sa=fyb_news&rsv_dl=fyb_news",
+          "publishedOn": "2026-09-08T12:01:39.000Z",
+          "wordCount": 6,
+          "title": "郑钦文过去一年赚了1.5个亿 热度：3714432",
+          "imageUrl": null
+        },
+        {
+          "id": "2160852",
+          "author": null,
+          "description": "近日，演员陈赫在直播中自曝确诊严重腰椎滑脱，伤势由十多年前录制《奔跑吧兄弟》《五哈》等高强度综艺留下的旧伤长期累积导致，严重时腰部疼痛难忍、无法直身...",
+          "link": "https://www.baidu.com/s?wd=%E9%99%88%E8%B5%AB%E8%87%AA%E6%9B%9D%E7%A1%AE%E8%AF%8A%E4%B8%A5%E9%87%8D%E8%85%B0%E6%A4%8E%E6%BB%91%E8%84%B1&sa=fyb_news&rsv_dl=fyb_news",
+          "publishedOn": "2026-09-08T12:01:39.000Z",
+          "wordCount": 6,
+          "title": "陈赫自曝确诊严重腰椎滑脱 热度：3802745",
+          "imageUrl": null
+        },
+        {
+          "id": "2160851",
+          "author": null,
+          "description": "近日，奢侈品牌古驰完成新一轮调价，此次为降价，涵盖包袋与成衣。中国市场售价降幅普遍在30%上下，部分包袋如Ophidia系列迷你水桶包降幅超40%，...",
+          "link": "https://www.baidu.com/s?wd=%E5%A5%A2%E4%BE%88%E5%93%81%E7%89%8CGucci%E6%82%84%E6%82%84%E9%99%8D%E4%BB%B7&sa=fyb_news&rsv_dl=fyb_news",
+          "publishedOn": "2026-09-08T12:01:39.000Z",
+          "wordCount": 6,
+          "title": "奢侈品牌Gucci悄悄降价 热度：3871839",
+          "imageUrl": null
+        },
+        {
+          "id": "2160850",
+          "author": null,
+          "description": "9月8日下午，随着“梅姨案”的不断推进，该案被拐儿童申聪父亲申军良与代理律师姚克枫、同案受害者杨家鑫的代理律师张树建在济南向媒体介绍了“梅姨案”的相...",
+          "link": "https://www.baidu.com/s?wd=%E2%80%9C%E6%A2%85%E5%A7%A8%E2%80%9D%E6%9B%BE%E5%9B%A0%E5%A9%9A%E5%A7%BB%E9%97%AE%E9%A2%98%E5%9D%90%E8%BF%87%E7%89%A2&sa=fyb_news&rsv_dl=fyb_news",
+          "publishedOn": "2026-09-08T12:01:38.000Z",
+          "wordCount": 6,
+          "title": "“梅姨”曾因婚姻问题坐过牢 热度：3974483",
+          "imageUrl": null
+        },
+        {
+          "id": "2160849",
+          "author": null,
+          "description": "9月8日，新疆小伙拉姆在大学最后一学年开学时，将家人耗时3天、花费4000多元原材料制作的100斤切糕，自新疆运至重庆校园分给师生，总运费1250元...",
+          "link": "https://www.baidu.com/s?wd=%E6%96%B0%E7%96%86%E5%B0%8F%E4%BC%99%E5%B8%A6100%E6%96%A4%E5%88%87%E7%B3%95%E5%88%B0%E9%87%8D%E5%BA%86%E5%AD%A6%E6%A0%A1%E5%88%86%E4%BA%AB&sa=fyb_news&rsv_dl=fyb_news",
+          "publishedOn": "2026-09-08T12:01:38.000Z",
+          "wordCount": 6,
+          "title": "新疆小伙带100斤切糕到重庆学校分享 热度：4076683",
+          "imageUrl": null
+        },
+        {
+          "id": "2160848",
+          "author": null,
+          "description": "9月8日，外交部发言人毛宁回应日方近期表态。此前，日本要求俄罗斯拆除战胜日本军国主义纪念碑，并称《联合国宪章》中的“敌国条款”已过时。毛宁指出，正确...",
+          "link": "https://www.baidu.com/s?wd=%E5%A4%96%E4%BA%A4%E9%83%A8%EF%BC%9A%E2%80%9C%E6%95%8C%E5%9B%BD%E6%9D%A1%E6%AC%BE%E2%80%9D+%E8%87%B3%E4%BB%8A%E4%BB%8D%E7%84%B6%E6%9C%89%E6%95%88&sa=fyb_news&rsv_dl=fyb_news",
+          "publishedOn": "2026-09-08T12:01:38.000Z",
+          "wordCount": 6,
+          "title": "外交部：“敌国条款”至今仍然有效 热度：4184710",
+          "imageUrl": null
+        },
+        {
+          "id": "2160847",
+          "author": null,
+          "description": "眼下高校陆续开学，暑期社会实践成果集中展示。今年暑期，大学生不再局限于流水线，纷纷走向浙江宁海乡村书吧、苏州科创企业等体验式岗位。专家解读，此举满足...",
+          "link": "https://www.baidu.com/s?wd=%E5%A4%A7%E5%AD%A6%E7%94%9F%E8%BF%B7%E4%B8%8A%E4%BD%93%E9%AA%8C%E5%BC%8F%E5%B2%97%E4%BD%8D&sa=fyb_news&rsv_dl=fyb_news",
+          "publishedOn": "2026-09-08T12:01:37.000Z",
+          "wordCount": 6,
+          "title": "大学生迷上体验式岗位 热度：4284545",
+          "imageUrl": null
+        },
+        {
+          "id": "2160846",
+          "author": null,
+          "description": "8日，日本GMOAIR宣布推出日本首辆“人形机器人救护车”。该车可在人形机器人故障时赴现场提供诊断、维修及备用机等服务，无法现场修复则送至东京涩谷...",
+          "link": "https://www.baidu.com/s?wd=%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%9D%8F%E4%BA%86%E4%B9%9F%E8%83%BD%E5%8F%AB%E6%95%91%E6%8A%A4%E8%BD%A6%E4%BA%86&sa=fyb_news&rsv_dl=fyb_news",
+          "publishedOn": "2026-09-08T12:01:37.000Z",
+          "wordCount": 6,
+          "title": "机器人坏了也能叫救护车了 热度：4381578",
+          "imageUrl": null
+        },
+        {
+          "id": "2160845",
+          "author": null,
+          "description": "2024年，嫦娥六号在月球背面展示的五星红旗，原材料为火山岩。据中科院院士刘嘉麒介绍，依托成熟的点石成丝技术制成的玄武岩纤维，耐高温、耐极寒，作为新...",
+          "link": "https://www.baidu.com/s?wd=%E6%9C%88%E8%83%8C%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD%E5%9B%BD%E6%97%97%E6%98%AF%E7%9F%B3%E5%A4%B4%E6%8B%89%E4%B8%9D%E5%81%9A%E7%9A%84&sa=fyb_news&rsv_dl=fyb_news",
+          "publishedOn": "2026-09-08T12:01:37.000Z",
+          "wordCount": 6,
+          "title": "月背上的中国国旗是石头拉丝做的 热度：4478171",
+          "imageUrl": null
+        },
+        {
+          "id": "2160844",
+          "author": null,
+          "description": "9月8日，松延动力发布具身智能技术品牌Scalabot，并推出HERON体系下首个世界模型HERON-WorldModel。松延动力由此将业务从机...",
+          "link": "https://www.baidu.com/s?wd=%E8%83%BD%E9%A2%84%E6%B5%8B%E5%A4%9A%E6%99%BA%E8%83%BD%E4%BD%93%E4%BA%A4%E4%BA%92%E7%9A%84%E4%B8%96%E7%95%8C%E6%A8%A1%E5%9E%8B%E6%9D%A5%E4%BA%86&sa=fyb_news&rsv_dl=fyb_news",
+          "publishedOn": "2026-09-08T12:01:36.000Z",
+          "wordCount": 6,
+          "title": "能预测多智能体交互的世界模型来了 热度：4552754",
+          "imageUrl": null
+        },
+        {
+          "id": "2160843",
+          "author": null,
+          "description": "当地时间9月8日，乌克兰基辅响起爆炸声。俄罗斯国防部通报，俄军当天凌晨使用高精度武器和无人机发动大规模打击，击中乌克兰国防工业设施、基辅市及基辅州军...",
+          "link": "https://www.baidu.com/s?wd=%E4%B9%8C%E5%85%8B%E5%85%B0%E5%9F%BA%E8%BE%85%E5%93%8D%E8%B5%B7%E7%88%86%E7%82%B8%E5%A3%B0&sa=fyb_news&rsv_dl=fyb_news",
+          "publishedOn": "2026-09-08T12:01:36.000Z",
+          "wordCount": 6,
+          "title": "乌克兰基辅响起爆炸声 热度：4665001",
+          "imageUrl": null
+        },
+        {
+          "id": "2160842",
+          "author": null,
+          "description": "2026年上半年，雨润高温肉制品营收归零，正式退出国内常温火腿肠赛道。该品类正慢衰退，双汇在线下零售市占率突破60%形成垄断，靠“以价补量”稳住基本...",
+          "link": "https://www.baidu.com/s?wd=%E7%81%AB%E8%85%BF%E8%82%A0+%E6%85%A2%E8%A1%B0%E9%80%80&sa=fyb_news&rsv_dl=fyb_news",
+          "publishedOn": "2026-09-08T12:01:36.000Z",
+          "wordCount": 6,
+          "title": "火腿肠慢衰退 热度：4759435",
+          "imageUrl": null
+        },
+        {
+          "id": "2160841",
+          "author": null,
+          "description": "当地时间9月8日起，加拿大对美国的最新关税反击，正式生效，对700多种美国商品加征最高50%关税，或冲击美国摇摆州中期选举。关税战之外，“抵制美货”...",
+          "link": "https://www.baidu.com/s?wd=%E5%8A%A0%E6%8B%BF%E5%A4%A7%E6%AD%A3%E5%BC%8F%E6%8A%A5%E5%A4%8D%E7%BE%8E%E5%9B%BD&sa=fyb_news&rsv_dl=fyb_news",
+          "publishedOn": "2026-09-08T12:01:35.000Z",
+          "wordCount": 6,
+          "title": "加拿大正式报复美国 热度：4839939",
+          "imageUrl": null
+        },
+        {
+          "id": "2160840",
+          "author": null,
+          "description": "近日，四川成都一名九旬退休教师终身未婚无子女父母早逝，生前未立遗嘱，还签署遗体捐赠协议，离世后，四川成都锦江区法院裁定区民政局担任遗产管理人，剩余遗...",
+          "link": "https://www.baidu.com/s?wd=%E9%80%80%E4%BC%91%E6%95%99%E5%B8%88%E7%A6%BB%E4%B8%96%E8%B4%A2%E4%BA%A7%E6%97%A0%E4%BA%BA%E7%BB%A7%E6%89%BF&sa=fyb_news&rsv_dl=fyb_news",
+          "publishedOn": "2026-09-08T12:01:35.000Z",
+          "wordCount": 6,
+          "title": "退休教师离世财产无人继承 热度：5028283",
+          "imageUrl": null
+        },
+        {
+          "id": "2160839",
+          "author": null,
+          "description": "特斯拉降价冲上热搜后，多家门店爆单了。9月8日，某特斯拉体验中心销售顾问表示：“昨天早上政策一出来，订单消息就没断过。”9月7日，特斯拉中国宣布，即...",
+          "link": "https://www.baidu.com/s?wd=%E7%89%B9%E6%96%AF%E6%8B%89%E9%99%8D%E4%BB%B7%E5%90%8E%E6%9C%89%E9%97%A8%E5%BA%97%E7%88%86%E5%8D%95&sa=fyb_news&rsv_dl=fyb_news",
+          "publishedOn": "2026-09-08T12:01:35.000Z",
+          "wordCount": 6,
+          "title": "特斯拉降价后有门店爆单 热度：5119496",
+          "imageUrl": null
+        },
+        {
+          "id": "2160838",
+          "author": null,
+          "description": "9月5日，贵州遵义桐梓县一户居民家中床底持续传来“沙沙”声，夫妻俩以为是老鼠没在意。次日清晨，丈夫开门时发现一条约四五斤重的大蛇盘在床上，受惊后钻入...",
+          "link": "https://www.baidu.com/s?wd=%E5%BA%8A%E5%BA%95%E5%93%8D%E6%B2%A1%E5%BD%93%E5%9B%9E%E4%BA%8B+%E5%BC%80%E9%97%A8%E8%A7%81%E5%BA%8A%E4%B8%8A%E7%9B%98%E7%9D%80%E5%A4%A7%E8%9B%87&sa=fyb_news&rsv_dl=fyb_news",
+          "publishedOn": "2026-09-08T12:01:34.000Z",
+          "wordCount": 6,
+          "title": "床底响没当回事开门见床上盘着大蛇 热度：5233163",
+          "imageUrl": null
+        },
+        {
+          "id": "2160837",
+          "author": null,
+          "description": "9月8日，小米开放XiaomiMiMoDesktop桌面AI邀测，用户可免费体验两款新一代预览版模型。该产品支持多格式素材直读，可生成可交互编辑...",
+          "link": "https://www.baidu.com/s?wd=%E5%B0%8F%E7%B1%B3%E6%9C%80%E6%96%B0%E6%A8%A1%E5%9E%8BMiMoX%E5%8F%91%E5%B8%83&sa=fyb_news&rsv_dl=fyb_news",
+          "publishedOn": "2026-09-08T12:01:34.000Z",
+          "wordCount": 6,
+          "title": "小米最新模型MiMoX发布 热度：5426527",
+          "imageUrl": null
+        },
+        {
+          "id": "2160836",
+          "author": null,
+          "description": "中央纪委国家监委9月8日通报，应急管理部原党委书记、部长王祥喜非法收受巨额财物、涉嫌受贿犯罪，被开除党籍和公职，涉案问题已移送检察机关审查起诉。",
+          "link": "https://www.baidu.com/s?wd=%E5%BA%94%E6%80%A5%E7%AE%A1%E7%90%86%E9%83%A8%E5%8E%9F%E9%83%A8%E9%95%BF%E7%8E%8B%E7%A5%A5%E5%96%9C%E8%A2%AB%E2%80%9C%E5%8F%8C%E5%BC%80%E2%80%9D&sa=fyb_news&rsv_dl=fyb_news",
+          "publishedOn": "2026-09-08T12:01:34.000Z",
+          "wordCount": 6,
+          "title": "应急管理部原部长王祥喜被“双开” 热度：5515351",
+          "imageUrl": null
+        },
+        {
+          "id": "2160835",
+          "author": null,
+          "description": "当地时间9月4日凌晨，博主Kj在英国伦敦街头直播时遭3名年轻人挑衅并按地殴打，试图抢走手表。Kj奋力护住手表，3人逃离。Kj报案后警方未到场调查，经...",
+          "link": "https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E5%8D%9A%E4%B8%BB%E5%9C%A8%E4%BC%A6%E6%95%A6%E9%81%AD3%E4%BA%BA%E6%AE%B4%E6%89%93+%E8%BF%87%E7%A8%8B%E8%A2%AB%E7%9B%B4%E6%92%AD&sa=fyb_news&rsv_dl=fyb_news",
+          "publishedOn": "2026-09-08T12:01:33.000Z",
+          "wordCount": 6,
+          "title": "中国博主在伦敦遭3人殴打过程被直播 热度：5705617",
+          "imageUrl": null
+        },
+        {
+          "id": "2160834",
+          "author": null,
+          "description": "9月8日下午，“梅姨案”被拐儿童父亲申军良接受采访时透露，“梅姨”潜逃多年未落网的原因之一是其非常狡猾。申军良表示，“梅姨”不止一个身份信息，身边换...",
+          "link": "https://www.baidu.com/s?wd=%E2%80%9C%E6%A2%85%E5%A7%A8%E2%80%9D%E6%8D%A2%E4%B8%80%E4%B8%AA%E8%80%81%E6%B1%89%E5%B0%B1%E6%8D%A2%E4%B8%80%E4%B8%AA%E5%90%8D%E5%AD%97&sa=fyb_news&rsv_dl=fyb_news",
+          "publishedOn": "2026-09-08T12:01:33.000Z",
+          "wordCount": 6,
+          "title": "“梅姨”换一个老汉就换一个名字 热度：5809644",
+          "imageUrl": null
+        },
+        {
+          "id": "2160833",
+          "author": null,
+          "description": "9月8日，武汉市卫健委发布通报，针对网传武湖街道存在非法辅助生殖地下实验室的问题，已联合公安部门完成现场核查，查封涉案场所，控制8名涉案人员，后续将...",
+          "link": "https://www.baidu.com/s?wd=%E6%AD%A6%E6%B1%89%E9%9D%9E%E6%B3%95%E8%BE%85%E5%8A%A9%E7%94%9F%E6%AE%96%E5%9C%B0%E4%B8%8B%E5%AE%9E%E9%AA%8C%E5%AE%A4%E5%B7%B2%E6%9F%A5%E5%B0%81&sa=fyb_news&rsv_dl=fyb_news",
+          "publishedOn": "2026-09-08T12:01:33.000Z",
+          "wordCount": 6,
+          "title": "武汉非法辅助生殖地下实验室已查封 热度：5907199",
+          "imageUrl": null
+        },
+        {
+          "id": "2160832",
+          "author": null,
+          "description": "9月8日下午，申军良及其代理律师在济南向媒体通报“梅姨案”相关进展，申军良透露，经代理律师阅卷确认，“梅姨”真实年龄为65岁，其外貌并不凶狠，但眼神...",
+          "link": "https://www.baidu.com/s?wd=%E7%94%B3%E5%86%9B%E8%89%AF%E7%A7%B0%E2%80%9C%E6%A2%85%E5%A7%A8%E2%80%9D%E7%9C%9F%E5%AE%9E%E5%B9%B4%E9%BE%84%E4%B8%BA65%E5%B2%81&sa=fyb_news&rsv_dl=fyb_news",
+          "publishedOn": "2026-09-08T12:01:32.000Z",
+          "wordCount": 6,
+          "title": "申军良称“梅姨”真实年龄为65岁 热度：5983733",
+          "imageUrl": null
+        },
+        {
+          "id": "2160831",
+          "author": null,
+          "description": "近日，河南镇平县一女子在公厕产下女婴后独自离开，婴儿被发现时躺在塑料袋上。警方回应已介入处理，母女均已送医且平安，是否构成遗弃罪正在调查。",
+          "link": "https://www.baidu.com/s?wd=%E5%A5%B3%E5%AD%90%E5%85%AC%E5%8E%95%E4%BA%A7%E4%B8%8B%E5%A5%B3%E5%A9%B4%E5%90%8E%E7%A6%BB%E5%BC%80+%E8%AD%A6%E6%96%B9%E5%9B%9E%E5%BA%94&sa=fyb_news&rsv_dl=fyb_news",
+          "publishedOn": "2026-09-08T12:01:32.000Z",
+          "wordCount": 6,
+          "title": "女子公厕产下女婴后离开警方回应 热度：6087280",
+          "imageUrl": null
+        },
+        {
+          "id": "2160830",
+          "author": null,
+          "description": "餐饮机器人正大规模落地经营门店，人机协同成新常态。中式正餐落地规模最大，出餐效率提升30%至50%。但机器人仍存在出餐慢、难调口味、成本高等短板，只...",
+          "link": "https://www.baidu.com/s?wd=%E8%BE%A3%E6%A4%92%E7%82%92%E8%82%89%E4%B8%8D%E8%A6%81%E8%BE%A3%EF%BC%9F%E7%82%92%E8%8F%9C%E6%9C%BA%E5%99%A8%E4%BA%BA%E2%80%9C%E6%87%B5%E4%BA%86%E2%80%9D&sa=fyb_news&rsv_dl=fyb_news",
+          "publishedOn": "2026-09-08T12:01:32.000Z",
+          "wordCount": 6,
+          "title": "辣椒炒肉不要辣？炒菜机器人“懵了” 热度：6187657",
+          "imageUrl": null
+        },
+        {
+          "id": "2160829",
+          "author": null,
+          "description": "9月8日据台媒报道，英特尔计划10月5日将PC版CPU价格上调约10%，系年内第三次涨价，同时评估停产小核心产品线及裁员5%至10%。此前，英特尔已...",
+          "link": "https://www.baidu.com/s?wd=%E7%94%B5%E8%84%91%E5%8F%88%E8%A6%81%E6%B6%A8%E4%BB%B7%E4%BA%86&sa=fyb_news&rsv_dl=fyb_news",
+          "publishedOn": "2026-09-08T12:01:31.000Z",
+          "wordCount": 6,
+          "title": "电脑又要涨价了 热度：6278372",
+          "imageUrl": null
+        },
+        {
+          "id": "2160828",
+          "author": null,
+          "description": "9月8日，DeepSeek宣布V4.1Flash新模型限时内测，9月10日将下线。开发者反馈该模型速度大幅提升，但相同时间内消耗token更快，直...",
+          "link": "https://www.baidu.com/s?wd=DeepSeek%E6%96%B0%E6%A8%A1%E5%9E%8B%E9%99%90%E6%97%B6%E5%86%85%E6%B5%8B+%E7%83%A7%E9%92%B1%E6%9B%B4%E5%BF%AB%E4%BA%86&sa=fyb_news&rsv_dl=fyb_news",
+          "publishedOn": "2026-09-08T12:01:31.000Z",
+          "wordCount": 6,
+          "title": "DeepSeek新模型限时内测烧钱更快了 热度：6381474",
+          "imageUrl": null
+        },
+        {
+          "id": "2160827",
+          "author": null,
+          "description": "9月8日，有消息称原湖南太子奶集团总裁、董事局主席李途纯去世。其子李帅向媒体记者证实了这一消息。从白手起家到问鼎央视“标王”，从引进外资对赌到资金链...",
+          "link": "https://www.baidu.com/s?wd=%E5%A4%AA%E5%AD%90%E5%A5%B6%E5%88%9B%E5%A7%8B%E4%BA%BA%E6%9D%8E%E9%80%94%E7%BA%AF%E9%80%9D%E4%B8%96&sa=fyb_news&rsv_dl=fyb_news",
+          "publishedOn": "2026-09-08T12:01:31.000Z",
+          "wordCount": 6,
+          "title": "太子奶创始人李途纯逝世 热度：6474820",
+          "imageUrl": null
+        },
+        {
+          "id": "2160826",
+          "author": null,
+          "description": "一校内保洁员发现多名同事从未到岗却照发工资，向学校举报。结果发现，考勤齐全、工资照发的“影子保洁员”吃了两年多空饷！后勤经理伙同物业经理虚设7名保洁...",
+          "link": "https://www.baidu.com/s?wd=%E2%80%9C%E5%BD%B1%E5%AD%90%E4%BF%9D%E6%B4%81%E5%91%98%E2%80%9D%E4%B8%A4%E5%B9%B4%E5%A4%9A%E5%90%83%E4%BA%8660%E4%B8%87%E7%A9%BA%E9%A5%B7&sa=fyb_news&rsv_dl=fyb_news",
+          "publishedOn": "2026-09-08T12:01:30.000Z",
+          "wordCount": 6,
+          "title": "“影子保洁员”两年多吃了60万空饷 热度：6572422",
+          "imageUrl": null
+        },
+        {
+          "id": "2160825",
+          "author": null,
+          "description": "9月8日，贵州茅台多家自营店启动第三次调价，多款主流产品零售价上调，53度500mL飞天茅台涨至1766元/瓶，个别产品小幅下调。此前，茅台曾于7月...",
+          "link": "https://www.baidu.com/s?wd=%E8%8C%85%E5%8F%B0+%E6%B6%A8%E4%BB%B7&sa=fyb_news&rsv_dl=fyb_news",
+          "publishedOn": "2026-09-08T12:01:30.000Z",
+          "wordCount": 6,
+          "title": "茅台涨价 热度：6659546",
+          "imageUrl": null
+        },
+        {
+          "id": "2160824",
+          "author": null,
+          "description": "",
+          "link": "https://www.baidu.com/s?wd=%E6%B1%9F%E8%A5%BF%E9%81%82%E5%B7%9D%E6%B3%A5%E7%9F%B3%E6%B5%81%E5%B7%B2%E8%87%B412%E4%BA%BA%E9%81%87%E9%9A%BE&sa=fyb_news&rsv_dl=fyb_news",
+          "publishedOn": "2026-09-08T12:01:30.000Z",
+          "wordCount": 6,
+          "title": "江西遂川泥石流已致12人遇难 热度：6761629",
+          "imageUrl": null
+        },
+        {
+          "id": "2160823",
+          "author": null,
+          "description": "近日，网传新疆2027年中考科目及分值重大调整，引发关注。经核实，该消息为谣言，新疆各级教育部门暂未发布相关调整文件。",
+          "link": "https://www.baidu.com/s?wd=%E6%96%B0%E7%96%86%E4%B8%AD%E8%80%83%E7%A7%91%E7%9B%AE%E5%8F%8A%E5%88%86%E5%80%BC%E9%87%8D%E5%A4%A7%E8%B0%83%E6%95%B4%EF%BC%9F%E4%B8%8D%E5%AE%9E&sa=fyb_news&rsv_dl=fyb_news",
+          "publishedOn": "2026-09-08T12:01:29.000Z",
+          "wordCount": 6,
+          "title": "新疆中考科目及分值重大调整？不实 热度：6857649",
+          "imageUrl": null
+        },
+        {
+          "id": "2160822",
+          "author": null,
+          "description": "9月8日，洪秀柱参观张雪机车，在被邀请“要不要坐上机车试一下”时，洪秀柱表示：“我腿短跨不上去”，“需要迷你款。”",
+          "link": "https://www.baidu.com/s?wd=%E6%B4%AA%E7%A7%80%E6%9F%B1%E5%8F%82%E8%A7%82%E5%BC%A0%E9%9B%AA%E6%9C%BA%E8%BD%A6%EF%BC%9A%E6%88%91%E8%85%BF%E7%9F%AD%E8%B7%A8%E4%B8%8D%E4%B8%8A%E5%8E%BB&sa=fyb_news&rsv_dl=fyb_news",
+          "publishedOn": "2026-09-08T12:01:29.000Z",
+          "wordCount": 6,
+          "title": "洪秀柱参观张雪机车：我腿短跨不上去 热度：6951652",
+          "imageUrl": null
+        },
+        {
+          "id": "2160821",
+          "author": null,
+          "description": "今年6月，中国教育科学研究院赴临沂市费县、菏泽市成武县调研转岗现状。起因是人口变动致师资结构性矛盾突出。费县2024至2025年转岗127人缓解短缺...",
+          "link": "https://www.baidu.com/s?wd=%E6%95%99%E5%B8%88%E8%BD%AC%E5%B2%97%E4%B8%8D%E8%83%BD%E2%80%9C%E5%87%91%E5%90%88%E7%9D%80%E6%95%99%E2%80%9D&sa=fyb_news&rsv_dl=fyb_news",
+          "publishedOn": "2026-09-08T12:01:28.000Z",
+          "wordCount": 6,
+          "title": "教师转岗不能“凑合着教” 热度：7046843",
+          "imageUrl": null
+        },
+        {
+          "id": "2160820",
+          "author": null,
+          "description": "近日，在四川江油派出所户籍室，一位母亲为去世的儿子办理户口注销手续。办理中，她看到身份证上儿子的照片多次掩面擦泪。辅警发现后上前安抚，递上纸巾与温水...",
+          "link": "https://www.baidu.com/s?wd=%E6%AF%8D%E4%BA%B2%E4%B8%BA%E5%8E%BB%E4%B8%96%E5%84%BF%E5%AD%90%E9%94%80%E6%88%B7%E6%B0%91%E8%AD%A6%E5%90%AB%E6%B3%AA%E6%8B%A5%E6%8A%B1%E5%AE%89%E6%85%B0&sa=fyb_news&rsv_dl=fyb_news",
+          "publishedOn": "2026-09-08T12:01:28.000Z",
+          "wordCount": 6,
+          "title": "母亲为去世儿子销户民警含泪拥抱安慰 热度：7138973",
+          "imageUrl": null
+        },
+        {
+          "id": "2160819",
+          "author": null,
+          "description": "近日，不法分子打着“助农”旗号，伪装成农业科技公司，在网上搜集农户销售信息，谎称大批量收购农产品，以“先交保证金”为由看人下菜碟，骗取数千至数万元后...",
+          "link": "https://www.baidu.com/s?wd=%E5%A4%AE%E8%A7%86%E6%9B%9D%E5%85%89%E6%96%B0%E5%9E%8B%E9%AA%97%E6%9C%AF%E2%80%9C%E4%B8%93%E5%9D%91%E5%86%9C%E6%B0%91%E2%80%9D&sa=fyb_news&rsv_dl=fyb_news",
+          "publishedOn": "2026-09-08T12:01:28.000Z",
+          "wordCount": 6,
+          "title": "央视曝光新型骗术“专坑农民” 热度：7233077",
+          "imageUrl": null
+        },
+        {
+          "id": "2160818",
+          "author": null,
+          "description": "2026年10月1日起，上海将施行生育医疗费用保障新政，实现合规生育医疗费用个人“无自付”。产前检查享4500元定额补贴，超额由生育保险全额兜底，住...",
+          "link": "https://www.baidu.com/s?wd=%E4%B8%8A%E6%B5%B7%EF%BC%9A10%E6%9C%881%E6%97%A5%E8%B5%B7%E7%94%9F%E5%A8%83%E4%B8%AA%E4%BA%BA%E2%80%9C%E4%B8%8D%E8%8A%B1%E9%92%B1%E2%80%9D&sa=fyb_news&rsv_dl=fyb_news",
+          "publishedOn": "2026-09-08T12:01:28.000Z",
+          "wordCount": 6,
+          "title": "上海：10月1日起生娃个人“不花钱” 热度：7332013",
+          "imageUrl": null
+        },
+        {
+          "id": "2160817",
+          "author": null,
+          "description": "近日，联合国报告预警本世纪全球升温将达1.8℃，突破1.5℃安全红线成定局。人类百年内将均温推高1.2℃，现在的升温之快在地球历史上从未有过。面对气...",
+          "link": "https://www.baidu.com/s?wd=%E5%9C%B0%E7%90%83%E5%8D%87%E6%B8%A9%E4%B9%8B%E5%BF%AB%E5%8F%B2%E6%97%A0%E5%89%8D%E4%BE%8B&sa=fyb_news&rsv_dl=fyb_news",
+          "publishedOn": "2026-09-08T12:01:27.000Z",
+          "wordCount": 6,
+          "title": "地球升温之快史无前例 热度：7425901",
+          "imageUrl": null
+        },
+        {
+          "id": "2160816",
+          "author": null,
+          "description": "近日，“梅姨”案进入法院审判阶段。9月8日，受害者申军良在山东济南市受访透露，梅姨于今年春节前落网。申军良评价梅姨好吃懒做，称其落网时靠捡垃圾维生，...",
+          "link": "https://www.baidu.com/s?wd=%E2%80%9C%E6%A2%85%E5%A7%A8%E2%80%9D%E9%9D%A0%E6%8D%A1%E5%9E%83%E5%9C%BE%E7%BB%B4%E7%94%9F+%E5%9C%A8%E5%87%BA%E7%A7%9F%E5%B1%8B%E8%90%BD%E7%BD%91&sa=fyb_news&rsv_dl=fyb_news",
+          "publishedOn": "2026-09-08T12:01:27.000Z",
+          "wordCount": 6,
+          "title": "“梅姨”靠捡垃圾维生在出租屋落网 热度：7521419",
+          "imageUrl": null
+        },
+        {
+          "id": "2160815",
+          "author": null,
+          "description": "青春何谓？作答的方式有很多——是站上国际舞台，用语言架起民心相通的桥梁；是沉入实验室，让冷冰冰的代码在车载芯片上“跑”起来；是背上行囊奔赴边疆，把对...",
+          "link": "https://www.baidu.com/s?wd=%E6%8A%95%E8%BA%AB%E6%97%B6%E4%BB%A3%E6%B4%AA%E6%B5%81+%E4%BD%9C%E7%AD%94%E2%80%9C%E9%9D%92%E6%98%A5%E4%BD%95%E8%B0%93%E2%80%9D&sa=fyb_news&rsv_dl=fyb_news",
+          "publishedOn": "2026-09-08T12:01:27.000Z",
+          "wordCount": 6,
+          "title": "投身时代洪流作答“青春何谓” 热度：7616477",
+          "imageUrl": null
+        },
+        {
+          "id": "2160814",
+          "author": null,
+          "description": "9月8日，河南省信阳市中级人民法院一审公开宣判山西省委原副书记、省政府原省长金湘军受贿一案，对被告人金湘军以受贿罪判处死刑，缓期二年执行。经审理查明...",
+          "link": "https://www.baidu.com/s?wd=%E5%8F%97%E8%B4%BF1.48%E4%BA%BF%E4%BD%99%E5%85%83+%E9%87%91%E6%B9%98%E5%86%9B%E4%B8%80%E5%AE%A1%E8%A2%AB%E5%88%A4%E6%AD%BB%E7%BC%93&sa=fyb_news&rsv_dl=fyb_news",
+          "publishedOn": "2026-09-08T12:01:26.000Z",
+          "wordCount": 6,
+          "title": "受贿1.48亿余元金湘军一审被判死缓 热度：7713690",
+          "imageUrl": null
+        },
+        {
+          "id": "2160813",
+          "author": null,
+          "description": "四川大学华西医院心理卫生中心医生指出，给孩子配备手机建议不早于12岁，过早使用易引发睡眠不足、抑郁、肥胖等问题。判断手机成瘾不只看时长，更要看是否影...",
+          "link": "https://www.baidu.com/s?wd=%E5%88%B0%E5%BA%95%E5%AD%A9%E5%AD%90%E5%A4%9A%E5%A4%A7%E5%8F%AF%E4%BB%A5%E6%9C%89%E6%89%8B%E6%9C%BA+%E8%83%BD%E7%8E%A9%E5%A4%9A%E4%B9%85&sa=fyb_news&rsv_dl=fyb_news",
+          "publishedOn": "2026-09-08T12:01:26.000Z",
+          "wordCount": 6,
+          "title": "到底孩子多大可以有手机能玩多久 热度：7808546",
+          "imageUrl": null
+        },
+        {
+          "id": "2160812",
+          "author": null,
+          "description": "9月1日，在吉尔吉斯斯坦首都比什凯克举行的“上海合作组织+”会议上，习近平主席围绕这一重大主题，深入阐述改革完善全球治理的中国方案。“让我们立足以人...",
+          "link": "https://www.baidu.com/s?wd=%E6%90%BA%E6%89%8B%E6%8E%A8%E8%BF%9B%E5%B9%B3%E7%AD%89%E6%9C%89%E5%BA%8F%E7%9A%84%E4%B8%96%E7%95%8C%E5%A4%9A%E6%9E%81%E5%8C%96&sa=fyb_news&rsv_dl=fyb_news",
+          "publishedOn": "2026-09-08T12:01:26.000Z",
+          "wordCount": 6,
+          "title": "携手推进平等有序的世界多极化 热度：7904295",
+          "imageUrl": null
+        },
         {
           "id": "2160494",
           "author": null,
@@ -17582,16 +18432,6 @@
           "wordCount": 1961,
           "title": "打破洗牙無效循環！全球首款「牙周病疫苗」如何沒收細菌武器，保衛大腦與心血管？",
           "imageUrl": "https://pansci.asia/wp-content/uploads/2026/07/yt-cover-jQ6_vy_ycGg-20260728073111-1020x574.jpg"
-        },
-        {
-          "id": "https://pansci.asia/?p=382007",
-          "author": "careonline",
-          "description": "脊髓性肌肉萎縮症（SMA）會導致漸進式肌肉退化。如今健保已全面給付背針、口服與基因治療，透過跨科別團隊整合照護，能有效改善病友運動與吞嚥功能，延緩惡化並重拾生活自主權。",
-          "link": "https://pansci.asia/archives/382007",
-          "publishedOn": "2026-08-25T00:00:58.000Z",
-          "wordCount": 3534,
-          "title": "健保全面給付SMA三大療法！背針治療助病友逆轉肌肉萎縮，找回人生主導權",
-          "imageUrl": "https://pansci.asia/wp-content/uploads/2026/08/pansci-20260808080021.jpg"
         }
       ]
     },
@@ -17600,6 +18440,46 @@
       "feedUrl": "https://www.jisilu.cn/feed",
       "siteUrl": "https://www.jisilu.cn",
       "articles": [
+        {
+          "id": "https://www.jisilu.cn/question/525128",
+          "author": null,
+          "description": "投资99%的人都在研究如何稳定的提升自己的收益率，但是很少有人研究如果降低自己的资金费用，想请假一下大家如何降低自己的成本费用？",
+          "link": "https://www.jisilu.cn/question/525128",
+          "publishedOn": "2026-09-08T14:45:41.000Z",
+          "wordCount": 95,
+          "title": "投资的方向能否掉头？",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.jisilu.cn/question/525127",
+          "author": null,
+          "description": "# 苏利转债强赎复盘：下修牌打光，7.39 亿只剩“涨 27%”一条路\n\n![海报](https://www.jisilu.cn/uploads/questions/20260908/76ab627712ce3d36071eb7ac34f9c502.png)\n\n> 苏利转债（113640）｜正...",
+          "link": "https://www.jisilu.cn/question/525127",
+          "publishedOn": "2026-09-08T14:35:39.000Z",
+          "wordCount": 95,
+          "title": "苏利转债强赎复盘：下修牌打光，7.39 亿只剩“涨 27%”一条路",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.jisilu.cn/question/525126",
+          "author": null,
+          "description": "[attach]455979[/attach]",
+          "link": "https://www.jisilu.cn/question/525126",
+          "publishedOn": "2026-09-08T14:05:29.000Z",
+          "wordCount": 438,
+          "title": "广汇又出新方案了",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.jisilu.cn/question/525119",
+          "author": null,
+          "description": "我的手机运营商以涉嫌新型诈骗活动为由，封了我的手机。\n\n又无法说出具体理由，是哪里公安部门下封杀令，让我去派出所，找我没有涉嫌新型诈骗活动的证明，就开始扯皮。\n\n结果我去了派出所，说没法出具证明。\n\n派出所他们没有收到指令，是没有权力查我。\n\n我返回找运营商，他们只一口咬定涉嫌新型诈骗活动，又说不出...",
+          "link": "https://www.jisilu.cn/question/525119",
+          "publishedOn": "2026-09-08T11:55:39.000Z",
+          "wordCount": 685,
+          "title": "运营商封我的手机，有没有人有类似经历。",
+          "imageUrl": null
+        },
         {
           "id": "https://www.jisilu.cn/question/525111",
           "author": null,
@@ -18248,6 +19128,16 @@
           "publishedOn": "2026-09-01T08:26:54.000Z",
           "wordCount": 1900,
           "title": "大家有什么隐藏的技能？除投资之外的。",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.jisilu.cn/question/524905",
+          "author": null,
+          "description": "昨天我忽然想起一件事:小时候家在江西农村，有一年暑假独自在松林里，忽然飞来了一只超大蝴蝶，全身天蓝色，太惊艳了。我连忙去追，蝴蝶飞高了，飞得很快，一会儿就不见了。我一个人在那儿发呆了好久，之前见的都是花丛里的小蝴蝶，从未见过这么大这么美的蝴蝶，更别提周边还只有松树了。其后的几十年，我也没再见过这么大...",
+          "link": "https://www.jisilu.cn/question/524905",
+          "publishedOn": "2026-09-01T04:05:03.000Z",
+          "wordCount": 1144,
+          "title": "年少时不要遇见太惊艳的蝴蝶，念念不忘了",
           "imageUrl": null
         },
         {
@@ -28838,6 +29728,306 @@
       "feedUrl": "https://feedx.net/rss/jiemian.xml",
       "siteUrl": "https://www.jiemian.com",
       "articles": [
+        {
+          "id": "https://m.jiemian.com/article/15070811.html",
+          "author": null,
+          "description": "2026.09.08\n\n据马新社9月8日报道，一架直升机当天在马来西亚沙捞越州龙巴朗机场附近坠毁，机上5人全部遇难。目前，事故原因正在调查中。（新华社）",
+          "link": "https://m.jiemian.com/article/15070811.html",
+          "publishedOn": "2026-09-08T16:22:05.000Z",
+          "wordCount": 305,
+          "title": "马来西亚直升机坠毁事故致5人死亡",
+          "imageUrl": null
+        },
+        {
+          "id": "https://m.jiemian.com/article/15070817.html",
+          "author": null,
+          "description": "2026.09.08\n\n欧洲主要股指收盘多数下跌，英国富时100指数跌0.10%，法国CAC40指数涨0.15%，德国DAX30指数跌0.05%，富时意大利MIB指数跌0.14%。",
+          "link": "https://m.jiemian.com/article/15070817.html",
+          "publishedOn": "2026-09-08T16:22:05.000Z",
+          "wordCount": 305,
+          "title": "欧洲主要股指收盘多数下跌",
+          "imageUrl": null
+        },
+        {
+          "id": "https://m.jiemian.com/article/15070827.html",
+          "author": null,
+          "description": "2026.09.08\n\n以色列外交部长萨尔9月8日宣布，就英国政府近期针对以色列的举措，以方将采取一系列“报复措施”。\n萨尔说，具体措施包括关闭英国驻耶路撒冷领事馆、撤走美国主导的“国际加沙支持中心”的英国代表、停止英国在拉姆安拉训练巴勒斯坦民族权力机构安全部队的活动，并禁止12名英国官员入境以色列。\n萨尔表示，英国“发起并主导”相关行动，以色列还将视情况对其他国家采取反制措施。（新华社）",
+          "link": "https://m.jiemian.com/article/15070827.html",
+          "publishedOn": "2026-09-08T16:22:05.000Z",
+          "wordCount": 307,
+          "title": "以色列宣布对英国采取系列“报复措施”",
+          "imageUrl": null
+        },
+        {
+          "id": "https://m.jiemian.com/article/15070828.html",
+          "author": null,
+          "description": "2026.09.08\n\n闪迪涨幅扩大至3.6%，股价站上1800美元。",
+          "link": "https://m.jiemian.com/article/15070828.html",
+          "publishedOn": "2026-09-08T16:22:05.000Z",
+          "wordCount": 305,
+          "title": "闪迪涨幅扩大至3.6%",
+          "imageUrl": null
+        },
+        {
+          "id": "https://m.jiemian.com/article/15070832.html",
+          "author": null,
+          "description": "2026.09.08\n\nSpaceX股价上涨3.65%，报153.350美元/股，创7月7日以来新高，总市值报2.02万亿美元。\n        \n\n获取更多RSS：\nhttps://feedx.net \nhttps://feedx.site",
+          "link": "https://m.jiemian.com/article/15070832.html",
+          "publishedOn": "2026-09-08T16:22:05.000Z",
+          "wordCount": 305,
+          "title": "SpaceX总市值重回2万亿美元，股价创7月7日以来新高",
+          "imageUrl": null
+        },
+        {
+          "id": "https://m.jiemian.com/article/15070839.html",
+          "author": null,
+          "description": "2026.09.08\n\n据“安徽发布”，9月8日，淮南市联合调查组发布情况通报：9月8日晚，央视《焦点访谈》报道我市田家庵区曹庵镇销售不符合国家规定的车用燃料问题，市委、市政府高度重视，第一时间成立由商务、市场监管、应急、公安等部门组成的联合调查组，深入开展调查。同时，举一反三全面排查整治。对发现的违法违规行为，将坚决依法严肃查处，切实维护市场经营秩序，保障人民群众生命财产安全。",
+          "link": "https://m.jiemian.com/article/15070839.html",
+          "publishedOn": "2026-09-08T16:22:05.000Z",
+          "wordCount": 305,
+          "title": "安徽淮南通报该市曹庵镇销售不合规车用燃料问题：成立联合调查组，全面排查整治",
+          "imageUrl": null
+        },
+        {
+          "id": "https://m.jiemian.com/article/15070848.html",
+          "author": null,
+          "description": "2026.09.08\n\n据日本共同社报道，日本爱知县名古屋市9月8日遭遇强降雨，部分地区降雨量创历史最高纪录。暴雨已造成爱知县4人受伤，严重影响当地交通，并导致多处亚运会场馆漏雨。（新华社）",
+          "link": "https://m.jiemian.com/article/15070848.html",
+          "publishedOn": "2026-09-08T16:22:05.000Z",
+          "wordCount": 305,
+          "title": "日本名古屋遭强降雨，多处亚运会场馆漏雨",
+          "imageUrl": null
+        },
+        {
+          "id": "https://m.jiemian.com/article/15070752.html",
+          "author": null,
+          "description": "2026.09.08\n\n9月8日，中国贸促会副会长林红红在京会见美国惠普公司首席法务官兼总法律顾问朱莉·雅各布斯一行。双方围绕服务外资企业在华发展、深化产业链供应链国际合作、参与2026年APEC系列工商界活动等议题进行交流。",
+          "link": "https://m.jiemian.com/article/15070752.html",
+          "publishedOn": "2026-09-08T15:52:05.000Z",
+          "wordCount": 305,
+          "title": "中国贸促会副会长林红红会见美国惠普公司首席法务官兼总法律顾问朱莉·雅各布斯",
+          "imageUrl": null
+        },
+        {
+          "id": "https://m.jiemian.com/article/15070761.html",
+          "author": null,
+          "description": "2026.09.08\n\n据中国能建消息，9月8日，中国能建党委书记、董事长倪真在公司总部与马来西亚国家电力公司董事长丹斯里·阿都拉萨会谈，双方就深化高端咨询规划、大型燃机、新能源、算电协同等领域合作进行深入交流，并达成广泛共识。\n倪真对丹斯里·阿都拉萨一行到访中国能建表示欢迎。他表示，作为全球领先的能源电力水利和基础设施规划设计咨询商、总承包商和投资运营商，中国能建将马来西亚视为公司国际业务的核心市场。马来西亚国家电力公司是亚洲领先的电力公司，双方合作基础良好、前景广阔。中国能建愿充分发挥自身优势，携手马来西亚国家电力公司围绕高端咨询规划、大型燃机、新能源、算电协同等重点领域，组建专业团队，持续拓展合作领域、创新合作模式，为马来西亚能源转型和“2050碳中和”愿景贡献能建智慧和能建方案。\n丹斯里・阿都拉萨对中国能建取得的发展成就表示祝贺。他说，作为马来西亚最大的电力公司，马来西亚国家电力公司致力于推动马来西亚“2050碳中和”愿景实现，正统筹推进新能源、燃气发电、储能和电网协同发展，更好满足数据中心等新兴负荷对稳定、可靠、绿色电力的多元需求。中国能建是全球能源电力水利领域的领军企业，综合实力突出、技术优势显著，是值得信赖的合作伙伴。希望双方建立长期沟通机制，围绕新能源、燃机、抽水蓄能、水利水电等重点领域加强前沿技术联合研发，在更多领域、更深层次、更高水平上实现互利共赢、共同发展，携手推动马来西亚能源结构转型。\n双方相关部门、有关单位负责人参加会谈。",
+          "link": "https://m.jiemian.com/article/15070761.html",
+          "publishedOn": "2026-09-08T15:52:05.000Z",
+          "wordCount": 308,
+          "title": "中国能建董事长倪真与马来西亚国家电力公司董事长丹斯里·阿都拉萨会谈",
+          "imageUrl": null
+        },
+        {
+          "id": "https://m.jiemian.com/article/15070767.html",
+          "author": null,
+          "description": "2026.09.08\n\n9月8日晚，央视总台《焦点访谈》栏目播发《黑加油点：死灰因何易复燃》，涉及河南濮阳范县产业集聚区濮王产业园远东程益科技有限公司相关问题。节目播出后，河南濮阳范县组成联合调查组，赶赴涉事企业开展现场勘验取证，对照节目曝光事项梳理问题清单，逐项开展核查。一是责令企业立即停产停销接受全面调查；二是在全县范围内开展黑加油站排查整治；三是调取该企业销售记录，重点查看是否将质量不合格的油品流入市场。待问题查实后，将第一时间公开通报调查情况和处理结果。（央视新闻）",
+          "link": "https://m.jiemian.com/article/15070767.html",
+          "publishedOn": "2026-09-08T15:52:05.000Z",
+          "wordCount": 305,
+          "title": "排查整治黑加油站问题，河南范县成立调查组",
+          "imageUrl": null
+        },
+        {
+          "id": "https://m.jiemian.com/article/15070771.html",
+          "author": null,
+          "description": "2026.09.08\n\n根据尼泊尔警方公布的最新数据，截至当地时间9月8日20时，尼泊尔泥石流灾害造成的遇难人数升至1365人。\n8月26日，尼泊尔边境地区突发冰川崩塌引发严重泥石流灾害，造成重大人员伤亡。（央视新闻）\n        \n\n获取更多RSS：\nhttps://feedx.net \nhttps://feedx.site",
+          "link": "https://m.jiemian.com/article/15070771.html",
+          "publishedOn": "2026-09-08T15:52:05.000Z",
+          "wordCount": 306,
+          "title": "尼泊尔泥石流灾害遇难人数升至1365人",
+          "imageUrl": null
+        },
+        {
+          "id": "https://m.jiemian.com/article/15070774.html",
+          "author": null,
+          "description": "2026.09.08\n\n俄罗斯总统新闻秘书佩斯科夫9月8日就日本要求俄拆除战胜军国主义日本的纪念碑一事表示，俄罗斯并没有忘记日本军国主义，没有忘记在与日本军国主义斗争中所获得的胜利。（新华社）",
+          "link": "https://m.jiemian.com/article/15070774.html",
+          "publishedOn": "2026-09-08T15:52:05.000Z",
+          "wordCount": 305,
+          "title": "俄总统新闻秘书：俄罗斯没有忘记日本军国主义",
+          "imageUrl": null
+        },
+        {
+          "id": "https://m.jiemian.com/article/15070777.html",
+          "author": null,
+          "description": "2026.09.08\n\n雷克雅未克消息：就美国总统特朗普在社交媒体发帖将冰岛“圈入美国版图”一事，冰岛总理克丽丝特伦·弗罗斯塔多蒂尔9月8日表示此举性质严重、十分荒谬。（新华社）",
+          "link": "https://m.jiemian.com/article/15070777.html",
+          "publishedOn": "2026-09-08T15:52:05.000Z",
+          "wordCount": 305,
+          "title": "冰岛总理：冰岛被“圈入美国版图”十分荒谬",
+          "imageUrl": null
+        },
+        {
+          "id": "https://m.jiemian.com/article/15070781.html",
+          "author": null,
+          "description": "2026.09.08\n\nSK海力士ADR持续走高涨7.1%，报189.610美元/股，总市值报1.38万亿美元。",
+          "link": "https://m.jiemian.com/article/15070781.html",
+          "publishedOn": "2026-09-08T15:52:05.000Z",
+          "wordCount": 305,
+          "title": "SK海力士ADR持续走高涨7.1%",
+          "imageUrl": null
+        },
+        {
+          "id": "https://m.jiemian.com/article/15070789.html",
+          "author": null,
+          "description": "2026.09.08\n\n英特尔股价上涨8.6%，报104.030美元/股，总市值报5499亿美元。\n        \n\n获取更多RSS：\nhttps://feedx.net \nhttps://feedx.site",
+          "link": "https://m.jiemian.com/article/15070789.html",
+          "publishedOn": "2026-09-08T15:52:05.000Z",
+          "wordCount": 305,
+          "title": "英特尔股价上涨8.6%",
+          "imageUrl": null
+        },
+        {
+          "id": "https://m.jiemian.com/article/15070794.html",
+          "author": null,
+          "description": "2026.09.08\n\n根据尼泊尔警方刚刚修正的最新数据，截至当地时间9月8日20时，尼泊尔泥石流灾害造成的遇难人数升至1366人。\n8月26日，尼泊尔边境地区突发冰川崩塌引发严重泥石流灾害，造成重大人员伤亡。（央视新闻）\n        \n\n获取更多RSS：\nhttps://feedx.net \nhttps://feedx.site",
+          "link": "https://m.jiemian.com/article/15070794.html",
+          "publishedOn": "2026-09-08T15:52:05.000Z",
+          "wordCount": 306,
+          "title": "尼泊尔泥石流灾害遇难人数升至1366人",
+          "imageUrl": null
+        },
+        {
+          "id": "https://m.jiemian.com/article/15070698.html",
+          "author": null,
+          "description": "2026.09.08\n\n平安消费金融有限公司近期拟进行管理层人事调整。平安消金董事长陈东起因临近退休，正式申请辞任职务。其将继续履行董事长的职责直至新任董事长的任职资格经监管机构核准为止。平安消金相关人士对财联社记者表示，此次变更为公司正常人事调整，新任董事长的安排在稳步推进中。数据显示，2020年平安消费金融成立，截至目前，平安消金贷款余额超600亿元，累计服务客户超1300万人次。（财联社记者 李婷）",
+          "link": "https://m.jiemian.com/article/15070698.html",
+          "publishedOn": "2026-09-08T15:22:07.000Z",
+          "wordCount": 306,
+          "title": "平安消费金融管理层更迭：董事长辞任，公司称将依规推进换届工作",
+          "imageUrl": null
+        },
+        {
+          "id": "https://m.jiemian.com/article/15070701.html",
+          "author": null,
+          "description": "2026.09.08\n\n以色列外长萨尔今天（9月8日）宣布，作为对“英国制裁约旦河西岸地区犹太人定居点”的回应，以色列政府将关闭英国驻耶路撒冷领事馆。\n萨尔还称，将驱逐英国驻巴勒斯坦加沙地带和以色列基里亚特加特“国际援助中心”的代表。（CCTV国际时讯）",
+          "link": "https://m.jiemian.com/article/15070701.html",
+          "publishedOn": "2026-09-08T15:22:07.000Z",
+          "wordCount": 306,
+          "title": "以色列称将关闭英国驻耶路撒冷领馆",
+          "imageUrl": null
+        },
+        {
+          "id": "https://m.jiemian.com/article/15070708.html",
+          "author": null,
+          "description": "2026.09.08\n\n9月8日，贵州省六盘水市中级人民法院一审公开宣判工银理财有限责任公司原党委副书记、监事长许海受贿一案，对被告人许海以受贿罪判处有期徒刑十年六个月，并处罚金人民币一百万元；对许海受贿所得及孳息依法予以追缴，上缴国库。\n经审理查明，2000年至2020年，被告人许海利用担任中国工商银行股份有限公司云南省分行党委委员、副行长，中国工商银行股份有限公司甘肃省分行党委书记、行长，中国工商银行股份有限公司云南省分行党委书记、行长等职务上的便利，为有关单位和人员在获取银行贷款、承接工程项目等事项上提供帮助，非法收受财物共计折合人民币1208万余元。\n六盘水市中级人民法院认为，被告人许海的行为构成受贿罪，受贿数额特别巨大，应依法惩处。鉴于许海归案后如实供述自己的罪行，主动交代办案机关尚未掌握的部分受贿事实，认罪悔罪，积极退赃，具有法定、酌定从轻处罚情节，依法可对其从轻处罚。法庭遂作出上述判决。\n据悉，六盘水市中级人民法院于近期公开开庭审理了该案。庭审中，检察机关出示了相关证据，被告人许海及其辩护人进行了质证，控辩双方在法庭的主持下充分发表了意见，许海进行了最后陈述，并当庭表示认罪悔罪。社会各界群众旁听了庭审。",
+          "link": "https://m.jiemian.com/article/15070708.html",
+          "publishedOn": "2026-09-08T15:22:07.000Z",
+          "wordCount": 308,
+          "title": "工银理财有限责任公司原党委副书记、监事长许海受贿案一审宣判",
+          "imageUrl": null
+        },
+        {
+          "id": "https://m.jiemian.com/article/15070717.html",
+          "author": null,
+          "description": "2026.09.08\n\n9月8日，应急管理部党委召开会议，通报中央纪委国家监委给予王祥喜开除党籍、开除公职的处分决定。与会同志一致表示，坚决拥护党中央决定，坚决拥护中央纪委国家监委决定。应急管理部党委书记、部长张成中主持会议。\n会议指出，党中央决定对王祥喜严重违纪违法问题严肃查处，充分彰显了以习近平同志为核心的党中央持之以恒推进全面从严治党，将反腐败斗争进行到底的坚定决心和如磐意志；充分体现了我们党保持高压态势不动摇，有腐必反、有贪必肃、除恶务尽的鲜明态度；充分释放了一刻不能停、半步不能退、矢志不移把反腐败斗争进行到底的强烈信号。部党委坚决拥护党中央决定，坚决拥护中央纪委国家监委决定。部系统各级党组织和广大党员干部要切实把思想和行动统一到党中央决定精神上来，深刻汲取王祥喜严重违纪违法案件教训，不断提高政治判断力、政治领悟力、政治执行力，强化党的创新理论武装，坚定理想信念，锤炼坚强党性，始终绷紧政治纪律和政治规矩这根弦，始终在政治立场、政治方向、政治原则、政治道路上同以习近平同志为核心的党中央保持高度一致，以实际行动和实际效果坚定拥护“两个确立”、坚决做到“两个维护”。\n会议强调，要以王祥喜严重违纪违法案件为镜鉴，准确把握习近平总书记关于反腐败斗争“两个仍然”的重大判断，进一步深化对反腐败斗争规律的认识，深入学习贯彻习近平党建思想，纵深推进应急管理系统党风廉政建设和反腐败斗争。要巩固拓展树立和践行正确政绩观学习教育成果，始终做到立党为公、为民造福、科学决策、真抓实干，在思想上树立正确政绩观、在行动上践行正确政绩观，坚决有力贯彻落实党中央重大决策部署、推动高质量发展，坚决有力为人民出政绩、以实干出政绩，坚决有力持之以恒推进全面从严治党，真正创造经得起实践、人民、历史检验的应急管理实绩。要坚定不移正风肃纪反腐，巩固拓展深入贯彻中央八项规定精神学习教育成果，常态化推进消防领域突出问题系统整治，打好安全生产领域风腐问题专项治理“收官攻坚战”，驰而不息纠治“四风”，坚决推进风腐同查同治，从严查处违规吃喝、违规收礼、权钱交易等问题，着力铲除腐败滋生的土壤和条件。要坚决扛牢管党治党政治责任，深入扎实做好中央巡视整改，强化对权力运行的监督，强化对“一把手”和领导班子的监督，始终做到公正用权、依法用权、为民用权、廉洁用权，扎紧制度笼子，严格制度执行，使管党治党责任链条一贯到底，推动全面从严治党向纵深发展，持续营造干事创业、风清气正的政治生态。",
+          "link": "https://m.jiemian.com/article/15070717.html",
+          "publishedOn": "2026-09-08T15:22:07.000Z",
+          "wordCount": 310,
+          "title": "应急管理部党委： 坚决拥护党中央对王祥喜的处分决定",
+          "imageUrl": null
+        },
+        {
+          "id": "https://m.jiemian.com/article/15070724.html",
+          "author": null,
+          "description": "2026.09.08\n\n据俄罗斯媒体报道，俄罗斯总统助理乌沙科夫9月8日表示，俄总统普京和美国总统特朗普的通话“富有建设性且非常坦诚”。\n\r\n\r\n乌沙科夫说，特朗普在通话中表达了有必要结束乌克兰危机的想法，特朗普希望在其总统任期内推动乌克兰问题调解取得突破。（新华社）",
+          "link": "https://m.jiemian.com/article/15070724.html",
+          "publishedOn": "2026-09-08T15:22:07.000Z",
+          "wordCount": 306,
+          "title": "俄方称普京与特朗普通话“富有建设性且非常坦诚”",
+          "imageUrl": null
+        },
+        {
+          "id": "https://m.jiemian.com/article/15070728.html",
+          "author": null,
+          "description": "2026.09.08\n\n恒大汽车在港交所公告，董事会宣布，批准本集团截至2024年及2025年12月31日止年度的年度业绩以及本集团截至2025年6月30日止六个月的中期业绩的董事会会议已改期至2026年9月16日（星期三）。",
+          "link": "https://m.jiemian.com/article/15070728.html",
+          "publishedOn": "2026-09-08T15:22:07.000Z",
+          "wordCount": 305,
+          "title": "恒大汽车：董事会会议已改期至9月16日",
+          "imageUrl": null
+        },
+        {
+          "id": "https://m.jiemian.com/article/15070734.html",
+          "author": null,
+          "description": "2026.09.08\n\n伊朗伊斯兰革命卫队海军今天（9月8日）发表声明称，其部队于今天黎明时分在霍尔木兹海峡入口处，通过一次“复杂的情报和作战行动”，成功捕获了美军一艘“最先进的智能无人潜艇”。据称这艘智能无人潜艇“配备了世界上最先进的水下技术”，于2025年交付给美军。（CCTV国际时讯）",
+          "link": "https://m.jiemian.com/article/15070734.html",
+          "publishedOn": "2026-09-08T15:22:07.000Z",
+          "wordCount": 305,
+          "title": "伊朗称捕获美军智能无人潜艇",
+          "imageUrl": null
+        },
+        {
+          "id": "https://m.jiemian.com/article/15070740.html",
+          "author": null,
+          "description": "2026.09.08\n\n美国8月纽约联储1年通胀预期为3.58%，前值3.63%。",
+          "link": "https://m.jiemian.com/article/15070740.html",
+          "publishedOn": "2026-09-08T15:22:07.000Z",
+          "wordCount": 305,
+          "title": "美国8月纽约联储1年通胀预期为3.58%",
+          "imageUrl": null
+        },
+        {
+          "id": "https://m.jiemian.com/article/15070746.html",
+          "author": null,
+          "description": "2026.09.08\n\n国内商品期市夜盘收盘多数上涨，化工品涨幅居前，CZCE甲醇涨3.93%；黑色系多数上涨，DCE焦煤涨1.73%；非金属建材全部上涨，DCE PVC涨1.63%；农副产品多数上涨，CZCE白糖涨0.31%；能源品全部上涨，DCE LPG涨0.21%；油脂油料跌幅居前，DCE豆二跌1.00%。",
+          "link": "https://m.jiemian.com/article/15070746.html",
+          "publishedOn": "2026-09-08T15:22:07.000Z",
+          "wordCount": 307,
+          "title": "国内商品期市夜盘收盘多数上涨，化工品涨幅居前",
+          "imageUrl": null
+        },
+        {
+          "id": "https://m.jiemian.com/article/15070681.html",
+          "author": null,
+          "description": "2026.09.08\n\n标普500指数跌幅扩大至0.5%，刷新日低。",
+          "link": "https://m.jiemian.com/article/15070681.html",
+          "publishedOn": "2026-09-08T14:52:06.000Z",
+          "wordCount": 305,
+          "title": "标普500指数跌幅扩大至0.5%",
+          "imageUrl": null
+        },
+        {
+          "id": "https://m.jiemian.com/article/15070667.html",
+          "author": null,
+          "description": "2026.09.08\n\n9月8日，第37届上海旅游节分会场新闻通气会举行。今年，上海旅游节分别在江苏无锡、浙江宁波、福建三明、湖南怀化、新疆喀什和福建长汀设立六个跨省分会场。各地不仅将展演、非遗和特色产品带到上海，还针对上海客源推出短途线路、消费券和门票减免等措施。\n\r\n\r\n9月13日，上海旅游节分会场多城联动新品发布会将在BFC外滩金融中心北区广场举行。无锡、宁波、怀化、喀什、三明和长汀将通过主题市集、文艺展演、专场推介和商圈快闪等形式，集中展示秋季文旅产品。\n\r\n\r\n距离上海高铁最快28分钟的无锡，重点发展面向上海游客的周末短途市场。无锡将推出“周五下班出发、周日轻松返程”的周末微度假产品，并准备近200项特色文旅活动、50余项惠民优惠举措，包括万张景区免费门票和酒店专属折扣。无锡还将依托上海的国际口岸优势，为来沪境外游客设计延伸至无锡的入境游线路。\n\r\n\r\n相距上海约800公里的三明，则通过航空和对口合作连接上海客源。上海游客最快1小时20分钟可抵达三明。今年6月，上海与三明联合发布20条“沪明新征程”红色主题游径，将党的诞生地与长征出发地相连接。三明还推出“带着机票游三明”优惠，乘坐航班抵达三明沙县机场的旅客，可凭机票和身份证在7日内享受当地18家景区（点）免门票一次。\n\r\n\r\n宁波将推出“今秋·趣宁波”系列活动，覆盖景区、酒店民宿、文化场馆和核心商圈，并由市县两级联动发放文旅消费券。9月13日，宁波还将在上海举行文旅推介暨象山开渔之旅推广活动，发布上海市民专属折扣。\n\r\n\r\n怀化以“跟着蒙曼游怀化”为主题推出四条旅游线路，并投放百万元文旅消费券，覆盖全市200余家合作商户、50多家酒店和65家A级景区。上海旅游节大巡游期间，怀化民族歌舞剧团还将带来侗族芦笙和民族舞蹈，与上海同期举行的马王堆汉墓国宝艺术大展形成文博IP联动。\n\n\r\n\r\n此外，喀什将推出串联古城民俗、帕米尔高原和大漠胡杨的金秋丝路旅游线路，并联合在线旅游平台提供住宿、机票和租车优惠；长汀则推出4天3晚、5天4晚等客家文化主题行程，并面向部分游客实施门票优惠。",
+          "link": "https://m.jiemian.com/article/15070667.html",
+          "publishedOn": "2026-09-08T14:52:06.000Z",
+          "wordCount": 314,
+          "title": "上海旅游节联动六个跨省分会场，多地推出上海游客专属优惠",
+          "imageUrl": null
+        },
+        {
+          "id": "https://m.jiemian.com/article/15070690.html",
+          "author": null,
+          "description": "2026.09.08\n\n据俄罗斯媒体9月8日报道，俄罗斯总统普京与美国总统特朗普当天通电话，通话持续一小时，双方讨论了乌克兰危机等问题。（新华社）",
+          "link": "https://m.jiemian.com/article/15070690.html",
+          "publishedOn": "2026-09-08T14:52:06.000Z",
+          "wordCount": 305,
+          "title": "普京与特朗普通话，讨论乌克兰危机等问题",
+          "imageUrl": null
+        },
+        {
+          "id": "https://m.jiemian.com/article/15070656.html",
+          "author": null,
+          "description": "2026.09.08\n\n具身人形机器人将出现在第37届上海旅游节大巡游的花车上，按照设计，机器人将陪伴游客乘坐花车驶入外滩，一边进行实时智能导览讲解，一边现场制作冰沙。\n\r\n\r\n9月8日下午，第37届上海旅游节花车巡游暨评选大赛新闻通气会举行。据介绍，今年全新制作的21辆主题花车将于9月12日在外滩集结亮相，与21支境内外表演方队共同组成巡游方阵。\n\r\n\r\n东浩兰生会展集团股份有限公司副总裁、上海旅游节项目部总经理李理介绍，本届大巡游最大的科技看点来自它石智航的“具身智行·智游上海”主题花车。上海旅游节将首次把具身人形机器人应用于花车巡游场景，并把行驶中的花车设计成一个移动的“旅游驿站”。\n\r\n\r\n目前，人形机器人在文旅领域的应用主要集中于景点导览和消费服务等场景。此次花车将两类功能放在巡游过程中集中展示。\n\r\n\r\n除具身人形机器人外，多辆花车也融入数字技术。上海工艺美术厂与西泠印社合作，通过光影呈现篆刻艺术；浦发银行、上海银行、工商银行等花车使用数字光影技术；滴水湖旅游度假区花车则集中展示上海天文馆、中国航海博物馆、耀雪冰雪世界、上海海昌海洋公园等文旅项目。\n\r\n\r\n外滩巡游结束后，9月13日至10月6日，21辆花车将分批进入静安、崇明、虹口、嘉定、青浦、徐汇、临港、闵行、普陀、松江等十个区域巡游或展示。9月29日至10月6日，全部花车还将集中亮相松江广富林文化遗址。",
+          "link": "https://m.jiemian.com/article/15070656.html",
+          "publishedOn": "2026-09-08T14:52:06.000Z",
+          "wordCount": 313,
+          "title": "上海旅游节首次将具身人形机器人用于花车巡游",
+          "imageUrl": null
+        },
+        {
+          "id": "https://m.jiemian.com/article/15070601.html",
+          "author": null,
+          "description": "2026.09.08\n\n就在波斯湾局势持续动荡之际，阿拉伯半岛的另一侧风云突变。\n\r\n\r\n沙特领导的也门联军在9月8日称，也门胡塞武装袭击了沙特西南部阿卜哈、海米斯穆谢特、奈季兰和吉赞等地的民用及经济设施，造成73人受伤，其中包括女性和儿童。\n\r\n\r\n沙特能源部透露，该国多处能源设施及公用设施遭到袭击后多处地点起火，部分设施的运营暂时中断。沙特外交部则以最强烈的措辞谴责和抗议。\n\r\n\r\n胡塞武装随后发表声明称，过去3天，沙特方面从位于海米斯穆谢特的哈立德国王空军基地以及位于塔伊夫的法赫德国王空军基地出动战机，对也门马里卜、拜达、荷台达、塔伊兹和焦夫等省发动121次空袭。空袭造成焦夫省遭袭，并导致包括妇女和儿童在内的多人伤亡。\n\r\n\r\n作为回应，该武装组织用数十枚弹道导弹和无人机袭击沙特阿美石油公司位于艾卜哈、奈季兰等地的设施，以及经济城、沙特国家石油公司（沙特阿美）吉赞设施和海米斯穆谢特空军基地，并警告将继续开展针对沙特纵深地区的军事行动，并继续实施所谓“以封锁对封锁”的行动，直至“停止军事行动并解除对也门的封锁”。\n\r\n\r\n受袭击影响，北海布伦特原油价格一度逼近每桶100美元大关，WTI原油也涨至94美元以上。\n\n\r\n\r\n鉴于局势可能进一步恶化，中国驻沙特大使馆再次提醒在沙中资机构和中国公民密切关注沙特和中东地区形势发展，采取必要措施切实加强安全防范，及时避险，不要拍摄军事行动，不传播未经证实的消息。有乘飞机出行计划的旅客与有关航司保持密切联系，以免影响行程。\n\r\n\r\n\n\r\n\r\n胡塞武装和伊朗同属于伊斯兰教什叶派，在也门北部拥有深厚的本土根基。自2022年7月停火协议破裂以来，也门胡塞武装与沙特支持的也门政府军在红海曼德海峡的控制权问题上持续交战，冲突日益激烈。\n\r\n\r\n今年2月底以来，胡塞武装借美伊冲突的窗口期扩张自身势力。本轮冲突升级的直接导火索发生在今年7月13日，当时一架搭载胡塞代表团的伊朗客机计划降落萨那机场时，遭也门政府军空袭跑道阻止，胡塞武装将此事件归咎于沙特支持，随即启动报复行动。这直接打破了2022年联合国斡旋达成的、维持了4年的事实停火状态。\n\r\n\r\n界面新闻查询中国外交部网站获悉，沙特石油剩余可采储量2672亿桶，居世界第二位，天然气剩余可采储量6万亿立方米，约占世界储量的3.2％。石油收入占其国家财政收入的68％、国内生产总值27％。\n\r\n\r\n胡塞武装依托地理优势扼守红海航道，已累计袭击8艘沙特油轮，迫使29艘油轮返航，直接冲击全球石油运输通道安全。红海航道也是沙特能源出口的核心命门之一。\n\r\n\r\n伊朗战事爆发后，为了避开受阻的霍尔木兹海峡，沙特阿美利用一条横贯东西的输油管道，把该国东部波斯湾产油区生产的原油输送到红海沿岸的延布港。这条管道日均输送能力峰值达700万桶，其中约500万桶用于出口。\n\r\n\r\n根据国际市场服务机构克普勒公司和伦敦证券交易所集团航运研究公司数据，一艘油轮从沙特西部红海港口延布经曼德海峡驶往亚洲，通常仅需19天。经由苏伊士运河、地中海、直布罗陀海峡，再绕过非洲好望角至亚洲的航线则需要48天。\n\r\n\r\n伊朗战事爆发前，沙特日均石油总出口量约700万桶。为确保国际市场供应稳定，沙特阿美开始增加通过“苏迈德”输油管道的原油供应。多名贸易消息人士表示，除运往亚洲，沙特阿美已向欧洲和北美部分长期客户新增来自西迪克里尔港的原油现货供应。",
+          "link": "https://m.jiemian.com/article/15070601.html",
+          "publishedOn": "2026-09-08T14:52:06.000Z",
+          "wordCount": 321,
+          "title": "4年来最严重冲突升级，胡塞武装袭击沙特本土民用设施致73人受伤",
+          "imageUrl": null
+        },
         {
           "id": "https://m.jiemian.com/article/15069922.html",
           "author": null,
@@ -44149,6 +45339,16 @@
       "siteUrl": "https://www.ftchinese.com/",
       "articles": [
         {
+          "id": "https://www.ftchinese.com/story/001110806",
+          "author": null,
+          "description": "随着中国汽车涌入英国市场，由印度塔塔汽车拥有的这家英国汽车制造商在销量下滑之际致力于削减成本。",
+          "link": "https://www.ftchinese.com/story/001110806",
+          "publishedOn": "2026-09-06T16:00:00.000Z",
+          "wordCount": null,
+          "title": "中资竞争升温 捷豹路虎拟裁4000岗位",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.ftchinese.com/interactive/293330",
           "author": null,
           "description": "德国选择党在萨克森-安哈尔特州取得惊人胜利，暴露出德国政治中间派正走向崩塌。",
@@ -47769,6 +48969,26 @@
       "siteUrl": "https://www.infoq.cn",
       "articles": [
         {
+          "id": "https://www.infoq.cn/article/qpSkHGrYpAYzv8OZtsC8?utm_source=rss&utm_medium=article",
+          "author": "刘翔宇",
+          "description": "点击查看原文>",
+          "link": "https://www.infoq.cn/article/qpSkHGrYpAYzv8OZtsC8?utm_source=rss&utm_medium=article",
+          "publishedOn": "2026-09-08T20:59:09.000Z",
+          "wordCount": null,
+          "title": "从告警风暴到一句话诊断：HCF 全息编码框架科普",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.infoq.cn/article/IR6XdUEok3aY1YSDOvat?utm_source=rss&utm_medium=article",
+          "author": "李冬梅",
+          "description": "点击查看原文>",
+          "link": "https://www.infoq.cn/article/IR6XdUEok3aY1YSDOvat?utm_source=rss&utm_medium=article",
+          "publishedOn": "2026-09-08T20:35:10.000Z",
+          "wordCount": null,
+          "title": "Arm 发布 Neoverse CSS N4：单裸片最高128核，押注智能体时代 CPU 需求",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.infoq.cn/article/C8WbrpalJEjLfSh2xJJj?utm_source=rss&utm_medium=article",
           "author": "作者：Olimpiu Pop",
           "description": "点击查看原文>",
@@ -48735,6 +49955,16 @@
       "feedUrl": "https://www.newsmth.net/nForum/rss/topten",
       "siteUrl": "http://www.newsmth.net/nForum",
       "articles": [
+        {
+          "id": "http://www.newsmth.net/nForum/article/ChildEducation/2585989",
+          "author": "shuos05aaa",
+          "description": "������: shuos05aaa (piggy), ����: ChildEducation\n��  ��: ����������ҪʲôҪ��\n����վ: ˮľ���� (Mon Sep  7 14:36:59 2026), վ��\n���ʣ����һ���������������̶��г�������ı��֣�������������أ�Ŀǰ��һ�꼶��������2-3�꼶��\n������������������Щ��������Ҫʲô�������ܺܺõ�ʵ�������Լ��������ѧϰ�����\n--\n�� ��Դ:��ˮľ���� http://www.mysmth.net��[FROM: 117.133.182.*]",
+          "link": "http://www.newsmth.net/nForum/article/ChildEducation/2585989",
+          "publishedOn": "2026-09-08T15:15:13.000Z",
+          "wordCount": 26,
+          "title": "����������ҪʲôҪ��",
+          "imageUrl": null
+        },
         {
           "id": "http://www.newsmth.net/nForum/article/OurEstate/3508008",
           "author": "casid",
@@ -52439,6 +53669,166 @@
       "siteUrl": "https://www.reddit.com/r/popular/",
       "articles": [
         {
+          "id": "https://www.reddit.com/r/meirl/comments/1war626/meirl/",
+          "author": null,
+          "description": "submitted by    /u/rotomato30    to    r/meirl  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/meirl/comments/1war626/meirl/",
+          "publishedOn": "2026-09-08T15:12:41.000Z",
+          "wordCount": null,
+          "title": "Meirl",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/Unexpected/comments/1wapy6u/what_motivates_you_to_come_to_work_everyday/",
+          "author": null,
+          "description": "submitted by    /u/Subterfug3    to    r/Unexpected  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/Unexpected/comments/1wapy6u/what_motivates_you_to_come_to_work_everyday/",
+          "publishedOn": "2026-09-08T14:27:56.000Z",
+          "wordCount": null,
+          "title": "What motivates you to come to work everyday?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/politics/comments/1wapwj3/mamdani_releases_undisclosed_911_files_showing/",
+          "author": null,
+          "description": "submitted by    /u/Aggravating_Money992    to    r/politics  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/politics/comments/1wapwj3/mamdani_releases_undisclosed_911_files_showing/",
+          "publishedOn": "2026-09-08T14:26:12.000Z",
+          "wordCount": null,
+          "title": "Mamdani releases undisclosed 9/11 files showing New Yorkers were not told the truth about air quality at Ground Zero | ‘People got sick because the leaders they trusted lied,’ the mayor says",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/whenthe/comments/1wao64j/it_keeps_me_humble/",
+          "author": null,
+          "description": "submitted by    /u/AggressiveMonitor7    to    r/whenthe  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/whenthe/comments/1wao64j/it_keeps_me_humble/",
+          "publishedOn": "2026-09-08T13:17:36.000Z",
+          "wordCount": null,
+          "title": "It keeps me humble",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/cringereels/comments/1wanqd4/comparing_different_realities/",
+          "author": null,
+          "description": "submitted by    /u/loader96loaded    to    r/cringereels  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/cringereels/comments/1wanqd4/comparing_different_realities/",
+          "publishedOn": "2026-09-08T12:59:21.000Z",
+          "wordCount": null,
+          "title": "Comparing different realities",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/PoursTea/comments/1wani4v/bigotry/",
+          "author": null,
+          "description": "submitted by    /u/Veshaad    to    r/PoursTea  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/PoursTea/comments/1wani4v/bigotry/",
+          "publishedOn": "2026-09-08T12:48:59.000Z",
+          "wordCount": null,
+          "title": "Bigotry",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/UpliftingNews/comments/1wamnvv/australia_to_force_social_media_platforms_to/",
+          "author": null,
+          "description": "submitted by    /u/No-Lifeguard-8173    to    r/UpliftingNews  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/UpliftingNews/comments/1wamnvv/australia_to_force_social_media_platforms_to/",
+          "publishedOn": "2026-09-08T12:11:14.000Z",
+          "wordCount": null,
+          "title": "Australia to force social media platforms to allow users to opt out of algorithms",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/Damnthatsinteresting/comments/1wamjop/this_is_the_largest_singlebuilding_pig_farm_in/",
+          "author": null,
+          "description": "submitted by    /u/James_Fortis    to    r/Damnthatsinteresting  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/Damnthatsinteresting/comments/1wamjop/this_is_the_largest_singlebuilding_pig_farm_in/",
+          "publishedOn": "2026-09-08T12:05:50.000Z",
+          "wordCount": null,
+          "title": "This is the largest single-building pig farm in the world. At 26 storeys high, it can slaughter 1.2 million pigs per year. It was built in Ezhou, China, to help the country's exploding demand for pork. Pork is China's most popular meat, with the country consuming nearly half of global pork demand.",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/BlackPeopleTwitter/comments/1wam2c2/they_really_try_to_make_mamdani_look_like_a/",
+          "author": null,
+          "description": "submitted by    /u/saucey_dawg0023    to    r/BlackPeopleTwitter  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/BlackPeopleTwitter/comments/1wam2c2/they_really_try_to_make_mamdani_look_like_a/",
+          "publishedOn": "2026-09-08T11:43:54.000Z",
+          "wordCount": null,
+          "title": "They really try to make Mamdani look like a villain",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/PeterExplainsTheJoke/comments/1wals71/why_like_5_year_old_petah_im_not_from_na/",
+          "author": null,
+          "description": "submitted by    /u/HimelTy    to    r/PeterExplainsTheJoke  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/PeterExplainsTheJoke/comments/1wals71/why_like_5_year_old_petah_im_not_from_na/",
+          "publishedOn": "2026-09-08T11:30:07.000Z",
+          "wordCount": null,
+          "title": "Why like 5 year old PETAH ? I'm not from NA",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/interestingasfuck/comments/1walqb2/view_flying_over_the_sahara_desert/",
+          "author": null,
+          "description": "submitted by    /u/HimelTy    to    r/interestingasfuck  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/interestingasfuck/comments/1walqb2/view_flying_over_the_sahara_desert/",
+          "publishedOn": "2026-09-08T11:27:22.000Z",
+          "wordCount": null,
+          "title": "View flying over the Sahara desert",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/news/comments/1walnkv/uae_leader_warned_netanyahu_of_hamas_attack_days/",
+          "author": null,
+          "description": "submitted by    /u/AdSufficient7201    to    r/news  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/news/comments/1walnkv/uae_leader_warned_netanyahu_of_hamas_attack_days/",
+          "publishedOn": "2026-09-08T11:23:43.000Z",
+          "wordCount": null,
+          "title": "UAE leader warned Netanyahu of Hamas attack days before October 7, says report",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/comics/comments/1wakzk1/billionaire_heaven_elon_musk_part_1_of_3/",
+          "author": null,
+          "description": "Shareable PDF of this comic and lots of citations on Patreon.com/#noneofthisisok.\n Follow #noneofthisisok wherever you fritter: linktr.ee\n    submitted by    /u/thisecommercelife    to    r/comics  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/comics/comments/1wakzk1/billionaire_heaven_elon_musk_part_1_of_3/",
+          "publishedOn": "2026-09-08T10:49:35.000Z",
+          "wordCount": null,
+          "title": "\"Billionaire Heaven\" (Elon Musk, part 1 of 3)",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/postanythingfun/comments/1wakx5a/asking_for_a_friend/",
+          "author": null,
+          "description": "submitted by    /u/T_Shurt    to    r/postanythingfun  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/postanythingfun/comments/1wakx5a/asking_for_a_friend/",
+          "publishedOn": "2026-09-08T10:45:59.000Z",
+          "wordCount": null,
+          "title": "Asking For a Friend",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/TikTokCringe/comments/1wakvj0/the_easiest_30k_this_guy_ever_made/",
+          "author": null,
+          "description": "On October 26, 2022, the judge ruled that Walden's contact with Land should have ended when it became clear that Land was not sleeping in the park or in need of assistance, and that the city was not responsible for Walden's actions.\n On November 22, 2022, the city settled the lawsuit for $30,000.\n    submitted by    /u/New_Libran    to    r/TikTokCringe  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/TikTokCringe/comments/1wakvj0/the_easiest_30k_this_guy_ever_made/",
+          "publishedOn": "2026-09-08T10:43:36.000Z",
+          "wordCount": null,
+          "title": "The easiest $30k this guy ever made",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/AskReddit/comments/1wait5c/what_did_you_not_realise_was_optional_in_life/",
+          "author": null,
+          "description": "submitted by    /u/Vanja_x    to    r/AskReddit  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/AskReddit/comments/1wait5c/what_did_you_not_realise_was_optional_in_life/",
+          "publishedOn": "2026-09-08T08:46:33.000Z",
+          "wordCount": null,
+          "title": "What did you not realise was optional in life until you saw someone simply refused to do it?",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.reddit.com/r/Steam/comments/1waikdk/cant_even_argue_it/",
           "author": null,
           "description": "submitted by    /u/Ion_7852    to    r/Steam  \n [link]   [comments]",
@@ -52479,6 +53869,16 @@
           "imageUrl": null
         },
         {
+          "id": "https://www.reddit.com/r/resilienzDE/comments/1wahjx7/wer_ist_der_idiot/",
+          "author": null,
+          "description": "submitted by    /u/aotto1968_2    to    r/resilienzDE  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/resilienzDE/comments/1wahjx7/wer_ist_der_idiot/",
+          "publishedOn": "2026-09-08T07:30:15.000Z",
+          "wordCount": null,
+          "title": "WER ist der IDIOT ?",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.reddit.com/r/Philippines/comments/1wagv7p/the_actual_video_where_defense_secretary_gilberto/",
           "author": null,
           "description": "submitted by    /u/chasing_enigma    to    r/Philippines  \n [link]   [comments]",
@@ -52509,6 +53909,26 @@
           "imageUrl": null
         },
         {
+          "id": "https://www.reddit.com/r/funComunitty/comments/1waeofs/first_1k_people_to_comment_will_get_a_free_award/",
+          "author": null,
+          "description": "gonna be painful\n EDIT: some people wil prob not get an award bc there are way too many comments\n EDIT 2: yo guys can you stop commenting on my post??\n    submitted by    /u/LARPINGTON_THE_THIRD    to    r/funComunitty  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/funComunitty/comments/1waeofs/first_1k_people_to_comment_will_get_a_free_award/",
+          "publishedOn": "2026-09-08T04:49:21.000Z",
+          "wordCount": null,
+          "title": "First 1k people to comment will get a free award",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/CFB/comments/1waeiie/postgame_thread_smu_defeats_florida_state_2724/",
+          "author": null,
+          "description": "Box Score provided by ESPN\n  \n Team 1 2 3 4 T \n  \n SMU 7 10 0 10 27 \n  Florida State 7 3 7 7 24 \n \n    submitted by    /u/CFB_Referee    to    r/CFB  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/CFB/comments/1waeiie/postgame_thread_smu_defeats_florida_state_2724/",
+          "publishedOn": "2026-09-08T04:40:41.000Z",
+          "wordCount": null,
+          "title": "[Postgame Thread] SMU Defeats Florida State 27-24",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.reddit.com/r/MadeMeSmile/comments/1wae00g/turtles_when_a_job_requires_exactly_0_turtles_lol/",
           "author": null,
           "description": "submitted by    /u/ImmaFuckboi    to    r/MadeMeSmile  \n [link]   [comments]",
@@ -52536,6 +53956,16 @@
           "publishedOn": "2026-09-08T03:45:55.000Z",
           "wordCount": null,
           "title": "TIL that the Civilizations games (and others) include creator Sid Meier's name in the title because Robin Williams joked that it would help sell more copies of 1987's Sid Meier's Pirates.",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/popculturechat/comments/1wachx7/whats_the_most_unfortunate_celebrity_picture/",
+          "author": null,
+          "description": "I’m not gonna lie. I saw this picture today and I had to share it simply because I had never seen it before and also because I think this may be one of the most unfortunate celebrity pics of all time. I’m 100% certain this visit was done with the best of intentions and everybody involved was probably very happy with the visit… but just look at this juxtaposition ffs.\n    submitted by    /u/Hot-Crow506    to    r/popculturechat  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/popculturechat/comments/1wachx7/whats_the_most_unfortunate_celebrity_picture/",
+          "publishedOn": "2026-09-08T02:58:07.000Z",
+          "wordCount": null,
+          "title": "What’s the most unfortunate celebrity picture you’ve ever seen?",
           "imageUrl": null
         },
         {
@@ -52576,6 +54006,26 @@
           "publishedOn": "2026-09-08T01:00:38.000Z",
           "wordCount": null,
           "title": "how to make this not happen?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/mildlyinfuriating/comments/1wa8y3q/the_speakerphone_paradox/",
+          "author": null,
+          "description": "I was at the pool today when a woman started having a conversation on her phone using the speaker.\n I politely asked her if she could not use the speaker and pointed to my headphones.\n She said, “I don’t have headphones.”\n So I said, “You can just hold the phone next to your ear.”\n She looked at me with a completely blank expression and said, “I’m on speakerphone.”\n I said, “Well… that’s the problem.”\n Apparently, we had reached the limits of modern technology.\n    submitted by    /u/NeighborhoodJust1197    to    r/mildlyinfuriating  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/mildlyinfuriating/comments/1wa8y3q/the_speakerphone_paradox/",
+          "publishedOn": "2026-09-08T00:13:18.000Z",
+          "wordCount": null,
+          "title": "The speakerphone paradox",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/nextfuckinglevel/comments/1wa8a3l/world_record_speed_burrito_eater/",
+          "author": null,
+          "description": "Leah Shutkever. In the Guinness Book of World Records.\n    submitted by    /u/HomeNowWTF    to    r/nextfuckinglevel  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/nextfuckinglevel/comments/1wa8a3l/world_record_speed_burrito_eater/",
+          "publishedOn": "2026-09-07T23:44:08.000Z",
+          "wordCount": null,
+          "title": "World record speed burrito eater",
           "imageUrl": null
         },
         {
@@ -87363,6 +88813,186 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://podcast.switchedtolinux.com/@tehankorage/episodes/why-im-not-excited-about-the-graphene-os-and-motorola-partnership",
+          "author": null,
+          "description": "Comments",
+          "link": "https://podcast.switchedtolinux.com/@tehankorage/episodes/why-im-not-excited-about-the-graphene-os-and-motorola-partnership",
+          "publishedOn": "2026-09-08T16:07:04.000Z",
+          "wordCount": 278,
+          "title": "Why I'm Not Excited About the Graphene OS and Motorola Partnership",
+          "imageUrl": "https://podcast.switchedtolinux.com/media/podcasts/tehankorage/why-im-not-excited-about-the-graphene-os-and-motorola-partnership_og.png"
+        },
+        {
+          "id": "https://arxiv.org/abs/2504.02246",
+          "author": null,
+          "description": "Comments",
+          "link": "https://arxiv.org/abs/2504.02246",
+          "publishedOn": "2026-09-08T15:56:56.000Z",
+          "wordCount": 698,
+          "title": "C*: Unifying Programming and Verification in C",
+          "imageUrl": "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+        },
+        {
+          "id": "https://www.habchy.dev/writing/renovating-a-vibe-coded-app",
+          "author": null,
+          "description": "Comments",
+          "link": "https://www.habchy.dev/writing/renovating-a-vibe-coded-app",
+          "publishedOn": "2026-09-08T15:45:08.000Z",
+          "wordCount": 2911,
+          "title": "Renovating a vibe-coded app: the code was readable, the reasoning was gone",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.theguardian.com/technology/2026/sep/08/us-law-enforcement-meta-smart-glasses",
+          "author": null,
+          "description": "Comments",
+          "link": "https://www.theguardian.com/technology/2026/sep/08/us-law-enforcement-meta-smart-glasses",
+          "publishedOn": "2026-09-08T15:39:49.000Z",
+          "wordCount": 4986,
+          "title": "US police fear Meta smart glasses could be used to secretly record them",
+          "imageUrl": "https://i.guim.co.uk/img/media/03f41f427333165fbf72c8ab3c4b65afa1b3cfda/500_0_5000_4000/master/5000.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=117484266ca8c8bec2c048bd3fbc796c"
+        },
+        {
+          "id": "https://cwodtke.com/disappointed-optimists/",
+          "author": null,
+          "description": "Comments",
+          "link": "https://cwodtke.com/disappointed-optimists/",
+          "publishedOn": "2026-09-08T15:13:56.000Z",
+          "wordCount": 4654,
+          "title": "Disappointed Optimists",
+          "imageUrl": "https://cwodtke.com/wp-content/uploads/2026/07/disappointed-optimists.png"
+        },
+        {
+          "id": "https://logicola.org/blog/the-new-logicola",
+          "author": null,
+          "description": "Comments",
+          "link": "https://logicola.org/blog/the-new-logicola",
+          "publishedOn": "2026-09-08T15:00:43.000Z",
+          "wordCount": 14247,
+          "title": "Reverse engineering the 2008 LogiCola, a logic drill program",
+          "imageUrl": "https://logicola.org/blog/the-new-logicola/opengraph-image-yqks0s/card?8850c3e9dffeceb1"
+        },
+        {
+          "id": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/alphagenome-atlas/",
+          "author": null,
+          "description": "Comments",
+          "link": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/alphagenome-atlas/",
+          "publishedOn": "2026-09-08T14:55:45.000Z",
+          "wordCount": 3410,
+          "title": "Google DeepMind Releases AlphaGenome Atlas",
+          "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AlphaGenome_Atlas_herosocial.width-1300.png"
+        },
+        {
+          "id": "https://bumbershootsoft.wordpress.com/2026/09/05/zx-spectrum-experimenting-with-1-bit-sound/",
+          "author": null,
+          "description": "Comments",
+          "link": "https://bumbershootsoft.wordpress.com/2026/09/05/zx-spectrum-experimenting-with-1-bit-sound/",
+          "publishedOn": "2026-09-08T14:54:29.000Z",
+          "wordCount": 7231,
+          "title": "ZX Spectrum: Experimenting with 1-Bit Sound",
+          "imageUrl": "https://s0.wp.com/i/blank.jpg?m=1383295312i"
+        },
+        {
+          "id": "https://alphageo.ai/how-climate-resilient-are-the-worlds-largest-cities/",
+          "author": null,
+          "description": "Comments",
+          "link": "https://alphageo.ai/how-climate-resilient-are-the-worlds-largest-cities/",
+          "publishedOn": "2026-09-08T14:49:39.000Z",
+          "wordCount": 3513,
+          "title": "How Climate Resilient Are the Largest Cities?",
+          "imageUrl": "https://alphageo.ai/wp-content/uploads/2026/03/Climate-Resilient-Are-the-Worlds-Largest-Cities.edited.jpg"
+        },
+        {
+          "id": "https://quesma.com/blog/qwen38-27b-quantizations-benchmarked/",
+          "author": null,
+          "description": "Comments",
+          "link": "https://quesma.com/blog/qwen38-27b-quantizations-benchmarked/",
+          "publishedOn": "2026-09-08T14:49:19.000Z",
+          "wordCount": 1662,
+          "title": "Benchmarking Qwen3.8 27B quantizations: 4-bit holds up, 1-bit collapses",
+          "imageUrl": "https://quesma.com/_astro/thumbnail.B4Hy1R5v.png"
+        },
+        {
+          "id": "https://signoregalilei.com/2026/08/30/the-two-christian-saints-who-are-secretly-the-buddha/",
+          "author": null,
+          "description": "Comments",
+          "link": "https://signoregalilei.com/2026/08/30/the-two-christian-saints-who-are-secretly-the-buddha/",
+          "publishedOn": "2026-09-08T14:44:25.000Z",
+          "wordCount": 3139,
+          "title": "The two Christian saints who are the Buddha",
+          "imageUrl": "https://signoregalilei.com/wp-content/uploads/2026/08/Святые_Варлаам_и_Иоасаф_Индийский_царевич__saints_Barlaam_and_Josaphat_prince_of_India.jpg"
+        },
+        {
+          "id": "https://www.404media.co/a-secretive-dhs-predictive-policing-unit-is-analyzing-americans-financial-habits-and-pulling-them-over/",
+          "author": null,
+          "description": "Comments",
+          "link": "https://www.404media.co/a-secretive-dhs-predictive-policing-unit-is-analyzing-americans-financial-habits-and-pulling-them-over/",
+          "publishedOn": "2026-09-08T14:40:30.000Z",
+          "wordCount": 2200,
+          "title": "DHS 'Predictive Policing' Unit Is Analyzing Americans' Financial Habits",
+          "imageUrl": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/size/w1200/2026/09/dhs-police.png"
+        },
+        {
+          "id": "https://www.techdirt.com/2026/09/08/paramount-caught-using-astroturf-group-to-drum-up-fake-support-for-merger/",
+          "author": null,
+          "description": "Comments",
+          "link": "https://www.techdirt.com/2026/09/08/paramount-caught-using-astroturf-group-to-drum-up-fake-support-for-merger/",
+          "publishedOn": "2026-09-08T14:33:52.000Z",
+          "wordCount": 3006,
+          "title": "Paramount Caught Using 'Astroturf' Group to Drum Up Fake Support for Merger",
+          "imageUrl": "https://www.techdirt.com/wp-content/themes/techdirt/assets/images/td-rect-logo-white.png"
+        },
+        {
+          "id": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/",
+          "author": null,
+          "description": "Comments",
+          "link": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/",
+          "publishedOn": "2026-09-08T14:14:15.000Z",
+          "wordCount": 3160,
+          "title": "AlphaGenome Atlas predictive map of every DNA letter change in the human genome",
+          "imageUrl": "https://lh3.googleusercontent.com/vOjFcTcdX2GCEB9yk-tJ7GAfyhTAMo-zW7scq3TrT9qk1mYw5qE0BdUqI8XQclMuUchZr7pYUFdVt3ZzrXc1NGFFJOqi7kIUX_QuAXZR7lkVzxjk=w1200-h630-n-nu-rw"
+        },
+        {
+          "id": "https://manualdousuario.net/en/libreoffice-download-record-no-ai/",
+          "author": null,
+          "description": "Comments",
+          "link": "https://manualdousuario.net/en/libreoffice-download-record-no-ai/",
+          "publishedOn": "2026-09-08T14:05:57.000Z",
+          "wordCount": 707,
+          "title": "LibreOffice breaks download records after declaring it has no AI features",
+          "imageUrl": "https://manualdousuario.net/wp-content/uploads/2026/09/libreoffice.png"
+        },
+        {
+          "id": "https://www.blackmagicdesign.com/media/release/20260908-03",
+          "author": null,
+          "description": "Comments",
+          "link": "https://www.blackmagicdesign.com/media/release/20260908-03",
+          "publishedOn": "2026-09-08T13:36:53.000Z",
+          "wordCount": 858,
+          "title": "DaVinci Resolve 21.1",
+          "imageUrl": null
+        },
+        {
+          "id": "https://copperhead.sh/",
+          "author": null,
+          "description": "Comments",
+          "link": "https://copperhead.sh/",
+          "publishedOn": "2026-09-08T13:26:45.000Z",
+          "wordCount": 2118,
+          "title": "Show HN: Copperhead – Hardware as Fast as Software",
+          "imageUrl": "https://copperhead.sh/og-image.png"
+        },
+        {
+          "id": "https://www.freebsd.org/releases/14.5R/announce/",
+          "author": null,
+          "description": "Comments",
+          "link": "https://www.freebsd.org/releases/14.5R/announce/",
+          "publishedOn": "2026-09-08T12:04:04.000Z",
+          "wordCount": 2731,
+          "title": "FreeBSD 14.5-Release",
+          "imageUrl": "/favicon.ico"
+        },
+        {
           "id": "https://www.bbc.com/future/article/20260904-how-getting-your-hands-dirty-boosts-your-health-within-weeks",
           "author": null,
           "description": "Comments",
@@ -87633,6 +89263,16 @@
           "imageUrl": null
         },
         {
+          "id": "https://hackaday.com/2026/09/07/the-helicopter-with-radioactive-blades/",
+          "author": null,
+          "description": "Comments",
+          "link": "https://hackaday.com/2026/09/07/the-helicopter-with-radioactive-blades/",
+          "publishedOn": "2026-09-07T17:44:33.000Z",
+          "wordCount": 3553,
+          "title": "The Helicopter with Radioactive Blades",
+          "imageUrl": "https://hackaday.com/wp-content/uploads/2026/09/CH-53D_Sea_Stallion_of_HMH-362_in_Afghanistan_on_26_May_2012.jpg"
+        },
+        {
           "id": "https://www.techemails.com/p/bill-gates-tries-to-install-movie-maker",
           "author": null,
           "description": "Comments",
@@ -87883,6 +89523,16 @@
           "imageUrl": "https://pbs.twimg.com/card_img/2094942939721920512/sLH5zf5k?format=jpg&name=orig"
         },
         {
+          "id": "https://www.nytimes.com/2026/09/06/science/92-year-old-mathematician-apprentice.html",
+          "author": null,
+          "description": "Comments",
+          "link": "https://www.nytimes.com/2026/09/06/science/92-year-old-mathematician-apprentice.html",
+          "publishedOn": "2026-09-06T22:27:27.000Z",
+          "wordCount": null,
+          "title": "The 92-Year-Old Mathematician and the Teenage Apprentice",
+          "imageUrl": null
+        },
+        {
           "id": "https://github.com/marsbos/mador",
           "author": null,
           "description": "Comments",
@@ -88120,6 +89770,16 @@
           "publishedOn": "2026-09-06T14:08:59.000Z",
           "wordCount": 1895,
           "title": "Asahi Linux Now Officially Supports Apple M3 Macs – With Caveats",
+          "imageUrl": null
+        },
+        {
+          "id": "https://darshanmakwana412.github.io/2026/09/extracting-steering-vectors-from-j-space/",
+          "author": null,
+          "description": "Comments",
+          "link": "https://darshanmakwana412.github.io/2026/09/extracting-steering-vectors-from-j-space/",
+          "publishedOn": "2026-09-06T14:03:24.000Z",
+          "wordCount": 1397,
+          "title": "Extracting Steering Vectors from J space",
           "imageUrl": null
         },
         {
@@ -88631,6 +90291,16 @@
           "wordCount": 4173,
           "title": "Netherlands pulls gold out of the US for fears of 'geopolitical unrest'",
           "imageUrl": "https://live-production.wcms.abc-cdn.net.au/8d210aff4e95385e1e96d3b8dfcc3f2f?impolicy=wcms_watermark_news&cropH=2204&cropW=3918&xPos=0&yPos=517&width=862&height=485&imformat=generic"
+        },
+        {
+          "id": "https://novalis.org/blog/2026-08-31-picolibrary-a-very-small-press.html",
+          "author": null,
+          "description": "Comments",
+          "link": "https://novalis.org/blog/2026-08-31-picolibrary-a-very-small-press.html",
+          "publishedOn": "2026-09-05T09:54:15.000Z",
+          "wordCount": 1981,
+          "title": "Picolibrary: A Small Press",
+          "imageUrl": null
         },
         {
           "id": "https://www.sylvainkalache.com/blog/ai-handles-incidents-engineers-lose-touch-with-their-systems",
@@ -89241,6 +90911,16 @@
           "wordCount": 946,
           "title": "Methods for Random Gradients (2024)",
           "imageUrl": "https://storage.ghost.io/c/e5/51/e5518248-64c6-46dd-941d-a7fd73d59c60/content/images/2024/12/gradients-cover-1.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49555592",
+          "author": null,
+          "description": "Comments",
+          "link": "https://news.ycombinator.com/item?id=49555592",
+          "publishedOn": "2026-09-03T19:38:46.000Z",
+          "wordCount": 4044,
+          "title": "Ask HN: Are others seeing Google's reCAPTCHA rejecting Firefox users?",
+          "imageUrl": null
         },
         {
           "id": "https://www.millersbookreview.com/p/arrested-for-a-late-manuscript-seicho-matsumoto-tokyo-express",
@@ -89889,6 +91569,16 @@
       "feedUrl": "https://feed.indiehackers.world/posts.rss",
       "siteUrl": "https://feed.indiehackers.world",
       "articles": [
+        {
+          "id": "https://feed.indiehackers.world/post/c2046b864a",
+          "author": null,
+          "description": "",
+          "link": "https://feed.indiehackers.world/post/c2046b864a",
+          "publishedOn": "2026-09-08T10:55:00.000Z",
+          "wordCount": null,
+          "title": "A user told me my product's core pitch isn't a real reason to switch. Here's what I'm doing about it.",
+          "imageUrl": null
+        },
         {
           "id": "https://feed.indiehackers.world/post/7ce68ac4e8",
           "author": null,
@@ -97906,6 +99596,106 @@
       "siteUrl": "https://medium.com/tag/china/latest?source=rss------china-5",
       "articles": [
         {
+          "id": "https://medium.com/p/1a5b6f2dfdeb",
+          "author": "Mbalenhle's Memoirs",
+          "description": "Ranking high on this summer’s bucket list wasn’t my spontaneous trip to Greece or seeing Bad Bunny’s sexy self in front row. The goal this…\nContinue reading on Medium »",
+          "link": "https://medium.com/@ayo.mbali/%E4%B8%80%E6%9C%B5%E6%BC%82%E4%BA%AE%E7%9A%84%E8%8A%B1-1a5b6f2dfdeb?source=rss------china-5",
+          "publishedOn": "2026-09-08T16:05:20.000Z",
+          "wordCount": null,
+          "title": "一朵漂亮的花",
+          "imageUrl": null
+        },
+        {
+          "id": "https://medium.com/p/cfb8df2d9033",
+          "author": "Saurav Dutt",
+          "description": "BRICS has spent much of its recent history proving that it can grow. India’s 2026 presidency presents a more demanding test: whether the…\nContinue reading on Medium »",
+          "link": "https://medium.com/@sauravdutt/can-india-turn-brics-from-a-political-bloc-into-a-development-partnership-cfb8df2d9033?source=rss------china-5",
+          "publishedOn": "2026-09-08T15:47:55.000Z",
+          "wordCount": null,
+          "title": "Can India Turn BRICS From a Political Bloc Into a Development Partnership?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://medium.com/p/4b9494544dd9",
+          "author": "Troy Mather",
+          "description": "From Evergrande to unfinished homes, China’s property collapse is now hurting wealth, spending and confidence\nContinue reading on Medium »",
+          "link": "https://medium.com/@Troy6674/chinas-property-collapse-is-destroying-the-wealth-of-a-generation-4b9494544dd9?source=rss------china-5",
+          "publishedOn": "2026-09-08T15:26:00.000Z",
+          "wordCount": null,
+          "title": "China’s Property Collapse Is Destroying the Wealth of a Generation",
+          "imageUrl": null
+        },
+        {
+          "id": "https://medium.com/p/f1c38e458143",
+          "author": "Lorenzo Frisina",
+          "description": "La esperada cumbre de los BRICS en Nueva Delhi, con la llegada de una masiva delegación china encabezada por Xi Jinping, vuelve a poner el…\nContinue reading on Medium »",
+          "link": "https://medium.com/@lollofrisi92/india-ante-la-encrucijada-por-qu%C3%A9-el-capital-chino-es-la-clave-para-su-futuro-f1c38e458143?source=rss------china-5",
+          "publishedOn": "2026-09-08T15:21:53.000Z",
+          "wordCount": null,
+          "title": "India ante la Encrucijada: Por Qué el Capital Chino es la Clave para su Futuro",
+          "imageUrl": null
+        },
+        {
+          "id": "https://medium.com/p/3e0a5c3278b5",
+          "author": "sirapasle",
+          "description": "Dalian, a rising destination in China, is a city where Chinese, Russian and Japanese influences meet.\nContinue reading on Medium »",
+          "link": "https://medium.com/@realsirapaslee/where-cultures-converge-dalian-and-the-art-of-adapting-to-the-past-3e0a5c3278b5?source=rss------china-5",
+          "publishedOn": "2026-09-08T14:19:19.000Z",
+          "wordCount": null,
+          "title": "Where Cultures Converge: Dalian and the Art of Adapting to the Past",
+          "imageUrl": null
+        },
+        {
+          "id": "https://medium.com/p/71dfa064909a",
+          "author": "Jbg",
+          "description": "​Reading George Marshall’s Don‘t Even Think About It: Why Our Brains Are Wired to Ignore Climate Change, I was deeply impressed by the…\nContinue reading on Medium »",
+          "link": "https://medium.com/@jbg655282/a-comparative-study-on-plastic-reduction-policies-and-sustainable-consumption-in-south-korea-and-71dfa064909a?source=rss------china-5",
+          "publishedOn": "2026-09-08T13:26:58.000Z",
+          "wordCount": null,
+          "title": "A Comparative Study on Plastic Reduction Policies and Sustainable Consumption in South Korea and…",
+          "imageUrl": null
+        },
+        {
+          "id": "https://medium.com/p/7996fd207c6b",
+          "author": "Smart Money Talk",
+          "description": "Here’s a number that should stop you mid-scroll: in July 2026, BYD rolled its 17 millionth electric or hybrid vehicle off the production…\nContinue reading on Medium »",
+          "link": "https://medium.com/@smartmoneytalk/byd-is-selling-millions-of-cars-why-does-the-market-still-think-its-cheap-7996fd207c6b?source=rss------china-5",
+          "publishedOn": "2026-09-08T13:08:48.000Z",
+          "wordCount": null,
+          "title": "BYD Is Selling Millions of Cars. Why Does the Market Still Think It’s Cheap?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://medium.com/p/238242bc1b8e",
+          "author": "Madhusudhan Konda",
+          "description": "The humanoid robot games taking place in Beijing (22–26, Aug 2026) may look like spectacle.\nContinue reading on UK AI People, Policy and Practice »",
+          "link": "https://medium.com/uk-ai-people-policy-and-practice/the-humanoid-race-has-started-china-has-put-ai-on-its-feet-is-the-uk-ready-for-physical-ai-238242bc1b8e?source=rss------china-5",
+          "publishedOn": "2026-09-08T13:06:38.000Z",
+          "wordCount": null,
+          "title": "The Humanoid Race Has Started. China Has Put AI on Its Feet. Is the UK Ready for Physical AI?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://medium.com/p/feccab9ca5a0",
+          "author": "Brandy",
+          "description": "Iran is the visible battlefield. China’s industrial economy is absorbing some of the conflict’s least-discussed costs — but whether that…\nContinue reading on Age of Awareness »",
+          "link": "https://medium.com/age-of-awareness/the-war-in-iran-is-quietly-weakening-chinas-energy-position-feccab9ca5a0?source=rss------china-5",
+          "publishedOn": "2026-09-08T13:06:01.000Z",
+          "wordCount": null,
+          "title": "The War in Iran Is Quietly Weakening China’s Energy Position",
+          "imageUrl": null
+        },
+        {
+          "id": "https://medium.com/p/48c4f263a9ae",
+          "author": "KRITI VAISHNAV",
+          "description": "U.S., China to hold AI safety talks amid growing global AI risks\nContinue reading on Medium »",
+          "link": "https://medium.com/@kritivaishnav/u-s-china-will-talk-on-ai-safety-soon-48c4f263a9ae?source=rss------china-5",
+          "publishedOn": "2026-09-08T12:23:24.000Z",
+          "wordCount": null,
+          "title": "U.S.-China will talk on AI safety soon.",
+          "imageUrl": null
+        },
+        {
           "id": "https://medium.com/p/8f8c5ed0a552",
           "author": "Khamitha",
           "description": "จุดเริ่มต้นของทริปนี้มาจากการชวนของน้องสาว พอเปิดดูโปรแกรมแล้วตอบโจทย์คนทำงานอย่างเราทันที:\nContinue reading on Medium »",
@@ -99065,6 +100855,136 @@
       "feedUrl": "https://api.newshacker.me/rss",
       "siteUrl": "https://newshacker.me",
       "articles": [
+        {
+          "id": "49611051",
+          "author": null,
+          "description": "原标题：《The two Christian saints who are the Buddha》\n评分: 42 | 作者: surprisetalk\n💭 连佛陀都能被写成圣徒，原创到底在哪？\n\n🎯 讨论背景\n中世纪基督教圣徒 Barlaam 和 Josaphat（常被认为是佛陀传记经多次翻译与改写后的结果）是这串讨论的核心。相关叙事经过波斯语、阿拉伯语、希腊语和拉丁语等语言传播后，进入罗马天主教会的圣徒传统，因此才会出现“佛陀变成圣徒”的说法。评论里有人补充，这两位人物先以传奇圣徒身份流传，16 世纪才被教会认可，20 世纪又从罗马圣人历中移除。讨论还把它放到更大的宗教文化传播背景中，提到罗马天主教会在印度尼西亚吸收爪哇地方仪式，以及 Therapeutae（一个常被与早期佛教修行传统对比的古代犹太苦修团体）等相似案例。\n\n📌 讨论焦点\n神话母题与宗教拼接\n有评论把这个故事放进更大的同构叙事框架里看，认为许多被当作独立神圣历史的故事，其实常常共享相似的英雄母题，只是根据本地文化改了细节。有人直接把这种现象描述成把旧故事重新包装成新宗教版本，甚至像在既有作品上叠加一层 fan fiction。这个角度把巴拉姆与约萨法特当成宗教传播和故事复用的典型例子。\n[来源1]\n圣徒身份、认定与命名混淆\n讨论里有人补充，这两位人物在历史上先以传说圣徒出现，后来才被罗马天主教会在 16 世纪正式认可，并在 20 世纪从圣人名录中移除。也有人指出标题容易引起误解，因为“Josaphat”和“Barlaam”都和其他同名圣徒混在一起，尤其是 Saint Josaphat Kuntsevych 和另一位 4 世纪殉道者 Barlaam。还有人直接质疑是否只有 Josaphat 才应被视作“佛陀”，强调题目里的“两位”说法并不严谨。\n[来源1] [来源2] [来源3]\n天主教对地方传统的吸收\n一条评论把这个话题延伸到罗马天主教会的本地化策略，认为它虽然组织上高度自上而下，却经常吸收地方传统来适配不同地区。举例是印尼的爪哇地方游行可以被纳入弥撒流程，使得同一个教会在不同社区呈现出截然不同的外观。评论者用游戏 skin/mod 的比喻来说明：核心结构可能不变，但文化表层会被本地化重写。\n[来源1]\n早期佛教与近东宗教的相似性\n另一组评论把焦点放在 Therapeutae 这一古代苦修团体上，认为它与早期佛教修行方式的相似程度高到很难简单归为巧合。评论者进一步指出，这类实践后来影响了中东地区的多个宗教群体，而这些群体往往又声称自己是独立发展出来的。相关链接还提到 Saint Thomas Christians（印度的古老圣多马基督徒群体），暗示印度—基督教接触史可能是理解这类传播路径的重要背景。\n[来源1] [来源2]\n\n📚 术语解释\nRank-Raglan hero archetype: 比较神话学中的英雄原型框架，用一组叙事特征来判断不同文化里的英雄故事是否共享同一母题。\nBarlaam and Josaphat 传说: 中世纪基督教圣徒故事，后来被广泛认为改写自佛陀生平并经多语言、多文化转译进入基督教传统。\nTherapeutae: 一支古代犹太苦修团体，常被拿来与早期佛教僧团或修行传统比较。\ncanonization: 天主教正式册封圣徒的程序；这里涉及这些人物先被接受、后被移除的历史变化。",
+          "link": "https://newshacker.me/story?id=49611051",
+          "publishedOn": "2026-09-08T16:19:56.000Z",
+          "wordCount": 73,
+          "title": "🧐 佛陀故事变成基督教圣徒：巴拉姆与约萨法特",
+          "imageUrl": null
+        },
+        {
+          "id": "49611132",
+          "author": null,
+          "description": "原标题：《How Climate Resilient Are the Largest Cities?》\n评分: 22 | 作者: asib\n💭 把停水、淹水都算成韧性冠军了？\n\n🎯 讨论背景\n原帖讨论的是一份把全球最大城市按 climate resilience（气候韧性）排序的榜单，通常会把物理风险和城市适应能力放在一起算分。评论里围绕 Chicago、Miami、Zurich、S ão Paulo 以及 Beijing、Shanghai 等城市展开，既有人拿具体洪水、热浪、供水和风暴案例来验证，也有人质疑榜单的 proprietary composite index（专有综合指数）是否透明可审。讨论还牵涉到 sea level rise（海平面上升）、城市热岛效应、500-year flood（500 年一遇洪水）和 NOAA、IPCC 这类机构提供的气候数据与情景。更大的背景是：城市也许能通过工程和治理提高韧性，但这并不自动意味着农业、粮食供应和更广泛的社会系统同样安全。\n\n📌 讨论焦点\n方法透明度受质疑\n不少评论直接质疑这份排名的可验证性，认为它依赖一个不透明的 proprietary composite index 和一堆外界看不到的假设。有人指出，如果没有原始数据、权重和方法细节，排名就很难接受独立审查，也很难判断“韧性”到底测的是风险、适应能力还是别的东西。还有人认为榜单过度忽略了 China 和 India 这类人口和工业都极大的地区，导致结论失真。对 Chicago 的高位也有人怀疑，认为那更像是低物理风险分数加上普通调整，并不等于真正安全。\n[来源1] [来源2] [来源3]\n芝加哥：高韧性但不是无风险\n支持 Chicago 排名的人认为，这座城市在 1990 年代致命热浪后做了大量准备工作，因此后来的热浪死亡人数明显下降。评论里还提到，所谓 re…",
+          "link": "https://newshacker.me/story?id=49611132",
+          "publishedOn": "2026-09-08T16:00:13.000Z",
+          "wordCount": 73,
+          "title": "🤨 大城市气候韧性榜单争议：芝加哥、迈阿密、上海都被质疑",
+          "imageUrl": null
+        },
+        {
+          "id": "49570411",
+          "author": null,
+          "description": "原标题：《End-to-end infrastructure for training and inferencing open weight models》\n评分: 22 | 作者: Bluestein\n💭 连价格页都没有，先让我卖肾吗？\n\n🎯 讨论背景\n这篇讨论围绕 Applied Compute 的 AC2 平台展开，它主打为 open weight models 提供从训练到推理/Serving 的端到端基础设施。open weight models 指模型权重可公开获取的一类模型，方便用户自行部署、微调和托管，是近年 AI infra 里的热门方向。评论里一边在纠结标题里的 \"inferencing\" 这种术语用法，一边也在看平台文档里的 custom harnesses 等扩展能力。由于 AC2 还处在 private beta，而且页面没有公开 pricing，很多人把它理解成典型的 enterprise 软件销售模式，需要先 Book a Demo 才能继续谈。\n\n📌 讨论焦点\n词汇争议：inferencing 是否算正经英语\n有人对标题里的 \"inferencing\" 提出质疑，认为 inference 才是标准名词，infer 才是动词，没必要再造一个词形。随后有人用 referencing、conference 之类的例子反击，暗示英语里为了表达新场景本来就会出现这种派生。还有人直接拿 Serving 来打趣，说明在 AI infra 语境里，这个说法虽然别扭，但已经被广泛接受。\n[来源1] [来源2] [来源3] [来源4]\n产品功能：custom harnesses 与文档示例\n有评论认为平台里一个亮点是 custom harnesses，意味着用户可以把自己的训练、评测或集成流程接到平台上。与此同时，也有人指出文档需要更完整的 examples，否则功能再强，初次接触时也不容易理解怎么落地。整体上这是偏建设性的反馈，认可扩展能力，但希望产品说明更具体。\n[来源1]\n定价不透明：private beta 与 Demo 销售\n评论区很快转向最现实的问题：价格页在哪里。有人发现平台还在 private beta，只能联系对方或加入候选名单，而不是直接自助购买；页面上出现的 \"Book a Demo\" 也强化了这种 enterprise 销售模式。后续回复进一步把这种做法调侃成先用演示筛选客户、再决定从钱包里“掏”多少，整体语气明显偏怀疑和讽刺。\n[来源1] [来源2] [来源3] [来源4] [来源5]\n\n📚 术语解释\nopen weight models: 权重可公开获取、用户可自行部署或微调的模型，区别于闭源模型。\ninferencing: AI 圈里常见的非标准说法，指把训练好的模型用于推理和在线服务，接近 inference serving。\n\n类别：AI | Systems | Release | Guide | Applied Compute | AC2 | open weight models | training | inferencing",
+          "link": "https://newshacker.me/story?id=49570411",
+          "publishedOn": "2026-09-08T15:54:48.000Z",
+          "wordCount": 73,
+          "title": "🤨 Applied Compute AC2：open weight 模型训练与推理一体化平台",
+          "imageUrl": null
+        },
+        {
+          "id": "49610631",
+          "author": null,
+          "description": "原标题：《I-have-ADHD: A skill to stop your coding agent from burying the answer》\n评分: 23 | 作者: domhudson\n💭 连答案都藏起来，Agent 是怕用户看懂还是怕自己说清？\n\n🎯 讨论背景\n这条帖子围绕一个给 Claude（Anthropic 的 AI 编码助手）用的 I-have-ADHD skill 展开，它的目标是阻止 coding agent 把答案埋在长篇解释里，而是先给出简洁结论。评论区把重点扩展到 Claude 的长篇输出习惯、如何用 CLAUDE.md（仓库级指令文件）和 AGENTS.md（给 agent 的操作说明）约束行为，以及 skill、配置文件和后处理 hook 之间的取舍。仓库里提到的 evals（用于验证提示词效果的评测样例）说明这类技能通常是被反复测试、调参后才发布的。另一条线索是，评论者对仓库中嵌入的额外指令保持警惕，认为从抓取文件里读到的命令不应自动执行。\n\n📌 讨论焦点\nADHD 类比引发的争议\n不少评论把标题里的 ADHD 当成一种比喻，但也有人对这种说法很敏感。真正有 ADHD 的人表示，别人轻飘飘地自称 ADHD 会让人不舒服，因为这类状态并不是“想要就能要”的东西。也有人提醒，像很多 spectrum disorders 一样，很多人确实会共享部分症状，所以说“我有点 ADHD 倾向”未必完全不准确。整体上，这条线索把讨论拉回到“如何让模型别绕弯”，同时也触发了对真实 ADHD 体验的分歧。\n[来源1] [来源2]\n直接提示也能压缩回答\n一些人认为，不必发明一个 skill，直接给模型更具体的简短指令就够了。比如让它像在手机上回给开会中的高管那样解释，核心就是强迫它先给结论、再给少量解释。另一个人甚至表示，只要写“我有 adhd”就能把回答压缩到更像 ELI5 的程度。这里的共识是：很多场景下，用户真正需要的是一个更好用的 prompt 模板，而不是额外机制。\n[来源1] [来源2]\nClaude 仍然会变啰嗦\n有评论直言 Claude 在这件事上尤其麻烦，因为它很容易在几轮之后又回到冗长输出。即使把简洁要求写进全局 CLAUDE.md，并且在会话中反复强调，效果也只能维持几轮。有人提议用 hook 在每次响应后强行改写，但那会明显拖慢整个流程。这个观点的核心是：问题更像模型习惯，而不是单次提示能彻底修好。\n[来源1]\nskill、配置与仓库元指令\n还有人直接质疑，为什么要做成 agent skill，而不是放进 AGENTS.md 或 CLAUDE.md 这种常规配置里。另一个评论说明仓库看起来很大，但大部分 8.7k 行其实是 evals，用来开发和验证 skill 文本，不是最终随技能一起分发的内容。评论还提到仓库中的 AGENTS.md 竟然要求代理去某个 GitHub issue 线程发评论，但他们明确选择无视，因为这属于从文件里读到的嵌入式指令，不该覆盖用户请求。这一部分讨论实际上已经碰到了 prompt injection 的边界问题。\n[来源1] [来源2] [来源3] [来源4]\n\n📚 术语解释\nagent skill: 给 coding agent 安装的可复用行为模板或提示模块，用来在特定场景下改变输出风格。\nCLAUDE.md: Claude 常读取的仓库级指令文件，用来为当前项目设置默认行为和约束。\nAGENTS.md: 面向 agent 的仓库说明文件，通常用来规定交互规则、工作方式或禁忌。\nevals: 用于测试和比较 prompt/skill 效果的一组评测样例或脚本，更多属于开发验证而非最终分发内容。\n\n类别：AI | Programming | Release | Guide | i-have-adhd | coding agent | agent skill | agent | AGENTS.md | CLAUDE.md | conciseness | GitHub",
+          "link": "https://newshacker.me/story?id=49610631",
+          "publishedOn": "2026-09-08T15:50:07.000Z",
+          "wordCount": 73,
+          "title": "🤔 Claude 的 I-have-ADHD 技能：压缩答案，却被质疑不如 CLAUDE.md",
+          "imageUrl": null
+        },
+        {
+          "id": "49610734",
+          "author": null,
+          "description": "原标题：《An overview of how our family is prepared》\n评分: 25 | 作者: surprisetalk\n💭 真以为囤两周水就能扛住全国电网崩盘？\n\n🎯 讨论背景\n这篇帖子来自一篇讲“我们家如何做备灾”的个人说明，评论区迅速变成家庭应急准备的实战讨论。大家一边引用 National Preparedness Month、ready.gov（美国官方应急准备网站）和 getprepared.ca（加拿大的应急准备网站）这类基础指南，一边拿 tornado、hurricane、太平洋西北部可能发生的 >9.0 地震、停电和洪水等具体场景来校准自己的方案。有人分享了 CERT（社区应急响应团队）会议、Switzerland 的一次意外停电，以及 Hurricane 后没有水电通信的真实经历，说明很多准备其实只是为几天到一周的中断做缓冲。讨论的核心不是“能否独自活过末日”，而是家庭储备、邻里互助、通信和当地基础设施在灾害中的真实边界。\n\n📌 讨论焦点\n邻里互助比单纯囤货更关键\n不少评论把“真正的准备”定义成邻里关系，而不是单纯把家里塞满物资。有人建议平时就交换电话、钥匙，互相帮点小忙，灾后更容易分工、守住社区，也更能抵挡机会型 looters。还有人提醒要提前告诉邻居自己的应急方案，万一自己不在家或出事，储备也可能救到别人。另一个很实际的建议是选对保险公司，灾后理赔是否顺畅差别巨大。\n[来源1] [来源2] [来源3] [来源4] [来源5] [来源6] [来源7] [来源8]\n按本地灾种做准备，接受原地避难\n另一派强调，备灾必须按所在地的真实风险来做，而不是套一个全国通用模板。Washington、Scotland、UK 的例子被拿来说明，有些地方更该防 snowstorm、强风、停电、洪水或 wildfire，而不是 hurricane 或 tornado。有人把自己定义为 shelter in place 型家庭：家里就是预案所在，所以不太依赖 go bag；也有人提醒，在大地震、山口桥梁塌毁这类场景里，等上一周以上的补给和临时 shelter 才是现实。这类思路和 National Preparedness Month 常见的基础建议一致：先把 pantry、取暖、照明等基本项补齐。\n[来源1] [来源2] [来源3] [来源4] [来源5]\n食物、饮水和电力的实操储备\n评论里最实在的一组，是把备灾拆成可执行的日常动作。食物上，很多人更倾向 canned food、freeze-dried food、干豆和米，并用滚动消耗的方式保持库存，而不是一次性囤出几十天后就不碰。水的部分则更讲究维护：有人按 Daylight Saving Time 轮换存水、加 bleach，或者干脆依赖 hot water heater、cistern、RO、camping water treatment 来降低保存压力。还有人把 UPS、camp stove、WaterBob、crank/solar radio 这类工具视为短停电时代的高性价比补位。\n[来源1] [来源2] [来源3] [来源4] [来源5] [来源6] [来源7] [来源8] [来源9] [来源10] [来源11] [来源12] [来源13] [来源14] [来源15] [来源16] [来源17]\n极端崩盘场景下，个人储备的边界\n也有不少评论对“长期靠储备活下来”持怀疑态度。有人认为如果电网、通信、物流一起崩，几年级别的储备根本不够，甚至把风险上升到国家级黑客战和 ICS / telco access 被破坏的层面；但也有人反问，真有这种能力为何不直接对现在的目标下手。另一种更现实的回应是，把思路从囤货转向生存技能：种子、园艺、基础农耕，以及和其他幸存者合作的能力。还有人直说，如果人口真的掉到 99% ，大概率自己早就不在了。\n[来源1] [来源2] [来源3] [来源4] [来源5] [来源6] [来源7] [来源8]\n\n📚 术语解释\nshelter in place（原地避难）: 灾害发生时留在家中或现有地点，依靠储备和防护熬过危险期，而不是立刻撤离。\nfreeze-dried food（冻干食品）: 经过脱水处理的长期储备食品，重量轻、保质期长，适合 emergency food。\n\n类别：Systems | Hardware | Guide | family preparedness | prepping | water storage | food storage | michaelharley.net",
+          "link": "https://newshacker.me/story?id=49610734",
+          "publishedOn": "2026-09-08T15:45:36.000Z",
+          "wordCount": 73,
+          "title": "⚠️ 家庭备灾：邻里信任、本地化囤水囤粮",
+          "imageUrl": null
+        },
+        {
+          "id": "49610229",
+          "author": null,
+          "description": "原标题：《We Must Return to the Office to Use AI in Person》\n评分: 58 | 作者: cainxinth\n💭 难道 AI 还得靠回办公室才能被“激活”吗？\n\n🎯 讨论背景\n这篇帖子讨论的是一篇明显带有讽刺意味的文章，标题本身就在嘲弄“为了使用 AI，大家必须回办公室”的公司叙事。评论者引用了文中的夸张意象和企业黑话，说明原文故意把办公室文化、管理层套话和 AI 热潮混在一起，做成荒诞喜剧。它也触碰到一个现实背景：疫情后很多公司推动 RTO，而员工对 WFH 的偏好仍然很强。与此同时，生成式 AI 正在被大量用于内容生产，所以评论里也自然出现了“AI 能不能写出这种文风”的争论。\n\n📌 讨论焦点\n讽刺文案的爆笑效果\n评论区几乎一致在夸这篇文章的笑点密度，认为它把办公室荒诞感写到了极致。有人特别提到那些恶心又离谱的细节，比如“rancid mayo”之类的描写，笑到停不下来。也有人直接称它“brilliant”，觉得现在网上很少还能读到这么有效的幽默文本。整体来看，大家把它当成一篇完成度很高、靠夸张失真取胜的 satire。\n[来源1] [来源2] [来源3] [来源4]\nRTO 与管理层逻辑的荒谬\n不少评论把文章理解为对 RTO（重返办公室）的直接讽刺，核心是嘲笑“必须到现场才能用 AI”这种管理口径。有人抓住“More leaders means more leadership”这类句子，认为这正是管理层最爱讲、也最空洞的套话。还有人把它和疫情时期的 WFH（在家办公）经验联系起来，明确表示自己更喜欢远程工作。这个主题下的情绪很一致：对强制返岗和办公室政治非常反感。\n[来源1] [来源2] [来源3]\nAI 写作能力与‘灵魂’争论\n一部分评论围绕“AI 能不能写出这种东西”展开，先是断言 AI 不可能写出这种效果，随后又有人调侃说它很快也许就能模仿。反驳者则强调，关键不在于表面文风，而在于这里有一种“可以被感受”的 soul，而不是纯粹为了消费而生产的内容。这个争论把话题从笑点本身拉到生成式 AI 的边界：它能拼接风格，但未必能复制这种带有荒诞感、节奏感和情绪密度的文本。评论整体仍然是玩笑语气，但也隐含了对 AI 内容同质化的担忧。\n[来源1] [来源2] [来源3]\n经典讽刺与 dystopian 联想\n还有人把这篇文章联想到更早期的讽刺和 dystopian 文本，甚至说它有种“1984”式的气味。有人直接猜测是不是 McSweeney's（以讽刺和荒诞文风著称的内容平台）出品，说明大家迅速识别出了这种夸张、刻意失真的写法。评论里也反复提到像“slop doula”以及各种怪诞公司名这样的词，强化了它像伪企业宣传、实则反讽的效果。整体上，这篇文章被看作把 AI 热潮和办公室文化一起推到荒谬极点的黑色幽默。\n[来源1] [来源2] [来源3] [来源4] [来源5] [来源6]\n\n📚 术语解释\nRTO（Return to Office）: 重返办公室政策，通常指公司要求员工从远程办公回到线下办公室工作。\nWFH（Work From Home）: 在家办公或远程办公的常见缩写，与 RTO 相对。\n\n类别：AI | Work | Opinion | AI | McSweeney's | return-to-office | RTO | satire | work-from-home",
+          "link": "https://newshacker.me/story?id=49610229",
+          "publishedOn": "2026-09-08T15:29:45.000Z",
+          "wordCount": 73,
+          "title": "🤣 返工才能用 AI？这篇办公室 AI 讽刺文把管理层玩坏了",
+          "imageUrl": null
+        },
+        {
+          "id": "49607991",
+          "author": null,
+          "description": "原标题：《Antiquated HTML Snippets and Artefacts》\n评分: 143 | 作者: patadune\n💭 写网页还得先背一整套浏览器考古学教材吗？\n\n🎯 讨论背景\n这篇帖子原本是在整理各种陈旧 HTML 片段和遗迹，像 `doctype `、编码声明、IE6 专用修补、社交平台元数据和 viewport 等。评论把它放回了早期 Web 开发的真实语境：浏览器实现差异大到需要用条件注释、`X-UA-Compatible `、PNG filter，甚至 table 套 table 来获得一致外观。也有少量条目并没真正消失，而是迁移到邮件客户端（尤其是 Outlook）或平台特定功能里继续存活。对于当代开发者来说，它既是一次浏览器史回顾，也是一份“哪些古董还值得保留”的速查表。\n\n📌 讨论焦点\n字符编码与 BOM\n评论先从最基础却最折磨人的编码问题展开：过去只要文件开头的 charset、BOM 或声明顺序不对，页面就可能把 `æøå` 之类字符显示成乱码。有人指出今天虽然大家都默认 UTF-8，但仍应在 `<meta >` 或 `Content-Type ` 里明确声明，否则很多环境会回退到 Windows-1252。这个话题把“编码已经解决”的直觉和现实中的兼容细节拉回到同一张桌上。\n[来源1] [来源2]\nIE6 图像与布局黑魔法\n大家集中吐槽 IE6 对 PNG alpha 的支持漏洞，只能靠 `AlphaImageLoader ` 之类 filter 解决透明度。有人回忆圆角曾经要用 9 张图套 9 个 div，甚至更早是 table 的 9 个 cell 再加 `spacer.gif `，才能勉强拼出页面。还有人补充 `conditional comments `、`msapplication-` 字段和各种 IE fallba…",
+          "link": "https://newshacker.me/story?id=49607991",
+          "publishedOn": "2026-09-08T15:01:01.000Z",
+          "wordCount": 73,
+          "title": "😅 HTML 考古：IE6、doctype、UTF-8 与旧元标签",
+          "imageUrl": null
+        },
+        {
+          "id": "49610538",
+          "author": null,
+          "description": "原标题：《LibreOffice breaks download records after declaring it has no AI features》\n评分: 36 | 作者: rpgbr\n💭 不塞 AI 也能涨，难道这不算创新？\n\n🎯 讨论背景\nLibreOffice（The Document Foundation 维护的开源办公套件）长期被视为 Microsoft Office 的替代品，核心用途涵盖文档、表格和演示。原帖讨论的是它在公开强调“没有内置 AI 功能”后，下载量创下新高。评论区一边在争论“无 AI”是否真能吸引用户，另一边在猜测增长是否来自 Codex（OpenAI 的 AI 编程工具）等外部集成或自动下载。围绕它的真实可用性、与 Microsoft Office 的兼容性，以及软件是否该主动拥抱 AI，这些老问题又被重新翻了出来。\n\n📌 讨论焦点\n“破纪录”更多是长期增长的自然结果\n有人认为所谓“破纪录”只是周下载量长期上升的自然结果，每次刷新历史高点都能被叫作 record-breaking。评论还拿 Unix timestamp 打趣：像单调递增的计数器一样，数字只会越来越大，所谓“破纪录”并不稀奇。这个角度主要是在质疑标题的戏剧化表达，而不是否认 LibreOffice 的实际增长。\n[来源1] [来源2] [来源3]\n“无 AI”被视为卖点，也引发 AI 立场之争\n另一派把这波关注归因于用户对 AI 疲劳，认为很多产品把 AI 当卖点反而让人反感。支持者认为“不内置 AI”会变成清晰的差异化优势，尤其在缺少监管、治理和同意机制时，用户更愿意选择界面干净、少打扰的软件。反对者则坚持 AI 不会消失，真正可持续的策略是把它用对地方，而不是永久站在对立面。\n[来源1] [来源2] [来源3] [来源4] [来源5] [来源6] [来源7] [来源8]\nLibreOffice 作为真实工作工具仍然很能打\n不少长期用户用亲身经验为 LibreOffice 背书，称它足以承担日常办公、会计、模板生成 PDF、格式标准化，甚至加密日记存储。评论里强调 Calc 虽然不等于 Excel，但只要不是深陷企业里来回交换 Excel-specific 文件，通常都能完成任务。也有人把它与 Microsoft Office 的授权争议和迁移难题联系起来，认为这些现实原因推动了替代品的使用。\n[来源1] [来源2] [来源3] [来源4] [来源5]\n下载激增可能和 Codex 等 AI 工具链有关\n也有人怀疑下载激增与 Codex（OpenAI 的 AI 编程工具）有关，猜测它可能会为了处理 Word、Excel 等文件而自动下载 LibreOffice，或者在训练中学会了这么做。反对者指出，把软件打包进别的产品未必会计入官网下载量，除非安装流程真的每次都拉取一份新副本。这个分支的重点是：标题暗示的“无 AI 带来增长”，可能被 AI 工具链的实际使用场景部分抵消。\n[来源1] [来源2] [来源3] [来源4] [来源5] [来源6] [来源7] [来源8] [来源9] [来源10]\n\n📚 术语解释\nCodex: OpenAI 的 AI 编程/代理工具，评论中被猜测会下载或使用 LibreOffice 来处理文档。\nUnix timestamp: 一种单调递增的时间表示法；评论拿它类比，说明“每次新高都算破纪录”是必然现象。\n\n类别：Product | AI | Business | LibreOffice | AI | no-AI | Codex | ChatGPT",
+          "link": "https://newshacker.me/story?id=49610538",
+          "publishedOn": "2026-09-08T14:55:25.000Z",
+          "wordCount": 73,
+          "title": "🤔 LibreOffice 因“无 AI”下载创新高，引爆反 AI 与 Codex 争论",
+          "imageUrl": null
+        },
+        {
+          "id": "49555592",
+          "author": null,
+          "description": "原标题：《Ask HN: Are others seeing Google's reCAPTCHA rejecting Firefox users?》\n评分: 143 | 作者: Animats\n💭 验证码到底是在防机器人，还是在惩罚人类用户？\n\n🎯 讨论背景\n这串讨论围绕 Google reCAPTCHA 在登录、搜索和网页归档站点上反复把真实用户判成机器人的现象展开，最初是有人在 Vultr（云服务器提供商）登录时被迫反复做验证码。评论很快发现问题并不局限于 Firefox：Linux、Chromium、Safari、Vivaldi、iCloud Private Relay（苹果的流量中继服务）、VPN、NextDNS、Quad9（隐私导向的 DNS 解析服务）甚至不同网络出口都可能触发同样的循环。有人还把 archive.today / archive.is / archive.ph（网页归档站点的不同域名）的挑战页拉进来，指出这些站点可能在用自定义的 Cloudflare 风格页面、IP 黑名单或 reCAPTCHA Enterprise 免费额度来限制访问者。讨论的底色是：验证码越来越像风控黑箱，用户只看到无限循环，却很难判断到底是浏览器、网络，还是站点后端出了问题。\n\n📌 讨论焦点\n隐私网络与浏览器指纹误判\n很多人表示自己在 Firefox、Chromium、Vivaldi 甚至 Safari 上都被 reCAPTCHA 反复拦下，而且经常和 IP、VPN、Private Relay、DNS 服务有关。有人换成 Mullvad VPN（隐私导向的 VPN 服务）、手机热点、另一家 ISP，或者不同的 Firefox container（Firefox 的隔离标签容器）后就能过，说明判定更像是基于网络信誉和设备 fingerprinting（浏览器指纹识别）…",
+          "link": "https://newshacker.me/story?id=49555592",
+          "publishedOn": "2026-09-08T14:50:52.000Z",
+          "wordCount": 73,
+          "title": "😡 Google reCAPTCHA 误杀 Firefox 用户，VPN/Private Relay/Archive.today 也中招",
+          "imageUrl": null
+        },
+        {
+          "id": "49610181",
+          "author": null,
+          "description": "原标题：《DaVinci Resolve 21.1》\n评分: 34 | 作者: tosh\n💭 连剪片都得先问 AI，创作者最后还剩什么工作？\n\n🎯 讨论背景\nDaVinci Resolve 是 Blackmagic Design（BMD，视频剪辑与调色软件厂商）推出的专业后期制作软件，21.1 版本把 Claude、Claude Code、ChatGPT Codex 等 AI assistant 接进来，允许用户用自然语言分析项目、整理素材、调整设置和批量渲染。公告强调它还能帮忙做长视频高光剪辑、删掉不需要的片段，这让讨论立刻从“新功能”转向“AI 进入剪辑工作流到底是提效还是替代人工”。评论者还拿现有的 transcript-based editing（根据转录文本直接剪辑）、A/B camera（双机位）同步，以及 Autodesk Fusion 里的 MCP server（Model Context Protocol server，用来把外部工具接入模型）做对比，讨论自动化如何降低门槛、改变岗位分工。与此同时，用户也在追问是否能用 custom API endpoint、是否会被迫使用厂商自家的 corporate AI，以及生成式内容可能带来的版权和合规风险。\n\n📌 讨论焦点\nAI 辅助重复剪辑\n不少评论者把这次集成视为很实用的后期提效工具，而不是“让 AI 取代创意”。他们举的例子都很具体：同步 A/B camera 机位、把采访切成段落、按提纲拼高光片段、移动 transcript 来剪辑，以及批量渲染交付物。有人还提到自己并不是专业剪辑师，但在 Resolve 里仍会花很多时间做重复劳动，因此愿意把这些琐碎步骤交给 Codex 或其他 assistant。\n[来源1] [来源2] [来源3] [来源4]\n对岗位替代与环境成本的担忧\n另一派观点则认为，这类工具短期看是省事，长期却可能把“做创意”也一并外包给 AI，从而挤掉编辑和创作者的工作机会。讨论里还顺带提到大模型的环境成本，暗示这种自动化如果没有改善能耗问题，代价并不低。相关的玩笑也在质疑输出质量会不会变得像“统一的 AI 风格”，说明乐观情绪之外仍有明显的不安。\n[来源1] [来源2]\n开放接口与厂商锁定\n有人把这些 integrations 解读成更多可编程 API 的开放，这对不打算用 AI 的用户也有价值，因为软件更容易被自动化和脚本化。这个思路被类比为 Web 2.0 时代“到处都是 API”的乐观气氛，强调平台越开放，工作流越灵活。与此同时，也有人直接追问是否能接 custom API endpoint，还是只能绑定厂商自家的 corporate AI；另有评论倾向于支持 opt-in 插件式接入，而不是把 chatbot 直接塞进软件核心。\n[来源1] [来源2] [来源3]\n版本平淡感与行业压力\n还有人觉得这次 Resolve 21.1 是一次“异常平淡”的发布，几乎没有自己真正想试的新功能，只有 agentic 相关内容最显眼。也有人解释说，Blackmagic Design 之所以跟进，是因为市场上已经出现了像 Palmier Pro、FableCut 这类能用 AI 改视频的竞品。讨论最后又转到法律和 IP 风险：如果生成式内容进入专业工作流，Studio 律师就会担心不可版权化内容污染项目，带来责任和合规问题。\n[来源1] [来源2] [来源3]\n\n📚 术语解释\nagentic AI: 强调 AI agent 能分步骤调用工具、执行任务和完成工作流，而不只是聊天回答。\n\n类别：AI | Product | Release | DaVinci Resolve 21.1 | Blackmagic Design | AI assistants | Codex | Claude",
+          "link": "https://newshacker.me/story?id=49610181",
+          "publishedOn": "2026-09-08T14:29:55.000Z",
+          "wordCount": 73,
+          "title": "🤖 DaVinci Resolve 21.1 接入 Claude/Codex：AI 剪辑助理引发争议",
+          "imageUrl": null
+        },
+        {
+          "id": "49610059",
+          "author": null,
+          "description": "原标题：《Show HN: Copperhead – Hardware as Fast as Software》\n评分: 33 | 作者: animeshchouhan\n💭 连仿真测试都没做，算什么硬件自动化？\n\n🎯 讨论背景\n这条 Show HN 介绍的是 Copperhead，一个面向 PCB 和原理图设计的 AI agent，试图把硬件工程里的“设计—验证—修改”流程自动化。评论把它放在 Flux.ai（面向电子设计的 AI 平台）、KiCad（开源 PCB/原理图工具）以及 Astra、Quilter、DeepPCB、T3CAD 等新工具的竞争背景下来看。讨论里反复出现 hardware IR、deterministic engines 和 continuous verification 等词，说明真正的门槛不在于能不能改图，而在于能否保证结果可复现、可检查。还有人提到 copperbench.org（一个开源 benchmark），希望用真实、可验证的硬件任务来衡量这些 agent 的能力。\n\n📌 讨论焦点\n产品并非只是 LLM 包装\n不少评论先问 Copperhead 和直接在 KiCad 里用 Claude/Gemini 改原理图有什么区别。回应强调它不是单纯的模型外壳，而是把 model intelligence、hardware IR、deterministic engines 和 continuous verification 组合起来，目标是让设计、验证、修订形成闭环。有人进一步追问它是否能跑 simulation 和 test，说明大家真正关心的是验证链条是否足够完整，而不只是会不会画图。\n[来源1] [来源2] [来源3] [来源4]\n赛道升温与竞品比较\n评论区认为 AI 辅助硬件设计正在快速升温，Flux.ai 被视作现有 incumbent，另外还有 Silixon（英国团队）、Quilter、DeepPCB、OpenAI 的 demo，以及 T3CAD 这类新项目被点名。有人直接询问 Copperhead 和 Astra、KiCad 的区别，说明潜在用户已经在对比可用工具并准备上手项目。还有人提到 copperbench.org 这个开源 benchmark，专门用真实、可验证的硬件设计任务评测 AI agents，暗示这个赛道开始需要更客观的横向指标。\n[来源1] [来源2] [来源3] [来源4] [来源5]\n自动化边界与工程现实\n另一条主线是对“硬件也能像软件一样被大规模自动化”的怀疑。有人认为这类工具很容易沦为迎合 waterfall 式项目管理的 agent，因为 agent 不会像资深工程师那样对需求和计划提出反对意见。也有人从实战角度补充，硬件工程里大多数重复工作确实可以自动化，但高规格设计、性能优化和调试仍然离不开人工，而 gatekeeping 文化又让这类自动化讨论常常被粗暴否定。\n[来源1] [来源2] [来源3]\n\n📚 术语解释\nKiCad: 开源的电子设计自动化工具，用于画原理图和 PCB 版图。\nwaterfall: 瀑布式项目管理模型，按阶段线性推进，前一阶段结束后再进入下一阶段。\n\n类别：Hardware | AI | Show HN | Release | Copperhead | hardware | agents | KiCad | Claude",
+          "link": "https://newshacker.me/story?id=49610059",
+          "publishedOn": "2026-09-08T14:20:00.000Z",
+          "wordCount": 73,
+          "title": "🧐 Copperhead：AI 硬件设计代理引发竞品与验证争议",
+          "imageUrl": null
+        },
+        {
+          "id": "49549327",
+          "author": null,
+          "description": "原标题：《Extinct Tasmanian tiger's 'snap' unlike any living mammal's bite》\n评分: 21 | 作者: cisc\n💭 都灭绝了还敢断言它只咬小猎物？\n\n🎯 讨论背景\n这篇 Nature Communications（《Nature》旗下综合科学期刊）论文重新分析了已灭绝的 thylacine（袋狼/塔斯马尼亚虎）头骨形态，重点不只看体型，而是看绝对颅骨尺寸、口鼻部长度和颧弓等结构如何影响咬击。研究认为，这种动物的头骨比同体重动物大得多，可能支撑快速、高冲击的咬击，并把压力分散到更大的骨量上。评论区一边在校对狼、fox 和 thylacine 的头骨图注，一边讨论它究竟更像捕小猎物的掠食者，还是也能威胁羊羔等家畜。另一些评论把话题延伸到 thylacine 的灭绝史、dingo 对其大陆种群的影响，以及 Tasmania 的森林伐木和栖息地保护争议。\n\n📌 讨论焦点\n颅骨结构与咬击机制\n讨论核心集中在这项对 thylacine 头骨的再分析：它的颅骨尺寸远超同体重动物的预期，甚至接近更重的灰狼、非洲野犬、美洲狮和豹。评论引用研究认为，过去只看形状而忽略绝对尺寸，低估了它的头骨强度和抗压能力。更大的颅骨可能用来补偿细长口鼻部的脆弱性，使它适合快速、高冲击的咬击，而不是单纯依靠整体体型取胜。\n[来源1]\n图注与头骨对比校正\n有评论指出文章配图的图注明显让人困惑：文字声称袋狼头骨更大，但图里右侧头骨看起来反而更小。随后有人澄清这是图注写得很差，左边是狼，中间才是 thylacine，最右边则是 fox。这个小争议说明这类比较图如果标注不清，很容易让读者直接误读研究结论。\n[来源1] [来源2] [来源3]\n捕食能力、家畜与灭绝史\n一条讨论线认为，即使这种咬击主要针对较小猎物，它也完全可能攻击新生羊羔和鸡等家禽。评论还提到，绵羊会像对待犬科掠食者那样逃跑，反而可能更容易在追逐中受伤。回复则把视角拉回更长的历史脉络：thylacine 曾分布于新几内亚和澳大利亚大陆，dingo 的进入被认为推动了其在大陆上的消失，塔斯马尼亚在欧洲定居时仍有大约 5000 只。\n[来源1] [来源2]\n情感投射与澳洲动物独特性\n不少评论带有强烈的情感色彩，把 thylacine 描述成既恐怖又优雅的孤独猎手，强调它那种“有点忧郁”的面孔和神秘感。也有人坦言希望某个偏远角落还能藏着幸存种群，但自己知道这更像幻想。另有评论提醒，不要总拿澳大利亚动物去套用北美熟悉物种的框架，这种类比会掩盖它们独特的演化路径。\n[来源1] [来源2]\n塔斯马尼亚伐木与栖息地争议\n话题后来偏到 Tasmania 的森林管理上，有人借机批评当地政府仍在允许伐木，认为这和保护濒危野生动物的立场自相矛盾。反方则强调被砍的是为采伐而人工种植的林地，不是所谓原生 old growth，并称当地 forestry 产业很先进、可持续。虽然这与 thylacine 已灭绝的直接研究关系不大，但它把讨论引向了更广泛的栖息地保护与资源开发冲突。\n[来源1] [来源2]\n\n📚 术语解释\nThylacine: 已灭绝的澳洲有袋食肉动物，常被称为“塔斯马尼亚虎”或“袋狼”。\ncentroid size: 几何形态学里用来衡量形体整体大小的指标，这里用于比较头骨尺寸。\nrostrum: 动物头骨的口鼻部或吻部；thylacine 的 rostrum 又长又窄。\nzygomatic arch: 颧弓，连接颅骨两侧的骨性结构，和咀嚼肌附着、下颌支撑有关。\nbite force: 咬合力，指动物下颌闭合时产生的咬击力量。\ndingo: 澳洲野犬，一种引入澳大利亚的野生犬科动物，被认为影响了 thylacine 在大陆上的存续。\n\n类别：Science | Paper | Thylacine | Tasmanian tiger | bite force | snap | skull | cranial size | CNN",
+          "link": "https://newshacker.me/story?id=49549327",
+          "publishedOn": "2026-09-08T13:49:52.000Z",
+          "wordCount": 73,
+          "title": "🧐 袋狼头骨比想象更大，咬击或属高冲击型",
+          "imageUrl": null
+        },
+        {
+          "id": "49608697",
+          "author": null,
+          "description": "原标题：《PISA 2025 Students' reading and mathematics performance declined across the OECD》\n评分: 20 | 作者: mazokum\n💭 都把 AI 请进课堂了，还怪学生成绩下滑吗？\n\n🎯 讨论背景\nPISA（Programme for International Student Assessment，国际学生评估项目）是 OECD（经合组织）对 15 岁学生进行的跨国标准化测评，2025 结果显示阅读和数学在多数 OECD 国家继续走弱。评论区除了讨论疫情后遗症，还把原因扩展到 social media、智能手机、AI 辅助作业和更广义的教育激励问题。有人提醒 PISA 的分数是按均值 500、标准差 100 标准化的，因此要区分统计噪声和真实趋势。讨论也顺带借 Jon Haidt（研究青少年与社交媒体关系的社会心理学家）和 Terence Tao（陶哲轩，著名数学家）对 LLM（大语言模型）的看法，延伸到高校扩招和职场代际变化。\n\n📌 讨论焦点\nAI/屏幕/社交媒体被视为主因\n评论里最强烈的一种解释是 AI、屏幕和社交媒体正在侵蚀学生注意力与基础训练。有人直接引用 PISA 图表，指出学生如果用 AI 做 summarising、drafting、researching 等 schoolwork，science 分数更低，因此主张把 screens 和 AI solutions 先挡在 classroom 外。也有人把时间线往前推到 2010s，甚至 90s 或 iPhone 出现的节点，认为注意力结构早就开始恶化。反对意见则提醒，这种叙事容易把相关性当因果，AI 也许只是最近最方便的替罪羊。\n[来源1] [来源2] [来源3] [来源4]\n曲线是否真下滑：统计与时间点之争\n另一组评…",
+          "link": "https://newshacker.me/story?id=49608697",
+          "publishedOn": "2026-09-08T13:20:53.000Z",
+          "wordCount": 73,
+          "title": "😟 PISA 2025：OECD 学生阅读与数学下滑，AI 与社媒成争议",
+          "imageUrl": null
+        },
         {
           "id": "49608023",
           "author": null,
