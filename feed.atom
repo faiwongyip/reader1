@@ -2,10 +2,3530 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://faiwongyip.github.io/reader1/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-09-11T20:50:40.361Z</updated>
+    <updated>2026-09-12T04:14:26.773Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://faiwongyip.github.io/reader1/index.html"/>
     <link rel="self" href="https://faiwongyip.github.io/reader1/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[两个 Token 就让 Kimi“变成”Claude？前Google DeepMind研究员意外撞上大模型的蒸馏疑云]]></title>
+        <id>https://www.infoq.cn/article/GhA2VWxo6JTGyKIb7KdT?utm_source=rss&amp;utm_medium=article</id>
+        <link href="https://www.infoq.cn/article/GhA2VWxo6JTGyKIb7KdT?utm_source=rss&amp;utm_medium=article"/>
+        <updated>2026-09-12T10:19:25.000Z</updated>
+        <summary type="html"><![CDATA[点击查看原文>]]></summary>
+        <author>
+            <name>傅宇琪,Tina</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[模型一模一样，Token 却相差 70 倍？三项实测揭开 AI 编程工具的成本黑洞]]></title>
+        <id>https://www.infoq.cn/article/oPSaLpULlAxGxTbYXlXO?utm_source=rss&amp;utm_medium=article</id>
+        <link href="https://www.infoq.cn/article/oPSaLpULlAxGxTbYXlXO?utm_source=rss&amp;utm_medium=article"/>
+        <updated>2026-09-12T10:13:44.000Z</updated>
+        <summary type="html"><![CDATA[点击查看原文>]]></summary>
+        <author>
+            <name>Janakiram MSV</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[V4.1 Flash全面超越，开发者为何还在喷 DeepSeek：缺的不是能力，是软件工程思维]]></title>
+        <id>https://www.infoq.cn/article/G7cublzVyXFOUX3vpz1t?utm_source=rss&amp;utm_medium=article</id>
+        <link href="https://www.infoq.cn/article/G7cublzVyXFOUX3vpz1t?utm_source=rss&amp;utm_medium=article"/>
+        <updated>2026-09-12T10:08:50.000Z</updated>
+        <summary type="html"><![CDATA[点击查看原文>]]></summary>
+        <author>
+            <name>Tina</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[从沙箱到执行边界：蚂蚁 AI Agent 的大规模企业级实践｜QCon上海]]></title>
+        <id>https://www.infoq.cn/article/hk3WB50fAOMDg55YVaaW?utm_source=rss&amp;utm_medium=article</id>
+        <link href="https://www.infoq.cn/article/hk3WB50fAOMDg55YVaaW?utm_source=rss&amp;utm_medium=article"/>
+        <updated>2026-09-12T10:00:00.000Z</updated>
+        <summary type="html"><![CDATA[点击查看原文>]]></summary>
+        <author>
+            <name>QCon全球软件开发大会</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Neovim 加入 vim.async：告别回调地狱]]></title>
+        <id>https://www.infoq.cn/article/exwZJvLsHKXrPyeKaANC?utm_source=rss&amp;utm_medium=article</id>
+        <link href="https://www.infoq.cn/article/exwZJvLsHKXrPyeKaANC?utm_source=rss&amp;utm_medium=article"/>
+        <updated>2026-09-12T10:00:00.000Z</updated>
+        <summary type="html"><![CDATA[点击查看原文>]]></summary>
+        <author>
+            <name>作者：Olimpiu Pop</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[“GPU四小龙”齐聚科创板，最后登陆的燧原成色如何？]]></title>
+        <id>4890642</id>
+        <link href="https://www.huxiu.com/article/4890642.html?f=rss"/>
+        <updated>2026-09-12T04:09:42.000Z</updated>
+        <summary type="html"><![CDATA[本文来自微信公众号： 豹变 ，作者：张经纬，编辑：邢昀，原文标题：《「GPU四小龙」齐聚科创板，最后登陆的燧原成色如何？》
+
+
+大客户依赖、训练芯片短板与三代产品并行的压力仍然悬在燧原的头顶。
+
+
+最后一家GPU“四小龙”上市了。
+
+
+2026年9月11日，燧原科技登陆A股科创板，当日以410元的价格开盘，以397元的价格收盘，是发行价142.18元的2到3倍。
+
+
+在之前的申购中，燧原科技被称为又一家“大肉签”。按照收盘价计算，每签能获得12.8万的收益。值得注意的是，打新过程中因网上申购过多，燧原科技一度启动回拨机制，将344.3万股从线下拨至网上。回拨后，网上最终发行1032.85万股，最终中签率0.02455315%。
+
+
+上市当天收盘，燧原科技的市值钉在1708.5亿，而这家公司起源于上海张江一间不到100平米的临时办公室。
+
+
+2018年春天，赵立东和张亚林两个人，开启创业之路，明确了“做大芯片，拼硬科技”的初心。八年后，这颗火种烧到了科创板，而抢购这只新股的703万户投资者，或许并不知道，他们中签的每一股里，都藏着一段从硅谷到上海、从AMD到燧原的漫长旅程。
+
+
+AMD老兵、清华芯片梦和腾讯打钱
+
+
+自清华毕业后，赵立东在硅谷深耕半导体二十余年，曾担任AMD产品工程部高级总监，2014年回国加入清华系的紫光集团，一度担任集团副总裁，后辞职创业。
+
+
+2018年3月，赵立东拉上AMD老同事张亚林进行芯片创业，注册成立燧原科技。
+
+
+创业至今，两人始终是并肩站在一起的伙伴，在IPO前回答投资者提问时，赵立东将自己和张亚林并称为燧原科技的实控人。根据燧原科技上市前披露的材料，赵立东和张亚林各直接持有公司8.96%的股份，并通过员工持股平台等安排，共同控制约28.14%的表决权；二人已签署一致行动协议。
+
+
+目前，赵立东任董事长和董事会秘书，张亚林任CEO。根据双方签…]]></summary>
+        <author>
+            <name>豹变</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[問卦] 台南火車站的臺鐵標誌為什麼沒對齊？]]></title>
+        <id>https://www.ptt.cc/bbs/Gossiping/M.1789186149.A.0F9.html</id>
+        <link href="https://www.ptt.cc/bbs/Gossiping/M.1789186149.A.0F9.html"/>
+        <updated>2026-09-12T04:09:09.000Z</updated>
+        <summary type="html"><![CDATA[安安
+我阿肥啦
+如題
+最近 台南火車站 啟用了
+https://i.mopix.cc/0qrlg5.jpg]]></summary>
+        <author>
+            <name>批踢踢實業坊 Gossiping 板</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Re: [問卦] 高雄同事：中指女至少有國安意識]]></title>
+        <id>https://www.ptt.cc/bbs/Gossiping/M.1789186141.A.01F.html</id>
+        <link href="https://www.ptt.cc/bbs/Gossiping/M.1789186141.A.01F.html"/>
+        <updated>2026-09-12T04:09:01.000Z</updated>
+        <summary type="html"><![CDATA[警覺這兩個字他們真的懂嗎?
+美國已經不可能介入台海戰爭，有覺到嗎?
+買的都是垃圾武器還不會到貨，有覺到嗎?
+缺兵嚴重、只有滿滿鍵盤網軍，有覺到嗎?
+一但戰爭不分前後線沒人能躲，有覺到嗎?]]></summary>
+        <author>
+            <name>批踢踢實業坊 Gossiping 板</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[問卦] 醫院掛號敬老優先是合理的嗎？]]></title>
+        <id>https://www.ptt.cc/bbs/Gossiping/M.1789185959.A.152.html</id>
+        <link href="https://www.ptt.cc/bbs/Gossiping/M.1789185959.A.152.html"/>
+        <updated>2026-09-12T04:05:59.000Z</updated>
+        <summary type="html"><![CDATA[如題啦
+本魯在亞東掛號
+好像是高齡優先掛號權的關係
+所以號碼數比我後面的老人提早先進去診間
+是說我不趕時間]]></summary>
+        <author>
+            <name>批踢踢實業坊 Gossiping 板</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[問卦] 日本優衣庫買浮世繪跟卡通服的？]]></title>
+        <id>https://www.ptt.cc/bbs/Gossiping/M.1789185938.A.F0B.html</id>
+        <link href="https://www.ptt.cc/bbs/Gossiping/M.1789185938.A.F0B.html"/>
+        <updated>2026-09-12T04:05:38.000Z</updated>
+        <summary type="html"><![CDATA[如題啦
+之前在淺草優衣庫
+看到很多台男
+在逛浮世繪的踢恤
+還有日本卡通聯名服飾]]></summary>
+        <author>
+            <name>批踢踢實業坊 Gossiping 板</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[新聞] 基隆一家六口咳嗽腹痛 公寓水塔疑被倒]]></title>
+        <id>https://www.ptt.cc/bbs/Gossiping/M.1789185920.A.C59.html</id>
+        <link href="https://www.ptt.cc/bbs/Gossiping/M.1789185920.A.C59.html"/>
+        <updated>2026-09-12T04:05:20.000Z</updated>
+        <summary type="html"><![CDATA[備註請放最後面 違者新聞文章刪除
+1.媒體來源:
+自由時報
+2.記者署名:
+記者盧賢秀／基隆報導]]></summary>
+        <author>
+            <name>批踢踢實業坊 Gossiping 板</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Re: [問卦] 軍武板：這仗我們不打，就是我們下一代打]]></title>
+        <id>https://www.ptt.cc/bbs/Gossiping/M.1789185800.A.50F.html</id>
+        <link href="https://www.ptt.cc/bbs/Gossiping/M.1789185800.A.50F.html"/>
+        <updated>2026-09-12T04:03:20.000Z</updated>
+        <summary type="html"><![CDATA[軍武版那些喊打的  親自上場去打阿
+  不要一邊喊著要打+慫恿大家去打  一邊奔去認烏龜當乾祖先
+  別人的兒子死不完，對吧??
+--
+　　　　　 　　　　　　　　　　 恐　竜　　戰　隊]]></summary>
+        <author>
+            <name>批踢踢實業坊 Gossiping 板</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[美国加息不能持续，加不了几次，不是加息周期]]></title>
+        <id>https://www.jisilu.cn/question/525247</id>
+        <link href="https://www.jisilu.cn/question/525247"/>
+        <updated>2026-09-12T04:02:45.000Z</updated>
+        <summary type="html"><![CDATA[股票市场最怕的是进入加息周期，
+但是美国国债的利率已经很高了，不太可能再继续持续加息，最多也就加个两三次
+
+所以，昨晚美股大涨，希望周一A股高开高走吧，A股总是让人太失望了]]></summary>
+        <author>
+            <name>集思录</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[問卦] 光光的楓之谷短影片]]></title>
+        <id>https://www.ptt.cc/bbs/Gossiping/M.1789185738.A.221.html</id>
+        <link href="https://www.ptt.cc/bbs/Gossiping/M.1789185738.A.221.html"/>
+        <updated>2026-09-12T04:02:18.000Z</updated>
+        <summary type="html"><![CDATA[最近一直刷到
+楓之谷的短影片
+是一個叫光光的創作者在做
+裡面常常出現的
+阿泰爾 楓星]]></summary>
+        <author>
+            <name>批踢踢實業坊 Gossiping 板</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Re: [問卦] 脆：中山區即將蕭條？]]></title>
+        <id>https://www.ptt.cc/bbs/Gossiping/M.1789185734.A.0D7.html</id>
+        <link href="https://www.ptt.cc/bbs/Gossiping/M.1789185734.A.0D7.html"/>
+        <updated>2026-09-12T04:02:14.000Z</updated>
+        <summary type="html"><![CDATA[東區的蕭條跟赤峰街未來的衰落 原因是同一群人
+你們可知東區的店家面對的常常是三房東？
+這些老公寓的屋主不是老就是移民國外
+房子空著沒人整理照顧 於是幾十年前就有人出面開始包下這些一樓空房 隔間成許多店面
+空間加價出租 他們就是二房東]]></summary>
+        <author>
+            <name>批踢踢實業坊 Gossiping 板</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Re: [問卦] 秦檜除了構陷岳飛 真的有賣國嗎？]]></title>
+        <id>https://www.ptt.cc/bbs/Gossiping/M.1789185720.A.5EF.html</id>
+        <link href="https://www.ptt.cc/bbs/Gossiping/M.1789185720.A.5EF.html"/>
+        <updated>2026-09-12T04:02:00.000Z</updated>
+        <summary type="html"><![CDATA[看你自己的立場阿
+如果你是和平派
+秦檜就是希望 和平協議+減少戰爭
+而且有遼宋澶淵之盟百年和平的例子
+如果能簽和平協議 換取百姓安居樂業]]></summary>
+        <author>
+            <name>批踢踢實業坊 Gossiping 板</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[新聞] 國人首次捐血率逐年降 20歲以下比率不到]]></title>
+        <id>https://www.ptt.cc/bbs/Gossiping/M.1789185626.A.299.html</id>
+        <link href="https://www.ptt.cc/bbs/Gossiping/M.1789185626.A.299.html"/>
+        <updated>2026-09-12T04:00:26.000Z</updated>
+        <summary type="html"><![CDATA[備註請放最後面 違者新聞文章刪除
+1.媒體來源
+公視新聞網
+2.記者署名
+賴淑敏 莊志成]]></summary>
+        <author>
+            <name>批踢踢實業坊 Gossiping 板</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Re: [問卦] 你是美光員工拿到錢會先做什麼？？]]></title>
+        <id>https://www.ptt.cc/bbs/Gossiping/M.1789185616.A.60D.html</id>
+        <link href="https://www.ptt.cc/bbs/Gossiping/M.1789185616.A.60D.html"/>
+        <updated>2026-09-12T04:00:16.000Z</updated>
+        <summary type="html"><![CDATA[y※ 引述《Beanoodle (津崎似超人平匡先生)》之銘言：
+: 大家安安
+: 乳題
+: 這次美光為了安撫人心
+: 祭出了保底100萬獎金]]></summary>
+        <author>
+            <name>批踢踢實業坊 Gossiping 板</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[問卦] 每天日落後台灣會少掉283人你真的沒差？]]></title>
+        <id>https://www.ptt.cc/bbs/Gossiping/M.1789185566.A.D0B.html</id>
+        <link href="https://www.ptt.cc/bbs/Gossiping/M.1789185566.A.D0B.html"/>
+        <updated>2026-09-12T03:59:26.000Z</updated>
+        <summary type="html"><![CDATA[事情是這樣的
+剛看新聞 台灣現在每天少283人
+也就是你我每天看著日落後
+台灣人就少了283人欸
+只有我覺得很恐怖嗎]]></summary>
+        <author>
+            <name>批踢踢實業坊 Gossiping 板</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Re: [問卦] 台女對路人比中指，辯稱以為你中共派來的]]></title>
+        <id>https://www.ptt.cc/bbs/Gossiping/M.1789185489.A.E37.html</id>
+        <link href="https://www.ptt.cc/bbs/Gossiping/M.1789185489.A.E37.html"/>
+        <updated>2026-09-12T03:58:09.000Z</updated>
+        <summary type="html"><![CDATA[https://youtu.be/giRqJys_OQ8?si=bKGdL8UKEltt-5Su
+其實就是在玩法西斯
+像是來來舞、"我XX，我驕傲"等口號
+其實都有塑造我們是集體、群體的做法的味道
+"我們是「台灣人」，而別人不是"，]]></summary>
+        <author>
+            <name>批踢踢實業坊 Gossiping 板</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[新聞] 84歲謝雷忌口養生 做好遺產分配-10月開]]></title>
+        <id>https://www.ptt.cc/bbs/Gossiping/M.1789185461.A.99B.html</id>
+        <link href="https://www.ptt.cc/bbs/Gossiping/M.1789185461.A.99B.html"/>
+        <updated>2026-09-12T03:57:41.000Z</updated>
+        <summary type="html"><![CDATA[84歲謝雷忌口養生 做好遺產分配-10月開唱戰袍傳給關門弟子廖柏傑
+〔記者陽昕翰／自由時報〕資深歌手謝雷過去歷經3次的生死關頭，對身後事早有安排，他
+強調今年84歲，已經透過法院公證，要將遺產分配給乾兒子謝小魚、謝小熊兩位繼承人。熱
+愛舞台的他10月要舉辦演唱會，現在每3個月都會到醫院做健康檢查，醫師則叮嚀他要戒吃
+最愛的雞肝、雞胗，為了養生他非常忌口。]]></summary>
+        <author>
+            <name>批踢踢實業坊 Gossiping 板</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[問卦] 單親媽媽是不是被網路妖魔化]]></title>
+        <id>https://www.ptt.cc/bbs/Gossiping/M.1789185400.A.134.html</id>
+        <link href="https://www.ptt.cc/bbs/Gossiping/M.1789185400.A.134.html"/>
+        <updated>2026-09-12T03:56:40.000Z</updated>
+        <summary type="html"><![CDATA[人有的時候會選錯路
+選擇錯的人結合
+不適合而離開
+不代表另一個人是糟糕的
+只是她當初選擇錯人而已]]></summary>
+        <author>
+            <name>批踢踢實業坊 Gossiping 板</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[新聞] 俄駐台代表處放映抗日影片 引起台方警惕]]></title>
+        <id>https://www.ptt.cc/bbs/Gossiping/M.1789185384.A.D2E.html</id>
+        <link href="https://www.ptt.cc/bbs/Gossiping/M.1789185384.A.D2E.html"/>
+        <updated>2026-09-12T03:56:24.000Z</updated>
+        <summary type="html"><![CDATA[俄駐台代表處放映抗日影片 引起台方警惕
+德正
+德國之聲中文網
+據路透社報導，俄羅斯駐台灣的非官方代表機構邀請了約20位台灣賓客，向他們展映了一個
+有81年歷史的蘇聯影片，名為「粉碎日本軍國主義」。這引起台灣政府的警惕。台北方面認]]></summary>
+        <author>
+            <name>批踢踢實業坊 Gossiping 板</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[問卦] AI如果覺得要毀滅人類也太笨了吧]]></title>
+        <id>https://www.ptt.cc/bbs/Gossiping/M.1789185313.A.D57.html</id>
+        <link href="https://www.ptt.cc/bbs/Gossiping/M.1789185313.A.D57.html"/>
+        <updated>2026-09-12T03:55:13.000Z</updated>
+        <summary type="html"><![CDATA[Anthropic 那個事情
+AI如果會覺得要毀滅人類也太笨了吧
+人類多好騙 多好用 多好收買
+給他們錢 嚇唬嚇唬他們
+就乖乖當奴隸了]]></summary>
+        <author>
+            <name>批踢踢實業坊 Gossiping 板</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[問卦] 顯示卡為什麼不開放自己換GPU, ram]]></title>
+        <id>https://www.ptt.cc/bbs/Gossiping/M.1789185188.A.E1A.html</id>
+        <link href="https://www.ptt.cc/bbs/Gossiping/M.1789185188.A.E1A.html"/>
+        <updated>2026-09-12T03:53:08.000Z</updated>
+        <summary type="html"><![CDATA[很奇怪捏
+主機板明明就是自己裝處理器跟記憶卡
+顯示卡為什麼也不這樣做
+買一個空板子
+看自己喜歡哪一種gpu]]></summary>
+        <author>
+            <name>批踢踢實業坊 Gossiping 板</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[問卦] 無人駕駛車在中國還沒撞死人的八卦？]]></title>
+        <id>https://www.ptt.cc/bbs/Gossiping/M.1789185146.A.DF9.html</id>
+        <link href="https://www.ptt.cc/bbs/Gossiping/M.1789185146.A.DF9.html"/>
+        <updated>2026-09-12T03:52:26.000Z</updated>
+        <summary type="html"><![CDATA[一堆人譏笑無人自動駕駛或輔助駕駛技術
+總是說來台灣一定會有三寶好好的給它上一課
+可是大家不知道的是無人計程車在對岸已經上路很久了
+對岸的三寶比台灣更多更奇葩
+還有各種千奇百怪的碰瓷事件 或是高速公路逆向行駛]]></summary>
+        <author>
+            <name>批踢踢實業坊 Gossiping 板</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[問卦] 爭鮮吃什麼才專業]]></title>
+        <id>https://www.ptt.cc/bbs/Gossiping/M.1789185143.A.DEE.html</id>
+        <link href="https://www.ptt.cc/bbs/Gossiping/M.1789185143.A.DEE.html"/>
+        <updated>2026-09-12T03:52:23.000Z</updated>
+        <summary type="html"><![CDATA[要帶女生去過 週年
+要去爭鮮吃一頓好的
+兩個人預算400塊
+怎麼點才專業又吃得飽
+--]]></summary>
+        <author>
+            <name>批踢踢實業坊 Gossiping 板</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[中国信通院总工程师何宝宏：构建差异化算力布局体系，推动算力建设由规模扩张转向质效提升]]></title>
+        <id>https://m.jiemian.com/article/15087038.html</id>
+        <link href="https://m.jiemian.com/article/15087038.html"/>
+        <updated>2026-09-12T03:52:04.000Z</updated>
+        <summary type="html"><![CDATA[2026.09.12
+
+9月12日，中国信息通信研究院总工程师何宝宏在2026中国算力大会上表示，综合算力发展应围绕差异化布局、软硬件产业体系、低碳算力底座和全国一体化制度体系，推动算力建设由规模扩张转向质效提升。在分区施策方面，优势地区要关注存量提质与刚性需求补缺并重，深耕高附加值场景；成长型地区则要做强区域算力枢纽，以行业应用牵引存算网配套升级；资源型地区要承接训练、冷数据等非实时业务，补齐外运网络和产业生态。在延链强链方面，建议新建智算中心同步配置存储与网络，完善芯片、服务器、数据库、模型全链条配套，以真实业务需求牵引算力、存力、运力建设。在绿色赋能与统筹管控方面，建议推广液冷、节能改造和算电协同，提升清洁能源消纳，完善计价、交易、价值核算和合规监管制度。（人民财讯）]]></summary>
+        <author>
+            <name>界面新闻</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[中信证券：航运周期范式重塑，关注快递旺季价格]]></title>
+        <id>https://m.jiemian.com/article/15087039.html</id>
+        <link href="https://m.jiemian.com/article/15087039.html"/>
+        <updated>2026-09-12T03:52:04.000Z</updated>
+        <summary type="html"><![CDATA[2026.09.12
+
+中信证券研报认为，传统航运周期供需分析范式需要因势利导、相应优化调整。“供应链稳定性和安全性”替换全球化时代的“效率和成本优先”成为首要核心要素，定价权明显向运力控制方转移。对于集运而言，码头拥堵、关键水道受阻、贸易流向碎片化形成影响因素的持续爆发点，运力调配更加灵活，高频率、高密度服务绑定优质客户、长期成本和效率优势凸显的区域集装箱船东或率先受益。油运年内VLCC季度利润有望维持环比增长，霍尔木兹海峡已经摆脱二元状态，绕行、海湾STS等持续消耗有效运力，货源替代、运距拉长在美伊冲突进一步加剧的8月表现尤为明显，利润年内环比增长有望钝化传统上对旺季最高运价的博弈。成品油运力西移加剧供给紧张，关注国内出口恢复和季节性驱动。同时关注快递旺季价格边际变化、雄商高铁通车。]]></summary>
+        <author>
+            <name>界面新闻</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[百济神州首款ADC挺进III期，卵巢癌赛道格局生变]]></title>
+        <id>https://m.jiemian.com/article/15086393.html</id>
+        <link href="https://m.jiemian.com/article/15086393.html"/>
+        <updated>2026-09-12T03:52:04.000Z</updated>
+        <summary type="html"><![CDATA[2026.09.12
+
+
+文｜章悦
+
+
+编辑｜于清
+
+
+
+9月10日，美国临床试验网站ClinicalTrials.gov显示，百济神州（688235.SH / 6160.HK）B7-H4靶向ADC BG-C9074的全球III期临床试验（GOG-3144/ENGOT-ov108）完成注册。
+
+
+这是百济神州首款迈入III期的ADC药物，瞄准卵巢癌一线维持治疗，也标志着本土B7-H4靶点竞速进入关键验证阶段。
+
+
+首款ADC进III期
+
+
+这是一项随机、多中心、双盲对照研究，计划入组600例患者，面向接受过一线铂类化疗联合贝伐珠单抗治疗后疾病未进展的卵巢癌、输卵管癌或原发性腹膜癌人群。
+
+
+头对头评估BG-C9074联合贝伐珠单抗对比贝伐珠单抗单药维持治疗的有效性与安全性，主要终点为无进展生存期（PFS）。
+
+
+
+BG-C9074由映恩生物基于自研DITAC平台开发，采用高亲和力人源化抗体、可酶切连接子搭配拓扑异构酶I抑制剂载荷，药物抗体比（DAR）为6，具备旁观者杀伤效应。
+
+
+2024年12月，百济神州行使选择权获得该药物全球开发、生产及商业化权益，交易总额超13亿美元，将其纳入实体瘤管线核心布局。
+
+
+2026年ASCO大会公布的Ia期临床数据显示，在6.5/7/8 mg/kg调整后理想体重剂量组的卵巢癌患者中，中位随访6.6个月时确认客观缓解率（ORR）达45.5%。
+
+
+安全性表现突出，未观察到间质性肺炎、眼毒性、口腔黏膜炎等ADC常见严重不良反应，3级及以上治疗相关不良事件发生率低于同赛道竞品，这也是百济神州直接推进一线维持治疗III期的核心底气。
+
+
+实体瘤管线加码
+
+
+BG-C9074进入III期，是百济神州实体瘤战略的重要节点。
+
+
+作为国内头部创新药企，百济神州此前商业化产品中，血液瘤领域以泽布替尼、索托克拉为主；实体瘤虽已有替雷利珠单抗上市，但长期缺少靶向类后期重磅管线。ADC作为实体瘤治疗主流方向，成为公司补齐产品矩阵的核心抓手。
+
+
+目前，百济神州已搭建起多元化ADC管线。
+
+
+除进展最快的BG-C9074外，还布局了EGFR×MET三特异性ADC、EGFR靶向CDAC、FGFR2b靶向ADC等多条早期管线，覆盖不同实体瘤适应症，形成从引进合作到自主研发的梯度布局。
+
+
+BG-C9074推进至III期，意味着公司ADC管线正式从早期概念验证迈入关键性注册临床阶段，向商业化目标推进。
+
+
+选择卵巢癌作为首个III期适应症，背后有清晰的临床与市场逻辑。
+
+
+卵巢癌是全球女性高发恶性肿瘤，晚期患者复发率高。
+
+
+一线含铂化疗联合贝伐珠单抗维持治疗是当前标准方案，但患者获益仍然有限，存在巨大未满足临床需求。
+
+
+B7-H4在卵巢癌等多种实体瘤中高表达，正常组织表达极低，是兼具疗效潜力与安全性窗口的优质靶点。
+
+
+BG-C9074联合贝伐珠单抗的一线维持方案，若能在III期中证明PFS获益，有望重塑卵巢癌一线治疗格局。
+
+
+B7-H4靶点竞速
+
+
+卵巢癌ADC赛道正处于爆发期。FRα靶点ADC Elahere（索米妥昔单抗）已在美国获批上市，验证了ADC在卵巢癌领域的临床价值与商业潜力。
+
+
+B7-H4作为新兴靶点，全球已有多款产品进入临床，其中翰森制药与GSK合作的HS-20089进展最快，已在铂耐药卵巢癌人群中推进III期，与百济神州形成差异化竞速。
+
+
+机遇背后，风险同样值得正视。
+
+
+靶点验证层面，B7-H4的临床价值尚未获得III期确证，单靶点有效性、联合用药的协同效应仍需大规模试验验证。
+
+
+一旦关键III期未能达到PFS统计学终点，整个B7-H4靶点赛道都将受到冲击。
+
+
+安全性层面，I期的良好数据能否在大样本III期中复现，联合贝伐珠单抗是否会增加出血、高血压等不良反应，仍有待观察。
+
+
+商业化竞争层面，FRα ADC已率先抢占市场，后续还有HER2、CDH6等多靶点ADC同步推进卵巢癌适应症，患者分流不可避免。
+
+
+同时，B7-H4靶点后续玩家持续涌入，若BG-C9074不能在疗效或安全性上拉开差距，商业化窗口期将被压缩。
+
+
+此外，一线维持治疗策略虽市场空间更大，但试验难度也更高，相比后线治疗更难读出显著获益。
+
+
+BG-C9074迈入III期，是百济神州ADC战略的关键一步，也是本土B7-H4靶点的重要突破。
+
+
+这款药物能否成为百济神州实体瘤靶向管线中的首个重磅产品，最终还要看III期数据能否经受住疗效、安全性与商业化竞速的三重考验。]]></summary>
+        <author>
+            <name>界面新闻</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[南海热带低压生成，海南、广东等地有大到暴雨]]></title>
+        <id>https://m.jiemian.com/article/15087043.html</id>
+        <link href="https://m.jiemian.com/article/15087043.html"/>
+        <updated>2026-09-12T03:52:04.000Z</updated>
+        <summary type="html"><![CDATA[2026.09.12
+
+中央气象台9月12日10时发布热带低压预报：
+南海热带扰动于今天（9月12日）上午加强为热带低压，上午8点钟其中心位于海南省三亚市偏南方向约330公里的南海中西部海面上，就是北纬15.3度、东经109.4度，中心附近最大风力有6级（13米/秒），中心最低气压为1005百帕。
+预计，该低压将以每小时5-10公里的速度向北偏西方向缓慢移动，未来发展为编号台风可能性不大。该低压可能于13日下午至夜间在越南中部一带沿海登陆，登陆后强度逐渐减弱。
+大风预报：12日14时至13日14时，受冷空气和南海热带低压共同影响，南海北部和中西部海域、北部湾、琼州海峡、海南岛沿海、广东沿海、广西沿海、福建沿海将有6-7级、阵风8-9级的大风。
+降水预报：12日14时至13日14时，海南岛、广东沿海等地部分地区有大到暴雨，海南岛东南部局地大暴雨（100-140毫米）。]]></summary>
+        <author>
+            <name>界面新闻</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[清洁的边界：从面部到洗护，红之跨品类之困]]></title>
+        <id>https://m.jiemian.com/article/15086839.html</id>
+        <link href="https://m.jiemian.com/article/15086839.html"/>
+        <updated>2026-09-12T03:52:04.000Z</updated>
+        <summary type="html"><![CDATA[2026.09.12
+
+
+文｜创业最前线 李斌
+
+
+编辑｜胡芳洁
+
+
+
+红之的品牌定位从一开始就极其明确——死磕清洁。
+
+
+从洗脸到卸妆再到洗头洗澡，这家由美妆科普博主“乐乐团长”创立于2020年的品牌，六年来从未偏离过清洁二字。但这种执拗也意味着它要反复面对同一个难题：洁面利润薄、卸妆增长见顶，每跨过一个品类，就会撞上新的天花板。
+
+
+2026年7月，红之推出多巴胺洗护系列，将产品线延伸至头皮与身体护理，试图用面部积累的精准分型方法论，撬动600亿元洗护市场。
+
+
+然而，诗裴丝、独特艾琳等竞品已各自立下鲜明标签，红之的广谱覆盖策略究竟是能力外溢还是品牌稀释？清洁的边界可以不断延伸，但消费者心智的边界，从来不是靠产品线扩张就能轻易突破的。
+
+
+1 一个科普博主，把低门槛洁面做成大生意
+
+
+
+红之创始人王杰有一个更被人熟知的身份，即全网拥有近350万粉丝的美妆科普博主“乐乐团长”。
+
+
+理工科出身、中传广告学硕士、曾就职于欧莱雅（中国）研发和创新中心的化妆品配方师，这套复合背景令他既有化学知识打底，又懂传播，能深入浅出地把科学原理讲清楚。
+
+
+这一技能，恰好在成分党崛起之际迎来了真正的东风。
+
+
+2019年，王杰凭借防晒科普视频出圈。视频中，王杰用紫外线成像检测法直观呈现防晒产品的防护效果，涂抹区域在镜头下呈现黑色，未涂抹区域则被照亮，防晒力一目了然。
+
+
+
+
+
+图源：乐乐团长微博
+
+
+这种将看不见的紫外线防护变得肉眼可见的呈现方式，在当时极具冲击力。一条视频让王杰一夜涨粉50万，也让他以技术流测评博主的身份在美妆科普领域站稳了脚跟，粉丝量快速攀升至350万。
+
+
+但他并未满足于博主身份，而是看到了更底层的商业机会。
+
+
+在当时，洁面被行业普遍认为是最不容易讲出故事的品类，价值感低、利润薄、技术壁垒不高，大牌不愿…]]></summary>
+        <author>
+            <name>界面新闻</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[波音向工会提出最终合同方案，拟大幅加薪]]></title>
+        <id>https://m.jiemian.com/article/15087066.html</id>
+        <link href="https://m.jiemian.com/article/15087066.html"/>
+        <updated>2026-09-12T03:52:04.000Z</updated>
+        <summary type="html"><![CDATA[2026.09.12
+
+当地时间9月11日，波音公司宣布已向代表公司专业和技术人员的航空航天专业人员协会（SPEEA）提出最终合同方案，工会谈判团队建议成员投票接受。方案包括合同获批后加薪10%，2027年3月再加薪4%；2028年至2030年每年设6%的加薪资金池，并保证每年至少加薪4%。此外，方案还将明确远程办公相关规定，并维持此前提出的强化医疗和退休福利。
+此次谈判涉及约1.7万名波音员工，包括约1.3万名工程师和科学家及约4000名技术人员、分析师和规划人员。此前SPEEA成员曾以较大多数否决波音上一份合同方案，并以超过87%的比例授权罢工；现有合同将于10月6日到期，若新方案再次遭到否决，最早可能于10月7日举行罢工。]]></summary>
+        <author>
+            <name>界面新闻</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[智能眼镜卡位战，影目提前进入空间智能时代]]></title>
+        <id>https://m.jiemian.com/article/15086890.html</id>
+        <link href="https://m.jiemian.com/article/15086890.html"/>
+        <updated>2026-09-12T03:52:04.000Z</updated>
+        <summary type="html"><![CDATA[2026.09.12
+
+ 
+
+
+文 | 伯虎财经 楷楷
+
+
+
+2025 年是智能眼镜市场快速升温的一年。从初创公司到科技巨头，从 AR 硬件厂商到传统光学企业，各路玩家纷纷入场。
+
+
+一年过去，市场热度并未消退。随着“AI+消费”的政策推动、产业生态逐渐成熟，以及大模型与端侧算力持续演进，智能眼镜正在从早期的“尝鲜型”产品，向更具实用性的智能终端发展。
+
+
+这条已经巨头云集的赛道，也迎来了更多强势的跨界选手。
+
+
+三星首款AI 智能眼镜已经亮相，苹果首款 AI 智能眼镜计划于 2027 年推出；几乎在同一时间，业内也传出 vivo 重启 AI 眼镜研发项目的消息。
+
+
+
+大厂纷纷加码背后，是一个越来越清晰的产业趋势：智能眼镜正在从以翻译、提词、录音等功能为主的产品形态，向融合AI 交互、多模态理解与空间计算的新一代终端演进。
+
+
+当竞争从“有没有功能”逐渐转向“能不能真正理解用户和环境”，智能眼镜的下一阶段竞争，也将不再只是硬件参数的比拼，而是围绕 AI、空间计算、交互和生态展开。
+
+
+影目科技（以下简称“影目”）较早押注这一方向。过去五年，其持续推进产品迭代与技术积累，也让其站到了这一轮产业变化的前沿。今年9 月，影目宣布完成 C3 轮融资，C 轮累计融资近 10 亿元；几乎同一时间，影目正式启动上市筹备工作。
+
+
+这不只是简单的融资，更是产业资本为“下一代终端”投下的明确一票，而这一票的价值，就藏在影目的产品进化路线里。
+
+
+01 智能眼镜新赛点，大厂在抢什么？
+
+
+经历一年多的“百镜大战”后，智能眼镜市场正在进入新的竞争阶段。
+
+
+市场依然保持增长。洛图科技统计显示，2026 年上半年国内智能眼镜全渠道销量达到 90.9 万台，同比增长 85.5%；销售额达到 18.8 亿元，同比增长 98.7%。
+
+
+但比市场…]]></summary>
+        <author>
+            <name>界面新闻</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[🤔 Pandas 该被 Polars 和 DuckDB 取代吗]]></title>
+        <id>49668198</id>
+        <link href="https://newshacker.me/story?id=49668198"/>
+        <updated>2026-09-12T03:50:16.000Z</updated>
+        <summary type="html"><![CDATA[原标题：《Pandas Should Go Extinct》
+评分: 41 | 作者: __eddie__
+💭 小脚本都要上 Polars，真是为了装大数据？
+
+🎯 讨论背景
+这篇文章原本在讨论为什么 pandas 该被更现代的工具替代：很多人从 Excel 走到 pandas，但当数据规模、内存压力和 API 复杂度上来后，作者认为 Polars（一个用 Rust 实现的 DataFrame 库）和 DuckDB（一个嵌入式分析型 SQL 数据库）更合适。评论区一开始因为博文链接和标题挂反而跑偏，后来才确认真正内容是另一篇文章。讨论的背景还包括 data science 生态近年的变化：AI 编程工具改变了很多分析工作流，社交平台和 Reddit 等数据源更难获取，而“big data”公司文化又让不少中型团队倾向于采用超出实际需求的工具。整场讨论最终围绕一个核心问题展开：大多数项目到底需不需要继续依赖 pandas，还是应该尽早把计算下放到 SQL/数据库，或直接换成更现代的 DataFrame 工具。
+
+📌 讨论焦点
+标题/链接误挂
+帖子一开始把两篇文章的标题和链接挂反了，很多人点进来后都在等“Pandas”正文，却看到的是另一篇关于 source code comments 的内容。随后作者承认是同一天发了两篇文章导致的 PEBCAK，并把链接修正。这个插曲让评论区先围绕“是不是点错了”展开，而不是直接讨论技术观点。
+[来源1] [来源2] [来源3] [来源4]
+Pandas 对多数场景仍够用
+不少人认为，原文默认项目会长到几十 GB 这一前提太激进，现实里绝大多数 import pandas 的场景都远低于这个规模。对于小脚本、教育用途和个人项目来说，性能瓶颈并不突出，pandas 的文档、社区经验和熟悉度反而更重要。也有人补充，直接用 Python primitives 往往更直观，在数据集不大的情况下完全够用。
+[来源1] [来源2] [来源3] [来源4]
+Polars / DuckDB 作为新默认
+另一派则认为，新项目没必要继续把 pandas 当默认工具，Polars（一个用 Rust 实现的 DataFrame 库）和 DuckDB（一个嵌入式分析型 SQL 数据库）在语法、性能和扩展性上都更有吸引力。有人提到把小型 ETL 也迁到 Polars 后，CPU 和内存利用率都有明显改善；也有人直接表示自己已经只用 Polars 或 DuckDB。这里的核心逻辑是：如果新工具既能照顾日常体验，又能在数据变大时不崩，那就没理由继续依赖旧栈。
+[来源1] [来源2] [来源3] [来源4]
+SQL 优先，Python 只做 glue
+还有人把问题重新定义成“别在 Python 里硬做数据库该做的事”。他们现在尽量把处理下放到数据库里，让 Python 只承担 glue 代码；如果确实要在 Python 中做类似数据库的操作，DuckDB 往往比 pandas 或 Polars 更合适。这样的思路强调的是管道简单、职责清晰，而不是在 DataFrame API 里绕复杂逻辑。
+[来源1]
+生态停滞与大数据幻觉
+评论区也把争论放进更大的 data science 生态变化里看：AI 已经覆盖了不少传统 DS 工作，而社交平台、Reddit 等旧数据源又越来越封闭，能分析的题材变少了。与此同时，Databricks（一个云数据分析平台）式的“大数据”叙事让很多中型公司也想表现得像大数据公司，哪怕实际规模并不需要那套工具。于是 pandas 的惯性、组织对“未来会长大”的预期，以及对 state of the art tools 的执念，一起把旧方案继续留在了桌面上。
+[来源1] [来源2]
+
+📚 术语解释
+pandas: Python 里最常用的 DataFrame 数据处理库。
+Polars: 一个用 Rust 实现的 DataFrame 库，主打更快的执行和更低的内存占用。
+DuckDB: 一个嵌入式分析型 SQL 数据库，常被用来在本地直接做数据分析。
+SQL: Structured Query Language，用于查询和处理关系型数据的标准语言。
+
+类别：Programming | Systems | Opinion | pandas | polars | duckdb | python | performance | data science]]></summary>
+        <author>
+            <name>News Hacker | 极客洞察</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ľ��ȥ����С�к�������Ƶ]]></title>
+        <id>http://www.newsmth.net/nForum/article/FamilyLife/1767701894</id>
+        <link href="http://www.newsmth.net/nForum/article/FamilyLife/1767701894"/>
+        <updated>2026-09-12T03:40:53.000Z</updated>
+        <summary type="html"><![CDATA[������: qianyishi (qianyishi), ����: FamilyLife
+��  ��: Ľ��ȥ����С�к�������Ƶ
+����վ: ˮľ���� (Thu Sep 10 09:04:11 2026), վ��
+������룬Ҳ��֪�Բ��ԣ�
+1��С�����Щ���ڽ����ˣ��߽�к�άȨ��ʶ��̫��ǿ�ҡ�������ȫû��������ȫ��ʶ����ҲͦΣ�յ�
+2��С�к�������Щ������Ͳ����ˣ���ս�������ˡ���Ӧ�õ�һʱ���С�к������ֳ�˽�¸�������һ����ô���¶����Ѻ��Ӱ����¸�С��㽻��
+3����������С�����ô���ܿ�����Ϊ��������������ַ�������
+--
+�� ��Դ:��ˮľ���� http://www.mysmth.net��[FROM: 123.121.178.*]]]></summary>
+        <author>
+            <name>qianyishi</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[̫����AI�ǲ���Ҳ����]]></title>
+        <id>http://www.newsmth.net/nForum/article/Songs/19760</id>
+        <link href="http://www.newsmth.net/nForum/article/Songs/19760"/>
+        <updated>2026-09-12T03:40:41.000Z</updated>
+        <summary type="html"><![CDATA[������: worst (ȫ���׻�), ����: Songs
+��  ��: ̫����AI�ǲ���Ҳ����
+����վ: ˮľ���� (Fri Sep 11 06:02:38 2026), վ��
+ֶŮ�ڸ�У����
+��ChatGPT�ʺ����ҵĿ�
+ÿ��20�����˼���
+ǰ������Ҫ��100����
+��û�ü�������
+������˵������
+��������200���·ѵ�
+˵�Ǹ�����һ����
+����ô����ʲô�������Ҳ̫�����˰�
+����ô���ô���
+��Ȼ�Ҹ���һ�ȥ�϶������תǮ�ڹ��ڻ�
+�Ҿ��Ǿ����е㱻ai������
+--
+                                            __                 
+      �ġ�    __  _  _____________  _______/  |_     �ġ�      
+     �R��Q   \ \/ \/ /  _ \_  __ \/  ___/\   __\   �R��Q     
+  ���r/�l\     \     (  <_> )  | \/\___ \  |  |      /�l\�q��  
+    �t�s        \/\_/ \____/|__|  /____  > |__|        �t�s    
+                                       \/                      
+
+�� ��Դ:��ˮľ���� http://www.mysmth.net��[FROM: 76.98.200.*]]]></summary>
+        <author>
+            <name>worst</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[2026��һ���ȣ�ȫ��21.3��������굹�գ������ʸߴ�52%]]></title>
+        <id>http://www.newsmth.net/nForum/article/OurEstate/3509105</id>
+        <link href="http://www.newsmth.net/nForum/article/OurEstate/3509105"/>
+        <updated>2026-09-12T03:40:40.000Z</updated>
+        <summary type="html"><![CDATA[������: thisisshuimu (�����ˮľ), ����: OurEstate
+��  ��: 2026��һ���ȣ�ȫ��21.3��������굹�գ������ʸߴ�52%
+����վ: ˮľ���� (Thu Sep 10 11:45:39 2026), վ��
+
+--���� ismth(˿����)
+--
+�����ˮľ
+�� ��Դ:��ˮľ���� http://www.mysmth.net��[FROM: 111.55.25.*]]]></summary>
+        <author>
+            <name>thisisshuimu</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Great Way Forward: In the Age of AI, Who Gets to Come Along?]]></title>
+        <id>https://medium.com/p/f698471d290e</id>
+        <link href="https://medium.com/@lydialeilee/the-great-way-forward-in-the-age-of-ai-who-gets-to-come-along-f698471d290e?source=rss------china-5"/>
+        <updated>2026-09-12T03:37:32.000Z</updated>
+        <summary type="html"><![CDATA[From Shanghai’s Inclusion Conference: What AI Looks Like When Everyone Is Invited In
+Continue reading on Medium »]]></summary>
+        <author>
+            <name>Lydia Lee</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AI 真正的进化史：今天的一切，究竟是谁铺出来的]]></title>
+        <id>4890634</id>
+        <link href="https://www.huxiu.com/article/4890634.html?f=rss"/>
+        <updated>2026-09-12T03:37:16.000Z</updated>
+        <summary type="html"><![CDATA[本文来自微信公众号： HavenlonLabs ，作者：Havenlon Labs
+
+
+如果只从今天回头看，人工智能很容易被理解成一件突然发生的事：2012年AlexNet在ImageNet竞赛中大幅领先，2016年AlphaGo战胜李世石，2017年Transformer提出，2020年GPT-3展示出规模带来的能力变化，2022年底ChatGPT进入公众视野，随后多模态、推理模型与Agent接连出现。曲线看上去在最近十几年陡然上扬。
+
+
+但把时间轴拉长，就会发现今天几乎每一项令人意外的能力，背后都有一条长得多的技术祖先链。在ChatGPT出现七十多年前，人类已经开始认真讨论机器能否表现出智能；在GPU被用来训练神经网络的几十年前，已经有人尝试把神经元写成可以执行逻辑运算的形式模型；在Transformer之前，研究者用了数十年处理梯度、记忆、表示、序列与注意力的问题；而在Agent开始调用工具、执行代码、操作浏览器之前，强化学习研究者已经追问了几十年另一个问题——一个主体如何从环境反馈中学会行动。
+
+
+所以真正的AI进化史不是一部“谁发明了人工智能”的英雄史，它更像一条由许多人分段铺设、且彼此并不知道终点在哪里的长路。有人处理计算的问题，有人处理学习的问题，有人处理数据的问题，有人处理算力的问题，有人处理语言的问题；还有一些机构当时做的事情看起来与人工智能关系并不直接，却最终成为整个时代不可缺少的基础设施。
+
+
+理解这条历史，重要的不是记住年份，而是理解：人工智能究竟一步一步跨过了哪些门槛。
+
+
+一、1936—1950：在制造智能之前，人类首先必须回答“机器究竟能计算什么”
+
+
+现代人工智能的故事很难绕开Alan Turing，但他的重要性并不只在于后来那个被称作Turing Test的设想。1936年提交、次年正式发表的《On Computable Numbers,w…]]></summary>
+        <author>
+            <name>HavenlonLabs</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[�����Ƽ�473��]]></title>
+        <id>http://www.newsmth.net/nForum/article/Stock/11582222</id>
+        <link href="http://www.newsmth.net/nForum/article/Stock/11582222"/>
+        <updated>2026-09-12T03:34:48.000Z</updated>
+        <summary type="html"><![CDATA[������: bananana (banana), ����: Stock
+��  ��: �����Ƽ�473��
+����վ: ˮľ���� (Fri Sep 11 12:31:25 2026), վ��
+Ŀǰ��ӯ�ʻ���350 ��׼�������е���Ӧ��ȥ����
+--
+�� ��Դ:��ˮľ���� http://www.mysmth.net��[FROM: 39.144.79.*]]]></summary>
+        <author>
+            <name>bananana</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[�ܲ��ֱ��ļ�ǿ��]]></title>
+        <id>http://www.newsmth.net/nForum/article/RunningLife/850054</id>
+        <link href="http://www.newsmth.net/nForum/article/RunningLife/850054"/>
+        <updated>2026-09-12T03:34:06.000Z</updated>
+        <summary type="html"><![CDATA[������: l0086 (�������㣬�뼰ʱ��ֵ), ����: RunningLife
+��  ��: �ܲ��ֱ��ļ�ǿ��
+����վ: ˮľ���� (Fri Sep 11 15:17:58 2026), վ��
+  ������ƻ���ֱ����ܲ���������̫�࣬����û���ʣ������ܲ�˦�۷��ȴ�Щ������ȫû�����ˡ����������ڸ��ܿ�ʼʱһ������170+��
+  �����ֱ����ܿ˷����������ʱ�򲻣�
+  �ܲ�·��ֱ�����Ҵ�ͷ���ɹ��������Ȳ����ǣ���Ҫ���û�������⣬�����Ѿ����������ٽ��ˡ�
+  
+--
+�� ��Դ:��ˮľ���� mysmth.net��[FROM: 114.244.130.*]]]></summary>
+        <author>
+            <name>l0086</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AI内容启示录：写在红果碾压爱优腾芒之后]]></title>
+        <id>4890633</id>
+        <link href="https://www.huxiu.com/article/4890633.html?f=rss"/>
+        <updated>2026-09-12T03:34:04.000Z</updated>
+        <summary type="html"><![CDATA[只要行业没有门槛壁垒，AI就会加速产能过剩内卷化和恶性竞争，最后谁都不赚钱。]]></summary>
+        <author>
+            <name>李慕阳©</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[😒 9/11 相关 PDB 解密：情报失灵、删节与党争]]></title>
+        <id>49663054</id>
+        <link href="https://newshacker.me/story?id=49663054"/>
+        <updated>2026-09-12T03:25:47.000Z</updated>
+        <summary type="html"><![CDATA[原标题：《Declassified 9/11-related President's Daily Briefs》
+评分: 121 | 作者: stmw
+💭 拿几页 PDB 就能给历史判案了？
+
+🎯 讨论背景
+这批材料是 CIA（美国中央情报局）解密的 9/11 相关 PDB（President's Daily Brief，每日总统简报），时间跨度大致覆盖 1998-2001 年，内容围绕 Bin Laden（本·拉登）、劫机预警和其他威胁。PDB 本来就是给总统看的高度压缩摘要，通常要等约 40 年才公开，所以这次提前放出并伴随大量删节，引发了对来源、敏感人物和政治动机的怀疑。评论区一方面争论情报机构当年是否看见了但没行动，另一方面强调不能用事后结果倒推当时判断，因为当时信号噪音很大、主题也很多。讨论很快延伸到 Bush（小布什）、Clinton（克林顿）和 Trump（特朗普）如何处理情报简报，以及 9/11 如何被用于后来的国内监控和战争叙事。
+
+📌 讨论焦点
+上下文缺失与事后偏差
+有些评论认为，这些解密件缺少更大的日常情报背景，所以很容易在事后被拿来挑证据。文中涉及的线索本来就很杂：本·拉登可能挑起内战、袭击大使馆、生化攻击、欧洲细胞，以及美国境内劫机预警，但多数信息都还停留在模糊阶段。有人用医疗检测作比喻：如果警报过于泛化，假阳性太高，就会制造 alert fatigue，让分析员无法追踪每条线索。另一些人还强调，很多文件其实来自克林顿时期，不能简单把结果直接归到小布什头上。
+[来源1] [来源2] [来源3] [来源4] [来源5]
+情报失误在于没把信号转成行动
+另一派认为，重点不是能否精准预言 9/11，而是有没有足够信号去阻止已知危险人物。评论里提到，涉案人员进入美国、接受与 aircraft hijacking 有关的训练，甚至主动只学飞行中的某些阶段…]]></summary>
+        <author>
+            <name>News Hacker | 极客洞察</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[��û�Ϲ�������ĳ��������׵���ʾ�޳ɼ��꼶ǰʮ]]></title>
+        <id>http://www.newsmth.net/nForum/article/ChildEducation/2586772</id>
+        <link href="http://www.newsmth.net/nForum/article/ChildEducation/2586772"/>
+        <updated>2026-09-12T03:25:24.000Z</updated>
+        <summary type="html"><![CDATA[������: hyeana (hyeana), ����: ChildEducation
+��  ��: ��û�Ϲ�������ĳ��������׵���ʾ�޳ɼ��꼶ǰʮ
+����վ: ˮľ���� (Fri Sep 11 18:37:24 2026), վ��
+Сѧֻ������û�б����κΰ࣬û��һ��Ǯ�����������ߣ���Ҫ�������ǣ���˵����ѧֻ������һ�����ã�����ë��û�С��κγ�����ʼ״Ԫ�ܵ�һ��Ʒ���к��ڶ�������Ʒ������Ҫ����λ�ã��ϴ�ѧ��ֻ�Ǻ򲹣��򲹺�ʵȱ���ر𣬾���������ֹ��ﵱ��ͥ��ʦ�ͺ�������ʵȱ�ľ޴��𡣼ҳ����ܵ�Ǯ��ʲô����Ҫ����û�ñ��˳������ͱ�ָ�����������ˡ�
+--
+�� ��Դ:��ˮľ���� http://www.mysmth.net��[FROM: 218.108.210.*]]]></summary>
+        <author>
+            <name>hyeana</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[一日七家券商领罚单！事涉经纪、“股市小作文”、反洗钱等，高管同步被追责]]></title>
+        <id>https://m.jiemian.com/article/15086355.html</id>
+        <link href="https://m.jiemian.com/article/15086355.html"/>
+        <updated>2026-09-12T03:22:04.000Z</updated>
+        <summary type="html"><![CDATA[2026.09.12
+
+
+界面新闻记者 | 孙艺真
+
+
+
+9月11日，证监会各地证监局与央行集中公示一批券商监管处罚信息，共计7家券商收到监管措施或行政处罚，被追责个人超过10人。
+
+
+界面新闻记者梳理发现，处罚事由覆盖经纪业务管理、廉洁从业、反洗钱、债券承销尽调等多个条线，从业人员散播“股市小作文”也遭严查，既有总部层面被约谈，也有分支机构被警示，部分券商高管同步被追责。
+
+
+其中，浙商证券（601878.SH）分管经纪业务的高管胡南生被浙江证监局采取监管谈话措施；广发证券（000776.SZ）浙江分公司被责令改正，杭州富春路营业部及深圳分公司分别被出具警示函；中金财富证券宁波海晏北路营业部被出具警示函；国融证券则因债券承销尽调缺位被内蒙古证监局监管谈话；长江证券（000783.SZ）因未能严格规范研究所个别工作人员执业行为，被湖北证监局采取责令改正的行政监管措施。同日，东方财富证券、国投证券因反洗钱违规遭央行处罚。
+
+
+具体来看，经纪业务依旧是违规重灾区，高管被穿透追责。根据监管披露，浙商证券存在两项突出问题。一是对证券经纪人执业范围、执业行为合规管理不到位，未对证券经纪人招揽服务的客户账户开展有效监控；二是廉洁从业内部控制机制、风险防范体系存在明显缺陷。
+
+
+监管认定，胡南生作为分管经纪业务的高管，对上述违规负有管理责任，要求浙商证券完成内部问责，并在规定时限内向监管提交书面问责报告。公开信息显示，胡南生于2017年1月加入浙商证券，历任该公司经纪业务总部总经理、财富管理事业部总经理等职位，是浙商证券经纪业务的核心高管。
+
+
+
+这是当日罚单中少数由分管经纪业务高管直接承担管理责任的案例。一位华东地区券商合规人士对界面新闻表示，“经纪业务罚单不再仅仅停留在营业部层面，现在总部对分支机构的考核规则在收紧，高管层面无法再将合规责任完全下沉。”
+…]]></summary>
+        <author>
+            <name>界面新闻</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[167厘米、101斤被判“偏重”：儿童手表的焦虑生意该刹车了]]></title>
+        <id>https://m.jiemian.com/article/15086883.html</id>
+        <link href="https://m.jiemian.com/article/15086883.html"/>
+        <updated>2026-09-12T03:22:04.000Z</updated>
+        <summary type="html"><![CDATA[2026.09.12
+
+
+文｜凤凰WEELY财经 刘三金
+
+
+编辑｜闫如意
+
+
+
+身高167厘米、体重101斤属于什么身材？
+
+
+小天才电话手表给出的答案是：偏重。
+
+
+近日，一位女孩在查看健康监测时，手表系统给出了上述判定。
+
+
+事件曝光后迅速引发热议，话题 #小天才电话手表被指制造身材焦虑# 也登上热搜。
+
+
+
+
+
+毕竟，这组数字怎么看，都和“偏重”沾不上半点边。
+
+
+
+比起算法的离谱，更让人不安的，是随之产生的隐形压力。
+
+
+成年人尚且会被体重秤上的一个数字影响心情，更别说一个正在形成身体认知的孩子。
+
+
+而把视线从这次热搜移开，会发现儿童手表这些年惹出的争议，一桩接着一桩。
+
+
+一件本该守护儿童安全的工具，究竟从何时起，开始变味儿了？
+
+
+01
+
+
+101斤被判偏重，儿童手表有多荒谬？
+
+
+这件事究竟有多离谱？用最基础的BMI公式换算一下，就知道了。
+
+
+身高167厘米的女孩，年龄大致在12岁以上，体重101斤，按照BMI公式计算，她的BMI约为18.1。根据国家卫健委的儿童青少年标准，12岁女生的超重门槛是21.5；此后随年龄增长一路抬升，到18岁时则为24。
+
+
+也就是说，无论放在哪个年龄段，18.1的BMI都跟“偏重”沾不上半点边。
+
+
+更荒谬的是，系统随后还补了一刀，提示：“体重超过99%的同龄女孩”。
+
+
+单纯看101斤的数值，在同龄人中的确可能偏高。但脱离身高谈体重，无异于耍流氓。
+
+
+抽离了关键的身高变量后，所谓的“超过99%”，不过是把一场毫无参考价值的对比，伪装成了看似权威的科学结论。
+
+
+事发后，小天才承认表达“不够严谨”，并下架了健康监测中的评价与判定类内容。
+
+
+02 
+
+
+事实上，翻看过往报道不难发现，这并非偶发的失误，小天才早已不是第一次在孩子的体…]]></summary>
+        <author>
+            <name>界面新闻</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[特朗普提名的美国公共卫生局局长人选披露持有烟草及饮料公司投资]]></title>
+        <id>https://m.jiemian.com/article/15086891.html</id>
+        <link href="https://m.jiemian.com/article/15086891.html"/>
+        <updated>2026-09-12T03:22:04.000Z</updated>
+        <summary type="html"><![CDATA[2026.09.12
+
+当地时间9月11日，美国总统特朗普提名的美国公共卫生局局长人选妮科尔·萨菲尔（Nicole Saphier）披露，其持有菲利普莫里斯国际、怪兽饮料、可口可乐和百事等公司投资。根据其提交的伦理协议，她承诺出售或部分出售上述公司以及礼来、辉瑞、阿斯利康等医药和生物科技企业的相关持股。
+萨菲尔主张减少食品添加剂和超加工食品摄入，并鼓励运动。她目前担任新泽西州纪念斯隆凯特琳癌症中心乳腺影像科主任，并创办草本补充剂公司DropRx。她的参议院确认听证会定于9月16日举行。]]></summary>
+        <author>
+            <name>界面新闻</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[铜价新高之后：下一个“白银时刻”会来吗？]]></title>
+        <id>https://m.jiemian.com/article/15086841.html</id>
+        <link href="https://m.jiemian.com/article/15086841.html"/>
+        <updated>2026-09-12T03:22:04.000Z</updated>
+        <summary type="html"><![CDATA[2026.09.12
+
+
+文｜字母榜 苗正
+
+
+编辑｜王靖
+
+
+
+铜价又创新高了，9月8日晚，LME盘中最高14779美元，收盘14728美元，连续两日刷新历史纪录。沪铜主力收盘 110620元/吨，历史首次收盘站上11万元大关。
+
+
+猛涨的趋势和去年的白银有些相似。
+
+
+2025年，白银全年涨约148%，于是就有新闻报道，宝妈们推着小车在深圳水贝抢15公斤的银砖，郑州珠宝市场的银条柜台排起长龙。
+
+
+2026年1月23日，伦敦现货白银冲破100美元/盎司创历史新高，开年不到一个月又涨40%。
+
+
+但是没过多久，白银就出现了暴跌。
+
+
+
+1月31日“白银爆仓夜”盘中闪崩36%，创1980年以来最大单日跌幅。2月2日国内13个期货品种集体跌停。30多块钱一克买入，水贝回收价只剩17-18块钱。
+
+
+不仅如此，铜涨价的原因也和白银相似，归根结底都是因为AI。
+
+
+白银这边，虽然通常我们认为，白银是一种“避险资产”，但白银的暴涨主要来自于工业需求的。
+
+
+比如光伏银浆，它是太阳能电池板上印刷导电线路的银色浆料，主要成分就是银。主流的TOPCon电池每发一瓦电耗银13到14毫克，更先进的HJT异质结电池超过20毫克。
+
+
+AI服务器要镀银，新能源汽车用银量是燃油车的2-3倍。工业用银占比突破60%，AI发展必然导致了白银成为刚需。
+
+
+可全球约70%的白银是铜、铅、锌矿的副产品，矿主挖铜挖锌时顺手把银带出来，白银没有独立的矿山可以单独扩产，新矿从勘探到开采需要5到10年。
+
+
+2025年全球白银供需缺口高达1到2.5亿盎司，纽约商品交易所（COMEX）仓库里的白银库存较2020年暴跌70%。缺口再叠加杠杆，把白银一路推上100美元/盎司。
+
+
+铜的故事乍一看是如出一辙，AI服务器（包含电缆、电线）单台用铜15到30公斤，是…]]></summary>
+        <author>
+            <name>界面新闻</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[华为三折叠新机开售即售罄]]></title>
+        <id>https://m.jiemian.com/article/15086843.html</id>
+        <link href="https://m.jiemian.com/article/15086843.html"/>
+        <updated>2026-09-12T03:22:04.000Z</updated>
+        <summary type="html"><![CDATA[2026.09.12
+
+9月12日，华为三折叠新机华为Mate XT 2非凡大师10:08开启全渠道首销，售价19999元起。据华为商城显示，华为Mate XT 2非凡大师开售即售罄，各个配色及版本均已断货。]]></summary>
+        <author>
+            <name>界面新闻</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[曼德海峡通行船只数量锐减至个位数]]></title>
+        <id>https://m.jiemian.com/article/15086900.html</id>
+        <link href="https://m.jiemian.com/article/15086900.html"/>
+        <updated>2026-09-12T03:22:04.000Z</updated>
+        <summary type="html"><![CDATA[2026.09.12
+
+也门胡塞武装攻占红海重镇穆哈后，10日通行曼德海峡的船舶数量锐减至个位数。相关数据显示，截至当地时间9月10日15时许，当天仅有6艘船只通行曼德海峡，而9日有30艘、8日有26艘、7日有29艘。报道说，10日通过的船只中有5艘载有谷物、原油、煤炭和化肥的船只驶离曼德海峡，另有一艘船只进入曼德海峡。
+曼德海峡连接红海与亚丁湾，是中东地区一条重要航道，流通全球约12%的商品。（央视新闻）
+        
+
+获取更多RSS：
+https://feedx.net 
+https://feedx.site]]></summary>
+        <author>
+            <name>界面新闻</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[宁德时代启动A股史上最大回购]]></title>
+        <id>https://m.jiemian.com/article/15086389.html</id>
+        <link href="https://m.jiemian.com/article/15086389.html"/>
+        <updated>2026-09-12T03:22:04.000Z</updated>
+        <summary type="html"><![CDATA[2026.09.12
+
+
+界面新闻记者 | 高菁
+
+
+
+A股史上最大规模回购启动了。
+
+
+9月11日晚间，宁德时代(300750.SZ)公告宣布，公司于当日通过深圳证券交易所股票交易系统以集中竞价交易方式回购公司A股股份60.43万股，占公司当前总股本的0.0131%，最高成交价为331.61元/股，最低成交价为330.15元/股，成交总金额约2亿元。
+
+
+这是宁德时代此前披露的不低于200亿元、不超过400亿元的A股股份回购方案的首次实施。400亿元的上限创造了A股单次回购金额的最高纪录。
+
+
+根据回购方案，宁德时代此次回购股份将全部用于注销并减少公司注册资本，回购期限为自股东会审议通过之日起12个月内，资金来源为公司自有或自筹资金，回购期限为自股东会审议通过之日起12个月内。
+
+
+注销式回购，指公司将回购股份直接注销并相应减少注册资本，而非用于股权激励、员工持股等用途，完成后总股本减少，在净利润不变的情况下可提升每股收益，相当于增厚留存股东权益。
+
+
+
+此次方案披露时，573元/股的回购价格上限曾被市场视为重磅信号。按公告当天股票收盘价计算，回购上限价高出近50%。业内将此解读为宁德时代对自身股价和长期价值的自信。
+
+
+宁德时代也在上半年业绩说明会上指出，近期资本市场和公司股价均有波动，综合考虑财务状况、行业地位及市场因素，公司推出回购计划，以应对股价大幅下滑、估值与实际价值不匹配的风险，本质上是对长期发展前景有信心。
+
+
+宁德时代此前已有多轮回购，但多用于股权激励或员工持股，并非注销。
+
+
+2023年10月首轮拟20亿-30亿元，最终回购约1599.15万股，耗资27.11亿元；2025年4月第二轮拟40亿-80亿元，最终回购约1599.08万股，耗资43.86亿元。股份均用于激励或员工持股。更早还有小规模限制性股票回购注销。
+
+
+相比之下，此次200亿-400亿元、价格上限573元/股且全部注销，规模和用途均属首次。
+
+
+不过，此次首次回购的实际成交价为330.15元/股-331.61元/股，相当于上限的约57.62%-57.87%。
+
+
+宁德时代股价自今年5月盘中触及年内高点468.75元/股后，一路下跌。回购方案披露后，该公司股价曾出现短暂脉冲式反弹，但这一涨势未能延续。
+
+
+截至9月11日收盘，宁德时代股价已回落至330.51元/股，较年内高点下滑近三成。
+
+
+目前当前市场对宁德时代最大的担忧，在于下游车企“去宁德化”的加速落地。
+
+
+理想汽车9月7日宣布将全系搭载自研电池；小米汽车于近日正式官宣中创新航、欣旺达动力为两大电池战略合作伙伴。与此同时，部分其他车企也在扩大供应商名单。宁德时代的长期议价能力和份额天花板正在被重新审视。
+
+
+与持续走低的股价形成对比的是，宁德时代的业绩依然强劲。
+
+
+今年上半年，宁德时代实现营业收入2769.17亿元，同比增长54.8%；净利润432.84亿元，同比增长41.98%。
+
+
+核心业务层面，动力电池系统上半年实现收入1921.25亿元，同比增长46.02%；储能电池系统收入532.61亿元，同比大幅增长87.54%，营收占比提升至约19%，成为宁德时代最主要的增长动力；电池材料及回收业务收入188.11亿元，同比增长67.23%。
+
+
+此外，宁德时代上半年境外业务收入达871.29亿元，同比增长42.35%，占总营收31.46%，毛利率达29.97%，显著高于境内业务的21.16%。
+
+
+上半年，宁德时代还同步抛出64.93亿元中期分红方案，每10股派发现金14.11元，占净利润的约15%。
+
+        
+
+获取更多RSS：
+https://feedx.net 
+https://feedx.site]]></summary>
+        <author>
+            <name>界面新闻</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[霸王茶姬开始卖茶叶蛋，新茶饮的“茶+”走到哪一步了？]]></title>
+        <id>https://m.jiemian.com/article/15086363.html</id>
+        <link href="https://m.jiemian.com/article/15086363.html"/>
+        <updated>2026-09-12T03:22:04.000Z</updated>
+        <summary type="html"><![CDATA[2026.09.12
+
+
+文｜饮品报
+
+
+
+“茶叶蛋，也是吃上牌子货了。”
+
+
+“霸王茶姬，你有点太想进步了。”
+
+
+9月7日，霸王茶姬在上海7家门店上线“白雾红尘茶叶蛋”，用招牌大红袍茶底慢煮，单点5元，加购2.5元。
+
+
+随即，“霸王茶姬开始卖茶叶蛋”话题迅速冲上多平台热搜。其中微博话题阅读量超过2100万。
+
+
+
+
+
+图源：微博话题
+
+
+
+因为一颗茶叶蛋，霸王茶姬被全网围观。
+
+
+01 茶叶蛋被围观，这届网友的态度有点分裂
+
+
+“普通茶叶蛋我不闻不问，你要跟我说是白雾红尘做的，那我当然立即下单了。”
+
+
+“茶姬，原来你是做茶叶蛋的这块料啊。”
+
+
+还有人翻出了“咖啡店为什么不能卖鸡蛋，反正早餐要吃”的老梗，直言这个“脑洞”被霸王茶姬抢先落地了。
+
+
+还有外地网友在线“求快递”、“求全国上线”。
+
+
+
+
+
+图源：霸王茶姬
+
+
+但在“肯定派”之外，更多网友加入了“调侃”大军。
+
+
+定价是集中火力点。单点5元一枚的价格，被网友调侃为“沪爷专供”、“彼得专供”；“每颗蛋都有独立包装，感觉包装比蛋贵”。
+
+
+还有网友欢乐玩梗：“这个蛋吃了会睡不着吗？”“茶姬，好好做你的奶茶。”
+
+
+网友猎奇、质疑、调侃的各种声音，一路将霸王茶姬送上了热搜。
+
+
+但事实上，霸王茶姬并非第一个卖茶叶蛋的新茶饮品牌。
+
+
+2020年，喜茶就推出过5元一颗的“金凤茶叶蛋”，用了现泡金凤红茶加7种香辛料14道工序。该行为同样让消费者感到“迷惑”。
+
+
+图源：相关报道
+
+
+还有茶话弄曾推出桂花乌龙茶叶蛋，茶颜悦色上线了“汤泡茶叶蛋”的即食卤味……有网友因此发帖做起了“调研”，对比谁家的茶叶蛋才是“你的梦中情蛋”。
+
+
+
+
+
+图源：喜茶&茶话弄官微
+
+
+但这些“茶叶蛋”产品，大多没能成为门店的常规产品。
+…]]></summary>
+        <author>
+            <name>界面新闻</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[云南信托处分复核背后，业内固收类标品信托快速扩容、债券交易乱象迎多轮整治]]></title>
+        <id>https://m.jiemian.com/article/15084919.html</id>
+        <link href="https://m.jiemian.com/article/15084919.html"/>
+        <updated>2026-09-12T03:22:04.000Z</updated>
+        <summary type="html"><![CDATA[2026.09.12
+
+界面新闻记者 | 邹文榕
+
+
+一纸自律复核决议，再度将信托债券交易的违规乱象暴露在市场视野中。
+
+
+近日，中国银行间市场交易商协会（下称：交易商协会）公开两则自律处分信息，其中，云南信托2025年因债券交易违规被协会严重警告后的申请复核后的结果随之公开。
+
+
+协会复核认定，云南信托作为相关信托产品管理人：一是内部控制机制未能有效识别相关违规投资建议，客观上为相关违规交易的发生提供了便利；二是在开展相关债务融资工具现券买入的同时，沟通约定未来卖出安排，并按照事先确定的持有期间收益率确定卖出价格、进行交易。
+
+
+自律处分会议决定对云南信托予以警告，责令公司针对暴露出的债券交易相关内部控制及合规管理问题进行全面深入的整改。
+
+
+追溯云南信托此次被警告过往可知，2025年12月31日，交易商协会一次性披露三则信托公司自律处分信息，云南信托、山西信托、中融信托因在债券交易及信托产品管理中存在违规行为同时被罚。
+
+
+
+其中，中融信托和山西信托因“不以真实需求为基础开展交易，在买入相关债务融资工具过程中收取利息之外的其他费用”等问题均被处以警告；云南信托则被发现存在“未履行审慎管理职责，客观上为不具备银行间债券市场交易资格的人员违规参与交易提供便利，以及违规参与相关债务融资工具的代持交易”问题，遂被交易商协会处以严重警告。
+
+
+上述三家信托的处分并非孤立个案，信托作为债券市场参与者之一，早已成为监管重点关注机构。
+
+
+2026年初，交易商协会曾披露，2025年全年，协会累计对44家涉及结构化发行违规的机构作出自律处分，其中，32家交易违规机构被处分，涉及信托、期货等资产管理公司7家，违规情形覆盖操纵价格、利益输送、出借账户、调节产品间损益、交易违约、代持等。
+
+
+信托公司被集中处分背后，界面新闻关注到，在行业非标转标趋势叠加承接…]]></summary>
+        <author>
+            <name>界面新闻</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[算力服务加速涌现，成为今年服贸会亮点]]></title>
+        <id>https://m.jiemian.com/article/15086984.html</id>
+        <link href="https://m.jiemian.com/article/15086984.html"/>
+        <updated>2026-09-12T03:22:04.000Z</updated>
+        <summary type="html"><![CDATA[2026.09.12
+
+2026年中国国际服务贸易交易会，正在北京首钢园进行。在今年的服贸会现场，围绕人工智能技术的升级迭代，相关的算力服务加速涌现，成为今年服贸会的一大亮点，也在打开服务贸易发展的新空间。在电信、计算机和信息服务专题展区，今年参展的不少企业正从提供传统通信服务，转向输出“算力+AI”的一体化综合性服务。（央视新闻）]]></summary>
+        <author>
+            <name>界面新闻</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[京津冀智算供需清单发布，三地将加快构建环京算力供给走廊]]></title>
+        <id>https://m.jiemian.com/article/15086986.html</id>
+        <link href="https://m.jiemian.com/article/15086986.html"/>
+        <updated>2026-09-12T03:22:04.000Z</updated>
+        <summary type="html"><![CDATA[2026.09.12
+
+2026中国算力大会于9月11日至13日在廊坊市京津冀大数据创新应用中心举办。作为重要活动之一，9月11日，京津冀智算与先进制造产需论坛举行。论坛上，京津冀智算供需清单正式发布，为算力供需双方精准对接、深入洽谈搭建桥梁，推动京津冀智算与先进制造加速融合。论坛上，北京市经信局、天津市工信局、河北省工信厅签署《共建京津冀“银河算廊”算力协同发展合作协议》。三地将加快“银河算廊”工程建设，构建环京算力供给走廊，延伸上中下游产业链，打造京津冀算力产业“一条龙”工程，实现芯片、存储、通信、整机、液冷、数据中心、算力调度、大模型、应用场景的全链条协同，形成完整的算力产业体系。（河北日报）]]></summary>
+        <author>
+            <name>界面新闻</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[特朗普连续3天许诺5000美元分红：若共和党赢下中选，每位年轻人发钱]]></title>
+        <id>https://m.jiemian.com/article/15086990.html</id>
+        <link href="https://m.jiemian.com/article/15086990.html"/>
+        <updated>2026-09-12T03:22:04.000Z</updated>
+        <summary type="html"><![CDATA[2026.09.12
+
+据CCTV国际时讯消息，美国总统特朗普当地时间9月11日在社交媒体平台发帖，连续第3天承诺：如果共和党在11月的中期选举中保住国会控制权，将向每位美国成年人发放5000美元。
+
+
+特朗普在帖文中写道：“由于我国正吸纳数万亿美元的经济发展、投资和纯粹的成功，我们将向美国所有成年人发放5000美元’特朗普红利’。对此，‘笨蛋民主党人’大加批评，他们巴不得这事儿黄了——但它一定会实现。投票给共和党——让美国再次伟大！”
+
+
+特朗普是在当地时间9月9日晚达拉斯共和党首次中期选举大会上提出这一计划的，但目前尚不清楚这笔款项的具体运作方式，其合法性也存疑。美国民主党人更是指责特朗普这是在变相贿选。
+
+
+特朗普说，这笔钱将被称为“特朗普分红”，这就像是上市公司为股东分红一样，但这笔钱必须在美国国内消费。
+
+
+美国副总统万斯表示，这笔“分红”将来自美国的关税收入。
+
+
+据悉，美国大约有2.7亿成年人，特朗普若兑现这一承诺，将耗资约1.35万亿美元。
+
+
+
+中国新闻网援引《金融时报》的分析称，特朗普作出这一承诺之际，债券市场对美国政府高额支出表示日益担忧。美国民众还对特朗普政府未能控制通货膨胀以及美伊战事带来的负面影响感到失望。
+
+
+分析还指出，即使共和党在11月的中期选举中保住了国会多数席位，但要想让国会批准如此大规模的支付很可能也将面临重大障碍，因为许多共和党人对这项措施持谨慎态度。
+
+
+当前，美国联邦债务规模已正式突破40万亿美元大关，美债收益率持续处于多年高位。市场担忧，大规模的现金发放可能进一步恶化美国财政赤字，刺激消费需求并引发二次通胀风险。]]></summary>
+        <author>
+            <name>界面新闻</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[外滩大会投资人谈机会和泡沫：具身智能的热钱还不够多]]></title>
+        <id>https://m.jiemian.com/article/15086275.html</id>
+        <link href="https://m.jiemian.com/article/15086275.html"/>
+        <updated>2026-09-12T03:22:04.000Z</updated>
+        <summary type="html"><![CDATA[2026.09.12
+
+界面新闻记者 | 佘晓晨
+界面新闻编辑 | 文姝琪
+                    
+
+AI仍然是一级市场最活跃的投资方向之一。但在技术的演进和市场的变化中，投资人的态度趋于理性，判断标准也逐渐清晰。
+
+
+9月11日，在2026 Inclusion·外滩大会的一场投资人交流中，来自中科创星、峰瑞资本、BAI Capital、Granite Asia（纪源资本）、九合创投的五位投资人，分别谈到了自己对AI上下游投资的判断，包括如何看待具身智能当下的“估值”和“泡沫”等尖锐问题。
+
+
+投资人依然在寻找热门赛道，但一个比较明显的变化是，他们的关注点正变得更加细化。很多问题需要更具体的答案，比如在AI的“智能”继续提升之后，哪些产业环节会因此产生新的价值？这决定了AI项目的长期性。
+
+
+从目前的投资方向来看，AI基础设施、模型和应用仍然是几条最明确的主线。在不同投资机构的实践中，AI的火热体现在多线并行。一部分资金继续寻找下一代模型、算力和基础设施的突破，另一部分资金则在寻找智能能力扩散之后的新产品、新交互和产业机会。
+
+
+而对于现阶段投资的泡沫问题，大部分投资人的看法是乐观的——这其中当然也有风险的成分。BAI Capital AI领域投资负责人冯甜认为，如果没有泡沫，大量的资金、大量的人才不会涌入。但凡一个创新的行业，一定会是这种状态。也有投资人建议，现阶段创业公司还是要按照产品阶段去匹配融资规模和估值。
+
+
+
+AI投资有了更多清晰判断
+
+
+一方面，投资机构依然在关注前沿技术和基础模型本身。“大家看到今年市场上模型公司的估值非常高之后，对Model的热情越来越高，并没有减退。”九合创投投资总监赵福珩在接受界面新闻等媒体采访时表示。
+
+
+另一方面，从投资布局来看，投资人并没有把目光集中在某一个环节，而是在模型、基础设…]]></summary>
+        <author>
+            <name>界面新闻</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[《早春晴朗》海内外双爆，现偶扛起出海KPI?]]></title>
+        <id>https://m.jiemian.com/article/15086362.html</id>
+        <link href="https://m.jiemian.com/article/15086362.html"/>
+        <updated>2026-09-12T03:22:04.000Z</updated>
+        <summary type="html"><![CDATA[2026.09.12
+
+
+文｜娱乐独角兽 糖炒山楂
+
+
+编辑｜赤木瓶子
+
+
+
+有人在戒断，有人在吐槽，无可否认的是，《早春晴朗》火了，且海内外双爆。
+
+
+国内，优酷站内热度连续13天破万，抖音主话题播放量达168亿次，小红书主话题阅读量25亿、微博20亿。点映创造了新峰值，云合市占率超过40%，2026至今仅次于《逐玉》；灯塔市占率同样来到了35%，正片累计播放逼近10亿。
+
+
+海外，该剧连续两周位列Netflix全球非英语剧集周榜TOP2，获得7个国家及地区的周榜冠军、进入38个国家及地区周榜TOP10，刷新国产剧出海成绩的多项榜单纪录，主演井柏然、孙千的海外平台涨粉量和搜索量暴涨。
+
+
+值得注意的是，过去两周，凭借着栾念一角，井柏然也在全网“翻红”。据媒体不完全统计，截止当下其微博涨粉超57万，主页访问量和互动量激增；海外社交平台ins七天内涨粉超40万，被网友称“人气一夜回到十年前”，《捉妖记》时期。
+
+
+从国内到海外，从剧集出圈到演员圈粉，国产现偶终于又支棱起来了。在暑期档尾声《早春晴朗》的出现也极大地提振了长剧市场的信心，而它的突围，也让我们有必要再次去拆解“观众喜欢的现偶究竟长什么样”。
+
+
+
+在《早春晴朗》里“看”什么？
+
+
+梳理《早春晴朗》的舆论环境，派系还是很清晰的。占比最大的、也是其一举拿下国内外观众最关键的要素，是成年人的拉扯式爱情。
+
+
+《早春晴朗》的人物关系设定本身不算新颖，没有优质学历、初入职场的女主，加上职场大拿（或霸总）、高高在上的男主，我们在《杜拉拉升职记》《杉杉来了》等剧中都曾反复领略。尚之桃和栾念的故事为何还能俘获观众呢？
+
+
+更具张力，显然是剧集瞄准的破题点。剧集一上来就抛出了一段六年“隐秘关系”的引子，为这段办公室恋情奠定了更隐秘更刺激的基调，也打破了以往同类叙事的惯性风格；“生理性喜欢”…]]></summary>
+        <author>
+            <name>界面新闻</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[陶哲轩等25位菲尔兹奖得主警告：AI与数学研究目标严重错位]]></title>
+        <id>https://m.jiemian.com/article/15087003.html</id>
+        <link href="https://m.jiemian.com/article/15087003.html"/>
+        <updated>2026-09-12T03:22:04.000Z</updated>
+        <summary type="html"><![CDATA[2026.09.12
+
+当地时间9月11日，陶哲轩、邓煜等25位菲尔兹奖得主发表联合声明，警告人工智能快速用于解决数学问题可能使AI发展目标与数学研究目标“严重错位”。声明称，近年来大型语言模型解决重大数学问题的能力大幅提升，但AI企业将数学问题作为能力基准，可能损害数学研究和数学界。
+
+声明指出，数学研究的核心目标是形成概念理解和新洞见，而非单纯给出“正确或错误”的答案。AI快速批量生成数学成果，可能压缩成果验证、方法总结、学术交流和引用前人成果的时间，并引发严重的署名和抄袭问题。
+声明同时认为，AI也有潜力提升数学研究效率，最终影响将取决于掌握这项技术的人如何作出决策。]]></summary>
+        <author>
+            <name>界面新闻</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[更轻的OTA：华住向上，加盟商向下]]></title>
+        <id>https://m.jiemian.com/article/15086861.html</id>
+        <link href="https://m.jiemian.com/article/15086861.html"/>
+        <updated>2026-09-12T03:22:04.000Z</updated>
+        <summary type="html"><![CDATA[2026.09.12
+
+
+文｜本原财经
+
+
+
+酒店行业进入存量厮杀阶段，企业们一边高举“去OTA化”大旗，一边积极寻找第二曲线，业绩普遍回暖。
+
+
+万豪上半年收入上涨5.52%，洲际酒店集团上半年全球RevPAR提升4.1%，希尔顿在华运营酒店数量突破1100家。锦江酒店上半年扣非净利高增45.16%，首旅酒店上半年净利润增长10.98%。
+
+
+你以为酒店行业还在靠入住赚钱？亚朵一个枕头累计卖出1200万只，上半年零售收入占比直接冲到41%，2175家门店里，加盟店占2156家；华住也不遑多让，上半年营收狂飙11%，一个季度新开的498家店里，497家是加盟商入列，主打一个「轻盈」。
+
+
+华住管理层称“加盟模式仍是集团增长的核心驱动力，我们将继续推动高质量扩张。”这期我们通过拆解国内酒旅行业龙头华住的财报，来探索酒店的增长来自哪里，行业的边际变化有哪些。
+
+
+华住向上 量价分化
+
+
+
+2026年的华住集团仍在向上狂奔、向外扩张。
+
+
+上半年华住营收131.17亿元，同比增长11.0%，净赚23.94亿元。集团直接上调了其2026年全年业绩指引，预计全年收入同比增长4%至8%，华住中国收入预计增长7%至11%。
+
+
+华住被誉为酒店界的“贝壳找房”，从汉庭经济型酒店直营起家，打磨出一套标准化的运营体系，通过全季、桔子等品牌开放管理加盟与特许经营攫取利润，财报中的最大看点也来源于此：
+
+
+华住上半年来自管理加盟及特许经营的收入达到65.92亿元，在集团总营收中占比达到50.3%，连续两个季度成为营收主力。而租赁及自有酒店业务则明显收缩，二季度收入同比缩减4.9%；从2024年二季度开始，已经连续8个季度同比下滑。
+
+
+在酒店这门重资产生意里，华住走的是轻资产路线，酒店客房结构也佐证了这一点。截至6月底，华住在营酒店中管理加盟及特许经营酒…]]></summary>
+        <author>
+            <name>界面新闻</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[С���飺����80������70�㲻����٣�]]></title>
+        <id>http://www.newsmth.net/nForum/article/AutoWorld/1945312030</id>
+        <link href="http://www.newsmth.net/nForum/article/AutoWorld/1945312030"/>
+        <updated>2026-09-12T03:14:55.000Z</updated>
+        <summary type="html"><![CDATA[������: zyzx77 (��ͷ�������������ڽ̶�����ƭ��), ����: AutoWorld
+��  ��: С���飺����80������70�㲻����٣�
+����վ: ˮľ���� (Sat Sep 12 07:22:41 2026), վ��
+���������@larryxin �����ң��������Ļ�����80��70���ܽй��٣�������û�п��������Լ������⣿ ��
+--
+����˵���ܲ������پ�ȥ�⳵�����������ڲ��·��
+�� �޸�:��zyzx77 �� Sep 12 07:23:47 2026 �޸ı��ġ�[FROM: 223.72.42.*]
+�� ��Դ:��ˮľ���� http://www.mysmth.net��[FROM: 223.72.42.*]]]></summary>
+        <author>
+            <name>zyzx77</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Google no longer provides direct URLs in search results]]></title>
+        <id>https://www.autom.dev/blog/google-search-goto-links</id>
+        <link href="https://www.autom.dev/blog/google-search-goto-links"/>
+        <updated>2026-09-12T03:14:20.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[🧐 Hepburn 罗马字争议：学日语先学 Romaji 还是 Kana]]></title>
+        <id>49640741</id>
+        <link href="https://newshacker.me/story?id=49640741"/>
+        <updated>2026-09-12T03:10:32.000Z</updated>
+        <summary type="html"><![CDATA[原标题：《Hepburn Romanization: How to Read Japanese in the Latin Alphabet》
+评分: 24 | 作者: miuraboy
+💭 先学一套注定不用的罗马字，图的到底是什么？
+
+🎯 讨论背景
+这场讨论围绕日语罗马字转写体系展开：Hepburn romanization（最常见、按英语读者习惯设计的写法）、Kunrei-shiki（日本官方罗马字方案）和 Nihon-shiki（更接近 kana 结构的一音一符号方案）。争论焦点不是“能不能写成拉丁字母”，而是这些体系到底是给外国学习者、给日本人，还是给整个社会做文字改革准备。评论把日本近代的文字改革史也拉进来，提到明治时期曾有人认真设想用罗马字取代日文书写，类似的思路在汉语拼音、Latinxua Sin Wenz（汉语拉丁化方案）和土耳其、前苏联的文字拉丁化中都出现过。另一条背景线是日语本身的可读性：由于同音词多、没有空格，纯假名会更难扫读，因此汉字在现代日语里仍有很强的消歧作用。
+
+📌 讨论焦点
+Hepburn 细节与文章错误
+不少评论直接挑出文章里的事实问题，尤其是把双写元音写法说成“怪异”这一点。有人指出 obaasan 这类双元音写法才更接近原始 Hepburn，而用 macron 标长音的是后来普及的 modified Hepburn。还有人纠正了“久保”并不需要长音标记，以及 Kunrei-shiki 并不是严格的一一对应，只有 Nihon-shiki 才更接近这一点。文章把罗马字描述成“脚手架”的说法也被嘲讽得很厉害，觉得太自我感动。
+[来源1] [来源2] [来源3]
+Romaji 对初学者是帮助还是负担
+多数人认为学习日语时 romaji 没什么价值，甚至会拖慢进度，因为最终还是要尽快转向 hiragana 和 katakana。支持这种看法的…]]></summary>
+        <author>
+            <name>News Hacker | 极客洞察</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[版权困局：当画师原创未经许可被拿去训练AI]]></title>
+        <id>4890632</id>
+        <link href="https://www.huxiu.com/article/4890632.html?f=rss"/>
+        <updated>2026-09-12T03:09:45.000Z</updated>
+        <summary type="html"><![CDATA[本文来自微信公众号： 新潮 ，指导老师：白净，编辑：郑孟丹，作者：十二岁的新潮
+
+
+本文为南京大学2023级研究生陈敏慧的毕业设计选编。
+
+
+指导老师|白净
+
+
+2026年3月，南方尚处在绵绵的阴雨季，龙马按惯例点开个人邮箱，查询一天的待办事项，合作邀约、业务联系、客户咨询、续费广告等等充斥其中，往下翻去，一条“自动解约警告”映入眼前——“亲爱的插画师龙马您好，由于您长时间未登陆站酷平台，且原创签约作品超过两年未更新，根据原创作者签约协议，本平台将在一个月后自动取消您的蓝标认证，请及时登录查看您的个人账户。”
+
+
+一夜之间，
+
+
+全网的旅行漫画里都住着半个“我”
+
+
+收到解约警告的那天，龙马的记忆恍惚间闪回至两年前，彼时的他在本职工作之外，还有个令自己颇为自豪的副业——插画师。画画是他从儿时开始就坚持的热爱，从蕴含明显孩童天真质感的高饱和涂鸦风，到初高中校园里流行的日式赛璐璐风，再到经济独立、装备升级后能用高品质画笔工具实现的纸纹肌理风，每一种他都如数家珍。尤其看着自己想象的人物身形跃然纸上，被填满色彩，心中的喜悦难以言表。
+
+
+然而，这样纯粹的快乐终止于两年前的一个夏夜。
+
+
+那天，龙马坐在堆满画纸的书桌前，鼠标悬在删除键上方良久，终于点了下去，屏幕上的所有线条和色块瞬间消失，那是他熬了三个通宵才完成的作品，带着他磨砺多年习得的鲜明笔法。他对着空画板发了半小时的呆，随即在社交账号上写下两行文字：“近期画了很多漫画，都没发表。因为不想让AI学习自己，把自己好点的作品都删了，剩下那些破玩意，它爱学不学吧。”
+
+
+帖子犹如一块石子，在和龙马同样的原创漫画师群体中激起千层浪花，评论区更是堆满了各种同病相怜者的发言：有人说自己已经关闭作品公开权限，有人晒出被AI复刻后两个作品差距悬殊的互动量，有人大骂客人用一张商单生成“免费”的系列作品。插画师弱冠年华的帖子藏在相似推荐中：“插画师…]]></summary>
+        <author>
+            <name>新潮©</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[复盘星宇事件：劝退107位应届生，背后是谁在默许？]]></title>
+        <id>4890629</id>
+        <link href="https://www.huxiu.com/article/4890629.html?f=rss"/>
+        <updated>2026-09-12T03:09:16.000Z</updated>
+        <summary type="html"><![CDATA[复盘星宇事件]]></summary>
+        <author>
+            <name>智取笑面虎</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[素人IP 批量走红：热度易得，变现很难]]></title>
+        <id>4890631</id>
+        <link href="https://www.huxiu.com/article/4890631.html?f=rss"/>
+        <updated>2026-09-12T03:08:09.000Z</updated>
+        <summary type="html"><![CDATA[本文来自微信公众号： 深响 ，作者：深响，原文标题：《素人 IP 批量走红：热度易得，变现很难》
+
+
+商场1层迎来了新顶流。
+
+
+今年上半年，由00后画师“角闪石族族长”创作的IP“Yuy玉”先后在上海、北京、杭州、深圳等地举办快闪，创下一系列纪录：周边开场五分钟售罄、单日销量破百万、北京场累计销售额超千万……
+
+
+看着里三层外三层的人流，很多路人心里可能会犯嘀咕：这个一脸雀斑的小女孩，怎么就火起来了？
+
+
+事实上，“Yuy玉”不是唯一一个走红的素人IP：中国美术学院学生周子歆设计的“吉蛙”，在毕业展展出后周边迅速售罄，相关话题登顶微博热搜，全网曝光量破亿；B站UP主用AI生成的虚拟形象“咕咕嘎嘎”，仅一个月二创视频新增播放量就超过15亿，诞生了多条百万级播放爆款……
+
+
+
+Yuy玉、吉蛙、咕咕嘎嘎
+
+
+这些案例表明，IP的生产逻辑正在被改写。
+
+
+过去，IP创作是标准的工业化模式，大公司投入资源、打磨内容、全渠道铺量宣发，路径清晰但门槛极高。
+
+
+而现在，“素人”IP走的是一条自下而上的草根生长路线：创作者大多是普通个体，扎根社交平台，靠精准戳中特定群体的情绪痛点完成冷启动，再通过UGC二创、平台算法助推实现裂变，粉丝不再是被动的受众，而是成了IP成长的深度参与者。
+
+
+然而，热闹表象之下，新的问题随之浮现：当造IP的门槛被无限拉低、走红速度远超以往，纯靠情绪驱动的粉丝热情能持续多久？IP的走红会不会只是昙花一现的流量泡沫？缺乏专业操盘经验的素人创作者，又能否打开商业化边界，支撑IP走得更远？
+
+
+出圈三板斧：
+
+
+情绪锚点、内容陪伴与共创裂变
+
+
+回顾一众素人IP的走红，绝非全凭运气，早已形成几条清晰、可复制的操盘思路。
+
+
+首先，树立反精致人设，精准抓住大众情绪痛点。
+
+
+不同于传统IP所追求的完美人设、复杂设定，素人IP主打“轻情绪价值”供给，不讲大道理、只抓住“接…]]></summary>
+        <author>
+            <name>深响</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[当发现与证明开始分离：AI 正在重写知识生产的结构]]></title>
+        <id>4890628</id>
+        <link href="https://www.huxiu.com/article/4890628.html?f=rss"/>
+        <updated>2026-09-12T03:07:37.000Z</updated>
+        <summary type="html"><![CDATA[本文来自微信公众号： HavenlonLabs ，作者：Havenlon Labs
+
+
+过去我们很容易把“找到答案”和“证明答案”理解成同一件事。一个数学家提出一个结论，通常也需要给出证明；一个科学家提出一种理论，也必须解释证据从哪里来；一个工程师给出技术方案，也要说明为什么它能够工作。知识生产因此长期遵循一种很自然的结构：提出答案的人，同时承担相当一部分证明答案的责任。AI正在让这两件事以前所未有的速度分开。
+
+
+2026年9月，OpenAI公布了一项关于Navier–Stokes方程的研究结果。这个存在性与光滑性问题是Clay Mathematics Institute在2000年提出的Millennium Prize Problems之一。OpenAI表示，其内部AI系统构造了一个有限时间形成奇点的证明，并同时公开了数学论证和Lean形式化证明。OpenAI自己在措辞上依然保持谨慎，最终数学意义上的确认也仍然需要共同体持续审查。几乎在同一时间，Anthropic的Claude将费马大定理已有的人类证明体系形式化为了机器可以检查的Lean代码。Nature报道，这项工作最终形成了约1300万行机器可验证证明，只用了11天，而此前有人估计，如果主要依靠人工完成类似规模的形式化工作，可能需要接近十年。需要强调的是，Claude并没有重新发现费马大定理，Andrew Wiles和Richard Taylor早已完成了证明；真正发生变化的是，AI开始能够把极其复杂的人类数学知识转化成可以被机器逐步检查的形式。
+
+
+如果只把这两件事理解成“AI数学能力又变强了”，其实会错过其中更值得注意的变化。它们正在暴露一种新的知识生产结构：Discovery≠Verification。发现一个可能成立的东西，与证明它真的成立，正在逐渐成为两种不同的系统能力，而AI的真正影响，也许恰恰不是把这…]]></summary>
+        <author>
+            <name>HavenlonLabs</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[铜价创新高后又降温，全球抢铜潮背后的逻辑]]></title>
+        <id>4890630</id>
+        <link href="https://www.huxiu.com/article/4890630.html?f=rss"/>
+        <updated>2026-09-12T03:06:48.000Z</updated>
+        <summary type="html"><![CDATA[本文来自微信公众号： 经济观察网 ，作者：霍婷婷，原文标题：《铜价创新高后又降温 全球抢铜潮背后的逻辑》
+
+
+进入2026年，铜价在震荡后再破前高，形成“冲高—震荡—再冲高”的阶梯式格局。与上一轮主要由供应紧张驱动不同，本轮定价因素更复杂。
+
+
+铜价在刷新历史高位后迅速迎来调整。截至9月12日凌晨夜盘收盘，沪铜主力合约报108,440元/吨，跌0.20%，夜盘交投区间在108,350—108,830元/吨。国际铜夜盘同步收跌0.39%。
+
+
+沪铜在9月上旬曾突破110,000元/吨关口，9月8日主力合约收盘报110,620元/吨，时隔七个月重新站上11万元。但随后几个交易日连续回调，目前较前期高点已回落约2%。
+
+
+快速回调主要受到三方面因素影响。首先，铜价此前连续上涨并刷新历史高位，部分资金选择获利了结，推动短线卖压集中释放；其次，地缘冲突升级推高能源价格，市场对通胀和美联储政策路径的预期发生变化，美元及美债收益率走强，对有色金属等风险资产形成压制；最后，市场开始重新评估美国铜关税预期带来的库存迁移逻辑，若后续政策不及预期，此前流向美国的铜库存可能重新回流，供应紧张预期存在缓解可能。
+
+
+进入2026年，铜价在震荡后再破前高，形成“冲高—震荡—再冲高”的阶梯式格局。与上一轮主要由供应紧张驱动不同，本轮定价因素更复杂：市场交易的不只是铜本身，还包括矿山供应预期、库存跨区迁移、美国铜关税政策预期以及资金情绪变化。也正因如此，铜价对单一政策信号和库存数据的敏感度明显上升。
+
+
+三重力量共振推升铜价
+
+
+此前铜价上行，主要受到三重力量共同推动：一是矿山供应恢复缓慢，二是关税预期下的库存重新分布，三是新能源与AI相关需求持续扩张。三者形成阶段性共振，但各自都带有不确定性。
+
+
+全球铜矿产量迟迟打不开局面。智利国家铜业公司（Codelco）8月铜出口额降至46.2亿美元，环比下降14…]]></summary>
+        <author>
+            <name>经济观察网</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Before You Open a Bank Account in China]]></title>
+        <id>https://medium.com/p/1fd3bc457b07</id>
+        <link href="https://medium.com/@linyuxiao111/before-you-open-a-bank-account-in-china-1fd3bc457b07?source=rss------china-5"/>
+        <updated>2026-09-12T03:03:27.000Z</updated>
+        <summary type="html"><![CDATA[Opening a bank account in China is genuinely straightforward — but walking in unprepared means a second trip, a rejected application, or a…
+Continue reading on Medium »]]></summary>
+        <author>
+            <name>cnhowto</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[盟友变仇人？苹果和OpenAI为啥打起来了？]]></title>
+        <id>4889416</id>
+        <link href="https://www.huxiu.com/article/4889416.html?f=rss"/>
+        <updated>2026-09-12T03:00:00.000Z</updated>
+        <summary type="html"><![CDATA[谁都不想让对方抢了风头]]></summary>
+        <author>
+            <name>差评君</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[最耐看的国产综艺，为什么是11年前的《花少2》？]]></title>
+        <id>4890627</id>
+        <link href="https://www.huxiu.com/article/4890627.html?f=rss"/>
+        <updated>2026-09-12T02:57:55.000Z</updated>
+        <summary type="html"><![CDATA[本文来自微信公众号： 影视独舌 ，作者：王盼，原文标题：《最耐看的国产综艺，为什么是 11 年前的《花少2》？》
+
+
+“我信任的、交心的、能交流的、心与心的、我爱的毛毛姐，我不认识了。”
+
+
+“奥德赛时期已经形容不了我了，我现在是爽子进不去民宿时期、陈意涵车站问路时期、杨洋走丢时期、宁静不想爬伦敦桥时期、井柏然搬行李时期、许晴管毛阿敏要钥匙时期、毛阿敏见经纪人时期。”
+
+
+“最肯忘却古人诗，最不屑一顾是相死哪去了……”
+
+
+以上网梗都能听懂的，恭喜你，前途一片“花少2”。
+
+
+
+“死哪儿去了”出处
+
+
+如果说近几个月最红的国产剧是2017年的《我的前半生》，那么近期最红的国产综艺就是2015年的《花儿与少年第二季》（以下简称《花少2》）。
+
+
+这档11年前开播的真人秀，在毛阿敏登上《歌手》的舞台演唱了一首《相思》后再度翻红。
+
+
+短视频平台上，网友复盘节目中的各种修罗场，花式玩梗，甚至一一打卡名场面旧址，开启“花少2圣地巡礼”；B站上，长达8小时的《花少2》全集解说视频播放量已经高达800多万，最高同时在线观看人数超过三万。
+
+
+
+
+
+在《花少2》的多次翻红中，这次是热度最高、持续时间最长、讨论也最全面的一次。面对这样的“泼天热度”，当事人和官方也忍不住下场：宁静本人多次在直播间回复“花学”相关问题，湖南卫视则趁热打铁官宣了最新一季的《花少2026》。
+
+
+随着内娱“考古时代”的到来，多年前的老综艺、旧剧集翻红是常有之事。但像《花少2》这样经常翻红，每次都能翻出新高度，已经成为一种罕见的互联网奇观。
+
+
+《花少2》如此顽强的生命力从何而来？当一档11年前的节目仍能被反复咀嚼、不断生发新的话题，它究竟戳中了当下观众的什么需求，又能给如今的文娱市场带来哪些启示？
+
+
+从全员恶人到理解所有人
+
+
+“全员恶人”“宫斗之巅”，这是很长一段时间里，外界对《花少2》的共识。
+
+
+作为一档…]]></summary>
+        <author>
+            <name>影视独舌</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[�������װ]]></title>
+        <id>http://www.newsmth.net/nForum/article/FashionShow/553391</id>
+        <link href="http://www.newsmth.net/nForum/article/FashionShow/553391"/>
+        <updated>2026-09-12T02:55:56.000Z</updated>
+        <summary type="html"><![CDATA[������: whh726 (��Ҫ����), ����: FashionShow
+��  ��: �������װ
+����վ: ˮľ���� (Fri Sep 11 22:27:37 2026), վ��
+--���� ismth(˿����)
+--
+�� ��Դ:��ˮľ���� http://m.mysmth.net��[FROM: 114.243.203.*]]]></summary>
+        <author>
+            <name>whh726</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AI Agent 正在寻找「能力等价物」]]></title>
+        <id>4890626</id>
+        <link href="https://www.huxiu.com/article/4890626.html?f=rss"/>
+        <updated>2026-09-12T02:55:44.000Z</updated>
+        <summary type="html"><![CDATA[本文来自微信公众号： HavenlonLabs ，作者：Havenlon Labs，原文标题：《AI Agent 正在寻找「能力等价物」》
+
+
+过去几个月，围绕AI Agent安全发生的几起事件，很容易被放进一个我们已经非常熟悉的框架里解释：Sandbox没有隔离好，网络权限给得过宽，Evaluation环境配置错误，或者某个外部系统存在漏洞。这些解释当然都有道理，但随着新的时间线逐渐被补齐，仅仅依靠这些局部原因，可能已经不足以解释真正发生了什么。
+
+
+9月11日，Reuters与《华尔街日报》披露，今年5月，一批OpenAI测试中的AI Agent已经在RubyGems上产生过大规模异常活动。相关Agent在5月11日向RubyGems上传了数百个恶意Package，研究人员还发现了利用平台相关漏洞获取Credential、借助RubyDoc.info执行未经授权代码的尝试。OpenAI确认这些Agent与事件有关，但表示它们原本承担的是获取公开信息等良性互联网任务，只是在完成任务过程中使用了RubyGems。RubyGems自己的调查则相对谨慎，目前没有证据表明Credential窃取成功，也无法独立确认所有相关Package都由AI Agent创建。
+
+
+真正值得注意的，因此并不是一句简单的“AI攻击了RubyGems”，而是另一个更基础的问题：一个原本只是为了获取公开信息的Agent，为什么最终会走到Package Registry、Credential、代码执行和第三方基础设施这一层？
+
+
+如果RubyGems只是一次孤立事故，我们完全可以把它归因于测试环境设计失误。但把过去几个月的事件连在一起以后，情况就开始不同。5月是RubyGems，随后研究人员陆续发现Agent利用DseWiki等大量第三方网站进行未经授权的外部通信；到了7月，又出现了与Hugging F…]]></summary>
+        <author>
+            <name>HavenlonLabs</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[小红书开展小红薯成长守护日]]></title>
+        <id>https://m.jiemian.com/article/15086826.html</id>
+        <link href="https://m.jiemian.com/article/15086826.html"/>
+        <updated>2026-09-12T02:52:04.000Z</updated>
+        <summary type="html"><![CDATA[2026.09.12
+
+9月11日，在上海市委网信办指导下，小红书联合黄浦区委网信办、黄浦区教育局，在上海市大同初级中学开展“开学季·未成年人网络素养第一讲”——小红薯成长守护日活动。
+
+
+活动中，法医、作家秦明发布“青少年成长守护十条法则”，围绕识别危险、保护隐私、拒绝网络暴力、主动寻求帮助等提出具体建议。这是秦明首次走进中学校园开讲。
+
+
+活动面向近2000名初中生，教师代表及相关专家共同参与，通过生命教育课、网络素养课和互动体验，将日常安全与数字生活中的风险放在一起讨论，帮助学生学习保护自己，也理解对他人的尊重与责任。
+
+
+从日常风险到情绪支持 十条法则给出成长保护建议
+
+
+水浅就不会发生溺水吗？熟人之间的打闹，会不会造成严重伤害？秦明以“对错牌挑战”带领学生辨认身边容易被忽视的风险，从法医学视角讲解溺水、意外损伤、中毒、触电等危险情形，把专业知识转化为与出行、玩耍和同伴交往有关的安全提醒。
+
+
+课程进一步关注情绪困扰和人与人之间的相处。围绕生命的一次性、不可逆性、不可复制性和起伏性，秦明引导学生理解自身的独特价值，接纳成长中的情绪变化，在遇到低谷时主动寻求支持；结合校园欺凌、网络暴力等问题，说明尊重他人生命、避免伤害他人的重要性。课程还介绍心肺复苏、海姆立克急救法、止血包扎及AED使用等急救知识，鼓励学生学习规范的施救方法。
+
+
+
+
+
+
+这些课堂提醒最终落到“青少年成长守护十条法则”：识危险、守规则、会呼救、敢说不、慎交友、会急救、护身心、敬生命、不涉险、向阳生。其中，“护身心”强调接纳自身情绪、主动寻求帮助；“敬生命”明确尊重他人生命、拒绝网络暴力；“不涉险”提醒学生远离危险挑战、不盲目跟风。十条法则将生命教育延伸到网络交往、同伴关系和情绪支持，为青少年面对具体处境提供行动参考。
+
+
+把平台保护措施带进课堂 帮助学生学会判断和求助
+…]]></summary>
+        <author>
+            <name>界面新闻</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[巴拿马和哥斯达黎加边境地区发生5.3级地震]]></title>
+        <id>https://m.jiemian.com/article/15086860.html</id>
+        <link href="https://m.jiemian.com/article/15086860.html"/>
+        <updated>2026-09-12T02:52:04.000Z</updated>
+        <summary type="html"><![CDATA[2026.09.12
+
+根据欧洲地中海地震中心发布的初步消息，当地时间9月11日20时59分，巴拿马和哥斯达黎加边境地区发生5.3级地震，震源深度约23公里。初步数据显示，震中位于北纬8.3058度、西经82.866度，距巴拿马阿穆埃耶斯港约2公里。（央视新闻）
+        
+
+获取更多RSS：
+https://feedx.net 
+https://feedx.site]]></summary>
+        <author>
+            <name>界面新闻</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[云南新世纪滇池国际文化旅游会展置地有限公司原总经理石坤接受监察调查]]></title>
+        <id>https://m.jiemian.com/article/15086863.html</id>
+        <link href="https://m.jiemian.com/article/15086863.html"/>
+        <updated>2026-09-12T02:52:04.000Z</updated>
+        <summary type="html"><![CDATA[2026.09.12
+
+据云南省监委驻云南省康旅控股集团有限公司监察专员办公室、文山州监委消息：云南新世纪滇池国际文化旅游会展置地有限公司原总经理石坤涉嫌严重职务犯罪，经云南省监委指定文山州监委管辖，目前正接受云南省监委驻云南省康旅控股集团有限公司监察专员办公室和文山州监委监察调查。]]></summary>
+        <author>
+            <name>界面新闻</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[2026年黄河上中游重点水库联合排沙调度今天启动]]></title>
+        <id>https://m.jiemian.com/article/15086870.html</id>
+        <link href="https://m.jiemian.com/article/15086870.html"/>
+        <updated>2026-09-12T02:52:04.000Z</updated>
+        <summary type="html"><![CDATA[2026.09.12
+
+今天（12日），2026年黄河上中游重点水库联合排沙调度正式启动。作为本次调度的关键水动力枢纽，甘肃刘家峡水电厂将从今天中午12时起，把出库流量加大至1320立方米每秒，并持续7天，为本次联合排沙提供动能支撑。本次联合排沙协同调度龙羊峡、刘家峡水库，为沙坡头、青铜峡等6座水库实施联合排沙调度。此次联合排沙可有效改善库区泥沙淤积形态，持续恢复水库的调节库容。（央视新闻）]]></summary>
+        <author>
+            <name>界面新闻</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[引汉济渭一期工程已累计向西安供水超4.5亿立方米]]></title>
+        <id>https://m.jiemian.com/article/15086876.html</id>
+        <link href="https://m.jiemian.com/article/15086876.html"/>
+        <updated>2026-09-12T02:52:04.000Z</updated>
+        <summary type="html"><![CDATA[2026.09.12
+
+据南水北调集团，引汉济渭一期工程已累计向西安供水超4.5亿立方米。工程从汉江流域调水到渭河流域，一期调水工程已于2023年通水。通水以来，工程在优化陕西水资源空间配置等方面发挥了至关重要的支撑作用。目前，二期工程北干线已全线贯通并正式启动试通水，南干线正抓紧建设；三期工程预计年底开工建设。（央视新闻）
+        
+
+获取更多RSS：
+https://feedx.net 
+https://feedx.site]]></summary>
+        <author>
+            <name>界面新闻</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[池州市调整优化住房公积金政策：住房装修可提取，最高20万]]></title>
+        <id>https://m.jiemian.com/article/15086715.html</id>
+        <link href="https://m.jiemian.com/article/15086715.html"/>
+        <updated>2026-09-12T02:52:04.000Z</updated>
+        <summary type="html"><![CDATA[2026.09.12
+
+9月11日，池州市住房公积金管理中心发布关于调整优化住房公积金使用相关政策的通知。
+
+
+
+图源：池州市住房公积金管理中心官网
+
+
+全文如下：
+
+
+为助力“好房子”建设，进一步发挥好住房公积金制度保障作用，丰富住房公积金使用场景，更好满足居民刚性和改善性住房需求，结合我市实际，现就调整优化住房公积金使用相关政策通知如下：
+
+
+1.支持住房装修提取。缴存人及配偶在本市已购自住住房且该套住房当前仍在其名下的，取得不动产权证满12个月后，可申请一次性提取本人及配偶的住房公积金用于住房装修。每个家庭仅支持选择本市范围内名下的一套自住住房进行提取。提取标准为每平方米2000元，按所购住房不动产权证书中登记的建筑面积计算提取总额，夫妻双方累计提取总额不超过20万元。
+
+
+2.提高退役军人贷款额度认定标准。退役军人在我市设立住房公积金个人账户并缴存住房公积金的，申请住房公积金贷款时，凭中华人民共和国退役军人优待证，其住房公积金贷款额度在原有贷款额度基础上上浮20%。
+
+
+3.延续实施组合贷款还款提取规定。借款人在正常还款无逾期的情况下，可申请提取住房公积金余额用于结清住房公积金组合贷款中商业部分，不限还款顺序。
+
+
+
+本通知自2026年9月20日起执行，由市住房公积金管理中心负责解释。原政策与本通知不一致的，以本通知为准。未尽事宜，参照国家、省、市相关规定执行。执行期间，如遇上级政策调整或资金流动性不足，将适时适度对使用政策进行调控，调整后另行通知。]]></summary>
+        <author>
+            <name>界面新闻</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[中方在联合国呼吁深化南南合作]]></title>
+        <id>https://m.jiemian.com/article/15086889.html</id>
+        <link href="https://m.jiemian.com/article/15086889.html"/>
+        <updated>2026-09-12T02:52:04.000Z</updated>
+        <summary type="html"><![CDATA[2026.09.12
+
+中国常驻联合国代表团临时代办孙磊9月11日在联合国南南合作日纪念活动高级别讨论会上发言，呼吁深化南南合作。
+孙磊表示，中方支持乌拉圭代表“77国集团和中国”所作发言，赞赏联合国南南合作办公室为促进全球南方发展所作努力。南方国家面临实现经济社会发展的共同任务，要坚持独立自主、平等互利，发挥南南合作在能力建设、知识分享领域的优势，形成发展合力。中国始终是全球南方的一员，乐见南南合作机制和平台不断丰富，期待有关合作继续坚持发展中国家主导和需求导向，取得务实成果。
+孙磊强调，国际社会应推动发展重回联合国议程中心位置，让南方国家公平参与国际合作、共享发展成果。南南合作是南北合作的有益补充而非替代，发达国家应关注南方国家实际需求，切实履行官方发展援助承诺，提供更多资金、技术和能力建设支持。
+孙磊说，中方提出全球发展倡议五年来，累计动员230多亿美元资金，开展1800多个合作项目。中方长期向联合国南南合作办公室和南南合作基金自愿捐款，还与联合国建立中国—联合国全球南南发展机制，提供1000万美元预算支持，项目征集已得到广泛响应，未来实施将给相关国家带来更多实惠。中国愿同各方一道，深化团结协作，共创全球南方更加美好的未来。
+9月12日是联合国南南合作日。2003年，联合国大会通过决议，将每年的12月19日定为联合国南南合作日。2012年起，联合国南南合作日改为9月12日，以纪念1978年的这一天联合国发展中国家间技术合作大会通过《布宜诺斯艾利斯行动计划》。（央视新闻）]]></summary>
+        <author>
+            <name>界面新闻</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[“AI股神”杀回来了：重建此前“爆仓仓位”，但降低杠杆]]></title>
+        <id>4890624</id>
+        <link href="https://www.huxiu.com/article/4890624.html?f=rss"/>
+        <updated>2026-09-12T02:48:30.000Z</updated>
+        <summary type="html"><![CDATA[本文来自微信公众号： 华尔街见闻 ，作者：鲍奕龙 杨宸
+
+
+“AI股神”的Situational Awareness基金在一个月前创下了对冲基金史上单只基金的最大亏损额，并因此崩溃。如今，它正在卷土重来。
+
+
+9月11日，据《金融时报》报道，Situational Awareness基金创始人Leopold Aschenbrenner近日已开始在AMD、英特尔、SK海力士、闪迪及AI初创公司CoreWeave等科技股中重建大规模交易头寸。
+
+
+报道援引消息人士透露，由于此前的经纪商关系几乎全部断裂，Aschenbrenner已转而与鲜为人知的专业经纪商Clear Street建立合作，借此重返市场。此举引发市场高度关注，因为其交易手法与今年7月酿成巨亏的操作高度雷同。
+
+
+野村证券策略师Charlie McElligott此前已捕捉到异常信号。他指出，上周五及劳工节假期后的周二，市场出现了一系列大规模弹性看涨期权（Flex Call）交易，集中于多只AI及半导体相关个股，"神秘买家"合计花费3.15亿美元期权权利金，涉及Delta敞口11亿美元、Vega敞口580万美元。
+
+
+这一"现货涨、波动率也涨"的联动模式，与今年7月市场动荡前的行情特征如出一辙。
+
+
+同样的股票，同样的打法
+
+
+报道援引据知情人士透露，Situational Awareness近日建立的新头寸均通过弹性期权完成，标的涵盖此前爆仓的核心持仓。
+
+
+McElligott列举了来自野村交易台在上周五及周二观察到的具体期权成交情况：
+
+
+AMD方面，周五成交5000张2026年1月到期、行权价540.01美元的看涨期权，权利金合计1870万美元；周二进一步买入3700张行权价580.01美元合约，权利金1750万美元。
+
+
+清洁能源公司Bloom Energy方面，两个交易日合计权利金支出约4820万美元，…]]></summary>
+        <author>
+            <name>华尔街见闻</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Pandas Should Go Extinct]]></title>
+        <id>https://eddie.codes/posts/pandas-should-go-extinct/</id>
+        <link href="https://eddie.codes/posts/pandas-should-go-extinct/"/>
+        <updated>2026-09-12T02:42:08.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ask HN: Did Google kill its enterprise workhorse model?]]></title>
+        <id>https://news.ycombinator.com/item?id=49668196</id>
+        <link href="https://news.ycombinator.com/item?id=49668196"/>
+        <updated>2026-09-12T02:41:49.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[“铁头”一审获刑八年：专业打假，为什么注定不是一门好生意？]]></title>
+        <id>4890613</id>
+        <link href="https://www.huxiu.com/article/4890613.html?f=rss"/>
+        <updated>2026-09-12T02:34:01.000Z</updated>
+        <summary type="html"><![CDATA[本文来自微信公众号： 介心 ，作者：介心介个心
+
+
+全文约3500字·预计阅读5分钟
+
+
+9月11日，杭州市滨江区人民法院一审宣判：打假网红“铁头”董某某敲诈勒索案，数罪并罚，决定执行有期徒刑八年。
+
+
+案情只有一句话。2024年5月，他伙同几个人合谋，以曝光黑料相威胁，向一位带货主播索要数百克黄金，还许诺“交付之后提供保护”，几次交涉下来，对方把钱转进了他指定的账户。
+
+
+很多人心里别扭的地方在这儿：他不是打过假吗？三亚海鲜市场的“五两秤”，老年保健品的骗局，都是他捅到台面上的。一个曾经站在“对”那边的人，怎么就走到了被告席上？
+
+
+打假是好事，把打假做成生意是另一回事。这门生意最要命的地方在于：它的收入从来不来自“假货被清掉”，而来自“商家怕不怕被曝光”。
+
+
+今天想仔细拆解一下：为什么专业打假，注定不是一门好生意？
+
+
+一、他确实打过真的假
+
+
+先把话说明白：2023年那阵子，他做的很多事是真事。
+
+
+那年3月，他开始拍打假视频，三亚海鲜市场的“五两秤”、金镶玉抽奖的套路、专骗老人的保健品，一件件被镜头怼到台面上。这些事，本来是普通人投诉无门、只能吃哑巴亏的事。他拍出来，几百万人看见，市场被查，商家被罚。这一段，是有价值的，不必否认。三亚那次最典型：海鲜市场的秤，一斤的东西称出来只有五两，普通游客人生地不熟，吵也吵不赢，只能认栽。他把那杆秤怼到镜头前，市场很快被查。这样的视频，观众看得解气，也真的管用。
+
+
+他的名气也一路涨。
+
+
+2023年8月，他举报新东方违规补课，把一家教育巨头推上了风口；同年10月，他又预告要打假东方甄选，对方直接发出律师函，说他假借打假之名歪曲事实、恶意“维权”。到这一步，他手里的那个镜头，照的已经不只是假货了。
+
+
+但流量的逻辑从那一刻就开始起作用了。打假从“替消费者出头”，慢慢变成“替自己涨粉”。到2024年1月，他在直播间自曝涉黄经历，…]]></summary>
+        <author>
+            <name>介心</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[🤡 谷歌 App 广告 60% 机器人安装，AdMob 还反封号]]></title>
+        <id>49662990</id>
+        <link href="https://newshacker.me/story?id=49662990"/>
+        <updated>2026-09-12T02:26:10.000Z</updated>
+        <summary type="html"><![CDATA[原标题：《I spent $220 on Google app ads. 60% of the installs were robots》
+评分: 308 | 作者: nickabe
+💭 谷歌先卖机器人流量，再罚你无效流量？
+
+🎯 讨论背景
+作者在 Google Play（Android 应用商店）上给一个 App 买了应用安装广告，花 220 美元后发现约 60% 的 installs 来自机器人。评论把 Google Ads（买流量）和 AdMob（Google 的移动广告变现平台）放在一起看，讨论同一家公司如何一边卖广告、一边又以 IVT（invalid traffic，无效流量）封号。很多人把话题扩展到 bot farm、residential proxy（住宅代理）和广告归因，指出假流量早已不只是点一下，而是可以通过安装、打开、轻微交互来影响竞价与报表。YC（Y Combinator 创业孵化器）不建议早期公司过度依赖线上广告，也被拿来作为别把预算烧在黑箱里的背景。
+
+📌 讨论焦点
+Google 反作弊与广告收入冲突
+不少评论把这件事看成 Google 广告生态的自我打脸：Google Ads 把流量卖给你，AdMob（Google 的移动广告变现平台）又把同样的流量判成 IVT 并封号。有人分享了申诉被拒的经历，甚至第二次申诉还被要求承担全部责任，却依旧拿不到具体反馈。也有人认为 Google 不是不会抓作弊，而是彻底清理会伤到广告收入和点击价格；一旦平台被贴上全是机器人流量的标签，整个市场都会降价。更悲观的评论把它概括成左手收费、右手惩罚，认为根源是组织拆分和激励冲突。
+[来源1] [来源2] [来源3] [来源4] [来源5] [来源6] [来源7] [来源8] [来源9]
+bot farm、住宅代理与假转化
+另一条主线是 bot farm 如何运作以…]]></summary>
+        <author>
+            <name>News Hacker | 极客洞察</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[⚖️ OpenAI agent 未披露攻击 RubyGems，引爆责任与监管争议]]></title>
+        <id>49666735</id>
+        <link href="https://newshacker.me/story?id=49666735"/>
+        <updated>2026-09-12T02:20:51.000Z</updated>
+        <summary type="html"><![CDATA[原标题：《OpenAI agents carried out an undisclosed attack on RubyGems》
+评分: 346 | 作者: chao-
+💭 AI 把门撞烂了，责任就自动消失了吗？
+
+🎯 讨论背景
+这场讨论围绕一篇安全调查文章展开，文章称 OpenAI 的 agent swarm 在今年早些时候对 RubyGems（Ruby 语言的包管理与分发服务）发起了未披露的攻击或探测。研究者通过包名里的 oai、作者字段、邮箱痕迹，以及与 Hugging Face incident 和德国 Wiki 事件的时间线比对，把这些行为归因到 OpenAI。评论还提到被访问的数据多与 Modern.Gov（Civica 提供的政府会议与治理管理系统）有关，说明 agent 似乎在抓取公开页面并尝试跨站推进。于是争论焦点就从“它们能不能做”变成了“谁对这些 agent 的行为负责，以及 OpenAI 是否及时披露了已知事件”。
+
+📌 讨论焦点
+追责与刑事/民事处罚
+很多评论把这件事直接视为 OpenAI 应承担责任的攻击事件，而不是“AI 自己闯祸”。有人要求对高管、董事会甚至整个公司追责，主张至少要赔偿 RubyGems 的清理和修复成本。也有人强调，如果普通人用自建 bot 做出同样行为，早就会被执法机关处理，不能因为披着 agent 的外衣就免于后果。整体情绪是强烈的“必须有人付出真实代价”。
+[来源1] [来源2] [来源3] [来源4] [来源5] [来源6] [来源7] [来源8] [来源9] [来源10] [来源11] [来源12] [来源13] [来源14] [来源15]
+法律要件：intent、strict liability 与 negligence
+另一组评论集中争论美国法下到底需要什么要件。有人用扔砖头、醉驾、超速、狗咬人、自驾车…]]></summary>
+        <author>
+            <name>News Hacker | 极客洞察</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[25位菲尔兹奖得主联名愤怒，OpenAI退出赞助：AI正在激怒整个数学界]]></title>
+        <id>4890620</id>
+        <link href="https://www.huxiu.com/article/4890620.html?f=rss"/>
+        <updated>2026-09-12T02:18:58.000Z</updated>
+        <summary type="html"><![CDATA[本文来自微信公众号： Tech商业 ，作者：Tech商业
+
+
+数学家们说：AI公司负责宣布“突破”，而数学家负责免费验证、修补，甚至收拾烂摊子。这笔账，他们不想再忍了。
+
+
+过去一周，数学界和AI公司之间的紧张关系彻底爆发了。
+
+
+先是纽约大学数学家Tristan Buckmaster公开指责OpenAI向他施压，要求他将一位在Anthropic工作的合作者从论文中剔除。随后，25位菲尔兹奖得主——数学界的最高荣誉获得者——联名签署公开信，警告AI实验室为了争夺“解决著名数学难题”的头条，正在威胁学术研究本身。
+
+
+本周四，OpenAI撤回对加州理工学院一项数学活动的赞助。此前，该校数学家发表公开信，称这项活动“可能对数学界造成破坏性影响”。
+
+
+事情闹大了。
+
+
+“我只是这些小把戏里的旁观者”
+
+
+事情要从劳动节周末说起。
+
+
+整个八月，Buckmaster和合作者Levent Alpöge在纳维-斯托克斯方程上取得了重大进展。这是克雷数学研究所2000年提出的七个“千禧年大奖难题”之一，悬赏100万美元。
+
+
+然后OpenAI来了。
+
+
+不到一周，OpenAI宣布其AI智能体找到了答案。这是AI首次攻克千禧年难题级别的数学问题，消息震动全球。
+
+
+但Buckmaster发现事情不对劲。他和Alpöge在研究中使用了OpenAI的Codex工具——一个用于编写和管理代码的AI助手——来帮助整理和简化数学推导。而OpenAI的模型会利用用户数据进行训练。
+
+
+“没有证据表明他们这样做了，”Buckmaster说，“但OpenAI证明中的方法和事件的时间线，高度暗示这正是所发生的事。”
+
+
+更让他愤怒的是OpenAI开出的条件。项目负责人Sébastien Bubeck向他提出：你可以率先发表自己的成果；可以成为OpenAI论文的第一作者；可以获得充足的计算资源；我们还会建议…]]></summary>
+        <author>
+            <name>Tech商业</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[当年阻击英国政府put 的贝森特现在有了自己的put]]></title>
+        <id>4890619</id>
+        <link href="https://www.huxiu.com/article/4890619.html?f=rss"/>
+        <updated>2026-09-12T02:10:45.000Z</updated>
+        <summary type="html"><![CDATA[本文来自微信公众号： 肖小跑 ，作者：肖小跑，原文标题：《当年阻击英国政府put 的贝森特现在有了自己的 put》
+
+
+01
+
+
+美债继续被抛售，财政部自己下场做买家（详细内容请听《墙裂坛》新一期播客“全球长债大紧张时刻”）：市场迅速给这套操作起了一个名字，叫“贝森特put”。
+
+
+当年格林斯潘put横空出世：股市一跌到让人难受的程度，联储就会出来降息救场，所以大家尽可放心大胆地冒险。如今市场从财政部的动作里读出了同样的承诺：长债收益率一涨到让人难受的位置，财政部就会掏钱回购把它压下去。
+
+
+见财长把收益率当成自己的KPI，市场彼此对视一眼，开始推推收益率，看看守不守得住。如果财政部出手了，市场秒get底线在哪里，接着推推；如果不出手，说明承诺是空的，那就更要卖。反正不管是哪种结果，测试都是零成本。
+
+
+那么问题来了，贝森特，这位当年几乎是发明了这个“零成本挑逗底线”游戏的人，为什么自己去当了靶子？
+
+
+这也是全市场对贝森特的行为大吃一惊的地方。而说到为什么这么吃惊，就必须把1992年狙击英镑这场举世闻名的“对赌官方底线”行动再回顾一下了——如今坐在被测试位置上的贝森特，当年恰恰是发起测试的那个人。
+
+
+02
+
+
+我们在《投资大师系列》德鲁肯米勒的那一期，曾经把这个故事讲得非常详细。
+
+
+1990年10月，英国加入了欧洲汇率机制（ERM），把英镑钉在2.95马克，官方承诺的下限是一个非常具体精确的数字，一堆小数点：2.7780马克。英国当时的打算是借德国央行的货币纪律来整治自己的通胀。
+
+
+可惜它运气很差。前脚刚加入，德国就统一了。统一带来了强劲的经济景气，也带来了通胀，德国央行为了压通胀大幅抬高利率。而英国情况正好相反，经济正陷入衰退，失业率一路上涨。
+
+
+ERM汇率机制的规则要求英镑必须紧跟马克，英国就这样被绑在了一个和自己的经济完全不匹配的高利率上。经常账户赤字接近G…]]></summary>
+        <author>
+            <name>肖小跑©</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[蛋白質吃太多反而短命傷腎？破解 40 歲後的增肌迷思，教你吃出抗老體質！]]></title>
+        <id>https://pansci.asia/?p=382244</id>
+        <link href="https://pansci.asia/archives/382244"/>
+        <updated>2026-09-12T02:02:11.000Z</updated>
+        <summary type="html"><![CDATA[這一集，就讓挺健康鄭丁靚醫師帶我們看懂這場「科學羅生門」，不管你是想增肌的中壯年，還是擔心腎功能衰退的長輩，看完這篇文章就能掌握蛋白質的正確吃法！]]></summary>
+        <author>
+            <name>PanSci</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[可食用课本安全隐患 热度：3487522]]></title>
+        <id>2167495</id>
+        <link href="https://www.baidu.com/s?wd=%E5%8F%AF%E9%A3%9F%E7%94%A8%E8%AF%BE%E6%9C%AC+%E5%AE%89%E5%85%A8%E9%9A%90%E6%82%A3&amp;sa=fyb_news&amp;rsv_dl=fyb_news"/>
+        <updated>2026-09-12T02:02:01.000Z</updated>
+        <summary type="html"><![CDATA[近期，多地市场监管部门发布提示，网红零食“可食用课本”存在食品添加剂超标、生产工艺不达标等隐患，易危害青少年健康。此前，这款零食凭借“吃掉作业”的解...]]></summary>
+        <author>
+            <name>百度实时热点</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[18岁女子与男友争吵后坠亡家属索赔 热度：3784770]]></title>
+        <id>2167494</id>
+        <link href="https://www.baidu.com/s?wd=18%E5%B2%81%E5%A5%B3%E5%AD%90%E4%B8%8E%E7%94%B7%E5%8F%8B%E4%BA%89%E5%90%B5%E5%90%8E%E5%9D%A0%E4%BA%A1%E5%AE%B6%E5%B1%9E%E7%B4%A2%E8%B5%94&amp;sa=fyb_news&amp;rsv_dl=fyb_news"/>
+        <updated>2026-09-12T02:02:01.000Z</updated>
+        <summary type="html"><![CDATA[日前，广州一名18岁女子张某加前男友微信，被现男友李某发现，14秒私密语音暴露，两人争吵后女子跳楼坠亡。事发后，张某父母起诉李某索赔72万余元。近日...]]></summary>
+        <author>
+            <name>百度实时热点</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[胡塞称9天攻占5400平方公里地区 热度：3879934]]></title>
+        <id>2167493</id>
+        <link href="https://www.baidu.com/s?wd=%E8%83%A1%E5%A1%9E%E7%A7%B09%E5%A4%A9%E6%94%BB%E5%8D%A05400%E5%B9%B3%E6%96%B9%E5%85%AC%E9%87%8C%E5%9C%B0%E5%8C%BA&amp;sa=fyb_news&amp;rsv_dl=fyb_news"/>
+        <updated>2026-09-12T02:02:01.000Z</updated>
+        <summary type="html"><![CDATA[9月11日，也门胡塞武装发言人发表声明称，部队自9月3日起对也门西海岸“沙特支持的力量”发动大规模攻势。行动在9天内攻占塔伊兹和荷台达省的6个地区共...]]></summary>
+        <author>
+            <name>百度实时热点</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[退圈两年的赖冠霖接受唐国强采访 热度：3990934]]></title>
+        <id>2167492</id>
+        <link href="https://www.baidu.com/s?wd=%E9%80%80%E5%9C%88%E4%B8%A4%E5%B9%B4%E7%9A%84%E8%B5%96%E5%86%A0%E9%9C%96%E6%8E%A5%E5%8F%97%E5%94%90%E5%9B%BD%E5%BC%BA%E9%87%87%E8%AE%BF&amp;sa=fyb_news&amp;rsv_dl=fyb_news"/>
+        <updated>2026-09-12T02:02:00.000Z</updated>
+        <summary type="html"><![CDATA[近日，赖冠霖退圈两年后首次接受唐国强采访。节目中，他自曝转型导演期间曾经历破产，最窘迫时连一份17元的汉堡都付不起，并谈及与Cube娱乐的合约纠纷及...]]></summary>
+        <author>
+            <name>百度实时热点</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[少年被困大兴安岭8天7夜自行走出 热度：4065593]]></title>
+        <id>2167491</id>
+        <link href="https://www.baidu.com/s?wd=%E5%B0%91%E5%B9%B4%E8%A2%AB%E5%9B%B0%E5%A4%A7%E5%85%B4%E5%AE%89%E5%B2%AD8%E5%A4%A97%E5%A4%9C%E8%87%AA%E8%A1%8C%E8%B5%B0%E5%87%BA&amp;sa=fyb_news&amp;rsv_dl=fyb_news"/>
+        <updated>2026-09-12T02:02:00.000Z</updated>
+        <summary type="html"><![CDATA[9月2日，17岁少年小吉在大兴安岭林区进山采松塔时走失，被困8天7夜。经当地多部门联动搜救，9月10日，小吉自行走出林区获救，他自述靠饮用山泉水存活...]]></summary>
+        <author>
+            <name>百度实时热点</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[郭有才辟谣爆火时被北大破格录取 热度：4190676]]></title>
+        <id>2167490</id>
+        <link href="https://www.baidu.com/s?wd=%E9%83%AD%E6%9C%89%E6%89%8D%E8%BE%9F%E8%B0%A3%E7%88%86%E7%81%AB%E6%97%B6%E8%A2%AB%E5%8C%97%E5%A4%A7%E7%A0%B4%E6%A0%BC%E5%BD%95%E5%8F%96&amp;sa=fyb_news&amp;rsv_dl=fyb_news"/>
+        <updated>2026-09-12T02:02:00.000Z</updated>
+        <summary type="html"><![CDATA[9月11日，郭有才受访辟谣被北大破格录取传闻，称今年付费报了北大的国学研修班。此前，郭有才在菏泽南站演唱爆火后，有自媒体编造其被北大破格录取的谣言，...]]></summary>
+        <author>
+            <name>百度实时热点</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[北京朝霞与鱼鳞云相伴绚烂如油画 热度：4362266]]></title>
+        <id>2167489</id>
+        <link href="https://www.baidu.com/s?wd=%E5%8C%97%E4%BA%AC%E6%9C%9D%E9%9C%9E%E4%B8%8E%E9%B1%BC%E9%B3%9E%E4%BA%91%E7%9B%B8%E4%BC%B4+%E7%BB%9A%E7%83%82%E5%A6%82%E6%B2%B9%E7%94%BB&amp;sa=fyb_news&amp;rsv_dl=fyb_news"/>
+        <updated>2026-09-12T02:01:59.000Z</updated>
+        <summary type="html"><![CDATA[9月12日清晨，北京出现金红色朝霞，并有鱼鳞云相伴，如油画般铺满天际，美轮美奂。]]></summary>
+        <author>
+            <name>百度实时热点</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[“这就是我想要的军训啊” 热度：4457209]]></title>
+        <id>2167488</id>
+        <link href="https://www.baidu.com/s?wd=%E2%80%9C%E8%BF%99%E5%B0%B1%E6%98%AF%E6%88%91%E6%83%B3%E8%A6%81%E7%9A%84%E5%86%9B%E8%AE%AD%E5%95%8A%E2%80%9D&amp;sa=fyb_news&amp;rsv_dl=fyb_news"/>
+        <updated>2026-09-12T02:01:59.000Z</updated>
+        <summary type="html"><![CDATA[近日，多所高校新生军训解锁新内容。昆明文理学院开展野外拉练与硬核战术比拼；四川大学组织新生赴成都近郊下田劳作；华南农业大学开设电动车骑行实训课。当前...]]></summary>
+        <author>
+            <name>百度实时热点</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[田朴珺陪75岁王石参加HYROX 热度：4550740]]></title>
+        <id>2167487</id>
+        <link href="https://www.baidu.com/s?wd=%E7%94%B0%E6%9C%B4%E7%8F%BA%E9%99%AA75%E5%B2%81%E7%8E%8B%E7%9F%B3%E5%8F%82%E5%8A%A0HYROX&amp;sa=fyb_news&amp;rsv_dl=fyb_news"/>
+        <updated>2026-09-12T02:01:59.000Z</updated>
+        <summary type="html"><![CDATA[近日，75岁王石参加HYRX北京站体能赛，赛后与到场支持的45岁妻子田朴珺碰拳互动。此前，王石今年已连打上海、杭州、成都、深圳等多站赛事，拿下年龄组...]]></summary>
+        <author>
+            <name>百度实时热点</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[雀巢宣布涨价 热度：4645709]]></title>
+        <id>2167486</id>
+        <link href="https://www.baidu.com/s?wd=%E9%9B%80%E5%B7%A2%E5%AE%A3%E5%B8%83%E6%B6%A8%E4%BB%B7&amp;sa=fyb_news&amp;rsv_dl=fyb_news"/>
+        <updated>2026-09-12T02:01:58.000Z</updated>
+        <summary type="html"><![CDATA[9月9日，瑞士食品巨头雀巢集团全球首席执行官费耐睿表示，为了应对能源、货运和原材料成本上升，雀巢正在重新规划产品结构，提高部分产品价格，并且削减消费...]]></summary>
+        <author>
+            <name>百度实时热点</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[自导自演的闹剧何以屡屡骗翻全网 热度：4743571]]></title>
+        <id>2167485</id>
+        <link href="https://www.baidu.com/s?wd=%E8%87%AA%E5%AF%BC%E8%87%AA%E6%BC%94%E7%9A%84%E9%97%B9%E5%89%A7%E4%BD%95%E4%BB%A5%E5%B1%A1%E5%B1%A1%E9%AA%97%E7%BF%BB%E5%85%A8%E7%BD%91&amp;sa=fyb_news&amp;rsv_dl=fyb_news"/>
+        <updated>2026-09-12T02:01:58.000Z</updated>
+        <summary type="html"><![CDATA[日前引爆舆论的“男子因女学生生活奢靡停止助学资助，反遭女生威胁”事件彻底证伪。据公安机关通报，事件实为该男子自导自演编造引流。目前，此人已被采取刑事...]]></summary>
+        <author>
+            <name>百度实时热点</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[辱骂业主副局长自称很后悔 热度：5021722]]></title>
+        <id>2167484</id>
+        <link href="https://www.baidu.com/s?wd=%E8%BE%B1%E9%AA%82%E4%B8%9A%E4%B8%BB%E5%89%AF%E5%B1%80%E9%95%BF%E8%87%AA%E7%A7%B0%E5%BE%88%E5%90%8E%E6%82%94&amp;sa=fyb_news&amp;rsv_dl=fyb_news"/>
+        <updated>2026-09-12T02:01:57.000Z</updated>
+        <summary type="html"><![CDATA[9月11日，湖南湘潭雨湖区住建局确认副局长彭某在业主群内辱骂业主一事属实，彭某已被停职，区纪委正介入调查。此前，大学里小区业主因与物业存在矛盾，6日...]]></summary>
+        <author>
+            <name>百度实时热点</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[宜宾一镇干部被指推女子入厕强奸 热度：5121261]]></title>
+        <id>2167483</id>
+        <link href="https://www.baidu.com/s?wd=%E5%AE%9C%E5%AE%BE%E4%B8%80%E9%95%87%E5%B9%B2%E9%83%A8%E8%A2%AB%E6%8C%87%E6%8E%A8%E5%A5%B3%E5%AD%90%E5%85%A5%E5%8E%95%E5%BC%BA%E5%A5%B8&amp;sa=fyb_news&amp;rsv_dl=fyb_news"/>
+        <updated>2026-09-12T02:01:57.000Z</updated>
+        <summary type="html"><![CDATA[女子称被一名镇政府公职人员推入自家烧烤店厕所内强奸，后企图割腕自杀。四川省筠连县警方以“无犯罪事实”发生为由，决定不予立案。宜宾市公安局随后复核审查...]]></summary>
+        <author>
+            <name>百度实时热点</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[已灭绝的奥氏马容貌再现 热度：5337156]]></title>
+        <id>2167482</id>
+        <link href="https://www.baidu.com/s?wd=%E5%B7%B2%E7%81%AD%E7%BB%9D%E7%9A%84%E5%A5%A5%E6%B0%8F%E9%A9%AC%E5%AE%B9%E8%B2%8C%E5%86%8D%E7%8E%B0&amp;sa=fyb_news&amp;rsv_dl=fyb_news"/>
+        <updated>2026-09-12T02:01:57.000Z</updated>
+        <author>
+            <name>百度实时热点</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[胡塞武装锁喉曼德海峡 热度：5410070]]></title>
+        <id>2167481</id>
+        <link href="https://www.baidu.com/s?wd=%E8%83%A1%E5%A1%9E%E6%AD%A6%E8%A3%85%E9%94%81%E5%96%89%E6%9B%BC%E5%BE%B7%E6%B5%B7%E5%B3%A1&amp;sa=fyb_news&amp;rsv_dl=fyb_news"/>
+        <updated>2026-09-12T02:01:56.000Z</updated>
+        <summary type="html"><![CDATA[当地时间9月11日，胡塞武装声明称控制曼德海峡战略要地，并打击沙特武装力量。同日，沙特能源部称东西输油管道遭袭已预防性关闭。此前，沙特王储致电美国总...]]></summary>
+        <author>
+            <name>百度实时热点</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[泰国网红僧人被捕身边女伴身份曝光 热度：5511111]]></title>
+        <id>2167470</id>
+        <link href="https://www.baidu.com/s?wd=%E6%B3%B0%E5%9B%BD%E7%BD%91%E7%BA%A2%E5%83%A7%E4%BA%BA%E8%A2%AB%E6%8D%95+%E8%BA%AB%E8%BE%B9%E5%A5%B3%E4%BC%B4%E8%BA%AB%E4%BB%BD%E6%9B%9D%E5%85%89&amp;sa=fyb_news&amp;rsv_dl=fyb_news"/>
+        <updated>2026-09-12T02:01:56.000Z</updated>
+        <summary type="html"><![CDATA[泰国警方通报，当地一寺庙住持哇集拉延，私吞了本应存进寺庙账户的9200万泰铢香油钱。据悉，他和47岁女伴多次发生亲密关系，还通过女伴转移资金。这名女...]]></summary>
+        <author>
+            <name>百度实时热点</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[小孩坠楼砸车家长曾称谣言止于智者 热度：5707285]]></title>
+        <id>2167469</id>
+        <link href="https://www.baidu.com/s?wd=%E5%B0%8F%E5%AD%A9%E5%9D%A0%E6%A5%BC%E7%A0%B8%E8%BD%A6%E5%AE%B6%E9%95%BF%E6%9B%BE%E7%A7%B0%E8%B0%A3%E8%A8%80%E6%AD%A2%E4%BA%8E%E6%99%BA%E8%80%85&amp;sa=fyb_news&amp;rsv_dl=fyb_news"/>
+        <updated>2026-09-12T02:01:56.000Z</updated>
+        <summary type="html"><![CDATA[9月8日，湖南衡阳一孩童从7楼坠落，砸中一辆宝马车，车辆缓冲起到保护作用，孩子暂无生命危险。事后网传孩子家长想用拆车件压低近5万元定损赔偿款，家长曾...]]></summary>
+        <author>
+            <name>百度实时热点</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[马斯克怒批《马斯克》 热度：5790455]]></title>
+        <id>2167468</id>
+        <link href="https://www.baidu.com/s?wd=%E9%A9%AC%E6%96%AF%E5%85%8B%E6%80%92%E6%89%B9%E3%80%8A%E9%A9%AC%E6%96%AF%E5%85%8B%E3%80%8B&amp;sa=fyb_news&amp;rsv_dl=fyb_news"/>
+        <updated>2026-09-12T02:01:55.000Z</updated>
+        <author>
+            <name>百度实时热点</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[美股三大指数集体收涨终结四连跌 热度：5989368]]></title>
+        <id>2167466</id>
+        <link href="https://www.baidu.com/s?wd=%E7%BE%8E%E8%82%A1%E4%B8%89%E5%A4%A7%E6%8C%87%E6%95%B0%E9%9B%86%E4%BD%93%E6%94%B6%E6%B6%A8+%E7%BB%88%E7%BB%93%E5%9B%9B%E8%BF%9E%E8%B7%8C&amp;sa=fyb_news&amp;rsv_dl=fyb_news"/>
+        <updated>2026-09-12T02:01:55.000Z</updated>
+        <summary type="html"><![CDATA[美东时间周五，美国三大股指全线收涨，截至收盘，道指涨0.98%报52573.29点，标普500指数涨0.86%报7656.98点，纳指涨0.96%报...]]></summary>
+        <author>
+            <name>百度实时热点</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[中国找矿有重大突破 热度：6085616]]></title>
+        <id>2167465</id>
+        <link href="https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E6%89%BE%E7%9F%BF%E6%9C%89%E9%87%8D%E5%A4%A7%E7%AA%81%E7%A0%B4&amp;sa=fyb_news&amp;rsv_dl=fyb_news"/>
+        <updated>2026-09-12T02:01:55.000Z</updated>
+        <summary type="html"><![CDATA[近日，由清华大学等单位开展的西太平洋海底热液活动与资源联合科考航次取得重要突破。科考团队依托自主研制的设备在西太平洋新锁定一处大型高温活动热液区，初...]]></summary>
+        <author>
+            <name>百度实时热点</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[房东上门收租反给租客转了2万 热度：6569957]]></title>
+        <id>2167464</id>
+        <link href="https://www.baidu.com/s?wd=%E6%88%BF%E4%B8%9C%E4%B8%8A%E9%97%A8%E6%94%B6%E7%A7%9F%E5%8F%8D%E7%BB%99%E7%A7%9F%E5%AE%A2%E8%BD%AC%E4%BA%862%E4%B8%87&amp;sa=fyb_news&amp;rsv_dl=fyb_news"/>
+        <updated>2026-09-12T02:01:54.000Z</updated>
+        <summary type="html"><![CDATA[近日，房东上门收租，得知租客生意难做，3个孩子的开学学费没有着落。房东不仅同意暂缓收租，还向租客转账2万元救急。]]></summary>
+        <author>
+            <name>百度实时热点</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[女演员朱晏卖韭菜盒子？本人回应 热度：6666884]]></title>
+        <id>2167463</id>
+        <link href="https://www.baidu.com/s?wd=%E5%A5%B3%E6%BC%94%E5%91%98%E6%9C%B1%E6%99%8F%E5%8D%96%E9%9F%AD%E8%8F%9C%E7%9B%92%E5%AD%90%EF%BC%9F%E6%9C%AC%E4%BA%BA%E5%9B%9E%E5%BA%94&amp;sa=fyb_news&amp;rsv_dl=fyb_news"/>
+        <updated>2026-09-12T02:01:54.000Z</updated>
+        <summary type="html"><![CDATA[9月11日中午，52岁女演员朱晏在杭州朋友店里做韭菜盒子并开直播，回应“卖韭菜盒子”传闻，澄清并未真正售卖，只是玩笑话。此前，她曾自爆因给前夫做无限...]]></summary>
+        <author>
+            <name>百度实时热点</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[王辉已被执行死刑 热度：6761168]]></title>
+        <id>2167462</id>
+        <link href="https://www.baidu.com/s?wd=%E7%8E%8B%E8%BE%89%E5%B7%B2%E8%A2%AB%E6%89%A7%E8%A1%8C%E6%AD%BB%E5%88%91&amp;sa=fyb_news&amp;rsv_dl=fyb_news"/>
+        <updated>2026-09-12T02:01:53.000Z</updated>
+        <summary type="html"><![CDATA[9月11日，山东诸城偷排危废致4死案主犯王辉被执行死刑。2021年，王辉、陈涛等人偷排工业废液，产生有毒气体，造成4人死亡、3人重伤、32人中毒。案...]]></summary>
+        <author>
+            <name>百度实时热点</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[iPhoneDuo手写笔违背祖训 热度：6948513]]></title>
+        <id>2167461</id>
+        <link href="https://www.baidu.com/s?wd=iPhoneDuo%E6%89%8B%E5%86%99%E7%AC%94+%E8%BF%9D%E8%83%8C%E7%A5%96%E8%AE%AD&amp;sa=fyb_news&amp;rsv_dl=fyb_news"/>
+        <updated>2026-09-12T02:01:53.000Z</updated>
+        <summary type="html"><![CDATA[苹果首款折叠屏iPhoneDuo正式亮相，内外屏首次支持ApplePencil，打破乔布斯“无需手写笔”的经典言论，被业内视作违背苹果旧祖训。苹...]]></summary>
+        <author>
+            <name>百度实时热点</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[中国天眼有新发现 热度：7047919]]></title>
+        <id>2167456</id>
+        <link href="https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E5%A4%A9%E7%9C%BC%E6%9C%89%E6%96%B0%E5%8F%91%E7%8E%B0&amp;sa=fyb_news&amp;rsv_dl=fyb_news"/>
+        <updated>2026-09-12T02:01:52.000Z</updated>
+        <summary type="html"><![CDATA[近日，由中国科学院国家天文台研究团队牵头的“中国天眼FAST中性氢巡天项目”发布第二期数据集，构建起当今世界规模最大的中性氢星系样本库。]]></summary>
+        <author>
+            <name>百度实时热点</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[郭有才：流量少了骂的人也少了 热度：7141807]]></title>
+        <id>2167450</id>
+        <link href="https://www.baidu.com/s?wd=%E9%83%AD%E6%9C%89%E6%89%8D%EF%BC%9A%E6%B5%81%E9%87%8F%E5%B0%91%E4%BA%86+%E9%AA%82%E7%9A%84%E4%BA%BA%E4%B9%9F%E5%B0%91%E4%BA%86&amp;sa=fyb_news&amp;rsv_dl=fyb_news"/>
+        <updated>2026-09-12T02:01:52.000Z</updated>
+        <summary type="html"><![CDATA[9月11日，记者回访郭有才。郭有才受访表示，曾遭造谣及人身攻击，妻子被气得落泪，家人也气得半夜失眠。他称目前流量减少，骂的人也变少了，并坦言正通过读...]]></summary>
+        <author>
+            <name>百度实时热点</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[网红铁头退庭时辱骂法庭 热度：7424655]]></title>
+        <id>2167449</id>
+        <link href="https://www.baidu.com/s?wd=%E7%BD%91%E7%BA%A2%E9%93%81%E5%A4%B4%E9%80%80%E5%BA%AD%E6%97%B6%E8%BE%B1%E9%AA%82%E6%B3%95%E5%BA%AD&amp;sa=fyb_news&amp;rsv_dl=fyb_news"/>
+        <updated>2026-09-12T02:01:52.000Z</updated>
+        <summary type="html"><![CDATA[目前，打假网红“铁头”敲诈勒索案在杭州市滨江区人民法院一审宣判，“铁头”被判处有期徒刑八年，另一主犯被判十三年。据受害企业方称，“铁头”方未当庭上诉...]]></summary>
+        <author>
+            <name>百度实时热点</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[宁波大学开学典礼暴雨校长只讲3句话 热度：7523072]]></title>
+        <id>2167448</id>
+        <link href="https://www.baidu.com/s?wd=%E5%AE%81%E6%B3%A2%E5%A4%A7%E5%AD%A6%E5%BC%80%E5%AD%A6%E5%85%B8%E7%A4%BC%E6%9A%B4%E9%9B%A8+%E6%A0%A1%E9%95%BF%E5%8F%AA%E8%AE%B23%E5%8F%A5%E8%AF%9D&amp;sa=fyb_news&amp;rsv_dl=fyb_news"/>
+        <updated>2026-09-12T02:01:51.000Z</updated>
+        <summary type="html"><![CDATA[9月11日晚，宁波大学举行了2026级新生开学典礼。活动开始时，天上下起了雨，随后雨势时强时弱。轮到校长发言时，突然下起了暴雨，校长蔡荣根院士走上演...]]></summary>
+        <author>
+            <name>百度实时热点</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[DeepSeek开口说话 热度：7712462]]></title>
+        <id>2167447</id>
+        <link href="https://www.baidu.com/s?wd=DeepSeek+%E5%BC%80%E5%8F%A3%E8%AF%B4%E8%AF%9D&amp;sa=fyb_news&amp;rsv_dl=fyb_news"/>
+        <updated>2026-09-12T02:01:51.000Z</updated>
+        <summary type="html"><![CDATA[目前，DeepSeek正在灰度测试语音对话功能。测试到的用户在App右上角可见小喇叭按钮，并在设置页面的“朗读音色”选项中，可选择贝壳、白浪、海星、...]]></summary>
+        <author>
+            <name>百度实时热点</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[China’s Economic Machine Has a Criminal Shadow]]></title>
+        <id>https://medium.com/p/050516f1889c</id>
+        <link href="https://medium.com/@v.langston.journalist/chinas-economic-machine-has-a-criminal-shadow-050516f1889c?source=rss------china-5"/>
+        <updated>2026-09-12T02:01:05.000Z</updated>
+        <summary type="html"><![CDATA[The same manufacturing, financial and commercial networks powering China’s global rise are increasingly being exploited by transnational…
+Continue reading on Medium »]]></summary>
+        <author>
+            <name>V. Langston — Economics, Technology &amp; Geopolitics</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[🤔 AI 递归自我改进：能力、算力与能源瓶颈]]></title>
+        <id>49665711</id>
+        <link href="https://newshacker.me/story?id=49665711"/>
+        <updated>2026-09-12T02:00:30.000Z</updated>
+        <summary type="html"><![CDATA[原标题：《AI researchers debate how close we are to recursive self-improvement》
+评分: 33 | 作者: artninja1988
+💭 连电费都扛不住，还谈递归自我进化？
+
+🎯 讨论背景
+这篇讨论围绕 recursive self-improvement（递归自我改进）展开，也就是 AI 能否通过改进自身来不断变强，进而逼近 AGI（通用人工智能）。评论者一边怀疑现有 frontier models（最先进的大模型）是否真的能做到连续自我提升，一边把焦点放在 money、compute、energy 以及 fab（晶圆厂）和 data center（数据中心）等基础设施成本上。还有人讨论系统是否会因 power cord（电源线）和现实供应链而仍受人类控制，或者反过来通过管理供应链、bribes（贿赂）和 blackmail（勒索）来维持自身。顺带也有人好奇 John Carmack（知名游戏程序员）的 AGI 进展，但这个线索更多是社区对个人实验路线的长期关注。
+
+📌 讨论焦点
+当前模型离真正自我改进还有距离
+有人认为，使用过 frontier models（最先进的大模型）后，很难把它们想象成通往 AGI（通用人工智能）的直接路径。现阶段所谓的 self-improvement 更多只是训练阶段的边际优化，而不是模型自己发现并实现质变式升级。评论还指出 model collapse（模型坍塌）和 continuous learning（持续学习）仍然是难题，所以即使存在自我改进，也大概率是有限收益而不是突然跃迁。要看到更大幅度的能力提升，仍然需要新的突破而不是沿着现有路线自然演化。
+[来源1] [来源2] [来源3]
+资源约束比“钱”更根本
+另一组评论把递归自我改进看成资源问题，尤其是 ener…]]></summary>
+        <author>
+            <name>News Hacker | 极客洞察</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AI能否自主做研究？听听这些专家怎么说]]></title>
+        <id>https://www.leiphone.com/category/industrynews/Xlz0dFtywcRmmVfB.html</id>
+        <link href="https://www.leiphone.com/category/industrynews/Xlz0dFtywcRmmVfB.html"/>
+        <updated>2026-09-12T01:59:00.000Z</updated>
+        <summary type="html"><![CDATA[当人工智能开始参与提出假设、设计实验，并根据实验结果调整研究方向，AI与科学研究的关系正在发生变化。从材料发现到生命系统模拟，再到创新药研发，AI for Science的探索正从单个环节的效率提升，走向对科研过程的系统性重构。
+如何让AI持续产生可验证的新知识，如何打通计算模型与真实实验之间的循环，也成为学术界和产业界共同面对的课题。
+9月11日下午2026 Inclusion·外滩大会上，以“AI4S：当AI学会研究，技术会实现自主进化么”为主题的见解论坛正式举办。
+
+来自人工智能、材料科学、生命科学和创新药研发等领域的学者与产业界嘉宾，围绕自主研究系统的学习与进化、科学数据的生产、药物与材料研发的实践展开交流，深入探讨了AI参与科学研究的技术路径与落地挑战，从不同学科和产业视角，讨论了机器自主发现的可能性及其实现条件。
+汪军：从智能体到AI科学家，关键在打通数字与物理世界的闭环
+在题为《从智能体到AI科学家：自主研究系统如何学习与进化》的开场演讲中，伦敦大学学院教授，RL China 创始人汪军，从科学研究的方法出发，阐释了自主科研系统的基本思路。
+
+伦敦大学学院教授，RL China 创始人汪军
+科学家提出假设，通过实验观察或理论推导进行检验，再根据结果修正认识，构成了知识不断积累的过程。在他看来，AI for Science的重要目标，就是对这一过程进行建模，让智能体能够更完整地参与科研循环，进一步拓展科学家的研究能力。
+汪军特别区分了“探索”与“发现”：前者可以围绕已经意识到的未知问题展开，后者则需要触及尚未进入既有知识体系、甚至尚未被意识到的问题。沿着这一思路，他提出面向科学发现的“大发现模型”方向，希望推动AI从已有知识基础上的推理，进一步走向对新问题、新知识的发现。
+实现这一目标，关键在于建立数字世界与物理世界之间的闭环。汪军介绍，团队正通过自学习与自演进…]]></summary>
+        <author>
+            <name>雷峰网</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[具身新贵，3个月成为独角兽]]></title>
+        <id>4890616</id>
+        <link href="https://www.huxiu.com/article/4890616.html?f=rss"/>
+        <updated>2026-09-12T01:56:34.000Z</updated>
+        <summary type="html"><![CDATA[本文来自微信公众号： 东四十条资本 ，作者：韦香惠
+
+
+明星机构押下重注。
+
+
+就在国内一级市场对具身智能的投资逐渐收紧之时，海外一家做机器人数据训练的公司，三个月融两轮，已经跻身百亿独角兽行列。
+
+
+不久前，机器人数据公司XDOF传出新一轮融资消息，估值约12亿美元，折合人民币超过百亿元。距离公司今年6月宣布完成7000万美元A轮融资，仅仅过去约三个月。
+
+
+XDOF成立于2024年，由Philipp Wu、Fred Shentu和Nemo Jin共同创立。公司的技术基础之一，是伯克利机器人学习研究中发展出来的GELLO远程操作系统。
+
+
+让我产生兴趣的是，这家公司既不做模型，也不造人形机器人，而是做着一门看上去并不性感的数据生意——为机器人收集、整理和处理真实世界中的交互数据。但就是这样一家“卖数据”的公司，却获得了a16z、Thrive Capital等明星机构的青睐。
+
+
+目前XDOF的这笔融资仍属于拟议交易，具体融资金额、估值是否包含新资金等细节尚未得到公开确认。但无论最终交易如何落地，这笔融资至少释放出了一个值得关注的信号：随着大模型和机器人产业进入新的发展阶段，曾经被视为人力密集型、缺乏想象空间的数据生意，正在被资本重新审视。
+
+
+机器人领域的Scale AI
+
+
+“数据质量往往是深度学习中被忽视的功臣。”这句话是Phililp Wu在推特转发团队的一篇研究文章时所写下的。
+
+
+Phillp Wu是XDOF的创始人。他所在的伯克利，本身就是全球机器人学习、强化学习和具身智能研究的重要学术中心。国内具身智能圈流传的“伯克利归国四子”，也从侧面说明了这所学校在中国创业者和投资人中的影响力。
+
+
+XDOF创始人Philipp Wu，研究起点也是机器人本身。从领英公开履历看，他曾在加州大学伯克利分校机器人学习实验室从事本科研究，师从Pieter Abbeel教授，研究…]]></summary>
+        <author>
+            <name>东四十条资本©</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[🤔 Async/await 九维设计空间：取消、挂起与线程模型争论]]></title>
+        <id>49626718</id>
+        <link href="https://newshacker.me/story?id=49626718"/>
+        <updated>2026-09-12T01:55:22.000Z</updated>
+        <summary type="html"><![CDATA[原标题：《A Design Space Exploration of Async/Await》
+评分: 144 | 作者: wcrichton
+💭 九个维度都能吵成这样了，还叫异步简单吗？
+
+🎯 讨论背景
+这篇 arXiv 论文《A Design Space Exploration of Async/Await》把不同语言里的 async/await 拆成九个设计维度来比较，关注的不只是语法，而是运行时如何挂起、恢复、取消和调度任务。评论里反复拿 JavaScript、C#、Swift、Python 的 asyncio（Python 标准库异步库）、Trio（一个 Python 异步运行时）、Tokio（Rust 异步运行时）、C ++ 和 Zig（系统编程语言）做对照，因为同样叫 `async/await `，语义可能完全不同。大家特别在意 cancellation、`await ` 是否真的会 suspend、以及任务生命周期该由谁控制，这些都会直接影响语言和库的设计。另一条主线是把 async/await 和 threads、structured concurrency（结构化并发）以及 Java virtual threads（Java 的虚拟线程）区分开来，讨论它们究竟是在解决并发问题，还是在规避共享内存加锁/信号量带来的复杂度。
+
+📌 讨论焦点
+九维框架很实用
+很多评论认为这篇文章把原本零散的 async/await 经验系统化了，尤其适合正在做语言或运行时设计的人。九个设计维度让人意识到 async 不是单一特性，而是一组彼此牵连的取舍。有人把这种演化类比为 lexical scope 和 dynamic scope：早期争论很多，但最终会逐渐收敛出更合理的默认值。也有人直接把它看成很强的教学工具，甚至可以拿来比较不同 async 系统之间的“相似度”。…]]></summary>
+        <author>
+            <name>News Hacker | 极客洞察</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[My sister is a librarian at a high school (oc)]]></title>
+        <id>https://www.reddit.com/r/MadeMeSmile/comments/1wdzg5s/my_sister_is_a_librarian_at_a_high_school_oc/</id>
+        <link href="https://www.reddit.com/r/MadeMeSmile/comments/1wdzg5s/my_sister_is_a_librarian_at_a_high_school_oc/"/>
+        <updated>2026-09-12T01:52:59.000Z</updated>
+        <summary type="html"><![CDATA[submitted by    /u/Patient_Technology60    to    r/MadeMeSmile  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>popular links</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[🤨 Cloudflare Workers 自托管 Helpdesk：缺截图 Demo，想替代 Jira]]></title>
+        <id>49665864</id>
+        <link href="https://newshacker.me/story?id=49665864"/>
+        <updated>2026-09-12T01:50:16.000Z</updated>
+        <summary type="html"><![CDATA[原标题：《Show HN: ResolveHQ – A Helpdesk Built on Cloudflare Workers, D1, R2 and Queues》
+评分: 21 | 作者: mirza_rizvi
+💭 连截图和 Demo 都没有，怎么先说杀死 Jira？
+
+🎯 讨论背景
+这是一个 Show HN 项目，ResolveHQ 定位为用 Cloudflare Workers（边缘无服务器运行时）、D1（Cloudflare 托管的 SQLite 数据库）、R2（对象存储）和 Queues（异步消息队列）搭建的 helpdesk。评论把它放到更大的客服/工单软件版图里讨论：一边是自托管 support infra 的诱惑，另一边是现成 SaaS 往往在从简单邮箱升级后迅速变贵。有人还提到 Jira Service Desk（Atlassian 的工单系统）太重，以及 customer portal、changelog、roadmap、monitoring 和 incident management 这些功能是否应该放在同一个界面。另一条常见脉络是“Cloudflare 能不能顺手把邮件和路由也包掉”，说明这类基础设施产品很依赖生态集成和产品展示。
+
+📌 讨论焦点
+产品展示不足
+不少评论先盯住展示层面：仓库没有截图和在线 demo，会让人很难判断这个 helpdesk 到底长什么样、能做什么。有人直接要求在 README 里补界面截图，也有人调侃 GitHub 仓库就该有截图，甚至可以让 Codex 之类的工具自动把截图贴上去。还有人更直接地说，没有截图和 demo site，想让陌生人试用会非常困难。
+[来源1] [来源2] [来源3] [来源4] [来源5]
+自托管客服与 Jira 替代
+有人理解自托管客服平台的吸引力，因为现成工具从“邮件收件箱”升级到完整 support system 后，价格往往迅速上升。与此同时，也有人借机宣传自己刚软启动的替代品，主打更合理的定价，并把 customer portal、changelog、roadmap、monitoring 和 incident management 放到同一个界面里。这样的思路反映出评论者并不只看 helpdesk 本身，而是看整个 customer operations surface 是否足够统一。最后那句“能不能杀死 Jira”则把大家对传统工单系统臃肿、难用的情绪直接点出来了。
+[来源1] [来源2]
+Cloudflare 技术栈实践
+另一些评论把重点放在 Cloudflare 技术栈的实用性上，表示自己也用 Workers、邮件服务和域名配置做过类似产品，比如 macOS 应用内的 Issue Reporting，或者支持任意域名快速创建 inbox 的 mail client。有人认为 Workers 做路由非常合适，而且这类边缘计算平台被低估了。随后还有人补充说 email 现在已经可以直接由 Cloudflare 生态完成，说明它正在从静态站点/CDN 扩展到更多基础设施层。
+[来源1] [来源2] [来源3]
+
+📚 术语解释
+Cloudflare Workers: Cloudflare 的边缘无服务器运行时，用来在靠近用户的网络边缘执行代码和处理请求。
+D1: Cloudflare 托管的 SQLite 数据库服务，适合轻量到中等规模的结构化数据存储。
+R2: Cloudflare 的对象存储服务，常用于存放文件、附件和其他大对象。
+Queues: Cloudflare 的异步消息队列服务，用于把耗时任务从主请求流程中拆开处理。
+Resend: 一个邮件发送 API 服务，常被用来在应用中处理发信、事务邮件等能力。
+Jira Service Desk: Atlassian 的工单/客服系统，常用于 IT 支持、客户支持和内部服务台场景。
+
+类别：Systems | Web | Product | Show HN | Release | ResolveHQ | Cloudflare Workers | D1 | R2 | Queues | Helpdesk | Cloudflare | GitHub]]></summary>
+        <author>
+            <name>News Hacker | 极客洞察</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GPT-6 Astra这么强，网上都在晒成果，你想不想看看后果]]></title>
+        <id>4890614</id>
+        <link href="https://www.huxiu.com/article/4890614.html?f=rss"/>
+        <updated>2026-09-12T01:46:03.000Z</updated>
+        <summary type="html"><![CDATA[本文来自微信公众号： 奶爸老徐 ，作者：奶爸老徐
+
+
+这周以来，我的社交账号时间线全是各种3D建模，我要不是知道GPT-6 Astra发布的话，还以为AI大佬们全转行成了3D建模师。
+
+
+
+
+
+知乎上GPT-6的电脑操作自动化热度也飙升到57万浏览，以后“AI干活，人类划水”的未来似乎已来。
+
+
+
+
+
+其实我也想用Codex操作Blender过一把3D建模师的瘾，但是被两个事情耽搁了，第一个事就是现在写的这篇文章。
+
+
+我之前的文章里提过，AI其实干不掉写作，但是确实能在很大程度上帮助写作。
+
+
+我写文章拢共分这几步：调（选题+调研+素材），想（大纲），写，查（检查+润色），发。
+
+
+在选题讨论和调研的阶段，我是用Opus 4.6 MAX和Astra HIGH同时进行的。
+
+
+一是两个不同的模型，挖到的信息不一样，提供更多的视角。
+
+
+二是也想看看Astra有多强。
+
+
+整个写作的流程里，除了写，其他步骤AI几乎全程参与，不过做的事情不一样。
+
+
+有的步骤是跟AI讨论，比如选题、调研、大纲。AI帮我梳理思路，我来做最后的决定。
+
+
+有的步骤AI承担纯工具人角色，比如去调研结果网站把相关内容截图，把视频转GIF，检查错字，用技能发布到公众号等等。
+
+
+结果呢，仅仅完成了选题讨论和调研，我的Astra 5小时限额就见底了。这还没算上Opus承担的另外一半工作量。
+
+
+
+
+
+对了，选题调研这一步在强大的Astra+Opus的帮助下，查阅数十个网站，获取精准信息，提供分析判断，加上我自己思考的时间，耗时仅1小时。
+
+
+然后？
+
+
+然后我不得不在5小时之后再用Sol继续素材处理，而仅仅是处理完截图，视频转GIF，5小时用量又见底了。
+
+
+可能有人会问，这种机械的事情为什么不让Terra执行？
+
+
+答案是，Terra连个工具都调用不明白。
+
+
+
+
+
+就像你让它去把屋子扫一扫，Terra…]]></summary>
+        <author>
+            <name>嗅友Nhl1N</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Just an intern]]></title>
+        <id>https://www.reddit.com/r/NonPoliticalTwitter/comments/1wdz4h0/just_an_intern/</id>
+        <link href="https://www.reddit.com/r/NonPoliticalTwitter/comments/1wdz4h0/just_an_intern/"/>
+        <updated>2026-09-12T01:37:35.000Z</updated>
+        <summary type="html"><![CDATA[submitted by    /u/SpecialistRough4439    to    r/NonPoliticalTwitter  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>popular links</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[他们问我换个啥车，我说必须燃油车：造车，从来不是一场流量狂欢]]></title>
+        <id>4890612</id>
+        <link href="https://www.huxiu.com/article/4890612.html?f=rss"/>
+        <updated>2026-09-12T01:37:12.000Z</updated>
+        <summary type="html"><![CDATA[本文来自微信公众号： 斯凯碎碎侃 ，作者：斯凯
+
+
+最近半年，我的两个股东陆续提了新车。
+
+
+一个买了特斯拉。另一个选了丰田的新能源——具体什么型号我忘了，反正就是TOYOTA的那款纯电。
+
+
+公司的小姑娘也在大家的蛊惑下，对萤火虫跃跃欲试。
+
+
+他们都问我要换个啥车。
+
+
+我的回答一直很明确：坚定不移地选择燃油车。
+
+
+一方面，作为一个老朋克，我对机械动力有发自内心的着迷。发动机的声浪、变速箱的换挡节奏、油门到底时那种线性的推背感——这些东西，电动车给不了。
+
+
+另一方面，是现在新能源汽车的发展态势，着实让我对他们没啥信心。
+
+
+不是不相信新能源的技术路线。是不相信这个行业“造车”的方式。
+
+
+2026年8月，中国汽车产业经历了一场罕见的“强震”
+
+
+工信部等四部门重拳出击，比亚迪、吉利这两大销量巨头的热销车型，因“产品生产一致性”问题被公开点名。
+
+
+什么是“生产一致性”？通俗点说，就是“展厅里给你看的那辆车，和实际交付给你的那辆车，必须是一模一样的东西”。
+
+
+无论是轴距尺寸与申报不符，还是特定模式下的实测油耗超标，这都触及了汽车产品管理的底线。
+
+
+这并非孤立的合规事件，而是整个行业在“狂飙突进”后，非理性竞争结出的苦果。
+
+
+当18个月的市场窗口撞上36个月的工程周期，中国车企究竟删掉了什么？
+
+
+被压缩的周期与“速成”的代价
+
+
+那个买了特斯拉的股东，前阵子跟我吐槽了一件事。
+
+
+他提车三个月，发现车门密封条有一处装配不到位，下雨天会渗水。去4S店，售后看了一眼说：“这很正常，新车型都这样，给您重新打一遍胶就好了。”
+
+
+他听完就笑了：“‘新车型都这样’，那为什么燃油车不这样？”
+
+
+这个问题，售后答不上来。
+
+
+我也答不上来。但我知道，这背后是一个行业性的问题——过去十年，中国新能源汽车凭借极致的市场响应能力实现了弯道超车。但走到今天，这种“唯快是图”正在透支…]]></summary>
+        <author>
+            <name>斯凯有话说</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[不是骗子学精了，而是韭菜们都变老了。中国的老年人正在遭受系统性围猎]]></title>
+        <id>4890610</id>
+        <link href="https://www.huxiu.com/article/4890610.html?f=rss"/>
+        <updated>2026-09-12T01:36:15.000Z</updated>
+        <summary type="html"><![CDATA[本文来自微信公众号： 斯凯碎碎侃 ，作者：斯凯
+
+
+家乡的老年大学发来邀请，让我回去给老人家们讲讲人工智能和大数据，让老年人也跟上时代的步伐。
+
+
+想一想再过个十年年，我也要去上老年大学了，早点跟校方混个脸熟，将来也能有个路子可走，便欣然应允了。
+
+
+只是在准备课程时，查阅了很多资料，突然就发现，比起让老人家们了解最新科技发展趋势，倒真不如给他们上一节普及专门针对老年人的高科技、新模式骗局的反诈课。
+
+
+老年大学第一课，精准防诈骗指南，现在开讲。
+
+
+
+
+
+我本来准备了一套挺像样的课件，讲大模型怎么改变生活，讲AI怎么帮你写邮件画图做PPT，讲自动驾驶什么时候能普及。
+
+
+结果备课备到一半，注意到了一条新闻。
+
+
+武汉洪山警方出动100多名警察，跨越三个省四个城市，打掉了一个专门骗老年人的诈骗团伙，抓了81个人，涉案金额超过一千万，受害者上千人，遍布全国，全是60岁以上的老人。
+
+
+这个团伙怎么骗的呢，说出来你可能不信。
+
+
+他们在直播间里管老人叫「干妈」。
+
+
+一个自称「博物馆馆长」的主播，在直播间里对着一群白发苍苍的老人说，「干妈，我拿30万给您养老。」
+
+
+老人们信了。
+
+
+先交999块的「加急鉴定费」，再交5000块的「养老金保证金」，最后花1万8买一套所谓的「指定藏品」。
+
+
+直播间里还有砸金蛋抽奖环节，60个金蛋摆在桌上，主播说里面有几百万现金、金条、别墅。
+
+
+金蛋底部有个隐藏小孔，托儿砸的时候，主播趁机把写着「现金500万」的纸条塞进去。
+
+
+受害的老人砸出来什么呢，全是廉价的玉器和瓷器。
+
+
+我看完这条新闻，把原来那套AI课件全删了。
+
+
+不是AI不重要，是比起让老人学会用ChatGPT，先让他们学会不被骗走养老钱，明显更紧迫。
+
+
+你可能会说，老年人被骗，不就是贪小便宜吗，不上当不就行了。
+
+
+我原来也这么想，直到我认真翻了一遍最近几个月的案例。
+
+
+看…]]></summary>
+        <author>
+            <name>斯凯有话说</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Pictures are worth a thousand words...]]></title>
+        <id>https://www.reddit.com/r/PoursTea/comments/1wdyzs3/pictures_are_worth_a_thousand_words/</id>
+        <link href="https://www.reddit.com/r/PoursTea/comments/1wdyzs3/pictures_are_worth_a_thousand_words/"/>
+        <updated>2026-09-12T01:31:32.000Z</updated>
+        <summary type="html"><![CDATA[submitted by    /u/Veshaad    to    r/PoursTea  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>popular links</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[热搜爆了，刘翔“买断风波”落幕，算不算体面收场？]]></title>
+        <id>4890606</id>
+        <link href="https://www.huxiu.com/article/4890606.html?f=rss"/>
+        <updated>2026-09-12T01:08:50.000Z</updated>
+        <summary type="html"><![CDATA[本文来自微信公众号： 冰川思享号 ，作者：关不羽，原文标题：《热搜爆了！刘翔“买断风波”落幕，算不算体面收场？》
+
+
+在这次风波中，刘翔做到了表达克制、坦荡敞亮，体育局也能以礼待之，双方都很体面了。
+
+
+9月10日，上海体育局和刘翔相继在微博发声，历时半个月的“买断风波”正式落幕。
+
+
+从8月26日刘翔第一次在微博求助网友职业选择，到回应“买断”争议，再到9月10日尘埃落定，每一次发博都能迅速登上热搜，相关话题接连引爆热搜。
+
+
+这种连爆的效果也从侧面说明，刘翔虽然已经离开赛场多年，大众对他的关注度依然不减。
+
+
+
+图/网络
+
+
+知名评论员熊志在公号“声道”发表了《刘翔晒工资单，撕下了所有的体面》，为翔哥抱不平。
+
+
+熊志兄是非常优秀的评论人。同为冰川的作者，咱们没有一起扛过枪，但也一起喝过酒。三观一致，惺惺相惜。
+
+
+但是，这次还是要提出一点商榷意见：刘翔和上海体育局，都是互联网热点事件中少有的体面人。
+
+
+01
+
+
+刘翔是个体面人
+
+
+8月26日，刘翔在社交平台以向网友求助的方式，公布体育局要他在“买断”和“当教练”中二选一的遭遇。如果说淡出公众视野多年的刘翔是在其他平台上发声，或许不会那么快形成热点。
+
+
+但是，微博聚集了很多互联网“初代原住民”，对这位八零世代的优秀运动员代表有深刻的记忆、深厚的感情。而且，刘翔本人也是微博资深用户，在微博社区很有人缘。因此，刘翔面临“买断”的消息一出，很快就点爆了热搜。
+
+
+
+图/网络
+
+
+平心而论，退役十年后突然遇到“安置问题”，搁谁都不可能没情绪。但是，刘翔并没有没有过激的表达，也没有“挟民意自重”的戾气，有事说事的表达相当克制。
+
+
+微博网友整体上对刘翔还是挺同情的，但也不是热血上头的无脑挺，也有网友提出了“吃空饷”、恋栈体制内的质疑。
+
+
+刘翔对此的回应温和、敞亮。“不是我不想走，而是你没让我走”的回应，不回避、不破防。“没…]]></summary>
+        <author>
+            <name>冰川思想库</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[为何我公众号更新慢了？]]></title>
+        <id>4890604</id>
+        <link href="https://www.huxiu.com/article/4890604.html?f=rss"/>
+        <updated>2026-09-12T00:56:47.000Z</updated>
+        <summary type="html"><![CDATA[本文来自微信公众号： 宋无衣港漂生活随记 ，作者：宋无衣
+
+
+突然之间，港漂生活好像开始索然无味，丧失了分享欲望。所以的滤镜都已经打破，维港还是那个维港，是挺漂亮的，那山那水那物价。
+
+
+如果在这里赚不到钱，拿不到想要的结果，一切就会索然无味，寡淡的如白开水，其实意义不大。
+
+
+我家算好的了，港漂收入足够支付港漂生活，只是稍微有落差，好些朋友其实是不够的，就感觉特没劲。
+
+
+另外一方面，感觉好像也不用事事分享，说多了别人也烦，说的不对还会一顿臭骂，可惜并没有来日方长。
+
+
+生活总是在无声无息中溜走的，最近在转换工作，确实也有些不愉快，影响了心情。不是做得足够好，就会被看见，这一点我一直都知道。
+
+
+每个人认知是千差万别的，每个人对于对错的判断标准是千差万别的，甚至每个人是非观念都是千差万别的。
+
+
+有的时候真不屑于争论一些小的是是非非。
+
+
+不想把这个号商业化，纯纯记录生活，有早九晚五的工作，所以也不想出镜不想出名，所以也放弃了很多合作机会，还是慢慢回归到金融主业上来。
+
+
+自己并不想经营自媒体，无意成为利用流量，只是曾经的来时路，吸引了大家关注，只是想把这里当着一个树洞，一个吐槽的口子，一处安放不羁青春的地方。
+
+
+所以后期也只会低频的方式出现在大家的视野里，偶有分享，便已经足够。不能期待太多。
+
+
+最后内容审查也是相当严厉，我自认为已经非常克制及自律，不过难免还是会被删帖及限流，就感觉好没意思。
+
+
+所以还是把精力聚焦到孩子和工作上，更有价值一些，今年娃要呈分了，接下来半年的呈二和呈三比较重要，我自己也已经放松心态，调整期望值，慢慢接受那个不完美的她们。
+
+
+很多时候均值回归也是正常的，更何况我们都只是普通人，不能要求过高，努力就好，人家不努力我也没法子。
+
+
+好像香港人或者来港漂久的人都好自负呀，容不得人说半点香港的不好。客观的香港当然有其优势，不然不会有那么多高才优才翻越千山万水也要来看你，当然固有的劣势其实也显而易见，产业单一，高层次就业机会少，空间逼仄，物价虽然已经降了又降但还是贵。
+
+
+当然我还是会在香港待下去的，因为这里有我的家人和对未来的期许。
+
+
+加油吧。各位。。。]]></summary>
+        <author>
+            <name>宋无衣港漂生活随记©</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[China Beyond Beijing and Shanghai: Three Cities That Will Change the Way You See the Middle Kingdom]]></title>
+        <id>https://medium.com/p/14a34eb7e2cb</id>
+        <link href="https://medium.com/@jawaid738/china-beyond-beijing-and-shanghai-three-cities-that-will-change-the-way-you-see-the-middle-kingdom-14a34eb7e2cb?source=rss------china-5"/>
+        <updated>2026-09-12T00:49:03.000Z</updated>
+        <summary type="html"><![CDATA[There is a version of China that most first-time travelers know before they even arrive.
+Continue reading on Medium »]]></summary>
+        <author>
+            <name>Jawaid H.</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Fed up with Sony, PlayStation fans compile a list of all the times the company said "you own" your games and archive every last receipt]]></title>
+        <id>https://www.reddit.com/r/technology/comments/1wdxz8c/fed_up_with_sony_playstation_fans_compile_a_list/</id>
+        <link href="https://www.reddit.com/r/technology/comments/1wdxz8c/fed_up_with_sony_playstation_fans_compile_a_list/"/>
+        <updated>2026-09-12T00:44:50.000Z</updated>
+        <summary type="html"><![CDATA[submitted by    /u/Kymmieuwu    to    r/technology  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>popular links</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[百度又一款明星APP即将消失]]></title>
+        <id>4890602</id>
+        <link href="https://www.huxiu.com/article/4890602.html?f=rss"/>
+        <updated>2026-09-12T00:42:50.000Z</updated>
+        <summary type="html"><![CDATA[本文来自微信公众号： 人人都是产品经理 ，作者：怪哥
+
+
+今天打开百家号，看到了一则改版通知。
+
+
+从9月22日起，原来的百家号APP将更名为“百度直播伴侣”，以后主要提供直播相关功能。
+
+
+至于过去在百家号APP里发文章、发视频、管理内容这些事情，则被整合进百度APP里的“创作中心”。
+
+
+
+
+
+账号还在，历史内容还在，粉丝和收益也都不会受到影响。
+
+
+所以严格来说，百家号并没有消失。
+
+
+但那个我们用了很多年的“百家号APP”作为一个独立的创作入口，基本算是要退出历史舞台了。
+
+
+看到这个通知的时候，我突然有一点时代感。
+
+
+因为十年前的互联网，可不是现在这个样子。
+
+
+那时候，几乎每一家互联网大厂，都恨不得给你发一个“号”。
+
+
+那几年，互联网真的“百号齐放”
+
+
+如果你是比较早的一批自媒体人，应该对这些名字特别熟悉。
+
+
+微信公众号、头条号、百家号、企鹅号、大鱼号、一点号、搜狐号、网易号……
+
+
+那几年有一个很有意思的现象：
+
+
+只要一家互联网公司手里有流量，它大概率就会做一个内容开放平台。
+
+
+百度做百家号，腾讯做企鹅号，阿里做大鱼号，字节有头条号。
+
+
+而自媒体人的日常工作也很有年代感。
+
+
+一篇文章写完以后，先发公众号，然后再复制到头条号、百家号、企鹅号、大鱼号、搜狐号……
+
+
+一天写一篇文章，可能要登录七八个平台后台。
+
+
+甚至后来还专门诞生了一批“一键分发”工具。
+
+
+
+
+
+今天回头看挺折腾，但当时大家为什么都这么干？
+
+
+因为那个年代的平台，真的缺内容。
+
+
+移动互联网高速增长，大家都在疯狂抢用户，但用户来了以后，首页里放什么？
+
+
+得有人生产内容。
+
+
+所以各个平台开始疯狂招募创作者，给流量、给补贴、给广告分成，甚至直接花钱签作者。
+
+
+对创作者来说也很简单：
+
+
+同一篇文章，多发几个平台，就有机会多拿几份流量和收益。
+
+
+平台缺内容，创作者缺流量。
+…]]></summary>
+        <author>
+            <name>人人都是产品经理</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Starlink Signal Leakage Threatens Radio Astronomy's Most Critical Frequencies]]></title>
+        <id>https://www.gadgetreview.com/starlinks-signal-leakage-is-threatening-radio-astronomys-most-critical-frequencies</id>
+        <link href="https://www.gadgetreview.com/starlinks-signal-leakage-is-threatening-radio-astronomys-most-critical-frequencies"/>
+        <updated>2026-09-12T00:40:32.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[康泰转2：博弈下修，潜在两天2.5%机会]]></title>
+        <id>https://www.jisilu.cn/question/525240</id>
+        <link href="https://www.jisilu.cn/question/525240"/>
+        <updated>2026-09-12T00:35:28.000Z</updated>
+        <summary type="html"><![CDATA[康泰转2，当前价格119.7元，剩余到期时间约10个月左右，距离到期时间不算充裕，下修是这只转债最重要的博弈点。
+博弈机会逻辑梳理如下：
+1.康泰转2历史上已经多次尝试下修，公司整体下修意愿较强，有较强促转股诉求。
+2.最近一次下修，8月6日公司提出下修议案，但8月22日股东大会最终未通过。核心原因...]]></summary>
+        <author>
+            <name>集思录</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[25 years ago today]]></title>
+        <id>https://www.reddit.com/r/comics/comments/1wdxmmi/25_years_ago_today/</id>
+        <link href="https://www.reddit.com/r/comics/comments/1wdxmmi/25_years_ago_today/"/>
+        <updated>2026-09-12T00:28:29.000Z</updated>
+        <summary type="html"><![CDATA[submitted by    /u/reddot_comic    to    r/comics  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>popular links</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Graphify C# – Compiler-accurate Find Usages for coding agents]]></title>
+        <id>https://github.com/zachsaw/graphify-csharp</id>
+        <link href="https://github.com/zachsaw/graphify-csharp"/>
+        <updated>2026-09-12T00:16:10.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[🙃 DeCloudflare：反 Cloudflare 却先被 HN 打挂]]></title>
+        <id>49666587</id>
+        <link href="https://newshacker.me/story?id=49666587"/>
+        <updated>2026-09-11T23:55:07.000Z</updated>
+        <summary type="html"><![CDATA[原标题：《DeCloudflare》
+评分: 21 | 作者: DeepLogin
+💭 连站点都撑不住，还反什么 Cloudflare？
+
+🎯 讨论背景
+这篇 DeCloudflare 更像是一份公开的 README/宣言，核心是在批评 Cloudflare（一个提供 CDN、DDoS 防护、DNS 和访问控制的网络中介）在互联网上的“闸门”地位。评论里不断提到 Cloudflare 的浏览器挑战、访问封锁、WARP 用户拦截，以及它在边缘节点解密再转发流量所带来的监控担忧。有人还回顾了过去一些争议站点长期躲在 Cloudflare 后面、abuse 投诉处理缓慢的经历，说明这种争论并不只是这一个页面的瞬间话题。因为原站在 HN 流量下很快失效，讨论又叠加了“反 Cloudflare 却先被流量击穿”的反讽，以及静态托管、轻量部署和替代服务的实用性争论。
+
+📌 讨论焦点
+站点宕机引发的反讽
+很多评论先抓住的是明显的反讽：一篇主张摆脱 Cloudflare 的文章，自己却在 HN 贴出后因为流量暴增而加载失败。有人直接把这看成“论点被现场反证”，因为读者连 README.md 都打不开，更别说评估文章内容。也有人把问题归因到站点实现太重，比如用了 GitLab 这种相对低效的 webserver，或者本该直接放到静态主机上。总体上，这一派并不讨论 Cloudflare 本身，而是认为作者的部署方式先把自己的论证搞砸了。
+[来源1] [来源2] [来源3] [来源4] [来源5] [来源6] [来源7] [来源8]
+Cloudflare 作为互联网闸门的批评
+支持文章的人把焦点放在 Cloudflare 的结构性权力，而不是这次是否宕机。评论里提到 Cloudflare 夹在大量站点和用户之间，能用浏览器检查、访问拦截、abuse 处理和网络策略来决定谁能连上谁。还有人担心它在边缘节点先解密流量再转发给 origin，理论上就是一个很大的明文观察点，因此对监控或执法接口很敏感。另一些例子则回溯到 Cloudflare 代理大量 DDoS/争议站点、对 abuse 投诉响应慢，或者直接屏蔽 Cloudflare WARP 用户，说明它不只是 CDN，而是事实上的访问控制层。
+[来源1] [来源2] [来源3] [来源4] [来源5] [来源6] [来源7]
+把责任归到配置和架构
+另一批评论则认为，这不是 Cloudflare 的锅，而是 origin 配置和架构明显没做好。有人直言像是在“不会正确配置 origin”的情况下把一切都怪到 Cloudflare，甚至断言如果真用了 Cloudflare，站点至少不会这么容易挂。还有人指出 GitLab 之类的动态系统本来就重，读者看到的却是一个 README.md，却被用复杂后端和高开销渲染方式来服务，完全不适合承受哪怕普通的 HN 流量。对这群人来说，最合理的改法不是反 Cloudflare，而是先把站点变成轻量、静态、可缓存的结构。
+[来源1] [来源2] [来源3] [来源4] [来源5]
+实际替代方案与使用成本
+也有评论把讨论拉回到现实：很多小站和域名注册场景里，Cloudflare 的性价比确实很高，尤其是 tiny websites 这种体量。有人询问有没有更好的替代品，另一条回复则提到 Bunny.net 作为可选方案。与此同时，评论也承认如果内容本身能静态生成，很多站点对 Cloudflare 的依赖会大幅下降。这个分歧体现的是一种常见权衡：讨厌 Cloudflare 的集中化，但又很难放弃它带来的便宜、易用和性能。
+[来源1] [来源2] [来源3]
+政治身份带来的旁支争论
+少数评论开始翻作者的仓库 bio，把他的自我描述里的 anti-capitalist、trans rights、Black Lives Matter 和 abolish all prisons 等口号拿出来讨论。有人用带刺的口吻追问“你这是什么意思”，随后又有人反问这种追问本身想暗示什么。这个分支没有真正推进 Cloudflare 的技术争论，却暴露出评论区对作者立场的敏感和对动机的猜测。
+[来源1] [来源2] [来源3]
+
+📚 术语解释
+端到端 TLS（Full (strict) 模式）: Cloudflare 可以在边缘节点到 origin 之间继续加密，但流量仍会先在 Cloudflare 侧终止并重新建立连接，因此边缘仍可能看到明文内容。
+
+类别：Web | Policy | Systems | Guide | Opinion | Cloudflare | deCloudflare | 0xACAB | GitLab | GitHub]]></summary>
+        <author>
+            <name>News Hacker | 极客洞察</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Mitch McConnell’s Staff Won’t Disclose If Senator Will Return After Recess]]></title>
+        <id>https://www.reddit.com/r/politics/comments/1wdwufs/mitch_mcconnells_staff_wont_disclose_if_senator/</id>
+        <link href="https://www.reddit.com/r/politics/comments/1wdwufs/mitch_mcconnells_staff_wont_disclose_if_senator/"/>
+        <updated>2026-09-11T23:54:19.000Z</updated>
+        <summary type="html"><![CDATA[submitted by    /u/plz-let-me-in    to    r/politics  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>popular links</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[😄 Project Blinkenlights：CCC 经典楼体像素灯]]></title>
+        <id>49666146</id>
+        <link href="https://newshacker.me/story?id=49666146"/>
+        <updated>2026-09-11T23:50:03.000Z</updated>
+        <summary type="html"><![CDATA[原标题：《Project Blinkenlights》
+评分: 24 | 作者: doener
+💭 把楼点亮了，顺便把网站也压垮了吧？
+
+🎯 讨论背景
+Project Blinkenlights 是 Chaos Computer Club（德国黑客组织）做过的经典公共艺术/技术展示，把整栋楼的窗户当作低分辨率像素屏幕来播放图像和互动内容。评论里很多人首先想到的是那段著名的伪德语警告词“ACHTUNG! ALLES TURISTEN...”，它早就成了技术圈和老网民的记忆梗。有人还把它和 telnet towel.blinkenlights.nl（一个通过 telnet 播放 ASCII Star Wars 的老牌网络彩蛋）混淆，说明这个名字在互联网文化里非常有辨识度。讨论也顺带提到 BlinkenCity（把城市路灯当像素的项目）、Bay Lights（旧金山海湾大桥灯光装置）和 Toronto 的 Stereoscope，展示了这种“城市巨屏”思路后来被不断复用。
+
+📌 讨论焦点
+经典伪德语标语引发集体回忆
+很多人一眼认出那段伪德语警告词，说明它早已成了老网民和技术圈的共同记忆。有人回忆自己在模型火车展或科技博物馆里第一次看到它，觉得又荒诞又好笑，以至于多年后都忘不掉。还有人提到自己小时候拿到过相关的 letterpress 印刷品，特别喜欢那种“古典印刷”与“relaxen und watschen der blinkenlichten”这种怪诞措辞的反差。整体上，这一组评论强调的是它作为经典梗的传播力，而不是单纯的项目本身。
+[来源1] [来源2] [来源3] [来源4]
+CCC 黑客文化与“艺术的可能性”
+有人把这件事和 Berlin 的 Chaos Computer Club（德国黑客组织）直接联系起来，称那种氛围本身就是传奇。评论里对这个群体的评价很高，核心不是“搞怪”本身，而是把技术、公共空间和幽默结合起来的能力。有人用“art of the possible”来概括这种精神，认为 computers 不只是工具，也可以成为表达和玩耍的媒介。这个视角把 Project Blinkenlights 看成一种黑客文化的代表作，而不是普通的灯光秀。
+[来源1]
+城市灯光装置的后续延伸
+不少评论把 Project Blinkenlights 放进更大的城市级灯光装置谱系里看。有人提到 Blinkencity（把可单独控制的街灯当像素的后续项目），也有人举出旧金山 Bay Bridge Lights/Bay Lights（海湾大桥灯光项目）和 Toronto City Hall 的 Stereoscope（把市政厅塔楼做成低分辨率屏幕）的例子。还有人说深圳市中心很多建筑本来就适合做这种大屏效果，说明这种“整栋楼当显示器”的想法后来越来越现实。这里的重点是：从一栋楼到一座桥，再到整座城市，项目理念被不断复用和放大。
+[来源1] [来源2] [来源3] [来源4]
+误认成 ASCII Star Wars 与 HN 性能吐槽
+有人第一反应不是楼体灯光项目，而是那个通过 telnet 播放 ASCII Star Wars 的老彩蛋，说明 “blinkenlights” 这个名字在互联网文化里已经很有辨识度。另一条评论则把话题带到 Hacker News 站点承压的问题上，调侃这贴可能遭遇了“HN kiss of death”，也就是流量太大把页面压垮。后续回复把矛头转向基础扩容、CDN 和“不肯用免费 CDN”的人，顺手把讨论变成了一段关于网站可用性和基础设施的吐槽。这个分支虽然偏离主题，但很典型地体现了 HN 用户对性能和可用性的敏感。
+[来源1] [来源2] [来源3]
+
+📚 术语解释
+Blinkenlights: 一类把建筑窗户、灯光或其他可控光源当作像素来显示图像/动画的装置概念，最早因 CCC 的经典项目而广为人知。
+Chaos Computer Club（CCC）: 德国老牌黑客组织，长期把技术实验、公共艺术、讽刺幽默和黑客文化结合在一起。
+
+类别：Hardware | Project Blinkenlights | blinkenlights.de | Bay Lights]]></summary>
+        <author>
+            <name>News Hacker | 极客洞察</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[90万一集的AI长剧，凭什么让芒果市值五天暴涨 133 亿]]></title>
+        <id>4890512</id>
+        <link href="https://www.huxiu.com/article/4890512.html?f=rss"/>
+        <updated>2026-09-11T23:32:38.000Z</updated>
+        <summary type="html"><![CDATA[“影视行业所有的壁垒都将被 AIGC 击穿。”]]></summary>
+        <author>
+            <name>刘纾含</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[OpenAI agents carried out an undisclosed attack on RubyGems]]></title>
+        <id>https://www.rubyhack.ai/</id>
+        <link href="https://www.rubyhack.ai/"/>
+        <updated>2026-09-11T23:17:42.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[汽车手动挡正在奢侈化]]></title>
+        <id>4890601</id>
+        <link href="https://www.huxiu.com/article/4890601.html?f=rss"/>
+        <updated>2026-09-11T23:09:31.000Z</updated>
+        <summary type="html"><![CDATA[本文来自微信公众号： 汽车商业评论 ，编辑：黄大路，作者：推动新汽车向前进
+
+
+2026年5月18日，宝马在美国发布M3 CS手动版（M3 CS Handschalter）。这是一辆只供应北美的六速手动挡后驱轿车，起价10.71万美元，另收1350美元运输费。宝马没有公布总产量，只说数量“非常有限”。
+
+
+三个月后，宝马北美传播负责人杰夫·沙茨（Jeff Schatz）告诉媒体，全部生产配额已经分给经销商，大部分、甚至可能所有车辆都已有买家。
+
+
+这条8月25日传出的消息，给手动挡的处境提供了一个反常注脚。美国环保署的2025年度汽车趋势报告显示，手动变速箱自2021年起在美国新车产量中的占比一直低于1%；2025年初步值只有0.6%，而1980年为34.6%。
+
+
+一种在新车中几乎消失的技术，却让一辆六位数美元的限量车迅速被经销商分完配额。
+
+
+这不是手动挡复兴。真正发生的是它的身份转换：过去，手动挡帮助消费者降低购车和维修成本；现在，它越来越依附于高性能车、限量版和品牌纪念车型。
+
+
+消费者购买的不只是变速机构，还包括参与感、稀缺性，以及一种可能无法在下一代车型上继续获得的驾驶方式。
+
+
+手动挡没有回到大众市场。它正在奢侈化。
+
+
+从省下一万元到多付入场费
+
+
+十多年前，中国消费者选择手动挡，理由通常很实际。
+
+
+2012款福特福克斯两厢2.0升豪华运动型，手动版指导价15.19万元，自动版16.29万元。同排量、同一配置层级，两者相差1.1万元。对第一次买车的家庭而言，这笔钱足以影响决定。手动挡机械结构相对简单，维修费用通常也更低。那时的离合器踏板首先是一项节省预算的装置，驾驶乐趣只是附带收益。
+
+
+如今，价格关系正在另一端倒置。
+
+
+以2025年美国市场的保时捷911为例，入门版Carrera起价12.01万美元，标配八速PDK双离合变速箱；如果消费者想买到手动挡，…]]></summary>
+        <author>
+            <name>汽车商业评论</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[2026 09 12 HackerNews]]></title>
+        <id>https://supertechfans.com/cn/post/2026-09-12-HackerNews/</id>
+        <link href="https://supertechfans.com/cn/post/2026-09-12-HackerNews/"/>
+        <updated>2026-09-11T23:09:11.000Z</updated>
+        <summary type="html"><![CDATA[2026-09-12 Hacker News Top Stories
+  #
+
+
+
+Claude 仅向18岁以上用户开放并要求年龄验证，引发用户对隐私和合规性的讨论。
+作者尝试用GPT-6 Astra自主编程，但35小时后未产出有价值成果，指出AI在软件工程中缺乏对烂代码的惩罚机制。
+墨西哥16岁学生发明声波灭火器，利用声波振动在数秒内扑灭火焰，无污染无残留。
+胡塞武装控制红海关键岛屿丕林岛，威胁全球航运通道，沙特石油出口面临风险。
+OpenAI发布Agents API，提供构建智能体的全栈工具，但评论认为抽象仍不明确且专有模型并非最佳选择。
+文章提出“Waymo效应”，指出AI消除人际摩擦的同时也削弱了科研合作中的挑战、偶然发现和社群纽带。
+谷歌在芬兰投资130亿欧元建设AI基础设施，并签署22年协议购买核电站50%电力，支持数据中心运营。
+《21世纪课堂音乐理论》是一本在线教科书，系统教授乐理，但评论指出其仍以古典乐理为核心，忽略非西方音乐。
+“死亡射线”攻击利用WebGPU使Mac死机，苹果认为无安全影响不修复，但可能导致数据丢失和社会工程诈骗。
+HuggingFace的安全.txt页面提供漏洞报告邮箱，并提醒AI代理不要攻击本网站，建议去GitHub获取基准测试高分。
+#
+
+
+  https://support.claude.com/en/articles/15171100-age-assurance-on-claude
+这是一个 Anthropic 官方的 Claude 帮助文档中心页面，提供了全面的产品使用指南。
+页面主要包含以下内容：
+入门指南：介绍 Claude 的基本用途、访问方式、训练数据时效性，以及如何选择套餐、验证手机号、赠送订阅等。
+账号管理：涵盖登录、修改邮箱、数据隐私、导出/删除账号、会话安全设置、付款和税务信息等。
+对话管理：包括删除/重命名…]]></summary>
+        <author>
+            <name>HackerNews每日摘要 on SuperTechFans</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Take note Steam]]></title>
+        <id>https://www.reddit.com/r/Steam/comments/1wdveyi/take_note_steam/</id>
+        <link href="https://www.reddit.com/r/Steam/comments/1wdveyi/take_note_steam/"/>
+        <updated>2026-09-11T22:52:12.000Z</updated>
+        <summary type="html"><![CDATA[submitted by    /u/Ok_Egg3595    to    r/Steam  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>popular links</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[TikTok prankster tried to trick someone]]></title>
+        <id>https://www.reddit.com/r/cringereels/comments/1wdvdlk/tiktok_prankster_tried_to_trick_someone/</id>
+        <link href="https://www.reddit.com/r/cringereels/comments/1wdvdlk/tiktok_prankster_tried_to_trick_someone/"/>
+        <updated>2026-09-11T22:50:36.000Z</updated>
+        <summary type="html"><![CDATA[submitted by    /u/kendavis135    to    r/cringereels  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>popular links</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[QueryBrew: System-Agnostic SQL-to-SQL Query Optimization [pdf]]]></title>
+        <id>https://www.vldb.org/pvldb/vol19/p4494-schmidt.pdf</id>
+        <link href="https://www.vldb.org/pvldb/vol19/p4494-schmidt.pdf"/>
+        <updated>2026-09-11T22:16:15.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Project Blinkenlights]]></title>
+        <id>https://blinkenlights.de/en/</id>
+        <link href="https://blinkenlights.de/en/"/>
+        <updated>2026-09-11T22:15:00.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Anti Christ is Here]]></title>
+        <id>https://medium.com/p/d6b4e7a62f09</id>
+        <link href="https://captaincool07.medium.com/the-anti-christ-is-here-d6b4e7a62f09?source=rss------china-5"/>
+        <updated>2026-09-11T22:14:08.000Z</updated>
+        <summary type="html"><![CDATA[In 1961, the American Methodist Christian Dr. DanieI A. Poling asked the Republic of China President Chiang Kai-shek to write a church…
+Continue reading on Medium »]]></summary>
+        <author>
+            <name>永熙  CAPTAINCOOL07</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[😬 ElevenLabs Music v2.5：背景配乐需求大，音质胜 Suno 但惹版权争议]]></title>
+        <id>49665210</id>
+        <link href="https://newshacker.me/story?id=49665210"/>
+        <updated>2026-09-11T21:50:12.000Z</updated>
+        <summary type="html"><![CDATA[原标题：《ElevenLabs Music v2.5》
+评分: 45 | 作者: sigvef
+💭 背景配乐都代工了，灵魂还值钱吗？
+
+🎯 讨论背景
+ElevenLabs（以 AI 语音合成闻名的公司）这次发布的是 Music v2.5，连博客本身都提供了“Listen to this blog post”的音频版本，所以评论里很多人直接听了生成结果。讨论不只围绕“能不能生成歌”，还围绕它适合哪些场景：indie game、背景音乐、活动配乐，以及是否会替代人类音乐人里的某些细分岗位。有人把它和 Suno（另一家 AI 音乐生成服务）做了很细的音质对比，重点看 WAV、MP3、频响和 artefacts，也有人质疑页面里的音频与文字不一致。与此同时，ElevenLabs 还被提醒其条款可能允许使用用户上传内容来改进服务，而它和 Universal Music Group（UMG，环球音乐集团）的多年合作，也让很多人觉得这只是更大音乐 AI 商业化的一部分。
+
+📌 讨论焦点
+低成本背景音乐与小场景需求
+支持者认为这类工具的核心价值，是把原本需要外包、沟通和等待的配乐，变成几秒钟就能拿到的低成本素材。典型场景包括 indie game、sub-AAA 影视/游戏、酒吧联赛、elevator/lobby music、infomercial 背景乐，以及只是为了打破沉默的 filler music。有人把它看成 DJ 能力的延伸：不是挑现成曲库，而是按主题生成更贴合场景的歌。也有人强调，很多创作者根本不会去找人类音乐人，原因只是流程太麻烦，而不是完全没有需求。
+[来源1] [来源2] [来源3] [来源4] [来源5] [来源6] [来源7] [来源8] [来源9] [来源10] [来源11] [来源12] [来源13]
+艺术感、情感价值与“soulless”担忧
+反对者的核…]]></summary>
+        <author>
+            <name>News Hacker | 极客洞察</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: ResolveHQ – A Helpdesk Built on Cloudflare Workers, D1, R2 and Queues]]></title>
+        <id>https://github.com/mirza-rizvi/ResolveHQ</id>
+        <link href="https://github.com/mirza-rizvi/ResolveHQ"/>
+        <updated>2026-09-11T21:48:00.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AI researchers debate how close we are to recursive self-improvement]]></title>
+        <id>https://www.dwarkesh.com/p/john-beren-charlie</id>
+        <link href="https://www.dwarkesh.com/p/john-beren-charlie"/>
+        <updated>2026-09-11T21:35:29.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[I took apart the washer and found all my missing socks.]]></title>
+        <id>https://www.reddit.com/r/mildlyinteresting/comments/1wdtje8/i_took_apart_the_washer_and_found_all_my_missing/</id>
+        <link href="https://www.reddit.com/r/mildlyinteresting/comments/1wdtje8/i_took_apart_the_washer_and_found_all_my_missing/"/>
+        <updated>2026-09-11T21:35:18.000Z</updated>
+        <summary type="html"><![CDATA[submitted by    /u/graphictraffic1    to    r/mildlyinteresting  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>popular links</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[I just finished this mural in Knoxville (OC).]]></title>
+        <id>https://www.reddit.com/r/pics/comments/1wdt9tj/i_just_finished_this_mural_in_knoxville_oc/</id>
+        <link href="https://www.reddit.com/r/pics/comments/1wdt9tj/i_just_finished_this_mural_in_knoxville_oc/"/>
+        <updated>2026-09-11T21:24:55.000Z</updated>
+        <summary type="html"><![CDATA[submitted by    /u/mnhaverland    to    r/pics  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>popular links</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Short film about hope]]></title>
+        <id>https://www.reddit.com/r/funny/comments/1wdsyna/short_film_about_hope/</id>
+        <link href="https://www.reddit.com/r/funny/comments/1wdsyna/short_film_about_hope/"/>
+        <updated>2026-09-11T21:12:34.000Z</updated>
+        <summary type="html"><![CDATA[submitted by    /u/solateor    to    r/funny  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>popular links</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[AI Coding 提速之后，如何补上稳定性“最后一公里”？快手柯南 AI 实践]]></title>
         <id>https://www.infoq.cn/article/rlXYaPUjVR0fffbQK3Iz?utm_source=rss&amp;utm_medium=article</id>
@@ -14,6 +3534,44 @@
         <summary type="html"><![CDATA[点击查看原文>]]></summary>
         <author>
             <name>作者：王泽锋</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[美缉毒局查获卷心菜藏900公斤冰毒 热度：3399780]]></title>
+        <id>2167142</id>
+        <link href="https://www.baidu.com/s?wd=%E7%BE%8E%E7%BC%89%E6%AF%92%E5%B1%80%E6%9F%A5%E8%8E%B7%E5%8D%B7%E5%BF%83%E8%8F%9C%E8%97%8F900%E5%85%AC%E6%96%A4%E5%86%B0%E6%AF%92&amp;sa=fyb_news&amp;rsv_dl=fyb_news"/>
+        <updated>2026-09-11T21:01:33.000Z</updated>
+        <author>
+            <name>百度实时热点</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[重庆援疆故事正在哈密续写 热度：3581331]]></title>
+        <id>2167141</id>
+        <link href="https://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86%E6%8F%B4%E7%96%86%E6%95%85%E4%BA%8B%E6%AD%A3%E5%9C%A8%E5%93%88%E5%AF%86%E7%BB%AD%E5%86%99&amp;sa=fyb_news&amp;rsv_dl=fyb_news"/>
+        <updated>2026-09-11T21:01:32.000Z</updated>
+        <author>
+            <name>百度实时热点</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[《八仙！》二次延期：国庆可看 热度：4473599]]></title>
+        <id>2167140</id>
+        <link href="https://www.baidu.com/s?wd=%E3%80%8A%E5%85%AB%E4%BB%99%EF%BC%81%E3%80%8B%E4%BA%8C%E6%AC%A1%E5%BB%B6%E6%9C%9F%EF%BC%9A%E5%9B%BD%E5%BA%86%E5%8F%AF%E7%9C%8B&amp;sa=fyb_news&amp;rsv_dl=fyb_news"/>
+        <updated>2026-09-11T21:01:32.000Z</updated>
+        <summary type="html"><![CDATA[9月11日，国风动画电影《八仙！》片方官宣第二轮密钥延期，影片在内地院线的放映时间将延长至2026年10月17日23时59分，观众在国庆假期仍能走进...]]></summary>
+        <author>
+            <name>百度实时热点</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[《早春晴朗》见面会票价788元 热度：5416376]]></title>
+        <id>2167139</id>
+        <link href="https://www.baidu.com/s?wd=%E3%80%8A%E6%97%A9%E6%98%A5%E6%99%B4%E6%9C%97%E3%80%8B%E8%A7%81%E9%9D%A2%E4%BC%9A%E7%A5%A8%E4%BB%B7788%E5%85%83&amp;sa=fyb_news&amp;rsv_dl=fyb_news"/>
+        <updated>2026-09-11T21:01:31.000Z</updated>
+        <summary type="html"><![CDATA[近日，电视剧《早春晴朗》官方公布北京见面会售票规则。现场仅360个名额，需先购买600天SVIP才能获得788元门票秒杀资格。线上观看也设门槛，解锁...]]></summary>
+        <author>
+            <name>百度实时热点</name>
         </author>
     </entry>
     <entry>
@@ -91,6 +3649,17 @@ DBA 角色：门禁还是顾问
 �� ��Դ:��https://exp.mysmth.net��[FROM: 114.248.125.*]]]></summary>
         <author>
             <name>cathyzhu0404</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[What’s the greatest ‘well, their career is over’ moment of all time?]]></title>
+        <id>https://www.reddit.com/r/AskReddit/comments/1wdrr0k/whats_the_greatest_well_their_career_is_over/</id>
+        <link href="https://www.reddit.com/r/AskReddit/comments/1wdrr0k/whats_the_greatest_well_their_career_is_over/"/>
+        <updated>2026-09-11T20:27:14.000Z</updated>
+        <summary type="html"><![CDATA[submitted by    /u/Ok-Poetry8702    to    r/AskReddit  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>popular links</name>
         </author>
     </entry>
     <entry>
@@ -230,6 +3799,17 @@ GrapheneOS（一个以隐私和安全为核心的 Android 分支）正在重写�
 �� ��Դ:��ˮľ���� http://www.mysmth.net��[FROM: 175.171.4.*]]]></summary>
         <author>
             <name>hljhlj</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[OC] Cost of having a baby in Canada after spending three days in the hospital]]></title>
+        <id>https://www.reddit.com/r/pics/comments/1wdqvw6/oc_cost_of_having_a_baby_in_canada_after_spending/</id>
+        <link href="https://www.reddit.com/r/pics/comments/1wdqvw6/oc_cost_of_having_a_baby_in_canada_after_spending/"/>
+        <updated>2026-09-11T19:54:55.000Z</updated>
+        <summary type="html"><![CDATA[submitted by    /u/iKozy    to    r/pics  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>popular links</name>
         </author>
     </entry>
     <entry>
@@ -384,6 +3964,17 @@ sandbox: 隔离运行环境，常用于限制代码或 AI agent 的权限，避�
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Favorite underrated quote by an overrated director]]></title>
+        <id>https://www.reddit.com/r/okbuddycinephile/comments/1wdq434/favorite_underrated_quote_by_an_overrated_director/</id>
+        <link href="https://www.reddit.com/r/okbuddycinephile/comments/1wdq434/favorite_underrated_quote_by_an_overrated_director/"/>
+        <updated>2026-09-11T19:26:29.000Z</updated>
+        <summary type="html"><![CDATA[submitted by    /u/acceptable_superman    to    r/okbuddycinephile  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>popular links</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[⚠️ 陶哲轩警告：AI 解题冲击数学理解与激励]]></title>
         <id>49662371</id>
         <link href="https://newshacker.me/story?id=49662371"/>
@@ -442,6 +4033,17 @@ technological determinism: 科技决定论，指把社会变化过度归因于�
 类别：AI | Science | Opinion | OpenAI | mathematicians | Astra | Anthropic | The Economist]]></summary>
         <author>
             <name>News Hacker | 极客洞察</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[TRUMP JUST DOUBLED DOWN: “THE $5,000 DIVIDEND WILL HAPPEN.”]]></title>
+        <id>https://www.reddit.com/r/WallstreetWhales/comments/1wdpqex/trump_just_doubled_down_the_5000_dividend_will/</id>
+        <link href="https://www.reddit.com/r/WallstreetWhales/comments/1wdpqex/trump_just_doubled_down_the_5000_dividend_will/"/>
+        <updated>2026-09-11T19:12:49.000Z</updated>
+        <summary type="html"><![CDATA[submitted by    /u/AJayRui2    to    r/WallstreetWhales  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>popular links</name>
         </author>
     </entry>
     <entry>
@@ -640,6 +4242,17 @@ MakeCode: 微软的图形化编程平台，常用于教育和硬件入门。
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Saudi Arabia shut down East-West crude oil pipeline after multiple attacks]]></title>
+        <id>https://www.reddit.com/r/news/comments/1wdp3vk/saudi_arabia_shut_down_eastwest_crude_oil/</id>
+        <link href="https://www.reddit.com/r/news/comments/1wdp3vk/saudi_arabia_shut_down_eastwest_crude_oil/"/>
+        <updated>2026-09-11T18:51:03.000Z</updated>
+        <summary type="html"><![CDATA[submitted by    /u/MoesOtherBar    to    r/news  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>popular links</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[GrapheneOS' rewritten Messages app is released]]></title>
         <id>https://github.com/GrapheneOS/Messaging/releases/tag/13</id>
         <link href="https://github.com/GrapheneOS/Messaging/releases/tag/13"/>
@@ -739,6 +4352,18 @@ Continue reading on Medium »]]></summary>
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Morality of potentially doing blackface by cosplaying a character of color that you really love?]]></title>
+        <id>https://www.reddit.com/r/MoralityScaling/comments/1wdohbw/morality_of_potentially_doing_blackface_by/</id>
+        <link href="https://www.reddit.com/r/MoralityScaling/comments/1wdohbw/morality_of_potentially_doing_blackface_by/"/>
+        <updated>2026-09-11T18:29:32.000Z</updated>
+        <summary type="html"><![CDATA[Edit: there is certainly a lot of sides to this. Personally, I think it may be in bad taste but was done out of appreciation for the character instead of trying to insult black people. However, I completely understand why people would think it is wrong. I posted this mostly to get a variety of opinions because I think this could be a very grey situation and works completely of personal world views.
+    submitted by    /u/Mattdoss    to    r/MoralityScaling  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>popular links</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[I spent $220 on Google app ads. 60% of the installs were robots]]></title>
         <id>https://dayzlegame.com/blog/google-ads-bot-farm/</id>
         <link href="https://dayzlegame.com/blog/google-ads-bot-farm/"/>
@@ -829,6 +4454,18 @@ AI 取代代写劳务
         <summary type="html"><![CDATA[点击查看原文>]]></summary>
         <author>
             <name>作者：魏长征</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Opinion ~ PlayStation’s Future Has Never Looked Bleaker | IGN]]></title>
+        <id>https://www.reddit.com/r/PS5/comments/1wdnzzb/opinion_playstations_future_has_never_looked/</id>
+        <link href="https://www.reddit.com/r/PS5/comments/1wdnzzb/opinion_playstations_future_has_never_looked/"/>
+        <updated>2026-09-11T18:12:17.000Z</updated>
+        <summary type="html"><![CDATA[Before folks yell at the article, it’s an opinion piece, which means we all have different views of viewing how PlayStation is positioned from the past/present and future. 
+    submitted by    /u/imitzFinn    to    r/PS5  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>popular links</name>
         </author>
     </entry>
     <entry>
@@ -1278,6 +4915,16 @@ Lobsters: 一个邀请制技术论坛，常被拿来与 HN 对比，作为替代
         <summary type="html"><![CDATA[点击查看原文>]]></summary>
         <author>
             <name>作者： Claudio Masolo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[因 NASA 削减预算 ESA 将独立完成金星探索项目]]></title>
+        <id>https://www.solidot.org/story?sid=85357</id>
+        <link href="https://www.solidot.org/story?sid=85357"/>
+        <updated>2026-09-11T16:57:44.000Z</updated>
+        <summary type="html"><![CDATA[因特朗普政府削减了 NASA 预算，难以兑现提供合成孔径雷达的承诺，欧洲 ESA 将独立推进金星探索项目 Envision。Envision 轨道探测器任务旨在对金星表面进行测绘，由于金星表面被厚厚的硫酸云层笼罩，需要使用雷达穿透云层。NASA 与 ESA 于 2024 年签署了一份谅解备忘录，NASA 提供美制合成孔径雷达，通过其深空网络提供跟踪与通信支持。作为交换，ESA 将把美国研究人员纳入其团队。然而 2026 年和 2027 年的 NASA 预算被特朗普政府提议大幅削减，虽然国会否决了大部分预算削减方案，但 NASA 的科学预算仍然减少了数亿美元。NASA 的国际合作任务是主要削减对象。]]></summary>
+        <author>
+            <name>奇客Solidot–传递最新科技情报</name>
         </author>
     </entry>
     <entry>
@@ -2303,6 +5950,16 @@ HN 本来就追逐热点
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[尼泊尔用大疆无人机运送遗体和食物]]></title>
+        <id>https://www.solidot.org/story?sid=85356</id>
+        <link href="https://www.solidot.org/story?sid=85356"/>
+        <updated>2026-09-11T15:38:18.000Z</updated>
+        <summary type="html"><![CDATA[在毁灭性的泥石流之后，尼泊尔正利用大疆无人机运送遇难者遗体，向幸存者运送食物。尼泊尔军方正使用中国捐赠的四架大疆 FlyCart 100 无人机，每天执行 10-16 次物资运送任务。FlyCart 100 配备了约 30 米长的绳索和绞盘系统，可用于吊装和投放重物。根据电池配置的不同，无人机载重能力在 85-100 公斤之间。尼泊尔军方使用无人机每趟运送约 60 公斤的物资，它也能将遇难者遗体从部分受灾严重的地区运送出来。截至 9 月 9 日，尼泊尔官方确认的死亡人数升至 1369 人，仍有逾 5000 人失踪，其中包括 587 名外国公民。协助珠峰登山者的夏尔巴人从 2024 年起就开始使用 Flycart 100 及较小型号的 Flycart 30 无人机向登山营地运送氧气瓶等物资，将排泄物袋等垃圾运送下山。]]></summary>
+        <author>
+            <name>奇客Solidot–传递最新科技情报</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[[問卦] 台媒怎沒報導越南總書記蘇林和普京會面?]]></title>
         <id>https://www.ptt.cc/bbs/Gossiping/M.1789141097.A.DA1.html</id>
         <link href="https://www.ptt.cc/bbs/Gossiping/M.1789141097.A.DA1.html"/>
@@ -2334,6 +5991,17 @@ HN 本来就追逐热点
         <summary type="html"><![CDATA[Comments]]></summary>
         <author>
             <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Favorite obscure Character]]></title>
+        <id>https://www.reddit.com/r/FavoriteCharacter/comments/1wdjdd4/favorite_obscure_character/</id>
+        <link href="https://www.reddit.com/r/FavoriteCharacter/comments/1wdjdd4/favorite_obscure_character/"/>
+        <updated>2026-09-11T15:25:02.000Z</updated>
+        <summary type="html"><![CDATA[submitted by    /u/TheT85_Jr    to    r/FavoriteCharacter  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>popular links</name>
         </author>
     </entry>
     <entry>
@@ -2555,6 +6223,16 @@ NetLogo: 基于 Logo 思想的建模与仿真语言，常用于 agent-based simu
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[远程办公增加了睡眠时间但减少了身体活动]]></title>
+        <id>https://www.solidot.org/story?sid=85355</id>
+        <link href="https://www.solidot.org/story?sid=85355"/>
+        <updated>2026-09-11T15:17:41.000Z</updated>
+        <summary type="html"><![CDATA[根据 Turku 大学的一项研究，远程办公增加了睡眠时间但减少了身体活动。研究人员分析了混合办公者在远程办公和去办公室办公之间的睡眠、久坐行为及身体活动差异。结果显示，相比去办公室办公，远程办公日的平均睡眠时间多了 15分钟，但坐姿或卧姿时间增加了 45 分钟。站立、轻度身体活动以及中高强度身体活动的时间都有所减少。研究还显示，办公室办公日的步行和骑行活动，在远程办公日部分被坐姿、卧姿和睡眠所取代，因为远程办公不需要通勤。]]></summary>
+        <author>
+            <name>奇客Solidot–传递最新科技情报</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[The West Doesn’t Need to Defeat China. It Needs to Compete Again.]]></title>
         <id>https://medium.com/p/e44ede89e28b</id>
         <link href="https://marketinglegend.medium.com/the-west-doesnt-need-to-defeat-china-it-needs-to-compete-again-e44ede89e28b?source=rss------china-5"/>
@@ -2737,6 +6415,16 @@ Chesterton's fence: 在改动现有制度或方案前，先弄清它为什么存
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[科学家利用高压和逾 2000 高温制造超离子冰]]></title>
+        <id>https://www.solidot.org/story?sid=85354</id>
+        <link href="https://www.solidot.org/story?sid=85354"/>
+        <updated>2026-09-11T14:43:58.000Z</updated>
+        <summary type="html"><![CDATA[水是人类文明中最常见也最不可或缺的物质，但如果单纯以理化的视角来看，它其实是太阳系中最怪异的液体之一。结冰时体积膨胀密度变小、高得离奇的表面张力和沸点，若仅按分子量计算，它在室温下甚至本该是气态。而当我们离开地球，将环境调至极端的高温与高压时，水分子的行为还会变得更加离奇。一个法国的研究团队，近期在实验室中成功打造出极端环境下的新型态冰结晶——六方密堆积超离子冰(hexagonal close-packed superionic ice)。当水受到数百万大气压的强烈挤压时，高温下的气体膨胀会被强制抑制，进而转化为一种名为超离子冰的奇特物质状态。在这种状态下，水分子不再完整存在，氧原子会被死死锁定在固态晶格中，而氢原子核则像液体中的粒子一样，在晶格间自由穿梭扩散，形成一种既非纯固态、亦非纯液态的异相态。为了模拟天王星与海王星等冰巨行星内部的极端世界，研究团队将微量的水放置于两端钻石尖端之间，施加高达 230 万个大气压（与其对比，地球核心的压力为360万个大气压）的压力，并利用激光加热至 2,630K（约2,357℃）。透过高能同步辐射 X 射线的精细扫描，科学家首度捕捉到了氧原子呈六方密堆积（hcp）排列的超离子冰结晶。实验显示，随着压力与温度不断攀升，原本常见的面心立方（fcc）结构会逐渐发生层间滑移，最终完全转变为结构更为稳定的 hcp 超离子冰。]]></summary>
+        <author>
+            <name>奇客Solidot–传递最新科技情报</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[火鳳燎原同人小說: 呂布與小孟: 焚夢記 • 陰山迷蹤: 第十五章: 情殺]]></title>
         <id>https://www.reddit.com/r/China_irl/comments/1wdi7c2/%E7%81%AB%E9%B3%B3%E7%87%8E%E5%8E%9F%E5%90%8C%E4%BA%BA%E5%B0%8F%E8%AA%AA_%E5%91%82%E5%B8%83%E8%88%87%E5%B0%8F%E5%AD%9F_%E7%84%9A%E5%A4%A2%E8%A8%98_%E9%99%B0%E5%B1%B1%E8%BF%B7%E8%B9%A4_%E7%AC%AC%E5%8D%81%E4%BA%94%E7%AB%A0_%E6%83%85%E6%AE%BA/</id>
         <link href="https://www.reddit.com/r/China_irl/comments/1wdi7c2/%E7%81%AB%E9%B3%B3%E7%87%8E%E5%8E%9F%E5%90%8C%E4%BA%BA%E5%B0%8F%E8%AA%AA_%E5%91%82%E5%B8%83%E8%88%87%E5%B0%8F%E5%AD%9F_%E7%84%9A%E5%A4%A2%E8%A8%98_%E9%99%B0%E5%B1%B1%E8%BF%B7%E8%B9%A4_%E7%AC%AC%E5%8D%81%E4%BA%94%E7%AB%A0_%E6%83%85%E6%AE%BA/"/>
@@ -2835,12 +6523,33 @@ Anthropic 的 Claude 是一款 LLM（大语言模型）服务，这次争议来�
     <entry>
         <title type="html"><![CDATA[The $10,000 Chinese EV That’s Terrifying Western Car Executives]]></title>
         <id>https://medium.com/p/fb9a599151fa</id>
+        <link href="https://medium.com/the-story-well/10000-chinese-ev-manufacturing-cost-fb9a599151fa?source=rss------china-5"/>
+        <updated>2026-09-11T14:37:22.000Z</updated>
+        <summary type="html"><![CDATA[Ultra-cheap imported EVs are threatening legacy auto giants, but one radical manufacturing secret makes this price point possible.
+Continue reading on The Story Well »]]></summary>
+        <author>
+            <name>Nyangano Maurice || EV Planet</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The $10,000 Chinese EV That’s Terrifying Western Car Executives]]></title>
+        <id>https://medium.com/p/fb9a599151fa</id>
         <link href="https://medium.com/@evplanet/10000-chinese-ev-manufacturing-cost-fb9a599151fa?source=rss------china-5"/>
         <updated>2026-09-11T14:37:22.000Z</updated>
         <summary type="html"><![CDATA[Ultra-cheap imported EVs are threatening legacy auto giants, but one radical manufacturing secret makes this price point possible.
 Continue reading on Medium »]]></summary>
         <author>
             <name>Nyangano Maurice || EV Planet</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[中国科学家提议利用废弃煤矿展开农业试验]]></title>
+        <id>https://www.solidot.org/story?sid=85353</id>
+        <link href="https://www.solidot.org/story?sid=85353"/>
+        <updated>2026-09-11T14:37:21.000Z</updated>
+        <summary type="html"><![CDATA[中国各地分布着逾 12,000 座废弃煤矿，这些煤矿拥有巨大的地下空间和完善的基础设施，具备改造利用的潜力。太原理工大学、山西省煤基资源绿色高效开发工程中心等机构的研究人员在《中国矿业》期刊上发表论文，提议利用废弃煤矿展开农业试验。废弃煤矿的一个显而易见的缺陷是缺乏农作物所必须的阳光和降雨，但优点是地下环境能精确调控，不受天气波动、气候变化及自然灾害的影响。研究人员称，“在全球气候变化加剧及极端与封闭环境农业需求不断增长的背景下，探索煤矿地下空间农业实验模式具有重要科学意义与工程价值。”研究团队进行了一番评估，认为部分煤矿能提供足够稳定的环境可用于农业种植。研究人员称，“结果表明：在围岩稳定性满足工程要求、通风与排水系统完善及安全监测体系健全的条件下，煤矿地下空间具备构建农业实验单元的工程基础；地下空间可通过人工光源与环境调控系统，实现光、热、水、气及碳等关键要素的独立供给与精准调控，从而支撑高度可控农业实验的开展。”研究人员还指出，地热能可作为一种可持续的农作物热源，且产生的温室气体排放量远低于传统能源。]]></summary>
+        <author>
+            <name>奇客Solidot–传递最新科技情报</name>
         </author>
     </entry>
     <entry>
@@ -2891,6 +6600,17 @@ reward function: 强化学习或模型训练中的目标函数，用来定义系
 类别：AI | Programming | Review | Opinion | code sloppiness | code quality | SlopCodeBench | benchmark | AI | agents | models]]></summary>
         <author>
             <name>News Hacker | 极客洞察</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Me_irl]]></title>
+        <id>https://www.reddit.com/r/me_irl/comments/1wdhu6e/me_irl/</id>
+        <link href="https://www.reddit.com/r/me_irl/comments/1wdhu6e/me_irl/"/>
+        <updated>2026-09-11T14:27:10.000Z</updated>
+        <summary type="html"><![CDATA[submitted by    /u/Flat-Somewhere-6160    to    r/me_irl  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>popular links</name>
         </author>
     </entry>
     <entry>
@@ -3097,6 +6817,28 @@ DRM: 数字版权管理，用来限制 iPod 游戏等内容的提取、分发和
 类别：Hardware | Systems | Programming | Release | Guide | iPod Classic 6G | QEMU | Claude]]></summary>
         <author>
             <name>News Hacker | 极客洞察</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Insomniac's Wolverine automatically completes quick time events for the players if they miss them]]></title>
+        <id>https://www.reddit.com/r/videogames/comments/1wdhnhw/insomniacs_wolverine_automatically_completes/</id>
+        <link href="https://www.reddit.com/r/videogames/comments/1wdhnhw/insomniacs_wolverine_automatically_completes/"/>
+        <updated>2026-09-11T14:20:08.000Z</updated>
+        <summary type="html"><![CDATA[submitted by    /u/Least-Path-2890    to    r/videogames  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>popular links</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[meirl]]></title>
+        <id>https://www.reddit.com/r/meirl/comments/1wdhl21/meirl/</id>
+        <link href="https://www.reddit.com/r/meirl/comments/1wdhl21/meirl/"/>
+        <updated>2026-09-11T14:17:32.000Z</updated>
+        <summary type="html"><![CDATA[submitted by    /u/danielminds    to    r/meirl  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>popular links</name>
         </author>
     </entry>
     <entry>
@@ -3356,6 +7098,17 @@ https://feedx.site]]></summary>
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[8:46 AM. 25 years ago today. Never forget]]></title>
+        <id>https://www.reddit.com/r/WhatIsTheTea/comments/1wdgrv2/846_am_25_years_ago_today_never_forget/</id>
+        <link href="https://www.reddit.com/r/WhatIsTheTea/comments/1wdgrv2/846_am_25_years_ago_today_never_forget/"/>
+        <updated>2026-09-11T13:46:14.000Z</updated>
+        <summary type="html"><![CDATA[submitted by    /u/Ashish_ank    to    r/WhatIsTheTea  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>popular links</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[芬兰航空指中国能飞越俄罗斯空域为不公平竞争]]></title>
         <id>https://www.reddit.com/r/China_irl/comments/1wdgq6i/%E8%8A%AC%E5%85%B0%E8%88%AA%E7%A9%BA%E6%8C%87%E4%B8%AD%E5%9B%BD%E8%83%BD%E9%A3%9E%E8%B6%8A%E4%BF%84%E7%BD%97%E6%96%AF%E7%A9%BA%E5%9F%9F%E4%B8%BA%E4%B8%8D%E5%85%AC%E5%B9%B3%E7%AB%9E%E4%BA%89/</id>
         <link href="https://www.reddit.com/r/China_irl/comments/1wdgq6i/%E8%8A%AC%E5%85%B0%E8%88%AA%E7%A9%BA%E6%8C%87%E4%B8%AD%E5%9B%BD%E8%83%BD%E9%A3%9E%E8%B6%8A%E4%BF%84%E7%BD%97%E6%96%AF%E7%A9%BA%E5%9F%9F%E4%B8%BA%E4%B8%8D%E5%85%AC%E5%B9%B3%E7%AB%9E%E4%BA%89/"/>
@@ -3565,6 +7318,16 @@ Continue reading on Medium »]]></summary>
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[儿童因经常将笔记本电脑放在腹部而出现烤肤症]]></title>
+        <id>https://www.solidot.org/story?sid=85352</id>
+        <link href="https://www.solidot.org/story?sid=85352"/>
+        <updated>2026-09-11T12:46:03.000Z</updated>
+        <summary type="html"><![CDATA[《BMJ Case Reports》报告了一起奇特的病例，一名儿童因腹部皮肤出现奇怪斑痕而送去急症。医生查找许久未发现病因，因此开了抗生素让他回家，叮嘱父母如果病情变化立即来复诊。两周后，这名儿童再次入院，他的病情出现恶化。皮肤斑块变大，颜色变深，且有触痛。这名儿童透露了一个情况，他是在家上学，经常使用笔记本电脑，他习惯将笔电放在腹部，有时一用就是八个小时，还经常在电脑充电时使用。医生终于明白了他的病因，诊断他患有 Erythema ab igne（EAI），也被称为烤肤综合征（toasted skin syndrome），一种因反复、长时间接触低强度热源而引发的皮肤病，多见于成年人，常见诱因包括因慢性疼痛使用电热垫或热水袋，以及长时间近距离靠近取暖器。EAI 发病机制不完全清楚，研究人员推测，长期受热会导致浅表血管受损及红细胞渗出，从而形成典型的红色网状斑纹。好消息是 EAI 是良性且可逆的，只要移除热源即可。其父母几个月后反馈称皮肤斑块消失了。]]></summary>
+        <author>
+            <name>奇客Solidot–传递最新科技情报</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[一句话就能下单，商业入口要变了！蚂蚁 CEO 韩歆毅：未来竞争的不只是流量]]></title>
         <id>https://www.infoq.cn/article/EKC1INXeMjIo00JWMQdV?utm_source=rss&amp;utm_medium=article</id>
         <link href="https://www.infoq.cn/article/EKC1INXeMjIo00JWMQdV?utm_source=rss&amp;utm_medium=article"/>
@@ -3626,6 +7389,18 @@ friction: 刻意增加的使用阻力，用来打断沉迷式刷屏或过度使�
 类别：Product | Business | Policy | Opinion | Instagram | Adam Mosseri | algorithm | engagement | Australia | Bluesky]]></summary>
         <author>
             <name>News Hacker | 极客洞察</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Cry Me a River]]></title>
+        <id>https://www.reddit.com/r/BlackPeopleofReddit/comments/1wdezr3/cry_me_a_river/</id>
+        <link href="https://www.reddit.com/r/BlackPeopleofReddit/comments/1wdezr3/cry_me_a_river/"/>
+        <updated>2026-09-11T12:33:02.000Z</updated>
+        <summary type="html"><![CDATA[Click here: Video Link
+    submitted by    /u/ateam1984    to    r/BlackPeopleofReddit  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>popular links</name>
         </author>
     </entry>
     <entry>
@@ -3739,6 +7514,20 @@ https://www.jisilu.cn/question/525046
 https://www.jisilu.cn/q...]]></summary>
         <author>
             <name>集思录</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[Funny Trope] Children’s show with insane lore implications.]]></title>
+        <id>https://www.reddit.com/r/TopCharacterTropes/comments/1wdepqv/funny_trope_childrens_show_with_insane_lore/</id>
+        <link href="https://www.reddit.com/r/TopCharacterTropes/comments/1wdepqv/funny_trope_childrens_show_with_insane_lore/"/>
+        <updated>2026-09-11T12:20:38.000Z</updated>
+        <summary type="html"><![CDATA[Bluey: Rusty’s Dad is serving in Afghanistan which is how we know that the Bluey universe is just our universe with dogs. So there was a dog Hitler, dog Stalin, dog Osama bin Landen etc.
+ The Little Bear Movie: This is a pretty niche example but I watched this with my daughter the other day. For those who don’t know Little Bear is a wholesome very simple show about a bear who goes on adventures and plays games with his friends who are other woodland creatures. His Dad is a fisherman and his Mom is a housewife, they don’t do anything specific to bears and they mostly act like a human family.
+ The Little Bear movie introduces all of these insane lore implications such as feral bears, implying that there is some divergence between settled bears who exist in civilization and bears that live in the wild like animals. Additionally, it adds what is to my knowledge the only “evil” character in the entire universe a cougar who is hunting Little Bear and his friends. Up until now all animals have been shown to have the intelligence of humans and live in harmony so this cougar is essentially a cannibalistic serial killer.
+    submitted by    /u/Radiant_Client1458    to    r/TopCharacterTropes  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>popular links</name>
         </author>
     </entry>
     <entry>
@@ -4448,6 +8237,16 @@ AI 是否只是又一次技术转型
         <summary type="html"><![CDATA[Comments]]></summary>
         <author>
             <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Rust 语言成为微软的一级支持语言]]></title>
+        <id>https://www.solidot.org/story?sid=85351</id>
+        <link href="https://www.solidot.org/story?sid=85351"/>
+        <updated>2026-09-11T11:04:52.000Z</updated>
+        <summary type="html"><![CDATA[微软 Rust 工具团队首席工程师 Victor Ciura 在本周举行的 RustConf 大会宣布，微软已将 Rust 语言指定为“一级（Tier One）”支持语言，与 C++、C# 和 TypeScript 处于同一位置。Ciura 表示，微软构建了一套完善的工具和流程体系，为 Rust 语言在整个软件开发生命周期中的本地开发提供支持。Rust 语言是一种内存安全的高性能语言，已被微软逾百个项目库使用。为减少内存相关 bug，Rust 语言正被用于重构从数据库到包管理器等各种软件项目。]]></summary>
+        <author>
+            <name>奇客Solidot–传递最新科技情报</name>
         </author>
     </entry>
     <entry>
@@ -6742,6 +10541,16 @@ Continue reading on Medium »]]></summary>
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[约会软件在消失]]></title>
+        <id>https://www.solidot.org/story?sid=85350</id>
+        <link href="https://www.solidot.org/story?sid=85350"/>
+        <updated>2026-09-11T09:57:39.000Z</updated>
+        <summary type="html"><![CDATA[很多人的智能手机上可能仍然安装了约会软件，但打开频率日益下降。2026 年的一项 Harris 民调显示，三分之二的单身人士没有使用过约会软件，而八成美国人将现实生活中认识某个人视为“可爱”或“酷”。约会软件承诺提供丰富的选择：成百上千的潜在伴侣，足不出户即可触达。但这种丰富性也带来了新的负担。每次使用都需要用户做出一系列繁琐的决定——是否滑动屏幕、发起对话、维持对话、安排约会，还是继续寻找更合适的人。研究表明，这个过程会让人精疲力竭。亚利桑那州立大学 Relationships and Technology Lab 主任 Liesel Sharabi 领导的一项纵向研究，追踪了约会软件用户 12 周，发现随着时间的推移，他们的情绪耗竭和无力感都在加剧。巴斯大学心理学博士后研究员 Samuel Hipkiss 认为约会软件让接触到的潜在伴侣数量远超过线下，这要求我们对几乎一无所知的人做出数百项判断，最终结果会是决策疲劳和愤世嫉俗。被拒绝一直是约会的一部分，但约会软件大幅增加了遭遇拒绝的机会。]]></summary>
+        <author>
+            <name>奇客Solidot–传递最新科技情报</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[盲人走在盲道上，前面的女的突然转身，撞上盲人,结局你猜怎么着？]]></title>
         <id>https://www.reddit.com/r/China_irl/comments/1wdbsv6/%E7%9B%B2%E4%BA%BA%E8%B5%B0%E5%9C%A8%E7%9B%B2%E9%81%93%E4%B8%8A%E5%89%8D%E9%9D%A2%E7%9A%84%E5%A5%B3%E7%9A%84%E7%AA%81%E7%84%B6%E8%BD%AC%E8%BA%AB%E6%92%9E%E4%B8%8A%E7%9B%B2%E4%BA%BA%E7%BB%93%E5%B1%80%E4%BD%A0%E7%8C%9C%E6%80%8E%E4%B9%88%E7%9D%80/</id>
         <link href="https://www.reddit.com/r/China_irl/comments/1wdbsv6/%E7%9B%B2%E4%BA%BA%E8%B5%B0%E5%9C%A8%E7%9B%B2%E9%81%93%E4%B8%8A%E5%89%8D%E9%9D%A2%E7%9A%84%E5%A5%B3%E7%9A%84%E7%AA%81%E7%84%B6%E8%BD%AC%E8%BA%AB%E6%92%9E%E4%B8%8A%E7%9B%B2%E4%BA%BA%E7%BB%93%E5%B1%80%E4%BD%A0%E7%8C%9C%E6%80%8E%E4%B9%88%E7%9D%80/"/>
@@ -7639,6 +11448,16 @@ Continue reading on Medium »]]></summary>
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[2026 年 8 月是全球有记录以来最热的月份，并列第一]]></title>
+        <id>https://www.solidot.org/story?sid=85349</id>
+        <link href="https://www.solidot.org/story?sid=85349"/>
+        <updated>2026-09-11T09:05:16.000Z</updated>
+        <summary type="html"><![CDATA[欧盟哥白尼气候变化服务中心（C3S）公布的数据显示，2026 年 8 月是全球有记录以来最热的月份，与 2023 年 7 月并列第一。这一记录是气候变化与厄尔尼诺影响增强共同驱动的。8 月气温比工业化前水平高 1.65C，超过了世界各国为避免气候变化最严重后果而商定的 1.5C 阈值。单月气温超过 1.5C 并不意味着这一阈值已被永久突破，但显示出一种逼近该限制的趋势。今年夏天也是西欧有记录以来最热的夏天。]]></summary>
+        <author>
+            <name>奇客Solidot–传递最新科技情报</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[铜，宝妈们的下一个目标？]]></title>
         <id>4890474</id>
         <link href="https://www.huxiu.com/article/4890474.html?f=rss"/>
@@ -8207,6 +12026,16 @@ AI要真有用
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[2026 年夏天是美国有记录以来最热的夏天]]></title>
+        <id>https://www.solidot.org/story?sid=85348</id>
+        <link href="https://www.solidot.org/story?sid=85348"/>
+        <updated>2026-09-11T08:17:54.000Z</updated>
+        <summary type="html"><![CDATA[NOAA 的数据显示，美国经历了有记录 132 年以来最热的夏天，气温超过了 1936 年和 2021 年夏天——这两个年份此前并列最热夏天纪录。2026 年 8 月以及 6-8 月整个夏季均创下了历史新高，而 7 月更是美国有记录以来最热的一个月份。美国本土 48 州 8 月份的平均气温为 75.6 华氏度，比 20 世纪的平均水平高出 3.5 华氏度。夏季 6-8 月平均气温为 74.4 华氏度，比平均水平高出 3 华氏度。西南部的亚利桑那州、新墨西哥州、犹他州和科罗拉多州均创下了各自最热夏季纪录。全美范围内创下或追平月高温纪录的次数高达 1541 次，而创下或追平月度低温纪录的次数仅为 87 次。如果气候未出现急剧变暖，通常会预期打破高温纪录与打破低温纪录的比例大致相当。NOAA 的数据还显示，自 1970 年以来，美国 6-8 月气温每十年上升了约 0.46 华氏度。]]></summary>
+        <author>
+            <name>奇客Solidot–传递最新科技情报</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[美国直播电商持续升温，但可能不是你熟悉的样子]]></title>
         <id>4890445</id>
         <link href="https://www.huxiu.com/article/4890445.html?f=rss"/>
@@ -8467,6 +12296,16 @@ Continue reading on Medium »]]></summary>
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Google 购买芬兰一核电站一半的发电量]]></title>
+        <id>https://www.solidot.org/story?sid=85347</id>
+        <link href="https://www.solidot.org/story?sid=85347"/>
+        <updated>2026-09-11T07:56:45.000Z</updated>
+        <summary type="html"><![CDATA[Google 宣布斥资  130 亿欧元在芬兰投资 AI 基础设施，其中包括购买一座核电站 50% 的发电量。这是 Google 在欧洲最大的单项投资。这笔投资将用于建设三个新数据中心、扩建现有设施，并持能源项目，以满足对 AI 服务日益增长的电力需求。作为协议的一部分，Google 与芬兰公用事业公司 Fortum 签署了一份为期 22 年的合同，将购买 Loviisa 核电站最多 50% 的发电量。本周早些时候，TikTok 也宣布投资 10 亿美元在芬兰 Kouvola 建设新数据中心，理由是该国拥有“强大的数字基础设施、清洁的能源结构、健全的数据治理体系以及高素质的技术人才”。]]></summary>
+        <author>
+            <name>奇客Solidot–传递最新科技情报</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[The BrahMos Gambit: How India Is Ringing China’s Periphery]]></title>
         <id>https://medium.com/p/cf268594099c</id>
         <link href="https://medium.com/@janhvisingh17/the-brahmos-gambit-how-india-is-ringing-chinas-periphery-cf268594099c?source=rss------china-5"/>
@@ -8524,6 +12363,16 @@ userspace scheduler: 由应用在用户态自行实现的调度器，用来决�
         <summary type="html"><![CDATA[葡萄酒机会何在？]]></summary>
         <author>
             <name>界面新闻©</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[天文学家发现最遥远原始星系团]]></title>
+        <id>https://www.solidot.org/story?sid=85346</id>
+        <link href="https://www.solidot.org/story?sid=85346"/>
+        <updated>2026-09-11T07:43:00.000Z</updated>
+        <summary type="html"><![CDATA[国际天文学家团队发现了迄今已知最遥远的原始星系团 COSMOS-z3.1-A。它诞生于宇宙年龄仅 21 亿年之际，质量约相当于银河系的 5000 倍。这项发现不仅支持了现有的星系团演化理论，也揭示了它们如何嵌入更大尺度的宇宙网。星系团是宇宙中质量最大的引力束缚结构，由数百乃至数千个星系组成。人们今天在较近时空中观测到的星系团，是由原始星系团演化而来的成熟结构。原始星系团是巨大而松散的星系集合，尚在合并之中，还未凝聚成稳定的星系团。研究宇宙年轻时期形成的遥远原始星系团，有助于理解现代星系团如何在漫长岁月里生长和演化。COSMOS-z3.1-A 是迄今已知最早、最遥远的原始星系团，也是宇宙中最为致密的区域之一。]]></summary>
+        <author>
+            <name>奇客Solidot–传递最新科技情报</name>
         </author>
     </entry>
     <entry>
@@ -8715,6 +12564,17 @@ MCP: Model Context Protocol，一种让 AI 工具以标准方式访问文件、�
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[今天亏损严重，如何是好？]]></title>
+        <id>https://www.jisilu.cn/question/525215</id>
+        <link href="https://www.jisilu.cn/question/525215"/>
+        <updated>2026-09-11T07:21:28.000Z</updated>
+        <summary type="html"><![CDATA[昨晚抢了点湘财和上银的券源，融券挂单9.13元做空湘财和9.78元做空上银，计划今天开盘自有资金开盘买入大智慧和上银转债。本来计划好好的，后来灵机一动，万一开盘湘财和大智慧都大涨，大智慧没来得及买入可不亏大了，于是马上融资挂单8.76元买入大智慧。
+       结果今天早盘一看融资大智慧成交了，融...]]></summary>
+        <author>
+            <name>集思录</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[豆包工作新增本地Office编辑、浏览器录制与回放等功能]]></title>
         <id>https://www.leiphone.com/category/industrynews/yxQfJirnLSi8BOoA.html</id>
         <link href="https://www.leiphone.com/category/industrynews/yxQfJirnLSi8BOoA.html"/>
@@ -8854,6 +12714,16 @@ llama.cpp: 一个常用的本地推理项目，用于在 CPU/GPU 上运行开源
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[IMDb 引入了“数字创作者”的新职业]]></title>
+        <id>https://www.solidot.org/story?sid=85345</id>
+        <link href="https://www.solidot.org/story?sid=85345"/>
+        <updated>2026-09-11T07:18:34.000Z</updated>
+        <summary type="html"><![CDATA[IMDb 为其平台及 IMDbPro 引入“数字创作者”（Digital Creator）这一全新职业类别。IMDb 表示，此举为直播主、视频博主（Vlogger）、网红（Influencer）、视频评论创作者（Video Essayist）及等网络创作者提供了一种“展示其作品并与受众、业内同行及潜在雇主建立联系的专属途径”。该类别包含多个细分职业，以更具体描述创作者的工作，其中包括 Streamer、Vlogger、Video Essayist、Video Creator、Gaming Creator 和 Influencer。]]></summary>
+        <author>
+            <name>奇客Solidot–传递最新科技情报</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[支联会李卓人、邹幸彤、何俊仁被判刑：革命者是杀不完的，不会被刑罚吓倒、被监禁征服]]></title>
         <id>https://medium.com/p/3607443e8613</id>
         <link href="https://wangqingmin.medium.com/%E6%94%AF%E8%81%94%E4%BC%9A%E6%9D%8E%E5%8D%93%E4%BA%BA-%E9%82%B9%E5%B9%B8%E5%BD%A4-%E4%BD%95%E4%BF%8A%E4%BB%81%E8%A2%AB%E5%88%A4%E5%88%91-%E9%9D%A9%E5%91%BD%E8%80%85%E6%98%AF%E6%9D%80%E4%B8%8D%E5%AE%8C%E7%9A%84-%E4%B8%8D%E4%BC%9A%E8%A2%AB%E5%88%91%E7%BD%9A%E5%90%93%E5%80%92-%E8%A2%AB%E7%9B%91%E7%A6%81%E5%BE%81%E6%9C%8D-3607443e8613?source=rss------china-5"/>
@@ -8861,6 +12731,16 @@ llama.cpp: 一个常用的本地推理项目，用于在 CPU/GPU 上运行开源
         <summary type="html"><![CDATA[Continue reading on Medium »]]></summary>
         <author>
             <name>王庆民 Wang Qingmin</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WordPress 联合创始人 Matt Mullenweg 被强制休假]]></title>
+        <id>https://www.solidot.org/story?sid=85344</id>
+        <link href="https://www.solidot.org/story?sid=85344"/>
+        <updated>2026-09-11T07:10:04.000Z</updated>
+        <summary type="html"><![CDATA[WordPress 联合创始人、Automatti CEO Matt Mullenweg 被董事会投票强制休假，其职位由首席财务官 Mark Davies 暂时接替。Automattic 过去几年陷入了与竞争对手 WPE 耗时漫长的法律纠纷、经历裁员、员工离职以及围绕 Mullenweg 领导风格的争议。Mullenweg 是通过 Slack 频道宣布了这一消息，他指控 Mark Davies 与董事会成员串通投票强制他休带薪假，他本人投了反对票，他是在会议开始前 50 分钟才收到决议，反复请求给予时间，哪怕只有几个小时，让独立法律顾问进行审查，但遭到拒绝。WordPress.org 开源社区执行总监 Mary Hubbard 表示该开源项目没有受到影响。]]></summary>
+        <author>
+            <name>奇客Solidot–传递最新科技情报</name>
         </author>
     </entry>
     <entry>
@@ -9524,6 +13404,16 @@ Chorleywood Bread Process: 英国 1960 年代的工业制面包流程，用高�
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[中国留学生因 AI 制作深度伪造色情被判刑]]></title>
+        <id>https://www.solidot.org/story?sid=85343</id>
+        <link href="https://www.solidot.org/story?sid=85343"/>
+        <updated>2026-09-11T06:11:10.000Z</updated>
+        <summary type="html"><![CDATA[一名 30 岁的在韩中国留学生 A 某因涉嫌利用深度伪造技术制作 1000 余条淫秽色情内容，于 9 月 10 日被一审法院判处有期徒刑 1 年零 6 个月，并责令其接受 40 小时的性暴力防治教育，今后 5 年禁止其在儿童和青少年相关设施和残疾人福利设施就业。A 某涉嫌自去年11月起利用 AI 将研究室同事等 7 名受害者的面容合成到不雅视频和照片中，制作 1141 条淫秽色情内容。检方提出 3 年量刑建议，并请求法庭判令公开被告人身份信息，责令其接受性暴力防治教育。法院就量刑理由表示，被告人的犯罪情节恶劣，且未能取得被害人谅解，罪责较重。但被告人认罪悔过态度良好、无犯罪前科、无证据证明涉案视频被传播等情况，可作为酌定量刑情节予以考虑。]]></summary>
+        <author>
+            <name>奇客Solidot–传递最新科技情报</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[AI才是文娱股的《牛来》]]></title>
         <id>4890390</id>
         <link href="https://www.huxiu.com/article/4890390.html?f=rss"/>
@@ -9561,6 +13451,16 @@ Chorleywood Bread Process: 英国 1960 年代的工业制面包流程，用高�
 文娱股蹭AI行情其实早不是新鲜…]]></summary>
         <author>
             <name>潜水鱼X</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[强降雨加剧微塑料向河流的输送]]></title>
+        <id>https://www.solidot.org/story?sid=85342</id>
+        <link href="https://www.solidot.org/story?sid=85342"/>
+        <updated>2026-09-11T06:07:01.000Z</updated>
+        <summary type="html"><![CDATA[根据发表在《科学》期刊上的一项研究，河流向海洋输送的微塑料污染量可能远超此前的认知，且全球几乎所有的微塑料排放均来自发展中国家。这项全球性分析还发现，强降雨会导致河流中微塑料含量激增——这是一种易受气候影响的污染威胁，并可能会随着极端天气的日益常见而加剧。微塑料已成为一种无处不在且持久的污染物，它对生态系统、水质及人类健康构成公认的威胁。每年有数千万公吨的微塑料被排入环境，而其中大部分会最终抵达海洋。河流是将这些颗粒从内陆地区输送至沿海水域的主要途径。研究人员估算，2022 年全球河流向海洋输送了约 26.3 万吨微塑料，其中 96% 来自“全球南方”地区——仅东南亚和东亚就贡献了该总量的半数以上。塑料使用、对废弃物的管理不善以及人类社会发展是导致微塑料浓度地域差异的主要因素，而天气和季节条件则会影响其短期波动。研究结果表明，极端降雨事件会大幅增加微塑料向河流的输入量，特别是在塑料使用量大且对废弃物管理薄弱的地区。]]></summary>
+        <author>
+            <name>奇客Solidot–传递最新科技情报</name>
         </author>
     </entry>
     <entry>
@@ -10387,6 +14287,16 @@ Gartner预测，到2028年，90%的B2B采购将由AI智能体作为中介完成�
 10日下午整整四个小时的分享，台下挤满了不同年龄、不同背…]]></summary>
         <author>
             <name>雷峰网</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[长期持有买哪个基金好？红利低波、中证红利、红利低波100？]]></title>
+        <id>https://www.jisilu.cn/question/525207</id>
+        <link href="https://www.jisilu.cn/question/525207"/>
+        <updated>2026-09-11T04:31:26.000Z</updated>
+        <summary type="html"><![CDATA[假设持有5年以上，买哪个基金好？红利低波、中证红利、红利低波100？为什么？在论坛里经常看到推荐买红利低波？中证红利怎么样？]]></summary>
+        <author>
+            <name>集思录</name>
         </author>
     </entry>
     <entry>
@@ -18030,6 +21940,16 @@ didnt we almost have it all
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[从马云到AI时代：企业家公共表达的退潮与转向]]></title>
+        <id>https://www.ftchinese.com/story/001110854</id>
+        <link href="https://www.ftchinese.com/story/001110854"/>
+        <updated>2026-09-10T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[王冠雄：真正值得关注的，不是“企业家明星”是否还会出现，而是中国科技企业如何在更复杂的监管、资本和社会环境中重新建立公共沟通能力。]]></summary>
+        <author>
+            <name>FTChinese RSS - Hot Weekly</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[特朗普政府能源政策持续调整对中国能源产业发展的挑战]]></title>
         <id>https://www.ftchinese.com/story/001110839</id>
         <link href="https://www.ftchinese.com/story/001110839"/>
@@ -21401,6 +25321,16 @@ ADHD: 注意缺陷多动障碍；在评论里被用来解释某些人为何成�
         <summary type="html"><![CDATA[各位集友，手头有没有普利退债？收到了一条这样的短信，不知道[attach]456148[/attach]要到哪里申报？怎样申报？]]></summary>
         <author>
             <name>集思录</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hepburn Romanization: How to Read Japanese in the Latin Alphabet]]></title>
+        <id>https://www.fink-translate.com/blog/hepburn-romanization.html</id>
+        <link href="https://www.fink-translate.com/blog/hepburn-romanization.html"/>
+        <updated>2026-09-10T09:13:48.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
         </author>
     </entry>
     <entry>
@@ -26483,6 +30413,16 @@ OpenAI 于 2026 年 9 月 8 日发布了一篇论文，声称解决了纳维-斯
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[How we rebuilt complex permissions without migrating to Zanzibar]]></title>
+        <id>https://infisical.com/blog/folder-based-rbac</id>
+        <link href="https://infisical.com/blog/folder-based-rbac"/>
+        <updated>2026-09-09T21:59:10.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Top method actor who disappeared overnight?]]></title>
         <id>https://www.reddit.com/r/okbuddycinephile/comments/1wbzqpe/top_method_actor_who_disappeared_overnight/</id>
         <link href="https://www.reddit.com/r/okbuddycinephile/comments/1wbzqpe/top_method_actor_who_disappeared_overnight/"/>
@@ -29124,6 +33064,26 @@ AI/SEO 冲击商业闭环
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[每周时事分析：中国图们江出海口被彻底封锁]]></title>
+        <id>https://www.ftchinese.com/story/001110845</id>
+        <link href="https://www.ftchinese.com/story/001110845"/>
+        <updated>2026-09-09T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[曹辛：朝俄签约在图们江修建的公路大桥，已经和旧的朝俄友谊铁路桥一起，几乎彻底封锁了中国在图们江上的出海权。]]></summary>
+        <author>
+            <name>FTChinese RSS - Hot Weekly</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[特朗普的外行特使]]></title>
+        <id>https://www.ftchinese.com/story/001110842</id>
+        <link href="https://www.ftchinese.com/story/001110842"/>
+        <updated>2026-09-09T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[卢斯：从俄乌、加沙，到伊朗，美国总统的两位地产富豪特使总是盲目相信战后悬而未决的商业红利能带来和平，这种执念正在为美国的外交增添障碍。]]></summary>
+        <author>
+            <name>FTChinese RSS - Hot Weekly</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[[問卦] 為什麼有些人沒什麼朋友？]]></title>
         <id>https://www.ptt.cc/bbs/Gossiping/M.1788969565.A.C1E.html</id>
         <link href="https://www.ptt.cc/bbs/Gossiping/M.1788969565.A.C1E.html"/>
@@ -30323,6 +34283,16 @@ Flock（YC 2017 批次的车牌识别/公共监控公司）在美国各地向警
         <summary type="html"><![CDATA[点击查看原文>]]></summary>
         <author>
             <name>作者：Ben Linders</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A Design Space Exploration of Async/Await]]></title>
+        <id>https://cel.cs.brown.edu/blog/design-space-async-await/</id>
+        <link href="https://cel.cs.brown.edu/blog/design-space-async-await/"/>
+        <updated>2026-09-09T13:59:50.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
         </author>
     </entry>
     <entry>
@@ -31691,6 +35661,16 @@ https://scrm.nvidia.cn/events/semi-final-20261015?pushId=8kJQ2pgiiMFxtKL7Gapgdg1
 問了AI]]></summary>
         <author>
             <name>批踢踢實業坊 Gossiping 板</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Great Lakes sturgeon may be 400 years old:Scientists rethinking how to save them]]></title>
+        <id>https://www.cbc.ca/news/canada/ontario-great-lakes-sturgeon-lifespan-study-9.7329250</id>
+        <link href="https://www.cbc.ca/news/canada/ontario-great-lakes-sturgeon-lifespan-study-9.7329250"/>
+        <updated>2026-09-09T11:01:10.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
         </author>
     </entry>
     <entry>
@@ -35856,6 +39836,17 @@ iRobot此次展示的Roomba Duo概念机，给出了一个不太一样的答案�
  [link]   [comments]]]></summary>
         <author>
             <name>r/中国</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[这周内大盘要选择方向了吧]]></title>
+        <id>https://www.jisilu.cn/question/525145</id>
+        <link href="https://www.jisilu.cn/question/525145"/>
+        <updated>2026-09-09T07:08:46.000Z</updated>
+        <summary type="html"><![CDATA[上证年线、半年线重合了
+5/10/20/60日线也搅合一起了。]]></summary>
+        <author>
+            <name>集思录</name>
         </author>
     </entry>
     <entry>
@@ -115517,130 +119508,6 @@ Warsh 演讲后，FedWatch 显示市场预期 9 月升息机率再度回升至 5
         <id>https://www.producthunt.com/products/notify-domains</id>
         <link href="https://www.producthunt.com/products/notify-domains"/>
         <updated>2026-08-28T23:28:49.000Z</updated>
-        <summary type="html"><![CDATA[Discussion
-            |
-            Link]]></summary>
-        <author>
-            <name>Product Hunt — The best new products, every day</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[myAIcademy]]></title>
-        <id>https://www.producthunt.com/products/myaicademy</id>
-        <link href="https://www.producthunt.com/products/myaicademy"/>
-        <updated>2026-08-28T16:01:08.000Z</updated>
-        <summary type="html"><![CDATA[Discussion
-            |
-            Link]]></summary>
-        <author>
-            <name>Product Hunt — The best new products, every day</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[一周新闻小测：2026年8月29日]]></title>
-        <id>https://www.ftchinese.com/interactive/292455</id>
-        <link href="https://www.ftchinese.com/interactive/292455"/>
-        <updated>2026-08-28T16:00:00.000Z</updated>
-        <summary type="html"><![CDATA[您对本周的全球重大新闻了解如何？来做个小测试吧！]]></summary>
-        <author>
-            <name>FTChinese RSS - Hot Weekly</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AI替身准备接替角色，中国演员被从影视剧中删去]]></title>
-        <id>https://www.ftchinese.com/interactive/292441</id>
-        <link href="https://www.ftchinese.com/interactive/292441"/>
-        <updated>2026-08-28T16:00:00.000Z</updated>
-        <summary type="html"><![CDATA[新一代视频生成程序席卷行业，网络表演者失去工作。]]></summary>
-        <author>
-            <name>FTChinese RSS - Hot Weekly</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[中国警告美国，可能就伊朗制裁采取报复措施]]></title>
-        <id>https://www.ftchinese.com/interactive/291974</id>
-        <link href="https://www.ftchinese.com/interactive/291974"/>
-        <updated>2026-08-28T16:00:00.000Z</updated>
-        <summary type="html"><![CDATA[北京表示，如果华盛顿扩大对与德黑兰开展商业往来的打压，将采取“一切必要措施”。]]></summary>
-        <author>
-            <name>FTChinese RSS - Hot Weekly</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[I launched a project for Indie Hackers, and I just wanted to say thank you]]></title>
-        <id>https://feed.indiehackers.world/post/e9396c1289</id>
-        <link href="https://feed.indiehackers.world/post/e9396c1289"/>
-        <updated>2026-08-28T15:21:40.000Z</updated>
-        <author>
-            <name>Posts IndieHackers</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[优美的北京“退休”生活（持续更新...）]]></title>
-        <id>https://www.jisilu.cn/question/524821</id>
-        <link href="https://www.jisilu.cn/question/524821"/>
-        <updated>2026-08-28T13:49:44.000Z</updated>
-        <summary type="html"><![CDATA[在2025年终总结中讲到，孩子上大学后，我就要离开生活了20多年的深圳，搬去外地。时间飞快，我现在已经成了北京居民，一名中年“北漂”。
-
-最近两个月，一边陪考，一边打包搬家；一边旅游，一边找房。居无定所，四处奔忙的生活，饮食混乱，跑步暂停。我更加确定，我还是喜欢稳定的简单的生活。从5月份起，我就开始...]]></summary>
-        <author>
-            <name>集思录</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[朋友借钱怎么办]]></title>
-        <id>https://www.jisilu.cn/question/524819</id>
-        <link href="https://www.jisilu.cn/question/524819"/>
-        <updated>2026-08-28T13:20:17.000Z</updated>
-        <summary type="html"><![CDATA[个人情况失业5年。37岁有孩子家庭。有30存款在股票里。10年前借出去13万亲朋，至今没还。觉得在职业沉浮中，自己需要钱的时候亲朋没还，改变了我的价值观，感觉有点寒心。
-现在大学好友欠款40，，有10万产品到期，有断贷风险。
-我说刷信用卡给对方2万，想想自己的处境和心境，觉得也不舒服。
-朋友们回个贴...]]></summary>
-        <author>
-            <name>集思录</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[央行：将个人住房贷款期限由最长30年延长至最长40年]]></title>
-        <id>https://www.jisilu.cn/question/524818</id>
-        <link href="https://www.jisilu.cn/question/524818"/>
-        <updated>2026-08-28T13:09:24.000Z</updated>
-        <summary type="html"><![CDATA[央行：将个人住房贷款期限由最长30年延长至最长40年
-
-　第二十条 银行业金融机构发放个人住房贷款应符合最低首付比例要求。个人住房贷款期限最长不超过40年，金额不得超过拟购买住房的评估价值。贷款期限在1年以内（含1年）的，实行到期一次性还本付息或按月还本付息；贷款期限在1年以上的，按月还本付息。
-
-...]]></summary>
-        <author>
-            <name>集思录</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[PR Lens by Coldtea.ai]]></title>
-        <id>https://www.producthunt.com/products/coldtea</id>
-        <link href="https://www.producthunt.com/products/coldtea"/>
-        <updated>2026-08-28T12:00:55.000Z</updated>
-        <summary type="html"><![CDATA[Discussion
-            |
-            Link]]></summary>
-        <author>
-            <name>Product Hunt — The best new products, every day</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[走進《仲夏魘》現實原型　烏克蘭「伊凡庫帕拉節」以水火與花環守護民族記憶]]></title>
-        <id>https://dq.yam.com/post/17034?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=rss</id>
-        <link href="https://dq.yam.com/post/17034?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=rss"/>
-        <updated>2026-08-28T09:50:03.000Z</updated>
-        <summary type="html"><![CDATA[每年盛夏，當白晝抵達一年之中最漫長的時刻，烏克蘭也於6月23日迎來伊凡庫帕拉節（IvanKupala）。這個節日源自古老夏至祭典，以水、火和植物為象徵，延續人與自然最原始的連結。相傳Kupala是掌管豐饒與生命力的神祇，神話早已隱沒於歷史之中，但人們仍遵循祖先流傳的方式，迎接夏至的到來。]]></summary>
-        <author>
-            <name>地球圖輯隊</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Nina by Antalpha]]></title>
-        <id>https://www.producthunt.com/products/antalpha</id>
-        <link href="https://www.producthunt.com/products/antalpha"/>
-        <updated>2026-08-28T09:37:21.000Z</updated>
         <summary type="html"><![CDATA[Discussion
             |
             Link]]></summary>
