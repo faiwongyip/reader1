@@ -6,6 +6,36 @@
       "siteUrl": "https://www.solidot.org",
       "articles": [
         {
+          "id": "https://www.solidot.org/story?sid=85400",
+          "author": null,
+          "description": "全世界有无数人的睡眠不足，睡眠不足与肥胖、糖尿病、高血压、心脏病、中风及过早死亡相关。如果有人付费让你睡更长时间？科学家为此做了一项社会实验。研究人员向匹兹堡大学的 1100 多名本科生提供了 Fitbit 以及一款能发送就寝提醒和晨间反馈的应用。在为期四周内研究人员随机选择了 468 名学生，只要他们某晚睡眠时间达到至少七小时，就向其支付 5 美元报酬。研究人员通过他们佩戴的设备核实实际睡眠时长。参与研究的学生平均年龄约为 19 岁，其中半数为大一新生。72% 为女性。55% 为白人，28% 为亚裔，9% 为黑人，4% 为西班牙裔。研究结果表明，提供即时经济奖励有助于学生实现每晚七小时的睡眠目标，且这种效果在停止发放奖励后仍能持续一个月。参与研究的学生此前平均每晚睡眠时间为 6.6 小时。半数学生在凌晨 1 点之后才睡觉，四分之一学生甚至在凌晨 2 点之后才入睡。在实验中，获得现金激励的学生在每个上课日夜晚平均多睡了 19 分钟，该学期的 GPA 得分上升了约 0.08 分——相当于成绩高于平均水平和低于平均水平的学生之间差距的四分之一。",
+          "link": "https://www.solidot.org/story?sid=85400",
+          "publishedOn": "2026-09-16T16:09:54.000Z",
+          "wordCount": 185,
+          "title": "付费给大学生睡足七小时提高了他们的学习成绩",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.solidot.org/story?sid=85399",
+          "author": null,
+          "description": "1999 年初代 PS2 Fat 游戏机使用的安全芯片 CXP102064 MechaCon 在时隔 26 年被爱好者破解。加拿大复古软硬件爱好者 DiscoStarslayer 通过社交媒体称其花了四年时间破解了其秘密。DiscoStarslayer 采用的逆向工程方法包括：利用化学方法对 CXP102064 芯片进行开盖，利用显微镜和光学数据提取技术分析芯片电路。期间发现了一个漏洞利用方法，可通过软件提取芯片数据。MechaCon 芯片也被用于当时推出的几款街机，包括 Namco System 246 和 System 256 以及 Konami Python 1 等。",
+          "link": "https://www.solidot.org/story?sid=85399",
+          "publishedOn": "2026-09-16T15:54:21.000Z",
+          "wordCount": 200,
+          "title": "PS2 Fat 使用的安全芯片在时隔 26 年被破解",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.solidot.org/story?sid=85398",
+          "author": null,
+          "description": "Denuvo 在美国加州北区联邦法院起诉了名叫 voices38 的匿名游戏破解黑客，指控其违反了 DMCA 的反规避条款。被告被控绕过了逾二十款游戏使用的 Denuvo DRM，相关游戏包括了《霍格沃茨之遗（Hogwarts Legacy）》和《黑神话：悟空》。随着诉讼的推进，Denuvo 可能会向 Reddit、Discord 和 Valve 发出传票，以获取黑客的身份信息。voices38 发布了一系列使用 Denuvo DRM 的游戏破解补丁，曾在一天之内发布了创纪录的五款 Denuvo DRM 游戏破解补丁，以至于引起了 Denuvo 公司的注意。Denuvo 称被告是一名专注于对 Denuvo DRM 游戏进行逆向工程的计算机黑客。",
+          "link": "https://www.solidot.org/story?sid=85398",
+          "publishedOn": "2026-09-16T15:27:44.000Z",
+          "wordCount": 196,
+          "title": "Denuvo 起诉黑客违反 DMCA 反规避条款",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.solidot.org/story?sid=85397",
           "author": null,
           "description": "亚马逊云服务 AWS 称，由于其数据中心因战争受损它无法恢复中东部分可用区资源和数据的访问。AWS 通过其 AWS Health Dashboard 页面发表声明称，全面评估后它确认无法恢复巴林可用区 me-south-1 的资源和数据的访问。如果客户的数据只存放在该可用区，那么数据可能永远丢失了。亚马逊此前已建议其客户将其工作负荷迁移到其它可用区，它表示在该可用区完全无法使用前大部分客户已完成了迁移。位于阿联酋的可用区 mec1-az2 情况类似，阿联酋有三个可用区，另外两个 mec1-az1 和 mec1-az3 也受到战争影响，AWS 目前还在继续恢复这两个可用区的资源的访问。",
@@ -1272,6 +1302,26 @@
       "feedUrl": "https://rss.huxiu.com/",
       "siteUrl": "https://www.huxiu.com",
       "articles": [
+        {
+          "id": "4891838",
+          "author": "元淦恭说",
+          "description": "本文来自微信公众号： 元淦恭说 ，作者：元淦恭\n\n\n昨天（9月16日），平陆运河正式开通。这条造价727亿元的运河，全长134.2公里，其土石方开挖量达到3.15亿立方米，相当于三峡工程的三倍。其通航能力按内河1级航道建设，可通行5000万吨船舶，这一通航标准在全国范围内仅有长江、珠江干流航道能够达到。\n\n\n这被官方定义为“新中国成立以来第一条通江达海大运河”。短短四年施工即告竣工的速度，更是中国这个“基建狂魔”建设“超级工程”的又一范本。\n\n\n对广西这个相对落后的省份而言，这条运河承载着“逆天改命”的希望。\n\n\n广西虽然是个沿海省份，但在这条运河开通之前，滨海的钦州、北海、防城港三市与其它内陆市之间，并没有水路联通。其它地处西江流域沿线的城市，如果货物需要通过水路进出，都需要绕行珠三角。对于那些对运输成本敏感的工业品而言，出海绕行珠三角不仅意味着更长的距离、更高的成本，也意味着广西坐拥的“出海口”优势无从发挥。\n\n\n然而，随着平陆运河的通航，广西非沿海城市的工业发展条件发生了明显的变化。相较绕行珠三角，广西货物从平陆运河直接出海可以缩短560公里的航程，运输成本显著降低。南宁等沿西江流域城市发展制造业的比较优势将显著增强。\n\n\n变化已经开始发生。2022年，比亚迪决定在南宁投资广西弗迪45GWh动力电池项目，当时平陆运河对于比亚迪来说，还只是一个远期利好。然而到了决定横州（属南宁）六景工业园3万吨碳酸锂项目时，平陆运河已经变成一个关键因素。这一项目的锂源依靠从津巴布韦进口，运河通航对每年数十万吨的锂辉石进口而言，是巨大的成本节省。\n\n\n由此开始，平陆运河让南宁这个一般意义上的“沿江城市”一跃成为“准沿海城市”，大大提升了其在制造业和货物贸易领域的竞争力。现在，南宁已经成为比亚迪国内最大的电池生产基地之一，也是面向东盟市场的核心产能基点。这和平陆运河的通航预期直接相关。\n\n…",
+          "link": "https://www.huxiu.com/article/4891838.html?f=rss",
+          "publishedOn": "2026-09-16T18:26:29.000Z",
+          "wordCount": 689,
+          "title": "广西能靠平陆运河“逆袭”吗？",
+          "imageUrl": "https://img.huxiucdn.com/ai/ai-general-cover/202609/17/35777-prod-kl-general-1-1789583111636.png?imageView2/1/w/788/h/444/|imageMogr2/strip/interlace/1/quality/85"
+        },
+        {
+          "id": "4891837",
+          "author": "Linda产业笔记",
+          "description": "本文来自微信公众号： Linda产业笔记 ，作者：Linda 梁领\n\n\n今天彭博亿万富豪指数更新，43岁的张一鸣身家突破1050亿美元，首次成为亚洲首富，超过了印度的高塔姆·阿达尼。2019年3月彭博开始追踪他的时候，这个数字是130亿，七年涨了大约七倍。\n\n\n几乎所有报道的框架都一样：AI热潮创造了巨额新财富，传统行业的富豪被超越了。\n\n\n这个说法听起来顺理成章，但它和字节自己的财务数字对不上。\n\n\n字节跳动2026年上半年营收约1200亿美元，同比增长约30%；净利润约200亿美元，同比是下降的。\n\n\n一家公司利润在下滑，创始人身家涨到了亚洲第一。这两件事同时发生，说明的不是AI在创造财富，而是市场换了一套计价方式，它现在给的不是你赚到的钱，是你押上的筹码。\n\n\n利润是被什么吃掉的\n\n\n净利润下降的原因不复杂，报道里说得很很清楚：字节正在扩大AI基础设施、云服务和大模型方面的投入。\n\n\n也就是说，这不是生意变差了。营收还在以30%的速度增长，海外收入占比已经超过30%，广告和TikTok电商都在拉动。是公司主动把赚来的钱花掉了。\n\n\n这里有个关键的会计事实，AI投入在财报上是当期费用和资本开支，而它对应的收益在遥远的未来，甚至不确定会不会来。所以任何一家转向AI的公司账本上，财务账本都长得一样，收入曲线往上，利润曲线往下，中间的缺口就是它对未来的下注。\n\n\n按传统的估值逻辑，一家利润下滑的公司，估值应该承压。但字节的估值涨了，涨到足以把张一鸣推上亚洲第一。\n\n\n这就是我说的换了计价方式。市场没有因为利润下滑而惩罚它，反而因为投入本身奖励了它。\n\n\n下注的规模已经超出了自有资金\n\n\n如果只是拿利润去投AI，那还只是分配问题，今天少赚点，换明天多赚点，是个正常的商业判断。\n\n\n但字节近期还完成了一笔约296亿美元的银行贷款，用于一般企业用途，市场普遍认为AI相关投入是资金需…",
+          "link": "https://www.huxiu.com/article/4891837.html?f=rss",
+          "publishedOn": "2026-09-16T17:16:23.000Z",
+          "wordCount": 725,
+          "title": "张一鸣的1050亿，是市场预支给他的",
+          "imageUrl": "https://img.huxiucdn.com/ai/ai-general-cover/202609/17/35776-prod-db-general-1-1789578906646.png?imageView2/1/w/788/h/444/|imageMogr2/strip/interlace/1/quality/85"
+        },
         {
           "id": "4891834",
           "author": "阿土不土",
@@ -18645,16 +18695,6 @@
           "wordCount": 134,
           "title": "《2001：太空漫遊》作者預言成真？搭電梯直達宇宙，多晶石墨烯解鎖百年科幻夢",
           "imageUrl": "https://imagedelivery.net/UYQOTZcPn8gGeaNtnHVGeg/474befeb-6337-4bb9-bab6-c6ae2c322400/public"
-        },
-        {
-          "id": "https://dq.yam.com/post/17035?utm_source=rss&utm_medium=rss&utm_campaign=rss",
-          "author": null,
-          "description": "一般提到北韓，可能最先想到的會是核武、飛彈或軍事活動，但在這個一舉一動都備受矚目的國家裡，一項看似毫無關聯的商品，卻悄悄成為重要的出口品項——假髮與假睫毛。為什麼是假髮？這項看似不起眼的商品，為何成為北韓的出口主力？從中國的原材料，到北韓的加工生產，這條跨越國界的供應鏈背後，除了兩國之間的貿易往來，更藏著不容易被看見的勞動與人權問題。",
-          "link": "https://dq.yam.com/post/17035?utm_source=rss&utm_medium=rss&utm_campaign=rss",
-          "publishedOn": "2026-09-02T07:39:07.000Z",
-          "wordCount": 582,
-          "title": "「每根睫毛都能貼補家用」北韓民眾點油燈通宵做假髮，出口冠軍背後的另一面",
-          "imageUrl": "https://imagedelivery.net/UYQOTZcPn8gGeaNtnHVGeg/f6f583aa-2ef8-4a8e-bf1b-599dab042d00/public"
         }
       ]
     },
@@ -27196,6 +27236,356 @@
       "feedUrl": "https://rss.aishort.top/?type=baidu",
       "siteUrl": "https://top.baidu.com/board?tab=realtime",
       "articles": [
+        {
+          "id": "2176007",
+          "author": null,
+          "description": "9月17日至19日，新疆、山西、河北等地一日如两季，建议采用洋葱式穿搭法，在短袖等夏装外再加件薄外套。南方大部受副热带高压控制气温持续偏高，夏装仍需...",
+          "link": "https://www.baidu.com/s?wd=%E5%85%A8%E5%9B%BD%E5%90%84%E5%9C%B0%E8%A1%A3%E6%9C%8D%E5%BA%94%E8%AF%A5%E8%BF%99%E4%B9%88%E7%A9%BF&sa=fyb_news&rsv_dl=fyb_news",
+          "publishedOn": "2026-09-16T16:02:12.000Z",
+          "wordCount": 6,
+          "title": "全国各地衣服应该这么穿 热度：3237269",
+          "imageUrl": null
+        },
+        {
+          "id": "2176006",
+          "author": null,
+          "description": "9月16日，名古屋亚运会男篮比赛进行了1/4决赛，随着日本男篮85比78击败中国台北男篮杀进四强，本届亚运会男篮项目半决赛对阵出炉。中国男篮将和日本...",
+          "link": "https://www.baidu.com/s?wd=%E4%BA%9A%E8%BF%90%E7%94%B7%E7%AF%AE%E5%8D%8A%E5%86%B3%E8%B5%9B%E4%B8%AD%E5%9B%BD%E5%B0%86%E5%AF%B9%E9%98%B5%E6%97%A5%E6%9C%AC&sa=fyb_news&rsv_dl=fyb_news",
+          "publishedOn": "2026-09-16T16:02:11.000Z",
+          "wordCount": 6,
+          "title": "亚运男篮半决赛中国将对阵日本 热度：3415560",
+          "imageUrl": null
+        },
+        {
+          "id": "2176005",
+          "author": null,
+          "description": "近日，尊宝比萨滨河广场店涉事店员杨某因寻衅滋事被行拘7日，涉事比萨已销毁未销售，门店已停业整顿。此前，网传视频显示该店员工故意将头屑撒至比萨上，官方...",
+          "link": "https://www.baidu.com/s?wd=%E5%90%91%E6%AF%94%E8%90%A8%E7%8B%82%E6%92%92%E5%A4%B4%E7%9A%AE%E5%B1%91%E5%91%98%E5%B7%A5%E8%A2%AB%E8%A1%8C%E6%8B%987%E6%97%A5&sa=fyb_news&rsv_dl=fyb_news",
+          "publishedOn": "2026-09-16T16:02:11.000Z",
+          "wordCount": 6,
+          "title": "向比萨狂撒头皮屑员工被行拘7日 热度：3584927",
+          "imageUrl": null
+        },
+        {
+          "id": "2176004",
+          "author": null,
+          "description": "9月16日，钟薛高方面表示首批产品将于第四季度上市，价格降至6-8元。分析指出，钟薛高未来出路关键在于强化终端渠道布局以及下沉，或可借助新股东皇家小...",
+          "link": "https://www.baidu.com/s?wd=%E9%99%8D%E4%BB%B7%E5%A4%8D%E5%87%BA%E7%9A%84%E9%92%9F%E8%96%9B%E9%AB%98+%E5%87%BA%E8%B7%AF%E5%9C%A8%E5%B0%8F%E5%8D%96%E9%83%A8&sa=fyb_news&rsv_dl=fyb_news",
+          "publishedOn": "2026-09-16T16:02:11.000Z",
+          "wordCount": 6,
+          "title": "降价复出的钟薛高出路在小卖部 热度：3793921",
+          "imageUrl": null
+        },
+        {
+          "id": "2176003",
+          "author": null,
+          "description": "据悉，花呗、白条等平台月付工具，9月30日起被强制移出支付选项。网友：终于不会点份外卖，就稀里糊涂“负债”了。",
+          "link": "https://www.baidu.com/s?wd=%E7%BB%88%E4%BA%8E%E4%B8%8D%E4%BC%9A%E7%82%B9%E5%A4%96%E5%8D%96%E5%B0%B1%E7%A8%80%E9%87%8C%E7%B3%8A%E6%B6%82%E2%80%9C%E8%B4%9F%E5%80%BA%E2%80%9D%E4%BA%86&sa=fyb_news&rsv_dl=fyb_news",
+          "publishedOn": "2026-09-16T16:02:10.000Z",
+          "wordCount": 6,
+          "title": "终于不会点外卖就稀里糊涂“负债”了 热度：3903592",
+          "imageUrl": null
+        },
+        {
+          "id": "2176002",
+          "author": null,
+          "description": "",
+          "link": "https://www.baidu.com/s?wd=%E5%A5%B3%E5%AD%90%E9%AA%91%E8%BD%A6%E9%80%86%E8%A1%8C%E6%92%9E%E8%BD%A6%E5%8F%8D%E8%A6%81%E6%B1%82%E5%AF%B9%E6%96%B9%E9%81%93%E6%AD%89&sa=fyb_news&rsv_dl=fyb_news",
+          "publishedOn": "2026-09-16T16:02:10.000Z",
+          "wordCount": 6,
+          "title": "女子骑车逆行撞车反要求对方道歉 热度：3972230",
+          "imageUrl": null
+        },
+        {
+          "id": "2176001",
+          "author": null,
+          "description": "据悉，25岁小伙郭杰确诊全球罕见变异白血病，已花费50万。郭杰说，他现在最大的心愿，就是能活着陪妈妈回到四川老家。",
+          "link": "https://www.baidu.com/s?wd=25%E5%B2%81%E5%B0%8F%E4%BC%99%E7%A1%AE%E8%AF%8A%E5%85%A8%E7%90%83%E7%BD%95%E8%A7%81%E5%8F%98%E5%BC%82%E7%99%BD%E8%A1%80%E7%97%85&sa=fyb_news&rsv_dl=fyb_news",
+          "publishedOn": "2026-09-16T16:02:09.000Z",
+          "wordCount": 6,
+          "title": "25岁小伙确诊全球罕见变异白血病 热度：4073405",
+          "imageUrl": null
+        },
+        {
+          "id": "2176000",
+          "author": null,
+          "description": "近日，iPhone18Pro首发评测来了，一起来看。",
+          "link": "https://www.baidu.com/s?wd=iPhone18Pro%E7%B3%BB%E5%88%97%E9%A6%96%E5%8F%91%E8%AF%84%E6%B5%8B&sa=fyb_news&rsv_dl=fyb_news",
+          "publishedOn": "2026-09-16T16:02:09.000Z",
+          "wordCount": 6,
+          "title": "iPhone18Pro系列首发评测 热度：4263091",
+          "imageUrl": null
+        },
+        {
+          "id": "2175999",
+          "author": null,
+          "description": "9月15日，郑州手机商阿雨称此前7至8月，他陆续购入五六百台iPhone17ProMax，均价8700至8800元，原期望9月10日苹果发布会...",
+          "link": "https://www.baidu.com/s?wd=%E5%95%86%E5%AE%B6%E5%9B%A4300%E5%8F%B0iPhone17+ProMax%EF%BC%9A%E4%BC%9A%E6%B6%A8%E4%BB%B7&sa=fyb_news&rsv_dl=fyb_news",
+          "publishedOn": "2026-09-16T16:02:09.000Z",
+          "wordCount": 6,
+          "title": "商家囤300台iPhone17ProMax：会涨价 热度：4375976",
+          "imageUrl": null
+        },
+        {
+          "id": "2175998",
+          "author": null,
+          "description": "",
+          "link": "https://www.baidu.com/s?wd=%E7%94%B7%E5%AD%90%E6%83%B3%E6%8A%93%E7%8C%95%E7%8C%B4%E5%AE%9D%E5%AE%9D%E5%9B%9E%E5%AE%B6%E5%85%BB%E9%81%AD%E6%8B%A6&sa=fyb_news&rsv_dl=fyb_news",
+          "publishedOn": "2026-09-16T16:02:08.000Z",
+          "wordCount": 6,
+          "title": "男子想抓猕猴宝宝回家养遭拦 热度：4448492",
+          "imageUrl": null
+        },
+        {
+          "id": "2175997",
+          "author": null,
+          "description": "近日，吉林市一学校班级群通知，提醒学生因校外附近出现老虎，夜间请勿在外逗留。校方16日回应，老虎出没地点实际距离校区约10公里，暂不影响校内安全。学...",
+          "link": "https://www.baidu.com/s?wd=%E5%90%89%E6%9E%97%E4%B8%80%E9%AB%98%E6%A0%A110%E5%85%AC%E9%87%8C%E5%A4%96%E5%8F%91%E7%8E%B0%E8%80%81%E8%99%8E&sa=fyb_news&rsv_dl=fyb_news",
+          "publishedOn": "2026-09-16T16:02:08.000Z",
+          "wordCount": 6,
+          "title": "吉林一高校10公里外发现老虎 热度：4560147",
+          "imageUrl": null
+        },
+        {
+          "id": "2175996",
+          "author": null,
+          "description": "9月15日，有网友称，在河南信阳东站停车场有一辆武汉牌照的小轿车，停了近7年满身灰尘。停车场称已欠费五六万元，曾联系车主未果。",
+          "link": "https://www.baidu.com/s?wd=%E5%B0%8F%E8%BD%A6%E5%9C%A8%E9%AB%98%E9%93%81%E7%AB%99%E5%81%9C7%E5%B9%B4%E6%AC%A0%E8%B4%B9%E8%BF%916%E4%B8%87&sa=fyb_news&rsv_dl=fyb_news",
+          "publishedOn": "2026-09-16T16:02:08.000Z",
+          "wordCount": 6,
+          "title": "小车在高铁站停7年欠费近6万 热度：4741535",
+          "imageUrl": null
+        },
+        {
+          "id": "2175988",
+          "author": null,
+          "description": "近日，四川张先生帮爷爷清理手机时，发现桌面四五页全是“流氓软件”，长按删除反弹广告、越删越多，最终在设置里批量清理，花40多分钟删掉130多个。",
+          "link": "https://www.baidu.com/s?wd=%E8%80%81%E4%BA%BA%E6%89%8B%E6%9C%BA130%E4%B8%AA%E6%B5%81%E6%B0%93%E8%BD%AF%E4%BB%B6%E7%96%AF%E7%8B%82%E5%BC%B9%E5%B9%BF%E5%91%8A&sa=fyb_news&rsv_dl=fyb_news",
+          "publishedOn": "2026-09-16T16:02:07.000Z",
+          "wordCount": 6,
+          "title": "老人手机130个流氓软件疯狂弹广告 热度：4830085",
+          "imageUrl": null
+        },
+        {
+          "id": "2175975",
+          "author": null,
+          "description": "9月16日，理想举办发布会正式发布i9Home，发布会结束后即刻开启定购。理想i9全国统一售价36.98万元，车身长5225mm、轴距3168mm...",
+          "link": "https://www.baidu.com/s?wd=%E7%90%86%E6%83%B3i9%E4%B8%8A%E5%B8%82+%E5%94%AE%E4%BB%B736.98%E4%B8%87&sa=fyb_news&rsv_dl=fyb_news",
+          "publishedOn": "2026-09-16T16:02:07.000Z",
+          "wordCount": 6,
+          "title": "理想i9上市售价36.98万 热度：4948214",
+          "imageUrl": null
+        },
+        {
+          "id": "2175974",
+          "author": null,
+          "description": "目前，受曾是军人的父亲影响，小伙三次应征后终于成功入伍。奶奶含泪叮嘱他不要流泪，要好好保家卫国。此前，小伙12岁时母亲去世，17岁时父亲去世，由奶奶...",
+          "link": "https://www.baidu.com/s?wd=%E7%88%B6%E6%AF%8D%E7%A6%BB%E4%B8%96%E5%90%8E%E5%B0%8F%E4%BC%993%E6%AC%A1%E5%BA%94%E5%BE%81%E7%BB%88%E5%85%A5%E4%BC%8D&sa=fyb_news&rsv_dl=fyb_news",
+          "publishedOn": "2026-09-16T16:02:06.000Z",
+          "wordCount": 6,
+          "title": "父母离世后小伙3次应征终入伍 热度：5048982",
+          "imageUrl": null
+        },
+        {
+          "id": "2175970",
+          "author": null,
+          "description": "近日，四川安岳一乡村小学被指无学生就餐场所，雨天学生需打伞端饭盒回教室吃，而教师另有专门用餐间。校方对此回应，因学校成立多年且校区面积窄，食堂面积受...",
+          "link": "https://www.baidu.com/s?wd=%E5%AD%A6%E7%94%9F%E9%9B%A8%E5%A4%A9%E6%89%93%E4%BC%9E%E7%AB%AF%E9%A5%AD%E7%9B%92%E5%9B%9E%E6%95%99%E5%AE%A4+%E6%A0%A1%E6%96%B9%E5%9B%9E%E5%BA%94&sa=fyb_news&rsv_dl=fyb_news",
+          "publishedOn": "2026-09-16T16:02:06.000Z",
+          "wordCount": 6,
+          "title": "学生雨天打伞端饭盒回教室校方回应 热度：5427005",
+          "imageUrl": null
+        },
+        {
+          "id": "2175968",
+          "author": null,
+          "description": "当地时间9月16日，赵家驹在“巨人之旅”330公里越野赛中以65小时55分22秒夺冠破纪录，成首位中国籍冠军，全程累计睡眠仅约1小时。",
+          "link": "https://www.baidu.com/s?wd=%E8%B5%B5%E5%AE%B6%E9%A9%B966%E5%B0%8F%E6%97%B6%E8%B7%91%E5%AE%8C330%E5%85%AC%E9%87%8C%E4%BB%85%E7%9D%A11%E5%B0%8F%E6%97%B6&sa=fyb_news&rsv_dl=fyb_news",
+          "publishedOn": "2026-09-16T16:02:05.000Z",
+          "wordCount": 6,
+          "title": "赵家驹66小时跑完330公里仅睡1小时 热度：5517876",
+          "imageUrl": null
+        },
+        {
+          "id": "2175965",
+          "author": null,
+          "description": "近日，台海谍战剧《交锋》热播引发民进党及西方媒体指责。民进党称大陆因“焦虑”拍剧，英媒酸其为“宣传”。文章指出，该剧戳破了民进党的舆论谎言，体现出中...",
+          "link": "https://www.baidu.com/s?wd=%E3%80%8A%E4%BA%A4%E9%94%8B%E3%80%8B%E7%83%AD%E6%92%AD+%E6%9C%89%E4%BA%BA%E6%80%A5%E4%BA%86&sa=fyb_news&rsv_dl=fyb_news",
+          "publishedOn": "2026-09-16T16:02:05.000Z",
+          "wordCount": 6,
+          "title": "《交锋》热播有人急了 热度：5622497",
+          "imageUrl": null
+        },
+        {
+          "id": "2175961",
+          "author": null,
+          "description": "近日，三九胃泰发布“求你们中秋别团圆了”海报引争议，华润三九回应称正在撤下。此前七夕该品牌也曾投放“劝分手”广告。作者批评其反向营销反常识，靠冒犯换...",
+          "link": "https://www.baidu.com/s?wd=%E4%B8%89%E4%B9%9D%E8%83%83%E6%B3%B0%E7%9A%84%E8%90%A5%E9%94%80%E7%97%85+%E6%AF%94%E8%83%83%E7%97%85%E6%9B%B4%E8%AF%A5%E6%B2%BB&sa=fyb_news&rsv_dl=fyb_news",
+          "publishedOn": "2026-09-16T16:02:05.000Z",
+          "wordCount": 6,
+          "title": "三九胃泰的营销病比胃病更该治 热度：5709231",
+          "imageUrl": null
+        },
+        {
+          "id": "2175957",
+          "author": null,
+          "description": "9月16日，“一点点威胁员工”登热搜第一。天眼查显示，其母公司参保仅2人，涉诉数百起。事件起因于一员工爆料其今年3月入职一点点未签劳动合同、未缴社保...",
+          "link": "https://www.baidu.com/s?wd=%E4%B8%80%E7%82%B9%E7%82%B9%E6%80%BB%E9%83%A8%E4%BB%852%E4%BA%BA%E5%8F%82%E4%BF%9D&sa=fyb_news&rsv_dl=fyb_news",
+          "publishedOn": "2026-09-16T16:02:04.000Z",
+          "wordCount": 6,
+          "title": "一点点总部仅2人参保 热度：5994517",
+          "imageUrl": null
+        },
+        {
+          "id": "2175956",
+          "author": null,
+          "description": "谢霆锋在节目中自曝不断跨行是因为焦虑。他坦言自己从小就非常焦虑，从唱歌到演戏再到做生意不断跨界，是因为害怕达不到预期、害怕失败，且直言现在依然如此。",
+          "link": "https://www.baidu.com/s?wd=%E8%B0%A2%E9%9C%86%E9%94%8B%E7%A7%B0%E4%B8%8D%E6%96%AD%E8%B7%A8%E8%A1%8C%E6%98%AF%E5%9B%A0%E4%B8%BA%E7%84%A6%E8%99%91&sa=fyb_news&rsv_dl=fyb_news",
+          "publishedOn": "2026-09-16T16:02:04.000Z",
+          "wordCount": 6,
+          "title": "谢霆锋称不断跨行是因为焦虑 热度：6080018",
+          "imageUrl": null
+        },
+        {
+          "id": "2175955",
+          "author": null,
+          "description": "9月11日，哪吒汽车母公司重整草案披露，成立仅5个月的太乙圣莲拟出资30亿成为控股股东。9月15日，背后实控人、宁波80后富豪叶骥旗下的山子高科澄清...",
+          "link": "https://www.baidu.com/s?wd=80%E5%90%8E%E5%AF%8C%E8%B1%AA%E8%A6%81%E6%8E%8F30%E4%BA%BF%E6%95%91%E5%93%AA%E5%90%92%E6%B1%BD%E8%BD%A6%E5%9B%BE%E4%BB%80%E4%B9%88&sa=fyb_news&rsv_dl=fyb_news",
+          "publishedOn": "2026-09-16T16:02:03.000Z",
+          "wordCount": 6,
+          "title": "80后富豪要掏30亿救哪吒汽车图什么 热度：6183867",
+          "imageUrl": null
+        },
+        {
+          "id": "2175954",
+          "author": null,
+          "description": "9月15日，江苏一家猪蹄面馆推出“30岁以上老人吃面送荷包蛋”活动。面馆老板回应称，确有引流考虑，但自己也是三十多岁，这个年纪上有老下有小易忽略自己...",
+          "link": "https://www.baidu.com/s?wd=%E2%80%9C30%E5%B2%81%E4%BB%A5%E4%B8%8A%E8%80%81%E4%BA%BA%E5%90%83%E9%9D%A2%E9%80%81%E8%8D%B7%E5%8C%85%E8%9B%8B%E2%80%9D&sa=fyb_news&rsv_dl=fyb_news",
+          "publishedOn": "2026-09-16T16:02:03.000Z",
+          "wordCount": 6,
+          "title": "“30岁以上老人吃面送荷包蛋” 热度：6283973",
+          "imageUrl": null
+        },
+        {
+          "id": "2175953",
+          "author": null,
+          "description": "近日，古装剧《兰香如故》播出引发长剧剧名同质化热议。文章指出，剧名“如”“锦”泛滥，是剧方打“安全牌”分摊风险及规避审核的策略。剧名同质化与内容套路...",
+          "link": "https://www.baidu.com/s?wd=%E2%80%9C%E5%A6%82%E2%80%9D%E5%AD%97%E6%B3%9B%E6%BB%A5+%E2%80%9C%E9%94%A6%E2%80%9D%E5%AD%97%E5%88%B7%E5%B1%8F&sa=fyb_news&rsv_dl=fyb_news",
+          "publishedOn": "2026-09-16T16:02:03.000Z",
+          "wordCount": 6,
+          "title": "“如”字泛滥“锦”字刷屏 热度：6381629",
+          "imageUrl": null
+        },
+        {
+          "id": "2175952",
+          "author": null,
+          "description": "当地时间17日0时7分左右，日本关东地区发生地震。据日本气象厅消息，日本茨城县南部发生4.8级地震，最大震感为震度3，震源深度70公里，东京有明显震...",
+          "link": "https://www.baidu.com/s?wd=%E6%97%A5%E6%9C%AC%E8%8C%A8%E5%9F%8E%E5%8E%BF%E5%9C%B0%E9%9C%87+%E4%B8%9C%E4%BA%AC%E6%9C%89%E6%98%8E%E6%98%BE%E9%9C%87%E6%84%9F&sa=fyb_news&rsv_dl=fyb_news",
+          "publishedOn": "2026-09-16T16:02:02.000Z",
+          "wordCount": 6,
+          "title": "日本茨城县地震东京有明显震感 热度：6463840",
+          "imageUrl": null
+        },
+        {
+          "id": "2175951",
+          "author": null,
+          "description": "9月16日，一女子在加勒比海沿岸买海螺，意外开出粉色“海螺珠”。当事人表示海螺价格为15美元一公斤，开出的珠子1厘米左右，约5万只海螺才能产出1颗。",
+          "link": "https://www.baidu.com/s?wd=%E5%A5%B3%E5%AD%90%E5%9C%A8%E5%8A%A0%E5%8B%92%E6%AF%94%E6%B5%B7%E4%B9%B0%E6%B5%B7%E8%9E%BA+%E7%AB%9F%E5%BC%80%E5%87%BA%E4%B8%87%E5%85%83%E7%8F%A0&sa=fyb_news&rsv_dl=fyb_news",
+          "publishedOn": "2026-09-16T16:02:02.000Z",
+          "wordCount": 6,
+          "title": "女子在加勒比海买海螺竟开出万元珠 热度：6563585",
+          "imageUrl": null
+        },
+        {
+          "id": "2175950",
+          "author": null,
+          "description": "近日，重庆发生一起令人痛心的意外事件：一名2岁2个月大的幼童从18楼坠楼身亡。孩子母亲刘女士在网络发帖称，丈夫崔先生外出遛狗时将幼童独自留在家中，导...",
+          "link": "https://www.baidu.com/s?wd=%E7%88%B6%E4%BA%B2%E9%81%9B%E7%8B%972%E5%B2%81%E5%B9%BC%E7%AB%A5%E7%8B%AC%E7%95%99%E5%AE%B6%E4%B8%AD%E5%9D%A0%E4%BA%A1&sa=fyb_news&rsv_dl=fyb_news",
+          "publishedOn": "2026-09-16T16:02:02.000Z",
+          "wordCount": 6,
+          "title": "父亲遛狗2岁幼童独留家中坠亡 热度：6754248",
+          "imageUrl": null
+        },
+        {
+          "id": "2175949",
+          "author": null,
+          "description": "9月16日，王曼昱回应首次登顶女单世界第一，称这是阶段性认可，相比排名更重要的是保持竞技状态。此前，国际乒联公布最新一期世界排名，中国选手王曼昱超越...",
+          "link": "https://www.baidu.com/s?wd=%E7%8E%8B%E6%9B%BC%E6%98%B1%E5%9B%9E%E5%BA%94%E9%A6%96%E6%AC%A1%E7%99%BB%E9%A1%B6%E5%A5%B3%E5%8D%95%E4%B8%96%E7%95%8C%E7%AC%AC%E4%B8%80&sa=fyb_news&rsv_dl=fyb_news",
+          "publishedOn": "2026-09-16T16:02:01.000Z",
+          "wordCount": 6,
+          "title": "王曼昱回应首次登顶女单世界第一 热度：6953213",
+          "imageUrl": null
+        },
+        {
+          "id": "2175948",
+          "author": null,
+          "description": "近日，女演员肖妍倪再次进入剧组拍摄短剧。此前，她于2021年突发心脏骤停成植物人，昏迷3个月后苏醒，但左侧身体偏瘫。今年7月她赴横店试戏未果，随后获...",
+          "link": "https://www.baidu.com/s?wd=%E5%A5%B3%E6%BC%94%E5%91%98%E5%BF%83%E8%84%8F%E9%AA%A4%E5%81%9C%E5%BA%B7%E5%A4%8D5%E5%B9%B4%E5%90%8E%E9%87%8D%E6%96%B0%E6%8B%8D%E6%88%8F&sa=fyb_news&rsv_dl=fyb_news",
+          "publishedOn": "2026-09-16T16:02:01.000Z",
+          "wordCount": 6,
+          "title": "女演员心脏骤停康复5年后重新拍戏 热度：7141969",
+          "imageUrl": null
+        },
+        {
+          "id": "2175947",
+          "author": null,
+          "description": "9月16日晚，广西高院召开“儿子去世孙子非亲生案”再审听证会，暂未出结果，要求当事人15日内提交书面意见。此前，陆家父母因儿子去世后发现孙子非亲生起...",
+          "link": "https://www.baidu.com/s?wd=%E5%84%BF%E5%AD%90%E5%8E%BB%E4%B8%96%E5%AD%99%E5%AD%90%E9%9D%9E%E4%BA%B2%E7%94%9F+%E8%80%81%E4%BA%BA%EF%BC%9A%E6%96%AD%E5%AD%90%E7%BB%9D%E5%AD%99%E4%BA%86&sa=fyb_news&rsv_dl=fyb_news",
+          "publishedOn": "2026-09-16T16:02:00.000Z",
+          "wordCount": 6,
+          "title": "儿子去世孙子非亲生老人：断子绝孙了 热度：7238725",
+          "imageUrl": null
+        },
+        {
+          "id": "2175946",
+          "author": null,
+          "description": "9月15日凌晨，南方医科大学广州白云校区一名学生坠亡后，网传“父母进ICU导师不批假”“导师压榨”等说法；9月16日其导师与家属受访并出示完整聊天记...",
+          "link": "https://www.baidu.com/s?wd=%E5%8D%97%E5%8C%BB%E5%A4%A7%E5%9D%A0%E4%BA%A1%E4%BA%8B%E4%BB%B6%E5%AF%BC%E5%B8%88%E5%AD%A6%E7%94%9F%E8%81%8A%E5%A4%A9%E8%AE%B0%E5%BD%95&sa=fyb_news&rsv_dl=fyb_news",
+          "publishedOn": "2026-09-16T16:02:00.000Z",
+          "wordCount": 6,
+          "title": "南医大坠亡事件导师学生聊天记录 热度：7332595",
+          "imageUrl": null
+        },
+        {
+          "id": "2175945",
+          "author": null,
+          "description": "麦可思最新研究数据显示，2025年受访在校大学生的平均每月生活费为1744元，多数学生的生活费集中在每月1200—2000元之间。受访人群中，有大约...",
+          "link": "https://www.baidu.com/s?wd=%E5%A4%A7%E4%B8%80%E6%96%B0%E7%94%9F1000%E5%9D%97%E4%B8%80%E4%B8%AA%E6%9C%88%E5%88%B0%E5%BA%95%E5%A4%9F%E8%8A%B1%E5%90%97&sa=fyb_news&rsv_dl=fyb_news",
+          "publishedOn": "2026-09-16T16:02:00.000Z",
+          "wordCount": 6,
+          "title": "大一新生1000块一个月到底够花吗 热度：7428632",
+          "imageUrl": null
+        },
+        {
+          "id": "2175944",
+          "author": null,
+          "description": "16日，多国代表团抵达日本名古屋备战亚运会，因系统故障被困机场近6小时无车可乘、无饭可吃。中国体操队等至下午6点才离开，羽毛球队求助领事馆自行租车。...",
+          "link": "https://www.baidu.com/s?wd=%E5%A4%9A%E5%9B%BD%E8%BF%90%E5%8A%A8%E5%91%98%E8%A2%AB%E5%9B%B0%E6%97%A5%E6%9C%AC%E6%9C%BA%E5%9C%BA%EF%BC%9A%E5%8F%88%E5%9B%B0%E5%8F%88%E9%A5%BF&sa=fyb_news&rsv_dl=fyb_news",
+          "publishedOn": "2026-09-16T16:01:59.000Z",
+          "wordCount": 6,
+          "title": "多国运动员被困日本机场：又困又饿 热度：7520705",
+          "imageUrl": null
+        },
+        {
+          "id": "2175943",
+          "author": null,
+          "description": "9月16日，平陆运河正式通航，这项世纪工程的顺畅运转，离不开“全能管家”青年调度中心。青年调度中心作为国内首个全生命周期智慧运河数字孪生平台，可以实...",
+          "link": "https://www.baidu.com/s?wd=%E5%B9%B3%E9%99%86%E8%BF%90%E6%B2%B3%E2%80%9C%E5%85%A8%E8%83%BD%E7%AE%A1%E5%AE%B6%E2%80%9D%E6%9C%89%E5%A4%9A%E7%A1%AC%E6%A0%B8&sa=fyb_news&rsv_dl=fyb_news",
+          "publishedOn": "2026-09-16T16:01:59.000Z",
+          "wordCount": 6,
+          "title": "平陆运河“全能管家”有多硬核 热度：7617117",
+          "imageUrl": null
+        },
+        {
+          "id": "2175942",
+          "author": null,
+          "description": "9月12日至13日，国家主席习近平赴印度出席金砖国家领导人第十八次会晤，提出“四大先锋”主张及一系列务实举措。此访推动“大金砖合作”高质量发展，为全...",
+          "link": "https://www.baidu.com/s?wd=%E4%B8%BA%E6%8E%A8%E5%8A%A8%E5%85%A8%E7%90%83%E5%8D%97%E6%96%B9%E5%9B%A2%E7%BB%93%E8%87%AA%E5%BC%BA%E5%87%9D%E8%81%9A%E5%8A%9B%E9%87%8F&sa=fyb_news&rsv_dl=fyb_news",
+          "publishedOn": "2026-09-16T16:01:59.000Z",
+          "wordCount": 6,
+          "title": "为推动全球南方团结自强凝聚力量 热度：7904106",
+          "imageUrl": null
+        },
         {
           "id": "2175539",
           "author": null,
@@ -50468,16 +50858,6 @@
           "publishedOn": "2026-09-02T23:43:26.000Z",
           "wordCount": 2037,
           "title": "财经大V到底水平高还是低，有论文为证！",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.jisilu.cn/question/524946",
-          "author": null,
-          "description": "收盘\n农产品指数，破了五天线，十天线\n领跌的是棉花，\n领涨的是豆油\n流出24\n亿\n\n做的期权品种\n豆一期权，豆二期权，豆粕期权，菜粕期权\n菜油期权，棕榈期权\n\n豆粕期权，盘中有五到六分没有成交\n无语了",
-          "link": "https://www.jisilu.cn/question/524946",
-          "publishedOn": "2026-09-02T07:12:06.000Z",
-          "wordCount": 95,
-          "title": "今天做了六个期权，全是农产品期权",
           "imageUrl": null
         }
       ]
@@ -83259,6 +83639,16 @@
       "siteUrl": "https://www.ftchinese.com/",
       "articles": [
         {
+          "id": "https://www.ftchinese.com/story/001110862",
+          "author": null,
+          "description": "黄凡：“美国技术平台与闭源性能领先”与“中国场景驱动与开源生态突破”的双核竞争格局，将进一步如何演变？投资人又该如何把握好下一步的重点机会？",
+          "link": "https://www.ftchinese.com/story/001110862",
+          "publishedOn": "2026-09-15T16:00:00.000Z",
+          "wordCount": 1014,
+          "title": "中美AI赛道竞争格局分析与投资机会探索",
+          "imageUrl": "https://d1sh1cgb4xvhl.cloudfront.net/unsafe/1200x630/picture/3/000344883_piclink.jpg"
+        },
+        {
           "id": "https://www.ftchinese.com/story/001110886",
           "author": null,
           "description": "沈建光：如何“中国冲击”转化为“中国机遇“？如何把产业优势转化为引领全球共同繁荣的持久动能？如何多管齐下打造中国机遇？",
@@ -83317,6 +83707,16 @@
           "wordCount": 975,
           "title": "中国光伏如何改变乌克兰战时能源生存方式？",
           "imageUrl": "https://d1sh1cgb4xvhl.cloudfront.net/unsafe/1200x630/picture/4/000313504_piclink.jpg"
+        },
+        {
+          "id": "https://www.ftchinese.com/story/001110874",
+          "author": null,
+          "description": "《逃不开的经济周期》写的是一个不断重来的世界。过去的繁荣建立在更多商品、更大规模和更多信息上，下一轮繁荣面对的则是另一套价值排序。",
+          "link": "https://www.ftchinese.com/story/001110874",
+          "publishedOn": "2026-09-13T16:00:00.000Z",
+          "wordCount": 963,
+          "title": "逃不开的经济周期：从物质扩张到反向稀缺，富足的尺度已经改变",
+          "imageUrl": "https://d1sh1cgb4xvhl.cloudfront.net/unsafe/1200x630/picture/2/000345502_piclink.jpg"
         },
         {
           "id": "https://www.ftchinese.com/story/001110863",
@@ -89100,6 +89500,106 @@
       "siteUrl": "http://www.newsmth.net/nForum",
       "articles": [
         {
+          "id": "http://www.newsmth.net/nForum/article/Geography/686807",
+          "author": "qtpr",
+          "description": "������: qtpr (Transcendence constitutes selfhood.), ����: Geography\n��  ��: ������Ϊɶĳ�д�����˻�������\n����վ: ˮľ���� (Wed Sep 16 18:42:40 2026), վ��\nĳ�в��÷ɣ��������⡣\n��ĳ�е����������˻���ƽʱ ���ڼ��ȥ�������ʱ�ŷɣ�Ҳ������\n�б�Ҫ�³�������\n--\n�� ��Դ:��ˮľ���� http://www.mysmth.net��[FROM: 111.167.210.*]",
+          "link": "http://www.newsmth.net/nForum/article/Geography/686807",
+          "publishedOn": "2026-09-16T20:19:56.000Z",
+          "wordCount": 544,
+          "title": "������Ϊɶĳ�д�����˻�������",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.newsmth.net/nForum/article/OurEstate/3511105",
+          "author": "thisisshuimu",
+          "description": "������: thisisshuimu (�����ˮľ), ����: OurEstate\n��  ��: ������ĭ����һ�꿪ʼ�ƣ���ʲô��־����ô\n����վ: ˮľ���� (Wed Sep 16 22:15:05 2026), վ��\n--���� ismth(˿����)\n--\n�����ˮľ\n�� �޸�:��thisisshuimu �� Sep 16 22:16:25 2026 �޸ı��ġ�[FROM: 114.241.34.*]\n�� ��Դ:��ˮľ���� http://www.mysmth.net��[FROM: 114.241.34.*]",
+          "link": "http://www.newsmth.net/nForum/article/OurEstate/3511105",
+          "publishedOn": "2026-09-16T20:15:00.000Z",
+          "wordCount": 581,
+          "title": "������ĭ����һ�꿪ʼ�ƣ���ʲô��־����ô",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.newsmth.net/nForum/article/FamilyLife/1767709545",
+          "author": "ajun",
+          "description": "������: ajun (����רҵ����Ա), ����: FamilyLife\n��  ��: �����ĵ��������ӡ�\n����վ: ˮľ���� (Wed Sep 16 08:21:12 2026), վ��\n\n\n\n\n\n\n\n\n\n\n\n--\n�� ��Դ:��ˮľ���� http://www.mysmth.net��[FROM: 123.113.47.68]",
+          "link": "http://www.newsmth.net/nForum/article/FamilyLife/1767709545",
+          "publishedOn": "2026-09-16T19:47:50.000Z",
+          "wordCount": 481,
+          "title": "�����ĵ��������ӡ�",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.newsmth.net/nForum/article/GaoKao/679183",
+          "author": "lele20260212",
+          "description": "������: lele20260212 (lele20260212), ����: GaoKao\n��  ��: ����̡������Ч��Ȱ˵�����ڴ�ѧ��ͬ��\n����վ: ˮľ���� (Tue Sep 15 20:19:00 2026), վ��\n���ȣ��Ӽҳ��Ƕȶ��ԣ��ǲ��޳ɺ����ڴ�ѧ��ͬ�ӹ���С���ӵġ�\nȻ����Ϊ���Ӵ��ˣ�ϲ�����ɣ����Ե���˵�̿��ܻ��淴���ʵ��䷴��\n���ԣ���̸�λ������û�кõĲ��Ի򷽷���\n���⣬�к��ӵļҳ���Ů���ӵļҳ��۵���ܺܲ�һ����\n�����ѽ����������ڴ�ѧ�ڼ���Ϊͬ����.��.������������Ҫ���ӳ��ֺܴ���ϰ�����ʵ���Ƕ���Ů������.���Ƚϴ�\n--\n�� �޸�:��lele20260212 �� Sep 15 20:21:57 2026 �޸ı��ġ�[FROM: 221.197.194.*]\n�� ��Դ:��ˮľ���� http://m.mysmth.net��[FROM: 221.197.194.*]",
+          "link": "http://www.newsmth.net/nForum/article/GaoKao/679183",
+          "publishedOn": "2026-09-16T19:19:11.000Z",
+          "wordCount": 531,
+          "title": "����̡������Ч��Ȱ˵�����ڴ�ѧ��ͬ��",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.newsmth.net/nForum/article/Travel/1104289",
+          "author": "mariaxu",
+          "description": "������: mariaxu (���˹������ǿ��), ����: Travel\n��  ��: �����������������Լ۱ȵ�\n����վ: ˮľ���� (Wed Sep 16 08:50:27 2026), վ��\n������ȥ�ൺ���ߣ����˾Ƶ�۸񣬸�ȥ����ۡ���۲����ˣ��Լ۱Ⱥö��ˡ�\n--\n�� ��Դ:��ˮľ���� http://www.mysmth.net��[FROM: 120.244.161.*]",
+          "link": "http://www.newsmth.net/nForum/article/Travel/1104289",
+          "publishedOn": "2026-09-16T19:18:03.000Z",
+          "wordCount": 506,
+          "title": "�����������������Լ۱ȵ�",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.newsmth.net/nForum/article/Songs/19976",
+          "author": "worst",
+          "description": "������: worst (ȫ���׻�), ����: Songs\n��  ��: �������ȥ�г�\n����վ: ˮľ���� (Wed Sep 16 09:03:27 2026), վ��\n��Щ�±�\n��������\n������ʹ��׾�\n����\n��Ƥ\n���\n����˿\n�����\n��Բ\n�ȵȵ�\n��Ҫ�ǵ�Ķ�¥���˲���С�Ե�\n����˳�������������\n--\n                                            __                 \n      �ġ�    __  _  _____________  _______/  |_     �ġ�      \n     �R��Q   \\ \\/ \\/ /  _ \\_  __ \\/  ___/\\   __\\   �R��Q     \n  ���r/�l\\     \\     (  <_> )  | \\/\\___ \\  |  |      /�l\\�q��  \n    �t�s        \\/\\_/ \\____/|__|  /____  > |__|        �t�s    \n                                       \\/                      \n\n�� ��Դ:��ˮľ���� http://www.mysmth.net��[FROM: 73.13.160.*]",
+          "link": "http://www.newsmth.net/nForum/article/Songs/19976",
+          "publishedOn": "2026-09-16T17:48:29.000Z",
+          "wordCount": 497,
+          "title": "�������ȥ�г�",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.newsmth.net/nForum/article/ADAgent%5FTG/1346080",
+          "author": "langerbuku",
+          "description": "Դ���廪�ĸ�֪��Ⱥ��������ͨ����������",
+          "link": "http://www.newsmth.net/nForum/article/ADAgent%5FTG/1346080",
+          "publishedOn": "2026-09-16T17:39:40.000Z",
+          "wordCount": 534,
+          "title": "���ƺ��������뺣�ڡ���բз���������ƣ���ʽ���ţ�����",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.newsmth.net/nForum/article/MMJoke/1634854550",
+          "author": "aiworking",
+          "description": "������: aiworking (aiworking), ����: MMJoke\n��  ��: �����ݱ�������������\n����վ: ˮľ���� (Fri Sep  4 12:34:25 2026), վ��\n�й�������ѧ�ҵ���Ů��ȫ����Ȼ����\n\n--\n[upload=1][/upload]\n�� �޸�:��aiworking �� Sep  4 15:38:27 2026 �޸ı��ġ�[FROM: 221.221.155.*]\n�� ��Դ:��ˮľ���� http://www.mysmth.net��[FROM: 221.221.155.*]",
+          "link": "http://www.newsmth.net/nForum/article/MMJoke/1634854550",
+          "publishedOn": "2026-09-16T16:48:38.000Z",
+          "wordCount": null,
+          "title": "�����ݱ�������������",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.newsmth.net/nForum/article/Stock/11585104",
+          "author": "two420",
+          "description": "������: two420 (û̬�ȵ����������), ����: Stock\n��  ��: �����ǣ��뵼�������ȲƱ��ȶ����Ⱥõı��Ԥ������Щ\n����վ: ˮľ���� (Wed Sep 16 22:00:25 2026), վ��\n����о�Ҫ�߿����ߣ��п�λ��ǰ������ȥ���ܲ��������������ɡ�\n--���� ismth(˿����)\n--\n�� ��Դ:��ˮľ���� http://m.mysmth.net��[FROM: 223.104.41.88]",
+          "link": "http://www.newsmth.net/nForum/article/Stock/11585104",
+          "publishedOn": "2026-09-16T16:43:24.000Z",
+          "wordCount": 76,
+          "title": "�����ǣ��뵼�������ȲƱ��ȶ����Ⱥõı��Ԥ������Щ",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.newsmth.net/nForum/article/WangJing/255329",
+          "author": "andyyeh",
+          "description": "������: andyyeh (andyyeh), ����: WangJing\n��  ��: [����]���Ժ������У���������л���·����ͣ���շѱ���\n����վ: ˮľ���� (Wed Sep 16 12:22:10 2026), վ��\n��ĩ���컨�ҵؽ����Ժ��ѧ�������⸽�����շ���Ա��˵�ͣ������������߼�԰3�������ҵ������С�����ⲿ��������ͣ����лл��\n--\n\n\n�� �޸�:��andyyeh �� Sep 16 12:22:35 2026 �޸ı��ġ�[FROM: 114.254.3.*]\n�� ��Դ:��ˮľ���� http://www.mysmth.net��[FROM: 114.254.3.*]",
+          "link": "http://www.newsmth.net/nForum/article/WangJing/255329",
+          "publishedOn": "2026-09-16T16:16:55.000Z",
+          "wordCount": 239,
+          "title": "[����]���Ժ������У���������л���·����ͣ���շѱ���",
+          "imageUrl": null
+        },
+        {
           "id": "http://www.newsmth.net/nForum/article/Divorce/2219627",
           "author": "lxcheng322",
           "description": "������: lxcheng322 (lxcheng), ����: Divorce\n��  ��: �����ߵ������ı�Ե\n����վ: ˮľ���� (Wed Sep 16 11:26:53 2026), վ��\n���ʵ�ڷ��ƣ���ǻŭ���޴���й���������������²۰ɡ�����\n�����Ž���7���ˣ����һ����ì�ܸ��ֱ���������ì�������ŵĸ�����Ϊ�Ѿ����ٺ��������ˣ����α������ˡ����������͵����ӣ���������Ǯ�й�ϵ��\n1�����֧����ȫû��֪�᣺һ���Ի���6w ȥ���ݣ��������ͥ���Ǵ���֧���ˣ���֮�����Ŀ�֧����ȫû��֪����ң��º���Ϊ������ƭ������׷�֡�����\n2��ϣ�����Ұֵ����ݵ��η�������ȡһ���Ļر����ر������衣������������������ʱ��ûͬ�⣬���ü����з���Ҳ���Ұ�����������ν�������赱�Ͳ��С������ͷ�ƹ��Ҹ��Ұ�����ϵ���Ұ���Ҳû�뵽û������ͬ�⣬ϡ���Ϳ�ľ͵����˷��˵ȵ�һ���ְ�񡣹���ü����������Ұ����֪����ȥ��������ʱһ������ν��ľ�ѳ��۵����ӣ�û�н���û�е�Ǹ��������˳���˾�����ֱ��˦���˳�����飬����һ���¡�������������\n�������ܺü������Ƶ��£�Ҫô��֪�ᣬ�����Ƿ�ͬ�⣬����ִ�У������̬�ȵ�����Ҳ���Ҽ����𾪡����α������ˣ��޻�С������С�ְ�ճ�ˣ��ǳ����Ҽ��ޣ���Ҳ�������Һ�����������ԥҪ��Ҫ��飬������������ɲ�������������ˡ���������\n�����£������ŷ�ŭ�����ˡ����Ǹ��������ַ����󡣡�������\n--\n�� ��Դ:��ˮľ���� http://www.mysmth.net��[FROM: 221.194.171.*]",
@@ -94113,6 +94613,166 @@
       "siteUrl": "https://www.reddit.com/r/popular/",
       "articles": [
         {
+          "id": "https://www.reddit.com/r/Fauxmoi/comments/1wi84hl/macklemore_releases_new_statement_saying_his/",
+          "author": null,
+          "description": "submitted by    /u/plutobug2468    to    r/Fauxmoi  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/Fauxmoi/comments/1wi84hl/macklemore_releases_new_statement_saying_his/",
+          "publishedOn": "2026-09-16T20:01:56.000Z",
+          "wordCount": null,
+          "title": "Macklemore releases new statement saying his earnings from Ed Sheeran’s The Loop Tour will be donated to Palestinian organisations",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/SipsTea/comments/1wi7mwg/this_is_facts/",
+          "author": null,
+          "description": "submitted by    /u/Swimming-Employee537    to    r/SipsTea  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/SipsTea/comments/1wi7mwg/this_is_facts/",
+          "publishedOn": "2026-09-16T19:44:17.000Z",
+          "wordCount": null,
+          "title": "This is facts",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/LivestreamFail/comments/1wi6zz3/54_year_old_live_streamer_claims_i_made_thousands/",
+          "author": null,
+          "description": "Courtesy of DSP Gaming\n He also claims I am a talentless loser but I am pretty decent at drawing I think: (instagram for proof)\n    submitted by    /u/Fun_Hovercraft_6488    to    r/LivestreamFail  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/LivestreamFail/comments/1wi6zz3/54_year_old_live_streamer_claims_i_made_thousands/",
+          "publishedOn": "2026-09-16T19:20:53.000Z",
+          "wordCount": null,
+          "title": "54 year old live streamer claims I made thousands of dollars by posting him on this subreddit yestarday. Labels me a thief and calls for my arrest.",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/mildlyinfuriating/comments/1wi6huv/north_texas_station_out_of_diesel/",
+          "author": null,
+          "description": "This is not going to end well. Motor oil is also being limited. \n    submitted by    /u/FunkyPlunkett    to    r/mildlyinfuriating  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/mildlyinfuriating/comments/1wi6huv/north_texas_station_out_of_diesel/",
+          "publishedOn": "2026-09-16T19:03:32.000Z",
+          "wordCount": null,
+          "title": "North Texas Station out of Diesel.",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/dashcams/comments/1wi654d/once_the_cop_heard_dash_cam_he_knew_he_messed_up/",
+          "author": null,
+          "description": "submitted by    /u/386attention    to    r/dashcams  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/dashcams/comments/1wi654d/once_the_cop_heard_dash_cam_he_knew_he_messed_up/",
+          "publishedOn": "2026-09-16T18:51:06.000Z",
+          "wordCount": null,
+          "title": "Once the cop heard dash cam he knew he messed up",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/memes/comments/1wi5mb1/evolutions/",
+          "author": null,
+          "description": "submitted by    /u/ChoiceSignificant889    to    r/memes  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/memes/comments/1wi5mb1/evolutions/",
+          "publishedOn": "2026-09-16T18:32:41.000Z",
+          "wordCount": null,
+          "title": "Evolutions",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/justgalsbeingchicks/comments/1wi4t49/oh_heck_yes_cant_wait_for_blanket_cloak_season/",
+          "author": null,
+          "description": "submitted by    /u/Imwhatswrongwithyou    to    r/justgalsbeingchicks  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/justgalsbeingchicks/comments/1wi4t49/oh_heck_yes_cant_wait_for_blanket_cloak_season/",
+          "publishedOn": "2026-09-16T18:04:01.000Z",
+          "wordCount": null,
+          "title": "Oh heck yes. Can’t wait for blanket cloak season!",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/BikiniBottomTwitter/comments/1wi4bmd/labor_for_thee_not_for_me/",
+          "author": null,
+          "description": "submitted by    /u/decentmotto    to    r/BikiniBottomTwitter  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/BikiniBottomTwitter/comments/1wi4bmd/labor_for_thee_not_for_me/",
+          "publishedOn": "2026-09-16T17:46:41.000Z",
+          "wordCount": null,
+          "title": "Labor for thee, not for me",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/pcmasterrace/comments/1wi3qh8/a_donated_evga_rtx_2080_arrives_for_our_gaming/",
+          "author": null,
+          "description": "submitted by    /u/maho90    to    r/pcmasterrace  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/pcmasterrace/comments/1wi3qh8/a_donated_evga_rtx_2080_arrives_for_our_gaming/",
+          "publishedOn": "2026-09-16T17:25:42.000Z",
+          "wordCount": null,
+          "title": "A donated EVGA RTX 2080 arrives for our gaming project in Yemen",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/meirl/comments/1wi3of6/meirl/",
+          "author": null,
+          "description": "submitted by    /u/Mcgvpsjfd    to    r/meirl  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/meirl/comments/1wi3of6/meirl/",
+          "publishedOn": "2026-09-16T17:23:38.000Z",
+          "wordCount": null,
+          "title": "meirl",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/Damnthatsinteresting/comments/1wi3dw7/a_chinese_company_demonstrated_its_new_solar/",
+          "author": null,
+          "description": "submitted by    /u/Depressed_Cat_00    to    r/Damnthatsinteresting  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/Damnthatsinteresting/comments/1wi3dw7/a_chinese_company_demonstrated_its_new_solar/",
+          "publishedOn": "2026-09-16T17:13:23.000Z",
+          "wordCount": null,
+          "title": "A Chinese company demonstrated its new solar panel-cleaning drone by washing a dog.",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/videogames/comments/1wi36ir/title/",
+          "author": null,
+          "description": "submitted by    /u/Effective-Use1967    to    r/videogames  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/videogames/comments/1wi36ir/title/",
+          "publishedOn": "2026-09-16T17:06:13.000Z",
+          "wordCount": null,
+          "title": "Title",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/Music/comments/1wi2wfi/thousands_of_ed_sheeran_tickets_remain_unsold_for/",
+          "author": null,
+          "description": "submitted by    /u/MarvelsGrantMan136    to    r/Music  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/Music/comments/1wi2wfi/thousands_of_ed_sheeran_tickets_remain_unsold_for/",
+          "publishedOn": "2026-09-16T16:56:33.000Z",
+          "wordCount": null,
+          "title": "Thousands of Ed Sheeran Tickets Remain Unsold for Singer's Tour, With Prices Down to $65 Online",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/BoyDinnerDiaries/comments/1wi2pcn/ran_into_an_ex_and_she_had_an_interesting_story/",
+          "author": null,
+          "description": "So the wife and I went to my hometown to see my mom and sister. While we were out and about we ran into an ex I am on good terms with. We exchanged pleasantries and as we were about to head off she goes \"wait I have a kind of funny story for you\".\n To preface the story, every time I went over her house I would always take my shoes off and leave them neatly by a specific door. Her little brother, who was like 5 at the time would always know if I was there cause he would see my shoes when getting in the house, and you could hear him yell \"yay Bryce is here\" from the basement.\n Now that was 2009 or so. The ex is married and has her own kid, and her brother is going to college while living at home.\n So my ex and her husband had gone over to see her parents for a bit. While there the brother had come home, said hi and asked \"Where's Bryce?\", to which my ex says \"what do you mean?\"\n Apperntly in the 15+ years since we broke up no one had ever put their shoes in that spot. And on this day for no particular reason, her husband decided to take his off and put them there. So when her brother came home from class the husband's shoes triggered an \"old friend\" response in his brain and tried to seek me out.\n Its nice I made an impression on him, and that something so innocuous would cause him to be like \"let's go find him\".\n Food: dunkin ice pumpkin latte, cause im a basic white girl, and a sour dough breakfast sandwich with Chipotle sauce\n Edit - spelling, because I wrote this on my phone originally\n    submitted by    /u/brycejm1991    to    r/BoyDinnerDiaries  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/BoyDinnerDiaries/comments/1wi2pcn/ran_into_an_ex_and_she_had_an_interesting_story/",
+          "publishedOn": "2026-09-16T16:49:41.000Z",
+          "wordCount": null,
+          "title": "Ran into an ex and she had an interesting story for me.",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/interestingasfuck/comments/1wi1036/spains_minister_accidentally_poured_water_into_a/",
+          "author": null,
+          "description": "submitted by    /u/imfrom_mars_    to    r/interestingasfuck  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/interestingasfuck/comments/1wi1036/spains_minister_accidentally_poured_water_into_a/",
+          "publishedOn": "2026-09-16T15:48:56.000Z",
+          "wordCount": null,
+          "title": "Spain’s minister accidentally poured water into a cup holder instead of a glass and couldn’t stop laughing about it.",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/politics/comments/1wi0wec/house_cancels_votes_to_avoid_embarrassment_over/",
+          "author": null,
+          "description": "submitted by    /u/Quirkie    to    r/politics  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/politics/comments/1wi0wec/house_cancels_votes_to_avoid_embarrassment_over/",
+          "publishedOn": "2026-09-16T15:45:21.000Z",
+          "wordCount": null,
+          "title": "House Cancels Votes to Avoid Embarrassment Over Hegseth Impeachment - Republicans are sending members of Congress home early to avoid a vote on the impeachment of Defense Secretary Pete Hegseth.",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.reddit.com/r/comics/comments/1wi0ehb/dont_be_silent/",
           "author": null,
           "description": "submitted by    /u/Pizzacakecomic    to    r/comics  \n [link]   [comments]",
@@ -94123,6 +94783,26 @@
           "imageUrl": null
         },
         {
+          "id": "https://www.reddit.com/r/dashcams/comments/1whzonn/hey_look_another_reason_to_hate_cops/",
+          "author": null,
+          "description": "submitted by    /u/386attention    to    r/dashcams  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/dashcams/comments/1whzonn/hey_look_another_reason_to_hate_cops/",
+          "publishedOn": "2026-09-16T15:00:41.000Z",
+          "wordCount": null,
+          "title": "Hey, look! Another reason to hate cops!",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/AskReddit/comments/1whzlg1/what_911_fact_should_people_be_more_aware_of/",
+          "author": null,
+          "description": "submitted by    /u/GwyddnoGaranhir    to    r/AskReddit  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/AskReddit/comments/1whzlg1/what_911_fact_should_people_be_more_aware_of/",
+          "publishedOn": "2026-09-16T14:57:30.000Z",
+          "wordCount": null,
+          "title": "What 9/11 fact should people be more aware of?",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.reddit.com/r/mildlyinfuriating/comments/1whyxnv/casually_smoking_crack_by_the_police_station/",
           "author": null,
           "description": "Police pretty much DGAF \n    submitted by    /u/boyoflondon    to    r/mildlyinfuriating  \n [link]   [comments]",
@@ -94130,6 +94810,36 @@
           "publishedOn": "2026-09-16T14:32:34.000Z",
           "wordCount": null,
           "title": "Casually smoking crack by the police station",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/funComunitty/comments/1whyw8d/your_ex_sends_you_this_your_4th_emoji_is_your/",
+          "author": null,
+          "description": "submitted by    /u/flawed_plan    to    r/funComunitty  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/funComunitty/comments/1whyw8d/your_ex_sends_you_this_your_4th_emoji_is_your/",
+          "publishedOn": "2026-09-16T14:31:05.000Z",
+          "wordCount": null,
+          "title": "your ex sends you this. your 4th emoji is your reaction.",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/TikTokDiscuss/comments/1whysbv/she_was_simply_too_cool_for_any_of_these_guys/",
+          "author": null,
+          "description": "submitted by    /u/Tiny_Friend_7380    to    r/TikTokDiscuss  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/TikTokDiscuss/comments/1whysbv/she_was_simply_too_cool_for_any_of_these_guys/",
+          "publishedOn": "2026-09-16T14:27:02.000Z",
+          "wordCount": null,
+          "title": "She was simply too cool for any of these guys.",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/popculturechat/comments/1whyhl1/lena_dunham_has_welcomed_her_first_child_with/",
+          "author": null,
+          "description": "https://www.vogue.com/article/lena-dunham-shopping-for-baby-october-2026\n    submitted by    /u/mcfw31    to    r/popculturechat  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/popculturechat/comments/1whyhl1/lena_dunham_has_welcomed_her_first_child_with/",
+          "publishedOn": "2026-09-16T14:16:02.000Z",
+          "wordCount": null,
+          "title": "Lena Dunham has welcomed her first child with husband Luis Felber via Surrogate",
           "imageUrl": null
         },
         {
@@ -94220,6 +94930,16 @@
           "publishedOn": "2026-09-16T10:32:39.000Z",
           "wordCount": null,
           "title": "Hackers Stole Flock’s Camera Software, Revealing How the Company Tracks Cars and People",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.reddit.com/r/DangerousNightsCrew/comments/1whsiyd/oh_yeah/",
+          "author": null,
+          "description": "submitted by    /u/PoopyMcpants    to    r/DangerousNightsCrew  \n [link]   [comments]",
+          "link": "https://www.reddit.com/r/DangerousNightsCrew/comments/1whsiyd/oh_yeah/",
+          "publishedOn": "2026-09-16T09:39:38.000Z",
+          "wordCount": null,
+          "title": "Oh, yeah!",
           "imageUrl": null
         },
         {
@@ -125486,6 +126206,116 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://mimo.xiaomi.com/rl/",
+          "author": null,
+          "description": "Comments",
+          "link": "https://mimo.xiaomi.com/rl/",
+          "publishedOn": "2026-09-16T20:09:18.000Z",
+          "wordCount": 10,
+          "title": "Xiami Mimo 2.6 Live Post-Training Dashboard",
+          "imageUrl": null
+        },
+        {
+          "id": "https://arstechnica.com/gadgets/2026/09/macos-27-golden-gate-the-ars-technica-review/",
+          "author": null,
+          "description": "Comments",
+          "link": "https://arstechnica.com/gadgets/2026/09/macos-27-golden-gate-the-ars-technica-review/",
+          "publishedOn": "2026-09-16T19:53:36.000Z",
+          "wordCount": null,
+          "title": "macOS 27 Golden Gate: The Ars Technica Review",
+          "imageUrl": null
+        },
+        {
+          "id": "https://arxiv.org/abs/2609.13009",
+          "author": null,
+          "description": "Comments",
+          "link": "https://arxiv.org/abs/2609.13009",
+          "publishedOn": "2026-09-16T19:19:08.000Z",
+          "wordCount": 860,
+          "title": "How good are frontier models at physics?",
+          "imageUrl": "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+        },
+        {
+          "id": "https://arxiv.org/abs/2609.14845",
+          "author": null,
+          "description": "Comments",
+          "link": "https://arxiv.org/abs/2609.14845",
+          "publishedOn": "2026-09-16T18:56:05.000Z",
+          "wordCount": 756,
+          "title": "Accurate Models of AMD Matrix Cores",
+          "imageUrl": "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+        },
+        {
+          "id": "https://rohanbansal.com/qorl",
+          "author": null,
+          "description": "Comments",
+          "link": "https://rohanbansal.com/qorl",
+          "publishedOn": "2026-09-16T18:50:00.000Z",
+          "wordCount": 14516,
+          "title": "Training a 4B model to produce 81% faster query plans than Postgres",
+          "imageUrl": "https://rohanbansal.com/og/qorl-20260916.png"
+        },
+        {
+          "id": "https://github.com/vinnylarouge/jevlike",
+          "author": null,
+          "description": "Comments",
+          "link": "https://github.com/vinnylarouge/jevlike",
+          "publishedOn": "2026-09-16T18:49:57.000Z",
+          "wordCount": 3820,
+          "title": "Reverse-engineered Jev-like model",
+          "imageUrl": "https://opengraph.githubassets.com/a34859c09ec633895408228d0413269e626bd403ee2e54de4f14a3192ae9e6b5/vinnylarouge/jevlike"
+        },
+        {
+          "id": "https://www.euronews.com/business/2026/09/16/why-this-fast-growing-german-ai-start-up-is-moving-its-parent-company-from-the-us",
+          "author": null,
+          "description": "Comments",
+          "link": "https://www.euronews.com/business/2026/09/16/why-this-fast-growing-german-ai-start-up-is-moving-its-parent-company-from-the-us",
+          "publishedOn": "2026-09-16T18:45:20.000Z",
+          "wordCount": 5616,
+          "title": "Why a fast-growing German AI startup is moving its parent company from the US",
+          "imageUrl": "https://images.euronews.com/articles/stories/09/91/60/47/1200x675_cmsv2_0db5cdff-acb7-538c-af57-b9ae0aa2ff1e-9916047.jpg"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=49731216",
+          "author": null,
+          "description": "Comments",
+          "link": "https://news.ycombinator.com/item?id=49731216",
+          "publishedOn": "2026-09-16T18:43:57.000Z",
+          "wordCount": 817,
+          "title": "Tell HN: An inside view of Montana's new biotech law",
+          "imageUrl": null
+        },
+        {
+          "id": "https://opensource.googleblog.com/2022/06/Vectorized%20and%20performance%20portable%20Quicksort.html",
+          "author": null,
+          "description": "Comments",
+          "link": "https://opensource.googleblog.com/2022/06/Vectorized%20and%20performance%20portable%20Quicksort.html",
+          "publishedOn": "2026-09-16T18:31:35.000Z",
+          "wordCount": 6408,
+          "title": "Vectorized and performance-portable Quicksort (2022)",
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjqY5Zp8L4lAAwsahUx-H9A_6l6iyw5nSvuu6-HtJr1_Gnh0OtDeo_7OrlGfDkW5oVIHLVSTlRcvznaA3fBVi_GRD_iXbhryVoo8B6EbBIm3cZctlm3tyaJvGzNptPhvXbJ2TyUOTCoP3lXI3fH8fd4U4gsELVNP_KawFQNYnPbcbysAMRsP5BmaAnc/w1200-h630-p-k-no-nu/Screen%20Shot%202022-06-01%20at%201.08.53%20PM.png"
+        },
+        {
+          "id": "https://www.linum.ai/field-notes/jit-ddt",
+          "author": null,
+          "description": "Comments",
+          "link": "https://www.linum.ai/field-notes/jit-ddt",
+          "publishedOn": "2026-09-16T16:58:13.000Z",
+          "wordCount": 16472,
+          "title": "Training Text-to-Image Models 3.6× Faster",
+          "imageUrl": "https://linum.ai/field-notes/jit-ddt/opengraph-image/card?67ee6b6af80a4a6f"
+        },
+        {
+          "id": "https://claude.com/blog/cowork-is-now-claude",
+          "author": null,
+          "description": "Comments",
+          "link": "https://claude.com/blog/cowork-is-now-claude",
+          "publishedOn": "2026-09-16T16:26:25.000Z",
+          "wordCount": 11536,
+          "title": "Claude Cowork and chat are now one Claude",
+          "imageUrl": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6aaaa16ed688635ea2b10fa1_tn-artifacts.jpg"
+        },
+        {
           "id": "https://testing.googleblog.com/2011/02/this-code-is-crap.html",
           "author": null,
           "description": "Comments",
@@ -125516,6 +126346,16 @@
           "imageUrl": "https://cdn.jim-nielsen.com/blog/2026/uptime-claude-github.png"
         },
         {
+          "id": "https://institute.deepmind.com/",
+          "author": null,
+          "description": "Comments",
+          "link": "https://institute.deepmind.com/",
+          "publishedOn": "2026-09-16T14:32:11.000Z",
+          "wordCount": 622,
+          "title": "The DeepMind Institute",
+          "imageUrl": "https://lh3.googleusercontent.com/ITn0nwSY2KcUvrWxt4Om4hEjfhc-qNrJxm31rWVHoAWgbCoLO1_NKXm8kXT8UJXJh9Vh_BHW2hp_QAXEsCAu99ecOeNqHydE-JFMywsWBiLW6wGgSQ=w1200-h630-n-nu-rw"
+        },
+        {
           "id": "https://agentlien.github.io/texture/",
           "author": null,
           "description": "Comments",
@@ -125524,6 +126364,16 @@
           "wordCount": 3207,
           "title": "Anatomy of a Texture",
           "imageUrl": "https://agentlien.github.io/texture/bamboo_morton.png"
+        },
+        {
+          "id": "https://mustafa-suleyman.ai/a-warning-about-model-welfare",
+          "author": null,
+          "description": "Comments",
+          "link": "https://mustafa-suleyman.ai/a-warning-about-model-welfare",
+          "publishedOn": "2026-09-16T14:27:47.000Z",
+          "wordCount": 18197,
+          "title": "A warning about 'model welfare'",
+          "imageUrl": "https://mustafa-suleyman.ai/images/posts/a-warning-about-model-welfare.jpg"
         },
         {
           "id": "https://openai.com/index/reimagining-advertising-with-ai/",
@@ -125794,6 +126644,16 @@
           "wordCount": 7514,
           "title": "Introducing System One Models and Jev",
           "imageUrl": "https://framerusercontent.com/images/RtIGTDwO43jR4ZDilesXiR5znc.jpg"
+        },
+        {
+          "id": "https://patrickwyman.substack.com/p/the-siberian-ice-maiden-and-the-scythian",
+          "author": null,
+          "description": "Comments",
+          "link": "https://patrickwyman.substack.com/p/the-siberian-ice-maiden-and-the-scythian",
+          "publishedOn": "2026-09-15T19:09:09.000Z",
+          "wordCount": null,
+          "title": "The Siberian Ice Maiden and the Scythian World",
+          "imageUrl": null
         },
         {
           "id": "https://mnoukhov.github.io/posts/ngu/",
@@ -126074,6 +126934,16 @@
           "wordCount": 3321,
           "title": "OpenAI buys smartphone camera maker Glass Imaging for $300M",
           "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/09/GettyImages-1252369470.jpg?resize=1200,802"
+        },
+        {
+          "id": "https://restarted.io/",
+          "author": null,
+          "description": "Comments",
+          "link": "https://restarted.io/",
+          "publishedOn": "2026-09-15T11:34:45.000Z",
+          "wordCount": 328,
+          "title": "Show HN: Restarted – a 2026 remake of the classic 2015 startup generator",
+          "imageUrl": "https://restarted.io/img/og/card.jpg?z=932267462528"
         },
         {
           "id": "https://ohhelloana.blog/tell-the-speakers/",
@@ -127426,6 +128296,16 @@
           "imageUrl": "/static/browse/0.3.4/images/arxiv-logo-fb.png"
         },
         {
+          "id": "https://gegell.github.io/posts/factorio-rng/",
+          "author": null,
+          "description": "Comments",
+          "link": "https://gegell.github.io/posts/factorio-rng/",
+          "publishedOn": "2026-09-12T17:02:19.000Z",
+          "wordCount": 11860,
+          "title": "Reversing Factorio's RNG",
+          "imageUrl": "/_app/immutable/assets/factorio-breaking-rng-thumbnail.BkTOyfMu.jpg"
+        },
+        {
           "id": "https://high5apps.github.io/josm-plugin-website-wizard/",
           "author": null,
           "description": "Comments",
@@ -127944,6 +128824,16 @@
           "wordCount": 6328,
           "title": "Zep AI (YC W24) Is Hiring a Head of Forward Deployed Engineering",
           "imageUrl": "https://www.getzep.com/og-image.png"
+        },
+        {
+          "id": "https://clickhouse.com/blog/introducing-walshadow",
+          "author": null,
+          "description": "Comments",
+          "link": "https://clickhouse.com/blog/introducing-walshadow",
+          "publishedOn": "2026-09-11T16:09:09.000Z",
+          "wordCount": 4975,
+          "title": "WalShadow: Sub-second Postgres replication to ClickHouse from physical WAL",
+          "imageUrl": "https://clickhouse.com/_next/image?url=%2Fuploads%2Fwalshadow_sep2026_banner_6dbc425dd9.jpg&w=1200&h=630&q=75"
         },
         {
           "id": "https://www.honest-broker.com/p/the-last-24-hours-are-the-opening",
@@ -132782,6 +133672,16 @@
       "feedUrl": "https://feed.indiehackers.world/posts.rss",
       "siteUrl": "https://feed.indiehackers.world",
       "articles": [
+        {
+          "id": "https://feed.indiehackers.world/post/0af4304280",
+          "author": null,
+          "description": "llms.txt has quietly become a default checklist item — add the file, hope AI assistants start citing you. I went looking for evidence that it works, and...",
+          "link": "https://feed.indiehackers.world/post/0af4304280",
+          "publishedOn": "2026-09-15T15:10:49.000Z",
+          "wordCount": 2904,
+          "title": "Everyone's adding llms.txt. Almost nothing is reading it.",
+          "imageUrl": "https://storage.googleapis.com/indie-hackers.appspot.com/shareable-images/posts/0af4304280"
+        },
         {
           "id": "https://feed.indiehackers.world/post/0e1264c269",
           "author": null,
@@ -139946,6 +140846,16 @@
       "siteUrl": "https://www.producthunt.com",
       "articles": [
         {
+          "id": "https://www.producthunt.com/products/zeroclick",
+          "author": null,
+          "description": "Discussion\n            |\n            Link",
+          "link": "https://www.producthunt.com/products/zeroclick",
+          "publishedOn": "2026-09-16T00:01:56.000Z",
+          "wordCount": null,
+          "title": "ZeroClick",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.producthunt.com/products/flat-social",
           "author": null,
           "description": "Discussion\n            |\n            Link",
@@ -141664,26 +142574,6 @@
           "wordCount": null,
           "title": "BrickForgerAI",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.producthunt.com/products/doop",
-          "author": null,
-          "description": "Discussion\n            |\n            Link",
-          "link": "https://www.producthunt.com/products/doop",
-          "publishedOn": "2026-09-02T06:26:19.000Z",
-          "wordCount": null,
-          "title": "Doop",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.producthunt.com/products/dyson-humidifier",
-          "author": null,
-          "description": "Discussion\n            |\n            Link",
-          "link": "https://www.producthunt.com/products/dyson-humidifier",
-          "publishedOn": "2026-09-02T05:33:12.000Z",
-          "wordCount": null,
-          "title": "Dyson CameraJet",
-          "imageUrl": null
         }
       ]
     },
@@ -141698,6 +142588,26 @@
       "feedUrl": "https://medium.com/feed/tag/china",
       "siteUrl": "https://medium.com/tag/china/latest?source=rss------china-5",
       "articles": [
+        {
+          "id": "https://medium.com/p/79e69178b202",
+          "author": "Saurav Dutt",
+          "description": "BRICS was supposed to be a vehicle for rivalry with the West. Under India’s leadership, it has become something more useful: a forum where…\nContinue reading on Medium »",
+          "link": "https://medium.com/@sauravdutt/india-takes-command-of-a-new-brics-79e69178b202?source=rss------china-5",
+          "publishedOn": "2026-09-16T18:44:37.000Z",
+          "wordCount": null,
+          "title": "India Takes Command of a New BRICS",
+          "imageUrl": null
+        },
+        {
+          "id": "https://medium.com/p/640eab196e79",
+          "author": "Jane Sun",
+          "description": "I have spent the past ten years living in and traveling between China and the US. Many of my friends do the same. I am interested in the…\nContinue reading on Medium »",
+          "link": "https://medium.com/@janesjw520/america-is-collectivist-china-is-individualist-640eab196e79?source=rss------china-5",
+          "publishedOn": "2026-09-16T18:24:23.000Z",
+          "wordCount": null,
+          "title": "America Is Collectivist. China Is Individualist.",
+          "imageUrl": null
+        },
         {
           "id": "https://medium.com/p/4f27b1a19e78",
           "author": "The Mandarin cafe",
@@ -145228,6 +146138,136 @@
       "feedUrl": "https://api.newshacker.me/rss",
       "siteUrl": "https://newshacker.me",
       "articles": [
+        {
+          "id": "49732270",
+          "author": null,
+          "description": "原标题：《Xiami Mimo 2.6 Live Training Dashboard》\n评分: 34 | 作者: krackers\n💭 怕被蒸馏，就不敢开训练直播了？\n\n🎯 讨论背景\n这篇帖子围绕 MiMo 2.6 Pro 的 live training dashboard（实时训练面板）展开，面板会显示训练起始时间、进度条和 checkpoint（训练中间快照）的评估情况。评论者一方面把它和 Anthropic（AI 公司）与 OpenAI（AI 公司）的闭源训练方式对比，认为公开训练过程在业界并不常见；另一方面也担心公开 benchmark（标准评测）会不会带来 contamination（测试污染）或暴露模型规模。有人补充说这里更像是 RL（强化学习）阶段而不是 pretraining（预训练），所以看到大量 source code 不必直接理解为整个训练集都是代码。整场讨论的核心，其实是“公开训练透明度”与“保密竞争优势”之间的取舍。\n\n📌 讨论焦点\n性价比与实战表现\n有人把 MiMo-V2.5 当作主力 coding model 用在多个项目里，觉得回报率非常高。它并非没有缺点，偶尔会陷入 hallucination loop，但通过 stop-then-continue 之类的操作就能拉回正常状态。更关键的是，大家反复强调它的成本低得离谱，而实际“智能感”已经接近去年/今年初常用的 Anthropic 模型。与 DS4F、DS41、GLM 5.3 Flash 等模型相比，MiMo 仍因为 M-token 成本更低而在 ROI 上更有优势。\n[来源1]\n公开训练面板与闭源实验室对比\n不少人觉得 live training dashboard 很新鲜，因为训练过程、进度条和起始时间都被公开展示出来了。有人直接问，为什么其他 model provider 不这么做；随后的讨论指出，闭源实验室如果公开训练速度、token 量和进度，竞争对手就能更容易估算模型规模和训练节奏。还有人把这上升到公司风格差异，认为中国公司似乎更愿意开放，而 Anthropic 和 OpenAI 这类美国公司更可能出于竞争和保密考虑而不会这么做。也有人从进度条推测训练未必像想象中那么久，并期待下一版能支持 multimodal。\n[来源1] [来源2] [来源3] [来源4]\nbenchmark 与 contamination 的争议\n有人担心训练时跑 benchmark 会不会构成 contamination，也就是把测试基准的信息间接带入训练流程。回复解释说，这通常只是用 benchmark 去评估 checkpoint，而不是把 benchmark 本身喂给模型训练，因此在大型 RL run 里很常见。另一个猜测是，公开这些信息可能也是为了提前化解 distillation 的质疑，让外界更难说他们是在“偷看”评测集或拿评测数据做训练。整体来看，这条线的讨论更像是在确认训练流程是否规范，而不只是单纯围观进度。\n[来源1] [来源2] [来源3]\n这是 RL 阶段，不是预训练\n有人一开始误以为训练数据里有三分之二是 source code，于是觉得这个比例非常夸张。随后有人澄清，评论中提到的“data used to improve the model”指的是订阅计划里用于改进模型的数据，而且这里展示的是 RL run，不是 pretraining。换句话说，页面里看到大量代码，并不代表整套训练语料都由代码构成，而更可能是强化学习对齐阶段在使用特定任务数据。这个澄清也解释了为什么面板看起来像是在“边训边看”，因为它本来就在展示训练中的一个后期阶段。\n[来源1] [来源2] [来源3]\n\n📚 术语解释\nRL run: 强化学习训练阶段，常用于对齐和优化模型行为。\ncheckpoint: 训练过程中保存的中间模型快照，便于评估、回滚或比较效果。\nbenchmark contamination: 测试基准被训练过程间接利用，导致评估结果失真的问题。\ndistillation: 用更强模型的输出指导更小模型训练的“蒸馏”方法，也常被拿来质疑模型来源。",
+          "link": "https://newshacker.me/story?id=49732270",
+          "publishedOn": "2026-09-16T21:00:25.000Z",
+          "wordCount": 73,
+          "title": "🤩 MiMo 2.6 实时训练面板：低成本高 ROI，公开训练进度",
+          "imageUrl": null
+        },
+        {
+          "id": "49731285",
+          "author": null,
+          "description": "原标题：《Training a 4B model to produce 81% faster query plans than Postgres》\n评分: 33 | 作者: polyphilz\n💭 4B 模型都能当优化器了，还要统计信息干嘛？\n\n🎯 讨论背景\n这篇帖子讨论一项把 4B 参数模型用于 SQL 查询计划选择的工作：模型先从 Astra trajectories（用于构造示范轨迹的数据）学习，再在 join-heavy SQL 工作负载上据称比 Postgres 默认优化器快，指标包括 1.81x 的几何平均加速和 44.7% 的总延迟下降。作者还提到训练成本并不低，包含租用 Lambda 的 2x H100 SXM 节点约 95 小时，以及一部分 OpenAI API 费用。评论区默认读者理解 PostgreSQL（开源关系型数据库）的 query optimizer 会基于统计信息、cardinality 和输入参数挑选执行计划。讨论焦点集中在：模型生成的计划是否一定合法、是否值得在生产数据库里引入 4B 模型，以及这些收益是否足以抵消重新训练和维护的成本。\n\n📌 讨论焦点\n部署到数据库前的成本与维护\n不少人把这项结果看成离线调优工具，而不是直接塞进生产数据库的理由。评论指出，文章里只算了租 GPU 和 API 的费用，却没把约 95 小时训练本身完整计入 benchmark，这会显著影响真实成本。有人认为如果只是像定期维护窗口那样偶尔重新训练，某些场景还能接受，但从工程角度看，deterministic 算法更可能比反复 fine-tune 更稳。还有人把它类比为 compiler 这类被深度优化几十年的软件，怀疑 LLM 真能带来多少架构级收益。\n[来源1] [来源2] [来源3]\n查询计划是否真的合法、可验证\n另一条线索是模型生成的 query plan 是否一定满足原查询语义。有人问如何确认计划没有把 SQL 语义改坏，回应则提到 pg_hint_plan 的设计思路是只接受合法 hint，并且它的 debug log 可以验证 Postgres 是否真的采用了该 hint。也有人提出，也许可以把 query plan 看成一组可变换的结构，通过等价变换来判断是否正确。评论同时提醒，对任意算法做完全形式化验证并不现实，相关问题可能落在 undecidable、NP-hard 或 co-NP-hard 的范围里。\n[来源1] [来源2] [来源3] [来源4] [来源5]\n统计信息失真与长尾数据导致坏计划\n很多评论把问题归结为数据库优化本来就高度依赖统计信息，而统计信息经常不够新或不够准。优化器通常会对平均情况做对的选择，但一旦数据分布很偏、输入参数很特殊，计划就可能从 seek 退化成 scan，或者因为错误的 row count 估计选到昂贵路径。有人举例说，某个表平时只有很少关联行，但少数极端对象会关联到百万级记录，这类长尾正是坏计划最容易出现的地方。也有人补充，transform 规则本身可以是 deterministic 的，真正不稳定的是统计和 cardinality 估计。\n[来源1] [来源2] [来源3] [来源4]\n蒸馏争议与模型来源敏感性\n还有一条较边缘但很现实的担忧，是这类工作一旦涉及从模型轨迹中蒸馏，就可能触发开源和闭源模型之间的指控。评论认为，即使作者只是想强调 frontier model 依然很强，也可能被解读成在暗示某种 distillation 来源。这个话题说明大型模型研究不只是技术问题，还会碰到数据来源、模型来源和可公开性这些敏感边界。\n[来源1]\n\n📚 术语解释\nquery plan: 数据库执行 SQL 的具体步骤和访问路径，比如先扫表、再 join，还是先走索引。\noptimizer: 数据库中负责在多个可行计划里选出较优执行方案的组件。\ncardinality: 对中间结果行数的估计，常直接影响 join 顺序和访问方式选择。\npg_hint_plan: Postgres 的 hint 扩展，可通过提示影响或验证查询计划选择。\n\n类别：AI | Systems | Programming | Review | Paper | Postgres | query plans | 4B model | pg_hint_plan | Astra | Rohan Bansal",
+          "link": "https://newshacker.me/story?id=49731285",
+          "publishedOn": "2026-09-16T20:20:21.000Z",
+          "wordCount": 73,
+          "title": "🤔 4B 模型生成 SQL 查询计划：比 Postgres 快 81% ，但正确性与部署成本受质疑",
+          "imageUrl": null
+        },
+        {
+          "id": "49729412",
+          "author": null,
+          "description": "原标题：《Claude Cowork and chat are now one Claude》\n评分: 134 | 作者: vertigoruntime\n💭 把聊天、工作、记忆全混一起，就更安全了？\n\n🎯 讨论背景\nAnthropic 这次把 Claude 的 Chat 和 Cowork 两种入口合并成一个产品面，核心想法是让用户不用先判断自己该用“聊天”还是“工作”模式。Cowork 以前更像 agent mode：可以访问本地文件和应用，甚至在用户合上笔记本后继续在自己的电脑上跑任务；Chat 则更适合快速问答和低风险交互。公告还提到 Claude Design、Claude Docs、Claude Slides，并依赖更强的 Artifacts 来生成可协作的文档、设计和应用。评论区因此围绕 UX 简化、权限和安全边界、token/quota 分配、以及 AI 产品是否正从“聊天”走向“工作流平台”展开争论，也不断拿 ChatGPT、Codex、Claude Code 来对比。\n\n📌 讨论焦点\n支持合并：减少选择负担\n不少人认为 Chat 和 Cowork 早就把 Claude 切成了太多表面，普通用户根本不知道该选哪一个。合并后，日常问答、临时任务和较重的工作流都能从同一个入口开始，用户不用先判断自己是不是该进另一个产品。有人提到过去桌面端已经有 Chat、Cowork、Claude Code、云端/本地等多层分裂，导致体验支离破碎。也有人认为这和 ChatGPT 近期的整合方向一致，对大多数人来说确实更顺手。\n[来源1] [来源2] [来源3] [来源4] [来源5] [来源6] [来源7] [来源8] [来源9] [来源10]\n反对合并：模式隔离与风险边界被削弱\n反对者最在意的是，Chat 原本像一个低风险区，Cowork 则意味着更强权限、更多副作用和更…",
+          "link": "https://newshacker.me/story?id=49729412",
+          "publishedOn": "2026-09-16T20:10:29.000Z",
+          "wordCount": 73,
+          "title": "🤔 Claude 合并 Chat 与 Cowork：简化 UX，却引发安全、记忆与额度争议",
+          "imageUrl": null
+        },
+        {
+          "id": "49710201",
+          "author": null,
+          "description": "原标题：《Measuring Gauss-Seidel loop-carried dependency and fixing it via loop unrolling》\n评分: 20 | 作者: loiseaujc\n💭 先用 AI 外壳包装，再怪没人认真读吗？\n\n🎯 讨论背景\n这篇文章围绕 Gauss-Seidel 迭代法中的 loop-carried dependency 展开，讨论的是为什么这种逐点更新的数值算法会让编译器难以自动并行化或向量化，以及能否通过 loop unrolling 缓解性能瓶颈。评论里提到的 LAPACK（一个经典的 dense 线性代数库）说明读者在把文章放进数值线性代数和高性能计算的语境里理解，但也有人提醒它并不适合 sparse systems，而 banded systems 又是另一类更接近文章场景的问题。代码中的 `0.25_dp ` 很像 Fortran 里的 double precision kind 写法，因此这篇内容带有明显的科学计算/Fortran 背景。与此同时，AI 生成文风和 AI art 封面图引发了信任问题，导致不少人还没进入技术细节就先对文章质量产生怀疑。\n\n📌 讨论焦点\nAI 文风与可信度争议\n有评论直接指出文章带着明显的 Claude AI 口吻，像是充满 engagement bait、空话和夸张转折的“AI 文风”。他们认为这种写法会让人读起来很累，也会让技术内容显得不够可信，甚至一眼被归类为 AI slop。也有人反过来批评读者过度敏感，认为大家似乎已经在专门“识别 LLM 味道”，而不是认真读内容。整体上，这一组讨论反映出技术文章一旦被怀疑是 AI 生成，读者对其信任和耐心都会迅速下降。\n[来源1] [来源2] [来源3]\n数值线性代数实现与性能对照\n有评论质疑这种针对 CPU-bound 问题的优化，未必能超过为特定架构精调过的 LAPACK 实现。另一条回复则提醒，LAPACK 主要面向 dense 线性代数，并不适合 sparse systems；不过如果问题其实是 banded system，那它又可能是可比较的方案。这个分歧说明讨论重点不只是“谁更快”，而是问题矩阵的结构到底是 dense、sparse 还是 banded。也因此，文章里的 loop unrolling 优化更像是在特定结构下尝试缓解 Gauss-Seidel 的依赖，而不是对通用线性代数库的直接替代。\n[来源1] [来源2]\n代码语言与符号不透明\n有读者看到 `0.25_dp ` 后直接问这是什么语言、这个后缀是什么意思，说明文章的代码片段并不对非圈内人友好。回复者猜测 `_dp ` 大概表示 double precision，但也承认剩余内容依然难以理解。这里暴露出一个典型的科学计算写作门槛：读者不仅要懂 Gauss-Seidel 和线性代数，还要熟悉类似 Fortran 的 kind 后缀和数值精度约定。对不熟悉这套语法的人来说，文章的技术点可能还没展开，符号就已经先把人挡住了。\n[来源1] [来源2]\n封面图与 AI 包装引发先入为主\n有评论说只要标题图用了 AI art，就会担心自己读的是 AI slop，于是宁可直接跳过，避免先投入时间再发现内容不值得看。另一条回复则表示，虽然看起来像是 AI-assisted writing，但文章本身仍然有一定可读性。这个话题说明现在技术文章的“包装”已经会强烈影响阅读决策，尤其是封面图和文风一旦触发警报，内容再好也可能先失去一部分读者。它也把讨论从算法本身拉到“如何识别与信任技术内容”这一层面。\n[来源1] [来源2]\n\n📚 术语解释\nGauss-Seidel: 一种逐项更新的迭代法，用于求解线性方程组；后面的更新会依赖前面刚算出的新值。\nloop-carried dependency: 循环中前一轮迭代的结果会影响后一轮，常常限制并行化和向量化。\nloop unrolling: 把循环体展开成多次重复执行，以减少分支开销并暴露更多指令级并行。\nLAPACK: 经典的 dense 线性代数库，针对 CPU 架构做了高度优化。\nsparse system: 稀疏线性方程组，大量系数为 0，通常需要专门算法和数据结构。\nbanded system: 带状系统，非零元素集中在主对角线附近的一小条带内。\n_dp: Fortran 风格的 kind 后缀，通常表示 double precision（双精度）。\n\n类别：Programming | Systems | Hardware | Guide | Review | Gauss-Seidel | loop-carried dependency | loop unrolling | Fortran | LAPACK | sparse | banded",
+          "link": "https://newshacker.me/story?id=49710201",
+          "publishedOn": "2026-09-16T20:00:23.000Z",
+          "wordCount": 73,
+          "title": "🤨 Gauss-Seidel 依赖测量与 loop unrolling 优化，评论质疑 AI 写作",
+          "imageUrl": null
+        },
+        {
+          "id": "49731356",
+          "author": null,
+          "description": "原标题：《Fed hikes rates as inflation worries push up bond yields》\n评分: 37 | 作者: wslh\n💭 加息能救通胀，顺手把经济也打趴下？\n\n🎯 讨论背景\n这篇讨论围绕美联储（Fed，美国负责货币政策的中央银行）再次加息展开，背景是通胀担忧和美国国债收益率上行。bond yields（债券收益率）决定了政府、企业和房贷等长期融资的价格；评论里特别强调，Fed 主要控制短期政策利率，而 Treasury（美国财政部）的长期发债定价更看通胀预期和市场信心。讨论还延伸到美国高债务、未来再融资、以及加息对房贷、企业借贷、就业和财政支出的连锁反应。另一个延伸点是科技行业，尤其是依赖廉价资金扩张的 IT 和 AI hyper-scalers（大规模 AI 基础设施公司），它们会更直接感受到高利率环境对烧钱和 IPO 预期的压力。\n\n📌 讨论焦点\n加息压通胀但可能放大衰退风险\n不少评论认为，加息的初衷是压制通胀，但在经济本就不算强的情况下，这会先把融资成本抬上去。房贷、个人贷款和企业借款都会变贵，进而压制买房、投资和招聘，甚至引发裁员与违约。有人进一步指出，美国债务规模太高，未来国债再融资时利息负担会越来越重，财政压力会被慢慢放大。也有人担心如果能源和地缘冲击继续推高物价，加息未必能把通胀压下去，反而可能出现“高利率+高通胀”的更糟局面。\n[来源1] [来源2] [来源3] [来源4]\n廉价资金时代结束，科技与 AI 受压\n另一条观点认为，这轮加息只是把早该发生的事情补回来：过去太久的低利率让整个经济，尤其是 IT 行业，习惯了廉价资金。评论里把这种环境描述成对“cheap cash”的依赖，连靠举债扩张的公司和赤字融资模式都被推到了台前。随着收益率上行，发行新债和继续烧钱的代价都会上升，资本密集型的 AI hyper-scalers（大规模 AI 基础设施公司）尤其会感受到压力。这个角度把加息看成对畸形融资结构的纠偏，而不是单纯的坏消息。\n[来源1]\n政府债务、利率与“印钞”机制的澄清\n有评论专门纠正了一个常见误解：Fed 设定的是短期政策利率，并不直接决定政府长期借款的全部成本。长期债券投资者更关心未来十年的通胀和利率水平，所以即便短期利率压低，也未必能让长期借钱更便宜。评论还强调，Treasury（美国财政部）的发债和 Fed 的货币创造并不是同一件事，现有固定利率债券不会立刻重定价，痛感会随着旧债到期、再融资和新债发行逐步传导。核心结论是，巨额债务会让“压通胀”和“避免经济受伤”之间的取舍更难，但并不存在无痛解法。\n[来源1]\n政治化解读与对特朗普的调侃\n还有一小段对话把这次加息理解成会让特朗普暴怒的事件，而不只是宏观政策。评论里期待他在 Truth Social（特朗普常用的社交平台）上发出下一条情绪化帖文，把金融新闻变成政治段子。这个分支几乎不讨论利率机制本身，重点是政策动作如何被带入选举与个人恩怨的语境。它给整场讨论加上了明显的讽刺和党派色彩。\n[来源1] [来源2]\n\n📚 术语解释\nbond yields: 债券收益率，尤其是长期国债收益率；它反映借钱给政府或企业所要求的回报，收益率越高，新发债成本通常越高。\nFed funds rate: 联邦基金利率，Fed 用来影响短期金融条件的政策利率；它会传导到融资环境，但不等于所有长期借款利率。\nrefinancing: 再融资；旧债到期后用新债替换，利率变化往往通过这个过程逐步传导到预算和现金流。\ndemand destruction: 需求破坏；当价格和融资成本同时过高时，消费与投资被迫大幅收缩，经济活动明显降温。\n\n类别：Policy | Business | Federal Reserve | Fed rate hike | inflation | bond yields | interest rates | US debt | Reuters",
+          "link": "https://newshacker.me/story?id=49731356",
+          "publishedOn": "2026-09-16T19:55:34.000Z",
+          "wordCount": 73,
+          "title": "📉 美联储加息推高债券收益率，通胀与高债务引发衰退担忧",
+          "imageUrl": null
+        },
+        {
+          "id": "49731054",
+          "author": null,
+          "description": "原标题：《We've created the first vectorized Quicksort》\n评分: 71 | 作者: mococa\n💭 不标 2022 就能把旧论文说成首个突破吗？\n\n🎯 讨论背景\n这篇被讨论的文章其实是 2022 年论文《Vectorized and performance-portable Quicksort》，核心不是重新发明 Quicksort，而是把它做成跨平台的 SIMD 实现。作者利用 Arm SVE（Arm 的可伸缩向量扩展）、RISC-V V（RISC-V 的向量扩展）和 x86 AVX-512（x86 的高级向量指令集）中的 compress-store 来做分区，在没有这类指令的 AVX2 上则用 permute 等方式模拟。论文声称它是第一个能跨六种指令集、覆盖三种架构的可移植向量化 Quicksort，而且性能还超过了之前的架构专用实现。评论区则把它放到更大的排序算法演进里比较，并讨论了这种实现在哪些系统里有价值，例如 ClickHouse（一个开源列式数据库）。\n\n📌 讨论焦点\n标题与年份澄清\n不少评论先纠正标题，指出原文其实是 2022 年论文《Vectorized and performance-portable Quicksort》，并不是刚发表的新成果。所谓“first”也不是指历史上第一个任何 SIMD 快排，而是第一个能跨六种指令集、覆盖三种架构的可移植向量化 Quicksort。评论还解释了关键技巧：在 Arm SVE、RISC-V V、x86 AVX-512 这类支持 compress-store 的指令集上直接做分区；在 AVX2 这类不支持的环境里再用 permute 去模拟。有人因此提醒标题最好补上年份，免得把旧论文看成新突破。\n[来源1] [来源2] [来源3]\nSIMD 代码复用与工程化\n…",
+          "link": "https://newshacker.me/story?id=49731054",
+          "publishedOn": "2026-09-16T19:50:31.000Z",
+          "wordCount": 73,
+          "title": "😅 2022 年可移植 SIMD Quicksort：首个向量化快排",
+          "imageUrl": null
+        },
+        {
+          "id": "49729000",
+          "author": null,
+          "description": "原标题：《Small Programming Tricks》\n评分: 195 | 作者: signa11\n💭 既然有 AI，谁还需要记这些命令和快捷键呢？\n\n🎯 讨论背景\n这篇帖子围绕一组“小技巧”展开，但评论很快把焦点放到命令行效率和 Unix shell 生态上。大家反复提到 zsh（一个常见的 Unix shell）、fish（一个更现代的 shell）、fzf（模糊查找器）、atuin（带同步和搜索的 shell 历史工具）和 zoxide（记忆目录的跳转工具），说明不少“技巧”其实是把重复操作做成可检索的个人工作流。另一个大背景是 AI coding tools 的普及：有人开始从 LLM/agent 运行的命令里反向学习，也有人觉得 AI 让很多传统快捷键和手写代码的价值下降。评论里还延伸到团队知识分享、Slack 频道噪音、以及 branchless code 这类性能优化概念，显示这类“技巧帖”在今天已经不只是语法小招，而是工作方式之争。\n\n📌 讨论焦点\n命令行历史与目录跳转\n很多人强调，命令行小技巧的关键不在“知道”，而在“养成习惯”。有人即使早就会 Ctrl +R 或装了 fzf（模糊查找器）和 shell 集成，还是多年习惯性按上下箭头，因为默认路径最省脑力；所以他们会把技巧记进随手可查的文档目录或 ~/scratch.txt 这类文件，用 grep/别名快速检索。另一类改进是直接升级历史体验：zsh（常见 Unix shell）的历史前缀/子串搜索、fish（另一种 shell）默认的历史回溯、atuin（增强型 shell 历史工具）和 zhist（基于 fzf 的历史工具）都被拿来对比。目录跳转方面，zoxide（记忆常用目录的工具）+ fzf 也被视为比纯 cd 更顺手的“第二大脑”。\n[来源1] [来源2] [来源3] [来源4] [来…",
+          "link": "https://newshacker.me/story?id=49729000",
+          "publishedOn": "2026-09-16T19:40:54.000Z",
+          "wordCount": 73,
+          "title": "🤔 命令行小技巧、AI 学习与 branchless 争论",
+          "imageUrl": null
+        },
+        {
+          "id": "49730302",
+          "author": null,
+          "description": "原标题：《GitHub is having trouble counting things》\n评分: 20 | 作者: chuckgreenman\n💭 连 PR 状态都算不准，还谈什么效率翻倍？\n\n🎯 讨论背景\n这场讨论围绕 GitHub 在 pull request（PR，代码审查请求）状态、分页计数和界面显示上的不一致展开。用户完成审批后，页面却仍显示“等待 review”，这让人怀疑是多个 cache、后台同步延迟或计数逻辑本身出了问题。评论者把它放进分布式系统常见的一致性取舍里讨论：后端可以接受 eventual consistency（最终一致性），但协作平台必须尽量避免让用户看到互相矛盾的状态。另一条线索则把 GitHub 的退化联系到 Microsoft 收购后的产品路线，借用了 EEE 这种老牌反垄断叙事，不过更多人认为当前现象更像复杂系统中的工程失误，而不是明确的战略阴谋。\n\n📌 讨论焦点\nUI 状态与计数不同步\n有评论把问题描述为明显的 UI 错位：已批准的 PR 仍然显示成“等待 review”，甚至分页数字也出现像“1 3 Next”这样的怪异排列。讨论里认为这不只是小瑕疵，而是用户已经完成操作后，界面却不给出一致反馈，直接影响工作流判断。有人指出这类问题通常来自多个 cache 不一致或后端状态延迟。也有人强调，在大组织里这种 bug 并不少见，但 GitHub 作为协作平台更不该让它长期暴露给用户。\n[来源1] [来源2] [来源3] [来源4]\n扩展性、缓存与一致性代价\n另一组评论把它当作 scaling 变差的典型症状，提到 dirty reads 和 eventual consistency 这类分布式系统中的常见折衷。观点是：后端异步写入本身可以接受，但用户执行动作后却看不到结果，就会显得系统失控。有人还把问题总结成“计数”“cache validation”和“off-by-one errors”同时出问题，带着明显的讽刺意味。甚至还有人借“agentic workflows”效率翻倍的口号反讽，暗示连基本数字都算不准。\n[来源1] [来源2] [来源3] [来源4] [来源5]\nMicrosoft 收购与 EEE 阴谋论\n有评论把 GitHub 的退化解释为 Microsoft 旧式 EEE（Embrace, Extend, Extinguish，先接纳、再扩展、最终挤出竞争对手）策略的延续，认为平台先是被善意扩张，随后进入“吞并后挤出”的终局。反驳者则认为这种说法过于老套，许多当前员工根本不可能亲历最初的 EEE 时代，用它解释当下工程问题意义有限。也有人折中地说，不管是不是刻意战略，GitHub 现在看起来更像是普通的工程失误和组织能力下降，而不是精心设计的产品迁移。还有人追问微软到底要把用户导向哪里，因为 Team Foundation Server（微软早期的企业级研发管理平台）似乎也不是一个现实去处。\n[来源1] [来源2] [来源3] [来源4]\n\n📚 术语解释\ndirty reads: 读到尚未最终提交或可能回滚的数据，常见于并发或分布式系统中的一致性问题。\neventual consistency: 最终一致性：系统允许短时间内各副本不一致，但会在之后收敛到同一状态。\ncache validation: 缓存校验，用来判断缓存内容是否仍然有效、是否需要刷新。\noff-by-one error: 差一错误，常见于计数、索引或边界条件处理不准确导致的 bug。\nEEE: Embrace, Extend, Extinguish，微软历史上常被提起的产品竞争策略缩写。\n\n类别：Systems | Product | Web | Opinion | GitHub | counting | caching | UI | Microsoft | eventual consistency",
+          "link": "https://newshacker.me/story?id=49730302",
+          "publishedOn": "2026-09-16T19:30:13.000Z",
+          "wordCount": 73,
+          "title": "🤦 GitHub 计数翻车：PR 审核状态与分页缓存失同步",
+          "imageUrl": null
+        },
+        {
+          "id": "49727659",
+          "author": null,
+          "description": "原标题：《The DeepMind Institute》\n评分: 39 | 作者: vertigoruntime\n💭 换个 institute 门面，AI 政策影响力就自动到账？\n\n🎯 讨论背景\nDeepMind Institute 是 Google DeepMind（Google 旗下的 AI 研究部门）推出的一个 Substack/blog（写作订阅平台式）内容站点，并不是新成立的独立组织。它把研究文章、观点社论和 AI policy 讨论放在同一个包装里，借“institute”这个名字营造智库与学术机构的权威感。讨论之所以集中在这里，是因为页面直接谈到 AGI（Artificial General Intelligence，通用人工智能）以及模型 reasoning、chains of thought（模型推理链）等争议话题。评论者还补充了网站的视觉风格、引用来源和与 Google 的关系，认为这更像一次公关和叙事设计，而不只是一个普通博客。\n\n📌 讨论焦点\n内容站点还是智库前台\n很多人认为 DeepMind Institute 只是 Google DeepMind 的内容站点或 Substack/blog，不是一个真正新成立的独立机构。它借“institute”这个名字制造学术和权威感，但实际更像内部 think tank，用来参与和引导 AI policy 讨论。有人直接把它理解成对政府和公众施加影响的门面，也有人说这只是把旧内容换了个更正式的包装。\n[来源1] [来源2] [来源3] [来源4] [来源5] [来源6]\nAGI 叙事与人类能力阈值争论\n另一条主线是对 AGI 叙事的怀疑。有人反驳页面里“接近人脑全部认知能力”的说法，认为当前 AI 距离真正的人类大脑还差得远。也有人追问到底达到多少种能力才算危险，意思是阈值本身就很模糊。另一种观点则强调语言能力已经足够改变社会，因为人类天生会把语言看作“只有人类才有”的标志；还有人把 AI 类比成书写和印刷术，认为它们都改变了记忆和知识传播，只是这类比被吐槽得很晦涩。\n[来源1] [来源2] [来源3] [来源4] [来源5]\n推理透明度与 chains of thought 争议\n评论还把焦点放在模型推理是否应该可见。有人提到页面里关于 reasoning 的文章，支持继续展示 chains of thought，因为这至少还能让研究者和 safety evaluator 观察模型是怎么得出结论的。另一方担心的是，越来越多的推理被塞进 latent space，外部无法审计，只剩下“trust me, bro”式信任。\n[来源1] [来源2]\n网站包装与视觉风格吐槽\n不少人只是纯粹吐槽网站包装。灰得几乎看不清的字体、像矢量图署名一样的排版，让页面看起来故作冷峻又有点装腔作势。再加上引用 Mark Fisher（英国文化理论家）等元素，整体气质被认为很像一场后现代式品牌表演。\n[来源1] [来源2] [来源3]\n\n📚 术语解释\nAGI: Artificial General Intelligence，指能像人类一样在广泛任务上迁移能力的通用人工智能。\nchains of thought (CoT): 模型在回答时显式展示的推理步骤，常用于可解释性与安全讨论。\nlatent space: 神经网络内部的隐表示空间；把推理转到这里意味着更难直接查看模型思路。\n\n类别：AI | Policy | Release | Opinion | DeepMind Institute | DeepMind | Google | AGI | chains of thought | reasoning | AI policy",
+          "link": "https://newshacker.me/story?id=49727659",
+          "publishedOn": "2026-09-16T18:50:28.000Z",
+          "wordCount": 73,
+          "title": "🙄 DeepMind Institute 被质疑是 Google 的 AI 政策前台",
+          "imageUrl": null
+        },
+        {
+          "id": "49730239",
+          "author": null,
+          "description": "原标题：《ER visits for gambling disorders doubled after expanded online gambling market》\n评分: 39 | 作者: geox\n💭 都把赌博做成 App 了，还指望它不伤人吗？\n\n🎯 讨论背景\n这场讨论围绕安大略省（Ontario）在线赌博市场扩张后的公共健康影响展开，原文称与赌博障碍相关的急诊就诊数量翻倍。评论补充了一个非常大的市场规模：2024 年安省玩家通过这些网站下注 827 亿加元，涉及 260 万个账户。有人指出研究里的 ER/ED 记录是按临床判断和 ICD-10（国际疾病分类第 10 版）编码来抓取的，F63.0 和 Z72.6 既可作为主因也可作为次因，所以它不等于每个病例都只是“因为赌博本身进急诊”。很多评论把重点放在手机博彩、体育广告和播客赞助上，认为在线投注平台把赌博变成了随时可用、持续刺激的产品，监管争论也因此集中在广告禁令、投注限额和冷静期等措施上。\n\n📌 讨论焦点\n手机博彩、广告与游说被视为成瘾机器\n不少评论把在线赌博描述成一种把人脑“劫持”进手机里的产品，认为它像 tobacco 一样专门利用人类的认知漏洞赚钱。有人把问题延伸到体育博彩广告和播客赞助，觉得如今的 sports media 几乎被赌博平台包裹。还有人指出 lobbying 也在放大风险，因为少量金钱就可能换来影响大量公众的立法结果。整体语气非常一致：这不是普通娱乐，而是被设计成高 ROI 的剥削系统。\n[来源1] [来源2] [来源3] [来源4]\n投注规模与统计口径之争\n评论者对 2024 年安省 827 亿加元下注额的第一反应多是震惊，但也有人提醒要看口径：gross wager 并不等于净损失，重复下注会把同一笔钱算多次。有人拿家庭收入做对比，认为这个数字虽大，却在经济总量里并非完全不可理…",
+          "link": "https://newshacker.me/story?id=49730239",
+          "publishedOn": "2026-09-16T18:40:28.000Z",
+          "wordCount": 73,
+          "title": "⚠️ 安省在线博彩扩张后，赌博障碍急诊翻倍",
+          "imageUrl": null
+        },
+        {
+          "id": "49726350",
+          "author": null,
+          "description": "原标题：《Scaling Golang CI by Replacing actions/setup-go》\n评分: 26 | 作者: peterldowns\n💭 默认 CI 都这么慢，还谈什么规模化？\n\n🎯 讨论背景\n这篇讨论围绕 cloudx-io/setup-go（一个替代 GitHub Actions 官方 actions/setup-go 的自定义 action）如何在 Go CI 中减少重复下载和重复测试。默认 actions/setup-go 会结合 GitHub Actions cache（GitHub 提供的缓存服务）保存和恢复 Go 的构建、测试缓存，但缓存条目会随着提交增加而膨胀，加载时间也会越来越长。作者提到他们会回放 git 历史来估算缓存命中率，并据此判断哪些 `go test ` 可以跳过；同时 Go 1.24 新增的 GOCACHEPROG（可插拔缓存程序接口）让测量和远程缓存更容易。讨论还延伸到是否应该向上游提交 PR，以及与其他加速工具如 WillAbides/setup-go-faster（一个专注于加速 Go 安装的 action）的分工。\n\n📌 讨论焦点\n缓存膨胀与命中率优化\n讨论的核心是用自定义 action 替换官方 actions/setup-go（GitHub Actions 的 Go 环境设置工具），以减少 CI 里重复的缓存恢复和无效测试。有人指出默认缓存会不断“长胖”，导致从 GitHub Actions cache（GitHub 的缓存服务）加载缓存越来越慢，最后反而拖垮 CI。还有人补充说他们用 git 历史回放去推算不同 commit 下的缓存命中，发现大量 `go test ` 实际上可以跳过，甚至提出了 86% 的 test runs 不必要。Go 1.24 的 GOCACHEPROG（可插拔缓存程序接口…",
+          "link": "https://newshacker.me/story?id=49726350",
+          "publishedOn": "2026-09-16T18:20:12.000Z",
+          "wordCount": 73,
+          "title": "🚀 用自定义 setup-go 缓解 Go CI 缓存膨胀与重复测试",
+          "imageUrl": null
+        },
+        {
+          "id": "49727463",
+          "author": null,
+          "description": "原标题：《We know what a world without work looks like》\n评分: 24 | 作者: surprisetalk\n💭 没了工作，社会就只剩八卦和抓异类吗？\n\n🎯 讨论背景\n这篇文章讨论的是后工作（post-work）社会：它不是说明天就没人上班，而是借历史上不必靠工资谋生的人群，想象 automation（自动化）和 AI 时代的生活会怎么组织。评论里有人拿 Burning Man（一个强调礼物经济和临时社群的大型艺术活动）和 salon（沙龙式社交圈）做类比，也有人提到 mouse utopia studies（鼠类乌托邦实验）来质疑“丰裕是否必然带来秩序”。另一条主线是美国对 unemployed（失业者）的污名、frontier AI labs（前沿 AI 实验室）是否正在放松 guardrails（护栏），以及 wealth concentration（财富集中）会不会借机加剧。总体上，这场讨论在追问：如果工资不再是生存前提，社会会更像护理、祈祷和自我修炼，还是更像监控、八卦和新阶层竞争。\n\n📌 讨论焦点\n工作不会消失，只会换成更需要人类的任务\n有评论不同意“工作消失”的前提，认为即使工资不再是生存门槛，很多任务仍然只能由人来做。被反复举出的例子包括育儿、照护病人和老人、艺术、政府、法律、科研，以及需要身体和精神训练的活动。还有人把 exercise（锻炼）和 prayer（祈祷）也算进了机器无法外包的生活内容。这个观点的核心是：工作形式会变，但人类劳动不会消失，而且仍需要相对公平的激励机制。\n[来源1] [来源2]\n闲暇会催生八卦、道德监管和执法扩张\n另一类担忧不是没工作本身，而是闲暇社会会把精力转向互相盯梢。评论者设想的是政治八卦、道德审判和对 deviant behavior（越轨行为）的分类越来越细，最后让“犯罪…",
+          "link": "https://newshacker.me/story?id=49727463",
+          "publishedOn": "2026-09-16T17:00:56.000Z",
+          "wordCount": 73,
+          "title": "🤔 后工作社会：护理、身份与监管争夺",
+          "imageUrl": null
+        },
+        {
+          "id": "49729228",
+          "author": null,
+          "description": "原标题：《Code Is Crap》\n评分: 28 | 作者: luispa\n💭 把代码烂不烂做成公式，就真的更科学了吗？\n\n🎯 讨论背景\n这篇文章其实是 2011 年的一篇旧文，讨论 CRAP（Change Risk Anti-Patterns，一种把复杂度和测试覆盖率结合起来的改动风险指标）。HN 的标题规范化把原题 “This code is CRAP” 改得更怪，于是评论先围绕标题处理规则和免责声明展开。真正的技术背景则是软件工程里长期争论的几类度量：cyclomatic complexity（圈复杂度）、code coverage（代码覆盖率）、函数长度和类数量是否真的能代表代码质量。评论还牵到 Gilded Rose kata（一个常见的重构练习）、Sandi Metz 和 Kevlin Henney 的相关演讲，以及 John Ousterhout 对 Clean Code 式教条的批评。\n\n📌 讨论焦点\n标题规范化与文案吐槽\n不少人先注意到标题被 HN 改过，原题是 “This code is CRAP”，结果开头的 “This” 像是被标题规范化吞掉了。有人直接吐槽这个 normalizer 本身就很 “crap”，也有人解释 submitter 在短时间内可以手动改回标题，只是规则对用户并不透明。还有人指出免责声明写得很讽刺：先在标题和 URL 里用了那个词，后面才提醒读者别被冒犯。整体气氛更像是在拿站点文案和审核机制开玩笑。\n[来源1] [来源2] [来源3] [来源4] [来源5] [来源6] [来源7]\n对复杂度与“好代码”指标的反弹\n一条主线是在批评软件工程里对 class 数、函数长度、cyclomatic complexity 和 CRAP 这类指标的迷信。评论者认为行业在“短函数至上”和“度量即真理”之间来回摆动，忽略了 OO met…",
+          "link": "https://newshacker.me/story?id=49729228",
+          "publishedOn": "2026-09-16T16:55:29.000Z",
+          "wordCount": 73,
+          "title": "🤨 CRAP 代码度量旧文引发标题规范化争议",
+          "imageUrl": null
+        },
         {
           "id": "49728733",
           "author": null,
