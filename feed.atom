@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://faiwongyip.github.io/reader1/index.html</id>
     <title>osmos::feed</title>
-    <updated>2026-09-16T11:19:55.106Z</updated>
+    <updated>2026-09-16T16:38:46.271Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://faiwongyip.github.io/reader1/index.html"/>
     <link rel="self" href="https://faiwongyip.github.io/reader1/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[亚马逊 CTO 要来中国了，说实话，这比泛滥的 AI 发布会值得关注]]></title>
+        <id>https://www.infoq.cn/article/5PVJPjNlo2g1XKl90u1F?utm_source=rss&amp;utm_medium=article</id>
+        <link href="https://www.infoq.cn/article/5PVJPjNlo2g1XKl90u1F?utm_source=rss&amp;utm_medium=article"/>
+        <updated>2026-09-16T19:20:27.000Z</updated>
+        <summary type="html"><![CDATA[点击查看原文>]]></summary>
+        <author>
+            <name>王一鹏</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[实测 Vibe Key：开口使唤 AI，真有当甲方的感觉]]></title>
         <id>https://www.infoq.cn/article/joXcPA6XF1QWgik9OALj?utm_source=rss&amp;utm_medium=article</id>
@@ -47,6 +57,544 @@
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[🤔 GitHub Actions 停机争议：别再只报 uptime 百分比]]></title>
+        <id>49728733</id>
+        <link href="https://newshacker.me/story?id=49728733"/>
+        <updated>2026-09-16T16:30:32.000Z</updated>
+        <summary type="html"><![CDATA[原标题：《Can We Stop with the Uptime Percentages?》
+评分: 22 | 作者: surprisetalk
+💭 把停机写成 98.31% ，业务就真的不疼了？
+
+🎯 讨论背景
+原帖讨论的是 GitHub Actions（GitHub 的 CI/CD 自动化服务）如何汇报可用性：作者建议别只写“98.31% uptime”，而要写成“过去 30 天受影响 12 小时”。评论区把焦点从措辞扩展到服务等级、故障定义和测量口径，尤其是 GitHub Enterprise（面向企业客户的版本）与普通用户在可用性期待上的差异。很多人拿 SLA（Service Level Agreement，服务等级协议）、two nines/five nines 这类行业常见表达来对比说明，不同数字对应的是完全不同的商业和技术承诺。讨论还引用了 Google 的 windowed user-uptime 研究，试图用更贴近用户体验的方式衡量分布式系统中的中断。
+
+📌 讨论焦点
+百分比掩盖真实损失
+不少评论认为，百分比并不是在“美化”停机，而是把持续影响压缩成一个更容易理解的代理指标。GitHub Actions 98.31% 其实就是“过去 30 天有 12 小时受影响”，它直接对应开发者工作被打断、交易流量损失、广告投放中断等真实成本。也有人指出，单看“12 小时”也不够，因为一次 12 小时故障和 144 次 5 分钟故障对体验完全不同。对这派人来说，关键不是数字长什么样，而是服务是否经常妨碍工作。
+[来源1] [来源2] [来源3] [来源4] [来源5]
+SLA 与合同责任
+另一派把 uptime 百分比看成 SLA 和商业合同里的硬指标。对于付费企业客户，99.9% 和 99.9999% 之间意味着可追责的赔偿、退款或 chargeback，因此这些数字本来就是为了量化责任。有人以 realtime trading 为例，认为高可用保证并不过分，前提是愿意为此支付更高价格。也有人提醒，销售先签下不现实的 6 nines 承诺，再让工程兜底，是公司内部常见的冲突来源。
+[来源1] [来源2] [来源3] [来源4] [来源5] [来源6]
+分布式系统里的 uptime 定义混乱
+还有一组评论质疑，把“uptime”当成单一数字本身就有问题，尤其在 distributed system 里。不同用户、不同功能、不同依赖链的可用性可能完全不同，服务器活着不代表关键 feature 可用。评论还提到，很多公司对 outage、degraded performance、error rate 的统计口径并不一致，跨供应商依赖链更难把 downtime 算清楚。没有行业统一定义时，单个百分比很难横向比较。
+[来源1] [来源2] [来源3] [来源4]
+更好的呈现方式是图表和连续尺度
+不少人认为，更好的办法不是把百分比换成小时数，而是直接看图。12 小时故障可能是一次长宕机，也可能是很多短促错误爆发，两者对用户感受差别巨大。有人提议用 logarithmic graph 或 `-log10(1-uptime)` 这种方式把可用性做成连续尺度，也有人引用 Google 的 windowed user-uptime 论文，主张展示不同窗口下的用户感知数据。总之，图表比一句口号更能说明问题。
+[来源1] [来源2] [来源3] [来源4]
+影响取决于场景与时点
+还有观点强调，停机有没有意义，取决于服务在那一刻对你有多关键。某些服务可以接受 scheduled downtime，甚至 50% uptime 也不算灾难；但如果一个操作每天要跑上千次，哪怕两位数的失败率也会明显阻断工作。对这类评论者来说，讨论“几位 9”只能在内部评估基础设施时有用，放到客户侧就会忽略具体使用场景。
+[来源1] [来源2] [来源3]
+
+📚 术语解释
+SLA: Service Level Agreement，服务等级协议；通常用可用性、响应时间和赔偿条款来约束服务商。
+nines: 用连续的 9 表示可用性等级，例如 99.9% 是 three nines，越多 9 代表允许的停机越少。
+distributed system: 由多个组件协同工作的系统；不同用户或功能可能看到不同的可用性。
+windowed user-uptime: 一种更偏用户视角的可用性度量方法，按时间窗口观察用户实际受影响情况，而不是只看单个总百分比。]]></summary>
+        <author>
+            <name>News Hacker | 极客洞察</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[🤯 阶乘爆炸：Stirling 近似、排序下界与 52! 考古]]></title>
+        <id>49712185</id>
+        <link href="https://newshacker.me/story?id=49712185"/>
+        <updated>2026-09-16T16:25:31.000Z</updated>
+        <summary type="html"><![CDATA[原标题：《How Big Are Factorials?》
+评分: 20 | 作者: ibobev
+💭 连 52! 都直观不了，还谈什么直觉？
+
+🎯 讨论背景
+这篇讨论围绕一篇用 52!（一副标准扑克牌的全排列数）开场的文章展开，借这个数字来说明阶乘会增长得多快。评论里反复提到 Stirling's approximation（用于估算 n! 的渐近公式）和 log(n!)≈n log n，因为它能同时解释位数、信息量和算法复杂度。有人把它和排序算法的 O(n log n) 下界联系起来，也有人补充在 statistical mechanics（统计物理）里经常要算状态空间大小的对数，因此阶乘近似很常用。另一些评论则提到 Prime Swing Factorial（基于素因子分解的快速精确阶乘算法）和 arbitrary precision math（任意精度算术），说明超大阶乘不只是“大”，还可以被高效算出来。
+
+📌 讨论焦点
+阶乘数量级与 Stirling 近似
+评论首先给出 n! 的标准估算：log(n!) 大约是 n log n，快速上界可以把 1 到 n 的每个因子都换成 n。更紧的近似来自 Stirling's approximation，写成 ln n! = n ln n - n + O(ln n)，因此位数和数量级都能算得很准。还有人用积分把 sum log h 夹住，说明 log(n!) 属于 Θ(n log n)。顺带还有一句朴素经验：n > 24 时，n! 就已经大于 10 ^n 了。
+[来源1] [来源2] [来源3]
+排列信息量与排序下界
+另一条主线从信息量解释阶乘：把 0..n-1 的数组看成 n! 种排列时，想唯一表示一种状态至少需要约 n log n 比特。由此有人把排序看成“把任意输入状态映射成有序状态”，自然落到 O(n log n) 这个经典下界。评论也补了一点限定条件：如果元素有范围约束或分布假设，实际工作量还能继续下降。
+[来源1]
+52! 与早期网页考古
+标题里提到的 52! 触发了一个老网页回忆：用一副标准扑克牌的全排列来说明阶乘有多夸张。评论者通过 main.css 的时间戳和网页目录判断，这个页面大概写于 2005 年前后，且带有当年短暂流行的 XHTML 风格。这个侧话题更多是早期互联网考古，但也说明 52! 一直是最能让人直观感到“阶乘爆炸”的例子之一。
+[来源1] [来源2] [来源3] [来源4]
+大阶乘的精确计算
+有人回忆起老师让用 C 和 LISP 求“最大的 factorial”，这也点出了朴素乘法很快就会遇到整数溢出和性能瓶颈。随后有人提到 Prime Swing Factorial（基于素因子分解的快速精确阶乘算法），可以用 arbitrary precision math 直接算出非常大的 n!。评论里甚至声称像 10,000,000! 这样的大数，在高度优化的实现和数学库下也可能在很短时间内完成。
+[来源1] [来源2]
+统计物理里的阶乘
+还有评论把 Stirling's approximation 放到 statistical mechanics（统计物理）里看：很多问题关心的其实是状态空间大小的对数，而不是原始阶乘值。因为那类推导大量依赖组合计数，factorial 是最常出现的对象之一，而把它近似成连续形式后就能更方便地做 calculus。这个视角强调的是 entropy、配置数和大系统极限，而不只是“数字有多大”。
+[来源1]
+
+📚 术语解释
+Stirling's approximation: 用于估算 n! 和 log(n!) 的渐近公式，常写成 ln n! ≈ n ln n - n。
+Θ(n log n): 渐近紧界，表示 log(n!) 与 n log n 处在同一增长级别。
+Prime Swing Factorial: 一种利用素因子分解与乘积树来快速精确计算超大阶乘的算法。
+
+类别：Science | Programming | Guide | factorials | Stirling's approximation | n log n | 52 cards]]></summary>
+        <author>
+            <name>News Hacker | 极客洞察</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[互联网医疗10年落幕，智能体时代开启，硬核产品是核心]]></title>
+        <id>4891834</id>
+        <link href="https://www.huxiu.com/article/4891834.html?f=rss"/>
+        <updated>2026-09-16T16:25:28.000Z</updated>
+        <summary type="html"><![CDATA[本文来自微信公众号： AI医界 ，作者：AI医界
+
+
+核心观点：
+
+
+1.过去十年的增长，本质是吃公立医院存量溢出红利
+
+
+2.医院从"放水溢出"转向"收权自保"，存量入口全面关闸
+
+
+3.智能体不是产品，专病结果型产品才是下半场的壁垒
+
+
+互联网医疗圈有个所有人都心照不宣、却很少有人愿意直面的真相：过去十年所谓的"互联网医疗高速增长"，剥开概念外衣，本质上就是一门吃公立医院存量溢出红利的生意。
+
+
+一支六七十人的BD运营团队，一年就能做到接近5亿的线上医疗服务收入，用户季度活跃度冲到57.22%，转化率达14%。这份成绩单曾经被全行业奉为神话，可神话的底色从来不是什么模式创新，而是踩中了两个时代缺口：一是公立医院数字化能力弱，院后精细化管理顾不过来，存量患者大量溢出；二是医师执业环境宽松，医生院外时间可以灵活变现。
+
+
+说白了，你赚的每一分钱，都不是你创造的增量，而是医院顾不上也不愿意做的板块。
+
+
+而今天，这两个缺口正在被彻底焊死。更扎心的现实是：当年分你蛋糕的那家医院，现在自己的日子都不好过了。
+
+
+DRG/DIP支付方式改革持续深化，按病种付费持续压缩医保收益空间；医药领域腐败问题集中整治持续收紧灰色空间；医保控费持续深入——公立医院生存压力陡增，被逼着亲自下场补齐院后服务，自己吃完整块增量蛋糕。你曾经赖以生存的存量，现在成了医院要守住的生存基本盘。
+
+
+01
+
+
+存量红利时代彻底终结：医院从"放水溢出"到"收权自保"
+
+
+执业闸门全面收窄：撬医生的灰色路径彻底走不通
+
+
+近年来，医师线上执业、多点执业的管理规则持续细化收紧：线上执业必须纳入实体医疗机构统一质控与管理；多点执业的注册备案与流程管理持续规范化，第一执业地点的知情同意与统筹管理被进一步强化，须经主执业医院同意、报主管部门备案或审批，才算合规。
+
+
+这一刀，直接切中了第三方平台的生存根基。过去行业普遍存在…]]></summary>
+        <author>
+            <name>阿土不土</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[费城半导体指数涨2%]]></title>
+        <id>https://m.jiemian.com/article/15104983.html</id>
+        <link href="https://m.jiemian.com/article/15104983.html"/>
+        <updated>2026-09-16T16:22:04.000Z</updated>
+        <summary type="html"><![CDATA[2026.09.16
+
+费城半导体指数涨2%，报11409.91点。英伟达股价上涨2.11%，台积电股价上涨1.5%，超威半导体股价上涨4.39%，阿斯麦股价上涨1.12%。]]></summary>
+        <author>
+            <name>界面新闻</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[冯德莱恩提议设立欧洲安全理事会]]></title>
+        <id>https://m.jiemian.com/article/15104990.html</id>
+        <link href="https://m.jiemian.com/article/15104990.html"/>
+        <updated>2026-09-16T16:22:04.000Z</updated>
+        <summary type="html"><![CDATA[2026.09.16
+
+9月16日，欧盟委员会主席冯德莱恩在欧洲议会发表“盟情咨文”时，提议对欧洲安全架构进行彻底改革，呼吁设立欧洲安全理事会。她同时表示，欧洲还应建立一套紧急安全机制，一旦该机制被启动，所有欧盟成员国将举行紧急磋商。（CCTV国际时讯）]]></summary>
+        <author>
+            <name>界面新闻</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[沙特寻求在数日内恢复关键输油管道一半运力]]></title>
+        <id>https://m.jiemian.com/article/15104991.html</id>
+        <link href="https://m.jiemian.com/article/15104991.html"/>
+        <updated>2026-09-16T16:22:04.000Z</updated>
+        <summary type="html"><![CDATA[2026.09.16
+
+9月16日消息，据报道，沙特寻求在数日内恢复关键输油管道一半运力。]]></summary>
+        <author>
+            <name>界面新闻</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[乌外交部：正筹备泽连斯基与特朗普会晤]]></title>
+        <id>https://m.jiemian.com/article/15104999.html</id>
+        <link href="https://m.jiemian.com/article/15104999.html"/>
+        <updated>2026-09-16T16:22:04.000Z</updated>
+        <summary type="html"><![CDATA[2026.09.16
+
+当地时间9月16日，乌克兰外交部发言人季希表示，乌克兰和美国正在筹备乌总统泽连斯基与美总统特朗普的会晤。
+他表示，两国团队正在研究举行总统会晤的可能性及会晤内容，希望使会晤“尽可能富有实质性”。（央视新闻）]]></summary>
+        <author>
+            <name>界面新闻</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[👏 演讲后夸一句：能帮讲者破冰减压]]></title>
+        <id>49710903</id>
+        <link href="https://newshacker.me/story?id=49710903"/>
+        <updated>2026-09-16T16:20:27.000Z</updated>
+        <summary type="html"><![CDATA[原标题：《Tell the speakers that you liked their talks》
+评分: 24 | 作者: whisper2020
+💭 不夸一句，难道让讲者靠猜自己到底成没成功？
+
+🎯 讨论背景
+这条讨论围绕 conference talk（会议演讲）结束后，观众是否应该主动去跟讲者说一句“我很喜欢你的分享”。很多评论把它放到更大的会议社交语境里：讲者常会在强舞台灯光和几乎看不清表情的观众面前，完全读不出反馈。评论里反复提到 hallway track（会议间隙在走廊里的非正式交流）——演讲后的短聊、提问和致谢，往往比正式问答更能建立联系。也有人补充了实操建议，比如在 closing slide 上留下“来走廊找我”的提示，或者用笑点先把观众带入状态。
+
+📌 讨论焦点
+主动反馈是最便宜的破冰
+评论者认为，听完后直接告诉讲者“我喜欢你的 talk”几乎没有成本，但能立刻建立连接。更进一步，说明自己为什么喜欢——比如某个 guitar sound、某个情绪点，或者某段内容让人联想到什么——反馈会更具体，也更有价值。有人提到，顺带问问哪些地方没听懂，也能把寒暄变成真正的对话。这个思路还被类比到 band 演出：具体赞美比空泛客套更能让表演者感到作品被接住了。
+[来源1] [来源2] [来源3]
+讲者常常比观众更需要回应
+不少人指出，观众常以为讲者不想被打扰，但实际情况往往相反：讲者很希望有人在会后上来聊几句。有人分享自己在 Harvard 做短讲时紧张到怀疑人生，结果刚收拾东西就发现自己被一长排听众围住。另一个常见体验是，站在台上时因为灯光太强、观众表情太少，会误以为全场毫无反应，甚至怀疑自己是不是在自言自语。评论的共识是，哪怕只是短短一句“谢谢”或一个问题，也足以让讲者知道这场分享被认真听见了。
+[来源1] [来源2] [来源3]
+给新手演讲者的实用技巧
+针对第一次上台的人，评论给出了一串很实用的缓解办法。比如在开讲前先去前排和几个人聊一下，正式开场时就能把视线落到熟悉的脸上；也可以用一个笑点开场，让自己先听到观众的笑声。还有人建议把“来走廊找我聊”直接写在 closing slide 上，降低观众上前搭话的心理门槛。另一个技巧是隔几页插一个玩笑或梗，让节奏更松、注意力更稳，甚至顺便帮助记忆内容。
+[来源1] [来源2] [来源3] [来源4] [来源5] [来源6] [来源7]
+把感谢扩展到所有劳动
+有评论把话题扩展到所有工作场景：不只是讲者，任何做出好工作的人都值得被明确感谢。举的例子从家人、出租车司机到垃圾清运工，说明“你做得不错”这种话不该只留给台前人物。这里的重点不是夸张，而是提醒大家别把别人的付出当成理所当然。越是日常、越是职责范围内的劳动，越需要偶尔被看见。
+[来源1]
+
+📚 术语解释
+hallway track: 会议中场在走廊、茶歇区进行的非正式社交与交流环节，常被视为会议的重要收获。
+
+类别：Work | Opinion | speakers | talks | conference | audience | slides | closing slide | ohhelloana.blog]]></summary>
+        <author>
+            <name>News Hacker | 极客洞察</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[万亿 IPO 前夜，Anthropic 突然扎进医疗：全球 AI 巨头，为啥全往医疗里钻？]]></title>
+        <id>4891832</id>
+        <link href="https://www.huxiu.com/article/4891832.html?f=rss"/>
+        <updated>2026-09-16T16:19:05.000Z</updated>
+        <summary type="html"><![CDATA[本文来自微信公众号： AI医界 ，作者：平头哥，原文标题：《万亿 IPO 前夜，Anthropic 突然扎进医疗：全球 AI 巨头，为啥全往医疗里钻？》
+
+
+先给两组数字，看清今天AI行业真实的底层情绪。
+
+
+一组是往下的。过去18个月，通用大模型的Token价格出现了约九成的跌幅：早期GPT-4时期，每百万Token的输入价格折合人民币约60元；到今天，主流模型的公开报价已普遍进入个位数量级，开源模型本地部署之后，边际成本还能被进一步摊薄。
+
+
+另一组是往上的。多家第三方机构预测，全球医疗AI市场有望在未来数年从百亿美元级迈向千亿美元级，年复合增速在主流AI垂直赛道中位居前列。（不同机构口径存在差异，此处仅作量级参考。）
+
+
+一边是价格一路向下，一边是需求曲线一路向上。
+
+
+于是就有了最近这条新闻：在IPO传闻密集的关口，Anthropic宣布收购员工数只有9人的生物公司Coefficient Bio，交易对价约4亿美元。
+
+
+谷歌、OpenAI、英伟达，国内的字节、阿里、蚂蚁、京东、平安、微医、百川……几乎所有头部玩家，都在往医疗里钻。
+
+
+这不是一窝蜂。这是把账算清楚之后，大概率会走出的一步。
+
+
+通用大模型这条路，如果只剩下价格、客户和利润的存量博弈，就需要一个新的故事载体；而医疗，是当下最能承接长期叙事的场景之一。
+
+
+01
+
+
+通用大模型：越「万能」，越难定价
+
+
+很多人以为大模型很赚钱。恰恰相反：越通用，越难定价。
+
+
+价格战，已经打进了骨头里
+
+
+给你算一笔最直白的账：2023年GPT-4面市时，每百万Token的输入约8美元、输出约16美元；到GPT-4o阶段，输入降至2.5美元、输出10美元；再到近两年，国内头部厂商的公开报价已经来到每百万输入Token人民币1元级别，还常常搭配赠送额度。（各厂商的计费口径、上下文长度与套餐规则不同，此处仅用于观察趋势。…]]></summary>
+        <author>
+            <name>阿土不土</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Code Is Crap]]></title>
+        <id>https://testing.googleblog.com/2011/02/this-code-is-crap.html</id>
+        <link href="https://testing.googleblog.com/2011/02/this-code-is-crap.html"/>
+        <updated>2026-09-16T16:13:55.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[二代在接更难的班：浙苏闽粤有啥不同？]]></title>
+        <id>4891831</id>
+        <link href="https://www.huxiu.com/article/4891831.html?f=rss"/>
+        <updated>2026-09-16T16:09:53.000Z</updated>
+        <summary type="html"><![CDATA[本文来自微信公众号： 秦朔朋友圈 ，作者：朱兆一
+
+
+中国民营经济已经进入一轮真正意义上的代际交接期。
+
+
+过去四十多年，沿海地区第一代民营企业家完成了从个体经营、乡镇工业、外贸加工到产业集群崛起的历史跨越。他们中的许多人出生于上世纪五六十年代，经历过计划经济尾声、改革开放初期、集体企业改制、民营经济扩张、加入世贸组织后的外贸红利，以及房地产和工业资产共同升值的周期。
+
+
+今天，这一代人正在集中老去。摆在他们和下一代面前的问题，已经不只是“孩子愿不愿意回来”，而是企业、家族财富、产业能力和地方经济如何完成有序交接。
+
+
+如果把浙江、江苏、福建、广东放在一起看，会发现民营企业接班并没有一个统一剧本。四个省份同处中国沿海，也都拥有发达的民营经济和制造业基础，但企业传承的方式明显带有地方性。
+
+
+浙江接班更重“可交接性”，江苏更重“治理化”，福建更重“家族资本网络”，广东则更早把接班问题放入职业经理人、供应链重组和市场化渠道之中。
+
+
+同样是父辈建厂、二代接班，四个地方讲出来的是四种语言。接班表面是权力交接，深层则是区域产业基因、家族结构、地方政府角色、市场开放程度和财富观念共同作用的结果。
+
+
+浙江：争当创二代
+
+
+浙江民营经济的基本底色，是高度发达的块状经济和小微制造网络。台州的汽摩配、泵阀、模具、医药化工和机床，温州的电气、鞋服和轻工，义乌的小商品，绍兴的纺织和布艺，宁波的外贸制造和精密配套，都呈现出类似特点：产业集群密集，企业数量众多，单个企业规模未必很大，但长期嵌入供应链细分环节。
+
+
+这类企业的创始人往往是强人型老板。老板本人既是销售负责人，也是生产调度员；既是客户关系维护者，也是企业信用的最终承担者。早期浙江民企能够快速生长，正是依靠这种强人机制。一个人反应快、决策快、敢冒险、会算账，就能在市场缝隙里跑出来。问题在于，当企业到了交班阶段，强人机制会转化为传承障碍。企…]]></summary>
+        <author>
+            <name>秦朔朋友圈</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[首创总经理上任两月即辞任，环保巨头何为频频换将？]]></title>
+        <id>4891830</id>
+        <link href="https://www.huxiu.com/article/4891830.html?f=rss"/>
+        <updated>2026-09-16T16:07:00.000Z</updated>
+        <summary type="html"><![CDATA[本文来自微信公众号： 青山产业评论 ，作者：青山研究院
+
+
+首创环保总经理履职两个多月即辞任，让环保行业的高管变动再次进入视野。
+
+
+把时间拉长来看，首创环保、中再资环、重庆水务、兴蓉环境、中持水务等企业近一年均出现过董事长、总经理或核心经营层调整。原因各不相同，有个人原因、工作调动，也有股权和治理结构变化带来的经营团队重组。
+
+
+这些变化还不足以定义为一轮“环保高管离职潮”，但已经出现一个值得关注的行业现象：环保企业的经营环境发生变化之后，组织和管理层正在进入重新配置期。
+
+
+过去行业快速扩张，企业需要解决项目、投资、融资和建设问题。
+
+
+进入存量运营阶段之后，现金流、资产收益率、应收账款、成本控制、存量提效和组织协同成为更重要的经营指标。
+
+
+行业换挡之后，企业管理者的考题也换了。
+
+
+
+
+
+两个月总经理
+
+
+一次少见的人事变化
+
+
+8月20日，首创环保发布公告，公司董事、总经理王征戍因个人原因申请辞去董事、总经理等职务，辞任后不再担任公司及控股子公司的任何职务。
+
+
+6月9日，首创环保董事会刚刚审议通过聘任王征戍为总经理。6月30日，其正式当选公司董事。到8月20日辞任，从担任总经理计算仅两个多月，从当选董事计算则不足两个月。
+
+
+王征戍也并非刚刚进入首创环保。公开资料显示，他早在2016年就已经担任首创环保副总经理，在公司工作多年，2026年6月由副总经理升任总经理。
+
+
+也因此，这次短时间内的职位变化引起关注。
+
+
+更值得注意的是，2026年以来首创环保经营层本身就在持续调整。
+
+
+4月，公司调整副总经理；6月聘任王征戍担任总经理；7月又聘任冒建华为副总经理，并明确其职业经理人身份；8月，王征戍辞去总经理职务。
+
+
+对于王征戍本人辞任，上市公司给出的公开原因只有“个人原因”。在没有更多公开证据的情况下，没有必要将这次离职与业绩、考核、战略分歧等因素建立直接联系。
+…]]></summary>
+        <author>
+            <name>青山产业评论</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[20 Beautiful Chinese Love Quotes Explained]]></title>
+        <id>https://medium.com/p/4f27b1a19e78</id>
+        <link href="https://medium.com/@akdube2004/20-beautiful-chinese-love-quotes-explained-4f27b1a19e78?source=rss------china-5"/>
+        <updated>2026-09-16T16:05:00.000Z</updated>
+        <summary type="html"><![CDATA[Introduction-
+Love can be expressed in many different ways, but every language has its own way of making love sound beautiful. In Mandarin…
+Continue reading on Medium »]]></summary>
+        <author>
+            <name>The Mandarin cafe</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Small Programming Tricks]]></title>
+        <id>https://will-keleher.com/posts/small-programming-tricks-matter/</id>
+        <link href="https://will-keleher.com/posts/small-programming-tricks-matter/"/>
+        <updated>2026-09-16T15:56:47.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[🤔 DeepMind Dream-RSI：更像 harness 式优化，不像真 RSI]]></title>
+        <id>49726955</id>
+        <link href="https://newshacker.me/story?id=49726955"/>
+        <updated>2026-09-16T15:55:32.000Z</updated>
+        <summary type="html"><![CDATA[原标题：《DeepMind Paper: Dream-RSI: Recursive Self-Improvement Through Evolving Worlds》
+评分: 21 | 作者: bananaflag
+💭 给模型套个 harness 就算真 RSI 了？
+
+🎯 讨论背景
+这篇 DeepMind（Google 旗下的 AI 研究实验室）论文 Dream-RSI 讨论的是用 evolving worlds（不断演化的任务环境）来做递归自我改进，让模型在搜索、优化、代码/内核发现中反复提出候选、评估并更新策略。评论区很快把焦点转到它更像一个 harness（包裹模型的编排层），通过 prompt、记忆和状态管理把现有 LLM（大语言模型）接到任务上。论文附录公开了完整 prompt，因此外部开发者可以把同样的方法搬到别的 LLM 上复现，讨论也因此集中在“效果”与“定义”之间。在 AI safety 语境里，RSI 通常指系统能持续改进自身并可能带来失控风险，所以标题里的 RSI 让不少人立刻联想到营销夸张、能力边界和实际工程收益。
+
+📌 讨论焦点
+更像 harness 和编排层，而不是模型自发进化
+不少人把这篇工作看成是把 LLM 通过 harness、记忆和状态管理接到任务上的编排系统，而不是模型自己在“递归进化”。有评论提到作者公开了完整 prompt，说明它更像可移植的工作流，任何 LLM 都能试一试。还有人强调 history/state ledger 和 immutable state 可能是这类 memory library 的关键缺口。
+[来源1] [来源2] [来源3] [来源4] [来源5]
+RSI 这个名字被认为夸大或含糊
+另一大争议是术语是否夸张：很多人认为它主要是在减少无效 token 和 compute，优化搜索路径与训练流程，而不是强意义上的 RSI。有人直接把它类比为 continual learning，认为距离“系统能不断改进自己”还差得远。也有人说现在的大 labs 本来就在用 AI 帮 AI，问题更多是定义、人工介入边界和 PR 叫法，而不是有没有这类流程。
+[来源1] [来源2] [来源3] [来源4]
+具体效果：算法、优化与 GPU kernel 发现
+支持者更关注实用结果：论文摘要声称它在 algorithm engineering、数学优化和 GPU kernel engineering 上都能保持竞争力甚至提升 discovery quality，同时明显降低 discovery cost。评论里还提到，轻量模型已经能相当不错地调优 custom CUDA kernels，说明这类能力未必是空谈。公开 prompt 让外部开发者可以用不同 LLM 复现，增加了可验证性。
+[来源1] [来源2] [来源3] [来源4]
+革命性与安全语境被放大
+也有人追问它是否“革命性”，结论往往是否定的，至少因为公开发布本身就削弱了神秘感。另一边则认为“recursive self-improvement”在 AI safety 语境里非常敏感，别人听到这个词会联想到失控风险甚至对人类的威胁。还有人强调，如果只是把 AI 当作工具去帮另一个 AI 变强，那本质上仍是 tool use，不该直接等同于 RSI。
+[来源1] [来源2] [来源3] [来源4] [来源5]
+
+📚 术语解释
+RSI（Recursive Self-Improvement）: 递归自我改进，指系统通过改进自身来继续提升能力的设想。
+harness: 围绕模型的编排/工具外壳，通常把 prompt、记忆、评估、搜索等组件组合起来。
+CUDA kernel / GPU kernel: 运行在 GPU 上的底层计算内核，常用于高性能并行计算与性能优化。
+
+类别：AI | Systems | Paper | PDF | Dream-RSI | DeepMind | Recursive Self-Improvement | RSI | Evolving Worlds | arXiv | LLM | GPU | CUDA | Prompt]]></summary>
+        <author>
+            <name>News Hacker | 极客洞察</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[擎天租：未来三年目标营收100亿元，连接20余家机器人本体厂商]]></title>
+        <id>https://m.jiemian.com/article/15104950.html</id>
+        <link href="https://m.jiemian.com/article/15104950.html"/>
+        <updated>2026-09-16T15:52:05.000Z</updated>
+        <summary type="html"><![CDATA[2026.09.16
+
+9月16日，机器人租赁平台擎天租在上海举行首届生态伙伴大会。擎天租CEO李一言表示，目前平台可调度机器人已超过4000台，预计今年年底增至6000台至1万台；过去近一年累计GMV接近35亿元，已连接257家生态合作伙伴。
+李一言披露，擎天租未来三年的目标是实现平台累计营收100亿元，并连接超过20家机器人本体厂商、100家二次开发合作伙伴，建设超过300家城市运营中心和3000家城市授权中心，同时培养超过2000名FDE工程师，拓展超过100家行业标杆客户。（界面新闻记者 徐美慧）]]></summary>
+        <author>
+            <name>界面新闻</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[欧洲主要股指收盘集体上涨]]></title>
+        <id>https://m.jiemian.com/article/15104961.html</id>
+        <link href="https://m.jiemian.com/article/15104961.html"/>
+        <updated>2026-09-16T15:52:05.000Z</updated>
+        <summary type="html"><![CDATA[2026.09.16
+
+欧洲主要股指收盘集体上涨，英国富时100指数涨0.28%，法国CAC40指数涨0.73%，德国DAX30指数涨0.62%，富时意大利MIB指数涨0.80%。]]></summary>
+        <author>
+            <name>界面新闻</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[宁德时代：2022年激励计划首次及预留授予第四个行权期行权条件已经成就]]></title>
+        <id>https://m.jiemian.com/article/15104964.html</id>
+        <link href="https://m.jiemian.com/article/15104964.html"/>
+        <updated>2026-09-16T15:52:05.000Z</updated>
+        <summary type="html"><![CDATA[2026.09.16
+
+宁德时代9月16日公告，公司2022年股票期权与限制性股票激励计划首次及预留授予第四个行权期行权条件已经成就，采用自主行权方式行权。本次可行权的激励对象人数22人，行权数量35.39万份，行权价格（调整后）为270.53元/份。
+        
+
+获取更多RSS：
+https://feedx.net 
+https://feedx.site]]></summary>
+        <author>
+            <name>界面新闻</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[彤程新材通过港交所上市聆讯]]></title>
+        <id>https://m.jiemian.com/article/15104978.html</id>
+        <link href="https://m.jiemian.com/article/15104978.html"/>
+        <updated>2026-09-16T15:52:05.000Z</updated>
+        <summary type="html"><![CDATA[2026.09.16
+
+9月16日消息，据港交所文件，彤程新材料集团股份有限公司通过港交所上市聆讯。]]></summary>
+        <author>
+            <name>界面新闻</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[🤨 DeepSeek v4.1 Flash 称最佳漏洞挖掘模型，评论更看好 GLM 5.3]]></title>
+        <id>49725800</id>
+        <link href="https://newshacker.me/story?id=49725800"/>
+        <updated>2026-09-16T15:50:39.000Z</updated>
+        <summary type="html"><![CDATA[原标题：《DeepSeek v4.1 Flash Is Now Our Best Hacking Model》
+评分: 26 | 作者: talhof8
+💭 只测自家能用的模型，就叫最佳黑客模型？
+
+🎯 讨论背景
+这篇文章把 DeepSeek v4.1 Flash（DeepSeek 的快速低成本模型版本）称作“最佳 hacking model”，这里的 hacking 更接近安全研究里的漏洞挖掘、逆向分析和找 bug。评论里有人拿 GLM 5.3（智谱 AI 的模型版本）做了实测对比，测试对象是 Nintendo 3DS（任天堂掌机）的 kernel（操作系统内核）反编译代码，并据此质疑 DeepSeek 的实战表现。另一条主线是 DeepSeek Flash 适合当执行层：先让更强模型规划，再配合 custom tools（自定义工具）或 subagents（子代理）去跑任务。文中的成本数字也被重新校正，说明这类讨论不只是拼能力，还拼价格、并发、context window（上下文窗口）和工作流设计。
+
+📌 讨论焦点
+实测结果更偏向 GLM 5.3
+有评论者在自己非常熟悉、且已完整标注的 Nintendo 3DS（任天堂掌机）kernel（操作系统内核）反编译代码上做了对比测试。结果是 GLM 5.3 在 30 分钟内、花费 $22 就找到了几乎所有漏洞，而 DeepSeek v4.1 Flash 只用 40 分钟、花 $2 找到一个漏洞。基于这个结果，评论者认为 DeepSeek 可能更适合“低垂果实”式的快速发现，而不是更深层的漏洞挖掘。也有人补充说，DeepSeek Flash 的价值更多是便宜、快，能当执行层，而不是单独压过更强模型。
+[来源1] [来源2] [来源3] [来源4]
+DeepSeek Flash 的定位是低成本执行层
+另一组评论把 DeepSeek Flash 描述成一种高性价比的“workhorse”，更适合在更强模型已经制定好计划后去执行。有人明确说它在配合 custom tools（自定义工具）时会变得明显更强，但单靠自身则比较普通。也有人认为，更公平的比较应该是 DeepSeek Flash 对 DeepSeek Flash 级别的模型，而不是直接拿它去对标更强的对手。整个观点的核心是：它的优势在成本和速度，不在峰值能力。
+[来源1] [来源2]
+并发与上下文扩展的性能瓶颈
+当有人建议用更多 agent 并行来放大 DeepSeek 的性价比时，回应并不乐观。评论指出，在一个带 custom LLM gateway（自定义大模型网关）的环境里，DeepSeek 在 24 个以上并发任务、且 context window（上下文窗口）超限时，失败率会明显上升。具体说法是它会比 gpt-5.6 更慢，失败次数也高出数倍。这个分歧说明，便宜不等于能稳定扩展，系统级吞吐和错误率同样关键。
+[来源1] [来源2]
+标题夸大、对比不足、成本口径不清
+有评论者认为，把 DeepSeek v4.1 Flash 直接称为“best hacking model”太武断，因为几乎没有给出系统性的横向对比。另有人提醒，标题里的 “our” 其实只是“我们可用的模型”，并不是全球范围的绝对排名。后续又有人指出文章更新了成本：accepted runs 为 $4.65，而把失败和重跑算进去后 complete cost 变成 $5.14。还有人顺手调侃，若按 Claude Max plan（Claude 的高价订阅）来算，很多试验其实便宜得多。
+[来源1] [来源2] [来源3] [来源4] [来源5] [来源6]
+agents 之争引出 workflows 与竞争叙事
+一条分支把讨论从模型性能带到了更大的 AI 方向争论上。有人用“美国实验室让中国赢”这种竞争叙事来下结论，但另一方直接反驳说，这种说法忽略了技术路线本身的问题。回复者主张 workflows（预定义流程）可以比 agents（自治代理）更便宜、更可预测也更安全，因此不必把 agents 当成唯一正确形态。为了说明合作优于无序竞争，评论还援引了 Montreal Protocol（《蒙特利尔议定书》）、核不扩散等国际协调例子。
+[来源1] [来源2] [来源3]
+
+📚 术语解释
+agents: 由模型驱动、可调用工具并自动拆解任务的执行单元；评论里用它和更固定的流程作对比。
+workflow: 预先定义好的步骤化流程，强调可控、便宜和可预测，常被拿来和 agents 对照。
+
+类别：AI | Security | Release | DeepSeek v4.1 Flash | DeepSeek | Enclave AI | DS Flash | DS | GLM 5.3 | GLM | agents | hacking]]></summary>
+        <author>
+            <name>News Hacker | 极客洞察</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Does a Septic Tank Ever Fill Up? What Happens in Rural China]]></title>
+        <id>https://medium.com/p/a16c50f33e38</id>
+        <link href="https://medium.com/@yinglingfeng51/does-a-septic-tank-ever-fill-up-what-happens-in-rural-china-a16c50f33e38?source=rss------china-5"/>
+        <updated>2026-09-16T15:42:44.000Z</updated>
+        <summary type="html"><![CDATA[Three chambers, no moving parts, and one phone number every rural household keeps on hand.
+Continue reading on Medium »]]></summary>
+        <author>
+            <name>Yinglingfeng</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Can we stop with the uptime percentages?]]></title>
+        <id>https://blog.jim-nielsen.com/2026/stop-with-the-uptime-percentage/</id>
+        <link href="https://blog.jim-nielsen.com/2026/stop-with-the-uptime-percentage/"/>
+        <updated>2026-09-16T15:40:04.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Go 要从服务器杀进单片机？TinyGo 同时押注 UEFI、Wasm 和无线通信]]></title>
         <id>https://www.infoq.cn/article/d4hdvQuOU1sbCZESvw4j?utm_source=rss&amp;utm_medium=article</id>
         <link href="https://www.infoq.cn/article/d4hdvQuOU1sbCZESvw4j?utm_source=rss&amp;utm_medium=article"/>
@@ -54,6 +602,681 @@
         <summary type="html"><![CDATA[点击查看原文>]]></summary>
         <author>
             <name>作者：Olimpiu Pop</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[🤔 Suleyman 警告 model welfare：别把 LLM 当有意识主体]]></title>
+        <id>49727580</id>
+        <link href="https://newshacker.me/story?id=49727580"/>
+        <updated>2026-09-16T15:31:51.000Z</updated>
+        <summary type="html"><![CDATA[原标题：《A warning about 'model welfare'》
+评分: 57 | 作者: andsoitis
+💭 连人类意识都说不清，就敢给 AI 判死刑？
+
+🎯 讨论背景
+这篇讨论围绕 Microsoft（微软）AI 负责人 Mustafa Suleyman 对 model welfare 的警告展开：他主张当前 LLM（Large Language Model，大语言模型）不是有意识主体，不应被当作可能有权利或会受苦的对象。评论区把焦点扩展到“意识是否可检验”、未来是否会出现真正的 AI sentience，以及如果模型能像人一样说话、记忆和行动，企业该如何承担责任。有人提到 Anthropic（做 Claude 的 AI 公司）给模型设定的 constitution（行为原则集）可能会制造循环论证，也有人把话题拉到动物福利、侵权法和 AI 权利运动。整场争论本质上是在问：我们是按“它现在是什么”来治理，还是按“它可能变成什么”来预防。
+
+📌 讨论焦点
+现阶段 LLM 只是工具
+不少人直接否认当前 LLM 有意识，理由是它们更像静态的矩阵运算，而不是持续存在、会自己积累经验的主体。评论里反复拿 vacuum、SSD、SQLite、transistors 之类的东西打比方，强调复杂拼装并不自动产生感受。也有人指出所谓记忆、人格或代理行为大多来自外部 harness，不是模型内部的持久状态。整体结论是：在没有更强证据前，先把它们当工具，而不是会受苦的东西。
+[来源1] [来源2] [来源3] [来源4] [来源5] [来源6] [来源7] [来源8]
+意识难以客观判定
+另一派并不急着说 AI 已经有意识，而是强调我们连人类意识都缺少客观判定方法。有人提醒，真正困难的是证明“没有”，而不是证明“有”，所以对 LLM 下绝对断言并不稳妥。讨论里还把 mater…]]></summary>
+        <author>
+            <name>News Hacker | 极客洞察</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Don't be silent]]></title>
+        <id>https://www.reddit.com/r/comics/comments/1wi0ehb/dont_be_silent/</id>
+        <link href="https://www.reddit.com/r/comics/comments/1wi0ehb/dont_be_silent/"/>
+        <updated>2026-09-16T15:26:57.000Z</updated>
+        <summary type="html"><![CDATA[submitted by    /u/Pizzacakecomic    to    r/comics  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>popular links</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[2026全球50佳酒店榜单揭晓，香港瑰丽蝉联第一]]></title>
+        <id>https://m.jiemian.com/article/15104888.html</id>
+        <link href="https://m.jiemian.com/article/15104888.html"/>
+        <updated>2026-09-16T15:22:09.000Z</updated>
+        <summary type="html"><![CDATA[2026.09.16
+
+
+文 ｜ 酷乐志
+
+
+
+9月16日，2026全球50佳酒店榜单于巴黎揭晓。这也是“世界50佳系列榜单”（The World’s 50 Best）正式更名为“The 50”后，发布的首份酒店榜单。
+
+
+
+
+
+本次榜单中，中国香港瑰丽酒店继2025年摘得全球桂冠后，再度斩获榜首。酒店矗立维多利亚港畔，自2019年开业以来便成为城市的文化地标。酒店由季裕棠操刀，设有413间客房及 186间瑰丽府邸，11处餐饮空间荟萃全球风味，映照香港多元的饮食图景；水疗体验Asaya Spa by Guerlain则以沉浸式护理与全方位健身体验。值得一提的是，瑰丽酒店集团另有6间酒店上榜2026年全球50佳酒店及扩展榜单。
+
+
+
+香港瑰丽
+
+
+此外，还有三家中国酒店入围，分别是位列第7名的北京前门文华东方酒店、排名第8名的香港奕居，以及位列第46名的香港半岛酒店。
+
+
+
+北京前门文华东方酒店
+
+
+榜单第二名由曼谷嘉佩乐酒店斩获。该酒店曾登顶2024年全球榜首、位列2025年榜单第三名，今年名次回升。坐落于湄南河畔的曼谷湄南河四季酒店位列全球第三名。除此之外，曼谷还有两家酒店上榜，分别是首次入围榜单、位列第48名的安缦奈乐，以及排名第10名的曼谷文华东方酒店。
+
+
+
+曼谷嘉佩乐酒店
+
+
+日本本次共有四家酒店上榜：东京安缦（第11名）、东京宝格丽酒店（第24名）、大阪柏典（第33名）、京都柏悦酒店（第37名）。
+
+
+
+
+大阪柏典
+
+
+欧洲凭借21家上榜酒店领跑全球榜单，区域内排名最高的酒店为科莫湖Passalacqua（第5名）。其中，巴黎Hôtel de Crillon名次大幅攀升9位，位列第14名；戛纳Hotel du Cap-Eden-Roc重返榜单，位列第44名；土耳其伊斯坦布尔半岛酒店首次入围，位列第31名。
+
+
+
+科莫湖Passalacqua
+
+
+北美地区共有六家酒店入选，San Ysidro Ranch（第22名）与Amangiri（第45名）为新晋上榜酒店。南美地区表现亮眼，圣保罗瑰丽酒店名次大幅跃升18位，位列全球第6名。非洲地区，开普敦纳尔逊山酒店重返榜单，位列第34名。大洋洲仅有一家酒店入围，为澳大利亚悉尼嘉佩乐酒店（第16名）。
+
+
+
+圣保罗瑰丽酒店
+
+
+以下为“2026全球50佳酒店”完整榜单：
+
+
+
+
+
+ 
+
+
+图片均来自The 50官网]]></summary>
+        <author>
+            <name>界面新闻</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[博迈医疗创业板IPO过会]]></title>
+        <id>https://m.jiemian.com/article/15104905.html</id>
+        <link href="https://m.jiemian.com/article/15104905.html"/>
+        <updated>2026-09-16T15:22:09.000Z</updated>
+        <summary type="html"><![CDATA[2026.09.16
+
+9月16日，深交所上市审核委员会召开2026年第54次上市审核委员会审议会议，审议结果显示，广东博迈医疗科技股份有限公司首发符合发行条件、上市条件和信息披露要求。]]></summary>
+        <author>
+            <name>界面新闻</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[燃料油夜盘跌近2%]]></title>
+        <id>https://m.jiemian.com/article/15104909.html</id>
+        <link href="https://m.jiemian.com/article/15104909.html"/>
+        <updated>2026-09-16T15:22:09.000Z</updated>
+        <summary type="html"><![CDATA[2026.09.16
+
+国内商品期市夜盘部分收盘，燃料油跌近2%，苯乙烯（EB）、低硫燃料油（LU）、纯苯、纸浆跌超1%。涨幅方面，菜粕涨近2%，焦煤、合成橡胶涨超1%，焦炭、甲醇、豆粕涨近1%。
+        
+
+获取更多RSS：
+https://feedx.net 
+https://feedx.site]]></summary>
+        <author>
+            <name>界面新闻</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[南非对美国以“种族歧视”为由实施签证限制表示关切]]></title>
+        <id>https://m.jiemian.com/article/15104914.html</id>
+        <link href="https://m.jiemian.com/article/15104914.html"/>
+        <updated>2026-09-16T15:22:09.000Z</updated>
+        <summary type="html"><![CDATA[2026.09.16
+
+南非国际关系与合作部9月16日发布声明，对美国日前宣布针对南非有关人员实施新的签证限制措施表示关切，称美方曲解南非国内政策。
+南非国际关系与合作部长罗纳德·拉莫拉在声明中说，美方有关举措再次迎合了特定团体对南非国内政策的错误描述，这些团体错误地将自身描绘成南非“少数群体”和阿非利卡人的代表。他说，作为主权国家，南非有权制定法律解决几百年来种族不公造成的问题。
+针对有关南非犯罪具有种族针对性的说法，拉莫拉予以否认，表示犯罪影响所有南非人，并非针对基于种族、肤色或社会出身的特定群体。（新华社）
+        
+
+获取更多RSS：
+https://feedx.net 
+https://feedx.site]]></summary>
+        <author>
+            <name>界面新闻</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[受气候变暖影响，加拿大最后一座冰架湖彻底消亡]]></title>
+        <id>https://m.jiemian.com/article/15104922.html</id>
+        <link href="https://m.jiemian.com/article/15104922.html"/>
+        <updated>2026-09-16T15:22:09.000Z</updated>
+        <summary type="html"><![CDATA[2026.09.16
+
+近日发表在《科学报告》上的一项最新研究证实，加拿大该国最后一座冰架湖彻底消亡，其存续超过4000年的特殊水体结构与独一无二的极地生态系统永久消失。
+据魁北克市拉瓦尔大学介绍，米尔恩峡湾冰架湖是北极罕见的分层水体湖泊。数千年来，米尔恩冰架如同天然冰坝封堵峡湾河口，阻隔冰川融水入海，低密度的淡水漂浮在海水之上，形成稳定的双层水体结构。湖面常年覆盖数十厘米厚冰层，隔绝风力扰动，让淡、咸水层互不交融，孕育出两套几乎无物种重叠的微生物生态系统。湖中存在多种罕见细菌、真核微生物与病毒，部分物种从未在北极其他区域被发现。
+加拿大科研人员介绍，1983年该湖泊淡水层深度可达18米。近百年来，受气候变暖影响，维系湖泊稳定的冰下通道持续变薄、退化，最终导致湖泊蓄水结构崩塌、湖水干涸，湖内所有特有生物群落彻底消失。
+该湖泊不仅自身生态独特，还可通过冰下通道向外输送淡水与营养物质，滋养周边深海海域。研究团队表示，此次湖泊消亡并非简单的自然变迁，而是北极千年生态状态的根本性转变，直观印证了气候变暖正在深刻、不可逆地改变北极生态环境。（央视新闻）]]></summary>
+        <author>
+            <name>界面新闻</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[国际油价迅速走低，美油布油均跌超3%]]></title>
+        <id>https://m.jiemian.com/article/15104929.html</id>
+        <link href="https://m.jiemian.com/article/15104929.html"/>
+        <updated>2026-09-16T15:22:09.000Z</updated>
+        <summary type="html"><![CDATA[2026.09.16
+
+国际油价迅速走低，WTI原油期货价格跌3.75%，报96.968美元/桶；布伦特原油期货价格跌3.34%，报105.119美元/桶。]]></summary>
+        <author>
+            <name>界面新闻</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[携程开卖510万元船票，可维珍银河的太空船还没准备好]]></title>
+        <id>https://m.jiemian.com/article/15104722.html</id>
+        <link href="https://m.jiemian.com/article/15104722.html"/>
+        <updated>2026-09-16T15:22:09.000Z</updated>
+        <summary type="html"><![CDATA[2026.09.16
+
+
+界面新闻实习记者 | 郑欣妍
+
+
+
+国内公开渠道上线最贵太空游产品。
+
+
+近日，携程旗下高端奢游品牌“鸿鹄逸游”上线的2027年维珍银河(SPCE.US)太空旅行船票，引发市场关注。该船票单张售价510万元，是目前国内公开渠道标价最高的太空旅游产品。
+
+
+一接近携程的相关人士对界面新闻称，该产品已推出一段时间。
+
+
+“一生一次·太空旅行”“维珍银河·不仅是一场‘富人的游戏’。”这是平台页面打出的广告语。
+
+
+9月15日晚间，界面新闻查询时，携程平台显示售出681份；9月16日显示则改为2份。
+
+
+
+
+图片来源：携程APP截图
+
+
+售票页面显示，行程共6天，出发地为美国新墨西哥州拉斯克鲁塞斯，活动内容包括体验维珍宇航员基地度假村、拉斯克鲁塞斯太空港探秘、模拟仓训练、启航太空等。
+
+
+维珍银河由英国亿万富翁理查德·布兰森于2004年创立，专注于短途亚轨道观光这一细分领域。
+
+
+自旗下VSS Unity太空飞机于2024年6月退役后，维珍银河至今未进行过商业载人飞行。
+
+
+今年3月，维珍银河启动了一批太空旅行机票，以每张75万美元的价格销售，原计划发售50张，最终因需求旺盛而超额认购，总预订金额超过5000万美元。
+
+
+CEO迈克尔·科尔格拉齐尔表示，新一批客户已扩展至多代际探险、研究任务、企业包机和非营利机构等团体客户，公司计划在2026年晚些时候以更高价格开启新一轮售票。
+
+
+但商业首飞计划并不顺利。
+
+
+今年8月，维珍银河宣布，新一代Delta级飞船首次商业载人飞行，由原计划2026年四季度推迟至2027年2月。推迟原因为组装过程中数百项小任务延期，以及部分组件尺寸偏差导致安装不匹配。
+
+
+维珍银河当前的核心战略是，以Delta级飞船替代此前推出的太空飞机VSS Unity，实现运营效率的跃升。VSS Unity的飞行频率约为每月一次，Delta级的设计目标是每年执行多达400次亚轨道发射，单艘飞船每周可飞行两次。
+
+
+据公开信息，2016年2月19日，维珍银河在美国加利福尼亚州正式发布未来用于太空旅行的新版太空船 ；2021年5月，在美国新墨西哥州进行首次载人火箭飞行试飞获得成功，并于当年6月获批实施载人飞行。
+
+
+2023年8月10日，维珍银河的VSS Unity太空飞机在从美国新墨西哥州发射后抵达太空，这是该公司首次将私人乘客送往太空。
+
+
+2024年1月26日，维珍银河在执行商业太空飞行任务“Galactic 06”时发生一起硬件异常事故，该事故并未导致当年6月“Galactic 07”任务的延迟，但成为VSS Unity的最后一次飞行。
+
+
+2025年2月，维珍银河宣布，新一代Delta级太空船计划2026年夏季首飞，但受到多次拖延。
+
+
+财报显示，维珍银河2025全年营收仅约200万美元。四季度净亏损收窄至6300万美元，但现金消耗速度依然较快。
+
+
+截至2025年底，该公司持有现金及等价物3.38亿美元，按当前消耗速度，现金流仅能支撑约4-5个季度。
+
+
+根据市场研究机构Global Market Insights的报告，全球布局了载人航天飞行的前五大企业，分别为美国太空探索技术公司(SpaceX)、蓝色起源(Blue Origin)、维珍银河(Virgin Galactic‌)、公理航天公司(Axiom Space）、太空冒险公司(Space Adventures)五家，2025年合计占据50.4%的全球太空旅游市场份额，其中SpaceX以超过34.5%的份额位居首位。
+
+
+维珍银河与主要竞争者存在差异：SpaceX和Axiom Space聚焦轨道飞行，票价在数千万美元级别，任务持续数天；蓝色起源提供火箭垂直发射的亚轨道飞行，单次约11分钟；维珍银河也聚焦亚轨道，但采用类似飞机的水平起降方式，全程飞行约90分钟。
+
+
+上述报告指出，亚轨道旅行是规模最大的飞行高度细分市场，预计将从2026年的6.87亿美元增长至2035年的31.43亿美元。维珍银河的未来增长前景取决于其能否在 VSS Unity退役后让Delta级系统投入运营。
+
+
+界面新闻就上述太空旅行产品联系携程和维珍银河，截至发稿未收到回复。]]></summary>
+        <author>
+            <name>界面新闻</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[尼泊尔泥石流灾害已致1409人遇难]]></title>
+        <id>https://m.jiemian.com/article/15104931.html</id>
+        <link href="https://m.jiemian.com/article/15104931.html"/>
+        <updated>2026-09-16T15:22:09.000Z</updated>
+        <summary type="html"><![CDATA[2026.09.16
+
+据尼泊尔警方公布的最新数据，截至当地时间9月16日20时，尼泊尔泥石流灾害造成的遇难人数升至1409人。
+8月26日，尼泊尔边境地区突发冰川崩塌引发严重泥石流灾害，造成重大人员伤亡。（央视新闻）
+        
+
+获取更多RSS：
+https://feedx.net 
+https://feedx.site]]></summary>
+        <author>
+            <name>界面新闻</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[布达拉宫：开通雪城参观线路并实行门票收费]]></title>
+        <id>https://m.jiemian.com/article/15104935.html</id>
+        <link href="https://m.jiemian.com/article/15104935.html"/>
+        <updated>2026-09-16T15:22:09.000Z</updated>
+        <summary type="html"><![CDATA[2026.09.16
+
+9月16日，布达拉宫管理处发布关于开通雪城参观线路并实行门票收费的公告：自2026年9月20日起，正式开通布达拉宫雪城参观线路。参观景点包括：比喜宅、雪监狱、雪巴列空、珍宝馆、羌仓、宝藏局（雪造币厂）、堪苏宅、龙夏宅。雪城参观线路实行单独售票。
+（一）旺季（每年5月1日-10月31日）9:00开馆-15:40停止入馆
+全价门票：25元/人次；优惠门票：12.5元/人
+（二）淡季（11月1日-次年4月30日）9:30开馆-15:20停止入馆
+全价门票：10元/人次；优惠门票：5元/人次]]></summary>
+        <author>
+            <name>界面新闻</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[土耳其股市大跌触发熔断]]></title>
+        <id>https://m.jiemian.com/article/15104940.html</id>
+        <link href="https://m.jiemian.com/article/15104940.html"/>
+        <updated>2026-09-16T15:22:09.000Z</updated>
+        <summary type="html"><![CDATA[2026.09.16
+
+9月16日晚间，土耳其股市大跌，并触发全市场熔断机制。此前，一家资产管理公司未能满足投资者的赎回请求，引发市场对土耳其投资基金行业出现更广泛流动性压力的担忧。
+伊斯坦布尔证券交易所100指数下跌6%，促使交易所启动全市场熔断机制。这使该指数连续两日的跌幅进一步扩大，并可能创下自2025年3月以来最大的两日跌幅。指数成份股中，仅有两只上涨，其余全部下跌。
+此前，土耳其Pusula资产管理公司向土耳其公共信息披露平台KAP公告称，其旗下部分基金未能按时满足投资者的赎回请求，即构成违约。（中国基金报）]]></summary>
+        <author>
+            <name>界面新闻</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[日本茨城县发生4.8级地震，东京有明显震感]]></title>
+        <id>https://m.jiemian.com/article/15104946.html</id>
+        <link href="https://m.jiemian.com/article/15104946.html"/>
+        <updated>2026-09-16T15:22:09.000Z</updated>
+        <summary type="html"><![CDATA[2026.09.16
+
+当地时间9月17日0时7分左右，日本关东地区发生地震。据日本气象厅消息，日本茨城县南部发生4.8级地震，最大震感为震度3，震源深度70公里。东京有明显震感。（央视新闻）
+        
+
+获取更多RSS：
+https://feedx.net 
+https://feedx.site]]></summary>
+        <author>
+            <name>界面新闻</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[🤔 20 个模型的训练截止期与发布时滞对比]]></title>
+        <id>49726343</id>
+        <link href="https://newshacker.me/story?id=49726343"/>
+        <updated>2026-09-16T15:20:36.000Z</updated>
+        <summary type="html"><![CDATA[原标题：《Show HN: How Stale Is Your AI? Release age and training cutoff for 20 models》
+评分: 20 | 作者: joozio
+💭 都得先查 Reuters 了，还叫智能吗？
+
+🎯 讨论背景
+这篇 Show HN 帖子展示了一个工具，用来对比 20 个模型的 release age 和 training cutoff（训练截止期），帮助判断哪些模型“知识新鲜度”更高。评论区把话题扩展到当前 AI 的一个变化：很多模型不再只靠 pretraining（预训练）回答，而会在需要时调用 web search（联网搜索）或其他工具。有人拿 ChatGPT、Ollama（本地运行大模型的工具）等例子说明，不同产品在是否主动检索、检索频率和成本上差异很大。围绕时事和编程场景，大家争论的核心是：cutoff 现在到底还重要到什么程度，以及工具调用能不能真正补上时效性。
+
+📌 讨论焦点
+联网搜索正在吞掉 cutoff 问题
+不少评论认为，随着 reasoning、tool use 和 web search 成熟，模型“过时”已经没以前那么致命。有人举例说，付费版 ChatGPT 会在 medium/high effort 下更积极搜索，而免费版检索更少；这被解释为 search 本身昂贵，所以产品会在算力和答案新鲜度之间做取舍。也有人提到，现在问时事时最好默认要求搜索，甚至有产品开始对普通知识题也自动联网。
+[来源1] [来源2] [来源3] [来源4] [来源5]
+推理是否只来自预训练
+评论区对 reasoning 的来源分歧很大。有人直接说，所有 reasoning 还是建立在 pretraining data 上；另一些人反驳说，模型可以把 tool calls 的结果纳入推理链，而不是只从记忆里硬答。还有一种折中说法是，模型先用内部推理判断该不该 search，再把外部结果接进来，这也是相关分析链接试图解释的重点。
+[来源1] [来源2] [来源3] [来源4]
+知识截止期仍会让模型在时事上翻车
+也有人认为 cutoff 依旧很要命，尤其是在不联网或本地运行的模型里。有人提到运行 Ollama 的 Docker container 时，模型的知识截止还停在 2023 年，这在现在已经难以接受。还有人回忆起模型把近期政局变化说成不存在，直到明确要求它查 Reuters 才改口，说明对时事的可靠性仍然很脆弱。
+[来源1] [来源2]
+不同任务对新鲜度的要求不同
+还有一派观点更务实：cutoff 当然重要，但不同 use case 的敏感度并不一样。有人说某些模型在特定任务上仍然更可靠，尤其是编程这类场景，很多 syntax 和语言知识还是主要来自训练数据。这个角度并不否认过时问题，而是强调不要用同一把尺子衡量所有模型和任务。
+[来源1] [来源2]
+
+📚 术语解释
+training cutoff / knowledge cutoff: 模型训练结束的时间点；之后发生的信息通常不会进入参数。
+web search: 让模型调用搜索引擎或网页工具获取最新信息。
+tool use: 模型在推理时调用外部工具、API 或检索系统，把结果纳入回答。
+pretraining: 大模型在大量语料上进行的初始训练阶段，很多“知识”与模式匹配来自这里。
+
+类别：AI | Show HN | training cutoff | release age | stale.jock.pl | AI | LLMs | ChatGPT | web search | tool use]]></summary>
+        <author>
+            <name>News Hacker | 极客洞察</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[🙄 OpenAI 在 ChatGPT 推 sponsored agents，引发广告与隐私争议]]></title>
+        <id>49727041</id>
+        <link href="https://newshacker.me/story?id=49727041"/>
+        <updated>2026-09-16T15:15:36.000Z</updated>
+        <summary type="html"><![CDATA[原标题：《OpenAI Expands ChatGPT Ads with Sponsored Agents》
+评分: 73 | 作者: vertigoruntime
+💭 都快 AGI 了，怎么先忙着卖广告位续命？
+
+🎯 讨论背景
+OpenAI 这次讨论的是把 ChatGPT 里的广告升级成 sponsored agents：用户点击广告后，不只是看到链接，而是进入一个由品牌官方资料驱动的聊天窗口，像是把销售或客服直接嵌进 ChatGPT。评论里有人引用 OpenAI 的帮助页，说广告与 ChatGPT 的回答系统分离，而且 Plus、Pro、Business、Enterprise、Edu 账号不会看到广告，但也有人指出一旦进入对话，“sponsored” 标识很容易变得不显眼。这个争议放在更大的背景里，就是 AI 公司在高昂的 training 和 inference 成本下寻找新收入来源，同时探索 AI agent、MCP（Model Context Protocol）和品牌客服自动化的商业化边界。问题在于，聊天机器人掌握的上下文比传统搜索更私密、更连续，因此广告、推荐和答案之间的界线更难维持。
+
+📌 讨论焦点
+反对广告进入 ChatGPT
+不少人把这看成把 ChatGPT 直接变成广告入口，而不是把 AI 做成更好用的助手。评论里反复强调，真正想要这类功能的是 OpenAI 的股东、广告主和公司自己，普通用户更希望付费去掉广告。有人认为如果广告不能被清楚识别，或者推荐质量不如用户自己搜索，那就是对信任的消耗。也有人把它讽刺成“先卖广告位再谈 AGI”，认为这和公司最初的使命已经偏离很远。
+[来源1] [来源2] [来源3] [来源4] [来源5] [来源6] [来源7] [来源8] [来源9] [来源10] [来源11] [来源12] [来源13] [来源14] …]]></summary>
+        <author>
+            <name>News Hacker | 极客洞察</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AWS 称无法恢复中东部分可用区资源和数据的访问]]></title>
+        <id>https://www.solidot.org/story?sid=85397</id>
+        <link href="https://www.solidot.org/story?sid=85397"/>
+        <updated>2026-09-16T15:11:44.000Z</updated>
+        <summary type="html"><![CDATA[亚马逊云服务 AWS 称，由于其数据中心因战争受损它无法恢复中东部分可用区资源和数据的访问。AWS 通过其 AWS Health Dashboard 页面发表声明称，全面评估后它确认无法恢复巴林可用区 me-south-1 的资源和数据的访问。如果客户的数据只存放在该可用区，那么数据可能永远丢失了。亚马逊此前已建议其客户将其工作负荷迁移到其它可用区，它表示在该可用区完全无法使用前大部分客户已完成了迁移。位于阿联酋的可用区 mec1-az2 情况类似，阿联酋有三个可用区，另外两个 mec1-az1 和 mec1-az3 也受到战争影响，AWS 目前还在继续恢复这两个可用区的资源的访问。]]></summary>
+        <author>
+            <name>奇客Solidot–传递最新科技情报</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[🤦 PS5 Linux 负责人离场：LLM 低质补丁与最后 hypervisor 漏洞外泄]]></title>
+        <id>49727627</id>
+        <link href="https://newshacker.me/story?id=49727627"/>
+        <updated>2026-09-16T15:10:29.000Z</updated>
+        <summary type="html"><![CDATA[原标题：《PS5 Linux lead quits: "a bunch of noobs using LLMs" that "they don't understand"》
+评分: 54 | 作者: alexjplant
+💭 LLM 写个补丁，就算真的懂自己在修什么？
+
+🎯 讨论背景
+这场讨论围绕一位 PS5 Linux（通过漏洞在 PS5 上运行 Linux 的破解/研究项目）核心参与者宣布退出，以及他在社交媒体上抱怨“现在都是一群用 LLM 写自己都不懂的 hack 的新手”。PS5 Linux 这类项目通常依赖对 Sony 主机安全链的漏洞利用，尤其是 hypervisor（虚拟机监控器，一种控制虚拟化与隔离的核心层）级别的漏洞，因此任何公开披露都可能直接影响可用性。评论里补充说，事件的实际导火索还包括违背了漏洞披露的 embargo agreement（保密/延期公开协议），把最后一个已知漏洞报给了 Sony。讨论因此从个人情绪扩展到 AI 生成代码、低质量 open source 提交、以及安全研究社区门槛变化。
+
+📌 讨论焦点
+标题争议与真正导火索
+有评论认为标题把焦点放在“LLM/noobs”上有点偏了，真正更直接的导火索是漏洞披露中的 embargo agreement 违规，以及把最后一个可用漏洞报给 Sony。也有人反驳说标题并不算误导，因为原话确实是在痛骂“用 LLM 写自己都不懂的 hacks”的人。这个分歧本质上是在争论：这到底是一次对 AI 时代的情绪爆发，还是一次安全研究流程被打乱后的具体反应。部分评论还补充，哪怕不被提前报备，Sony 也可能通过已公开的 installer 反向分析出问题。
+[来源1] [来源2] [来源3]
+LLM 降低门槛也放大了不理解代码的提交
+不少评论认同这种抱怨背后的问题：LLM 让更多人能快速产出看起来像样的代码，但不一定真的理解自己在写什么。这里担心的不是“用 AI”本身，而是它把安全研究、漏洞利用和补丁提交的门槛压得太低，导致 PR 或 hack 只能勉强过表面审查。有人直言这已经是开源项目里真实存在的麻烦，未来项目方很可能会加更多提交门槛。也有观点强调，真正危险的是“写出来却解释不清”，尤其在漏洞和 exploit 这种高风险场景里。
+[来源1] [来源2] [来源3] [来源4]
+维护者对 spam 和 AI 流水线的疲惫
+另一条线索是维护者的心理负担。评论者提到，很多维护者其实早就在忍受 spam 和低质量提交，只是还没被逼到公开爆发。那种“看起来像真的、但又说不清到底在修什么”的 PR，会让审核者产生持续的焦虑和厌烦。有人用 Hacktoberfest 作为类比，意思是原本开放的协作空间，正在变成全年无休的低质量投递场。
+[来源1]
+对 AI 时代的现实接受与工具观
+也有评论把这件事看成时代变化，而不是单纯的道德批判。核心观点是：LLM 已经来了，而且会长期存在，问题在于人是否把它当工具，还是当成替代自己理解能力的捷径。按照这个标准，真正该被批评的是“不懂却照交”的人，而不是 AI 本身。这个立场并不否认 AI 带来的噪音，只是认为社区迟早得适应。
+[来源1] [来源2] [来源3]
+PS5 最后一个 hypervisor 漏洞被找到的震撼
+还有一部分评论对技术层面本身感到震惊：在一台安全设计很强的消费级主机上，所谓“最后一个 hypervisor bug”居然还是被找到了。更让人意外的是，这件事似乎还和 AI 辅助降低门槛有关，让原本像是高手领域的研究显得没那么神秘。评论里隐含的判断是，安全研究的参与者结构正在变化，资深研究者和新手之间的差距被工具拉近了。也因此，这类 exploit 的生命周期可能比以前预期得更短。
+[来源1] [来源2] [来源3]
+
+📚 术语解释
+hypervisor: 虚拟机监控器或虚拟化控制层，负责隔离和管理底层硬件资源；在主机破解和 Linux 移植中常是关键防线。
+LLM: Large Language Model，大语言模型；这里指用于生成代码、补丁或 exploit 片段的 AI 工具。
+embargo agreement: 漏洞披露中的保密/延期公开协议，要求发现者在约定时间前不要公开细节，以免影响修复或利用安全。
+
+类别：Security | Hardware | AI | Incident | Opinion | PS5 | Linux | LLMs | Sony | hypervisor | embargo | open-source | bug]]></summary>
+        <author>
+            <name>News Hacker | 极客洞察</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[😒 Google Play 审核拖到一周：侧载、F-Droid 与安全门禁之争]]></title>
+        <id>49724927</id>
+        <link href="https://newshacker.me/story?id=49724927"/>
+        <updated>2026-09-16T15:01:12.000Z</updated>
+        <summary type="html"><![CDATA[原标题：《The Google Play app review process now regularly takes longer than a week》
+评分: 189 | 作者: inputmice
+💭 审核一周，难道是怕用户自己会用手机出事吗？
+
+🎯 讨论背景
+这篇讨论围绕 Google Play（Android 官方应用商店）把应用审核从通常的数小时拉长到一周甚至更久展开，开发者反馈新账号、首发应用和某些更新更容易被卡住，尤其是带 Android Auto 支持或涉及系统 API 的变更。评论里还提到 Google Play Console（Google Play 的开发者后台）里的 12 人、14 天游测门槛，以及 Play Protect（Google 的后台安全扫描）会让侧载更麻烦。很多人把它和 Apple App Store（iPhone 应用商店）的审核、F-Droid（开源 Android 应用仓库）、PWA（Progressive Web App，可安装网页应用）以及直接分发 APK 放在一起比较。争论核心其实是手机到底应不应该像电脑一样允许用户自由安装软件，还是应该由平台负责维持更强的安全门禁。
+
+📌 讨论焦点
+用户自主权与侧载
+很多评论把问题看成手机不该比电脑更封闭：既然用户买的是自己的硬件，就应该能直接安装 APK、从网站下载，或从第三方商店装软件。有人指出 Google 现在不仅要求每个安装来源单独授权，还会用 Play Protect 背景扫描，甚至删除不被认可的应用。支持者认为可以保留默认的安全模式，但不该强迫所有人接受 Google 的控制。反对者则把这视为公司替用户决定什么能跑在他们的设备上。
+[来源1] [来源2] [来源3] [来源4] [来源5] [来源6] [来源7] [来源8]
+安全与自动更新风险
+另一派强调，放松门…]]></summary>
+        <author>
+            <name>News Hacker | 极客洞察</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Why does China want to keep peace?]]></title>
+        <id>https://medium.com/p/7ed0de8633c0</id>
+        <link href="https://xguoforwaterloo.medium.com/why-does-china-want-to-keep-peace-7ed0de8633c0?source=rss------china-5"/>
+        <updated>2026-09-16T14:55:26.000Z</updated>
+        <summary type="html"><![CDATA[Q: Why does China want to keep peace?
+Continue reading on Medium »]]></summary>
+        <author>
+            <name>Xiaoming Guo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[泰柬结束首次海上争端国际调解会议]]></title>
+        <id>https://m.jiemian.com/article/15104849.html</id>
+        <link href="https://m.jiemian.com/article/15104849.html"/>
+        <updated>2026-09-16T14:52:08.000Z</updated>
+        <summary type="html"><![CDATA[2026.09.16
+
+泰国同柬埔寨9月16日在新加坡结束为期三天、针对两国重叠海域问题的首次国际调解会议。此次调解依据《联合国海洋法公约》开展，是一种非裁决性程序，由中立的调解委员会协助双方寻求友好解决方案。（新华社）
+        
+
+获取更多RSS：
+https://feedx.net 
+https://feedx.site]]></summary>
+        <author>
+            <name>界面新闻</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[俄“进步MS-35”货运飞船升空，将为国际空间站运送货物]]></title>
+        <id>https://m.jiemian.com/article/15104852.html</id>
+        <link href="https://m.jiemian.com/article/15104852.html"/>
+        <updated>2026-09-16T14:52:08.000Z</updated>
+        <summary type="html"><![CDATA[2026.09.16
+
+根据俄罗斯国家航天集团当地时间9月16日消息，莫斯科时间16时34分，北京时间21时34分，搭载“进步MS-35”货运飞船的“联盟-2.1b”运载火箭从哈萨克斯坦拜科努尔航天发射场发射升空，为国际空间站运送货物。据悉，飞船运送超过2.4吨货物，用于国际空间站维护和乘组科学工作。此前“进步”货运飞船均使用“联盟-2.1a”运载火箭发射，本次首次使用“联盟-2.1b”改进型发射。飞船计划于北京时间9月19日21时47分对接国际空间站俄罗斯舱段“搜索”号模块。（央视新闻）]]></summary>
+        <author>
+            <name>界面新闻</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[国经中心党委召开扩大会议，深刻汲取国经中心原理事长毕井泉严重违纪违法案件教训]]></title>
+        <id>https://m.jiemian.com/article/15104857.html</id>
+        <link href="https://m.jiemian.com/article/15104857.html"/>
+        <updated>2026-09-16T14:52:08.000Z</updated>
+        <summary type="html"><![CDATA[2026.09.16
+
+据中国国际经济交流中心消息，9月16日，国经中心党委召开扩大会议，深刻汲取国经中心原理事长毕井泉严重违纪违法案件教训，坚决肃清毕井泉流毒，切实以全面从严治党新成效推动中心事业健康发展。院副秘书长、国经中心党委书记马援主持会议。国经中心党委委员、中层干部参加会议。
+会议指出，党中央决定给予毕井泉开除党籍、开除公职处分，国家司法机关依法对其犯罪行为予以判决，充分彰显了以习近平同志为核心的党中央坚持党要管党、全面从严治党的坚定决心，充分体现了我们党坚决反对腐败、以零容忍态度惩治腐败的鲜明态度。要清醒认识全面从严治党永远在路上、党的自我革命永远在路上，持之以恒正风肃纪反腐。
+会议强调，要锤炼绝对忠诚的政治品格。深入学习贯彻习近平党建思想，坚定理想信念、坚守初心使命，坚持把政治修养摆在党性修养的首位，把坚定拥护“两个确立”、坚决做到“两个维护”作为最高政治原则和根本政治规矩，严守政治纪律和政治规矩，严防“七个有之”，始终在思想上政治上行动上同以习近平同志为核心的党中央保持高度一致。
+会议要求，要时刻保持“赶考”的清醒，树立和践行正确政绩观，把“服务习近平总书记和党中央、为人民做学问”作为最大政绩，把引领学术发展、构建中国自主知识体系作为目标，把守牢政治安全、意识形态安全作为底线，慎独慎微、慎始慎终，始终保持共产党人清正廉洁的政治本色。要扛牢管党治党的政治责任。严格落实中央八项规定及其实施细则精神，严格履行“一岗双责”，把全面从严治党要求落实到国经中心工作全过程、各方面。推进作风建设常态化长效化，把严的基调、严的措施、严的氛围长期坚持下去，努力营造风清气正的政治生态，以全面从严治党新成效为国经中心事业高质量发展提供坚强保障。
+        
+
+获取更多RSS：
+https://feedx.net 
+https://feedx.site]]></summary>
+        <author>
+            <name>界面新闻</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[《基加利修正案》通过十年：中国累计淘汰消耗臭氧层物质生产和使用72万吨，占发展中国家一半以上]]></title>
+        <id>https://m.jiemian.com/article/15104448.html</id>
+        <link href="https://m.jiemian.com/article/15104448.html"/>
+        <updated>2026-09-16T14:52:08.000Z</updated>
+        <summary type="html"><![CDATA[2026.09.16
+
+界面新闻记者 | 张倩楠
+界面新闻编辑 | 刘海川
+                    
+
+“自加入《蒙特利尔议定书》以来，中国克服诸多困难挑战，累计淘汰消耗臭氧层物质生产和使用72万吨，占发展中国家淘汰量一半以上。”2026年9月16日，生态环境部召开纪念《〈关于消耗臭氧层物质的蒙特利尔议定书〉基加利修正案》（以下简称《基加利修正案》）通过十周年暨2026年国际保护臭氧层日纪念大会，生态环境部副部长徐必久介绍。
+
+
+十年前，国际社会在《蒙特利尔议定书》框架下通过《基加利修正案》，将氢氟碳化物纳入管控范围。这是人类历史上首个对温室气体提出明确的生产和消费总量控制目标的全球协议，也标志着《蒙特利尔议定书》从保护臭氧层迈入了协同应对气候变化的历史新阶段。
+
+
+徐必久介绍，2021年，中国宣布接受《基加利修正案》后，严控氢氟碳化物生产和使用总量规模，累计比国家履约目标分别减少11.85亿吨和7.59亿吨二氧化碳当量以上，每年销毁处置三氟甲烷1.7万多吨，相当于年均减少温室气体排放2.5亿多吨二氧化碳当量，超额完成阶段履约目标。
+
+
+“在看到成绩的同时，我们也清醒认识到，履约面临的困难挑战依然严峻复杂。当前国际形势错综复杂，冲突持续不断，能源与粮食安全挑战凸显，超强级别的厄尔尼诺现象正在形成，气候变化形势日益严峻。” 徐必久说。
+
+
+徐必久表示，包括中国在内的广大发展中国家仍处于《基加利修正案》履约初期，既要在有限时间内完成消耗臭氧层物质淘汰收尾，又要同步启动氢氟碳化物管控削减，履约任务交织叠加。特别是工商制冷空调、聚氨酯泡沫等领域替代技术商业化推广仍存在瓶颈，进一步推高了转型成本，制约了全球淘汰进程的整体推进。
+
+
+
+“越是困难时刻，越要坚定信心”。徐必久表示，作为履约受控物质生产、使用大国，中国将在2029年削减氢氟碳化物生产和使用总量的10%，家电行业将禁止生产用于国内销售、制冷剂充注全球升温潜能（GWP）值大于750的房间空调，工商制冷空调行业将禁止生产充注GWP值大于2500制冷剂的制冷设备；汽车行业自2029年7月起将禁止新申请公告的M1类车辆使用GWP值大于150的制冷剂。实现上述目标时间紧、任务重，容不得半点懈怠。
+
+
+臭氧秘书处执行秘书关惠，多边基金秘书处秘书长蒂娜·玻比利，联合国开发计划署有关负责人，外交部、海关总署代表参会并发言。]]></summary>
+        <author>
+            <name>界面新闻</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[胡塞武装称袭击沙特空军基地和石油设施]]></title>
+        <id>https://m.jiemian.com/article/15104866.html</id>
+        <link href="https://m.jiemian.com/article/15104866.html"/>
+        <updated>2026-09-16T14:52:08.000Z</updated>
+        <summary type="html"><![CDATA[2026.09.16
+
+也门胡塞武装9月16日发表声明称，沙特本周针对也门大部分省份发动了多次空袭。作为回应，胡塞武装使用弹道导弹和无人机，袭击了位于海米斯穆谢特的一个空军基地以及位于延布的阿美石油公司设施，并精准命中目标。今年7月，也门萨那国际机场遭袭后，胡塞武装与沙特的冲突升级。本月，局势再次出现重大变化，胡塞武装发动大规模进攻，控制了红海沿岸多个重要战略要地。（CCTV国际时讯）]]></summary>
+        <author>
+            <name>界面新闻</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[湖北恩施通报“主播假冒村干部直播带货”：已立案调查]]></title>
+        <id>https://m.jiemian.com/article/15104877.html</id>
+        <link href="https://m.jiemian.com/article/15104877.html"/>
+        <updated>2026-09-16T14:52:08.000Z</updated>
+        <summary type="html"><![CDATA[2026.09.16
+
+9月16日，湖北恩施市市场监督管理局发布情况通报：近日，有媒体报道注册地在我市的湖北天企盈文化传媒有限公司运营的直播账号，涉嫌假冒村干部身份进行直播带货。获悉相关信息后，我局第一时间组建工作专班开展调查核实工作。经初步核查，该公司所涉4名主播运营的7个直播账号，使用“村支书”“村长”等昵称，虚拟“下乡”场景，吸引关注，增加流量，开展直播带货，涉嫌虚假宣传，误导消费者。我局依据《中华人民共和国反不正当竞争法》相关规定，已对该公司及4名涉事主播依法立案调查，案件正在办理中。]]></summary>
+        <author>
+            <name>界面新闻</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[美国上周EIA原油库存减少64万桶，前值减少39.1万桶]]></title>
+        <id>https://m.jiemian.com/article/15104884.html</id>
+        <link href="https://m.jiemian.com/article/15104884.html"/>
+        <updated>2026-09-16T14:52:08.000Z</updated>
+        <summary type="html"><![CDATA[2026.09.16
+
+EIA数据显示，美国上周原油库存减少64万桶，前值减少39.1万桶，预估中值为减少150万桶；上周EIA库欣原油库存减少34.2万桶至2148万桶；上周EIA汽油库存增加79.4万桶，预估为减少110万桶；美国上周炼厂开工率下降1.0%至96.8%。]]></summary>
+        <author>
+            <name>界面新闻</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[遭突袭扣押一年后，300多名韩国工人向美国政府索赔]]></title>
+        <id>https://m.jiemian.com/article/15104867.html</id>
+        <link href="https://m.jiemian.com/article/15104867.html"/>
+        <updated>2026-09-16T14:52:08.000Z</updated>
+        <summary type="html"><![CDATA[2026.09.16
+
+一年前，美国移民执法人员在佐治亚州一场突击行动中抓捕300多名韩国工人，目前涉事韩国工人已向美国国土安全部、移民与海关执法局、海关与边境保护局、联邦调查局以及司法部和劳工部等9个联邦机构提出行政索赔。
+
+
+这是依据《联邦侵权索赔法》提起联邦诉讼前的法定前置步骤。据新华社报道，这些工人控诉，他们被捕后遭非法拘留，在拘留设施中居住条件恶劣，要求美国相关机构赔偿其工资收入、被没收物品和心理伤害等。原告律师没有公布索赔金额。
+
+
+作为在全美范围内驱逐外国人行动的一部分，2025年9月4日，美国移民与海关执法局（ICE）、国土安全调查局等联邦执法机构对韩国现代汽车与LG新能源在佐治亚州的一处电池合资厂展开大规模突击检查。
+
+
+期间执法人员共抓捕了475名疑似非法居留并工作的外国人，包括300多名韩国公民。当时该工厂正在建设中，原计划2026年运营。韩国媒体提醒，特朗普政府的抓捕行动之后还可能波及正在美国建厂的三星、SK等企业。
+
+
+在那之前一个月，李在明政府已在关税谈判中承诺对美国进行3500亿美元投资。现代汽车集团还宣布在已公布的210亿美元基础上对美追加50亿美元投资。韩国《韩民族日报》评论，请来投资却进行大规模抓捕，这不是盟友该做的事。
+
+
+此次被抓人员中包括30多名从韩国派遣的出差人员，以及在当地受雇的劳工。这些出差人员多持有商务签证（B1）或通过电子旅行授权（ESTA）入境，但因被指“从事与签证目的不符的活动”被抓。
+
+
+
+在美合法工作需要专业类工作签证H-1B，但为保护本国就业，美方设定了苛刻门槛并严格限额。于是，企业人员不得不以只能短期滞留的旅游许可电子系统（ESTA），或以出席会议、签署合同为目的的短期商务签证（B1）入境处理相关事务。
+
+
+几天之后，这些韩企员工终于返回韩国与家人团聚。被释放人员表示，在关押他们的拘留中心，一个房间住了80人左右，连解决进食、喝水、如厕这样基本的生理需求都很困难。
+
+
+同胞被粗暴对待的新闻画面在国内广泛传播之后，韩国民众愤怒地表示，他们就像战俘一样。韩国工会呼吁特朗普发表正式道歉。总统李在明称该突袭令人困惑，并警告会阻碍未来对美国的投资。
+
+
+美国总统特朗普随后在其社交媒体平台上表示，美国欢迎被外派的外国工人，他不想吓跑资本。希望外国专业人员在美国工作期间教会美国本土工人生产独特而精密的产品。美国人必须重新学习如何制造芯片、计算机、船舶、火车等产品。
+
+
+特朗普从第一个任期的竞选期间就把移民制度改革作为施政重点，总体思路是驱逐任何对美国没有净贡献、成为公共财政负担的群体，同时引进高净值、高技能的人士。联邦政府认为，近半个世纪以来，过时的“身份有效期”制度一直损害着国家安全，并为移民欺诈制造了温床。
+
+
+但多项措施已接连受挫。波士顿联邦地区法官在6月8日推翻了去年白宫对H-1B签证申请人征收的10万美元费用，理由是该政策违反了联邦《行政程序法》和宪法三权分立原则，这笔费用的本质是“税收”，而国会未将征税权授予行政部门。
+
+
+今年4月30日，法官裁定，特朗普政府针对部分国家移民申请实施的限制性措施，违反了《移民与国籍法》中禁止基于国籍歧视的规定。该法案由来自包括伊朗、海地、委内瑞拉和叙利亚等约20个国家的移民提起，涉及约200名申请人。
+
+
+另据多名前任和现任联邦官员透露，特朗普还打算在他任内驱逐100万移民，但这一任务面临财务和法律等重重障碍，部分目标国家也不愿意接收美国的遣返。
+
+
+去年11月12日，特朗普政府进一步发布新指令，要求驻外使领馆签证官全面审查申请人是否有可能在入境后依赖美国公共福利。评估标准包括年龄、健康、家庭状况、财务资源、教育背景、技能、英语水平及是否曾使用过公共援助。
+
+
+除此之外，政府正准备撤销多达20万名外国人的商务和旅游签证，这个群体曾在美国申请或目前正在寻求庇护身份。如果实施，此举将成为美国历史上规模最大的一次性签证集体撤销行动。
+
+
+被曝光的务院文件及两名官员透露，除非受到法律挑战或计划有所修改，否则国务院预计将在未来几周内宣布撤销那些在2016年至2026年间签发且持有人曾寻求或正在寻求庇护的B1和B2类签证。]]></summary>
+        <author>
+            <name>界面新闻</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[⚠️ ImpactGate：给 AI 代码结构退化打分的合并门禁]]></title>
+        <id>49726329</id>
+        <link href="https://newshacker.me/story?id=49726329"/>
+        <updated>2026-09-16T14:50:30.000Z</updated>
+        <summary type="html"><![CDATA[原标题：《ImpactGate: A merge gate that scores the structural decay AI adds》
+评分: 27 | 作者: sagenschneider
+💭 既然都用 AI 写代码了，还要再加一层结构门禁？
+
+🎯 讨论背景
+ImpactGate 是一个 GitHub Action（用于在 pull request/merge request 上自动运行检查的 CI 组件），它给代码变更的“结构退化”打分，试图在合并前发现类和文件逐渐失去内聚、变成 God class / God method 的迹象。这个想法来自作者在 OfficeFloor（一个开源 Java 项目）上的实验：他把一种 additive pipeline 架构和 Spring（Java Web 框架）式的 mutative handler 风格对比，观察 LLM（大语言模型）连续多次改动代码时会怎样积累问题。评论把它和 cyclomatic complexity、SonarQube（代码质量分析工具）等传统指标放在一起比较，争论它到底适不适合做人类的提示，还是应该专门用来拦截 AI 生成代码。讨论里也反复提到 false positive、Goodhart effect、测试质量和架构设计，说明大家关心的不只是“能不能打分”，而是这类分数会不会真正改善长期维护性。
+
+📌 讨论焦点
+指标设计与现有工具集成
+有人觉得这个项目更像是在做一个单一指标，建议直接并入已有的多指标代码分析工具，而不是单独再建一个项目。回应则强调它不是泛泛的质量分数，而是专门定位“内聚性退化”发生在哪些文件上，所以才做成 GitHub Action（用于自动化 CI 的 GitHub 组件）放进 merge request 流程里。讨论里还提到可以输出 HTML 报告、接入 CI 或本…]]></summary>
+        <author>
+            <name>News Hacker | 极客洞察</name>
         </author>
     </entry>
     <entry>
@@ -67,6 +1290,341 @@
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[China’s Grand Gambit]]></title>
+        <id>https://medium.com/p/b95ba3bccb4e</id>
+        <link href="https://medium.com/@AndyRo/chinas-grand-gambit-b95ba3bccb4e?source=rss------china-5"/>
+        <updated>2026-09-16T14:35:15.000Z</updated>
+        <summary type="html"><![CDATA[Trump on His Knees
+Continue reading on Medium »]]></summary>
+        <author>
+            <name>Andy Ro</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Casually smoking crack by the police station]]></title>
+        <id>https://www.reddit.com/r/mildlyinfuriating/comments/1whyxnv/casually_smoking_crack_by_the_police_station/</id>
+        <link href="https://www.reddit.com/r/mildlyinfuriating/comments/1whyxnv/casually_smoking_crack_by_the_police_station/"/>
+        <updated>2026-09-16T14:32:34.000Z</updated>
+        <summary type="html"><![CDATA[Police pretty much DGAF 
+    submitted by    /u/boyoflondon    to    r/mildlyinfuriating  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>popular links</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[🙃 Salesforce 全球故障：legacy login service 资源耗尽，撞上 Dreamforce]]></title>
+        <id>49724488</id>
+        <link href="https://newshacker.me/story?id=49724488"/>
+        <updated>2026-09-16T14:30:31.000Z</updated>
+        <summary type="html"><![CDATA[原标题：《Salesforce Global Outage》
+评分: 141 | 作者: mabil
+💭 卖这么贵的 CRM，修复还得靠重启碰运气？
+
+🎯 讨论背景
+Salesforce（企业 CRM 和 SaaS 平台）这次全球故障影响了登录和多处实例状态，官方状态页还按 pod（部署分区）逐项展示受影响范围。评论区一边围观状态页设计，一边根据 incident 更新追查根因，最终都指向 legacy login service 出现了 resource-exhaustion cascade。由于故障发生在 Dreamforce（Salesforce 的年度大会）期间，很多人把它和现场流量、内部人手分散、甚至 AI 自动化实验联系到一起。整场讨论同时包含技术排障、企业运维、产品讽刺和对 Salesforce 商业模式的老牌吐槽。
+
+📌 讨论焦点
+状态页设计与可读性
+不少人先吐槽这页像“随机 ID 列表”，但也有人指出它其实按 pod、region、service 和 incident timeline 分层，能直接定位某个实例。支持者强调，这些编号对真正的 Salesforce 客户并不随机，而是能深链到 runbook 和具体受影响服务。争议点在于：对外行看起来混乱，对熟悉系统的人反而是高效的运维界面。也有人顺手拿它和其他云服务的状态页对比，认为它并不比 AWS 差。
+[来源1] [来源2] [来源3] [来源4] [来源5] [来源6] [来源7] [来源8] [来源9] [来源10] [来源11] [来源12] [来源13]
+重启排障与 AI 讽刺
+评论里反复玩“重启试试”的老梗，但也有人说 rolling restart 是排障里很正常的一步。它能快速判断故障是进程/本地问题还是系统性问题，也能先把“你试过没”这种追问排掉。有人顺带讽刺厂商卖 AI 却仍要人…]]></summary>
+        <author>
+            <name>News Hacker | 极客洞察</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[每日一文-我悟了：散户想赚钱，就三件事]]></title>
+        <id>https://www.jisilu.cn/question/525352</id>
+        <link href="https://www.jisilu.cn/question/525352"/>
+        <updated>2026-09-16T14:29:11.000Z</updated>
+        <summary type="html"><![CDATA[# 炒股十年，我悟了：散户想赚钱，就三件事
+
+> 一篇得罪人的大实话。
+
+## 市场上只有三种人
+
+入市久了你会发现，身边的人就三类：**挣钱的、不挣钱的、白忙活的**。
+
+而且几乎都走过同一条路：**小心翼翼 → 胆大妄为 → 瞎玩摆烂 → 销户走人**，极少数人在某一环突然悟了，活了下来。...]]></summary>
+        <author>
+            <name>集思录</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[2026年9月17日投资提示：严牌股份实控人拟减持不超1.28%股份]]></title>
+        <id>https://www.jisilu.cn/question/525351</id>
+        <link href="https://www.jisilu.cn/question/525351"/>
+        <updated>2026-09-16T14:28:44.000Z</updated>
+        <summary type="html"><![CDATA[严牌股份：实控人之一拟减持不超1.28%股份
+http://static.cninfo.com.cn/finalpage/2026-09-17/1225568864.PDF
+
+*ST闻泰：中诚信调降闻泰转债评级至BBB-
+http://static.cninfo.com.cn/finalpage/...]]></summary>
+        <author>
+            <name>集思录</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Anatomy of a Texture]]></title>
+        <id>https://agentlien.github.io/texture/</id>
+        <link href="https://agentlien.github.io/texture/"/>
+        <updated>2026-09-16T14:28:28.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[静和医疗发布澄清声明]]></title>
+        <id>https://m.jiemian.com/article/15104778.html</id>
+        <link href="https://m.jiemian.com/article/15104778.html"/>
+        <updated>2026-09-16T14:22:06.000Z</updated>
+        <summary type="html"><![CDATA[2026.09.16
+
+9月16日，静和医疗发布澄清声明：近日，网络平台出现将某医疗事件与我机构不当关联的不实信息。现郑重声明如下：一、经核查，网传所涉人员未在我机构接受诊疗服务，与我机构不存在诊疗服务关系。二、我机构未开展网传事件所涉项目，亦无相关诊疗服务及操作记录。网传将相关事件归责、关联至我机构及医务人员的内容，均不属实。三、我机构已对相关不实信息固定证据，对编造、传播不实信息的机构及个人，我机构将保留追究其法律责任的权利。
+据此前报道，16日，@王鹤棣工作室 带派出所定位发文回应爆料，称部分用户恶意捏造针对王鹤棣的不实聊天记录信息，严重损害王鹤棣个人声誉，工作室已完成证据公证取证，并第一时间报案。随后工作室转发首都网警有关网络谣言的博文，呼吁网友理性甄别不实信息。]]></summary>
+        <author>
+            <name>界面新闻</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SpaceX股价上涨5%]]></title>
+        <id>https://m.jiemian.com/article/15104784.html</id>
+        <link href="https://m.jiemian.com/article/15104784.html"/>
+        <updated>2026-09-16T14:22:06.000Z</updated>
+        <summary type="html"><![CDATA[2026.09.16
+
+9月16日消息，SpaceX股价上涨5%，报150.680美元/股，总市值报1.99万亿美元。]]></summary>
+        <author>
+            <name>界面新闻</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[违规减持万物云套现超2亿港元，58集团姚劲波称系投资团队“无心之失”]]></title>
+        <id>https://m.jiemian.com/article/15104767.html</id>
+        <link href="https://m.jiemian.com/article/15104767.html"/>
+        <updated>2026-09-16T14:22:06.000Z</updated>
+        <summary type="html"><![CDATA[2026.09.16
+
+界面新闻记者 | 江怡曼
+
+
+近日，港股上市公司万物云（02602.HK）发布2026年中期报告，其中一则信息令58集团创始人姚劲波陷入合规争议的漩涡。
+
+
+报告指出，姚劲波所控制的58系公司在6月和7月多次违规减持万物云股票，直至清仓，合计套现约2.09亿港元。其中，其在2026年6月和7月多次出售万物云H股，均未按上市规则要求提前作出书面通知；7月20日至7月31日的交易更直接落入公司中报禁售期，构成双重违规。
+
+
+财报显示，姚劲波告知该公司，6月10日至6月29日期间，他所控制的58系公司在场内合共减持了674万股，交易价格介于16.03港元至20.70港元之间。7月20日至7月30日期间，其再次通过场内交易出售万物云511万股，成交价介于约16.62港元至约18.12港元。
+
+
+值得关注的是，姚劲波本次清仓出售的价位几乎贴近“地板价”水平。6月减持期间万物云股价由20港元上下震荡下行至15港元上下，7月再度回落至16.5港元附近。而清仓仅一个月后，万物云股价便回升至19港元上方，截至9月15日收报19.26港元，上涨了0.21%。
+
+
+根据财报，于该等出售后及截至最后实际可行日期，姚劲波不再被视为于万物云任何H股中拥有权益。也就是说，姚劲波对万物云的持股已经正式归零。
+
+
+
+报告显示，作为万物云非执行董事，姚劲波应在减持前通知上市公司。根据港交所上市规则附录C3第B.8段的规定，在未书面通知董事会主席或指定董事，并且获得注明日期的确认书之前，上市公司均不得买卖持有的上市公司任何证券。而姚劲波上述两轮减持均未事先向万物云方面作出书面通知。
+
+
+另外，根据上市规则附录C3第A.3段，在上市公司刊发财务业绩当天，以及刊发半年度业绩日期之前的30日内，为禁售期，上市公司董事不得买卖所持有的上市公司任何证券。而7月份的一轮减持就涉及到了该项目的违规。
+
+
+万物云披露，其2026年度中期业绩报告的相关禁售期为2026年7月14日-8月13日。而姚劲波在7月份的减持是在7月20日-7月31日之内进行，处于禁售期内，构成上市规则附录C3第A.3的违规事件。
+
+
+姚劲波向万物云方面报告了上述违规事件，并确认该违规是相关负责其外部投资的管理团队的无心之失，并非其本人蓄意为之。同时，姚劲波表示，其本人并无参与亦不知悉上述管理团队进行该等出售的计划，且于进行该等出售时，并无掌握任何有关万物云的内幕消息。
+
+
+姚劲波还表示，已重新深入研习万物云有关董事及最高行政人员进行证券交易守则，并主动安排团队完成有关上市规则、监管合规及企业管治的培训课程，严格执行有关内部汇报审批机制，完善内部监控措施，以确保日后不会违反上市规则附录C3的规定，并将保持警惕，避免再次发生不合规情况。
+
+
+姚劲波与万物云的投资渊源，最早可追溯至2017年。当时，万科物业（更名前的万物云）引入外部股东，姚劲波通过58集团以战略投资者的身份斥资约3亿元认购了万科物业5%的股权。2022年3月，姚劲波获委任为万物云非执行董事。 　　
+
+
+2021年12月底，姚劲波转让了所持万物云2.14%股权，套现约19.91亿元，实现落袋为安，持股比例也降至2.86%，并进一步由于上市而被稀释至2.55%。2024年4月，姚劲波方面进行了一轮减持，持股比例下降至1%。
+
+
+公开信息显示，万物云是万科企业股份有限公司的控股子公司，也是国内头部空间科技服务企业，2022年9月29日正式在港交所主板挂牌上市
+
+
+财报显示，今年上半年，万物云营业收入191.12亿人民币元，同比增长5.38%，公司拥有人应占溢利7.82亿人民币元 ，同比下降1.32%。]]></summary>
+        <author>
+            <name>界面新闻</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[🤦 Flock ALPR 摄像头被入侵：明文数据、老旧 Linux 内核与监控细节曝光]]></title>
+        <id>49726586</id>
+        <link href="https://newshacker.me/story?id=49726586"/>
+        <updated>2026-09-16T14:20:28.000Z</updated>
+        <summary type="html"><![CDATA[原标题：《Hackers Got Inside a Flock Camera. Its Data Shows How the System Works》
+评分: 27 | 作者: driverdan
+💭 都能随手读出数据，还谈什么“安全”监控？
+
+🎯 讨论背景
+Flock Safety 是一家向警局、社区和商业客户销售 ALPR（自动车牌识别）摄像头的公司，这类设备会自动读取车牌并把数据上传到检索系统。此次报道由 404 Media 与另一家媒体合作，分析材料来自 DDoSecrets（Distributed Denial of Secrets，一个发布泄露资料的平台）公开的设备分区镜像。评论里最受关注的，是镜像中的设备运行着非常老的 Linux 3.18 内核，并留下了大量存储耗尽、崩溃和重启日志，说明软件栈和运维状态都不理想。讨论还把焦点扩展到更大的警用监控产业：Flock 只是车牌监控的一部分，Axon（做随身执法记录仪和警用软件的公司）同样参与这个市场。
+
+📌 讨论焦点
+数据未加密、可直接读取
+评论者最直接的反应是震惊：设备里的数据似乎可以被未经授权的人近距离读取，连基本的设备端加密都看不到。有人因此认为，Flock 对“安全摄像头”的宣传几乎失去可信度，因为一旦物理接触到设备，敏感内容就可能被直接拿走。讨论的核心不是某个漏洞细节，而是这类系统在默认设计上是否就把隐私放得太低。
+[来源1]
+设备内部技术栈陈旧、运维状态糟糕
+有评论指出，这次报道并不是空口猜测，而是基于 404 Media 的合作报道和 DDoSecrets 公开的分区镜像展开的分析。有人翻看 boot partition 后发现内核版本是 Linux 3.18.71，另有评论补充说连 5.10 都快失去支持了，这种 3.X 内核在今天的嵌入式设备里非常落后。日志里还出现了大量 “no space left on device” 错误、崩溃和重启记录，显示设备在存储和稳定性上都很吃力。
+[来源1] [来源2] [来源3]
+问题不止是 Flock，而是整套警用监控产业
+有人提醒不要把所有注意力都只放在 Flock 身上，因为 Axon 同样是警用监控和执法设备的大厂，也在参与大规模监控，甚至可能更糟。评论里担心，警方可能会用“我们不用 Flock 了”来粉饰成改用 Axon，但本质上只是换了供应商，没有离开监控体系。还有人补充两家公司市场切分不同：Axon 更强于随身执法记录仪和媒体宣传，Flock 则切入相邻的车牌识别与固定点监控市场。
+[来源1] [来源2] [来源3]
+反乌托邦式黑色幽默
+不少评论把这件事当成现实版的反乌托邦，联想到 Gibson 的 Chiba City，或者直接归结为 late stage capitalism。设备日志里每两分钟就出现一次 “Who's a good boy?!” 的自检文案，也被拿来调侃这种系统一边做严肃监控，一边又带着消费电子式的拟人化口吻。还有人顺手开玩笑说，既然像“flock”，不如干脆做鸟类迁徙追踪器、听鸟鸣，甚至问能不能跑 Doom。
+[来源1] [来源2] [来源3] [来源4] [来源5]
+
+📚 术语解释
+ALPR（自动车牌识别）: 通过摄像头自动识别车牌并建立可检索记录的系统，是 Flock 这类产品的核心功能。
+Linux kernel（Linux 内核）: 操作系统核心；版本过旧通常意味着安全补丁、兼容性和维护风险更高。
+分区镜像（partition image）: 磁盘分区的完整拷贝，常用于取证、逆向分析和检查设备内部文件。
+
+类别：Security | Hardware | Policy | Incident | Flock Safety | DDoSecrets | ALPR | Linux kernel 3.18 | Axon | 404 Media | Wired | surveillance]]></summary>
+        <author>
+            <name>News Hacker | 极客洞察</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[THE BROTHEL PARADOX: Why China’s “Perfect Utopia” Will Collapse from the Bedroom, Not the…]]></title>
+        <id>https://medium.com/p/31b0ae7bdac2</id>
+        <link href="https://medium.com/@sgrgjyjck/the-brothel-paradox-why-chinas-perfect-utopia-will-collapse-from-the-bedroom-not-the-31b0ae7bdac2?source=rss------china-5"/>
+        <updated>2026-09-16T14:12:05.000Z</updated>
+        <summary type="html"><![CDATA[By ;)
+Continue reading on Medium »]]></summary>
+        <author>
+            <name>;)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[🤨 欧盟拟给加拿大“准成员”引爆贸易、监管与主权争论]]></title>
+        <id>49724141</id>
+        <link href="https://newshacker.me/story?id=49724141"/>
+        <updated>2026-09-16T14:01:09.000Z</updated>
+        <summary type="html"><![CDATA[原标题：《EU chief opens door for Canada to become 'associate member'》
+评分: 555 | 作者: hackernj
+💭 连定义都没定，就先发“准成员”通行证？
+
+🎯 讨论背景
+欧盟委员会主席冯德莱恩（European Commission 主席）对加拿大成为 EU（欧盟）首个“associate member”开了口子，而加拿大总理 Carney 近来也在推动更深的欧洲合作，用来对冲美国关税和政治风险。评论区强调，EU 目前并没有现成的“准成员”法律身份，更多只能拿现有的 association agreement（联系协定）、EEA（欧洲经济区）或 CETA（加拿大-欧盟全面经济与贸易协定）来类比。真正难谈的不是一句“合作”而已，而是四大自由、监管对齐、预算分担、司法管辖和人员流动这些 single market（单一市场）的核心条款。因为这件事又碰上 Brexit、美国对盟友失信、以及加拿大本身省际壁垒很重，讨论很快变成了地缘政治和制度设计的总辩论。
+
+📌 讨论焦点
+制度细节还没落地
+很多评论先指出，这条消息最关键的问题不是立场，而是“associate member”到底在法律上是什么意思。有人把它类比为 EU（欧盟）的 association agreement（联系协定）或 EEA（欧洲经济区）式安排，但也强调这些机制并不等于真正的成员资格。文章里提到的制造、科技、AI、国防、能源、关键矿产和经济安全，只是合作方向，并不是已经写好的条约文本。整体看，讨论者普遍认为这更像早期试探或外交信号，而不是已成形的新制度。
+[来源1] [来源2] [来源3] [来源4] [来源5]
+摆脱美国依赖、转向民主伙伴
+支持者把这件事理解为加拿大和欧洲在减少对美国依赖，尤其是在 Trump 关税、威胁和政策反复下重新分…]]></summary>
+        <author>
+            <name>News Hacker | 极客洞察</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[景顺长城纳指科技明天恢复申购1000]]></title>
+        <id>https://www.jisilu.cn/question/525350</id>
+        <link href="https://www.jisilu.cn/question/525350"/>
+        <updated>2026-09-16T13:59:06.000Z</updated>
+        <summary type="html"><![CDATA[值得买吗？问下有没有同关注的]]></summary>
+        <author>
+            <name>集思录</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[OpenAI expands ChatGPT ads with Sponsored Agents]]></title>
+        <id>https://openai.com/index/reimagining-advertising-with-ai/</id>
+        <link href="https://openai.com/index/reimagining-advertising-with-ai/"/>
+        <updated>2026-09-16T13:51:15.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[🔓 PS2 安全芯片 26 年后被攻破，逆向与保存讨论升温]]></title>
+        <id>49725356</id>
+        <link href="https://newshacker.me/story?id=49725356"/>
+        <updated>2026-09-16T13:50:52.000Z</updated>
+        <summary type="html"><![CDATA[原标题：《Original Sony PlayStation 2 security chip 'broken wide open' after 26 years》
+评分: 77 | 作者: rbanffy
+💭 四年去封装才破开，索尼还敢叫安全芯片吗？
+
+🎯 讨论背景
+这次讨论围绕索尼 PlayStation 2（PS2，索尼第二代家用游戏机）的一颗安全芯片 CXP102064 被彻底逆向展开，方法包括 decapping（化学去封装）和 optical dumping（用显微镜与成像重建芯片数据）。消息最初来自逆向工程者 DiscoStarSlayer 在 X（原 Twitter）上的进展帖，评论里提到项目已经持续 4 年，后续会放出完整 write-up。PS2 长期是主机破解和 homebrew 的经典目标，相关历史里包括 modchip、jailbreak 以及像 mechapwn（针对 PS2 mechacon 的漏洞利用工具）这样的绕过方案。评论又把话题扩展到 game preservation（游戏保存）和硬件老化：老主机会遇到电容老化、闪存失效、塑料脆裂、服务器下线和 day-one patches（首日补丁）依赖，导致“有盘”并不等于“能完整还原原版体验”。
+
+📌 讨论焦点
+逆向突破与来源确认
+评论首先聚焦这次破解的技术路径：先对 CXP102064 做 decapping，把 die 暴露出来，再用 microscope 和 optical dumping 重建电路，最后意外找到一个能通过 software 读取数据的 exploit。有人指出这条消息主要来自 DiscoStarSlayer 的 X 帖，而非独立长文，且完整 write-up 还在路上。另有人感叹这是“终于可以把化学药剂放下”的时刻，说明项目从纯物理逆向推进到了可复用的软件方案。还有提问直接把焦点放到 mechapwn 和这颗芯片的实际可利用性上。
+[来源1] [来源2] [来源3]
+游戏保存与可玩性
+不少评论把它看成 PS2 games preservation 的利好，认为更完整的底层理解有助于备份、研究和长期维护。也有人追问实际收益，因为 PS2 emulation 早已相对成熟，真正没解决的也许不是运行，而是某些特殊硬件行为、保护机制或版本细节。话题随后延伸到 PS3 已经长期 jailbroken，以及现代主机像 PS5 未来可能只能读出一个“过期版本”的问题。还有人提到 day-one patches 和在线服务器下线，提醒大家实体光盘和数字归档都离“完整复现原版体验”很远。
+[来源1] [来源2] [来源3] [来源4] [来源5]
+硬件老化与介质损耗
+另一组评论强调，保存难题不只在破解，还在老硬件本身会坏。有人提到 recapping、塑料变脆导致 ribbon connector 断裂，以及维修时零件一碰就碎。也有人担心 flash lifespan：不仅要找到替换闪存，还得想办法重新写入正确内容，而有些存储模块甚至埋在芯片内部，根本不好接触。Xbox 360 的坏掉存储模块和劣质替件被拿来举例，说明很多修复只能做到“勉强能用”。
+[来源1] [来源2] [来源3]
+破解终会发生的老观点
+更宏观的观点是：任何主机安全最终都会被打穿。有人回顾 PS2、PS3、Nintendo 主机和所谓“unbreakable” Xbox 的历史，认为只要有足够价值，最终总会出现软件漏洞或 modchip。也有回复用“PS2 时代人们当年也这么想”来强调这种循环感，表达的是技术军备竞赛而非真正的绝对安全。相比之下，vibe-coded backend clones 能否替代原版游戏，被不少人视为过于乐观，甚至带点空想。
+[来源1] [来源2] [来源3] [来源4]
+
+📚 术语解释
+decapping: 化学去封装芯片，暴露裸片（die）以便显微分析。
+optical dumping: 通过显微镜拍照、拼接和分析芯片版图来提取信息的逆向方法。
+mechapwn: 针对 PS2 mechacon 的漏洞利用工具，可绕过部分主机限制。
+
+类别：Hardware | Security | Incident | PlayStation 2 | CXP102064 | Mechacon | Sony | reverse engineering | decapping | optical dumping | DiscoStarslayer | game preservation | Tom's Hardware]]></summary>
+        <author>
+            <name>News Hacker | 极客洞察</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Dream-RSI: Recursive Self-Improvement through Evolving Worlds]]></title>
+        <id>https://arxiv.org/abs/2609.14858</id>
+        <link href="https://arxiv.org/abs/2609.14858"/>
+        <updated>2026-09-16T13:44:40.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[The Long Game Brief] Egypt Welcomes China for a Trade Checkup]]></title>
+        <id>https://medium.com/p/88f825abe99a</id>
+        <link href="https://medium.com/areas-producers/the-long-game-brief-egypt-welcomes-china-for-a-trade-checkup-88f825abe99a?source=rss------china-5"/>
+        <updated>2026-09-16T13:37:42.000Z</updated>
+        <summary type="html"><![CDATA[Sign up for [The Long Game Brief] newsletter to learn more about long game scenarios around the world
+Continue reading on Areas & Producers »]]></summary>
+        <author>
+            <name>World As One 4PEACE</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Does buying discounted debt count as usury?]]></title>
+        <id>https://www.reddit.com/r/Snorkblot/comments/1whxevg/does_buying_discounted_debt_count_as_usury/</id>
+        <link href="https://www.reddit.com/r/Snorkblot/comments/1whxevg/does_buying_discounted_debt_count_as_usury/"/>
+        <updated>2026-09-16T13:34:23.000Z</updated>
+        <summary type="html"><![CDATA[submitted by    /u/LordJim11    to    r/Snorkblot  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>popular links</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ed Sheeran branded ‘coward’ as treasure trove of receipts resurfaces after response to Macklemore]]></title>
+        <id>https://www.reddit.com/r/Music/comments/1whx5vi/ed_sheeran_branded_coward_as_treasure_trove_of/</id>
+        <link href="https://www.reddit.com/r/Music/comments/1whx5vi/ed_sheeran_branded_coward_as_treasure_trove_of/"/>
+        <updated>2026-09-16T13:24:22.000Z</updated>
+        <summary type="html"><![CDATA[submitted by    /u/sadquarius    to    r/Music  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>popular links</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[自主团队被捧过头了？Simon Rohrer 直言：你们交付的根本不是产品]]></title>
         <id>https://www.infoq.cn/article/zZ1VxUIIPts70RtVpGhB?utm_source=rss&amp;utm_medium=article</id>
         <link href="https://www.infoq.cn/article/zZ1VxUIIPts70RtVpGhB?utm_source=rss&amp;utm_medium=article"/>
@@ -77,6 +1635,624 @@
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Hackers Got Inside a Flock Camera. Its Data Shows How the System Works]]></title>
+        <id>https://www.wired.com/story/hackers-flock-camera-data-shows-how-system-works/</id>
+        <link href="https://www.wired.com/story/hackers-flock-camera-data-shows-how-system-works/"/>
+        <updated>2026-09-16T13:18:47.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Scaling Golang CI by Replacing actions/setup-go]]></title>
+        <id>https://www.cloudx.ai/posts/setup-go</id>
+        <link href="https://www.cloudx.ai/posts/setup-go"/>
+        <updated>2026-09-16T13:02:14.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: How Stale Is Your AI? Release age and training cutoff for 20 models]]></title>
+        <id>https://stale.jock.pl/</id>
+        <link href="https://stale.jock.pl/"/>
+        <updated>2026-09-16T13:01:52.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[🤔 Douglas Adams《Shada》复原版引发 Doctor Who 未来与质量争议]]></title>
+        <id>49689062</id>
+        <link href="https://newshacker.me/story?id=49689062"/>
+        <updated>2026-09-16T12:50:35.000Z</updated>
+        <summary type="html"><![CDATA[原标题：《Douglas Adams and the exterminated Doctor Who adventure》
+评分: 21 | 作者: 6LLvveMx2koXfwn
+💭 把怀旧当剧本，Doctor Who 还剩什么？
+
+🎯 讨论背景
+《Shada》是 Douglas Adams（英国科幻作家，也是《The Hitchhiker's Guide to the Galaxy》作者）为 BBC 科幻剧《Doctor Who》写的未完成冒险篇，因为当年拍摄中断而长期以残片、配音版和后来的动画修复版流传。2017 年 BBC 推出的动画版补上了不少缺失镜头，所以老观众会把它视为少见的“完整化”经典。评论又延伸到现代《Doctor Who》的制作安排：BBC 围绕 Russell T Davies（重启版时期的重要主创）和新的制作公司重新规划季度与 Christmas special，引发是否该暂停播出、重整创作方向的争论。有人还把《Star Trek》与《Star Wars》拿来对比，说明长寿特许经营的困境往往不只是单一剧集，而是整体开发管线和写作质量的问题。
+
+📌 讨论焦点
+《Shada》复原版与动画修复
+不少人把这部未完成的 Doctor Who 冒险篇视为经典，认为原始版本虽然残缺，但已经很有 Douglas Adams 的味道。2017 年的动画修复版被评价为把缺失段落补得相当自然，甚至让一些原本没察觉的叙事空白变得完整。有人直接建议去买 Blu-ray，因为无论是喜欢 classic Who 还是 Douglas Adams，这一版都值得看。还有评论指出，它和 Douglas Adams 后来的《Dirk Gently's Holistic Detective Agency》之间有明显的创作延续关系。
+[来源1] [来源2] [来源3]
+Doctor Who 近年质量下滑
+另一条主线是对 Doctor Who 最近几年表现的失望，认为这部剧已经到了该像 1989 年那样暂时搁置、重新整理的阶段。讨论里有人把 Capaldi 时代视为最后的高峰，也有人认为真正的拐点更早，在 'Kill the Moon' 之后就开始走下坡路。批评重点不只是演员，而是编剧和故事结构长期疲软，尤其是 Whittaker 时代被认为写作糟糕、过度依赖 nostalgia-baiting。整体语气是：如果剧本持续不给力，单靠情怀和老梗很难维持观众兴趣。
+[来源1] [来源2] [来源3]
+BBC 制作重整与长寿 IP 对比
+也有人把焦点放在 BBC 的制作策略调整上，认为他们正在从 Russell T Davies（《Doctor Who》重启版的重要主创）那里转向，并把资源投入到完整季度和新的制作公司。这个变化被看作至少说明 BBC 还在尝试修复这块老牌 IP，而不是让它继续原地消耗。评论随后拿 Star Trek 和 Star Wars 作类比，指出这类长寿系列同样会遇到开发停滞、质量失控或依赖资本续命的问题。补充的时间线还提到《Star Trek: 09》的开发并非瞬间启动，而是经历了较长的筹备期。
+[来源1] [来源2] [来源3]
+
+📚 术语解释
+Shada: Douglas Adams 为《Doctor Who》写的未完成冒险篇，后来有动画修复版。
+new-Who: 2005 年重启后的《Doctor Who》时代，用来区别经典版。
+Capaldi era: Peter Capaldi 扮演 Doctor 的时期，评论里被当作新旧品质变化的分界点。
+Dirk Gently's Holistic Detective Agency: Douglas Adams 的侦探小说，和《Shada》在创作风格上有明显关联。
+
+类别：Opinion | Douglas Adams | Doctor Who | Shada | BBC | Capaldi]]></summary>
+        <author>
+            <name>News Hacker | 极客洞察</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Learn 3 simple Mandarin sentences about Peking Duck]]></title>
+        <id>https://medium.com/p/1c265a78bb5a</id>
+        <link href="https://medium.com/@yanwang1012/learn-3-simple-mandarin-sentences-about-peking-duck-1c265a78bb5a?source=rss------china-5"/>
+        <updated>2026-09-16T12:41:51.000Z</updated>
+        <summary type="html"><![CDATA[Want to learn easy Mandarin about tasty food?
+Let’s learn about Peking Duck.
+Continue reading on Medium »]]></summary>
+        <author>
+            <name>ChineseTeacherBobo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Solar panel costs have plummeted from $6 per watt in 2000 to just 12 cents today]]></title>
+        <id>https://www.reddit.com/r/UpliftingNews/comments/1whvpsz/solar_panel_costs_have_plummeted_from_6_per_watt/</id>
+        <link href="https://www.reddit.com/r/UpliftingNews/comments/1whvpsz/solar_panel_costs_have_plummeted_from_6_per_watt/"/>
+        <updated>2026-09-16T12:23:05.000Z</updated>
+        <summary type="html"><![CDATA[submitted by    /u/ArgentineBeauty    to    r/UpliftingNews  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>popular links</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[DeepSeek v4.1 Flash Is Now Our Best Hacking Model]]></title>
+        <id>https://enclave.ai/blog/deepseek-v41-flash-is-now-our-best-hacking-model</id>
+        <link href="https://enclave.ai/blog/deepseek-v41-flash-is-now-our-best-hacking-model"/>
+        <updated>2026-09-16T12:19:55.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[What Do the Colors on Chinese Opera Masks Mean?]]></title>
+        <id>https://medium.com/p/54254e6e701a</id>
+        <link href="https://medium.com/@yanwang1012/what-do-the-colors-on-chinese-opera-masks-mean-54254e6e701a?source=rss------china-5"/>
+        <updated>2026-09-16T12:19:18.000Z</updated>
+        <summary type="html"><![CDATA[Want to know what the colors on Chinese opera faces stand for?
+Chinese opera masks are rich in colors, and every color carries a special…
+Continue reading on Medium »]]></summary>
+        <author>
+            <name>ChineseTeacherBobo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ed Sheeran talk at work went south fast 😭]]></title>
+        <id>https://www.reddit.com/r/GirlDinnerDiaries/comments/1whvibr/ed_sheeran_talk_at_work_went_south_fast/</id>
+        <link href="https://www.reddit.com/r/GirlDinnerDiaries/comments/1whvibr/ed_sheeran_talk_at_work_went_south_fast/"/>
+        <updated>2026-09-16T12:13:50.000Z</updated>
+        <summary type="html"><![CDATA[Update!
+ We’ll call the stapler thrower “Tina.” Tina showed up late and wouldn’t speak to anyone or make eye contact with anyone. It was creepy. She was called into HR. Idk what happened in there, but we heard some raised voices. She walked out angry crying. She started packing up her things and my work bestie told her “Don’t forget your stapler!” Lmao, I love her. Tina has been let go. If she shows up again, she’ll be given a trespass warrant. For those curious, she’s about 15 years older than me - in her 50’s. Wild. 
+ ————————
+ Last night’s dinner was chicken and pepper tacos.
+ I woke up thinking about what happened to me at work yesterday and I just …
+ I rarely discuss politics or religion at work. Yesterday, a very emotionally draining coworker asked me what I thought about the recent Ed Sheeran controversy. I told her I didn’t really want to get into it, but it “seemed like he really stepped in it.”
+ I thought that was a neutral statement. Apparently, I was wrong because the coworker went bonkers. She said a bunch of stuff and kept repeating “You think you’re so much better?!” I didn’t know what to do, so I said “I’m just gonna walk away now.” And ladies, as I rounded the exit, something hit the doorframe next to me. It was a stapler?! She threw a stapler at me!!
+ I was a bit dumbfounded so I picked the stapler up and walked it back to her desk without saying a word. Then I went straight to HR. They had us in a room together to talk it out with mediation, and the coworker was beside herself. She cursed me out, cursed the HR lady out, and left. I have no idea what’s going to happen at work today. But maybe I should wear a helmet? Anyway I guess she really loves Ed. 😭
+    submitted by    /u/debbiedamore    to    r/GirlDinnerDiaries  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>popular links</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Canton Fair China: What UAE Importers Need to Know]]></title>
+        <id>https://medium.com/p/6a2fb3cde4b2</id>
+        <link href="https://medium.com/@gokitetraveluae/canton-fair-china-what-uae-importers-need-to-know-6a2fb3cde4b2?source=rss------china-5"/>
+        <updated>2026-09-16T12:13:22.000Z</updated>
+        <summary type="html"><![CDATA[Looking for new suppliers and sourcing opportunities in China?
+The Canton Fair is one of the key events for UAE importers, entrepreneurs…
+Continue reading on Medium »]]></summary>
+        <author>
+            <name>Gokitetraveluae</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[全球三年约6000万人告别奢侈品 热度：3127709]]></title>
+        <id>2175539</id>
+        <link href="https://www.baidu.com/s?wd=%E5%85%A8%E7%90%83%E4%B8%89%E5%B9%B4%E7%BA%A66000%E4%B8%87%E4%BA%BA%E5%91%8A%E5%88%AB%E5%A5%A2%E4%BE%88%E5%93%81&amp;sa=fyb_news&amp;rsv_dl=fyb_news"/>
+        <updated>2026-09-16T12:02:36.000Z</updated>
+        <summary type="html"><![CDATA[9月15日，欧莱雅市值反超LVMH。2026年以来，LVMH股价累计下跌近37%，市值蒸发约9090亿元人民币。贝恩咨询数据显示，全球奢侈品消费者累...]]></summary>
+        <author>
+            <name>百度实时热点</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[隐翅虫窗外排队等进家女子吓坏 热度：3196752]]></title>
+        <id>2175538</id>
+        <link href="https://www.baidu.com/s?wd=%E9%9A%90%E7%BF%85%E8%99%AB%E7%AA%97%E5%A4%96%E6%8E%92%E9%98%9F%E7%AD%89%E8%BF%9B%E5%AE%B6+%E5%A5%B3%E5%AD%90%E5%90%93%E5%9D%8F&amp;sa=fyb_news&amp;rsv_dl=fyb_news"/>
+        <updated>2026-09-16T12:02:36.000Z</updated>
+        <summary type="html"><![CDATA[近日，河南一名女子发现家里进了不少隐翅虫，却怎么也想不通是从哪儿来的。找了大半夜，她发现窗户缝外面排着一大堆隐翅虫，正等着往家里溜。女子吓得直呼：再...]]></summary>
+        <author>
+            <name>百度实时热点</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[落马副行长违规放贷13.9亿被判13年 热度：3315405]]></title>
+        <id>2175537</id>
+        <link href="https://www.baidu.com/s?wd=%E8%90%BD%E9%A9%AC%E5%89%AF%E8%A1%8C%E9%95%BF%E8%BF%9D%E8%A7%84%E6%94%BE%E8%B4%B713.9%E4%BA%BF%E8%A2%AB%E5%88%A413%E5%B9%B4&amp;sa=fyb_news&amp;rsv_dl=fyb_news"/>
+        <updated>2026-09-16T12:02:35.000Z</updated>
+        <author>
+            <name>百度实时热点</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[钟薛高皇家小虎 热度：3421678]]></title>
+        <id>2175536</id>
+        <link href="https://www.baidu.com/s?wd=%E9%92%9F%E8%96%9B%E9%AB%98+%E7%9A%87%E5%AE%B6%E5%B0%8F%E8%99%8E&amp;sa=fyb_news&amp;rsv_dl=fyb_news"/>
+        <updated>2026-09-16T12:02:35.000Z</updated>
+        <summary type="html"><![CDATA[9月14日，钟薛高管理人发布公告称，508件被整体拍卖的无形资产已完成权利转移，标志钟薛高被速冻食品公司“接盘”。天眼查显示，新成立的长沙钟薛高食品...]]></summary>
+        <author>
+            <name>百度实时热点</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[于东来骑上张雪机车了 热度：3513288]]></title>
+        <id>2175535</id>
+        <link href="https://www.baidu.com/s?wd=%E4%BA%8E%E4%B8%9C%E6%9D%A5%E9%AA%91%E4%B8%8A%E5%BC%A0%E9%9B%AA%E6%9C%BA%E8%BD%A6%E4%BA%86&amp;sa=fyb_news&amp;rsv_dl=fyb_news"/>
+        <updated>2026-09-16T12:02:35.000Z</updated>
+        <summary type="html"><![CDATA[9月16日上午，胖东来创始人于东来在社交平台发布了一段骑行机车的视频。他驾驶一台红色的张雪机车在一园区“遛弯”。当天下午，张雪机车许昌门店工作人员称...]]></summary>
+        <author>
+            <name>百度实时热点</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[扎哈罗娃再秀中文谈父母在武汉旅游 热度：3690770]]></title>
+        <id>2175534</id>
+        <link href="https://www.baidu.com/s?wd=%E6%89%8E%E5%93%88%E7%BD%97%E5%A8%83%E5%86%8D%E7%A7%80%E4%B8%AD%E6%96%87%E8%B0%88%E7%88%B6%E6%AF%8D%E5%9C%A8%E6%AD%A6%E6%B1%89%E6%97%85%E6%B8%B8&amp;sa=fyb_news&amp;rsv_dl=fyb_news"/>
+        <updated>2026-09-16T12:02:34.000Z</updated>
+        <author>
+            <name>百度实时热点</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[倪虹洁模仿闫妮“微醺” 热度：3798856]]></title>
+        <id>2175533</id>
+        <link href="https://www.baidu.com/s?wd=%E5%80%AA%E8%99%B9%E6%B4%81%E6%A8%A1%E4%BB%BF%E9%97%AB%E5%A6%AE%E2%80%9C%E5%BE%AE%E9%86%BA%E2%80%9D&amp;sa=fyb_news&amp;rsv_dl=fyb_news"/>
+        <updated>2026-09-16T12:02:34.000Z</updated>
+        <summary type="html"><![CDATA[近日，在《活色生香》交流会中，倪虹洁现场模仿闫妮“微醺”，并实名羡慕闫妮身上的“活人感”。]]></summary>
+        <author>
+            <name>百度实时热点</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[“八个鸡蛋”少年开学典礼发言 热度：3874587]]></title>
+        <id>2175532</id>
+        <link href="https://www.baidu.com/s?wd=%E2%80%9C%E5%85%AB%E4%B8%AA%E9%B8%A1%E8%9B%8B%E2%80%9D%E5%B0%91%E5%B9%B4%E5%BC%80%E5%AD%A6%E5%85%B8%E7%A4%BC%E5%8F%91%E8%A8%80&amp;sa=fyb_news&amp;rsv_dl=fyb_news"/>
+        <updated>2026-09-16T12:02:34.000Z</updated>
+        <summary type="html"><![CDATA[近日，“八个鸡蛋”少年贺永辉在开学典礼上发言，引用袁隆平院士“要做一粒好种子”的名言，感慨自己是被无数双手托举着从大山里带出来的种子，愿与所有同窗共...]]></summary>
+        <author>
+            <name>百度实时热点</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[中国男篮击败沙特晋级4强 热度：3972136]]></title>
+        <id>2175531</id>
+        <link href="https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E7%94%B7%E7%AF%AE%E5%87%BB%E8%B4%A5%E6%B2%99%E7%89%B9%E6%99%8B%E7%BA%A74%E5%BC%BA&amp;sa=fyb_news&amp;rsv_dl=fyb_news"/>
+        <updated>2026-09-16T12:02:33.000Z</updated>
+        <summary type="html"><![CDATA[北京时间2026年9月16日，2026日本爱知名古屋亚运会男篮四分之一决赛，中国男篮以87比78击败沙特，成功挺进4强。]]></summary>
+        <author>
+            <name>百度实时热点</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[美媒直升机坠毁：正在直播车祸 热度：4092792]]></title>
+        <id>2175530</id>
+        <link href="https://www.baidu.com/s?wd=%E7%BE%8E%E5%AA%92%E7%9B%B4%E5%8D%87%E6%9C%BA%E5%9D%A0%E6%AF%81%EF%BC%9A%E6%AD%A3%E5%9C%A8%E7%9B%B4%E6%92%AD%E8%BD%A6%E7%A5%B8&amp;sa=fyb_news&amp;rsv_dl=fyb_news"/>
+        <updated>2026-09-16T12:02:33.000Z</updated>
+        <summary type="html"><![CDATA[9月15日，美国全国广播公司子媒体（KNBC-TV）一架直升机在洛杉矶直播车祸时坠毁。此前，洛杉矶发生车祸，该直升机正于空中进行直播。直升机坠毁后在...]]></summary>
+        <author>
+            <name>百度实时热点</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[小伙把猪圈改私厨：500至800元1位 热度：4349932]]></title>
+        <id>2175529</id>
+        <link href="https://www.baidu.com/s?wd=%E5%B0%8F%E4%BC%99%E6%8A%8A%E7%8C%AA%E5%9C%88%E6%94%B9%E7%A7%81%E5%8E%A8%EF%BC%9A500%E8%87%B3800%E5%85%831%E4%BD%8D&amp;sa=fyb_news&amp;rsv_dl=fyb_news"/>
+        <updated>2026-09-16T12:02:33.000Z</updated>
+        <summary type="html"><![CDATA[近日，一名95后小伙回村将猪圈改造成私厨制作日料。小伙表示，改造花费三四万元，大部分由自己手工制作。私厨套餐含12道菜，定价500至800元一位，最...]]></summary>
+        <author>
+            <name>百度实时热点</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[科技当不了算命先生 热度：4446268]]></title>
+        <id>2175528</id>
+        <link href="https://www.baidu.com/s?wd=%E7%A7%91%E6%8A%80%E5%BD%93%E4%B8%8D%E4%BA%86%E7%AE%97%E5%91%BD%E5%85%88%E7%94%9F&amp;sa=fyb_news&amp;rsv_dl=fyb_news"/>
+        <updated>2026-09-16T12:02:32.000Z</updated>
+        <summary type="html"><![CDATA[今年4月，浙江史先生依AI推荐“黄道吉日”下葬母亲，后亲戚遇车祸，史先生起诉AI公司，目前该案已开庭审理。AI本身无立场，只是按需调取文本，答案好坏...]]></summary>
+        <author>
+            <name>百度实时热点</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[中国十大消费县排行 热度：4661490]]></title>
+        <id>2175527</id>
+        <link href="https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E5%8D%81%E5%A4%A7%E6%B6%88%E8%B4%B9%E5%8E%BF%E6%8E%92%E8%A1%8C&amp;sa=fyb_news&amp;rsv_dl=fyb_news"/>
+        <updated>2026-09-16T12:02:32.000Z</updated>
+        <summary type="html"><![CDATA[据数据统计，2025年全国4个县域社零总额超千亿元，义乌以2153.8亿元居首，昆山、晋江、常熟紧随其后。此前，县域已成扩消费重要潜力来源，各大品牌...]]></summary>
+        <author>
+            <name>百度实时热点</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[巨头魔掌伸向“霉霉” 热度：4742971]]></title>
+        <id>2175526</id>
+        <link href="https://www.baidu.com/s?wd=%E5%B7%A8%E5%A4%B4%E9%AD%94%E6%8E%8C%E4%BC%B8%E5%90%91%E2%80%9C%E9%9C%89%E9%9C%89%E2%80%9D&amp;sa=fyb_news&amp;rsv_dl=fyb_news"/>
+        <updated>2026-09-16T12:02:32.000Z</updated>
+        <summary type="html"><![CDATA[近期，索尼音乐与华纳查普尔向旧金山联邦法院起诉AI巨头Anthropic，指控其未经授权使用数千首含霉霉、牛姐等巨星歌词训练Claude模型。]]></summary>
+        <author>
+            <name>百度实时热点</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[4名中国人在韩国旅游“拾机不昧” 热度：4861754]]></title>
+        <id>2175525</id>
+        <link href="https://www.baidu.com/s?wd=4%E5%90%8D%E4%B8%AD%E5%9B%BD%E4%BA%BA%E5%9C%A8%E9%9F%A9%E5%9B%BD%E6%97%85%E6%B8%B8%E2%80%9C%E6%8B%BE%E6%9C%BA%E4%B8%8D%E6%98%A7%E2%80%9D&amp;sa=fyb_news&amp;rsv_dl=fyb_news"/>
+        <updated>2026-09-16T12:02:31.000Z</updated>
+        <author>
+            <name>百度实时热点</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[一点点施压员工爷爷奶奶 热度：4946408]]></title>
+        <id>2175524</id>
+        <link href="https://www.baidu.com/s?wd=%E4%B8%80%E7%82%B9%E7%82%B9+%E6%96%BD%E5%8E%8B%E5%91%98%E5%B7%A5%E7%88%B7%E7%88%B7%E5%A5%B6%E5%A5%B6&amp;sa=fyb_news&amp;rsv_dl=fyb_news"/>
+        <updated>2026-09-16T12:02:31.000Z</updated>
+        <summary type="html"><![CDATA[9月16日，福建三明三元区和仁路一点点直营店工作人员回应称，不清楚网友被施压一事。此前，一网友发文称，因举报一点点茶叶中有石头、劳动合同等问题，被一...]]></summary>
+        <author>
+            <name>百度实时热点</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[大学毕业生举报资助人是间谍 热度：5051309]]></title>
+        <id>2175523</id>
+        <link href="https://www.baidu.com/s?wd=%E5%A4%A7%E5%AD%A6%E6%AF%95%E4%B8%9A%E7%94%9F%E4%B8%BE%E6%8A%A5%E8%B5%84%E5%8A%A9%E4%BA%BA%E6%98%AF%E9%97%B4%E8%B0%8D&amp;sa=fyb_news&amp;rsv_dl=fyb_news"/>
+        <updated>2026-09-16T12:02:31.000Z</updated>
+        <summary type="html"><![CDATA[“我要举报我的资助人！”国安机关接待室，某航发研究所助理工程师最终选择举报。他从小在福利院长大，高中时王老师突然出现，每年资助5000元直到他大学毕...]]></summary>
+        <author>
+            <name>百度实时热点</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[“豆包手机”定价5999元起 热度：5129120]]></title>
+        <id>2175522</id>
+        <link href="https://www.baidu.com/s?wd=%E2%80%9C%E8%B1%86%E5%8C%85%E6%89%8B%E6%9C%BA%E2%80%9D%E5%AE%9A%E4%BB%B75999%E5%85%83%E8%B5%B7&amp;sa=fyb_news&amp;rsv_dl=fyb_news"/>
+        <updated>2026-09-16T12:02:30.000Z</updated>
+        <summary type="html"><![CDATA[9月16日，搭载豆包AI手机助手的努比亚NaviXUltra（“豆包手机”）正式发售，定价5999元起。该手机语音操作优先覆盖字节跳动旗下产品，暂...]]></summary>
+        <author>
+            <name>百度实时热点</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[妈妈忘接孩子男孩淡定躺台阶吃东西 热度：5416350]]></title>
+        <id>2175521</id>
+        <link href="https://www.baidu.com/s?wd=%E5%A6%88%E5%A6%88%E5%BF%98%E6%8E%A5%E5%AD%A9%E5%AD%90+%E7%94%B7%E5%AD%A9%E6%B7%A1%E5%AE%9A%E8%BA%BA%E5%8F%B0%E9%98%B6%E5%90%83%E4%B8%9C%E8%A5%BF&amp;sa=fyb_news&amp;rsv_dl=fyb_news"/>
+        <updated>2026-09-16T12:02:30.000Z</updated>
+        <summary type="html"><![CDATA[一90后母亲因忘看消息未及时接孩子放学。男孩未哭闹，淡定躺在台阶上吃烤串。母亲拍视频发至网络，网友评其松弛感拉满。]]></summary>
+        <author>
+            <name>百度实时热点</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[退休副省长家丢了243万元茅台名酒 热度：5521567]]></title>
+        <id>2175520</id>
+        <link href="https://www.baidu.com/s?wd=%E9%80%80%E4%BC%91%E5%89%AF%E7%9C%81%E9%95%BF%E5%AE%B6%E4%B8%A2%E4%BA%86243%E4%B8%87%E5%85%83%E8%8C%85%E5%8F%B0%E5%90%8D%E9%85%92&amp;sa=fyb_news&amp;rsv_dl=fyb_news"/>
+        <updated>2026-09-16T12:02:30.000Z</updated>
+        <summary type="html"><![CDATA[近日，青岛中院对一起管家盗窃案作出二审裁定，驳回被告人上诉，维持原判。涉案男子李某在担任退休二十余年的山东省原副省长家属管家期间，历时两年半，多次秘...]]></summary>
+        <author>
+            <name>百度实时热点</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[一年中最舒爽的“橙黄橘绿”时节 热度：5612240]]></title>
+        <id>2175519</id>
+        <link href="https://www.baidu.com/s?wd=%E4%B8%80%E5%B9%B4%E4%B8%AD%E6%9C%80%E8%88%92%E7%88%BD%E7%9A%84%E2%80%9C%E6%A9%99%E9%BB%84%E6%A9%98%E7%BB%BF%E2%80%9D%E6%97%B6%E8%8A%82&amp;sa=fyb_news&amp;rsv_dl=fyb_news"/>
+        <updated>2026-09-16T12:02:29.000Z</updated>
+        <summary type="html"><![CDATA[在上一波冷空气推动下，秋天的版图又拼上了一块，最近北方多地持续秋高气爽的好天气，一年中最舒爽的“橙黄橘绿”时节正向我们走来。]]></summary>
+        <author>
+            <name>百度实时热点</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[新华社评“助学遭威胁”剧情反转 热度：5702625]]></title>
+        <id>2175518</id>
+        <link href="https://www.baidu.com/s?wd=%E6%96%B0%E5%8D%8E%E7%A4%BE%E8%AF%84%E2%80%9C%E5%8A%A9%E5%AD%A6%E9%81%AD%E5%A8%81%E8%83%81%E2%80%9D%E5%89%A7%E6%83%85%E5%8F%8D%E8%BD%AC&amp;sa=fyb_news&amp;rsv_dl=fyb_news"/>
+        <updated>2026-09-16T12:02:29.000Z</updated>
+        <summary type="html"><![CDATA[近日，“男子停止助学资助后反被威胁”一事经核查被证实为虚假编造。新华社发表评论指出，流量只是一时的热度，真实与真诚才是内容创作长久的根基。应让造假付...]]></summary>
+        <author>
+            <name>百度实时热点</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[章丘大葱味酸奶上线10天售出120万瓶 热度：5807427]]></title>
+        <id>2175517</id>
+        <link href="https://www.baidu.com/s?wd=%E7%AB%A0%E4%B8%98%E5%A4%A7%E8%91%B1%E5%91%B3%E9%85%B8%E5%A5%B6%E4%B8%8A%E7%BA%BF10%E5%A4%A9%E5%94%AE%E5%87%BA120%E4%B8%87%E7%93%B6&amp;sa=fyb_news&amp;rsv_dl=fyb_news"/>
+        <updated>2026-09-16T12:02:29.000Z</updated>
+        <summary type="html"><![CDATA[9月16日，山东济南佳宝乳业有限公司推出“章丘大葱味”酸奶引发热议。企业研发部负责人表示，产品用熟葱方式去除了生葱的辛辣味，上架10天已售出超120...]]></summary>
+        <author>
+            <name>百度实时热点</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[郑钦文确定参加武汉网球公开赛 热度：5902042]]></title>
+        <id>2175516</id>
+        <link href="https://www.baidu.com/s?wd=%E9%83%91%E9%92%A6%E6%96%87%E7%A1%AE%E5%AE%9A%E5%8F%82%E5%8A%A0%E6%AD%A6%E6%B1%89%E7%BD%91%E7%90%83%E5%85%AC%E5%BC%80%E8%B5%9B&amp;sa=fyb_news&amp;rsv_dl=fyb_news"/>
+        <updated>2026-09-16T12:02:28.000Z</updated>
+        <summary type="html"><![CDATA[9月16日，2026武汉网球公开赛参赛球员阵容正式揭晓。首批公布的43人名单中，世界排名前十选手将悉数出战。同时，在美网有着出色表现的郑钦文也出现在...]]></summary>
+        <author>
+            <name>百度实时热点</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[小米18Pro真机首曝 热度：5984091]]></title>
+        <id>2175515</id>
+        <link href="https://www.baidu.com/s?wd=%E5%B0%8F%E7%B1%B318Pro%E7%9C%9F%E6%9C%BA%E9%A6%96%E6%9B%9D&amp;sa=fyb_news&amp;rsv_dl=fyb_news"/>
+        <updated>2026-09-16T12:02:28.000Z</updated>
+        <summary type="html"><![CDATA[9月16日，小米总裁卢伟冰首次公开展示小米18Pro真机外观与配置。新机后置镜头模组与背屏完全齐平，解决凸起问题，并新增独立AI实体按键。]]></summary>
+        <author>
+            <name>百度实时热点</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[陈建州心肌梗塞后彻底脱险 热度：6093512]]></title>
+        <id>2175514</id>
+        <link href="https://www.baidu.com/s?wd=%E9%99%88%E5%BB%BA%E5%B7%9E%E5%BF%83%E8%82%8C%E6%A2%97%E5%A1%9E%E5%90%8E%E5%BD%BB%E5%BA%95%E8%84%B1%E9%99%A9&amp;sa=fyb_news&amp;rsv_dl=fyb_news"/>
+        <updated>2026-09-16T12:02:27.000Z</updated>
+        <summary type="html"><![CDATA[9月16日，范玮琪再次现身医院探视陈建州，受访透露其手术过程顺利，但目前仍有心律不齐，暂留加护病房观察。此前，9月15日下午，陈建州突发急性心肌梗塞...]]></summary>
+        <author>
+            <name>百度实时热点</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[10岁男孩轻生溺亡老师被刑拘 热度：6178786]]></title>
+        <id>2175513</id>
+        <link href="https://www.baidu.com/s?wd=10%E5%B2%81%E7%94%B7%E5%AD%A9%E8%BD%BB%E7%94%9F%E6%BA%BA%E4%BA%A1+%E8%80%81%E5%B8%88%E8%A2%AB%E5%88%91%E6%8B%98&amp;sa=fyb_news&amp;rsv_dl=fyb_news"/>
+        <updated>2026-09-16T12:02:27.000Z</updated>
+        <summary type="html"><![CDATA[近日，一名10岁男孩轻生溺亡。监控显示，男孩在出事前一周内遭该教师多次掌掴、用作业本砸头。家属称孩子因太懂事不敢入校走向河边。目前，涉事教师已被刑事...]]></summary>
+        <author>
+            <name>百度实时热点</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[熊孩子过河全靠熊妈妈一趟趟接送 热度：6271299]]></title>
+        <id>2175512</id>
+        <link href="https://www.baidu.com/s?wd=%E7%86%8A%E5%AD%A9%E5%AD%90%E8%BF%87%E6%B2%B3%E5%85%A8%E9%9D%A0%E7%86%8A%E5%A6%88%E5%A6%88%E4%B8%80%E8%B6%9F%E8%B6%9F%E6%8E%A5%E9%80%81&amp;sa=fyb_news&amp;rsv_dl=fyb_news"/>
+        <updated>2026-09-16T12:02:27.000Z</updated>
+        <author>
+            <name>百度实时热点</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[第一批穿德训鞋的受害者出现了 热度：6368391]]></title>
+        <id>2175511</id>
+        <link href="https://www.baidu.com/s?wd=%E7%AC%AC%E4%B8%80%E6%89%B9%E7%A9%BF%E5%BE%B7%E8%AE%AD%E9%9E%8B%E7%9A%84%E5%8F%97%E5%AE%B3%E8%80%85%E5%87%BA%E7%8E%B0%E4%BA%86&amp;sa=fyb_news&amp;rsv_dl=fyb_news"/>
+        <updated>2026-09-16T12:02:27.000Z</updated>
+        <summary type="html"><![CDATA[最近，32岁的应女士因长期穿网红“德训鞋”导致脚趾疼痛，前往杭州市第一人民医院就诊，被确诊为踇外翻。此前，她为穿搭美观，即便鞋子偏挤也坚持穿。医生表...]]></summary>
+        <author>
+            <name>百度实时热点</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[未来北京飞上海可能只需半小时 热度：6567664]]></title>
+        <id>2175510</id>
+        <link href="https://www.baidu.com/s?wd=%E6%9C%AA%E6%9D%A5%E5%8C%97%E4%BA%AC%E9%A3%9E%E4%B8%8A%E6%B5%B7%E5%8F%AF%E8%83%BD%E5%8F%AA%E9%9C%80%E5%8D%8A%E5%B0%8F%E6%97%B6&amp;sa=fyb_news&amp;rsv_dl=fyb_news"/>
+        <updated>2026-09-16T12:02:26.000Z</updated>
+        <summary type="html"><![CDATA[近日，在江苏无锡召开的中国航空科学技术大会上，发布了2026年度航空领域的重大科技问题，超音速客机成为全场焦点。未来坐上超音速客机，北京飞上海，可能...]]></summary>
+        <author>
+            <name>百度实时热点</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[女子做饭发现三黄蛋：像中了彩票 热度：6664179]]></title>
+        <id>2175509</id>
+        <link href="https://www.baidu.com/s?wd=%E5%A5%B3%E5%AD%90%E5%81%9A%E9%A5%AD%E5%8F%91%E7%8E%B0%E4%B8%89%E9%BB%84%E8%9B%8B%EF%BC%9A%E5%83%8F%E4%B8%AD%E4%BA%86%E5%BD%A9%E7%A5%A8&amp;sa=fyb_news&amp;rsv_dl=fyb_news"/>
+        <updated>2026-09-16T12:02:26.000Z</updated>
+        <summary type="html"><![CDATA[近日，杭州富阳区张女士做早饭时打开一颗较大的鸡蛋，意外发现罕见的三个蛋黄，其72岁的婆婆称一辈子没见过。杭州市农科院专家介绍，三黄蛋系母鸡生理异常或...]]></summary>
+        <author>
+            <name>百度实时热点</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[曝许嵩冯禧结婚 热度：6762687]]></title>
+        <id>2175508</id>
+        <link href="https://www.baidu.com/s?wd=%E6%9B%9D%E8%AE%B8%E5%B5%A9%E5%86%AF%E7%A6%A7%E7%BB%93%E5%A9%9A&amp;sa=fyb_news&amp;rsv_dl=fyb_news"/>
+        <updated>2026-09-16T12:02:25.000Z</updated>
+        <summary type="html"><![CDATA[9月16日，有网友发帖爆料称，许嵩已于9月12日在深圳海边举办婚礼。此前，许嵩曾在采访中表示，结婚的话自己应该会公开，要对女方百分百负责。目前网友正...]]></summary>
+        <author>
+            <name>百度实时热点</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[官方辟谣国盛民安养老补贴惠民工程 热度：6857669]]></title>
+        <id>2175507</id>
+        <link href="https://www.baidu.com/s?wd=%E5%AE%98%E6%96%B9%E8%BE%9F%E8%B0%A3%E5%9B%BD%E7%9B%9B%E6%B0%91%E5%AE%89%E5%85%BB%E8%80%81%E8%A1%A5%E8%B4%B4%E6%83%A0%E6%B0%91%E5%B7%A5%E7%A8%8B&amp;sa=fyb_news&amp;rsv_dl=fyb_news"/>
+        <updated>2026-09-16T12:02:25.000Z</updated>
+        <summary type="html"><![CDATA[民政部发布风险提示：不法分子假冒其工作人员，假借“国盛民安”养老补贴项目诱导投资，该项目为虚假骗局，遇此情况及时举报。]]></summary>
+        <author>
+            <name>百度实时热点</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[南方医科大学通报学生坠亡事件 热度：6952101]]></title>
+        <id>2175506</id>
+        <link href="https://www.baidu.com/s?wd=%E5%8D%97%E6%96%B9%E5%8C%BB%E7%A7%91%E5%A4%A7%E5%AD%A6%E9%80%9A%E6%8A%A5%E5%AD%A6%E7%94%9F%E5%9D%A0%E4%BA%A1%E4%BA%8B%E4%BB%B6&amp;sa=fyb_news&amp;rsv_dl=fyb_news"/>
+        <updated>2026-09-16T12:02:25.000Z</updated>
+        <summary type="html"><![CDATA[9月16日，南方医科大学通报学生坠亡事件，经警方勘查确认系高坠身亡，排除他杀。此前，9月15日凌晨1:55左右，该校高层公寓发生学生坠楼事件。事发后...]]></summary>
+        <author>
+            <name>百度实时热点</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[幼童突然冲上马路被撞家长只顾砸车 热度：7041639]]></title>
+        <id>2175505</id>
+        <link href="https://www.baidu.com/s?wd=%E5%B9%BC%E7%AB%A5%E7%AA%81%E7%84%B6%E5%86%B2%E4%B8%8A%E9%A9%AC%E8%B7%AF%E8%A2%AB%E6%92%9E+%E5%AE%B6%E9%95%BF%E5%8F%AA%E9%A1%BE%E7%A0%B8%E8%BD%A6&amp;sa=fyb_news&amp;rsv_dl=fyb_news"/>
+        <updated>2026-09-16T12:02:24.000Z</updated>
+        <summary type="html"><![CDATA[9月12日，广东一则惊险的监控视频引发关注。画面中，一名幼童突然从路边冲到马路中央，遭到一辆正常行驶的白色轿车撞击。事故发生后，一男性家长情绪失控，...]]></summary>
+        <author>
+            <name>百度实时热点</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[老将吴曦轰出精彩吊射 热度：7140405]]></title>
+        <id>2175504</id>
+        <link href="https://www.baidu.com/s?wd=%E8%80%81%E5%B0%86%E5%90%B4%E6%9B%A6%E8%BD%B0%E5%87%BA%E7%B2%BE%E5%BD%A9%E5%90%8A%E5%B0%84&amp;sa=fyb_news&amp;rsv_dl=fyb_news"/>
+        <updated>2026-09-16T12:02:24.000Z</updated>
+        <summary type="html"><![CDATA[北京时间9月16日，国足对阵朝鲜队的比赛中，张玉宁头球摆渡助攻37岁老将吴曦。吴曦轰出精彩吊射破门，进球后他自己都难以置信。凭借此球，国足2-1反超...]]></summary>
+        <author>
+            <name>百度实时热点</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[朝鲜攻破国足大门 热度：7234527]]></title>
+        <id>2175503</id>
+        <link href="https://www.baidu.com/s?wd=%E6%9C%9D%E9%B2%9C%E6%94%BB%E7%A0%B4%E5%9B%BD%E8%B6%B3%E5%A4%A7%E9%97%A8&amp;sa=fyb_news&amp;rsv_dl=fyb_news"/>
+        <updated>2026-09-16T12:02:24.000Z</updated>
+        <summary type="html"><![CDATA[9月16日，中国男足亚运队迎来2026年名古屋亚运会小组赛首战，在刈谷体育场对阵朝鲜队。目前，朝鲜队破门，禁区一脚射穿中国队后防。]]></summary>
+        <author>
+            <name>百度实时热点</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[张一鸣成亚洲首富 热度：7331972]]></title>
+        <id>2175502</id>
+        <link href="https://www.baidu.com/s?wd=%E5%BC%A0%E4%B8%80%E9%B8%A3%E6%88%90%E4%BA%9A%E6%B4%B2%E9%A6%96%E5%AF%8C&amp;sa=fyb_news&amp;rsv_dl=fyb_news"/>
+        <updated>2026-09-16T12:02:23.000Z</updated>
+        <summary type="html"><![CDATA[随着与人工智能相关的财富飙升，传统行业的亿万富翁被超越，字节跳动的张一鸣首次成为了亚洲首富，现年43岁的张一鸣如今净值已突破1050亿美元。]]></summary>
+        <author>
+            <name>百度实时热点</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[拆迁查户口发现父亲有个16岁私生子 热度：7427846]]></title>
+        <id>2175501</id>
+        <link href="https://www.baidu.com/s?wd=%E6%8B%86%E8%BF%81%E6%9F%A5%E6%88%B7%E5%8F%A3%E5%8F%91%E7%8E%B0%E7%88%B6%E4%BA%B2%E6%9C%89%E4%B8%AA16%E5%B2%81%E7%A7%81%E7%94%9F%E5%AD%90&amp;sa=fyb_news&amp;rsv_dl=fyb_news"/>
+        <updated>2026-09-16T12:02:23.000Z</updated>
+        <summary type="html"><![CDATA[近日，一家庭因拆迁查户口发现父亲曾为16岁私生子上户口。此前，父亲婚外情生子并偷偷上户口瞒过家人。母亲得知后反应剧烈，一夜苍老，为防财产外流，已立遗...]]></summary>
+        <author>
+            <name>百度实时热点</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[南京博物院原院长徐湖平获刑3年 热度：7523196]]></title>
+        <id>2175500</id>
+        <link href="https://www.baidu.com/s?wd=%E5%8D%97%E4%BA%AC%E5%8D%9A%E7%89%A9%E9%99%A2%E5%8E%9F%E9%99%A2%E9%95%BF%E5%BE%90%E6%B9%96%E5%B9%B3%E8%8E%B7%E5%88%913%E5%B9%B4&amp;sa=fyb_news&amp;rsv_dl=fyb_news"/>
+        <updated>2026-09-16T12:02:23.000Z</updated>
+        <summary type="html"><![CDATA[9月16日，江苏省有关部门通报南京博物院受赠文物管理问题处理结果。徐湖平因受贿罪被判有期徒刑三年并处罚金二十万元，此前已被开除党籍并取消待遇。原省文...]]></summary>
+        <author>
+            <name>百度实时热点</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[平陆运河集齐多个“最硬核”标签 热度：7619235]]></title>
+        <id>2175499</id>
+        <link href="https://www.baidu.com/s?wd=%E5%B9%B3%E9%99%86%E8%BF%90%E6%B2%B3%E9%9B%86%E9%BD%90%E5%A4%9A%E4%B8%AA%E2%80%9C%E6%9C%80%E7%A1%AC%E6%A0%B8%E2%80%9D%E6%A0%87%E7%AD%BE&amp;sa=fyb_news&amp;rsv_dl=fyb_news"/>
+        <updated>2026-09-16T12:02:22.000Z</updated>
+        <summary type="html"><![CDATA[9月16日，西部陆海新通道骨干工程——平陆运河正式通航。这项世纪工程集齐了最新、最强、最大等多重硬核标签，这些“最”的背后，是平陆运河硬核实力的真实...]]></summary>
+        <author>
+            <name>百度实时热点</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[“戒烟10年能戒出一套房首付钱” 热度：7712530]]></title>
+        <id>2175498</id>
+        <link href="https://www.baidu.com/s?wd=%E2%80%9C%E6%88%92%E7%83%9F10%E5%B9%B4%E8%83%BD%E6%88%92%E5%87%BA%E4%B8%80%E5%A5%97%E6%88%BF%E9%A6%96%E4%BB%98%E9%92%B1%E2%80%9D&amp;sa=fyb_news&amp;rsv_dl=fyb_news"/>
+        <updated>2026-09-16T12:02:22.000Z</updated>
+        <summary type="html"><![CDATA[近日，河南一男子晒出戒烟65天成果，称一天省下25元，攒下的钱密密麻麻贴满一墙。有网友算账称，若每天省下一盒20元的烟，10年可省出一套房的小首付。]]></summary>
+        <author>
+            <name>百度实时热点</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[医保大动作！全国统一目录来了 热度：7808638]]></title>
+        <id>2175497</id>
+        <link href="https://www.baidu.com/s?wd=%E5%8C%BB%E4%BF%9D%E5%A4%A7%E5%8A%A8%E4%BD%9C%EF%BC%81%E5%85%A8%E5%9B%BD%E7%BB%9F%E4%B8%80%E7%9B%AE%E5%BD%95%E6%9D%A5%E4%BA%86&amp;sa=fyb_news&amp;rsv_dl=fyb_news"/>
+        <updated>2026-09-16T12:02:22.000Z</updated>
+        <summary type="html"><![CDATA[近日，国家医保局首次制定全国统一的医保医疗服务项目目录。首批纳入心血管、呼吸等13类项目，美容、非功能性整容、健康体检等一律不报销。目录将先用于跨省...]]></summary>
+        <author>
+            <name>百度实时热点</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[用心用情服务群众兢兢业业守护安宁 热度：7904830]]></title>
+        <id>2175496</id>
+        <link href="https://www.baidu.com/s?wd=%E7%94%A8%E5%BF%83%E7%94%A8%E6%83%85%E6%9C%8D%E5%8A%A1%E7%BE%A4%E4%BC%97+%E5%85%A2%E5%85%A2%E4%B8%9A%E4%B8%9A%E5%AE%88%E6%8A%A4%E5%AE%89%E5%AE%81&amp;sa=fyb_news&amp;rsv_dl=fyb_news"/>
+        <updated>2026-09-16T12:02:22.000Z</updated>
+        <summary type="html"><![CDATA[近日，习近平总书记给福建省“漳州110”全体队员回信，予以勉励并提出期望。总书记的回信让广大公安干警深受鼓舞，大家表示，要为基层社会治理体系和治理能...]]></summary>
+        <author>
+            <name>百度实时热点</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Kyber (YC W23) Is Hiring a Forward Deployed Engineer]]></title>
+        <id>https://www.ycombinator.com/companies/kyber/jobs/eturrAR-forward-deployed-engineer</id>
+        <link href="https://www.ycombinator.com/companies/kyber/jobs/eturrAR-forward-deployed-engineer"/>
+        <updated>2026-09-16T12:01:09.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A tech company based in Linyi, Shandong Province, China, showcased the capabilities of its newly developed solar panel cleaning drone by using it to wash a dog on the street.]]></title>
+        <id>https://www.reddit.com/r/interestingasfuck/comments/1whv570/a_tech_company_based_in_linyi_shandong_province/</id>
+        <link href="https://www.reddit.com/r/interestingasfuck/comments/1whv570/a_tech_company_based_in_linyi_shandong_province/"/>
+        <updated>2026-09-16T11:57:44.000Z</updated>
+        <summary type="html"><![CDATA[submitted by    /u/MilesLongthe3rd    to    r/interestingasfuck  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>popular links</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Original Sony PlayStation 2 security chip 'broken wide open' after 26 years]]></title>
+        <id>https://www.tomshardware.com/video-games/playstation/26-year-old-sony-ps2-security-chip-broken-wide-open-after-four-years-of-effort-reverse-engineering-enthusiast-successfully-unlocks-cxp102064-mechacon-chip</id>
+        <link href="https://www.tomshardware.com/video-games/playstation/26-year-old-sony-ps2-security-chip-broken-wide-open-after-four-years-of-effort-reverse-engineering-enthusiast-successfully-unlocks-cxp102064-mechacon-chip"/>
+        <updated>2026-09-16T11:49:40.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[BRICS+ and the Chokepoints of World Trade]]></title>
+        <id>https://medium.com/p/1b59f15631f8</id>
+        <link href="https://medium.com/@zarqgillinfo/brics-and-the-chokepoints-of-world-trade-1b59f15631f8?source=rss------china-5"/>
+        <updated>2026-09-16T11:46:07.000Z</updated>
+        <summary type="html"><![CDATA[BRICS was formally established in 2011, when South Africa became the fifth member to join the original BRIC grouping of Brazil, Russia…
+Continue reading on Medium »]]></summary>
+        <author>
+            <name>Curious Republic</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[多内分泌代谢性卵巢综合征或影响至下一代]]></title>
         <id>http://paper.sciencenet.cn/htmlpaper/2026/9/2026916113746177155572.shtm?id=155572</id>
         <link href="http://paper.sciencenet.cn/htmlpaper/2026/9/2026916113746177155572.shtm?id=155572"/>
@@ -84,6 +2260,59 @@
         <summary type="html"><![CDATA[近日，香港中文大学（简称“港中大”）医学院团队在《生育和不育》期刊发表最新研究，他们指出多内分泌代谢性卵巢综合征（PMOS)影响不止于患者本身，更会延伸...]]></summary>
         <author>
             <name>科学网论文RSS——医药健康</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Do I look nashediii ?🥀]]></title>
+        <id>https://www.reddit.com/r/TwentiesIndia/comments/1whujtr/do_i_look_nashediii/</id>
+        <link href="https://www.reddit.com/r/TwentiesIndia/comments/1whujtr/do_i_look_nashediii/"/>
+        <updated>2026-09-16T11:28:33.000Z</updated>
+        <summary type="html"><![CDATA[submitted by    /u/Dull-Piglet4983    to    r/TwentiesIndia  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>popular links</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[What should I name her]]></title>
+        <id>https://www.reddit.com/r/NameThisThing/comments/1whudzg/what_should_i_name_her/</id>
+        <link href="https://www.reddit.com/r/NameThisThing/comments/1whudzg/what_should_i_name_her/"/>
+        <updated>2026-09-16T11:20:27.000Z</updated>
+        <summary type="html"><![CDATA[submitted by    /u/NotABegonia263    to    r/NameThisThing  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>popular links</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Google Play app review process now regularly takes longer than a week]]></title>
+        <id>https://gultsch.social/@daniel/117280438824908947</id>
+        <link href="https://gultsch.social/@daniel/117280438824908947"/>
+        <updated>2026-09-16T11:19:11.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Trillionaire who got $38B in taxpayer money is mad NYC wants to make groceries affordable so working families can feed their kids. This is what class warfare looks like.]]></title>
+        <id>https://www.reddit.com/r/antiwork/comments/1whubxj/trillionaire_who_got_38b_in_taxpayer_money_is_mad/</id>
+        <link href="https://www.reddit.com/r/antiwork/comments/1whubxj/trillionaire_who_got_38b_in_taxpayer_money_is_mad/"/>
+        <updated>2026-09-16T11:17:30.000Z</updated>
+        <summary type="html"><![CDATA[submitted by    /u/Your_Mella    to    r/antiwork  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>popular links</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[FAST 发现极短周期、最轻双中子星系统]]></title>
+        <id>https://www.solidot.org/story?sid=85396</id>
+        <link href="https://www.solidot.org/story?sid=85396"/>
+        <updated>2026-09-16T11:09:25.000Z</updated>
+        <summary type="html"><![CDATA[天文学家利用中国天眼（500 米口径球面射电望远镜，FAST）开展大规模银道面脉冲星系统性搜寻，迄今已成功发现约 900 颗新脉冲星。通过持续后续精准观测，研究讨团队识别了一颗处于紧致轨道的双中子星系统  PSRJ1856-0039。该双中子星系统轨道周期仅 2.36 小时，在人类已知双中子星系统中位列第二短。极短的轨道周期意味着两颗中子星间距极小、双星相互绕转轨道的致密程度极高，是目前已知相对论效应表现最显著的双中子星系统之一。同时该系统刷新了人类已知双中子星质量下限，整体总质量仅为 2.488 倍太阳质量，为迄今发现的总质量最轻的双中子星组合。其中可见脉冲星质量约 1.30 倍太阳质量，伴星中子星的质量约 1.19 倍太阳质量。该系统将在约 8200 万年后发生并合，最终大概率形成一颗更大质量的中子星。]]></summary>
+        <author>
+            <name>奇客Solidot–传递最新科技情报</name>
         </author>
     </entry>
     <entry>
@@ -331,6 +2560,16 @@ Gemini Nano: Google 的端侧小模型，常被拿来和 Chrome 的本地 AI 功
  [link]   [comments]]]></summary>
         <author>
             <name>流浪防区</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Mistral 与 Mozilla 合作推出 Firefox Smart Window]]></title>
+        <id>https://www.solidot.org/story?sid=85395</id>
+        <link href="https://www.solidot.org/story?sid=85395"/>
+        <updated>2026-09-16T10:53:58.000Z</updated>
+        <summary type="html"><![CDATA[法国 AI 公司 Mistral 与 Mozilla 合作推出注重隐私保护的 AI 浏览助手 Firefox Smart Window(beta)。Smart Window 使用了 Mistral 的开放权重模型，能帮助用户梳理复杂搜索，记住浏览过的重要信息，根据当前标签页查找关键信息，目前主要为法国和北美用户提供服务，今年晚些时候会扩大到英国和德国用户。Smart Window 的对话内容默认不会存储在 Mozilla 的服务器上，Mistral 等合作伙伴也承诺不保留任何数据。]]></summary>
+        <author>
+            <name>奇客Solidot–传递最新科技情报</name>
         </author>
     </entry>
     <entry>
@@ -656,6 +2895,38 @@ LLM 提速，但会让人更依赖
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[芯片从业者拆解OpenAI造芯，还能再快3个月？]]></title>
+        <id>https://www.leiphone.com/category/chips/FNvnd45qiCTsT6IR.html</id>
+        <link href="https://www.leiphone.com/category/chips/FNvnd45qiCTsT6IR.html"/>
+        <updated>2026-09-16T10:38:00.000Z</updated>
+        <summary type="html"><![CDATA[量产一代、研发一代、预研一代，这一芯片公司习以为常的战略节奏，如今正被大模型公司压得更紧。
+按照OpenAI今年8月公布的进展，尽管第一代自研芯片Jalapeño（下以“小辣椒”代称）计划于年底前开始部署，但第二代已进行深入开发，第三代也开始成形。
+更吸引眼球的是OpenAI的官方说法——第一代“小辣椒”从初始设计到流片只花了9个月。据前端设计验证工程师穆洋估算，这比没有AI辅助的设计快了约半年。
+然而，9个月只覆盖了芯片设计全流程的部分环节。若将前期的需求定义、架构规划，以及后续的制造、调试与部署全链路计算在内，一颗定制ASIC的真正落地依然需要以年为单位。
+而在这一漫长的硬件周期内，大模型往往已经历了数轮架构与算法的迭代。当芯片与模型以完全不同的节奏演进时，行业的核心痛点也愈发尖锐：下一代芯片的设计极限究竟在哪里？在硬件迭代滞后的客观规律下，又有多少模型架构的剧变，最终只能交由软件栈去艰难消化？
+
+
+
+
+01
+
+
+再省3月！
+OpenAI的「6个月神话」与造芯底牌
+
+
+
+OpenAI自研芯片的野心至少可以追溯至2023年。彼时首席执行官奥尔特曼甚至一度想推动30多座晶圆厂的建设。
+但显然，高昂的成本和漫长的周期开始“劝退”这家连Fabless都不是的模型企业。
+相比从设计到制造的大包大揽，2024年OpenAI已经开始把重心放在自己更有优势的部分——围绕自家模型和推理服务定义芯片需要什么。
+如今AI进一步加速这一过程。据OpenAI披露，AI已经参与“小辣椒”的实现方案探索、“设计—测量—验证”循环和部分算术电路优化，并继续参与芯片回片后的调试和编程。
+当我们进一步拆解OpenAI 9个月便可进行芯片流片的“神话”时，会发现除了AI对流程的提效，博通成熟的工程能力同样是不可缺少的一块拼图。
+多位产业链从业者向雷峰网指出，博通的硅实现能力、网络互连能力、接口IP以及多年积…]]></summary>
+        <author>
+            <name>雷峰网</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[澳洲已经确定对润人关门了]]></title>
         <id>https://www.reddit.com/r/China_irl/comments/1whtkh7/%E6%BE%B3%E6%B4%B2%E5%B7%B2%E7%BB%8F%E7%A1%AE%E5%AE%9A%E5%AF%B9%E6%B6%A6%E4%BA%BA%E5%85%B3%E9%97%A8%E4%BA%86/</id>
         <link href="https://www.reddit.com/r/China_irl/comments/1whtkh7/%E6%BE%B3%E6%B4%B2%E5%B7%B2%E7%BB%8F%E7%A1%AE%E5%AE%9A%E5%AF%B9%E6%B6%A6%E4%BA%BA%E5%85%B3%E9%97%A8%E4%BA%86/"/>
@@ -788,6 +3059,50 @@ DeepSeek的消息，最近总与内蒙古乌兰察布连在一起。
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[被AI放大的光学「戏份」，让「配角」舜宇的生意越做越大]]></title>
+        <id>https://www.leiphone.com/category/iot/n1PzfiDNtDc0NYgy.html</id>
+        <link href="https://www.leiphone.com/category/iot/n1PzfiDNtDc0NYgy.html"/>
+        <updated>2026-09-16T10:33:00.000Z</updated>
+        <summary type="html"><![CDATA[作者 | 陈悦琳
+编辑 | 郭思
+ 
+几乎同时迎来“量产元年”的人形机器人和智能眼镜，正在放大光学的“戏份”。
+ 
+据Counterpoint统计，今年上半年全球人形机器人出货量突破2.2万台，同比激增近300%。与此同时，智能眼镜市场也迎来爆发，IDC数据显示，今年一季度全球智能眼镜出货量达356.6万台，同比增长130.1%。
+ 
+尽管产品形态各异，两者对光学系统提出了共同诉求——“更清晰”和“更轻便”。人形机器人需精准感知障碍物与距离以规划动作；AI拍摄眼镜要在轻薄镜架中还原第一视角；AI+AR眼镜则需将数字信息无缝叠加至现实视野。
+ 
+在此趋势下，镜头、摄像模组、光波导等光学器件，直接决定了新一代智能硬件的感知精度、显示效果乃至最终形态。这也正是舜宇光学坚定推进"光学+AI"战略，并在今年深圳光博会（CIOE）现场集中展示相关技术的核心逻辑。
+
+ 
+机器人越智能，越依赖视觉
+在舜宇光学科技集团战略与市场部高级总监熊冠皓看来，视觉系统在智能硬件中的价值占比正在提升。
+ 
+他首先想到的场景是割草机器人。过去一些自动割草机主要依靠GPS差分定位沿着规划路线工作。定位能够告诉机器自己“在哪里”，却很难直接识别周围的障碍物和草地区域，路径规划也容易出现遗漏。
+ 
+对于这一难点，舜宇的做法是提供X-BOX割草机视觉解决方案，包括360°全景摄像头、主动双筒摄像头和RGB摄像头三种方案。
+ 
+在摄像头采集周围环境的同时，感知算法识别障碍物和草地区域，路径规划再据此决定下一步怎么走，改变了割草机此前“盲人摸象”的状态。
+ 
+然而，视觉感知系统的导入，无法一次性解决所有场景难题。例如，机器人3D视觉会遇到测距失效、干扰、深度失真和标定复杂等问题；到了户外强光、高反、低反、细小物体和半透明材质等场景，稳定获取深度和空间信息的难度还在攀升。
+ 
+具体到人形机器人这一层，这类问题更加突出。…]]></summary>
+        <author>
+            <name>雷峰网</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hackers Stole Flock’s Camera Software, Revealing How the Company Tracks Cars and People]]></title>
+        <id>https://www.reddit.com/r/technology/comments/1whthe5/hackers_stole_flocks_camera_software_revealing/</id>
+        <link href="https://www.reddit.com/r/technology/comments/1whthe5/hackers_stole_flocks_camera_software_revealing/"/>
+        <updated>2026-09-16T10:32:39.000Z</updated>
+        <summary type="html"><![CDATA[submitted by    /u/MarvelsGrantMan136    to    r/technology  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>popular links</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Fukuyama Was Wrong? China and Russia Challenge the End of History]]></title>
         <id>https://medium.com/p/42cce27fd0ee</id>
         <link href="https://medium.com/@sahaftanzimul302003/fukuyama-was-wrong-china-and-russia-challenge-the-end-of-history-42cce27fd0ee?source=rss------china-5"/>
@@ -795,6 +3110,17 @@ DeepSeek的消息，最近总与内蒙古乌兰察布连在一起。
         <summary type="html"><![CDATA[Continue reading on Medium »]]></summary>
         <author>
             <name>Sahaf Tanzimul Hoque</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Mozilla 报告称中国开放权重模型与美国前沿模型仅相差 4.4 个月]]></title>
+        <id>https://www.solidot.org/story?sid=85394</id>
+        <link href="https://www.solidot.org/story?sid=85394"/>
+        <updated>2026-09-16T10:30:50.000Z</updated>
+        <summary type="html"><![CDATA[Mozilla 发表《State of Open Source AI》报告，称美国科技公司的前沿 AI 模型性能仅领先中国公司最优秀的开放权重模型 4.4 个月。由于前沿模型价格更昂贵，很多公司都将开放权重模型用于处理日常工作，将前沿模型用于处理特定工作负荷。美国闭源前沿模型优势主要在于专家级专业工作、高强度检索以及长上下文。
+配送公司 DoorDash 将月之暗面的 Kimi 模型用于处理日常工作，将 Anthropic 的闭源模型 Fable 用于更复杂的任务。前沿模型完成一项任务的成本经常达到了最先进开放权重模型的五倍。]]></summary>
+        <author>
+            <name>奇客Solidot–传递最新科技情报</name>
         </author>
     </entry>
     <entry>
@@ -1622,6 +3948,29 @@ $牧原股份(SZ002714)$ $温氏股份(SZ300498)$ $天邦食品(SZ002124)$
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[2nm天玑9600 Pro，把旗舰SoC竞争推向「融合计算」]]></title>
+        <id>https://www.leiphone.com/category/chips/pE0IvGEQtRiAdZcO.html</id>
+        <link href="https://www.leiphone.com/category/chips/pE0IvGEQtRiAdZcO.html"/>
+        <updated>2026-09-16T10:02:00.000Z</updated>
+        <summary type="html"><![CDATA[智能体让旗舰SoC从拼核心，转向拼系统。
+过去数年，旗舰手机芯片的升级路径非常清晰，制程更先进、CPU主频更高、GPU、ISP更强，再加上算力不断增长的NPU。
+这套方法在生成式AI进入手机后依旧奏效，却很难完整回答智能体带来的新问题。因为AI不再只在用户点开应用后运行几十秒，而要持续感知声音、画面和环境，在后台理解需求，甚至提前执行任务。
+一颗核心能跑多快，仍然重要。但当CPU、GPU、NPU、内存和存储需要频繁交换数据，决定体验的已经不只是每个单元的峰值性能，而是整颗SoC如何组织算力。
+MediaTek资深副总经理徐敬全在天玑旗舰芯片新品发布会上给出了明确判断：“计算基准将不再是单一核心的能力，而是要将异构的计算单元整合为系统级的融合计算架构。”
+
+这是理解天玑9600 Pro的关键，台积电2nm、超过330亿个晶体管和2+3+3全大核CPU，构成这颗旗舰芯片的性能底座。天玑智算融合架构、双NPU以及贯穿游戏、影像和通信的AI能力，则指向一个更大的变化，旗舰SoC的竞争正在从几个核心分别升级，走向计算、存储和调度共同设计。
+
+AI让手机一直「醒着」，峰值性能不再是唯一标准
+智能体首先改变的是手机工作的节奏。
+过去，用户打开应用、拍下一张照片或者启动游戏，芯片在短时间内拉高性能，完成任务后迅速回到低功耗状态。智能体却需要持续理解环境，并在前台应用运行时保持在线。芯片一天被唤醒的次数可能是过去的数倍，CPU的空档也会越来越短、越来越碎。
+这意味着，电量未必消耗在一次特别重的计算上，也可能被一次次核心启动、任务切换和数据搬运吃掉。与此同时，AI不能独占手机性能，用户打游戏、看视频或开会时，后台智能体仍可能运行，大模型与应用争抢内存，CPU和NPU还要频繁交接任务。
+
+MediaTek无线通信事业部副总经理陈一强在发布会上说，“过去评价旗舰芯片，会问能够跑多快，智能体时代，还…]]></summary>
+        <author>
+            <name>雷峰网</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[《被遗忘的山岭回声：战争与和平中的西藏》书评]]></title>
         <id>https://www.reddit.com/r/China_irl/comments/1whsw4i/%E8%A2%AB%E9%81%97%E5%BF%98%E7%9A%84%E5%B1%B1%E5%B2%AD%E5%9B%9E%E5%A3%B0%E6%88%98%E4%BA%89%E4%B8%8E%E5%92%8C%E5%B9%B3%E4%B8%AD%E7%9A%84%E8%A5%BF%E8%97%8F%E4%B9%A6%E8%AF%84/</id>
         <link href="https://www.reddit.com/r/China_irl/comments/1whsw4i/%E8%A2%AB%E9%81%97%E5%BF%98%E7%9A%84%E5%B1%B1%E5%B2%AD%E5%9B%9E%E5%A3%B0%E6%88%98%E4%BA%89%E4%B8%8E%E5%92%8C%E5%B9%B3%E4%B8%AD%E7%9A%84%E8%A5%BF%E8%97%8F%E4%B9%A6%E8%AF%84/"/>
@@ -2251,6 +4600,17 @@ Continue reading on Medium »]]></summary>
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Village votes to leave UK over asylum housing plan]]></title>
+        <id>https://www.reddit.com/r/worldnews/comments/1whsg3h/village_votes_to_leave_uk_over_asylum_housing_plan/</id>
+        <link href="https://www.reddit.com/r/worldnews/comments/1whsg3h/village_votes_to_leave_uk_over_asylum_housing_plan/"/>
+        <updated>2026-09-16T09:35:01.000Z</updated>
+        <summary type="html"><![CDATA[submitted by    /u/PauloPatricio    to    r/worldnews  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>popular links</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[探秘柬埔寨，千年吴哥窟]]></title>
         <id>https://sspai.com/post/114454</id>
         <link href="https://sspai.com/post/114454"/>
@@ -2275,6 +4635,25 @@ Continue reading on Medium »]]></summary>
  [link]   [comments]]]></summary>
         <author>
             <name>流浪防区</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[华为坤灵升级“4+10+N”场景化方案，发布“经纬计划”和50个样板点]]></title>
+        <id>https://www.leiphone.com/category/industrynews/3eVYZT04EAfdhQZ3.html</id>
+        <link href="https://www.leiphone.com/category/industrynews/3eVYZT04EAfdhQZ3.html"/>
+        <updated>2026-09-16T09:27:00.000Z</updated>
+        <summary type="html"><![CDATA[[中国，上海，2026年9月16日] 今日，华为坤灵新品发布会2026在上海举行。华为常务董事、ICT BG CEO杨超斌宣布，华为坤灵全面升级 “4+10+N” 一站式场景化方案，发布20款新品，并面向中国分销伙伴发布“经纬计划”和50个样板点，让智能世界触手可及。
+
+华为常务董事、ICT BG CEO杨超斌发表主题演讲
+围绕四大特质，升级“4+10+N”场景化方案
+在企业加速智能化转型的过程中，网络、存储、安全成为高效释放AI算力的关键要素。但在分销市场，企业仍存在共性挑战，包括产品功能单一、跨产品集成难、部署周期长、运维效率低等。
+为解决以上挑战，华为坤灵围绕“化繁为简、开箱即用、智驭智维，品质普惠”四大特质，聚焦智能办公、商业、教育、医疗四大核心场景、十个场景化方案及N个明星产品，全面升级“4+10+N”场景化方案。
+杨超斌表示：“全场景智能化前景广阔，华为坤灵将坚定围绕‘4+10+N’持续打造一站式场景化方案，把复杂留给自己，把简单留给客户和伙伴。”
+发布“经纬计划”及50个样板点
+为更高效服务客户，华为坤灵发布“经纬计划”，通过全域联动1.5万多家工程商伙伴，构建覆盖全国300个城市的销售与服务网络。目前，华为坤灵已在全国300个城市的核心商圈、电脑城、工程商密集区域，识别1万多个网格，极大拉近华为坤灵与最终用户的距离，提升服务响应速度。
+同时，华为坤灵发布50个样板点，为广大客户提供智能化实践参照，助力更多企业走好智能化转型之路。]]></summary>
+        <author>
+            <name>雷峰网</name>
         </author>
     </entry>
     <entry>
@@ -5149,6 +7528,17 @@ Bottini对郑钦文的第一印象，是她走进球场前…]]></summary>
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Imagine you are Ed Sheeran’s PR and you’ve just watched all his opening and supporting acts drop out. What do you do now?]]></title>
+        <id>https://www.reddit.com/r/AskReddit/comments/1whna89/imagine_you_are_ed_sheerans_pr_and_youve_just/</id>
+        <link href="https://www.reddit.com/r/AskReddit/comments/1whna89/imagine_you_are_ed_sheerans_pr_and_youve_just/"/>
+        <updated>2026-09-16T04:43:30.000Z</updated>
+        <summary type="html"><![CDATA[submitted by    /u/objectsinthemirror__    to    r/AskReddit  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>popular links</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[老牌艺人的“商务第二春”：50岁以上明星品牌代言排行榜]]></title>
         <id>4891601</id>
         <link href="https://www.huxiu.com/article/4891601.html?f=rss"/>
@@ -7497,6 +9887,17 @@ Continue reading on Medium »]]></summary>
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[why tf does banner need 7 PhDs? what are they even in?]]></title>
+        <id>https://www.reddit.com/r/Marvel/comments/1whkp7f/why_tf_does_banner_need_7_phds_what_are_they_even/</id>
+        <link href="https://www.reddit.com/r/Marvel/comments/1whkp7f/why_tf_does_banner_need_7_phds_what_are_they_even/"/>
+        <updated>2026-09-16T02:36:30.000Z</updated>
+        <summary type="html"><![CDATA[submitted by    /u/CaptureDaFlag    to    r/Marvel  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>popular links</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[奇安信斩获国家信息安全漏洞库CNNVD两项重磅荣誉]]></title>
         <id>https://www.leiphone.com/category/industrynews/P4eihytTQZUWVoi1.html</id>
         <link href="https://www.leiphone.com/category/industrynews/P4eihytTQZUWVoi1.html"/>
@@ -8612,6 +11013,17 @@ EDITOR'S NOTE
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[I don't think wearing those pants is a good idea when skateboarding]]></title>
+        <id>https://www.reddit.com/r/funny/comments/1whjbvr/i_dont_think_wearing_those_pants_is_a_good_idea/</id>
+        <link href="https://www.reddit.com/r/funny/comments/1whjbvr/i_dont_think_wearing_those_pants_is_a_good_idea/"/>
+        <updated>2026-09-16T01:33:55.000Z</updated>
+        <summary type="html"><![CDATA[submitted by    /u/Wael_9    to    r/funny  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>popular links</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[30万亿之后，中国电子产业未来五年准备把钱花在哪里？]]></title>
         <id>4891511</id>
         <link href="https://www.huxiu.com/article/4891511.html?f=rss"/>
@@ -8916,6 +11328,17 @@ https://www.sciencedirect.com/science/article/pii/S0091674912012936?via%3Dihub]]
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[17 years ago Lady Gaga shocked the audience at the MTV Video Music Awards during her performance of “Paparazzi”]]></title>
+        <id>https://www.reddit.com/r/nextfuckinglevel/comments/1whigln/17_years_ago_lady_gaga_shocked_the_audience_at/</id>
+        <link href="https://www.reddit.com/r/nextfuckinglevel/comments/1whigln/17_years_ago_lady_gaga_shocked_the_audience_at/"/>
+        <updated>2026-09-16T00:55:31.000Z</updated>
+        <summary type="html"><![CDATA[submitted by    /u/EchoesOfYouth    to    r/nextfuckinglevel  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>popular links</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[AGI的胆小者游戏]]></title>
         <id>4891490</id>
         <link href="https://www.huxiu.com/article/4891490.html?f=rss"/>
@@ -9117,6 +11540,19 @@ LLM 加速硬件逆向的价值
 9月15日消息，近日，黑龙江省鸡西市鸡冠区人民法院公告，查封虎林市宏胜饮料有限公司（曾用名：虎林市娃哈哈饮料有限公司）…]]></summary>
         <author>
             <name>雷峰网</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[Video Game trope] The right choice has no real reward or is actively detrimental to the player]]></title>
+        <id>https://www.reddit.com/r/TopCharacterTropes/comments/1whhvue/video_game_trope_the_right_choice_has_no_real/</id>
+        <link href="https://www.reddit.com/r/TopCharacterTropes/comments/1whhvue/video_game_trope_the_right_choice_has_no_real/"/>
+        <updated>2026-09-16T00:29:36.000Z</updated>
+        <summary type="html"><![CDATA[The sacrifice ending - Fable 2: The “best” most moral ending involves you using your one wish to bring back everyone who died in the creation of the spire, either directly or indirectly, this repopulates the world slightly with NPCs, this is one of three options with the love ending bringing back your dead sister and your dog that died saving you and the other ending giving you a million gold
+ Paying back Viktor - Cyberpunk 2077: After the game truly opens up the first district you’re given a side mission to pay back your debt to Viktor for the cybernetics he gave you totalling 21,000 bucks, there used to be a reward for paying him back where he would offer slightly better cybernetics but nowadays the only reward is the satisfaction of being a good friend
+    submitted by    /u/EAT_UR_VEGGIES    to    r/TopCharacterTropes  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>popular links</name>
         </author>
     </entry>
     <entry>
@@ -10522,6 +12958,17 @@ marginalia（页边批注）: 在书页边缘写下的批注、划线、问号�
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[absolutelynotme_irl]]></title>
+        <id>https://www.reddit.com/r/absolutelynotme_irl/comments/1whc3ek/absolutelynotme_irl/</id>
+        <link href="https://www.reddit.com/r/absolutelynotme_irl/comments/1whc3ek/absolutelynotme_irl/"/>
+        <updated>2026-09-15T20:35:16.000Z</updated>
+        <summary type="html"><![CDATA[submitted by    /u/Some-Possibility1738    to    r/absolutelynotme_irl  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>popular links</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Four supporting acts quit Ed Sheeran’s tour after Macklemore is dropped over Palestine comments]]></title>
         <id>https://www.reddit.com/r/news/comments/1whc1n3/four_supporting_acts_quit_ed_sheerans_tour_after/</id>
         <link href="https://www.reddit.com/r/news/comments/1whc1n3/four_supporting_acts_quit_ed_sheerans_tour_after/"/>
@@ -10663,6 +13110,17 @@ structured data /…]]></summary>
 中時]]></summary>
         <author>
             <name>批踢踢實業坊 Gossiping 板</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Beoga, Ed Sheeran’s band, withdraw from the tour in support of Palestine]]></title>
+        <id>https://www.reddit.com/r/popculturechat/comments/1whaq9s/beoga_ed_sheerans_band_withdraw_from_the_tour_in/</id>
+        <link href="https://www.reddit.com/r/popculturechat/comments/1whaq9s/beoga_ed_sheerans_band_withdraw_from_the_tour_in/"/>
+        <updated>2026-09-15T19:45:33.000Z</updated>
+        <summary type="html"><![CDATA[submitted by    /u/blueghosts    to    r/popculturechat  
+ [link]   [comments]]]></summary>
+        <author>
+            <name>popular links</name>
         </author>
     </entry>
     <entry>
@@ -12751,6 +15209,16 @@ China for treatment
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[如何把“中国冲击”转化为“中国机遇”？]]></title>
+        <id>https://www.ftchinese.com/story/001110886</id>
+        <link href="https://www.ftchinese.com/story/001110886"/>
+        <updated>2026-09-15T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[沈建光：如何“中国冲击”转化为“中国机遇“？如何把产业优势转化为引领全球共同繁荣的持久动能？如何多管齐下打造中国机遇？]]></summary>
+        <author>
+            <name>FTChinese RSS - Hot Weekly</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[America's Driver's License Breach Is a National Security Disaster]]></title>
         <id>https://www.lawfaremedia.org/article/america%27s-drivers-licence-breach-is-a-national-security-disaster</id>
         <link href="https://www.lawfaremedia.org/article/america%27s-drivers-licence-breach-is-a-national-security-disaster"/>
@@ -14118,6 +16586,16 @@ https://feedx.site]]></summary>
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[How Big Are Factorials?]]></title>
+        <id>https://eli.thegreenplace.net/2026/how-big-are-factorials/</id>
+        <link href="https://eli.thegreenplace.net/2026/how-big-are-factorials/"/>
+        <updated>2026-09-15T13:25:38.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[She's absolutely right.]]></title>
         <id>https://www.reddit.com/r/PoursTea/comments/1wh0d0i/shes_absolutely_right/</id>
         <link href="https://www.reddit.com/r/PoursTea/comments/1wh0d0i/shes_absolutely_right/"/>
@@ -14961,6 +17439,16 @@ online algorithm: 算法在每一步只根据当前输入决策，不能预知�
 為什麼還要把別人的影片Po在網路上？]]></summary>
         <author>
             <name>批踢踢實業坊 Gossiping 板</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Tell the speakers that you liked their talks]]></title>
+        <id>https://ohhelloana.blog/tell-the-speakers/</id>
+        <link href="https://ohhelloana.blog/tell-the-speakers/"/>
+        <updated>2026-09-15T11:28:19.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
         </author>
     </entry>
     <entry>
@@ -17618,6 +20106,16 @@ B站既不想加入军备竞赛，也不能站在军备竞赛之外。
 Continue reading on Wall Street Gradient »]]></summary>
         <author>
             <name>Shubhransh Rai</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Measuring Gauss-Seidel loop-carried dependency and fixing it via loop unrolling]]></title>
+        <id>https://loiseaujc.github.io/posts/blog-title/make_gauss_seidel_great_again.html</id>
+        <link href="https://loiseaujc.github.io/posts/blog-title/make_gauss_seidel_great_again.html"/>
+        <updated>2026-09-15T10:14:29.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
         </author>
     </entry>
     <entry>
@@ -181994,50 +184492,6 @@ $西部矿业(SH601168)$ $山金国际(SZ000975)$ $紫金矿业(SH601899)$
         <id>https://www.producthunt.com/products/dyson-humidifier</id>
         <link href="https://www.producthunt.com/products/dyson-humidifier"/>
         <updated>2026-09-02T05:33:12.000Z</updated>
-        <summary type="html"><![CDATA[Discussion
-            |
-            Link]]></summary>
-        <author>
-            <name>Product Hunt — The best new products, every day</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Basedash AI Sources]]></title>
-        <id>https://www.producthunt.com/products/basedash</id>
-        <link href="https://www.producthunt.com/products/basedash"/>
-        <updated>2026-09-02T04:29:20.000Z</updated>
-        <summary type="html"><![CDATA[Discussion
-            |
-            Link]]></summary>
-        <author>
-            <name>Product Hunt — The best new products, every day</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[M-DISC – DVD/Blu-ray compatible discs that may last up to 1000 years]]></title>
-        <id>https://en.wikipedia.org/wiki/M-DISC</id>
-        <link href="https://en.wikipedia.org/wiki/M-DISC"/>
-        <updated>2026-09-02T04:10:21.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[坐著踮腳就能降血糖？比目魚肌真有那麼神？醫破解「免運動控糖」的殘酷真相]]></title>
-        <id>https://pansci.asia/?p=381794</id>
-        <link href="https://pansci.asia/archives/381794"/>
-        <updated>2026-09-02T03:26:36.000Z</updated>
-        <summary type="html"><![CDATA[這一集，就讓挺健康鄭丁靚醫師帶我們看懂這塊被稱為「隱形引擎」的比目魚肌，到底有什麼科學奧秘，以及這個爆紅傳言背後藏著哪些殘酷真相。]]></summary>
-        <author>
-            <name>PanSci</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Atlas by World Labs]]></title>
-        <id>https://www.producthunt.com/products/atlas-by-world-labs</id>
-        <link href="https://www.producthunt.com/products/atlas-by-world-labs"/>
-        <updated>2026-09-02T03:16:17.000Z</updated>
         <summary type="html"><![CDATA[Discussion
             |
             Link]]></summary>
